@@ -1,0 +1,7 @@
+.pageContainer footer {
+  background: #0167b1 !important;
+  color: #fff;
+}
+
+@forward 'footer';
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,22 @@
+.k-checkbox {
+  border-radius: 0;
+  border-color: #070707;
+  color: #dfdfdf;
+  background: #e63b3b;
+}
+
+.k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
+  border-radius: 0;
+  border-color: #070707;
+  color: #dfdfdf;
+  background: #e63b3b;
+}
+
+.k-checkbox:checked:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #070707;
+}
+
+@forward 'checkbox';
+/*# sourceMappingURL=checkbox.css.map */

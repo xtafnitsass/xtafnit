@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+  #uber-container > .xtafnit_pageContainer > mainbody > div {
+    padding: 0;
+  }
+}
+
+mainbody > .row {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 9px 0 #ccc;
+          box-shadow: 0 2px 9px 0 #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px auto auto;
+  margin-bottom: 20px;
+}
+
+mainbody .x-section-header-wrapper {
+  background-color: #fff;
+  color: #000;
+}
+
+mainbody .x-section-header-wrraper {
+  background: #fff;
+  border: 0;
+}
+
+@forward 'row';
+/*# sourceMappingURL=row.css.map */

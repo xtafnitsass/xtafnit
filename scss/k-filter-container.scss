@@ -1,0 +1,15 @@
+.k-filter-menu {
+    direction: rtl;
+
+    .k-action-buttons {
+        flex-direction: column;
+        display: flex;
+
+        >button {
+            width: 100% !important;
+            margin: 5px 0 !important;
+        }
+    }
+}
+
+@forward 'k-filter-container';

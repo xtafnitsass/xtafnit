@@ -1,0 +1,16 @@
+$header-background:#fff!default;
+$header-border: none!default;
+
+header {
+    &.k-header {
+        background-color: $header-background !important;
+
+
+        .k-toolbar {
+            background-color: $header-background;
+            border: $header-border;
+        }
+    }
+}
+
+@forward 'header';

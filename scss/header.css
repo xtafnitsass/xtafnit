@@ -1,0 +1,11 @@
+header.k-header {
+  background-color: #fff !important;
+}
+
+header.k-header .k-toolbar {
+  background-color: #fff;
+  border: none;
+}
+
+@forward 'header';
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,48 @@
+.k-calendar .k-header {
+  background: #e00000;
+  color: #e7e5d5;
+}
+
+.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
+  background: #e00000;
+  color: #e7e5d5;
+  opacity: 0.8;
+}
+
+.k-calendar .k-calendar-view {
+  background: #ebebeb;
+}
+
+.k-calendar .k-calendar-view th {
+  background-color: #ffffff;
+  color: #e00000;
+}
+
+.k-calendar .k-calendar-view td:not(.k-other-month) {
+  color: red;
+}
+
+.k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
+  background-color: #a3a3a3;
+  color: pink;
+  background-image: none !important;
+}
+
+.k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
+  background: #c92f00;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1px #c92800;
+          box-shadow: inset 0 0 0 1px #c92800;
+}
+
+.k-calendar .k-footer .k-nav-today {
+  background-color: #e00000;
+  color: #ffffff;
+}
+
+.k-calendar .k-footer .k-nav-today:hover {
+  color: #000000;
+}
+
+@forward 'calendar';
+/*# sourceMappingURL=calendar.css.map */

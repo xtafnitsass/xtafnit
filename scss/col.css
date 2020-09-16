@@ -1,0 +1,13 @@
+mainbody .row {
+  min-height: 150px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+@forward 'row';
+/*# sourceMappingURL=col.css.map */

@@ -1,0 +1,18 @@
+.k-timepicker .k-picker-wrap {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.k-timepicker .k-picker-wrap input {
+  width: 100%;
+  background: #f5f6f7;
+}
+
+.k-timepicker .k-picker-wrap .k-select {
+  border: 0;
+  background: #000;
+  color: #fff;
+}
+
+@forward 'time';
+/*# sourceMappingURL=time.css.map */

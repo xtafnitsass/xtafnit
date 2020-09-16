@@ -1,0 +1,148 @@
+.k-grid {
+  border: none;
+  outline: 0;
+}
+
+.k-grid .k-header {
+  background: transparent;
+  margin-bottom: 15px;
+}
+
+.k-grid .k-header.k-grid-toolbar {
+  border-color: #fff !important;
+}
+
+.k-grid .k-header .k-grid-serach {
+  max-width: 100%;
+  float: right !important;
+  border: 1px solid #ccc !important;
+  border-radius: 1px solid #ccc !important;
+}
+
+.k-grid .k-grid-header {
+  background: none;
+  border: none;
+}
+
+.k-grid .k-grid-header .k-grid-filter.k-state-active {
+  background: #60cde0;
+}
+
+.k-grid .k-grid-header .k-grid-filter.k-state-active span:before {
+  color: #000 !important;
+}
+
+.k-grid .k-grid-header tr:hover,
+.k-grid .k-grid-header tr:hover td {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.k-grid .k-grid-header th {
+  background: none;
+  border: none !important;
+}
+
+.k-grid .k-grid-header th.k-header {
+  color: #77b471;
+}
+
+.k-grid .k-grid-header th a {
+  color: #77b471 !important;
+}
+
+.k-grid .k-grid-header th a span:before {
+  color: #343533;
+}
+
+.k-grid .k-grid-header thead {
+  background: none;
+}
+
+.k-grid .k-grid-content {
+  height: 250px;
+}
+
+.k-grid .k-grid-content tr {
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+.k-grid .k-grid-content tr:hover,
+.k-grid .k-grid-content tr:hover td {
+  background-image: none;
+  background-color: #00d5cd !important;
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content tr.k-state-selected {
+  background: #00c6be !important;
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content tr.k-state-selected td {
+  background: #00c6be !important;
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content td {
+  border: none;
+  border-left: 1px solid #eee;
+  font-size: 14px;
+}
+
+.k-grid .k-grid-content .k-alt {
+  background: none;
+}
+
+.k-grid .k-grid-pager {
+  background: none;
+  border: none;
+}
+
+.k-grid .k-grid-pager .k-pager-nav {
+  border-color: #60cde0;
+}
+
+.k-grid .k-grid-pager .k-link.k-state-selected {
+  background: #60cde0;
+}
+
+.k-grid .k-grid-pager .k-link:hover {
+  background-image: none !important;
+  background-color: #b60000 !important;
+  color: #fff !important;
+}
+
+.k-grid .k-auto-scrollable {
+  scrollbar-face-color: #60cde0;
+  scrollbar-track-color: white;
+  scrollbar-arrow-color: #60cde0;
+  scrollbar-base-color: white;
+  scrollbar-3dlight-color: #000;
+  scrollbar-highlight-color: #000;
+  scrollbar-shadow-color: #000;
+  scrollbar-darkshadow-color: #000;
+}
+
+.k-grid .k-auto-scrollable::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #b5e8f1;
+}
+
+.k-grid .k-auto-scrollable::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {
+  background: #60cde0;
+  border-radius: 10px;
+}
+
+.k-grid .k-auto-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #4bc6dc;
+}
+
+@forward 'grid';
+/*# sourceMappingURL=grid.css.map */

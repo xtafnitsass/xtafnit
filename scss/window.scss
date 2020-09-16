@@ -1,0 +1,16 @@
+$window-background:#0167b1 !default;
+$window-margin:0px auto !default;
+$window-color:#fff;
+
+.k-window {
+    .k-window-titlebar {
+        background: $window-background;
+        color: $window-color;
+    }
+
+    .pageContainer {
+        margin: $window-margin;
+    }
+}
+
+@forward 'window';

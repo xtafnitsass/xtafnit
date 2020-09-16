@@ -1,0 +1,21 @@
+.k-filter-menu {
+  direction: rtl;
+}
+
+.k-filter-menu .k-action-buttons {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.k-filter-menu .k-action-buttons > button {
+  width: 100% !important;
+  margin: 5px 0 !important;
+}
+
+@forward 'k-filter-container';
+/*# sourceMappingURL=k-filter-container.css.map */
