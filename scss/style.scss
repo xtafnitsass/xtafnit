@@ -179,6 +179,8 @@ $float-button-backgorund:#ca0000;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #fff;
 
+@import './toyota/suppliers/style';
+
 
 @import './button', './auto-complete', './header', './calendar', './date-picker', './checkbox',
 './textbox', './row', './window', './footer', './k-animator-conainer', './drop-down'
