@@ -18,6 +18,30 @@ mainbody .greyPanel {
   background: #cac5c5 !important;
 }
 
+mainbody .greyPanel .first-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+mainbody .greyPanel .first-col > div:last-child {
+  margin-right: 5px;
+  border-left: 2px solid #fff;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 1250px) {
+  mainbody .greyPanel .first-col > div:last-child {
+    border-left: 0;
+  }
+}
+
 mainbody .greyPanel .xstyle-checkbox-wrapper {
   line-height: 2;
 }

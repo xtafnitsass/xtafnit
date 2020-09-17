@@ -29,7 +29,26 @@ $top-panel-background:#cac5c5;
 //top panel background//
 mainbody {
     .greyPanel {
-        background: $top-panel-background!important;
+        background: $top-panel-background !important;
+
+        .first-col {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            >div {
+                &:last-child {
+                    margin-right: 5px;
+                    border-left: 2px solid #fff;
+                    padding-left: 5px;
+
+                    @media only screen and (max-width:1250px) {
+                        border-left: 0;
+                    }
+                }
+            }
+        }
+
 
         //fix vertical checkbox alignement//
         .xstyle-checkbox-wrapper {
