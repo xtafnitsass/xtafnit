@@ -158,6 +158,12 @@ mainbody {
     flex: 0 0 100%;
     border: 1px solid #eee;
 
+    >div {
+        &:last-child {
+            color:#b1b1b1;
+        }
+    }
+
     .font-weight-bold {
         font-size: 2.5em;
     }
