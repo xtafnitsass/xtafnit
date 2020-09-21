@@ -765,6 +765,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 1px solid #eee;
 }
 
+.cube .fa-clock:before {
+  color: #00c6be;
+}
+
 .cube > div:last-child {
   color: #b1b1b1;
 }

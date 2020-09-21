@@ -2,6 +2,7 @@
 
 $cube-background:#fff;
 $cube-color:#000;
+$clock-color:#00c6be;
 $top-panel-background:#cac5c5;
 
 //------------------------------------------------------------layout//
@@ -158,9 +159,15 @@ mainbody {
     flex: 0 0 100%;
     border: 1px solid #eee;
 
+    .fa-clock {
+        &:before {
+            color: $clock-color;
+        }
+    }
+
     >div {
         &:last-child {
-            color:#b1b1b1;
+            color: #b1b1b1;
         }
     }
 
