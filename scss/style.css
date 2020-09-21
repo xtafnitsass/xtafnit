@@ -246,7 +246,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'footer';
 .k-animation-container .k-list-container {
-  background: #282830;
+  background: #00c6be;
   border: 0px solid !important;
 }
 
@@ -308,12 +308,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb {
-  background: #00c6be;
+  background: #00918c;
   border: 1px solid #fff;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb:hover {
-  background: #00a59f;
+  background: #00817d;
 }
 
 @forward 'k-animator-container';
