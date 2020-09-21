@@ -108,7 +108,7 @@ $textbox-border-bottom:1px solid #000;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
-$textbox-radius:15px;
+$textbox-radius:0px;
 $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
@@ -135,7 +135,7 @@ $drop-down-icon-color : #2e2e2e;
 /*grid*/
 
 $grid-header-text-color:#2e2e2e;
-$grid-header-filter-color:#2e2e2e;
+$grid-header-filter-color:#ccc;
 $grid-header-background:transparent;
 $grid-header-serach-float:right;
 $grid-header-serach-border:1px solid #ccc;
@@ -184,7 +184,7 @@ $float-button-border-color:1px solid #000;
 './textbox', './row', './window', './footer', './k-animator-conainer', './drop-down'
 , './drawer', './grid', './k-filter-container', './time', './float-button'; //'./virtual-keyboard';
 
-@import './matirx/tafnitselfservice/style';
+@import './matrix/tafnitselfservice/style';
 
 /* body background goes here ...*/
 

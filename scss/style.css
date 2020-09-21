@@ -176,7 +176,7 @@ header.k-header .k-toolbar {
   border-left: 0 !important;
   border-right: 0 !important;
   color: #000;
-  border-radius: 15px !important;
+  border-radius: 0px !important;
   margin: 0;
 }
 
@@ -193,7 +193,7 @@ header.k-header .k-toolbar {
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .x-text-control-container > input.k-textbox:focus {
@@ -480,7 +480,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header th a span:before {
-  color: #2e2e2e;
+  color: #ccc;
 }
 
 .k-grid .k-grid-header thead {
