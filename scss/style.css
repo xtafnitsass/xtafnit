@@ -39,26 +39,26 @@
 
 @forward 'button';
 .k-autocomplete {
-  border-radius: 15px;
+  border-radius: 0px;
   border: 0;
 }
 
 .k-autocomplete.k-state-border-down .k-input {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete.k-state-focused {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete .k-textbox {
   background: #f7f8f9 !important;
-  border-radius: 15px;
-  border: 1px solid #000 !important;
+  border-radius: 0px;
+  border: 0;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #000;
   color: #000;
 }
 
@@ -453,7 +453,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active {
-  background: #2e2e2e;
+  background: #ccc;
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active span:before {

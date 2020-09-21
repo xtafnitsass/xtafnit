@@ -57,12 +57,12 @@ $btn-focus-border-color:transparent;
 
 /*autocomplete*/
 $autocomplete-input-background: #f7f8f9;
-$autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #000 !important;
+$autocomplete-input-border-radius: 0px;
+$autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:0;
+$autocomplete-input-border-bottom:1px solid #000;
 $autocomplete-input-color: #000;
 
 /*calendar*/
@@ -142,7 +142,7 @@ $grid-header-serach-border:1px solid #ccc;
 $grid-header-serach-border-radius:1px solid #ccc;
 $grid-header-title-background: none;
 $grid-header-toolbar-border-color:#fff;
-$grid-header-filter-active-background:#2e2e2e;
+$grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
 $grid-content-line-background-hover:#00c6be;
