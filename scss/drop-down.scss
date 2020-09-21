@@ -15,7 +15,7 @@ $drop-down-icon-color : #000 !default;
     }
 
     .k-dropdown-wrap {
-        background: $drop-down-background;
+        background: $drop-down-background!important;
         border: 0;
 
         .k-input {

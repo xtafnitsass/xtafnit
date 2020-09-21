@@ -9,7 +9,7 @@
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: transparent;
+  background: transparent !important;
   border: 0;
 }
 
