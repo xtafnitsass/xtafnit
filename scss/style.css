@@ -17,9 +17,9 @@
 /*float-button*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #00c6be;
+  background: #0167b1;
   border-radius: 20px;
-  border: 1px solid #00c6be !important;
+  border: 1px solid #0167b1 !important;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -33,7 +33,7 @@
 }
 
 .k-button:hover {
-  background: #00e0d6;
+  background: #0176ca;
   color: #F0F0F0;
 }
 
@@ -74,12 +74,12 @@ header.k-header .k-toolbar {
 
 @forward 'header';
 .k-calendar .k-header {
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
 }
 
 .k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
   opacity: 0.8;
 }
@@ -94,24 +94,24 @@ header.k-header .k-toolbar {
 }
 
 .k-calendar .k-calendar-view td:not(.k-other-month) {
-  color: #00c6be;
+  color: #0167b1;
 }
 
 .k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
-  background-color: #00c6be;
+  background-color: #0167b1;
   color: #fff;
   background-image: none !important;
 }
 
 .k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
-  background: #00c6be;
+  background: #0167b1;
   color: #ebebeb;
   -webkit-box-shadow: inset 0 0 0 1px #ebebeb;
           box-shadow: inset 0 0 0 1px #ebebeb;
 }
 
 .k-calendar .k-footer .k-nav-today {
-  background-color: #00c6be;
+  background-color: #0167b1;
   color: #fff;
 }
 
@@ -137,21 +137,21 @@ header.k-header .k-toolbar {
 .k-datepicker .k-picker-wrap .k-select {
   color: #f7f8f9;
   border-color: #2e2e2e;
-  background: #00c6be;
+  background: #0167b1;
 }
 
 @forward 'date-picker';
 .k-checkbox {
   border-radius: 0;
   border-color: #2e2e2e;
-  color: #00c6be;
+  color: #0167b1;
   background: #f7f8f9;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 0;
   border-color: #2e2e2e;
-  color: #00c6be;
+  color: #0167b1;
   background: #f7f8f9;
 }
 
@@ -220,7 +220,7 @@ mainbody > .row {
 
 mainbody .x-section-header-wrapper {
   background-color: #fff;
-  color: #00c6be;
+  color: #0167b1;
 }
 
 mainbody .x-section-header-wrraper {
@@ -230,7 +230,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'row';
 .k-window .k-window-titlebar {
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
 }
 
@@ -240,13 +240,13 @@ mainbody .x-section-header-wrraper {
 
 @forward 'window';
 .pageContainer footer {
-  background: #00c6be !important;
+  background: #0167b1 !important;
   color: #fff;
 }
 
 @forward 'footer';
 .k-animation-container .k-list-container {
-  background: #00c6be;
+  background: #0167b1;
   border: 0px solid !important;
 }
 
@@ -265,7 +265,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
   border: 0 !important;
 }
@@ -278,7 +278,7 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
 }
 
@@ -290,7 +290,7 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #00c6be;
+  background: #0167b1;
 }
 
 .k-animation-container .k-nodata {
@@ -364,7 +364,7 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer {
   max-height: 93vh;
-  background-color: #00c6be;
+  background-color: #0167b1;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -385,12 +385,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #00e0d6 !important;
+  background: #0176ca !important;
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items .k-in.k-state-hover {
   color: #fff;
-  background: #00ada6;
+  background: #015898;
   background-image: none;
 }
 
@@ -399,7 +399,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] {
-  background-color: #00c6be;
+  background-color: #0167b1;
   color: #fff;
   max-width: 100%;
 }
@@ -411,11 +411,11 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-header, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-header.k-state-focused.k-state-hover {
   background-image: none !important;
-  background: #00c6be;
+  background: #0167b1;
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused {
-  background: #00c6be !important;
+  background: #0167b1 !important;
   opacity: 0.8;
 }
 
@@ -499,17 +499,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #00d5cd !important;
+  background-color: #0170c0 !important;
   color: #ebebeb !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #00c6be !important;
+  background: #0167b1 !important;
   color: #ebebeb !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #00c6be !important;
+  background: #0167b1 !important;
   color: #ebebeb !important;
 }
 
@@ -529,24 +529,24 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager .k-pager-nav {
-  border-color: #00c6be;
+  border-color: #0167b1;
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {
-  background: #00c6be;
+  background: #0167b1;
 }
 
 .k-grid .k-grid-pager .k-link:hover, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-focused.k-state-hover:hover {
   background-image: none !important;
-  background-color: #00c6be !important;
+  background-color: #0167b1 !important;
   color: #ebebeb !important;
 }
 
 .k-grid .k-auto-scrollable {
-  scrollbar-face-color: #00c6be;
-  scrollbar-track-color: #c6fffd;
-  scrollbar-arrow-color: #00c6be;
-  scrollbar-base-color: #c6fffd;
+  scrollbar-face-color: #0167b1;
+  scrollbar-track-color: #b2dfff;
+  scrollbar-arrow-color: #0167b1;
+  scrollbar-base-color: #b2dfff;
   scrollbar-3dlight-color: #000;
   scrollbar-highlight-color: #000;
   scrollbar-shadow-color: #000;
@@ -555,7 +555,7 @@ mainbody .x-section-header-wrraper {
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: #2dfff7;
+  background: #1a9efe;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
@@ -564,12 +564,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {
-  background: #00c6be;
+  background: #0167b1;
   border-radius: 10px;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb:hover {
-  background: #00ada6;
+  background: #015898;
 }
 
 @forward 'grid';
@@ -611,7 +611,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'time';
 .x-floatbutton {
-  background: #00c6be;
+  background: #0167b1;
   color: #fff;
   border: 1px solid #000 !important;
 }
@@ -766,7 +766,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube .fa-clock:before {
-  color: #00c6be;
+  color: #0167b1;
 }
 
 .cube > div:last-child {
