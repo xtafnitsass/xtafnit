@@ -1,17 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
 $cube-background:#fff;
-$cube-color:#000;
+$cube-color:#0167b1;
 $clock-color:#0167b1;
 $top-panel-background:#cac5c5;
+$header-color:#0167b1;
+$x-cell-header-color:#0167b1;
 
 //------------------------------------------------------------layout//
+//header//
+
+header {
+    .k-icon {
+        color: $header-color;
+    }
+}
+
 //cell header//
 
 .x-cell-header {
     margin: 5px auto;
     font-size: 20px;
     min-height: 20px;
+    color: $x-cell-header-color;
 }
 
 //fix inputs height to eqaul//

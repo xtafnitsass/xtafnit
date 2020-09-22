@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+header .k-icon {
+  color: #0167b1;
+}
+
 .x-cell-header {
   margin: 5px auto;
   font-size: 20px;
   min-height: 20px;
+  color: #0167b1;
 }
 
 .xstyle-multiselect-wrapper .k-multiselect-wrap {
@@ -14,7 +19,7 @@
 }
 
 [xid="controlcBalance"] {
-  background: #000 !important;
+  background: #0167b1 !important;
   color: #fff !important;
 }
 
@@ -132,7 +137,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .cube {
   background: #fff;
-  color: #000;
+  color: #0167b1;
   min-height: 160px;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);

@@ -50,7 +50,7 @@ $btn-border-radius: 20px;
 $btn-border: 1px solid #0167b1;
 $btn-color: #fff;
 $btn-font-weight: normal;
-$btn-amount : 5;
+$btn-amount : 0;
 $btn-color-hover:#F0F0F0;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
@@ -146,7 +146,7 @@ $grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
 $grid-content-line-background-hover:#0167b1;
-$grid-content-line-background-hover-amount:3;
+$grid-content-line-background-hover-amount:5;
 $grid-content-line-color-hover:#ebebeb;
 $grid-content-line-background-selected:#0167b1;
 $grid-content-line-color-selected:#ebebeb;
@@ -164,7 +164,7 @@ $grid-scoller-background:#0167b1;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#f00;
+$grid-edited-numeric-arrow-background-color:#0167b1;
 $grid-edited-numeric-arrow-color:#fff;
 
 
