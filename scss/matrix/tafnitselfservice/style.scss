@@ -14,6 +14,12 @@ $top-panel-background:#cac5c5;
     min-height: 20px;
 }
 
+.k-dropdown {
+    &.x-dropdown-comp {
+        height: 37px;
+    }
+}
+
 //first cube//
 
 [xid="controlcBalance"] {
@@ -158,6 +164,17 @@ mainbody {
     justify-content: space-between;
     flex: 0 0 100%;
     border: 1px solid #eee;
+
+    &[xid="controlcBalanceTitleAll"] {
+        background: #0167b1 !important;
+        color: #fff !important;
+
+        .fa-clock {
+            &:before {
+                color: #fff;
+            }
+        }
+    }
 
     .fa-clock {
         &:before {

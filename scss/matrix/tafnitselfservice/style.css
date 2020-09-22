@@ -5,6 +5,10 @@
   min-height: 20px;
 }
 
+.k-dropdown.x-dropdown-comp {
+  height: 37px;
+}
+
 [xid="controlcBalance"] {
   background: #000 !important;
   color: #fff !important;
@@ -145,6 +149,15 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border: 1px solid #eee;
+}
+
+.cube[xid="controlcBalanceTitleAll"] {
+  background: #0167b1 !important;
+  color: #fff !important;
+}
+
+.cube[xid="controlcBalanceTitleAll"] .fa-clock:before {
+  color: #fff;
 }
 
 .cube .fa-clock:before {
