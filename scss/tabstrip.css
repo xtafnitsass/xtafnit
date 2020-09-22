@@ -3,6 +3,11 @@
   border-color: #fff;
 }
 
+.xstyle-tab-wrapper .k-tabstrip:focus {
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
 .xstyle-tab-wrapper .k-tabstrip .k-content {
   border-color: #ff0000;
 }

@@ -673,17 +673,22 @@ mainbody .x-section-header-wrraper {
   border-color: #fff;
 }
 
+.xstyle-tab-wrapper .k-tabstrip:focus {
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
 .xstyle-tab-wrapper .k-tabstrip .k-content {
   border-color: #0167b1;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
   background: #0167b1;
-  border-color: #0167b1;
+  border-color: #000;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #005c9e;
+  background: #004a80;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
@@ -694,6 +699,10 @@ mainbody .x-section-header-wrraper {
   margin: 5px auto;
   font-size: 20px;
   min-height: 20px;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect-wrap {
+  height: 37px;
 }
 
 .k-dropdown.x-dropdown-comp {

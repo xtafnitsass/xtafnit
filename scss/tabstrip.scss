@@ -8,6 +8,10 @@ $tabstrip-content-border-color:#ff0000 !default;
 
 .xstyle-tab-wrapper {
     .k-tabstrip {
+        &:focus {
+            box-shadow: 0 0 black;
+        }
+
         background: $tabstrip-wrapper-background;
         border-color: $tabstrip-wrapper-border-color;
 

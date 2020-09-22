@@ -5,6 +5,10 @@
   min-height: 20px;
 }
 
+.xstyle-multiselect-wrapper .k-multiselect-wrap {
+  height: 37px;
+}
+
 .k-dropdown.x-dropdown-comp {
   height: 37px;
 }

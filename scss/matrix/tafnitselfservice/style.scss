@@ -14,6 +14,14 @@ $top-panel-background:#cac5c5;
     min-height: 20px;
 }
 
+//fix inputs height to eqaul//
+
+.xstyle-multiselect-wrapper {
+    .k-multiselect-wrap {
+        height: 37px;
+    }
+}
+
 .k-dropdown {
     &.x-dropdown-comp {
         height: 37px;
