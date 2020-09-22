@@ -7,4 +7,8 @@
   border-top-width: 0px;
   border-bottom-width: 1px;
 }
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
+  color: #fff;
+}
 /*# sourceMappingURL=multiselect.css.map */
