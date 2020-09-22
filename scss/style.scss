@@ -5,7 +5,7 @@ $header-border: none;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#282830;
+$footer-background:#da242c;
 
 /*row*/
 $row-background-color:#fff;
@@ -17,7 +17,7 @@ $row-box-shadow:0 2px 9px 0 #ccc;
 $row-header-color:#0082c5;
 
 /*window*/
-$window-background:#282830;
+$window-background:#0082c5;
 $window-margin:0px auto;
 $window-color:#fff;
 
@@ -37,9 +37,9 @@ $animator-container-selected-color:#F0F0F0;
 
 $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
-$animator-scroller-thumb-background: #F0F0F0;
+$animator-scroller-thumb-background: #0082c5;
 $animator-scroller-thumb-border: 1px solid #fff;
-$animator-scroller-background-hover:#282830;
+$animator-scroller-background-hover:#005b88;
 
 $animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
@@ -58,7 +58,7 @@ $btn-focus-border-color:transparent;
 /*autocomplete*/
 $autocomplete-input-background: #F0F0F0;
 $autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #000 !important;
+$autocomplete-input-border: 1px solid #0082c5 !important;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
@@ -72,10 +72,10 @@ $calendar-header-color: #F0F0F0;
 $calendar-view-background: #ebebeb;
 $calendar-view-weekend-background: #fff;
 $calendar-view-weekend-color:#282830;
-$calendar-view-date-hover-background:#282830;
+$calendar-view-date-hover-background:#005079;
 $calendar-view-date-hover-color:#ebebeb;
 $calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
-$calendar-view-today-background:#282830;
+$calendar-view-today-background:#0082c5;
 $calendar-view-today-color: #ebebeb;
 $calendar-footer-background:#0082c5;
 $calendar-footer-color:#ebebeb;
@@ -85,11 +85,11 @@ $calendar-dates-color:#0082c5;
 /*date-picker*/
 
 $date-picker-background:#ebebeb;
-$date-picker-border:1px solid #282830;
+$date-picker-border:1px solid #0082c5;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#2e2e2e;
+$date-picker-icon-background:#0082c5;
 $date-picker-icon-color:#ebebeb;
-$date-picker-icon-border-color:#2e2e2e;
+$date-picker-icon-border-color:#0082c5;
 
 /*checkbox*/
 
@@ -102,7 +102,7 @@ $checkbox-box-shadow : none;
 /*textbox*/
 
 $textbox-background:#ebebeb;
-$textbox-border:1px solid #000;
+$textbox-border:1px solid #0082c5;
 $textbox-border-top:0;
 $textbox-border-bottom:0;
 $textbox-border-left:0;
@@ -127,7 +127,7 @@ $virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
 $drop-down-background : transparent;
-$drop-down-border-bottom : 1px solid #2e2e2e;
+$drop-down-border-bottom : 1px solid #0082c5;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
 $drop-down-icon-color : #2e2e2e;
@@ -142,14 +142,14 @@ $grid-header-serach-border:1px solid #ccc;
 $grid-header-serach-border-radius:1px solid #ccc;
 $grid-header-title-background: none;
 $grid-header-toolbar-border-color:#fff;
-$grid-header-filter-active-background:#2e2e2e;
+$grid-header-filter-active-background:#0082c5;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
 $grid-content-line-background-hover:#0082c5;
 $grid-content-line-background-hover-amount:3;
-$grid-content-line-color-hover:#ebebeb;
+$grid-content-line-color-hover:#fff;
 $grid-content-line-background-selected:#0082c5;
-$grid-content-line-color-selected:#ebebeb;
+$grid-content-line-color-selected:#fff;
 $grid-content-border:none;
 $grid-content-border-left:1px solid #eee;
 $grid-content-odd-background:none;
@@ -160,7 +160,7 @@ $grid-pager-nav-border:#0082c5;
 $grid-pager-nav-background-hover:#0082c5;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
-$grid-scoller-background:#888888;
+$grid-scoller-background:#0082c5;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-edited-numeric-border-color:#000;
@@ -171,9 +171,9 @@ $grid-edited-numeric-arrow-color:#fff;
 /*time picker*/
 
 $time-border:0;
-$time-border-bottom:1px solid #2e2e2e;
+$time-border-bottom:1px solid #0082c5;
 $time-background:#ebebeb;
-$time-icon-background:#2e2e2e;
+$time-icon-background:#0082c5;
 $time-icon-color:#ebebeb;
 
 /*float-button*/
@@ -184,7 +184,7 @@ $float-button-border-color:1px solid #fff;
 
 /*textarea*/
 
-$textarea-border-color:#000;
+$textarea-border-color:#0082c5;
 $textarea-background-color:#fff;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
@@ -193,11 +193,11 @@ $textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#000;
+$upload-border-color:#0082c5;
 
 /*multiselect*/
 
-$multiselect-border-color:#000;
+$multiselect-border-color:#0082c5;
 $multiselect-background-color:#f7f8f9;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;
