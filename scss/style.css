@@ -697,7 +697,7 @@ mainbody .x-section-header-wrraper {
 }
 
 [xid="controlcBalance"] {
-  background: #da242c !important;
+  background: #0082c5 !important;
   color: #fff !important;
 }
 
@@ -815,7 +815,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .cube {
   background: #fff;
-  color: #da242c;
+  color: #0082c5;
   min-height: 160px;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
