@@ -667,6 +667,10 @@ mainbody .x-section-header-wrraper {
   border-bottom-width: 1px;
 }
 
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
+  color: #fff;
+}
+
 .xstyle-tab-wrapper .k-tabstrip {
   background: #fff;
   border-color: #fff;
