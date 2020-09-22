@@ -163,6 +163,9 @@ $grid-scoller-radius:10px;
 $grid-scoller-background:#0167b1;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
+$grid-edited-numeric-border-color:#000;
+$grid-edited-numeric-arrow-background-color:#f00;
+$grid-edited-numeric-arrow-color:#fff;
 
 
 /*time picker*/
@@ -179,13 +182,43 @@ $float-button-backgorund:#0167b1;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #000;
 
+/*textarea*/
 
-@import './button', './auto-complete', './header', './calendar', './date-picker', './checkbox',
-'./textbox', './row', './window', './footer', './k-animator-conainer', './drop-down'
-, './drawer', './grid', './k-filter-container', './time', './float-button'; //'./virtual-keyboard';
+$textarea-border-color:#000;
+$textarea-background-color:#f7f8f9 !important;
+$textarea-border-style:solid;
+$textarea-border-left-width:1px;
+$textarea-border-top-width:1px;
+$textarea-border-right-width:1px;
+$textarea-border-bottom-width:1px;
 
-@import './matrix/tafnitselfservice/style';
+/*upload*/
+$upload-border-color:#000;
 
-/* body background goes here ...*/
+/*multiselect*/
 
-/*page styling goes here...*/
+$multiselect-border-color:#000;
+$multiselect-background-color:#f7f8f9;
+$multiselect-border-style:solid;
+$multiselect-border-left-width:0px;
+$multiselect-border-top-width:0px;
+$multiselect-border-right-width:0px;
+$multiselect-border-bottom-width:1px;
+
+/*tabstrip*/
+$tabstrip-wrapper-background:#fff;
+$tabstrip-wrapper-border-color:#fff;
+$tabstrip-tab-background-color:#0167b1;
+$tabstrip-tab-color:#fff;
+$tabstrip-tab-active-background-color:#005c9e;
+$tabstrip-tab-active-border-color:#0167b1;
+$tabstrip-content-border-color:#0167b1;
+
+@import './button', './auto-complete', './header', './calendar', './date-picker',
+'./checkbox', './textbox', './row', './window', './footer',
+'./k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
+'./time', './float-button', './textarea', './upload', './multiselect',
+'./tabstrip';
+
+@import './matrix/tafnitselfservice/style'
+//'./virtual-keyboard';
