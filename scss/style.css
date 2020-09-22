@@ -15,6 +15,10 @@
 /*grid*/
 /*time picker*/
 /*float-button*/
+/*textarea*/
+/*upload*/
+/*multiselect*/
+/*tabstrip*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -495,6 +499,21 @@ mainbody .x-section-header-wrraper {
   transition: 0.6s all;
 }
 
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap {
+  border-color: #000;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
+  background-color: #f00;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link:hover, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover:hover {
+  opacity: 0.7;
+}
+
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
@@ -616,6 +635,57 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'float-button';
-/* body background goes here ...*/
-/*page styling goes here...*/
+.xstyle-textareacontrol-wrapper .k-textarea {
+  border-color: #000;
+  background-color: #fff;
+  border-style: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.xstyle-upload-wrapper .k-dropzone {
+  padding: 5px 0px;
+}
+
+.xstyle-upload-wrapper .k-upload-files {
+  border-color: #000;
+}
+
+.xstyle-upload-wrapper .k-upload-files .k-file {
+  border-color: #000;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
+  border-color: #000;
+  background-color: #f7f8f9;
+  border-style: solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+}
+
+.xstyle-tab-wrapper .k-tabstrip {
+  background: #fff;
+  border-color: #fff;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-content {
+  border-color: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
+  background: #fc6868;
+  border-color: #000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  background: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
