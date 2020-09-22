@@ -37,7 +37,7 @@
 }
 
 .k-button:hover {
-  background: #0167b1;
+  background: #004a80;
   color: #F0F0F0;
 }
 
@@ -312,12 +312,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb {
-  background: #00918c;
+  background: #0167b1;
   border: 1px solid #fff;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb:hover {
-  background: #00817d;
+  background: #004a80;
 }
 
 @forward 'k-animator-container';
