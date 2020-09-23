@@ -219,9 +219,8 @@ $tabstrip-content-border-color:#004f77;
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
-'./time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip';
+'./time', './float-button';
 
-@import './opl/ImporterCustomers/style'
+@import './opl/ImporterCustomers/style';
 
-//'./virtual-keyboard';
+//'./virtual-keyboard' , './textarea', './upload', './multiselect','./tabstrip';

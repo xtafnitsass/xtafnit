@@ -649,64 +649,6 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'float-button';
-.xstyle-textareacontrol-wrapper .k-textarea {
-  border-color: #0082c5;
-  background-color: #fff;
-  border-style: solid;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.xstyle-upload-wrapper .k-dropzone {
-  padding: 5px 0px;
-}
-
-.xstyle-upload-wrapper .k-upload-files {
-  border-color: #0082c5;
-}
-
-.xstyle-upload-wrapper .k-upload-files .k-file {
-  border-color: #0082c5;
-}
-
-.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
-  border-color: #0082c5;
-  background-color: #f7f8f9;
-  border-style: solid;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-top-width: 0px;
-  border-bottom-width: 1px;
-}
-
-.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
-  color: #fff;
-}
-
-.xstyle-tab-wrapper .k-tabstrip {
-  background: #fff;
-  border-color: #fff;
-}
-
-.xstyle-tab-wrapper .k-tabstrip .k-content {
-  border-color: #004f77;
-}
-
-.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
-  background: #0082c5;
-  border-color: #000;
-}
-
-.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #004f77;
-}
-
-.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #ffffff;
-}
-
 .x-cell-header {
   margin: 5px auto;
   font-size: 20px;
