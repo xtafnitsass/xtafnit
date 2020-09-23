@@ -1,0 +1,22 @@
+.xstyle-tab-wrapper .k-tabstrip {
+  background: #fff;
+  border-color: #fff;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-content {
+  border-color: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
+  background: #fc6868;
+  border-color: #000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  background: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link {
+  color: #ffffff;
+}
+/*# sourceMappingURL=tabstrip.css.map */
