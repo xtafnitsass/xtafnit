@@ -27,6 +27,9 @@ $grid-scoller-radius:10px !default;
 $grid-scoller-background:#60cde0 !default;
 $grid-scoller-width:10px !default;
 $grid-scoller-height:10px !default;
+$grid-edited-numeric-border-color:#000 !default;
+$grid-edited-numeric-arrow-background-color:#f00 !default;
+$grid-edited-numeric-arrow-color:#fff !default;
 
 
 
@@ -105,6 +108,24 @@ $grid-scoller-height:10px !default;
 
         tr {
             transition: 0.6s all;
+
+            &.k-grid-edit-row {
+                .k-numerictextbox {
+                    .k-numeric-wrap {
+                        border-color: $grid-edited-numeric-border-color;
+
+                        .k-link {
+                            background-color: $grid-edited-numeric-arrow-background-color;
+                            color: $grid-edited-numeric-arrow-color;
+                            transition: 0.2s all;
+
+                            &:hover {
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
 
             &:hover,
             &:hover td {

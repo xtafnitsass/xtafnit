@@ -68,6 +68,21 @@
   transition: 0.6s all;
 }
 
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap {
+  border-color: #000;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link {
+  background-color: #f00;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link:hover {
+  opacity: 0.7;
+}
+
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
