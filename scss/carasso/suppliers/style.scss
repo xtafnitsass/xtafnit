@@ -5,6 +5,22 @@ $cube-color:#0167b1;
 $top-panel-background:#cac5c5;
 
 //------------------------------------------------------------layout//
+
+//header//
+
+header {
+    .popUpWindowCls {
+        position: fixed;
+        left: 0;
+        width: 100% !important;
+        max-width: 500px;
+
+        @media only screen and (max-width:768px) {
+            max-width: 250px;
+        }
+    }
+}
+
 //cell header//
 
 .x-cell-header {
