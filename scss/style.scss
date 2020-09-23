@@ -46,11 +46,12 @@ $animator-autocomplete-header-template-background:#F0F0F0;
 
 /*button*/
 $btn-background: #0167b1;
+$btn-background-hover: #004475;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #0167b1;
 $btn-color: #fff;
 $btn-font-weight: normal;
-$btn-amount : 20;
+$btn-amount : 0;
 $btn-color-hover:#F0F0F0;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
@@ -163,6 +164,9 @@ $grid-scoller-radius:10px;
 $grid-scoller-background:#888888;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
+$grid-edited-numeric-border-color:#000;
+$grid-edited-numeric-arrow-background-color:#f00;
+$grid-edited-numeric-arrow-color:#fff;
 
 
 /*time picker*/
@@ -179,13 +183,44 @@ $float-button-backgorund:#0167b1;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #fff;
 
+/*textarea*/
 
-@import './button', './auto-complete', './header', './calendar', './date-picker', './checkbox',
-'./textbox', './row', './window', './footer', './k-animator-conainer', './drop-down'
-, './drawer', './grid', './k-filter-container', './time', './float-button'; //'./virtual-keyboard';
+$textarea-border-color:#000;
+$textarea-background-color:#fff;
+$textarea-border-style:solid;
+$textarea-border-left-width:1px;
+$textarea-border-top-width:1px;
+$textarea-border-right-width:1px;
+$textarea-border-bottom-width:1px;
+
+/*upload*/
+$upload-border-color:#000;
+
+/*multiselect*/
+
+$multiselect-border-color:#000;
+$multiselect-background-color:#f7f8f9;
+$multiselect-border-style:solid;
+$multiselect-border-left-width:0px;
+$multiselect-border-top-width:0px;
+$multiselect-border-right-width:0px;
+$multiselect-border-bottom-width:1px;
+$multiselect-color:#fff;
+
+/*tabstrip*/
+$tabstrip-wrapper-background:#fff;
+$tabstrip-wrapper-border-color:#fff;
+$tabstrip-tab-background-color:#fc6868;
+$tabstrip-tab-color:#ffffff;
+$tabstrip-tab-active-background-color:#ff0000;
+$tabstrip-tab-active-border-color:#000;
+$tabstrip-content-border-color:#ff0000;
+
+@import './button', './auto-complete', './header', './calendar', './date-picker',
+'./checkbox', './textbox', './row', './window', './footer',
+'./k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
+'./time', './float-button';
 
 @import './carasso/suppliers/style'
 
-/* body background goes here ...*/
-
-/*page styling goes here...*/
+//'./virtual-keyboard' , './textarea', './upload', './multiselect','./tabstrip';

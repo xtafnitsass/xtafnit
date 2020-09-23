@@ -1,0 +1,33 @@
+$tabstrip-wrapper-background:#fff !default;
+$tabstrip-wrapper-border-color:#fff !default;
+$tabstrip-tab-background-color:#fc6868 !default;
+$tabstrip-tab-color:#ffffff !default;
+$tabstrip-tab-active-background-color:#ff0000 !default;
+$tabstrip-tab-active-border-color:#000 !default;
+$tabstrip-content-border-color:#ff0000 !default;
+
+.xstyle-tab-wrapper {
+    .k-tabstrip {
+        background: $tabstrip-wrapper-background;
+        border-color: $tabstrip-wrapper-border-color;
+
+        .k-content {
+            border-color: $tabstrip-content-border-color
+        }
+
+        .k-tabstrip-items {
+            .k-item {
+                background: $tabstrip-tab-background-color;
+                border-color: $tabstrip-tab-active-border-color;
+
+                &.k-state-active {
+                    background: $tabstrip-tab-active-background-color;
+                }
+
+                .k-link {
+                    color: $tabstrip-tab-color;
+                }
+            }
+        }
+    }
+}

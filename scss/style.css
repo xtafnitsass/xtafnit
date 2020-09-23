@@ -15,6 +15,10 @@
 /*grid*/
 /*time picker*/
 /*float-button*/
+/*textarea*/
+/*upload*/
+/*multiselect*/
+/*tabstrip*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1;
@@ -33,7 +37,7 @@
 }
 
 .k-button:hover {
-  background: #1a9efe;
+  background: #004475;
   color: #F0F0F0;
 }
 
@@ -70,6 +74,19 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
+}
+
+header .popUpWindowCls {
+  position: fixed;
+  left: 0;
+  width: 100% !important;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .popUpWindowCls {
+    max-width: 250px;
+  }
 }
 
 @forward 'header';
@@ -496,6 +513,21 @@ mainbody .x-section-header-wrraper {
   transition: 0.6s all;
 }
 
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap {
+  border-color: #000;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
+  background-color: #f00;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link:hover, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover:hover {
+  opacity: 0.7;
+}
+
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
@@ -617,19 +649,6 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'float-button';
-header .popUpWindowCls {
-  position: fixed;
-  left: 0;
-  width: 100% !important;
-  max-width: 500px;
-}
-
-@media only screen and (max-width: 768px) {
-  header .popUpWindowCls {
-    max-width: 250px;
-  }
-}
-
 .x-cell-header {
   margin: 5px auto;
   font-size: 20px;
@@ -894,7 +913,4 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_SaaSServer_Portal_Default_UI_Main .k-grid-content {
   height: 200px !important;
 }
-
-/* body background goes here ...*/
-/*page styling goes here...*/
 /*# sourceMappingURL=style.css.map */
