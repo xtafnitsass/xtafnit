@@ -1,17 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
-header .popUpWindowCls {
-  position: fixed;
-  left: 0;
-  width: 100% !important;
-  max-width: 500px;
-}
-
-@media only screen and (max-width: 768px) {
-  header .popUpWindowCls {
-    max-width: 250px;
-  }
-}
-
 .x-cell-header {
   margin: 5px auto;
   font-size: 20px;
