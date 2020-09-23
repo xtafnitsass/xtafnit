@@ -886,10 +886,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   color: #0167b1;
 }
 
-.cube > div:last-child {
-  color: #b1b1b1;
-}
-
 .cube .font-weight-bold {
   font-size: 2.5em;
 }
