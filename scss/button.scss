@@ -1,4 +1,5 @@
 $btn-background: #ccc !default;
+$btn-background-hover: #ccc !default;
 $btn-border-radius: 20px !default;
 $btn-border: 1px solid #000 !default;
 $btn-color: #fff !default;
@@ -22,7 +23,7 @@ $btn-focus-border-color:transparent !default;
     }
 
     &:hover {
-        background: lighten($color: $btn-background, $amount: $btn-amount);
+        background: lighten($color: $btn-background-hover, $amount: $btn-amount);
         color: $btn-color-hover;
     }
 }

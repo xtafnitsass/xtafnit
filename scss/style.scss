@@ -46,11 +46,12 @@ $animator-autocomplete-header-template-background:#F0F0F0;
 
 /*button*/
 $btn-background: #0082c5;
+$btn-background-hover: #006699;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #0082c5;
 $btn-color: #fff;
 $btn-font-weight: normal;
-$btn-amount : 20;
+$btn-amount : 0;
 $btn-color-hover:#F0F0F0;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
@@ -204,6 +205,7 @@ $multiselect-border-left-width:0px;
 $multiselect-border-top-width:0px;
 $multiselect-border-right-width:0px;
 $multiselect-border-bottom-width:1px;
+$multiselect-color:#fff;
 
 /*tabstrip*/
 $tabstrip-wrapper-background:#fff;

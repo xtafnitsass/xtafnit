@@ -37,7 +37,7 @@
 }
 
 .k-button:hover {
-  background: #2cb7ff;
+  background: #006699;
   color: #F0F0F0;
 }
 
@@ -74,6 +74,19 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
+}
+
+header .popUpWindowCls {
+  position: fixed;
+  left: 0;
+  width: 100% !important;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .popUpWindowCls {
+    max-width: 250px;
+  }
 }
 
 @forward 'header';
@@ -666,6 +679,10 @@ mainbody .x-section-header-wrraper {
   border-right-width: 0px;
   border-top-width: 0px;
   border-bottom-width: 1px;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
+  color: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip {

@@ -1,5 +1,5 @@
-$header-background:#fff!default;
-$header-border: none!default;
+$header-background:#fff !default;
+$header-border: none !default;
 
 header {
     &.k-header {
@@ -9,6 +9,17 @@ header {
         .k-toolbar {
             background-color: $header-background;
             border: $header-border;
+        }
+    }
+
+    .popUpWindowCls {
+        position: fixed;
+        left: 0;
+        width: 100% !important;
+        max-width: 500px;
+
+        @media only screen and (max-width:768px) {
+            max-width: 250px;
         }
     }
 }

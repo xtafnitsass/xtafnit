@@ -5,6 +5,7 @@ $multiselect-border-left-width:0px !default;
 $multiselect-border-top-width:0px !default;
 $multiselect-border-right-width:0px !default;
 $multiselect-border-bottom-width:1px !default;
+$multiselect-color:#fff !default;
 
 .xstyle-multiselect-wrapper {
     .k-multiselect {
@@ -16,6 +17,12 @@ $multiselect-border-bottom-width:1px !default;
             border-right-width: $multiselect-border-right-width;
             border-top-width: $multiselect-border-top-width;
             border-bottom-width: $multiselect-border-bottom-width;
+
+            li {
+                &.k-button {
+                    color: $multiselect-color;
+                }
+            }
         }
     }
 }
