@@ -75,6 +75,19 @@ header.k-header .k-toolbar {
   border: none;
 }
 
+header .popUpWindowCls {
+  position: fixed;
+  left: 0;
+  width: 100% !important;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .popUpWindowCls {
+    max-width: 250px;
+  }
+}
+
 @forward 'header';
 .k-calendar .k-header {
   background: #ca0000;
