@@ -303,6 +303,7 @@ mainbody .x-section-header-wrraper {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   background: #015ea2;
+  color: #fff;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
