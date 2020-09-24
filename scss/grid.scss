@@ -198,7 +198,6 @@ $grid-edited-numeric-arrow-color:#fff !default;
 
         &::-webkit-scrollbar-track {
             border-radius: $grid-scoller-radius;
-            background: lighten($grid-scoller-background, 20);
         }
 
         &::-webkit-scrollbar {
