@@ -38,6 +38,7 @@
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  background: #2d39d8;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
