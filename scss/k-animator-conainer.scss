@@ -1,5 +1,6 @@
 $animator-container-border-color:#000 !default;
 $animator-container-background-color:#979797 !default;
+$animator-container-focused-amount:3 !default;
 $animator-container-color:#fff !default;
 $animator-container-selected-background-color:#3a45da !default;
 $animator-container-selected-color:#fff !default;
@@ -52,6 +53,7 @@ $animator-autocomplete-header-template-background:#000 !default;
 
             &.k-state-focused {
                 box-shadow: none !important;
+                background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount);
             }
         }
 
