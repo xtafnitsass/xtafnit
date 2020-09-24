@@ -591,7 +591,10 @@ mainbody .x-section-header-wrraper {
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-track {
   border-radius: 10px;
+<<<<<<< HEAD
   background: #1a9efe;
+=======
+>>>>>>> feature
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
