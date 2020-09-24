@@ -73,6 +73,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
+  color: #000;
 }
 
 header .popUpWindowCls {
@@ -318,6 +319,7 @@ mainbody .x-section-header-wrraper {
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar {
   width: 10px;
+  background: #ccc;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-track {
@@ -594,6 +596,7 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
   width: 10px;
   height: 10px;
+  background: #ccc;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {

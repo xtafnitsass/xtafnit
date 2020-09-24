@@ -148,6 +148,7 @@
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
   width: 10px;
   height: 10px;
+  background: #ccc;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {
