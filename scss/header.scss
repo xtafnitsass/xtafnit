@@ -1,5 +1,6 @@
 $header-background:#fff !default;
 $header-border: none !default;
+$header-color:#000 !default;
 
 header {
     &.k-header {
@@ -9,6 +10,7 @@ header {
         .k-toolbar {
             background-color: $header-background;
             border: $header-border;
+            color: $header-color;
         }
     }
 

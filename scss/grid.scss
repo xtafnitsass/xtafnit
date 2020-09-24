@@ -27,6 +27,7 @@ $grid-scoller-radius:10px !default;
 $grid-scoller-background:#60cde0 !default;
 $grid-scoller-width:10px !default;
 $grid-scoller-height:10px !default;
+$grid-scoller-webkit-background:#ccc !default;
 $grid-edited-numeric-border-color:#000 !default;
 $grid-edited-numeric-arrow-background-color:#f00 !default;
 $grid-edited-numeric-arrow-color:#fff !default;
@@ -203,6 +204,7 @@ $grid-edited-numeric-arrow-color:#fff !default;
         &::-webkit-scrollbar {
             width: $grid-scoller-width;
             height: $grid-scoller-height;
+            background: $grid-scoller-webkit-background;
         }
 
         &::-webkit-scrollbar-thumb {

@@ -5,6 +5,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
+  color: #000;
 }
 
 header .popUpWindowCls {
