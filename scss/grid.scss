@@ -31,6 +31,8 @@ $grid-scoller-webkit-background:#ccc !default;
 $grid-edited-numeric-border-color:#000 !default;
 $grid-edited-numeric-arrow-background-color:#f00 !default;
 $grid-edited-numeric-arrow-color:#fff !default;
+$grid-footer-background-color:#fff !default;
+$grid-footer-border-color:#eee !default;
 
 
 
@@ -181,6 +183,16 @@ $grid-edited-numeric-arrow-color:#fff !default;
         }
 
         // }
+    }
+
+    .k-grid-footer {
+        background-color: $grid-footer-background-color;
+        border-color: $grid-footer-border-color;
+
+        td {
+            background-color: $grid-footer-background-color;
+            border-color: $grid-footer-border-color;
+        }
     }
 
     .k-auto-scrollable {

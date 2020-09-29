@@ -129,6 +129,16 @@
   color: #fff !important;
 }
 
+.k-grid .k-grid-footer {
+  background-color: #fff;
+  border-color: #eee;
+}
+
+.k-grid .k-grid-footer td {
+  background-color: #fff;
+  border-color: #eee;
+}
+
 .k-grid .k-auto-scrollable {
   scrollbar-face-color: #60cde0;
   scrollbar-track-color: white;
