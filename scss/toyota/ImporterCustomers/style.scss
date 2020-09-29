@@ -253,4 +253,13 @@ mainbody {
     .k-grid-content {
         height: 200px !important;
     }
+
+    [xid="controlrLatestOrders"],
+    [xid="controlrInventoryOrders"] {
+        >div {
+            @media only screen and (max-width:768px) {
+                flex: 0 0 100%;
+            }
+        }
+    }
 }
