@@ -241,8 +241,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media only screen and (max-width: 768px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard [xid="controlrLatestOrders"] > div,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard [xid="controlrInventoryOrders"] > div {
+  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrLatestOrders"] > div,
+  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrInventoryOrders"] > div {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
