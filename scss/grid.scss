@@ -17,6 +17,7 @@ $grid-content-line-color-selected:#fff !default;
 $grid-content-border:none !default;
 $grid-content-border-left:1px solid #eee !default;
 $grid-content-odd-background:none !default;
+$grid-content-odd-background-mobile:#ccc !default;
 $grid-pager-background:none !default;
 $grid-pager-border:none !default;
 $grid-pager-nav-background:#60cde0 !default;
@@ -156,6 +157,10 @@ $grid-footer-border-color:#eee !default;
 
         .k-alt {
             background: $grid-content-odd-background;
+
+            @media only screen and (max-width:768px) {
+                background: $grid-content-odd-background-mobile;
+            }
         }
     }
 
