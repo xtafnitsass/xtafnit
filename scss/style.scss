@@ -1,6 +1,6 @@
 /*header*/
 
-$header-background:#fff;
+$header-background:#f5f6f7;
 $header-border: none;
 $header-color:#000;
 
@@ -18,13 +18,13 @@ $row-box-shadow:0 2px 9px 0 #ccc;
 $row-header-color:#ca0000;
 
 /*window*/
-$window-background:#ca0000;
+$window-background:#000;
 $window-margin:0px auto;
 $window-color:#fff;
 
 /*drawer*/
 
-$drawer-background-color:#282830;
+$drawer-background-color:#000;
 $drawer-padding-top:70px;
 $drawer-icon-color:#F0F0F0;
 
@@ -49,7 +49,7 @@ $animator-autocomplete-header-template-background:#F0F0F0;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#f00;
+$k-filter-edited-numeric-arrow-background-color:#ca0000;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
@@ -175,7 +175,7 @@ $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-scoller-webkit-background:#ccc;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#f00;
+$grid-edited-numeric-arrow-background-color:#ca0000;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
@@ -222,11 +222,11 @@ $multiselect-color:#fff;
 /*tabstrip*/
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
-$tabstrip-tab-background-color:#fc6868;
+$tabstrip-tab-background-color:#ca0000;
 $tabstrip-tab-color:#ffffff;
-$tabstrip-tab-active-background-color:#ff0000;
+$tabstrip-tab-active-background-color:#740000;
 $tabstrip-tab-active-border-color:#000;
-$tabstrip-content-border-color:#ff0000;
+$tabstrip-content-border-color:#ca0000;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
