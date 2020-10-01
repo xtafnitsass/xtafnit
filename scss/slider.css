@@ -1,0 +1,22 @@
+.k-slider .k-draghandle {
+  border-color: #000;
+  background-color: #000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.k-slider .k-draghandle:hover {
+  border-color: #000;
+  background-color: #000;
+}
+
+.k-slider .k-slider-selection {
+  background-color: #000;
+}
+
+.k-slider .k-slider-track {
+  background-color: #c00000;
+}
+
+@forward 'slider';
+/*# sourceMappingURL=slider.css.map */

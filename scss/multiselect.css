@@ -11,4 +11,6 @@
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
   color: #fff;
 }
+
+@forward 'multiselect';
 /*# sourceMappingURL=multiselect.css.map */
