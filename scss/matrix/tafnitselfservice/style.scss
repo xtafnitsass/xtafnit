@@ -300,6 +300,12 @@ mainbody {
 //dashboard//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
     .k-grid-content {
-        height: 200px !important;
+        height: 45vh !important;
+    }
+
+    .cube {
+        [xid="controlldvpTitlePeding"] {
+            color: #fff;
+        }
     }
 }
