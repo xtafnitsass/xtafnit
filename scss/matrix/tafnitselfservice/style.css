@@ -18,11 +18,6 @@ header .k-icon {
   height: 37px;
 }
 
-[xid="controlcBalance"] {
-  background: #0167b1 !important;
-  color: #fff !important;
-}
-
 .k-pane-wrapper {
   border: 0;
 }
@@ -158,6 +153,15 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border: 1px solid #eee;
+}
+
+.cube:first-child {
+  background: #0167b1 !important;
+  color: #fff !important;
+}
+
+.cube > div:last-child .x-dynamic-label-control {
+  color: #b5b5b5;
 }
 
 .cube[xid="controlcBalanceTitleAll"] {

@@ -6,6 +6,7 @@ $clock-color:#0167b1;
 $top-panel-background:#cac5c5;
 $header-color:#0167b1;
 $x-cell-header-color:#0167b1;
+$cube-description-color:#b5b5b5;
 
 //------------------------------------------------------------layout//
 //header//
@@ -37,13 +38,6 @@ header {
     &.x-dropdown-comp {
         height: 37px;
     }
-}
-
-//first cube//
-
-[xid="controlcBalance"] {
-    background: $cube-color !important;
-    color: $cube-background !important;
 }
 
 //grid pane wrapper border//
@@ -183,6 +177,19 @@ mainbody {
     justify-content: space-between;
     flex: 0 0 100%;
     border: 1px solid #eee;
+
+    &:first-child {
+        background: $cube-color !important;
+        color: $cube-background !important;
+    }
+
+    >div {
+        &:last-child {
+            .x-dynamic-label-control {
+                color: $cube-description-color;
+            }
+        }
+    }
 
     &[xid="controlcBalanceTitleAll"] {
         background: #0167b1 !important;
