@@ -21,6 +21,7 @@
 /*multiselect*/
 /*tabstrip*/
 /*slider*/
+/*rating*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -258,7 +259,8 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'window';
-.pageContainer footer {
+.pageContainer footer,
+.fullPageContainer footer {
   background: #282830 !important;
   color: #fff;
 }
@@ -765,4 +767,9 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'slider';
+.xstyle-rating-wrapper .filled-stars {
+  color: #dcf02d;
+}
+
+@forward 'rating';
 /*# sourceMappingURL=style.css.map */

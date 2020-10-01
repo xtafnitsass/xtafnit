@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,sBADkB,CAClB,aAAa,CAAC;EACV,KAAK,EAJiB,OAAO;CAKhC;;AAGL,QAAQ,CAAR,QAAQ",
+    "sources": [
+        "rating.scss"
+    ],
+    "names": [],
+    "file": "rating.css"
+}

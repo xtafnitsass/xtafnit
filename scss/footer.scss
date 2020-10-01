@@ -1,9 +1,10 @@
 $footer-color:#fff !default;
 $footer-background:#0167b1 !default;
 
-.pageContainer {
+.pageContainer,
+.fullPageContainer {
     footer {
-        background: $footer-background!important;
+        background: $footer-background !important;
         color: $footer-color;
     }
 }
