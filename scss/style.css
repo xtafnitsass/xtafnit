@@ -20,6 +20,7 @@
 /*upload*/
 /*multiselect*/
 /*tabstrip*/
+/*slider*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -720,6 +721,7 @@ mainbody .x-section-header-wrraper {
   color: #fff;
 }
 
+@forward 'multiselect';
 .xstyle-tab-wrapper .k-tabstrip {
   background: #fff;
   border-color: #fff;
@@ -741,4 +743,26 @@ mainbody .x-section-header-wrraper {
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
   color: #ffffff;
 }
+
+.k-slider .k-draghandle {
+  border-color: #000;
+  background-color: #000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.k-slider .k-draghandle:hover {
+  border-color: #000;
+  background-color: #000;
+}
+
+.k-slider .k-slider-selection {
+  background-color: #000;
+}
+
+.k-slider .k-slider-track {
+  background-color: #c00000;
+}
+
+@forward 'slider';
 /*# sourceMappingURL=style.css.map */
