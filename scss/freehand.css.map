@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AACI,4BADwB,CACxB,MAAM,CAAC;EACH,KAAK,EANI,IAAI,CAMU,UAAU;EACjC,UAAU,EANI,OAAO,CAMY,UAAU;EAC3C,YAAY,EANG,OAAO,CAMe,UAAU;CAClD",
+    "sources": [
+        "freehand.scss"
+    ],
+    "names": [],
+    "file": "freehand.css"
+}

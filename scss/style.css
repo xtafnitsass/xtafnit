@@ -22,6 +22,8 @@
 /*tabstrip*/
 /*slider*/
 /*rating*/
+/*radio*/
+/*freehand*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -772,4 +774,21 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'rating';
+.xstyle-radio-wrapper .k-radio {
+  border-color: #000000;
+  color: #b91414;
+  background-color: #fff;
+}
+
+.xstyle-radio-wrapper .k-radio:focus {
+  -webkit-box-shadow: 0 0 3px 0 #b91414;
+          box-shadow: 0 0 3px 0 #b91414;
+}
+
+@forward 'radio-button';
+.xstyle-freehandhtml-wrapper center {
+  color: #000 !important;
+  background: #c00000 !important;
+  border-color: #c00000 !important;
+}
 /*# sourceMappingURL=style.css.map */
