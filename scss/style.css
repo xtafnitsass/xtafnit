@@ -1067,4 +1067,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     width: 97%;
   }
 }
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main > mainbody > .row {
+  background: none;
+}
 /*# sourceMappingURL=style.css.map */
