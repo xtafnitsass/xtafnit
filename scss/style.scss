@@ -57,10 +57,10 @@ $btn-background: #ca0000;
 $btn-background-hover: #b30000;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #b30000;
-$btn-color: #fff;
+$btn-color: #fff !important;
 $btn-font-weight: normal;
 $btn-amount : 0;
-$btn-color-hover:#F0F0F0;
+$btn-color-hover:#F0F0F0 !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
