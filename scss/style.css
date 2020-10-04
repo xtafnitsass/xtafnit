@@ -21,10 +21,13 @@
 /*multiselect*/
 /*tabstrip*/
 /*slider*/
+/*rating*/
+/*radio*/
+/*freehand*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
-  border: 1px solid #ca0000 !important;
+  border: 1px solid #b30000 !important;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -38,7 +41,7 @@
 }
 
 .k-button:hover {
-  background: white;
+  background: #cccccc;
   color: #F0F0F0;
 }
 
@@ -159,6 +162,12 @@ header .popUpWindowCls {
   background: #2e2e2e;
 }
 
+/*mobile*/
+.x-datePicker-mobile {
+  background: #ebebeb;
+  color: #000;
+}
+
 @forward 'date-picker';
 .k-checkbox {
   border-radius: 0;
@@ -258,7 +267,8 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'window';
-.pageContainer footer {
+.pageContainer footer,
+.fullPageContainer footer {
   background: #282830 !important;
   color: #fff;
 }
@@ -765,4 +775,53 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'slider';
+.xstyle-rating-wrapper .filled-stars {
+  color: #dcf02d !important;
+}
+
+@forward 'rating';
+.xstyle-radio-wrapper .k-radio {
+  border-color: #000000;
+  color: #b91414;
+  background-color: #fff;
+}
+
+.xstyle-radio-wrapper .k-radio:focus {
+  -webkit-box-shadow: 0 0 3px 0 #b91414;
+          box-shadow: 0 0 3px 0 #b91414;
+}
+
+@forward 'radio-button';
+.xstyle-freehandhtml-wrapper center {
+  color: #000 !important;
+  background: #c00000 !important;
+  border-color: #c00000 !important;
+}
+
+.x-vkeyboard span.k-textbox {
+  border: 0;
+}
+
+.x-vkeyboard input.k-textbox {
+  background: #ccc;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #000;
+  border-left: 0;
+  border-right: 0;
+  color: #ff00b3;
+  border-radius: 0;
+}
+
+.x-vkeyboard input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.x-vkeyboard .x-barcodeBtnContainer {
+  background: #F00;
+  color: #fff;
+}
+
+@forward 'virtual-keyboard';
 /*# sourceMappingURL=style.css.map */

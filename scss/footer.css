@@ -1,4 +1,5 @@
-.pageContainer footer {
+.pageContainer footer,
+.fullPageContainer footer {
   background: #0167b1 !important;
   color: #fff;
 }

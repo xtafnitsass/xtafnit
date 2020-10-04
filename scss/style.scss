@@ -56,10 +56,10 @@ $k-filter-edited-numeric-arrow-color:#fff;
 $btn-background: #ca0000;
 $btn-background-hover: #ccc;
 $btn-border-radius: 20px;
-$btn-border: 1px solid #ca0000;
+$btn-border: 1px solid #b30000;
 $btn-color: #fff;
 $btn-font-weight: normal;
-$btn-amount : 20;
+$btn-amount : 0;
 $btn-color-hover:#F0F0F0;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
@@ -237,10 +237,24 @@ $slider-draghandle-background-color:#000;
 $slider-draghandle-border-color-hover:#000;
 $slider-draghandle-background-color-hover:#000;
 
+/*rating*/
+
+$rating-star-background-color:#dcf02d;
+
+/*radio*/
+
+$radio-border-color: #000000;
+$radio-color: #b91414;
+$radio-background-color: #fff;
+
+/*freehand*/
+
+$freehand-color: #000;
+$freehand-background: #c00000;
+$freehand-border-color:#c00000;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider';
-
-//'./virtual-keyboard';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
