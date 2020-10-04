@@ -25,4 +25,11 @@ $date-picker-icon-border-color: #000000 !default;
     }
 }
 
+/*mobile*/
+
+.x-datePicker-mobile {
+    background: $date-picker-background;
+    color: $date-picker-input-color;
+}
+
 @forward 'date-picker';

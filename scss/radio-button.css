@@ -1,0 +1,13 @@
+.xstyle-radio-wrapper .k-radio {
+  border-color: #a3d0e4;
+  color: #7bd2f6;
+  background-color: #fff;
+}
+
+.xstyle-radio-wrapper .k-radio:focus {
+  -webkit-box-shadow: 0 0 3px 0 #7bd2f6;
+          box-shadow: 0 0 3px 0 #7bd2f6;
+}
+
+@forward 'radio-button';
+/*# sourceMappingURL=radio-button.css.map */

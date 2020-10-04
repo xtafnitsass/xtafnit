@@ -1,0 +1,17 @@
+$radio-border-color: #a3d0e4 !default;
+$radio-color: #7bd2f6 !default;
+$radio-background-color: #fff !default;
+
+.xstyle-radio-wrapper {
+    .k-radio {
+        border-color: $radio-border-color;
+        color: $radio-color;
+        background-color: $radio-background-color;
+
+        &:focus {
+            box-shadow: 0 0 3px 0 $radio-color;
+        }
+    }
+}
+
+@forward 'radio-button';

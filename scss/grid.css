@@ -110,6 +110,12 @@
   background: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .k-grid .k-grid-content .k-alt {
+    background: #ccc;
+  }
+}
+
 .k-grid .k-grid-pager {
   background: none;
   border: none;
@@ -129,6 +135,16 @@
   color: #fff !important;
 }
 
+.k-grid .k-grid-footer {
+  background-color: #fff;
+  border-color: #eee;
+}
+
+.k-grid .k-grid-footer td {
+  background-color: #fff;
+  border-color: #eee;
+}
+
 .k-grid .k-auto-scrollable {
   scrollbar-face-color: #60cde0;
   scrollbar-track-color: white;
@@ -142,12 +158,12 @@
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: #b5e8f1;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
   width: 10px;
   height: 10px;
+  background: #ccc;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {

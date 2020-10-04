@@ -18,5 +18,11 @@
   background: #ffffff;
 }
 
+/*mobile*/
+.x-datePicker-mobile {
+  background: #4a60c4;
+  color: #ffffff;
+}
+
 @forward 'date-picker';
 /*# sourceMappingURL=date-picker.css.map */
