@@ -25,7 +25,7 @@
 /*radio*/
 /*freehand*/
 .k-button {
-  background: #ca0000;
+  background: #ca0000 !important;
   border-radius: 20px;
   border: 1px solid #b30000 !important;
   color: #fff !important;
@@ -41,8 +41,8 @@
 }
 
 .k-button:hover {
-  background: #b30000;
-  color: #F0F0F0;
+  background: #b30000 !important;
+  color: #F0F0F0 !important;
 }
 
 @forward 'button';
