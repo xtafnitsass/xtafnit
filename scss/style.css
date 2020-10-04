@@ -26,10 +26,10 @@
 /*freehand*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #ca0000;
+  background: #ca0000 !important;
   border-radius: 20px;
   border: 1px solid #ca0000 !important;
-  color: #fff;
+  color: #fff !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-weight: normal;
@@ -42,8 +42,8 @@
 }
 
 .k-button:hover {
-  background: #aa0000;
-  color: #F0F0F0;
+  background: #aa0000 !important;
+  color: #F0F0F0 !important;
 }
 
 @forward 'button';
@@ -781,13 +781,15 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'rating';
-.xstyle-radio-wrapper .k-radio {
+.xstyle-radio-wrapper .k-radio,
+.x-damageTypeAndCamera .k-radio {
   border-color: #000000;
   color: #b91414;
   background-color: #fff;
 }
 
-.xstyle-radio-wrapper .k-radio:focus {
+.xstyle-radio-wrapper .k-radio:focus,
+.x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #b91414;
           box-shadow: 0 0 3px 0 #b91414;
 }
