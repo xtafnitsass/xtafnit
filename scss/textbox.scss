@@ -40,7 +40,7 @@ $textbox-box-shadow:none !default;
 
     >input {
         &.k-textbox {
-            background: $textbox-background!important;
+            background: $textbox-background !important;
             border: $textbox-border;
             border-top: $textbox-border-top;
             border-bottom: $textbox-border-bottom;
@@ -55,5 +55,10 @@ $textbox-box-shadow:none !default;
         }
     }
 }
+
+.k-filter-menu-container {
+    @extend .x-text-control-container;
+}
+
 
 @forward 'textbox';

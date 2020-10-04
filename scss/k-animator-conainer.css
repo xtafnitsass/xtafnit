@@ -38,6 +38,8 @@
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  background: #2d39d8;
+  color: #fff;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
@@ -53,6 +55,7 @@
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar {
   width: 10px;
+  background: #ccc;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-track {
