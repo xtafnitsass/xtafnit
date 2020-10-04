@@ -1,10 +1,10 @@
-.x-text-control-container .k-floating-label-container span.k-textbox {
+.x-text-control-container .k-floating-label-container span.k-textbox, .k-filter-menu-container .k-floating-label-container span.k-textbox {
   border-width: 0 !important;
   border-bottom: 0px !important;
   margin: 0;
 }
 
-.x-text-control-container .k-floating-label-container input.k-textbox {
+.x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
   background: #ccc;
   border: 0 !important;
   border-top: 0 !important;
@@ -16,12 +16,12 @@
   margin: 0;
 }
 
-.x-text-control-container .k-floating-label-container input.k-textbox:focus {
+.x-text-control-container .k-floating-label-container input.k-textbox:focus, .k-filter-menu-container .k-floating-label-container input.k-textbox:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.x-text-control-container > input.k-textbox {
+.x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
   background: #ccc !important;
   border: 0;
   border-top: 0;
@@ -32,7 +32,7 @@
   border-radius: 0;
 }
 
-.x-text-control-container > input.k-textbox:focus {
+.x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }

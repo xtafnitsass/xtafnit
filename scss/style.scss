@@ -47,6 +47,11 @@ $animator-scroller-webkit-background:#ccc;
 $animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
 
+/*k-filter*/
+$k-filter-edited-numeric-border-color:#000;
+$k-filter-edited-numeric-arrow-background-color:#f00;
+$k-filter-edited-numeric-arrow-color:#fff;
+
 /*button*/
 $btn-background: #0167b1;
 $btn-background-hover: #004a80;
@@ -157,6 +162,7 @@ $grid-content-line-color-selected:#ebebeb;
 $grid-content-border:none;
 $grid-content-border-left:1px solid #eee;
 $grid-content-odd-background:none;
+$grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
 $grid-pager-nav-background:#0167b1;
@@ -171,6 +177,8 @@ $grid-scoller-webkit-background:#ccc;
 $grid-edited-numeric-border-color:#000;
 $grid-edited-numeric-arrow-background-color:#0167b1;
 $grid-edited-numeric-arrow-color:#fff;
+$grid-footer-background-color:#fff;
+$grid-footer-border-color:#eee;
 
 
 /*time picker*/
@@ -220,11 +228,35 @@ $tabstrip-tab-active-background-color:#004a80;
 $tabstrip-tab-active-border-color:#000;
 $tabstrip-content-border-color:#0167b1;
 
+/*slider*/
+
+$slider-selection-color:#000;
+$slider-track-color:#0167b1;
+$slider-draghandle-border-color:#000;
+$slider-draghandle-background-color:#000;
+$slider-draghandle-border-color-hover:#000;
+$slider-draghandle-background-color-hover:#000;
+
+/*rating*/
+
+$rating-star-background-color:#0167b1;
+
+/*radio*/
+
+$radio-border-color: #000000;
+$radio-color: #0167b1;
+$radio-background-color: #fff;
+
+/*freehand*/
+
+$freehand-color: #000;
+$freehand-background: #0167b1;
+$freehand-border-color:#0167b1;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
 
 @import './matrix/tafnitselfservice/style'
-//'./virtual-keyboard';

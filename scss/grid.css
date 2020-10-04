@@ -110,6 +110,12 @@
   background: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .k-grid .k-grid-content .k-alt {
+    background: #ccc;
+  }
+}
+
 .k-grid .k-grid-pager {
   background: none;
   border: none;
@@ -127,6 +133,16 @@
   background-image: none !important;
   background-color: #b60000 !important;
   color: #fff !important;
+}
+
+.k-grid .k-grid-footer {
+  background-color: #fff;
+  border-color: #eee;
+}
+
+.k-grid .k-grid-footer td {
+  background-color: #fff;
+  border-color: #eee;
 }
 
 .k-grid .k-auto-scrollable {

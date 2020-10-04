@@ -17,5 +17,20 @@
   margin: 5px 0 !important;
 }
 
+.k-filter-menu .k-numerictextbox .k-numeric-wrap {
+  border-color: #000;
+}
+
+.k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link {
+  background-color: #f00;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link:hover {
+  opacity: 0.7;
+}
+
 @forward 'k-filter-container';
 /*# sourceMappingURL=k-filter-container.css.map */

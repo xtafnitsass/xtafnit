@@ -1,0 +1,6 @@
+.xstyle-rating-wrapper .filled-stars {
+  color: #dcf02d !important;
+}
+
+@forward 'rating';
+/*# sourceMappingURL=rating.css.map */
