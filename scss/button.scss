@@ -4,7 +4,6 @@ $btn-border-radius: 20px !default;
 $btn-border: 1px solid #000 !default;
 $btn-color: #fff !default;
 $btn-font-weight: normal !default;
-$btn-amount : 10 !default;
 $btn-color-hover:#0f0 !default;
 $btn-focus-box-shadow:none !default;
 $btn-focus-border-color:transparent !default;
@@ -12,7 +11,7 @@ $btn-focus-border-color:transparent !default;
 .k-button {
     background: $btn-background;
     border-radius: $btn-border-radius;
-    border: $btn-border!important;
+    border: $btn-border !important;
     color: $btn-color;
     transition: 0.2s all;
     font-weight: $btn-font-weight;
@@ -23,7 +22,7 @@ $btn-focus-border-color:transparent !default;
     }
 
     &:hover {
-        background: lighten($color: $btn-background-hover, $amount: $btn-amount);
+        background: $btn-background-hover;
         color: $btn-color-hover;
     }
 }
