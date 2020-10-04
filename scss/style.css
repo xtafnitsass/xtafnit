@@ -26,10 +26,10 @@
 /*freehand*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #0167b1;
+  background: #0167b1 !important;
   border-radius: 20px;
   border: 1px solid #0167b1 !important;
-  color: #fff;
+  color: #fff !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-weight: normal;
@@ -42,8 +42,8 @@
 }
 
 .k-button:hover {
-  background: #004475;
-  color: #F0F0F0;
+  background: #004475 !important;
+  color: #F0F0F0 !important;
 }
 
 @forward 'button';
