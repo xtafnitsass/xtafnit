@@ -53,13 +53,13 @@ $k-filter-edited-numeric-arrow-background-color:#ca0000;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #ca0000!important;
-$btn-background-hover: #b30000!important;
+$btn-background: #ca0000 !important;
+$btn-background-hover: #b30000 !important;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #b30000;
 $btn-color: #fff !important;
 $btn-font-weight: normal;
-$btn-color-hover:#F0F0F0!important;
+$btn-color-hover:#F0F0F0 !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
@@ -258,4 +258,4 @@ $freehand-border-color:#c00000;
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
 
-@import './asaflease/Transportation/style.css'
+@import './asaflease/Transportation/style'
