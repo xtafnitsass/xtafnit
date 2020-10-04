@@ -1,5 +1,5 @@
 .xstyle-rating-wrapper .filled-stars {
-  color: #dcf02d;
+  color: #dcf02d !important;
 }
 
 @forward 'rating';

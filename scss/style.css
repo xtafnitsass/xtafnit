@@ -162,6 +162,12 @@ header .popUpWindowCls {
   background: #2e2e2e;
 }
 
+/*mobile*/
+.x-datePicker-mobile {
+  background: #ebebeb;
+  color: #000;
+}
+
 @forward 'date-picker';
 .k-checkbox {
   border-radius: 0;
@@ -770,7 +776,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'slider';
 .xstyle-rating-wrapper .filled-stars {
-  color: #dcf02d;
+  color: #dcf02d !important;
 }
 
 @forward 'rating';
