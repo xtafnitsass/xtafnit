@@ -21,6 +21,9 @@
 /*multiselect*/
 /*tabstrip*/
 /*slider*/
+/*rating*/
+/*radio*/
+/*freehand*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000;
@@ -160,6 +163,12 @@ header .popUpWindowCls {
   background: #2e2e2e;
 }
 
+/*mobile*/
+.x-datePicker-mobile {
+  background: #ebebeb;
+  color: #000;
+}
+
 @forward 'date-picker';
 .k-checkbox {
   border-radius: 0;
@@ -259,7 +268,8 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'window';
-.pageContainer footer {
+.pageContainer footer,
+.fullPageContainer footer {
   background: #282830 !important;
   color: #fff;
 }
@@ -686,6 +696,65 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'float-button';
+.xstyle-textareacontrol-wrapper .k-textarea {
+  border-color: #000;
+  background-color: #fff;
+  border-style: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.xstyle-upload-wrapper .k-dropzone {
+  padding: 5px 0px;
+}
+
+.xstyle-upload-wrapper .k-upload-files {
+  border-color: #000;
+}
+
+.xstyle-upload-wrapper .k-upload-files .k-file {
+  border-color: #000;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
+  border-color: #000;
+  background-color: #f7f8f9;
+  border-style: solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
+  color: #fff;
+}
+
+@forward 'multiselect';
+.xstyle-tab-wrapper .k-tabstrip {
+  background: #fff;
+  border-color: #fff;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-content {
+  border-color: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
+  background: #fc6868;
+  border-color: #000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  background: #ff0000;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
+  color: #ffffff;
+}
+
 .k-slider .k-draghandle {
   border-color: #000;
   background-color: #000;
@@ -707,6 +776,55 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'slider';
+.xstyle-rating-wrapper .filled-stars {
+  color: #dcf02d !important;
+}
+
+@forward 'rating';
+.xstyle-radio-wrapper .k-radio {
+  border-color: #000000;
+  color: #b91414;
+  background-color: #fff;
+}
+
+.xstyle-radio-wrapper .k-radio:focus {
+  -webkit-box-shadow: 0 0 3px 0 #b91414;
+          box-shadow: 0 0 3px 0 #b91414;
+}
+
+@forward 'radio-button';
+.xstyle-freehandhtml-wrapper center {
+  color: #000 !important;
+  background: #c00000 !important;
+  border-color: #c00000 !important;
+}
+
+.x-vkeyboard span.k-textbox {
+  border: 0;
+}
+
+.x-vkeyboard input.k-textbox {
+  background: #ccc;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #000;
+  border-left: 0;
+  border-right: 0;
+  color: #ff00b3;
+  border-radius: 0;
+}
+
+.x-vkeyboard input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.x-vkeyboard .x-barcodeBtnContainer {
+  background: #F00;
+  color: #fff;
+}
+
+@forward 'virtual-keyboard';
 .x-cell-header {
   margin: 5px auto;
   font-size: 20px;
