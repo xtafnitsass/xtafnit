@@ -2,7 +2,8 @@ $radio-border-color: #a3d0e4 !default;
 $radio-color: #7bd2f6 !default;
 $radio-background-color: #fff !default;
 
-.xstyle-radio-wrapper {
+.xstyle-radio-wrapper,
+.x-damageTypeAndCamera {
     .k-radio {
         border-color: $radio-border-color;
         color: $radio-color;
