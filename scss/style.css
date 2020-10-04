@@ -780,13 +780,15 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'rating';
-.xstyle-radio-wrapper .k-radio {
+.xstyle-radio-wrapper .k-radio,
+.x-damageTypeAndCamera .k-radio {
   border-color: #000000;
   color: #b91414;
   background-color: #fff;
 }
 
-.xstyle-radio-wrapper .k-radio:focus {
+.xstyle-radio-wrapper .k-radio:focus,
+.x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #b91414;
           box-shadow: 0 0 3px 0 #b91414;
 }
