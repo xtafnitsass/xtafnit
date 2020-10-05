@@ -144,16 +144,16 @@ header .popUpWindowCls {
 
 @forward 'calendar';
 .k-datepicker {
-  background: #ebebeb;
+  background: transparent;
 }
 
 .k-datepicker .k-picker-wrap {
-  background: #ebebeb;
+  background: transparent;
   border: 1px solid #282830;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  background: #ebebeb;
+  background: transparent;
   color: #000;
 }
 
@@ -165,7 +165,7 @@ header .popUpWindowCls {
 
 /*mobile*/
 .x-datePicker-mobile {
-  background: #ebebeb;
+  background: transparent;
   color: #000;
 }
 
@@ -198,14 +198,14 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
-  background: #ebebeb;
-  border: 1px solid #000 !important;
+  background: transparent;
+  border: 0 !important;
   border-top: 0 !important;
-  border-bottom: 0 !important;
+  border-bottom: 1px solid #2e2e2e !important;
   border-left: 0 !important;
   border-right: 0 !important;
   color: #000;
-  border-radius: 15px !important;
+  border-radius: 0px !important;
   margin: 0;
 }
 
@@ -215,14 +215,14 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
-  background: #ebebeb !important;
-  border: 1px solid #000;
+  background: transparent !important;
+  border: 0;
   border-top: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #2e2e2e;
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
@@ -521,7 +521,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-content {
-  height: 45vh;
+  height: 100%;
 }
 
 .k-grid .k-grid-content tr {
@@ -679,7 +679,7 @@ mainbody .x-section-header-wrraper {
 
 .k-timepicker .k-picker-wrap input {
   width: 100%;
-  background: #ebebeb;
+  background: transparent;
 }
 
 .k-timepicker .k-picker-wrap .k-select {
@@ -846,6 +846,35 @@ body {
   border: 0;
 }
 
+.xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 250px;
+  padding-bottom: 20px;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap {
+  background: transparent;
+  border-radius: 0;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
 mainbody .greyPanel {
   background: #cac5c5;
 }
@@ -892,16 +921,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.pageContainer footer [xid="controlfooterCol"] {
+.pageContainer footer [xid="controlcfRefreshTasks"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 50px;
 }
 
 .pageContainer footer [xid="Cell_Container_controlkiFacebook"] {
@@ -930,6 +960,21 @@ mainbody .greyPanel .x-control-caption-wrapper label {
         -ms-flex: 0 0 50px;
             flex: 0 0 50px;
   }
+}
+
+.outerTitle {
+  background-color: transparent !important;
+  padding-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.outerTitle h3.x-section-header {
+  padding-bottom: 0;
+}
+
+.outerTitle .x-section-header-wrapper {
+  background-color: transparent !important;
+  background-image: none;
 }
 
 .title {
@@ -1033,6 +1078,26 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin: 5px;
 }
 
+.iconWithVerticalText .k-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconWithVerticalText .k-icon-wrapper .k-icon {
+  font-size: 18px;
+}
+
 #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody [xid="controlrLogin"] {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1066,6 +1131,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .xstyle-checkbox-wrapper {
     width: 97%;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_TaskList .xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 60vh !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Transportation_UI_Main > mainbody > .row {

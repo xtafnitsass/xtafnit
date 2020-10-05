@@ -30,6 +30,46 @@ body {
     border: 0;
 }
 
+//grid max height//
+.xstyle-gridv4-wrapper {
+    .k-grid-content {
+        max-height: 250px;
+        padding-bottom: 20px;
+    }
+}
+
+//timepicker width//
+.xstyle-timepicker-wrapper {
+    .k-timepicker {
+        width: 100%;
+
+        .k-picker-wrap {
+            background: transparent;
+            border-radius: 0;
+
+            .k-select {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+//datepicker width//
+.xstyle-date-wrapper {
+    .k-datepicker {
+        .k-picker-wrap {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-radius: 0;
+
+            .k-select {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
 //top panel background//
 mainbody {
     .greyPanel {
@@ -82,10 +122,11 @@ mainbody {
     footer {
 
         //footer icon one line left side
-        [xid="controlfooterCol"] {
+        [xid="controlcfRefreshTasks"] {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
+            height: 50px;
         }
 
         //facebook icon padding
@@ -124,6 +165,22 @@ mainbody {
 
 
 //------------------------------------------------------------bootstrapClass//
+.outerTitle {
+    background-color: transparent !important;
+    padding-right: 0 !important;
+    margin-bottom: 0 !important;
+
+    h3 {
+        &.x-section-header {
+            padding-bottom: 0;
+        }
+    }
+
+    .x-section-header-wrapper {
+        background-color: transparent !important;
+        background-image: none;
+    }
+}
 
 .title {
     font-size: 1.5em;
@@ -204,6 +261,19 @@ mainbody {
     margin: 5px;
 }
 
+.iconWithVerticalText {
+    .k-icon-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .k-icon {
+            font-size: 18px;
+        }
+    }
+}
+
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_Transportation_UI_Login {
@@ -247,6 +317,15 @@ mainbody {
             .xstyle-checkbox-wrapper {
                 width: 97%;
             }
+        }
+    }
+}
+
+//task//
+#TafnitCore_SaaSServer_Portal_Transportation_UI_TaskList {
+    .xstyle-gridv4-wrapper {
+        .k-grid-content {
+            max-height: 60vh !important;
         }
     }
 }
