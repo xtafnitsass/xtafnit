@@ -49,24 +49,6 @@ body {
 
 .x-datePicker-mobile {
   border: 0;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
-}
-
-input[type="time"] {
-  width: 100%;
-  border: 0;
-  background: transparent;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
-}
-
-mainbody {
-  margin-top: 0 !important;
-}
-
-mainbody > mainbody {
-  margin-top: 0 !important;
 }
 
 mainbody .greyPanel {

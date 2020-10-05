@@ -167,6 +167,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: transparent;
   color: #000;
+  border: 0;
+  border-bottom: 1px solid #282830 !important;
+  border-radius: 0 !important;
 }
 
 @forward 'date-picker';
@@ -688,6 +691,14 @@ mainbody .x-section-header-wrraper {
   color: #ebebeb;
 }
 
+input[type="time"] {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #2e2e2e !important;
+  border-radius: 0px !important;
+}
+
 @forward 'time';
 .x-floatbutton {
   background: #ca0000;
@@ -877,24 +888,6 @@ body {
 
 .x-datePicker-mobile {
   border: 0;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
-}
-
-input[type="time"] {
-  width: 100%;
-  border: 0;
-  background: transparent;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
-}
-
-mainbody {
-  margin-top: 0 !important;
-}
-
-mainbody > mainbody {
-  margin-top: 0 !important;
 }
 
 mainbody .greyPanel {
