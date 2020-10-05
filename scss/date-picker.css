@@ -22,6 +22,9 @@
 .x-datePicker-mobile {
   background: #4a60c4;
   color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid #282830 !important;
+  border-radius: 0 !important;
 }
 
 @forward 'date-picker';
