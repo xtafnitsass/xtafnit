@@ -167,9 +167,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #ebebeb;
   color: #000;
-  border: 0;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
+  border: 1px solid #282830;
+  border-bottom: 0 !important;
+  border-radius: 3px !important;
 }
 
 @forward 'date-picker';
