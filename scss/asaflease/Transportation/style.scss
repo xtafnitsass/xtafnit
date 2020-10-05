@@ -70,8 +70,32 @@ body {
     }
 }
 
+//fix mobile date time picker//
+.x-datePicker-mobile {
+    border: 0;
+    border-bottom: 1px solid #282830 !important;
+    border-radius: 0 !important;
+}
+
+input {
+    &[type="time"] {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        border-bottom: 1px solid #282830 !important;
+        border-radius: 0 !important;
+    }
+
+}
+
 //top panel background//
 mainbody {
+    margin-top: 0 !important;
+
+    >mainbody {
+        margin-top: 0 !important;
+    }
+
     .greyPanel {
         background: $top-panel-background;
 
@@ -332,6 +356,8 @@ mainbody {
 
 //main//
 #TafnitCore_SaaSServer_Portal_Transportation_UI_Main {
+    margin-top: 0 !important;
+
     >mainbody {
         >.row {
             background: none;
