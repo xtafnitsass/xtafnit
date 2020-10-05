@@ -250,6 +250,14 @@ mainbody {
     margin: 5px;
 }
 
+.mobileView{
+    >.col{
+        @media only screen and (max-width:768px) {
+           flex:0 0 100%;
+        }
+    }
+}
+
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
