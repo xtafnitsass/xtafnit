@@ -167,6 +167,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #f7f8f9;
   color: #000;
+  border: 0;
+  border-bottom: 1px solid #282830 !important;
+  border-radius: 3px !important;
 }
 
 @forward 'date-picker';
@@ -686,6 +689,14 @@ mainbody .x-section-header-wrraper {
   border: 0;
   background: #2e2e2e;
   color: #ebebeb;
+}
+
+input[type="time"] {
+  width: 100%;
+  border: 0;
+  background: #f7f8f9;
+  border-bottom: 1px solid #2e2e2e !important;
+  border-radius: 0px !important;
 }
 
 @forward 'time';
