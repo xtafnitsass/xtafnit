@@ -54,7 +54,7 @@ $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
 $btn-background: #07b;
-$btn-background-hover: #03b;
+$btn-background-hover: #05b;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #07b;
 $btn-color: #fff;
@@ -79,11 +79,11 @@ $calendar-header-background: #07b;
 $calendar-header-color: #F0F0F0;
 $calendar-view-background: #f2f2f2;
 $calendar-view-weekend-background: #fff;
-$calendar-view-weekend-color:#282830;
-$calendar-view-date-hover-background:#282830;
+$calendar-view-weekend-color:#484848;
+$calendar-view-date-hover-background:#484848;
 $calendar-view-date-hover-color:#f2f2f2;
 $calendar-view-today-box-shadow:inset 0 0 0 1px #f2f2f2;
-$calendar-view-today-background:#282830;
+$calendar-view-today-background:#484848;
 $calendar-view-today-color: #f2f2f2;
 $calendar-footer-background:#07b;
 $calendar-footer-color:#f2f2f2;
@@ -95,7 +95,7 @@ $calendar-dates-color:#07b;
 $date-picker-background:#f2f2f2;
 $date-picker-border:1px solid #07b;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#282830;
+$date-picker-icon-background:#484848;
 $date-picker-icon-color:#ebebeb;
 $date-picker-icon-border-color:#07b;
 $date-mobile-border:1px solid #07b;
@@ -105,7 +105,7 @@ $date-mobile-border-radius:0;
 /*checkbox*/
 
 $checkbox-background:#f2f2f2;
-$checkbox-color:#282830;
+$checkbox-color:#484848;
 $checkbox-border-color:#07b;
 $checkbox-border-radius:0;
 $checkbox-box-shadow : none;
@@ -113,7 +113,7 @@ $checkbox-box-shadow : none;
 /*textbox*/
 
 $textbox-background:#f2f2f2;
-$textbox-border:1px solid #07b!important;
+$textbox-border:1px solid #07b !important;
 $textbox-border-top:0;
 $textbox-border-bottom:0;
 $textbox-border-left:0;
@@ -134,14 +134,14 @@ $virtual-keyboard-color:#000;
 $virtual-keyboard-radius:0;
 $virtual-keyboard-box-shadow:none;
 $virtual-keyboard-icon-color:#fff;
-$virtual-keyboard-icon-background:#282830;
+$virtual-keyboard-icon-background:#484848;
 
 /*drop-down*/
 $drop-down-background : #f2f2f2;
 $drop-down-border-bottom : 0;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
-$drop-down-icon-color : #282830;
+$drop-down-icon-color : #484848;
 
 /*grid*/
 
@@ -188,7 +188,7 @@ $grid-footer-border-color:#eee;
 $time-border:1px solid #07b;
 $time-border-bottom:0;
 $time-background:#f2f2f2;
-$time-icon-background:#282830;
+$time-icon-background:#484848;
 $time-icon-color:#ebebeb;
 $time-border-raduis:0px;
 
@@ -227,18 +227,18 @@ $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
 $tabstrip-tab-background-color:#07b;
 $tabstrip-tab-color:#ffffff;
-$tabstrip-tab-active-background-color:#04b;
+$tabstrip-tab-active-background-color:#05b;
 $tabstrip-tab-active-border-color:#000;
-$tabstrip-content-border-color:#04b;
+$tabstrip-content-border-color:#05b;
 
 /*slider*/
 
-$slider-selection-color:#282830;
+$slider-selection-color:#484848;
 $slider-track-color:#07b;
-$slider-draghandle-border-color:#282830;
-$slider-draghandle-background-color:#282830;
-$slider-draghandle-border-color-hover:#282830;
-$slider-draghandle-background-color-hover:#282830;
+$slider-draghandle-border-color:#484848;
+$slider-draghandle-background-color:#484848;
+$slider-draghandle-border-color-hover:#484848;
+$slider-draghandle-background-color-hover:#484848;
 
 /*rating*/
 
@@ -246,7 +246,7 @@ $rating-star-background-color:#07b;
 
 /*radio*/
 
-$radio-border-color: #282830;
+$radio-border-color: #484848;
 $radio-color: #07b;
 $radio-background-color: #fff;
 

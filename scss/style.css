@@ -42,7 +42,7 @@
 }
 
 .k-button:hover {
-  background: #03b;
+  background: #05b;
   color: #fff;
 }
 
@@ -113,7 +113,7 @@ header .popUpWindowCls {
 
 .k-calendar .k-calendar-view th {
   background-color: #fff;
-  color: #282830;
+  color: #484848;
 }
 
 .k-calendar .k-calendar-view td:not(.k-other-month) {
@@ -121,13 +121,13 @@ header .popUpWindowCls {
 }
 
 .k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
-  background-color: #282830;
+  background-color: #484848;
   color: #f2f2f2;
   background-image: none !important;
 }
 
 .k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
-  background: #282830;
+  background: #484848;
   color: #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 1px #f2f2f2;
           box-shadow: inset 0 0 0 1px #f2f2f2;
@@ -160,7 +160,7 @@ header .popUpWindowCls {
 .k-datepicker .k-picker-wrap .k-select {
   color: #ebebeb;
   border-color: #07b;
-  background: #282830;
+  background: #484848;
 }
 
 /*mobile*/
@@ -176,14 +176,14 @@ header .popUpWindowCls {
 .k-checkbox {
   border-radius: 0;
   border-color: #07b;
-  color: #282830;
+  color: #484848;
   background: #f2f2f2;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 0;
   border-color: #07b;
-  color: #282830;
+  color: #484848;
   background: #f2f2f2;
 }
 
@@ -386,7 +386,7 @@ mainbody .x-section-header-wrraper {
           align-items: center;
   height: 100%;
   float: left;
-  color: #282830;
+  color: #484848;
 }
 
 @forward 'drop-down';
@@ -687,7 +687,7 @@ mainbody .x-section-header-wrraper {
 
 .k-timepicker .k-picker-wrap .k-select {
   border: 1px solid #07b;
-  background: #282830;
+  background: #484848;
   color: #ebebeb;
 }
 
@@ -750,7 +750,7 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-content {
-  border-color: #04b;
+  border-color: #05b;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
@@ -759,7 +759,7 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #04b;
+  background: #05b;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
@@ -767,19 +767,19 @@ input[type="time"] {
 }
 
 .k-slider .k-draghandle {
-  border-color: #282830;
-  background-color: #282830;
+  border-color: #484848;
+  background-color: #484848;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .k-slider .k-draghandle:hover {
-  border-color: #282830;
-  background-color: #282830;
+  border-color: #484848;
+  background-color: #484848;
 }
 
 .k-slider .k-slider-selection {
-  background-color: #282830;
+  background-color: #484848;
 }
 
 .k-slider .k-slider-track {
@@ -794,7 +794,7 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #282830;
+  border-color: #484848;
   color: #07b;
   background-color: #fff;
 }
@@ -833,7 +833,7 @@ input[type="time"] {
 }
 
 .x-vkeyboard .x-barcodeBtnContainer {
-  background: #282830;
+  background: #484848;
   color: #fff;
 }
 
