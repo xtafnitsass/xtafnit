@@ -125,6 +125,12 @@ mainbody {
 //footer//
 .pageContainer {
     footer {
+        display: flex;
+        justify-content: center;
+
+        >.row {
+            flex: 0 0 25%;
+        }
 
         //footer icon one line left side
         [xid="controlcfRefreshTasks"] {
