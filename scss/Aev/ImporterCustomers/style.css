@@ -6,8 +6,8 @@
 }
 
 [xid="controlcBalance"] {
-  background: #ca0000 !important;
-  color: #fff !important;
+  background: #07b !important;
+  color: #f2f2f2 !important;
 }
 
 .k-pane-wrapper {
@@ -123,8 +123,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube {
-  background: #fff;
-  color: #ca0000;
+  background: #f2f2f2;
+  color: #07b;
   min-height: 160px;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);

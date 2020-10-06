@@ -6,7 +6,7 @@ $header-color:#000;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#282830;
+$footer-background:#484848;
 
 /*row*/
 $row-background-color:#fff;
@@ -15,25 +15,25 @@ $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
 $row-box-shadow:0 2px 9px 0 #ccc;
-$row-header-color:#ca0000;
+$row-header-color:#07b;
 
 /*window*/
-$window-background:#ca0000;
+$window-background:#484848;
 $window-margin:0px auto;
 $window-color:#fff;
 
 /*drawer*/
 
-$drawer-background-color:#282830;
+$drawer-background-color:#484848;
 $drawer-padding-top:70px;
 $drawer-icon-color:#F0F0F0;
 
 /*k-animator*/
 
-$animator-container-border-color:#282830;
+$animator-container-border-color:#484848;
 $animator-container-background-color:#d7d7df;
 $animator-container-focused-amount:3;
-$animator-container-color:#282830;
+$animator-container-color:#484848;
 $animator-container-selected-background-color:#9c9c9c;
 $animator-container-selected-color:#F0F0F0;
 
@@ -41,32 +41,32 @@ $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
 $animator-scroller-thumb-background: #F0F0F0;
 $animator-scroller-thumb-border: 1px solid #fff;
-$animator-scroller-background-hover:#282830;
+$animator-scroller-background-hover:#484848;
 $animator-scroller-webkit-background:#ccc;
 
-$animator-autocomplete-header-template-color:#282830;
+$animator-autocomplete-header-template-color:#484848;
 $animator-autocomplete-header-template-background:#F0F0F0;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#f00;
+$k-filter-edited-numeric-arrow-background-color:#07b;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #ca0000;
-$btn-background-hover: #ccc;
+$btn-background: #07b;
+$btn-background-hover: #03b;
 $btn-border-radius: 20px;
-$btn-border: 1px solid #ca0000;
+$btn-border: 1px solid #07b;
 $btn-color: #fff;
 $btn-font-weight: normal;
-$btn-color-hover:#F0F0F0;
+$btn-color-hover:#fff;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
 /*autocomplete*/
-$autocomplete-input-background: #F0F0F0;
+$autocomplete-input-background: #f2f2f2;
 $autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #000 !important;
+$autocomplete-input-border: 1px solid #07b !important;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
@@ -75,45 +75,45 @@ $autocomplete-input-color: #000;
 
 /*calendar*/
 
-$calendar-header-background: #ca0000;
+$calendar-header-background: #07b;
 $calendar-header-color: #F0F0F0;
-$calendar-view-background: #ebebeb;
+$calendar-view-background: #f2f2f2;
 $calendar-view-weekend-background: #fff;
 $calendar-view-weekend-color:#282830;
 $calendar-view-date-hover-background:#282830;
-$calendar-view-date-hover-color:#ebebeb;
-$calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
+$calendar-view-date-hover-color:#f2f2f2;
+$calendar-view-today-box-shadow:inset 0 0 0 1px #f2f2f2;
 $calendar-view-today-background:#282830;
-$calendar-view-today-color: #ebebeb;
-$calendar-footer-background:#ca0000;
-$calendar-footer-color:#ebebeb;
+$calendar-view-today-color: #f2f2f2;
+$calendar-footer-background:#07b;
+$calendar-footer-color:#f2f2f2;
 $calendar-footer-hover-color:#d6d6d6;
-$calendar-dates-color:#ca0000;
+$calendar-dates-color:#07b;
 
 /*date-picker*/
 
-$date-picker-background:#ebebeb;
-$date-picker-border:1px solid #282830;
+$date-picker-background:#f2f2f2;
+$date-picker-border:1px solid #07b;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#2e2e2e;
+$date-picker-icon-background:#282830;
 $date-picker-icon-color:#ebebeb;
-$date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:0;
-$date-mobile-border-bottom:1px solid #282830;
+$date-picker-icon-border-color:#07b;
+$date-mobile-border:1px solid #07b;
+$date-mobile-border-bottom:0;
 $date-mobile-border-radius:0;
 
 /*checkbox*/
 
-$checkbox-background:#ebebeb;
-$checkbox-color:#ca0000;
-$checkbox-border-color:#2e2e2e;
+$checkbox-background:#f2f2f2;
+$checkbox-color:#282830;
+$checkbox-border-color:#07b;
 $checkbox-border-radius:0;
 $checkbox-box-shadow : none;
 
 /*textbox*/
 
-$textbox-background:#ebebeb;
-$textbox-border:1px solid #000;
+$textbox-background:#f2f2f2;
+$textbox-border:1px solid #07b!important;
 $textbox-border-top:0;
 $textbox-border-bottom:0;
 $textbox-border-left:0;
@@ -124,24 +124,24 @@ $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
 
-$virtual-keyboard-background:#ccc;
-$virtual-keyboard-border:0;
+$virtual-keyboard-background:#f2f2f2;
+$virtual-keyboard-border:1px solid #07b;
 $virtual-keyboard-border-top:0;
-$virtual-keyboard-border-bottom:1px solid #000;
+$virtual-keyboard-border-bottom:9;
 $virtual-keyboard-border-left:0;
 $virtual-keyboard-border-right:0;
-$virtual-keyboard-color:rgb(255, 0, 179);
+$virtual-keyboard-color:#000;
 $virtual-keyboard-radius:0;
 $virtual-keyboard-box-shadow:none;
 $virtual-keyboard-icon-color:#fff;
-$virtual-keyboard-icon-background:#F00;
+$virtual-keyboard-icon-background:#282830;
 
 /*drop-down*/
-$drop-down-background : transparent;
-$drop-down-border-bottom : 1px solid #2e2e2e;
+$drop-down-background : #f2f2f2;
+$drop-down-border-bottom : 0;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
-$drop-down-icon-color : #2e2e2e;
+$drop-down-icon-color : #282830;
 
 /*grid*/
 
@@ -156,10 +156,10 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#2e2e2e;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#ca0000;
+$grid-content-line-background-hover:#07b;
 $grid-content-line-background-hover-amount:3;
 $grid-content-line-color-hover:#ebebeb;
-$grid-content-line-background-selected:#ca0000;
+$grid-content-line-background-selected:#07b;
 $grid-content-line-color-selected:#ebebeb;
 $grid-content-border:none;
 $grid-content-border-left:1px solid #eee;
@@ -167,9 +167,9 @@ $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background:#ca0000;
-$grid-pager-nav-border:#ca0000;
-$grid-pager-nav-background-hover:#ca0000;
+$grid-pager-nav-background:#07b;
+$grid-pager-nav-border:#07b;
+$grid-pager-nav-background-hover:#07b;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#888888;
@@ -177,7 +177,7 @@ $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-scoller-webkit-background:#ccc;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#f00;
+$grid-edited-numeric-arrow-background-color:#07b;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
@@ -185,23 +185,23 @@ $grid-footer-border-color:#eee;
 
 /*time picker*/
 
-$time-border:0;
-$time-border-bottom:1px solid #2e2e2e;
-$time-background:#ebebeb;
-$time-icon-background:#2e2e2e;
+$time-border:1px solid #07b;
+$time-border-bottom:0;
+$time-background:#f2f2f2;
+$time-icon-background:#282830;
 $time-icon-color:#ebebeb;
 $time-border-raduis:0px;
 
 /*float-button*/
 
-$float-button-backgorund:#ca0000;
+$float-button-backgorund:#07b;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #fff;
 
 /*textarea*/
 
-$textarea-border-color:#000;
-$textarea-background-color:#fff;
+$textarea-border-color:#07b;
+$textarea-background-color:#f2f2f2;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
 $textarea-border-top-width:1px;
@@ -213,48 +213,48 @@ $upload-border-color:#000;
 
 /*multiselect*/
 
-$multiselect-border-color:#000;
-$multiselect-background-color:#f7f8f9;
+$multiselect-border-color:#07b;
+$multiselect-background-color:#f2f2f2;
 $multiselect-border-style:solid;
-$multiselect-border-left-width:0px;
-$multiselect-border-top-width:0px;
-$multiselect-border-right-width:0px;
+$multiselect-border-left-width:1px;
+$multiselect-border-top-width:1px;
+$multiselect-border-right-width:1px;
 $multiselect-border-bottom-width:1px;
 $multiselect-color:#fff;
 
 /*tabstrip*/
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
-$tabstrip-tab-background-color:#fc6868;
+$tabstrip-tab-background-color:#07b;
 $tabstrip-tab-color:#ffffff;
-$tabstrip-tab-active-background-color:#ff0000;
+$tabstrip-tab-active-background-color:#04b;
 $tabstrip-tab-active-border-color:#000;
-$tabstrip-content-border-color:#ff0000;
+$tabstrip-content-border-color:#04b;
 
 /*slider*/
 
-$slider-selection-color:#000;
-$slider-track-color:#c00000;
-$slider-draghandle-border-color:#000;
-$slider-draghandle-background-color:#000;
-$slider-draghandle-border-color-hover:#000;
-$slider-draghandle-background-color-hover:#000;
+$slider-selection-color:#282830;
+$slider-track-color:#07b;
+$slider-draghandle-border-color:#282830;
+$slider-draghandle-background-color:#282830;
+$slider-draghandle-border-color-hover:#282830;
+$slider-draghandle-background-color-hover:#282830;
 
 /*rating*/
 
-$rating-star-background-color:#dcf02d;
+$rating-star-background-color:#07b;
 
 /*radio*/
 
-$radio-border-color: #000000;
-$radio-color: #b91414;
+$radio-border-color: #282830;
+$radio-color: #07b;
 $radio-background-color: #fff;
 
 /*freehand*/
 
 $freehand-color: #000;
-$freehand-background: #c00000;
-$freehand-border-color:#c00000;
+$freehand-background: #07b;
+$freehand-border-color:#07b;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
