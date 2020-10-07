@@ -65,7 +65,7 @@ $btn-focus-border-color:transparent;
 
 /*autocomplete*/
 $autocomplete-input-background: #fff;
-$autocomplete-input-border-radius: 15px;
+$autocomplete-input-border-radius: 0px;
 $autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
@@ -93,14 +93,14 @@ $calendar-dates-color:#d1062e;
 /*date-picker*/
 
 $date-picker-background:#fff;
-$date-picker-border:0;
+$date-picker-border:1px solid #27292b;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#27292b;
 $date-picker-icon-color:#fff;
 $date-picker-icon-border-color:#27292b;
-$date-mobile-border:0;
+$date-mobile-border:0!important;
 $date-mobile-border-bottom:1px solid #27292b;
-$date-mobile-border-radius:15px;
+$date-mobile-border-radius:0px;
 
 /*checkbox*/
 
