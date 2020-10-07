@@ -1,0 +1,48 @@
+//footer//
+
+footer {
+    >.row {
+        border: 0 !important;
+    }
+}
+
+//rating//
+
+.rating-md,
+.rating-sm,
+.rating-md,
+.rating-lg,
+.rating-xl {
+    @media screen and (max-width: 600px) {
+        font-size: 2.5em !important;
+    }
+
+}
+
+//upload//
+
+.k-button {
+    &.k-upload-button {
+        background: #0082c5 !important;
+    }
+}
+
+//timepicker//
+
+input[type="time"] {
+    border-radius: 15px !important;
+}
+
+//datepicker//
+
+.k-datepicker {
+    border-radius: 15px;
+
+    .k-picker-wrap {
+        border-radius: 15px;
+
+        .k-input {
+            border-radius: 15px;
+        }
+    }
+}

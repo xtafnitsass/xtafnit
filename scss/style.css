@@ -148,7 +148,7 @@ header .popUpWindowCls {
 
 .k-datepicker .k-picker-wrap {
   background: #ebebeb;
-  border: 1px solid #0082c5;
+  border: 0;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
@@ -157,7 +157,7 @@ header .popUpWindowCls {
 }
 
 .k-datepicker .k-picker-wrap .k-select {
-  color: #ebebeb;
+  color: #fff;
   border-color: #0082c5;
   background: #0082c5;
 }
@@ -166,9 +166,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #ebebeb;
   color: #000;
-  border: 1px solid #282830;
+  border: 0;
   border-bottom: 0 !important;
-  border-radius: 3px !important;
+  border-radius: 15px !important;
 }
 
 @forward 'date-picker';
@@ -201,7 +201,7 @@ header .popUpWindowCls {
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
   background: #ebebeb;
-  border: 1px solid #0082c5 !important;
+  border: 0 !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
   border-left: 0 !important;
@@ -218,7 +218,7 @@ header .popUpWindowCls {
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
   background: #ebebeb !important;
-  border: 1px solid #0082c5;
+  border: 0;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
@@ -272,7 +272,7 @@ mainbody .x-section-header-wrraper {
 @forward 'window';
 .pageContainer footer,
 .fullPageContainer footer {
-  background: #da242c !important;
+  background: #fff !important;
   color: #fff;
 }
 
@@ -676,7 +676,7 @@ mainbody .x-section-header-wrraper {
 @forward 'k-filter-container';
 .k-timepicker .k-picker-wrap {
   border: 0;
-  border-bottom: 1px solid #0082c5;
+  border-bottom: 0;
 }
 
 .k-timepicker .k-picker-wrap input {
@@ -687,14 +687,14 @@ mainbody .x-section-header-wrraper {
 .k-timepicker .k-picker-wrap .k-select {
   border: 0;
   background: #0082c5;
-  color: #ebebeb;
+  color: #fff;
 }
 
 input[type="time"] {
   width: 100%;
   border: 0;
   background: #ebebeb;
-  border-bottom: 1px solid #0082c5 !important;
+  border-bottom: 0 !important;
   border-radius: 0px !important;
 }
 
@@ -787,7 +787,7 @@ input[type="time"] {
 
 @forward 'slider';
 .xstyle-rating-wrapper .filled-stars {
-  color: #dcf02d !important;
+  color: #0082c5 !important;
 }
 
 @forward 'rating';
@@ -806,7 +806,7 @@ input[type="time"] {
 
 @forward 'radio-button';
 .xstyle-freehandhtml-wrapper center {
-  color: #000 !important;
+  color: #fff !important;
   background: #c00000 !important;
   border-color: #c00000 !important;
 }
@@ -837,4 +837,37 @@ input[type="time"] {
 }
 
 @forward 'virtual-keyboard';
+footer > .row {
+  border: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .rating-md,
+  .rating-sm,
+  .rating-md,
+  .rating-lg,
+  .rating-xl {
+    font-size: 2.5em !important;
+  }
+}
+
+.k-button.k-upload-button {
+  background: #0082c5 !important;
+}
+
+input[type="time"] {
+  border-radius: 15px !important;
+}
+
+.k-datepicker {
+  border-radius: 15px;
+}
+
+.k-datepicker .k-picker-wrap {
+  border-radius: 15px;
+}
+
+.k-datepicker .k-picker-wrap .k-input {
+  border-radius: 15px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,7 @@ $header-color:#000;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#da242c;
+$footer-background:#fff;
 
 /*row*/
 $row-background-color:#fff;
@@ -93,14 +93,14 @@ $calendar-dates-color:#0082c5;
 /*date-picker*/
 
 $date-picker-background:#ebebeb;
-$date-picker-border:1px solid #0082c5;
+$date-picker-border:0;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#0082c5;
-$date-picker-icon-color:#ebebeb;
+$date-picker-icon-color:#fff;
 $date-picker-icon-border-color:#0082c5;
-$date-mobile-border:1px solid #282830;
+$date-mobile-border:0;
 $date-mobile-border-bottom:0;
-$date-mobile-border-radius:3px;
+$date-mobile-border-radius:15px;
 
 /*checkbox*/
 
@@ -113,7 +113,7 @@ $checkbox-box-shadow : none;
 /*textbox*/
 
 $textbox-background:#ebebeb;
-$textbox-border:1px solid #0082c5;
+$textbox-border:0;
 $textbox-border-top:0;
 $textbox-border-bottom:0;
 $textbox-border-left:0;
@@ -186,11 +186,11 @@ $grid-footer-border-color:#eee;
 /*time picker*/
 
 $time-border:0;
-$time-border-bottom:1px solid #0082c5;
+$time-border-bottom:0;
 $time-background:#ebebeb;
 $time-icon-background:#0082c5;
-$time-icon-color:#ebebeb;
-$time-border-raduis:0px;
+$time-icon-color:#fff;
+$time-border-raduis:15px!important;
 
 /*float-button*/
 
@@ -242,7 +242,7 @@ $slider-draghandle-background-color-hover:#000;
 
 /*rating*/
 
-$rating-star-background-color:#dcf02d;
+$rating-star-background-color:#0082c5;
 
 /*radio*/
 
@@ -252,7 +252,7 @@ $radio-background-color: #fff;
 
 /*freehand*/
 
-$freehand-color: #000;
+$freehand-color: #fff;
 $freehand-background: #c00000;
 $freehand-border-color:#c00000;
 
@@ -261,3 +261,5 @@ $freehand-border-color:#c00000;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
+
+@import './opl-q/style'
