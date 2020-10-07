@@ -98,9 +98,9 @@ $date-picker-input-color:#000;
 $date-picker-icon-background:#484848;
 $date-picker-icon-color:#ebebeb;
 $date-picker-icon-border-color:#07b;
-$date-mobile-border:1px solid #07b;
-$date-mobile-border-bottom:0;
-$date-mobile-border-radius:0;
+$date-mobile-border:1px solid #07b!important;
+$date-mobile-border-bottom:1px solid #07b;
+$date-mobile-border-radius:15px;
 
 /*checkbox*/
 
