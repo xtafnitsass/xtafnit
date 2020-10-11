@@ -36,7 +36,7 @@ input[type="time"] {
   border-bottom: 2px solid #404040;
 }
 
-.k-listbox .k-item:first-child, .k-listbox .k-item:last-child {
+.k-listbox .k-item:last-child {
   border-bottom: 0;
 }
 
@@ -44,7 +44,7 @@ input[type="time"] {
   border-bottom: 2px solid #404040;
 }
 
-.k-popup .k-list .k-item:first-child, .k-popup .k-list .k-item:last-child {
+.k-popup .k-list .k-item:last-child {
   border-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
