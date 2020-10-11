@@ -6,7 +6,7 @@ footer {
     }
 }
 
-//rating//
+//rating fix size in mobile//
 
 .rating-md,
 .rating-sm,
@@ -33,7 +33,7 @@ input[type="time"] {
     border-radius: 15px !important;
 }
 
-//datepicker//
+//datepicker fix all border radius//
 
 .k-datepicker {
     border-radius: 15px;
@@ -43,6 +43,34 @@ input[type="time"] {
 
         .k-input {
             border-radius: 15px;
+        }
+    }
+}
+
+//k-listbox add border-bottom to seperate between lines//
+
+.k-listbox {
+    .k-item {
+
+        &:first-child,
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        border-bottom: 2px solid #404040;
+    }
+}
+
+.k-popup {
+    .k-list {
+        .k-item {
+
+            &:first-child,
+            &:last-child {
+                border-bottom: 0;
+            }
+
+            border-bottom: 2px solid #404040;
         }
     }
 }
