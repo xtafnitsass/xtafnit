@@ -33,7 +33,7 @@ input[type="time"] {
 }
 
 .k-listbox .k-item {
-  border-bottom: 2px solid #404040;
+  border-bottom: 1px solid #6f6f6f;
 }
 
 .k-listbox .k-item:last-child {
@@ -41,7 +41,7 @@ input[type="time"] {
 }
 
 .k-popup .k-list .k-item {
-  border-bottom: 2px solid #404040;
+  border-bottom: 1px solid #6f6f6f;
 }
 
 .k-popup .k-list .k-item:last-child {
