@@ -1,12 +1,12 @@
 /*header*/
 
-$header-background:#fff;
+$header-background:#f5f6f8;
 $header-border: none;
-$header-color:#0167b1;
+$header-color:#043563;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#0167b1;
+$footer-background:#191d2d;
 
 /*row*/
 $row-background-color:#fff;
@@ -24,7 +24,7 @@ $window-color:#fff;
 
 /*drawer*/
 
-$drawer-background-color:#0167b1;
+$drawer-background-color:#1387da;
 $drawer-padding-top:70px;
 $drawer-icon-color:#fff;
 
@@ -55,8 +55,8 @@ $k-filter-edited-numeric-arrow-color:#fff;
 /*button*/
 $btn-background: #0167b1 !important;
 $btn-background-hover: #004a80 !important;
-$btn-border-radius: 20px;
-$btn-border: 1px solid #0167b1;
+$btn-border-radius: 30px;
+$btn-border: 0;
 $btn-color: #fff !important;
 $btn-font-weight: normal;
 $btn-color-hover:#F0F0F0 !important;
@@ -145,8 +145,8 @@ $drop-down-icon-color : #2e2e2e;
 
 /*grid*/
 
-$grid-header-text-color:#2e2e2e;
-$grid-header-filter-color:#ccc;
+$grid-header-text-color:#002d41;
+$grid-header-filter-color:#0469bd;
 $grid-header-background:transparent;
 $grid-header-serach-float:right;
 $grid-header-serach-border:1px solid #ccc;
@@ -162,7 +162,7 @@ $grid-content-line-color-hover:#ebebeb;
 $grid-content-line-background-selected:#0167b1;
 $grid-content-line-color-selected:#ebebeb;
 $grid-content-border:none;
-$grid-content-border-left:1px solid #eee;
+$grid-content-border-left:none;
 $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
