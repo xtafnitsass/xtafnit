@@ -214,12 +214,12 @@ mainbody {
     }
 }
 
-//k-animator//
-.k-animation-container {
-    * {
-        font-size: 16px;
-    }
-
+//k-filter//
+.k-filter-help-text,
+.k-filter-menu .k-textbox,
+.k-filter-menu .k-widget,
+.k-button {
+    font-size: 16px;
 }
 
 //------------------------------------------------------------bootstrapClass and XId//

@@ -167,7 +167,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
-.k-animation-container * {
+.k-filter-help-text,
+.k-filter-menu .k-textbox,
+.k-filter-menu .k-widget,
+.k-button {
   font-size: 16px;
 }
 
