@@ -220,8 +220,8 @@ mainbody {
     }
 }
 
-.x-button-wrapper {
-    margin: 0px 10px;
+.xstyle-buttoncontrol-wrapper {
+    padding: 5px;
 }
 
 //k-filter//
@@ -238,11 +238,24 @@ mainbody {
 }
 
 //ie fix all unset width//
-.x-self-container {
+mainbody {
+    .x-self-container {
 
-    @media screen and (-ms-high-contrast: none),
-    (-ms-high-contrast: active) {
-        min-width: 15%;
+        @media screen and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            min-width: 15%;
+        }
+    }
+}
+
+.k-drawer-overlay {
+    .k-drawer {
+        max-height: 100vh !important;
+
+        .k-drawer-wrapper {
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+        }
     }
 }
 
@@ -413,6 +426,7 @@ mainbody {
     box-shadow: 0 2px 9px 0 #ccc;
     border-radius: 20px;
     margin: 5px;
+    background: #fff;
 }
 
 .mobileView {

@@ -405,7 +405,7 @@ mainbody .x-section-header-wrraper {
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
   overflow: hidden;
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 .k-drawer-overlay .k-drawer .k-icon::before {
@@ -1018,8 +1018,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
-.x-button-wrapper {
-  margin: 0px 10px;
+.xstyle-buttoncontrol-wrapper {
+  padding: 5px;
 }
 
 .k-filter-help-text,
@@ -1034,9 +1034,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .x-self-container {
+  mainbody .x-self-container {
     min-width: 15%;
   }
+}
+
+.k-drawer-overlay .k-drawer {
+  max-height: 100vh !important;
+}
+
+.k-drawer-overlay .k-drawer .k-drawer-wrapper {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
 }
 
 .gridHeaderButton {
@@ -1247,6 +1256,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 2px 9px 0 #ccc;
   border-radius: 20px;
   margin: 5px;
+  background: #fff;
 }
 
 @media only screen and (max-width: 768px) {
