@@ -1204,14 +1204,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 49%;
             flex: 0 0 49%;
-  }
-}
-
-@media only screen and (min-width: 810px) and (-ms-high-contrast: none), only screen and (min-width: 810px) and (-ms-high-contrast: active) {
-  .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 20%;
-            flex: 0 0 20%;
+    max-width: 49%;
   }
 }
 
@@ -1220,15 +1213,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 19%;
             flex: 0 0 19%;
-    margin-top: 0px;
-  }
-}
-
-@media only screen and (min-width: 1480px) and (-ms-high-contrast: none), only screen and (min-width: 1480px) and (-ms-high-contrast: active) {
-  .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 14%;
-            flex: 0 0 14%;
     margin-top: 0px;
   }
 }
@@ -1314,31 +1298,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           flex-direction: row !important;
 }
 
-@media only screen and (min-width: 810px) {
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 49%;
-            flex: 0 0 49%;
-  }
-}
-
 @media only screen and (min-width: 1480px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube,
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 16%;
             flex: 0 0 16%;
-    margin-top: 0px;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 14%;
-            flex: 0 0 14%;
+    max-width: 16%;
     margin-top: 0px;
   }
 }
