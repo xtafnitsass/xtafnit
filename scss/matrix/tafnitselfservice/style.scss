@@ -219,6 +219,7 @@ mainbody {
         background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
     }
 }
+
 .x-button-wrapper {
     margin: 0px 10px;
 }
@@ -231,6 +232,20 @@ mainbody {
     font-size: 16px;
 }
 
+//animator fix ie//
+.k-animation-container {
+    text-align: right;
+}
+
+//ie fix all unset width//
+.x-self-container {
+
+    @media screen and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        min-width: 15%;
+    }
+}
+
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
@@ -240,7 +255,7 @@ mainbody {
 
     .k-button {
         min-width: 92px;
-       
+
         @media only screen and (max-width:640px) {
             min-width: 62px !important;
         }
@@ -354,18 +369,24 @@ mainbody {
 
         @media only screen and (min-width:810px) {
             flex: 0 0 49%;
+
+            //ie  fix cube width
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                flex: 0 0 20%;
+            }
         }
 
         @media only screen and (min-width:1480px) {
             flex: 0 0 19%;
             margin-top: 0px;
-        }
 
-        //ie  fix cube width
-        @media all and (-ms-high-contrast: none),
-        (-ms-high-contrast: active) {
-            flex: 0 0 14%;
-            margin-top: 0px;
+            //ie  fix cube width
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                flex: 0 0 14%;
+                margin-top: 0px;
+            }
         }
     }
 }

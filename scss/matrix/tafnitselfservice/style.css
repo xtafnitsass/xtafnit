@@ -184,6 +184,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-size: 16px;
 }
 
+.k-animation-container {
+  text-align: right;
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .x-self-container {
+    min-width: 15%;
+  }
+}
+
 .gridHeaderButton {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,6 +353,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+@media only screen and (min-width: 810px) and (-ms-high-contrast: none), only screen and (min-width: 810px) and (-ms-high-contrast: active) {
+  .cube-wrapper .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+  }
+}
+
 @media only screen and (min-width: 1480px) {
   .cube-wrapper .cube {
     -webkit-box-flex: 0;
@@ -352,7 +370,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media only screen and (min-width: 1480px) and (-ms-high-contrast: none), only screen and (min-width: 1480px) and (-ms-high-contrast: active) {
   .cube-wrapper .cube {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 14%;
