@@ -9,16 +9,16 @@ $footer-color:#fff;
 $footer-background:#282830;
 
 /*row*/
-$row-background-color:#fff;
+$row-background-color:#282830;
 $row-margin:5px;
 $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
-$row-box-shadow:0 2px 9px 0 #ccc;
-$row-header-color:#ca0000;
+$row-box-shadow:none;
+$row-header-color:#dd0017;
 
 /*window*/
-$window-background:#ca0000;
+$window-background:#dd0017;
 $window-margin:0px auto;
 $window-color:#fff;
 
@@ -31,11 +31,11 @@ $drawer-icon-color:#F0F0F0;
 /*k-animator*/
 
 $animator-container-border-color:#282830;
-$animator-container-background-color:#d7d7df;
+$animator-container-background-color:#fff;
 $animator-container-focused-amount:3;
 $animator-container-color:#282830;
-$animator-container-selected-background-color:#9c9c9c;
-$animator-container-selected-color:#F0F0F0;
+$animator-container-selected-background-color:#555;
+$animator-container-selected-color:#fff;
 
 $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
@@ -49,14 +49,14 @@ $animator-autocomplete-header-template-background:#F0F0F0;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#f00;
+$k-filter-edited-numeric-arrow-background-color:#dd0017;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #ca0000;
-$btn-background-hover: #ccc;
+$btn-background: #dd0017;
+$btn-background-hover: #cc0014;
 $btn-border-radius: 20px;
-$btn-border: 1px solid #ca0000;
+$btn-border: 1px solid #dd0017;
 $btn-color: #fff;
 $btn-font-weight: normal;
 $btn-color-hover:#F0F0F0;
@@ -64,9 +64,9 @@ $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
 /*autocomplete*/
-$autocomplete-input-background: #F0F0F0;
-$autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #000 !important;
+$autocomplete-input-background: #f0f0f0;
+$autocomplete-input-border-radius: 0px;
+$autocomplete-input-border: 1px solid #282830 !important;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
@@ -75,73 +75,73 @@ $autocomplete-input-color: #000;
 
 /*calendar*/
 
-$calendar-header-background: #ca0000;
+$calendar-header-background: #dd0017;
 $calendar-header-color: #F0F0F0;
-$calendar-view-background: #ebebeb;
+$calendar-view-background: #fff;
 $calendar-view-weekend-background: #fff;
 $calendar-view-weekend-color:#282830;
 $calendar-view-date-hover-background:#282830;
-$calendar-view-date-hover-color:#ebebeb;
-$calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
+$calendar-view-date-hover-color:#fff;
+$calendar-view-today-box-shadow:inset 0 0 0 1px #fff;
 $calendar-view-today-background:#282830;
-$calendar-view-today-color: #ebebeb;
-$calendar-footer-background:#ca0000;
-$calendar-footer-color:#ebebeb;
+$calendar-view-today-color: #fff;
+$calendar-footer-background:#dd0017;
+$calendar-footer-color:#fff;
 $calendar-footer-hover-color:#d6d6d6;
-$calendar-dates-color:#ca0000;
+$calendar-dates-color:#dd0017;
 
 /*date-picker*/
 
-$date-picker-background:#ebebeb;
+$date-picker-background:#f0f0f0;
 $date-picker-border:1px solid #282830;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#2e2e2e;
-$date-picker-icon-color:#ebebeb;
-$date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:0;
-$date-mobile-border-bottom:1px solid #282830;
+$date-picker-icon-background:#dd0017;
+$date-picker-icon-color:#fff;
+$date-picker-icon-border-color:#282830;
+$date-mobile-border:1px solid #282830;
+$date-mobile-border-bottom:0;
 $date-mobile-border-radius:0;
 
 /*checkbox*/
 
-$checkbox-background:#ebebeb;
-$checkbox-color:#ca0000;
-$checkbox-border-color:#2e2e2e;
+$checkbox-background:#f0f0f0;
+$checkbox-color:#dd0017;
+$checkbox-border-color:#282830;
 $checkbox-border-radius:0;
 $checkbox-box-shadow : none;
 
 /*textbox*/
 
-$textbox-background:#ebebeb;
-$textbox-border:1px solid #000;
+$textbox-background:#f0f0f0;
+$textbox-border:1px solid #282830;
 $textbox-border-top:0;
 $textbox-border-bottom:0;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
-$textbox-radius:15px;
+$textbox-radius:0px;
 $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
 
-$virtual-keyboard-background:#ccc;
+$virtual-keyboard-background:#f0f0f0;
 $virtual-keyboard-border:0;
 $virtual-keyboard-border-top:0;
 $virtual-keyboard-border-bottom:1px solid #000;
 $virtual-keyboard-border-left:0;
 $virtual-keyboard-border-right:0;
-$virtual-keyboard-color:rgb(255, 0, 179);
+$virtual-keyboard-color:#dd0017;
 $virtual-keyboard-radius:0;
 $virtual-keyboard-box-shadow:none;
 $virtual-keyboard-icon-color:#fff;
-$virtual-keyboard-icon-background:#F00;
+$virtual-keyboard-icon-background:#dd0017;
 
 /*drop-down*/
-$drop-down-background : transparent;
-$drop-down-border-bottom : 1px solid #2e2e2e;
+$drop-down-background : #f0f0f0;
+$drop-down-border-bottom : 0;
 $drop-down-border-radius : 0;
-$drop-down-input-color : #000;
-$drop-down-icon-color : #2e2e2e;
+$drop-down-input-color : #282830;
+$drop-down-icon-color : #282830;
 
 /*grid*/
 
@@ -156,21 +156,21 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#2e2e2e;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#ca0000;
+$grid-content-line-background-hover:#dd0017;
 $grid-content-line-background-hover-amount:3;
-$grid-content-line-color-hover:#ebebeb;
-$grid-content-line-background-selected:#ca0000;
-$grid-content-line-color-selected:#ebebeb;
+$grid-content-line-color-hover:#fff;
+$grid-content-line-background-selected:#dd0017;
+$grid-content-line-color-selected:#fff;
 $grid-content-border:none;
 $grid-content-border-left:1px solid #eee;
 $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background:#ca0000;
-$grid-pager-nav-border:#ca0000;
-$grid-pager-nav-background-hover:#ca0000;
-$grid-pager-nav-color-hover:#ebebeb;
+$grid-pager-nav-background:#dd0017;
+$grid-pager-nav-border:#dd0017;
+$grid-pager-nav-background-hover:#dd0017;
+$grid-pager-nav-color-hover:#fff;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#888888;
 $grid-scoller-width:10px;
@@ -185,23 +185,23 @@ $grid-footer-border-color:#eee;
 
 /*time picker*/
 
-$time-border:0;
-$time-border-bottom:1px solid #2e2e2e;
-$time-background:#ebebeb;
-$time-icon-background:#2e2e2e;
-$time-icon-color:#ebebeb;
+$time-border:1px solid #282830;
+$time-border-bottom:0;
+$time-background:#f0f0f0;
+$time-icon-background:#dd0017;
+$time-icon-color:#fff;
 $time-border-raduis:0px;
 
 /*float-button*/
 
-$float-button-backgorund:#ca0000;
+$float-button-backgorund:#dd0017;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #fff;
 
 /*textarea*/
 
-$textarea-border-color:#000;
-$textarea-background-color:#fff;
+$textarea-border-color:#282830;
+$textarea-background-color:#f0f0f0;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
 $textarea-border-top-width:1px;
@@ -209,12 +209,12 @@ $textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#000;
+$upload-border-color:#282830;
 
 /*multiselect*/
 
-$multiselect-border-color:#000;
-$multiselect-background-color:#f7f8f9;
+$multiselect-border-color:#282830;
+$multiselect-background-color:#f0f0f0;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;
 $multiselect-border-top-width:0px;
@@ -242,24 +242,24 @@ $slider-draghandle-background-color-hover:#000;
 
 /*rating*/
 
-$rating-star-background-color:#dcf02d;
+$rating-star-background-color:#b91414;
 
 /*radio*/
 
 $radio-border-color: #000000;
 $radio-color: #b91414;
-$radio-background-color: #fff;
+$radio-background-color: #f0f0f0;
 
 /*freehand*/
 
-$freehand-color: #000;
-$freehand-background: #c00000;
-$freehand-border-color:#c00000;
+$freehand-color: #fff;
+$freehand-background: #dd0017;
+$freehand-border-color:#dd0017;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
 
-//'./virtual-keyboard';
+@import './toyota-q/style'

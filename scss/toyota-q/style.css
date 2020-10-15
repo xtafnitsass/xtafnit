@@ -1,0 +1,85 @@
+body {
+  background: #282830 !important;
+  color: #fff !important;
+}
+
+[xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper {
+  text-align: left !important;
+}
+
+[xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper img {
+  width: 150px !important;
+  height: auto !important;
+}
+
+.border {
+  border: 0 !important;
+}
+
+footer > .row {
+  border: 0 !important;
+}
+
+.k-checkbox:checked {
+  border: 1px solid #dd0017 !important;
+}
+
+.x-rateWrapper .rating-container > div {
+  color: #f0f0f0;
+}
+
+.x-rateWrapper .rating-container .empty-stars {
+  color: #f0f0f0;
+}
+
+@media screen and (max-width: 600px) {
+  .rating-md,
+  .rating-sm,
+  .rating-md,
+  .rating-lg,
+  .rating-xl {
+    font-size: 2.5em !important;
+  }
+}
+
+.k-button.k-upload-button {
+  background: #dd0017 !important;
+  color: #fff !important;
+}
+
+input[type="time"] {
+  border-radius: 15px !important;
+}
+
+.k-datepicker {
+  border-radius: 15px;
+}
+
+.k-datepicker .k-picker-wrap {
+  border-radius: 15px;
+}
+
+.k-datepicker .k-picker-wrap .k-input {
+  border-radius: 15px;
+}
+
+.k-listbox .k-item {
+  border-bottom: 1px solid #6f6f6f;
+}
+
+.k-listbox .k-item:last-child {
+  border-bottom: 0;
+}
+
+.GraphicalSignaturePlaceHoldersSign {
+  border: 1px solid #fff !important;
+}
+
+.k-popup .k-list .k-item {
+  border-bottom: 1px solid #6f6f6f;
+}
+
+.k-popup .k-list .k-item:last-child {
+  border-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
