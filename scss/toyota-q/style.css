@@ -10,7 +10,7 @@ body {
   display: block !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .redLine {
     width: 231px;
   }
