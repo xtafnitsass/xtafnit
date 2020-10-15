@@ -355,6 +355,18 @@ mainbody {
             height: 100%;
         }
 
+        .fontBig {
+            .x-dynamic-label-control {
+                direction: ltr;
+                font-size: 30px;
+
+                @media only screen and (min-width:450px) and(max-width:1479px) {
+                    font-size: 50px;
+                }
+
+            }
+        }
+
         .x-image-wrapper {
             background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
             border-radius: 50%;
@@ -400,14 +412,6 @@ mainbody {
 
 .border {
     border: 0 !important;
-}
-
-.fontBig {
-    .x-dynamic-label-control {
-
-        direction: ltr;
-        font-size: 50px;
-    }
 }
 
 .boxShadow {

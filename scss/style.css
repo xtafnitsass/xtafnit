@@ -1173,6 +1173,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   height: 100%;
 }
 
+.cube-wrapper .cube .fontBig .x-dynamic-label-control {
+  direction: ltr;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1479px) {
+  .cube-wrapper .cube .fontBig .x-dynamic-label-control {
+    font-size: 50px;
+  }
+}
+
 .cube-wrapper .cube .x-image-wrapper {
   background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
   border-radius: 50%;
@@ -1228,11 +1239,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .border {
   border: 0 !important;
-}
-
-.fontBig .x-dynamic-label-control {
-  direction: ltr;
-  font-size: 50px;
 }
 
 .boxShadow {
