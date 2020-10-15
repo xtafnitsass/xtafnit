@@ -469,4 +469,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     margin-top: 0px;
   }
 }
+
+[xid="controlrgCloud"] {
+  padding: 0 !important;
+}
+
+[xid="controlrgCloud"] > div:last-child {
+  margin-left: 0;
+}
+
+[xid="controlcgCloud"] {
+  margin-right: 0px;
+  margin-left: 20px;
+}
 /*# sourceMappingURL=style.css.map */

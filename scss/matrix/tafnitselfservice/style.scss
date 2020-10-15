@@ -500,3 +500,20 @@ mainbody {
         }
     }
 }
+
+//-------------------------------------xid
+
+[xid="controlrgCloud"] {
+    padding: 0 !important;
+
+    >div {
+        &:last-child {
+            margin-left: 0;
+        }
+    }
+}
+
+[xid="controlcgCloud"] {
+    margin-right: 0px;
+    margin-left: 20px;
+}
