@@ -5,6 +5,19 @@ body {
     color: #fff !important;
 }
 
+//red top borderline//
+.redLine {
+    border: 7px solid #ff0021;
+    width: 489px;
+    float: right;
+    display: block !important;
+
+    @media screen and (max-width: 600px) {
+        width: 231px;
+    }
+
+}
+
 //logo//
 [xid="Cell_Container_controlSurveyLogo"] {
     .x-image-wrapper {

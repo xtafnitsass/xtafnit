@@ -842,6 +842,19 @@ body {
   color: #fff !important;
 }
 
+.redLine {
+  border: 7px solid #ff0021;
+  width: 489px;
+  float: right;
+  display: block !important;
+}
+
+@media screen and (max-width: 600px) {
+  .redLine {
+    width: 231px;
+  }
+}
+
 [xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper {
   text-align: left !important;
 }
