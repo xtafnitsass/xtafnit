@@ -62,7 +62,7 @@
 .k-autocomplete .k-textbox {
   background: #f0f0f0 !important;
   border-radius: 0px;
-  border: 1px solid #282830 !important;
+  border: 0 !important;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -900,19 +900,19 @@ footer > .row {
 }
 
 input[type="time"] {
-  border-radius: 15px !important;
+  border-radius: 0px !important;
 }
 
 .k-datepicker {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-datepicker .k-picker-wrap {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-listbox .k-item {

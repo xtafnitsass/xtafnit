@@ -88,19 +88,19 @@ footer {
 //timepicker//
 
 input[type="time"] {
-    border-radius: 15px !important;
+    border-radius: 0px !important;
 }
 
 //datepicker fix all border radius//
 
 .k-datepicker {
-    border-radius: 15px;
+    border-radius: 0px;
 
     .k-picker-wrap {
-        border-radius: 15px;
+        border-radius: 0px;
 
         .k-input {
-            border-radius: 15px;
+            border-radius: 0px;
         }
     }
 }

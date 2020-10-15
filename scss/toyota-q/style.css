@@ -61,19 +61,19 @@ footer > .row {
 }
 
 input[type="time"] {
-  border-radius: 15px !important;
+  border-radius: 0px !important;
 }
 
 .k-datepicker {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-datepicker .k-picker-wrap {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-listbox .k-item {
