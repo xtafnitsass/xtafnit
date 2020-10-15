@@ -62,6 +62,11 @@ footer {
         .empty-stars {
             color: #f0f0f0;
         }
+
+        .filled-stars {
+            -webkit-text-stroke: 1px #fff;
+            text-shadow: 1px 1px #fff;
+        }
     }
 }
 
