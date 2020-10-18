@@ -1,5 +1,5 @@
 $drawer-background-color:#575757 !default;
-$drawer-padding-top:70px !default;
+$drawer-padding-top:0px !default;
 $drawer-icon-color:#ff0000 !default;
 
 .k-drawer-item {
@@ -16,7 +16,7 @@ $drawer-icon-color:#ff0000 !default;
 .k-drawer-overlay {
     .k-drawer {
         // max-width: 150px;
-        max-height: 93vh;
+        max-height: 100vh;
         background-color: $drawer-background-color;
         border: none;
         border-bottom-left-radius: 40px;
@@ -29,6 +29,9 @@ $drawer-icon-color:#ff0000 !default;
         }
 
         .k-drawer-wrapper {
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+
             .k-drawer-items {
                 li {
                     color: $drawer-icon-color;
