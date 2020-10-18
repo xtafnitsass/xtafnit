@@ -24,8 +24,13 @@ body {
         text-align: left !important;
 
         img {
-            width: 150px !important;
+            width: 100px !important;
             height: auto !important;
+
+            @media screen and (max-width: 800px) {
+                width: 60px !important;
+                height: auto !important;
+            }
         }
     }
 }

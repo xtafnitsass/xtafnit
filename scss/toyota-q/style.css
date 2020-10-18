@@ -21,8 +21,15 @@ body {
 }
 
 [xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper img {
-  width: 150px !important;
+  width: 100px !important;
   height: auto !important;
+}
+
+@media screen and (max-width: 800px) {
+  [xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper img {
+    width: 60px !important;
+    height: auto !important;
+  }
 }
 
 .border {
