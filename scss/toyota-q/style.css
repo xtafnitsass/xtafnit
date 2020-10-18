@@ -5,14 +5,14 @@ body {
 
 .redLine {
   border: 7px solid #ff0021;
-  width: 489px;
+  width: 50%;
   float: right;
   display: block !important;
 }
 
 @media screen and (max-width: 800px) {
   .redLine {
-    width: 231px;
+    width: 33%;
   }
 }
 
