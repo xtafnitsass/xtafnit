@@ -25,8 +25,9 @@ $window-color:#fff;
 /*drawer*/
 
 $drawer-background-color:#27292b;
-$drawer-padding-top:70px;
+$drawer-padding-top:0px;
 $drawer-icon-color:#fff;
+
 
 /*k-animator*/
 
@@ -46,6 +47,7 @@ $animator-scroller-webkit-background:#ccc;
 
 $animator-autocomplete-header-template-color:#27292b;
 $animator-autocomplete-header-template-background:#F0F0F0;
+$animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#27292b;
@@ -98,7 +100,7 @@ $date-picker-input-color:#000;
 $date-picker-icon-background:#27292b;
 $date-picker-icon-color:#fff;
 $date-picker-icon-border-color:#27292b;
-$date-mobile-border:0!important;
+$date-mobile-border:0 !important;
 $date-mobile-border-bottom:1px solid #27292b;
 $date-mobile-border-radius:0px;
 
