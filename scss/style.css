@@ -1328,4 +1328,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 0px;
   margin-left: 20px;
 }
+
+.x-iframe {
+  border: 0;
+}
 /*# sourceMappingURL=style.css.map */
