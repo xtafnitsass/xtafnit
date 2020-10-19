@@ -42,6 +42,12 @@ $grid-footer-border-color:#eee !default;
     border: none;
     outline: 0;
 
+    table {
+        @media only screen and (min-width:700px) {
+            width: 100% !important;
+        }
+    }
+
     .k-header {
         background: $grid-header-background;
         margin-bottom: 15px;
