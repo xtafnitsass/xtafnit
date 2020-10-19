@@ -278,6 +278,10 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'footer';
+.k-animation-container {
+  text-align: right;
+}
+
 .k-animation-container .k-list-container {
   background: #0167b1;
   border: 0px solid !important;
@@ -399,7 +403,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer {
-  max-height: 93vh;
+  max-height: 100vh;
   background-color: #1387da;
   border: none;
   border-bottom-left-radius: 40px;
@@ -413,6 +417,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
   max-width: 100%;
 }
 
@@ -465,6 +471,12 @@ mainbody .x-section-header-wrraper {
 .k-grid {
   border: none;
   outline: 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .k-grid table {
+    width: 100% !important;
+  }
 }
 
 .k-grid .k-header {

@@ -46,6 +46,7 @@ $animator-scroller-webkit-background:#ccc;
 
 $animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
+$animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
@@ -262,4 +263,4 @@ $freehand-border-color:#0167b1;
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
 
-@import './matrix/tafnitselfservice/style'
+@import './matrix/tafnitselfservice/style';
