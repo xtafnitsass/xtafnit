@@ -159,6 +159,10 @@ $grid-footer-border-color:#eee !default;
             border: $grid-content-border;
             border-left: $grid-content-border-left;
             font-size: 14px;
+
+            .col-template-val {
+                margin: 0;
+            }
         }
 
         .k-alt {

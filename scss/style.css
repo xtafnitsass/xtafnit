@@ -581,6 +581,10 @@ mainbody .x-section-header-wrraper {
   font-size: 14px;
 }
 
+.k-grid .k-grid-content td .col-template-val {
+  margin: 0;
+}
+
 .k-grid .k-grid-content .k-alt {
   background: none;
 }
