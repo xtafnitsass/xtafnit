@@ -287,6 +287,8 @@ mainbody {
 
 .pageTitle {
     margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
 }
 
 .title {
@@ -517,4 +519,10 @@ mainbody {
 [xid="controlcgCloud"] {
     margin-right: 0px;
     margin-left: 20px;
+}
+
+//drawer div d-none//
+
+[xid="Cell_Container_controldrwr"] {
+    display: none;
 }
