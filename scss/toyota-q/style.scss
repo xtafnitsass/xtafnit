@@ -7,10 +7,9 @@ body {
 
 //red top borderline//
 .redLine {
-    border: 7px solid #ff0021;
+    border-bottom: 7px solid #ff0021;
     width: 33%;
     float: right;
-    display: block !important;
 
     @media screen and (max-width: 800px) {
         width: 50%;
@@ -89,6 +88,8 @@ footer {
 //upload//
 
 .k-button {
+    height: 32.69px;
+
     &.k-upload-button {
         background: #dd0017 !important;
         color: #fff !important;
@@ -143,4 +144,32 @@ input[type="time"] {
             border-bottom: 1px solid #6f6f6f;
         }
     }
+}
+
+//freehand//
+
+.x-freehandhtml-wrapper {
+    a {
+        color: #fff;
+    }
+}
+
+//layout//
+
+.x-dynamic-label-control {
+    font-size: 18px;
+}
+
+.x-link_Comp {
+    font-size: 18px;
+}
+
+//xid fix button and titles//
+[xid="controlbSubmit"] {
+    flex-direction: row-reverse !important;
+}
+
+[xid="controlSurveyDescription"],
+[xid="controlSurveyWelcome"] {
+    font-weight: bold;
 }

@@ -174,22 +174,22 @@ header .popUpWindowCls {
 @forward 'date-picker';
 .k-checkbox {
   border-radius: 0;
-  border-color: #282830;
+  border-color: #dd0017;
   color: #dd0017;
-  background: #f0f0f0;
+  background: #f0f0f0 !important;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 0;
-  border-color: #282830;
+  border-color: #dd0017;
   color: #dd0017;
-  background: #f0f0f0;
+  background: #f0f0f0 !important;
 }
 
 .k-checkbox:checked:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #282830;
+  border-color: #dd0017;
 }
 
 @forward 'checkbox';
@@ -353,7 +353,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: #f0f0f0;
+  background: #f0f0f0 !important;
   border-bottom: 0;
   border-radius: 0;
 }
@@ -363,7 +363,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: #f0f0f0;
+  background: #f0f0f0 !important;
   border: 0;
 }
 
@@ -843,10 +843,9 @@ body {
 }
 
 .redLine {
-  border: 7px solid #ff0021;
+  border-bottom: 7px solid #ff0021;
   width: 33%;
   float: right;
-  display: block !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -906,6 +905,10 @@ footer > .row {
   }
 }
 
+.k-button {
+  height: 32.69px;
+}
+
 .k-button.k-upload-button {
   background: #dd0017 !important;
   color: #fff !important;
@@ -945,5 +948,29 @@ input[type="time"] {
 
 .k-popup .k-list .k-item:last-child {
   border-bottom: 0;
+}
+
+.x-freehandhtml-wrapper a {
+  color: #fff;
+}
+
+.x-dynamic-label-control {
+  font-size: 18px;
+}
+
+.x-link_Comp {
+  font-size: 18px;
+}
+
+[xid="controlbSubmit"] {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
+[xid="controlSurveyDescription"],
+[xid="controlSurveyWelcome"] {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

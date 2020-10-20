@@ -104,9 +104,9 @@ $date-mobile-border-radius:0;
 
 /*checkbox*/
 
-$checkbox-background:#f0f0f0;
+$checkbox-background:#f0f0f0 !important;
 $checkbox-color:#dd0017;
-$checkbox-border-color:#282830;
+$checkbox-border-color:#dd0017;
 $checkbox-border-radius:0;
 $checkbox-box-shadow : none;
 
@@ -137,7 +137,7 @@ $virtual-keyboard-icon-color:#fff;
 $virtual-keyboard-icon-background:#dd0017;
 
 /*drop-down*/
-$drop-down-background : #f0f0f0;
+$drop-down-background : #f0f0f0 !important;
 $drop-down-border-bottom : 0;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #282830;
