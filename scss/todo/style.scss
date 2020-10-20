@@ -431,10 +431,23 @@ mainbody {
     }
 }
 
+.completeGrid {
+    tbody {
+        tr {
+            text-decoration-line: line-through;
+        }
+    }
+}
+
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
     mainbody {
+
+        //fix icon 
+        .fa-star {
+            width: 20px;
+        }
 
         //login fix col direction
         [xid="controlrLogin"] {
@@ -525,14 +538,4 @@ mainbody {
 
 [xid="Cell_Container_controldrwr"] {
     display: none;
-}
-
-// need to add class and remove from here //
-
-[xid="Cell_Container_controlCompletedGrid"] {
-    tbody {
-        tr {
-            text-decoration-line: line-through;
-        }
-    }
 }
