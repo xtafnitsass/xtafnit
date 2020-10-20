@@ -246,6 +246,11 @@ mainbody {
             min-width: 15%;
         }
     }
+
+    //fix icon 
+    .fa-star {
+        width: 20px;
+    }
 }
 
 .k-drawer-overlay {
@@ -443,11 +448,6 @@ mainbody {
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
     mainbody {
-
-        //fix icon 
-        .fa-star {
-            width: 20px;
-        }
 
         //login fix col direction
         [xid="controlrLogin"] {

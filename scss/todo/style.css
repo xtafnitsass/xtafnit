@@ -194,6 +194,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+mainbody .fa-star {
+  width: 20px;
+}
+
 .k-drawer-overlay .k-drawer {
   max-height: 100vh !important;
 }
@@ -417,10 +421,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .completeGrid tbody tr {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .fa-star {
-  width: 20px;
 }
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"] {
