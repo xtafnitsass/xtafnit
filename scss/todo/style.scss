@@ -526,3 +526,13 @@ mainbody {
 [xid="Cell_Container_controldrwr"] {
     display: none;
 }
+
+// need to add class and remove from here //
+
+[xid="Cell_Container_controlCompletedGrid"] {
+    tbody {
+        tr {
+            text-decoration-line: line-through;
+        }
+    }
+}

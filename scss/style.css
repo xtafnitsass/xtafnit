@@ -1344,4 +1344,9 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 [xid="Cell_Container_controldrwr"] {
   display: none;
 }
+
+[xid="Cell_Container_controlCompletedGrid"] tbody tr {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
 /*# sourceMappingURL=style.css.map */
