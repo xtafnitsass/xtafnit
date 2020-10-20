@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+
+$cube-background:#fff;
+$cube-color:#043563;
+$clock-color:#043563;
+$top-panel-background:#cac5c5;
+$header-color:#043563;
+$x-cell-header-color:#043563;
+$cube-description-color:#043563;
+$body-background:#f5f6f8;
+
+//------------------------------------------------------------layout//
+
+//body//
+
+body {
+    background-color: $body-background !important;
+    font-family: Heebo;
+}
+
+//header//
+
+header {
+    .k-icon {
+        color: $header-color;
+    }
+
+    #kGoBack {
+        padding-right: 27px;
+
+        [xid="controlkGoBack"] {
+            width: 30px;
+            height: 30px;
+            background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+            border-radius: 50%;
+            text-align: center;
+
+            >span {
+                color: white;
+                font-size: 16px;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//grid//
+
+.k-grid {
+    .k-grid-header-wrap {
+        a {
+            &.k-grid-filter {
+                font-size: 8px;
+            }
+
+            &.k-link {
+                font-size: 12px;
+            }
+
+        }
+
+        th {
+            font-size: 12px;
+        }
+    }
+
+    .k-grid-content {
+        td {
+            border-bottom: 1px solid #d8d8d8;
+        }
+    }
+
+}
+
+//cell header//
+
+.x-cell-header {
+    margin: 5px auto;
+    font-size: 18px;
+    min-height: 25px;
+    color: $x-cell-header-color;
+    font-family: Heebo !important;
+    font-weight: bold;
+}
+
+.x-section-header,
+.x-control-caption-text {
+    color: $x-cell-header-color;
+    font-family: Heebo !important;
+}
+
+//fix inputs height to eqaul//
+
+.xstyle-multiselect-wrapper {
+    .k-multiselect-wrap {
+        height: 37px;
+    }
+}
+
+.k-dropdown {
+    &.x-dropdown-comp {
+        height: 37px;
+    }
+}
+
+//grid pane wrapper border//
+
+.k-pane-wrapper {
+    border: 0;
+}
+
+//top panel background//
+mainbody {
+    .greyPanel {
+        background: $top-panel-background;
+
+        //fix vertical checkbox alignement//
+        .xstyle-checkbox-wrapper {
+            line-height: 2;
+
+            .fieldlist {
+                margin: 0;
+            }
+        }
+
+        //font heebo in grey panel//
+        .k-textbox,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label {
+            font-family: "Heebo", sans-serif !important;
+        }
+
+        //fix vertical text alignement//
+        .x-control-caption-wrapper {
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            label {
+                font-size: 15px;
+            }
+        }
+
+        //mobile view column components//
+        >.col {
+            @media only screen and (max-width:1250px) {
+                flex: 0 0 100%;
+                margin: 2px auto;
+            }
+        }
+    }
+}
+
+//footer//
+.pageContainer {
+    footer {
+
+        //footer icon one line left side
+        [xid="controlfooterCol"] {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        //facebook icon padding
+        [xid="Cell_Container_controlkiFacebook"] {
+            padding-left: 5px;
+        }
+
+        //linkedin left boeder and padding
+        [xid="Cell_Container_controlkiLinkedin"] {
+            border-left: 1px solid #fff;
+            margin-left: 5px;
+            padding-left: 5px;
+        }
+    }
+}
+
+//ie  fix
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    //footer fix
+    [xid="controlfooterCol"] {
+        [xid="Cell_Container_controlkiFacebook"] {
+            flex: 0 0 15px;
+        }
+
+        [xid="Cell_Container_controlkiLinkedin"] {
+            flex: 0 0 40px;
+        }
+
+        [xid="Cell_Container_controllogo"] {
+            flex: 0 0 50px;
+        }
+    }
+}
+
+//drawer//
+
+.k-drawer-overlay {
+    .k-drawer {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 20px;
+    }
+}
+
+//button//
+.k-button {
+    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
+    background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
+
+    &:hover {
+        background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
+    }
+}
+
+.xstyle-buttoncontrol-wrapper {
+    padding: 5px;
+}
+
+//k-filter//
+.k-filter-help-text,
+.k-filter-menu .k-textbox,
+.k-filter-menu .k-widget,
+.k-button {
+    font-size: 16px;
+}
+
+//animator fix ie//
+.k-animation-container {
+    text-align: right;
+}
+
+//ie fix all unset width//
+mainbody {
+    .x-self-container {
+
+        @media screen and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            min-width: 15%;
+        }
+    }
+}
+
+.k-drawer-overlay {
+    .k-drawer {
+        max-height: 100vh !important;
+
+        .k-drawer-wrapper {
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+        }
+    }
+}
+
+//------------------------------------------------------------bootstrapClass and XId//
+
+//class//
+.gridHeaderButton {
+    display: flex;
+    justify-content: flex-end;
+
+    .k-button {
+        min-width: 92px;
+
+        @media only screen and (max-width:640px) {
+            min-width: 62px !important;
+        }
+    }
+
+}
+
+.deskTitle {
+    font-size: 18px;
+}
+
+.nameTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pageTitle {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.white-btn {
+    margin: auto 5px;
+
+    .k-button {
+        background: #fff !important;
+        background-image: none !important;
+        color: #0469bd !important;
+        box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
+
+        &:hover {
+            background: #f5f3f3 !important;
+        }
+    }
+}
+
+.checkboxHorizontal {
+    >div {
+        >div {
+            >div {
+                flex: 0 1 0%;
+
+                &:first-child {
+                    flex: 1 0 0%;
+                }
+            }
+        }
+    }
+}
+
+.boxShadow-0 {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.cube-wrapper {
+    box-shadow: 0 0 black !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: space-between;
+
+    .cube {
+        color: $cube-color;
+        min-height: 164px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 100%;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+        background-image: linear-gradient(to top, #fafbfc, #ffffff);
+        margin-top: 5px;
+
+        .font-weight-bold {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+            height: 100%;
+        }
+
+        .fontBig {
+            .x-dynamic-label-control {
+                direction: ltr;
+                font-size: 30px;
+
+                @media only screen and (min-width:450px) and(max-width:1479px) {
+                    font-size: 50px;
+                }
+
+            }
+        }
+
+        .x-image-wrapper {
+            background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
+            border-radius: 50%;
+            position: relative;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        >div {
+            &:last-child {
+                .x-dynamic-label-control {
+                    color: $cube-description-color;
+                }
+            }
+        }
+
+        .fa-cloud-upload-alt {
+            width: 45px;
+        }
+
+
+        @media only screen and (min-width:810px) {
+            flex: 0 0 49%;
+            max-width: 49%;
+        }
+
+        @media only screen and (min-width:1480px) {
+            flex: 0 0 19%;
+            margin-top: 0px;
+        }
+    }
+}
+
+
+.shekel-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border: 0 !important;
+}
+
+.boxShadow {
+    box-shadow: 0 2px 9px 0 #ccc;
+    border-radius: 20px;
+    margin: 5px;
+    background: #fff;
+}
+
+.mobileView {
+    >.col {
+        @media only screen and (max-width:768px) {
+            flex: 0 0 100%;
+        }
+    }
+}
+
+//------------------------------------------------------------page login//
+//login//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
+    mainbody {
+
+        //login fix col direction
+        [xid="controlrLogin"] {
+            flex-direction: column;
+            max-width: 75%;
+
+            @media only screen and (max-width:768px) {
+                max-width: 90%;
+            }
+        }
+
+        //login content width
+        .loginContent {
+            width: 600px;
+            margin: 2px auto;
+        }
+
+        //ie  fix
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+
+            //fix col layout 
+            .col {
+                flex-basis: auto !important;
+            }
+
+            //logo fix
+            .imgIeFix {
+                min-height: 276px;
+
+                .x-self-container {
+                    width: 100%;
+                }
+            }
+
+            //fix checkbox 
+            .xstyle-checkbox-wrapper {
+                width: 97%;
+            }
+        }
+    }
+}
+
+//dashboard//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
+    .k-grid-content {
+        height: 45vh !important;
+    }
+}
+
+//customer balance//  //cloud dashboard//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
+    .cube-wrapper {
+        .cube {
+            .font-weight-bold {
+                flex-direction: row !important;
+            }
+
+            @media only screen and (min-width:1480px) {
+                flex: 0 0 16%;
+                max-width: 16%;
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+//-------------------------------------xid
+
+//remove padding cloudDashboard page 
+[xid="controlrgCloud"] {
+    padding: 0 !important;
+
+    >div {
+        &:last-child {
+            margin-left: 0;
+        }
+    }
+}
+
+[xid="controlcgCloud"] {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+//drawer div d-none//
+
+[xid="Cell_Container_controldrwr"] {
+    display: none;
+}
