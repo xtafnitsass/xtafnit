@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+.xtafnit_pageContainer {
+  margin: auto !important;
+}
+
 body {
   background-color: #f5f6f8 !important;
   font-family: Heebo;
