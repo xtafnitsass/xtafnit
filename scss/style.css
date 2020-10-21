@@ -251,7 +251,7 @@ mainbody > .row {
 
 mainbody .x-section-header-wrapper {
   background-color: #282830;
-  color: #dd0017;
+  color: #fff;
 }
 
 mainbody .x-section-header-wrraper {
@@ -952,6 +952,11 @@ input[type="time"] {
 
 .x-freehandhtml-wrapper a {
   color: #fff;
+}
+
+.x-section-header-wrapper {
+  background-color: #dd0017 !important;
+  background-image: none !important;
 }
 
 .x-dynamic-label-control {

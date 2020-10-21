@@ -17,6 +17,7 @@ body {
 
 }
 
+
 //logo//
 [xid="Cell_Container_controlSurveyLogo"] {
     .x-image-wrapper {
@@ -155,6 +156,10 @@ input[type="time"] {
 }
 
 //layout//
+.x-section-header-wrapper {
+    background-color: #dd0017 !important;
+    background-image: none!important;
+}
 
 .x-dynamic-label-control {
     font-size: 18px;
