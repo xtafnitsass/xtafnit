@@ -449,7 +449,7 @@ mainbody {
 
 //------------------------------------------------------------page login//
 //login//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
+#TafnitCore_ToDo_UI_Login {
     mainbody {
 
         //login fix col direction
@@ -499,42 +499,6 @@ mainbody {
     .k-grid-content {
         height: 45vh !important;
     }
-}
-
-//customer balance//  //cloud dashboard//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
-    .cube-wrapper {
-        .cube {
-            .font-weight-bold {
-                flex-direction: row !important;
-            }
-
-            @media only screen and (min-width:1480px) {
-                flex: 0 0 16%;
-                max-width: 16%;
-                margin-top: 0px;
-            }
-        }
-    }
-}
-
-//-------------------------------------xid
-
-//remove padding cloudDashboard page 
-[xid="controlrgCloud"] {
-    padding: 0 !important;
-
-    >div {
-        &:last-child {
-            margin-left: 0;
-        }
-    }
-}
-
-[xid="controlcgCloud"] {
-    margin-right: 0px;
-    margin-left: 20px;
 }
 
 //drawer div d-none//
