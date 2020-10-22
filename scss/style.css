@@ -1283,6 +1283,10 @@ mainbody .fa-star {
           text-decoration-line: line-through;
 }
 
+#TafnitCore_ToDo_UI_Login {
+  margin: 65px auto !important;
+}
+
 #TafnitCore_ToDo_UI_Login mainbody [xid="controlrLogin"] {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
