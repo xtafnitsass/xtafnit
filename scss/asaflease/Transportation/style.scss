@@ -14,7 +14,7 @@ body {
 .x-cell-header {
     margin: 5px auto;
     font-size: 20px;
-    min-height: 20px;
+    min-height: 30px;
 }
 
 //first cube//
@@ -129,7 +129,7 @@ mainbody {
         justify-content: center;
 
         >.row {
-            flex: 0 0 25%;
+            flex: 0 0 55%;
         }
 
         //footer icon one line left side
