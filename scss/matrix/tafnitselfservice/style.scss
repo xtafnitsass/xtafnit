@@ -16,6 +16,7 @@ $body-background:#f5f6f8;
 body {
     background-color: $body-background !important;
     font-family: Heebo;
+    height: initial !important;
 }
 
 //header//
@@ -276,6 +277,18 @@ mainbody {
 
 }
 
+.loginTitle {
+    font-size: 55px;
+    color: #043563;
+}
+
+.loginTitle2 {
+    font-size: 31px;
+    font-weight: bold;
+    color: #043563;
+    letter-spacing: 1.35px;
+}
+
 .deskTitle {
     font-size: 18px;
 }
@@ -435,21 +448,84 @@ mainbody {
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
     mainbody {
+        [xid="controlcHello"] {
+            @media only screen and (min-width:1050px) {
+                padding-top: 120px;
+            }
+        }
+
+        [xid="controlcLogin1"] {
+            flex: 0;
+            margin: 20px auto;
+            padding: 0;
+
+            @media screen and (min-width:1050px) {
+                padding-bottom: 80px !important;
+                padding-top: 80px !important;
+            }
+        }
+
+        .x-button-wrapper {
+            text-align: center;
+
+            .k-button {
+                height: 56px;
+                line-height: 56px;
+                width: 318px;
+            }
+        }
+
+        >.row {
+            background-color: #fff;
+            -webkit-box-shadow: 0 2px 9px 0 #ccc;
+            border-radius: 50px !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+
+
+            @media screen and (min-width:1050px) {
+                margin: 195px !important;
+            }
+        }
+
+        .loginLayout {
+            background-color: rgba(255, 255, 255, 0.922) !important;
+        }
+
+        .x-textbox {
+            background: transparent !important;
+            border-bottom: 1.5px solid #043563 !important;
+        }
+
+        .xstyle-checkbox-wrapper {
+            flex-direction: row-reverse;
+
+            .x-control-caption-text {
+                margin-right: 10px;
+                line-height: 1.3;
+            }
+
+            input {
+                font-weight: bold;
+            }
+        }
 
         //login fix col direction
         [xid="controlrLogin"] {
             flex-direction: column;
-            max-width: 75%;
+            max-width: 674px;
+            min-height: 690px;
 
-            @media only screen and (max-width:768px) {
-                max-width: 90%;
+            @media only screen and (max-width:1050px) {
+                min-height: auto;
             }
         }
 
         //login content width
         .loginContent {
-            width: 600px;
-            margin: 2px auto;
+            width: 322px;
+            padding: 0;
+            margin: auto;
         }
 
         //ie  fix
@@ -459,15 +535,6 @@ mainbody {
             //fix col layout 
             .col {
                 flex-basis: auto !important;
-            }
-
-            //logo fix
-            .imgIeFix {
-                min-height: 276px;
-
-                .x-self-container {
-                    width: 100%;
-                }
             }
 
             //fix checkbox 
@@ -519,10 +586,4 @@ mainbody {
 [xid="controlcgCloud"] {
     margin-right: 0px;
     margin-left: 20px;
-}
-
-//drawer div d-none//
-
-[xid="Cell_Container_controldrwr"] {
-    display: none;
 }
