@@ -211,6 +211,65 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   overflow-y: visible !important;
 }
 
+.k-tabstrip .x-section-wrraper {
+  border-width: 0px !important;
+}
+
+.k-tabstrip .k-content {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  border-bottom: 4px solid #0469bd;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link {
+  color: #0469bd !important;
+  font-weight: bold;
+}
+
+.k-window {
+  border-radius: 19px;
+  padding-top: 52px !important;
+}
+
+.k-window .k-window-titlebar {
+  border: 0;
+}
+
+.k-window .k-window-action {
+  color: #043563 !important;
+}
+
+.k-window .k-window-action:hover {
+  color: #fff !important;
+}
+
+#MessageBoxWindow #controlCell1Container {
+  max-width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  text-align: center;
+}
+
+#MessageBoxWindow #controlCell2Container {
+  max-width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  text-align: center;
+}
+
+#MessageBoxWindow #controlCell3Container #buttonbtn1 {
+  width: 102px !important;
+  height: 40px;
+  line-height: 2 !important;
+  margin: auto;
+}
+
 .gridHeaderButton {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -446,6 +505,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody ::-webkit-input-placeholder {
+  text-align: right;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-ilink-wrapper a {
   text-align: center !important;
 }
@@ -512,9 +582,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
+  border: 0;
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border-bottom: 1.5px solid #043563 !important;
+  border: 0;
+  border-bottom: 1.5px solid #043563;
 }
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper {
