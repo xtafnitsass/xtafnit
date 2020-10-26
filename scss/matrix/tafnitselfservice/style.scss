@@ -17,6 +17,11 @@ body {
     background-color: $body-background !important;
     font-family: Heebo;
     height: initial !important;
+
+    @media only screen and (max-width:1050px) {
+        background-position: left;
+        background-size: cover;
+    }
 }
 
 //header//
@@ -280,6 +285,10 @@ mainbody {
 .loginTitle {
     font-size: 55px;
     color: #043563;
+
+    @media screen and (max-width:1050px) {
+        font-size: 40px;
+    }
 }
 
 .loginTitle2 {
@@ -287,6 +296,10 @@ mainbody {
     font-weight: bold;
     color: #043563;
     letter-spacing: 1.35px;
+
+    @media screen and (max-width:1050px) {
+        font-size: 16px;
+    }
 }
 
 .deskTitle {
@@ -448,6 +461,10 @@ mainbody {
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
     mainbody {
+        .xstyle-ilink-wrapper a {
+            text-align: center !important;
+        }
+
         [xid="controlcHello"] {
             @media only screen and (min-width:1050px) {
                 padding-top: 120px;
@@ -472,14 +489,18 @@ mainbody {
                 height: 56px;
                 line-height: 56px;
                 width: 318px;
+
+                @media screen and (max-width:1050px) {
+                    height: 40px;
+                    line-height: 40px;
+                    width: 200px;
+                }
             }
         }
 
         >.row {
             background-color: #fff;
-            -webkit-box-shadow: 0 2px 9px 0 #ccc;
             border-radius: 50px !important;
-            backdrop-filter: blur(10px);
             box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 
 
@@ -490,6 +511,11 @@ mainbody {
 
         .loginLayout {
             background-color: rgba(255, 255, 255, 0.922) !important;
+
+            @media screen and (max-width:1050px) {
+                padding: 10px !important;
+            }
+
         }
 
         .x-textbox {

@@ -5,6 +5,13 @@ body {
   height: initial !important;
 }
 
+@media only screen and (max-width: 1050px) {
+  body {
+    background-position: left;
+    background-size: cover;
+  }
+}
+
 header .k-icon {
   color: #043563;
 }
@@ -228,11 +235,23 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   color: #043563;
 }
 
+@media screen and (max-width: 1050px) {
+  .loginTitle {
+    font-size: 40px;
+  }
+}
+
 .loginTitle2 {
   font-size: 31px;
   font-weight: bold;
   color: #043563;
   letter-spacing: 1.35px;
+}
+
+@media screen and (max-width: 1050px) {
+  .loginTitle2 {
+    font-size: 16px;
+  }
 }
 
 .deskTitle {
@@ -427,6 +446,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-ilink-wrapper a {
+  text-align: center !important;
+}
+
 @media only screen and (min-width: 1050px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"] {
     padding-top: 120px;
@@ -458,12 +481,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   width: 318px;
 }
 
+@media screen and (max-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper .k-button {
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+  }
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 9px 0 #ccc;
   border-radius: 50px !important;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
           box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 }
@@ -476,6 +504,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout {
   background-color: rgba(255, 255, 255, 0.922) !important;
+}
+
+@media screen and (max-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout {
+    padding: 10px !important;
+  }
 }
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-textbox {
