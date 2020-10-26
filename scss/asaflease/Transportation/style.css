@@ -335,4 +335,9 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_SaaSServer_Portal_Transportation_UI_Main > mainbody > .row {
   background: none;
 }
+
+#TafnitCore_System_UI_App_Tools_FillAndSignV2Page [xid="controlsecPreview"] > div:last-child {
+  padding-right: 1px !important;
+  padding-left: 1px !important;
+}
 /*# sourceMappingURL=style.css.map */

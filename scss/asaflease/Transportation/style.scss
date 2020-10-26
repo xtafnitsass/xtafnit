@@ -351,3 +351,15 @@ mainbody {
         }
     }
 }
+
+//fill and sign//
+#TafnitCore_System_UI_App_Tools_FillAndSignV2Page {
+    [xid="controlsecPreview"] {
+        >div {
+            &:last-child {
+                padding-right: 1px !important;
+                padding-left: 1px !important;
+            }
+        }
+    }
+}
