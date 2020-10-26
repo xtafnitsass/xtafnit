@@ -34,15 +34,15 @@ $animator-container-border-color:#0167b1;
 $animator-container-background-color:#fff;
 $animator-container-focused-amount:3;
 $animator-container-color:#282830;
-$animator-container-selected-background-color:#0167b1;
-$animator-container-selected-color:#fff;
+$animator-container-selected-background-color:#f2f7fc;
+$animator-container-selected-color:#043563;
 
 $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
-$animator-scroller-thumb-background: #0167b1;
+$animator-scroller-thumb-background: #a9bdca;
 $animator-scroller-thumb-border: 1px solid #fff;
-$animator-scroller-background-hover:#004a80;
-$animator-scroller-webkit-background:#ccc;
+$animator-scroller-background-hover:#91a6b4;
+$animator-scroller-webkit-background:#dfdbdb;
 
 $animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
@@ -50,7 +50,7 @@ $animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#f00;
+$k-filter-edited-numeric-arrow-background-color:#0167b1;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
@@ -71,7 +71,7 @@ $autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:1px solid #000;
+$autocomplete-input-border-bottom:1px solid #043563;
 $autocomplete-input-color: #000;
 
 /*calendar*/
@@ -96,12 +96,12 @@ $calendar-dates-color:#0167b1;
 $date-picker-background:#f7f8f9;
 $date-picker-border:1px solid #282830;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#0167b1;
-$date-picker-icon-color:#f7f8f9;
-$date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:1px solid #282830;
-$date-mobile-border-bottom:0;
-$date-mobile-border-radius:3px;
+$date-picker-icon-background:#f7f8f9;
+$date-picker-icon-color:#043563;
+$date-picker-icon-border-color:#f7f8f9;
+$date-mobile-border:0;
+$date-mobile-border-bottom:1px solid #043563;
+$date-mobile-border-radius:0px;
 
 /*checkbox*/
 
@@ -116,7 +116,7 @@ $checkbox-box-shadow : none;
 $textbox-background:#f7f8f9;
 $textbox-border:0;
 $textbox-border-top:0;
-$textbox-border-bottom:1px solid #000;
+$textbox-border-bottom:1px solid #043563;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
@@ -139,10 +139,10 @@ $virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
 $drop-down-background : transparent;
-$drop-down-border-bottom : 1px solid #2e2e2e;
+$drop-down-border-bottom : 1px solid #043563;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
-$drop-down-icon-color : #2e2e2e;
+$drop-down-icon-color : #002d41;
 
 /*grid*/
 
@@ -173,10 +173,10 @@ $grid-pager-nav-border:#0167b1;
 $grid-pager-nav-background-hover:#0167b1;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
-$grid-scoller-background:#0167b1;
+$grid-scoller-background:#a9bdca;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
-$grid-scoller-webkit-background:#ccc;
+$grid-scoller-webkit-background:#dfdbdb;
 $grid-edited-numeric-border-color:#000;
 $grid-edited-numeric-arrow-background-color:#0167b1;
 $grid-edited-numeric-arrow-color:#fff;
@@ -187,10 +187,10 @@ $grid-footer-border-color:#eee;
 /*time picker*/
 
 $time-border:0;
-$time-border-bottom:1px solid #2e2e2e;
+$time-border-bottom:1px solid #043563;
 $time-background:#f7f8f9;
-$time-icon-background:#2e2e2e;
-$time-icon-color:#ebebeb;
+$time-icon-background:#f7f8f9;
+$time-icon-color:#043563;
 $time-border-raduis:0px;
 
 /*float-button*/
@@ -201,7 +201,7 @@ $float-button-border-color:1px solid #000;
 
 /*textarea*/
 
-$textarea-border-color:#000;
+$textarea-border-color:#043563;
 $textarea-background-color:#f7f8f9 !important;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
@@ -210,11 +210,11 @@ $textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#000;
+$upload-border-color:#043563;
 
 /*multiselect*/
 
-$multiselect-border-color:#000;
+$multiselect-border-color:#043563;
 $multiselect-background-color:#f7f8f9;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;

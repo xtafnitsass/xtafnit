@@ -213,7 +213,30 @@ mainbody {
     .k-drawer {
         border-bottom-left-radius: 0px;
         border-top-left-radius: 20px;
+
+        .k-drawer-wrapper {
+            .k-drawer-items {
+                li {
+                    &:hover {
+                        background: #1387da !important;
+                    }
+                }
+            }
+
+        }
     }
+}
+
+//datepicker//
+
+.k-datepicker {
+    .k-picker-wrap {
+        border-left: 0;
+        border-radius: 0;
+        border-right: 0;
+        border-top: 0;
+    }
+
 }
 
 //button//
@@ -302,7 +325,7 @@ mainbody {
         color: #043563 !important;
 
         &:hover {
-            color: #fff !important;
+            background: #fff !important;
         }
     }
 }
@@ -314,11 +337,17 @@ mainbody {
         flex: 0 0 100%;
         text-align: center;
     }
-    #controlCell2Container{
+
+    #controlCell2Container {
         max-width: 100%;
         flex: 0 0 100%;
         text-align: center;
+
+        #controlMessageText {
+            color: #043563;
+        }
     }
+
     #controlCell3Container {
         #buttonbtn1 {
             width: 102px !important;
@@ -398,6 +427,27 @@ mainbody {
 
         &:hover {
             background: #f5f3f3 !important;
+        }
+    }
+}
+
+.grey-btn {
+    margin: auto -15px;
+
+    .k-button {
+        line-height: 38px!important;
+        height: 38px!important;
+        float: left;
+        background: none !important;
+        background-image: linear-gradient(to top, #b3b9bf -45%, #d9e2e7 164%, #b3b9bf 164%) !important;
+        width: 92px!important;
+
+        @media only screen and (max-width:640px) {
+            width: 62px !important;
+        }
+
+        &:hover {
+            opacity: 0.8;
         }
     }
 }

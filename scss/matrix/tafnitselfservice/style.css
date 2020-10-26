@@ -169,6 +169,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border-top-left-radius: 20px;
 }
 
+.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
+  background: #1387da !important;
+}
+
+.k-datepicker .k-picker-wrap {
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
 .k-button {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
@@ -244,7 +255,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-window .k-window-action:hover {
-  color: #fff !important;
+  background: #fff !important;
 }
 
 #MessageBoxWindow #controlCell1Container {
@@ -261,6 +272,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   text-align: center;
+}
+
+#MessageBoxWindow #controlCell2Container #controlMessageText {
+  color: #043563;
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
@@ -347,6 +362,30 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .white-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.grey-btn {
+  margin: auto -15px;
+}
+
+.grey-btn .k-button {
+  line-height: 38px !important;
+  height: 38px !important;
+  float: left;
+  background: none !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #b3b9bf), color-stop(164%, #d9e2e7), color-stop(164%, #b3b9bf)) !important;
+  background-image: linear-gradient(to top, #b3b9bf -45%, #d9e2e7 164%, #b3b9bf 164%) !important;
+  width: 92px !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .grey-btn .k-button {
+    width: 62px !important;
+  }
+}
+
+.grey-btn .k-button:hover {
+  opacity: 0.8;
 }
 
 .checkboxHorizontal > div > div > div {
