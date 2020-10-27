@@ -283,7 +283,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-container {
-  background: #0167b1;
+  background: #fff;
   border: 0px solid !important;
 }
 
@@ -358,7 +358,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: transparent;
+  background: #f7f8f9;
   border-bottom: 1px solid #043563;
   border-radius: 0;
 }
@@ -368,7 +368,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: transparent !important;
+  background: #f7f8f9 !important;
   border: 0;
 }
 
@@ -985,6 +985,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+.x-fa-warning,
+.x-fa-error {
+  color: #ed5356;
+  background: rgba(244, 182, 183, 0.24);
+  padding: 12px;
+  font-size: 30px;
+}
+
 .pageContainer footer [xid="controlfooterCol"] {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1039,6 +1047,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border-radius: 0;
   border-right: 0;
   border-top: 0;
+}
+
+.k-datepicker .k-picker-wrap .k-input {
+  height: 37px;
 }
 
 .k-button {
@@ -1156,12 +1168,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .gridHeaderButton .k-button {
-  min-width: 92px;
+  width: 92px;
 }
 
 @media only screen and (max-width: 640px) {
   .gridHeaderButton .k-button {
-    min-width: 62px !important;
+    width: 62px !important;
   }
 }
 
@@ -1259,6 +1271,20 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 0%;
           flex: 1 0 0%;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper .col-4 {
+  margin-right: 10px;
 }
 
 .boxShadow-0 {
@@ -1560,6 +1586,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     max-width: 16%;
     margin-top: 0px;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices .grey-btn {
+  margin: auto -20px !important;
 }
 
 [xid="controlrgCloud"] {

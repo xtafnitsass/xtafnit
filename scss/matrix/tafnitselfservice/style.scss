@@ -162,6 +162,14 @@ mainbody {
     }
 }
 
+.x-fa-warning,
+.x-fa-error {
+    color: #ed5356;
+    background: rgba(244, 182, 183, 0.24);
+    padding: 12px;
+    font-size: 30px;
+}
+
 //footer//
 .pageContainer {
     footer {
@@ -235,7 +243,12 @@ mainbody {
         border-radius: 0;
         border-right: 0;
         border-top: 0;
+
+        .k-input {
+            height: 37px;
+        }
     }
+
 
 }
 
@@ -367,10 +380,10 @@ mainbody {
     justify-content: flex-end;
 
     .k-button {
-        min-width: 92px;
+        width: 92px;
 
         @media only screen and (max-width:640px) {
-            min-width: 62px !important;
+            width: 62px !important;
         }
     }
 
@@ -435,12 +448,12 @@ mainbody {
     margin: auto -15px;
 
     .k-button {
-        line-height: 38px!important;
-        height: 38px!important;
+        line-height: 38px !important;
+        height: 38px !important;
         float: left;
         background: none !important;
         background-image: linear-gradient(to top, #b3b9bf -45%, #d9e2e7 164%, #b3b9bf 164%) !important;
-        width: 92px!important;
+        width: 92px !important;
 
         @media only screen and (max-width:640px) {
             width: 62px !important;
@@ -464,7 +477,20 @@ mainbody {
             }
         }
     }
+
+    &.checkboxHorizontalRight {
+        .xstyle-checkbox-wrapper {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+
+            .col-4 {
+                margin-right: 10px;
+            }
+        }
+    }
 }
+
+
 
 .boxShadow-0 {
     box-shadow: none !important;
@@ -729,6 +755,13 @@ mainbody {
                 margin-top: 0px;
             }
         }
+    }
+}
+
+//invoices//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
+    .grey-btn {
+        margin: auto -20px !important;
     }
 }
 
