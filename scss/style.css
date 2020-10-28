@@ -1254,9 +1254,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   line-height: 38px !important;
   height: 38px !important;
   float: left;
-  background: none !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #b3b9bf), color-stop(164%, #d9e2e7), color-stop(164%, #b3b9bf)) !important;
-  background-image: linear-gradient(to top, #b3b9bf -45%, #d9e2e7 164%, #b3b9bf 164%) !important;
   width: 92px !important;
 }
 
