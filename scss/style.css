@@ -899,6 +899,10 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-size: 12px;
 }
 
+.k-grid .k-grid-content .k-treelist-group {
+  font-weight: bold;
+}
+
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
 }
