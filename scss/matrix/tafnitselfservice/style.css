@@ -155,6 +155,9 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .checkboxHorizontal .xstyle-checkbox-wrapper label {
+    margin-right: 20px !important;
+  }
   [xid="controlfooterCol"] [xid="Cell_Container_controlkiFacebook"] {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 15px;
@@ -222,6 +225,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
     min-width: 15%;
+  }
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  mainbody .gridHeaderButton .x-self-container {
+    min-width: 110px !important;
   }
 }
 
@@ -400,16 +409,44 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   opacity: 0.8;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .checkboxHorizontal > div:first-child .x-login-user-error-msg {
+    height: 40px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .checkboxHorizontal > div:first-child {
+    height: 65px;
+  }
+}
+
 .checkboxHorizontal > div > div > div {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 0%;
           flex: 0 1 0%;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .checkboxHorizontal > div > div > div {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 1% !important;
+            flex: 0 0 1% !important;
+  }
+}
+
 .checkboxHorizontal > div > div > div:first-child {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 0%;
           flex: 1 0 0%;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .checkboxHorizontal > div > div > div:first-child {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 30% !important;
+            flex: 0 0 30% !important;
+  }
 }
 
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
@@ -567,6 +604,22 @@ mainbody .greyPanel .x-control-caption-wrapper label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 1 0% !important;
+            flex: 0 1 0% !important;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 0 0% !important;
+            flex: 1 0 0% !important;
   }
 }
 

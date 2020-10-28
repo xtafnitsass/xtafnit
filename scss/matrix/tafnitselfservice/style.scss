@@ -199,6 +199,16 @@ mainbody {
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
 
+    //checkbox//
+    .checkboxHorizontal {
+        .xstyle-checkbox-wrapper {
+            label {
+                margin-right: 20px !important;
+            }
+        }
+    }
+
+
     //footer fix
     [xid="controlfooterCol"] {
         [xid="Cell_Container_controlkiFacebook"] {
@@ -286,6 +296,16 @@ mainbody {
         @media screen and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
             min-width: 15%;
+        }
+    }
+
+    .gridHeaderButton {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                min-width: 110px !important;
+            }
         }
     }
 }
@@ -467,11 +487,37 @@ mainbody {
 
 .checkboxHorizontal {
     >div {
+        &:first-child {
+            .x-login-user-error-msg {
+
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    height: 40px;
+                }
+            }
+
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                height: 65px;
+            }
+        }
+
         >div {
             >div {
                 flex: 0 1 0%;
 
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    flex: 0 0 1% !important;
+                }
+
                 &:first-child {
+
+                    @media all and (-ms-high-contrast: none),
+                    (-ms-high-contrast: active) {
+                        flex: 0 0 30% !important;
+                    }
+
                     flex: 1 0 0%;
                 }
             }
@@ -601,7 +647,31 @@ mainbody {
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
+
     mainbody {
+
+        .checkboxHorizontal {
+            >div {
+                >div {
+                    >div {
+
+                        @media all and (-ms-high-contrast: none),
+                        (-ms-high-contrast: active) {
+                            flex: 0 1 0% !important;
+                        }
+
+                        &:first-child {
+
+                            @media all and (-ms-high-contrast: none),
+                            (-ms-high-contrast: active) {
+                                flex: 1 0 0% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         ::-webkit-input-placeholder {
             text-align: right;
         }
