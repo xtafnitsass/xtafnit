@@ -873,6 +873,15 @@ body {
   }
 }
 
+.k-upload-status .k-button {
+  color: #043563 !important;
+}
+
+.k-upload-status .k-button:hover {
+  background: transparent !important;
+  color: #043563 !important;
+}
+
 header .k-icon {
   color: #043563;
 }
@@ -1140,6 +1149,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   background: #fff !important;
 }
 
+#MessageBoxWindow #buttonbtn1 {
+  float: left;
+}
+
+#MessageBoxWindow #buttonbtn2,
+#MessageBoxWindow #buttonbtn1 {
+  width: 102px !important;
+  height: 37px !important;
+  line-height: 2 !important;
+}
+
 #MessageBoxWindow #controlCell1Container {
   max-width: 100%;
   -webkit-box-flex: 0;
@@ -1392,7 +1412,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.cube-wrapper .cube .x-image-wrapper {
+.cube-wrapper .cube .x-image-wrapper,
+.cube-wrapper .cube .k-icon-wrapper {
   background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
   border-radius: 50%;
   position: relative;
@@ -1408,6 +1429,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.cube-wrapper .cube .k-icon-wrapper {
+  color: #43b1e5;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
@@ -1617,6 +1642,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .k-grid-content {
   height: 45vh !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube .k-icon-wrapper {
+  background-image: none !important;
+  color: inherit !important;
+  left: 20px !important;
 }
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .font-weight-bold,
