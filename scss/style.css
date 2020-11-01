@@ -1569,7 +1569,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 @media screen and (min-width: 1050px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
-    margin: 195px !important;
+    margin-top: 195px !important;
+    margin-right: 195px !important;
   }
 }
 
