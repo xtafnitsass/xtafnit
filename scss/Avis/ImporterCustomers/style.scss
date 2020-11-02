@@ -26,6 +26,9 @@ $top-panel-background:#cac5c5;
 
 //tabstrip//
 .k-tabstrip {
+    &:focus{
+        box-shadow: 0 0 black;
+    }
     .x-section-wrraper {
         border-width: 0px !important;
     }

@@ -865,6 +865,11 @@ input[type="time"] {
   color: #fff !important;
 }
 
+.k-tabstrip:focus {
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
 .k-tabstrip .x-section-wrraper {
   border-width: 0px !important;
 }
