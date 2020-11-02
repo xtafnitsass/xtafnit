@@ -10,6 +10,25 @@
   color: #fff !important;
 }
 
+.k-tabstrip .x-section-wrraper {
+  border-width: 0px !important;
+}
+
+.k-tabstrip .k-content {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  border-bottom: 4px solid #d1062e;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link {
+  color: #d1062e !important;
+  font-weight: bold;
+}
+
 .k-pane-wrapper {
   border: 0;
 }

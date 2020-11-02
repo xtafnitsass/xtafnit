@@ -21,6 +21,33 @@ $top-panel-background:#cac5c5;
     color: $cube-background !important;
 }
 
+
+//tabstrip//
+
+//tabstrip//
+.k-tabstrip {
+    .x-section-wrraper {
+        border-width: 0px !important;
+    }
+
+    .k-content {
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-bottom: 0 !important;
+    }
+
+    .k-tabstrip-items {
+        .k-item.k-state-active {
+            border-bottom: 4px solid $cube-color;
+
+            .k-link {
+                color: $cube-color !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
 //grid pane wrapper border//
 
 .k-pane-wrapper {
