@@ -9,6 +9,10 @@ body {
   min-height: 30px;
 }
 
+#cameraBtnPoint {
+  display: none;
+}
+
 [xid="controlcBalance"] {
   background: #ca0000 !important;
   color: #fff !important;
