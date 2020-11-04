@@ -130,6 +130,9 @@ input[type="time"] {
 }
 
 //signature//
+.x-popup_signatureImg {
+    background: #fff;
+}
 
 .GraphicalSignaturePlaceHoldersSign {
     border: 1px solid #fff !important;
@@ -158,7 +161,7 @@ input[type="time"] {
 //layout//
 .x-section-header-wrapper {
     background-color: #dd0017 !important;
-    background-image: none!important;
+    background-image: none !important;
 }
 
 .x-dynamic-label-control {

@@ -99,6 +99,10 @@ input[type="time"] {
   border-bottom: 0;
 }
 
+.x-popup_signatureImg {
+  background: #fff;
+}
+
 .GraphicalSignaturePlaceHoldersSign {
   border: 1px solid #fff !important;
 }
