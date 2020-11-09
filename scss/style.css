@@ -404,7 +404,7 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
-  background-color: #1387da;
+  background-color: #5d6171;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -427,12 +427,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #1b94eb !important;
+  background: #696d7f !important;
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items .k-in.k-state-hover {
   color: #fff;
-  background: #1178c3;
+  background: #515563;
   background-image: none;
 }
 
@@ -441,7 +441,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] {
-  background-color: #1387da;
+  background-color: #5d6171;
   color: #fff;
   max-width: 100%;
 }
@@ -453,11 +453,11 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-header, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-header.k-state-focused.k-state-hover {
   background-image: none !important;
-  background: #1387da;
+  background: #5d6171;
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused {
-  background: #1387da !important;
+  background: #5d6171 !important;
   opacity: 0.8;
 }
 
@@ -1026,7 +1026,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-drawer-overlay .k-drawer {
   border-bottom-left-radius: 0px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.k-drawer-overlay .k-drawer .k-badge {
+  border-radius: 0;
+  padding: 10px !important;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px !important;
+  margin-left: 2px !important;
 }
 
 .k-button {

@@ -170,7 +170,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-drawer-overlay .k-drawer {
   border-bottom-left-radius: 0px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.k-drawer-overlay .k-drawer .k-badge {
+  border-radius: 0;
+  padding: 10px !important;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px !important;
+  margin-left: 2px !important;
 }
 
 .k-button {
