@@ -68,6 +68,7 @@ header {
     }
 
     .k-grid-content {
+        height: 80vh;
         .k-treelist-group {
             font-weight: bold;
         }
@@ -500,13 +501,6 @@ mainbody {
                 width: 97%;
             }
         }
-    }
-}
-
-//dashboard//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
-    .k-grid-content {
-        height: 45vh !important;
     }
 }
 

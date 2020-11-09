@@ -899,6 +899,10 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-size: 12px;
 }
 
+.k-grid .k-grid-content {
+  height: 80vh;
+}
+
 .k-grid .k-grid-content .k-treelist-group {
   font-weight: bold;
 }
@@ -1324,10 +1328,6 @@ mainbody .fa-star {
   #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper {
     width: 97%;
   }
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .k-grid-content {
-  height: 45vh !important;
 }
 
 [xid="Cell_Container_controldrwr"] {
