@@ -873,6 +873,11 @@ body {
   }
 }
 
+.pageImage {
+  background-position: center;
+  background-size: cover;
+}
+
 .k-upload-status .k-button {
   color: #043563 !important;
 }

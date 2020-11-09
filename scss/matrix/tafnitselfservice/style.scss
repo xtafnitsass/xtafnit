@@ -23,17 +23,25 @@ body {
         background-size: cover;
     }
 }
+
+.pageImage {
+    background-position: center;
+    background-size: cover;
+}
+
 //upload//
 
-.k-upload-status{
-    .k-button{
-        color:#043563!important;
-        &:hover{
-            background: transparent!important;
-            color:#043563!important;
+.k-upload-status {
+    .k-button {
+        color: #043563 !important;
+
+        &:hover {
+            background: transparent !important;
+            color: #043563 !important;
         }
     }
 }
+
 //header//
 
 header {
