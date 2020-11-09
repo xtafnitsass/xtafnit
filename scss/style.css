@@ -562,18 +562,18 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #0176ca !important;
-  color: #ebebeb !important;
+  background-color: #e7e7e7 !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #0167b1 !important;
-  color: #ebebeb !important;
+  background: #c4c2c2 !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #0167b1 !important;
-  color: #ebebeb !important;
+  background: #c4c2c2 !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content td {
@@ -592,7 +592,7 @@ mainbody .x-section-header-wrraper {
 
 @media only screen and (max-width: 768px) {
   .k-grid .k-grid-content .k-alt {
-    background: #ccc;
+    background: none;
   }
 }
 
@@ -903,8 +903,8 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-weight: bold;
 }
 
-.k-grid .k-grid-content td {
-  border-bottom: 1px solid #d8d8d8;
+.k-grid .k-grid-content .k-treelist-group td {
+  background: #f3f3f3;
 }
 
 .x-cell-header {

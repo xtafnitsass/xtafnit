@@ -47,8 +47,8 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-weight: bold;
 }
 
-.k-grid .k-grid-content td {
-  border-bottom: 1px solid #d8d8d8;
+.k-grid .k-grid-content .k-treelist-group td {
+  background: #f3f3f3;
 }
 
 .x-cell-header {
