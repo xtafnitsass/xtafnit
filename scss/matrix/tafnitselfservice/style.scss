@@ -724,8 +724,9 @@ mainbody {
         }
 
         [xid="controlcHello"] {
-            @media only screen and (min-width:1050px) {
-                padding-top: 120px;
+            padding-top: 120px;
+            @media only screen and (max-height:950px) {
+                padding-top: 0px;
             }
         }
 
@@ -762,7 +763,7 @@ mainbody {
             box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 
 
-            @media screen and (min-width:1050px) {
+            @media screen and (min-height:950px) and (min-width:1050px) {
                 margin-top: 195px !important;
                 margin-right: 195px !important;
             }
@@ -807,8 +808,7 @@ mainbody {
             flex-direction: column;
             max-width: 674px;
             min-height: 690px;
-
-            @media only screen and (max-width:1050px) {
+            @media only screen and (max-height:950px) {
                 min-height: auto;
             }
         }

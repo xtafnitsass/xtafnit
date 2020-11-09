@@ -665,9 +665,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   text-align: center !important;
 }
 
-@media only screen and (min-width: 1050px) {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"] {
+  padding-top: 120px;
+}
+
+@media only screen and (max-height: 950px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"] {
-    padding-top: 120px;
+    padding-top: 0px;
   }
 }
 
@@ -711,7 +715,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-height: 950px) and (min-width: 1050px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
     margin-top: 195px !important;
     margin-right: 195px !important;
@@ -763,7 +767,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   min-height: 690px;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-height: 950px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"] {
     min-height: auto;
   }
