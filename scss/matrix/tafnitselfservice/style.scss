@@ -767,6 +767,9 @@ mainbody {
                 margin-top: 195px !important;
                 margin-right: 195px !important;
             }
+            @media screen and (min-width:800px) {
+                margin-right: 65px !important;
+            }
         }
 
         .loginLayout {
