@@ -762,14 +762,16 @@ mainbody {
             border-radius: 50px !important;
             box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 
-
-            @media screen and (min-height:950px) and (min-width:1050px) {
+            @media screen and (min-height:800px){
                 margin-top: 195px !important;
-                margin-right: 195px !important;
             }
             @media screen and (min-width:800px) {
                 margin-right: 65px !important;
             }
+            @media screen and (min-width:1050px) {
+                margin-right: 195px !important;
+            }
+            
         }
 
         .loginLayout {
