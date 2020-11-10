@@ -229,16 +229,6 @@ mainbody {
     }
 }
 
-//button//
-.k-button {
-    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-    background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-
-    &:hover {
-        background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
-    }
-}
-
 .xstyle-buttoncontrol-wrapper {
     padding: 5px;
 }
@@ -512,8 +502,6 @@ mainbody {
     }
 }
 
-//drawer div d-none//
-
-[xid="Cell_Container_controldrwr"] {
-    display: none;
+[xid="controlbAddNewTask"]{
+    float: left;
 }
