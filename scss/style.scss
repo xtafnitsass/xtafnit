@@ -99,9 +99,9 @@ $date-picker-input-color:#000;
 $date-picker-icon-background:#386e94;
 $date-picker-icon-color:#f7f8f9;
 $date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:1px solid #282830;
-$date-mobile-border-bottom:0;
-$date-mobile-border-radius:3px;
+$date-mobile-border:0;
+$date-mobile-border-bottom:1px solid #282830;
+$date-mobile-border-radius:0px;
 
 /*checkbox*/
 
@@ -138,7 +138,7 @@ $virtual-keyboard-icon-color:#fff;
 $virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
-$drop-down-background : transparent;
+$drop-down-background : #f7f8f9;
 $drop-down-border-bottom : 1px solid #2e2e2e;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;

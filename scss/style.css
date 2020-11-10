@@ -167,9 +167,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #f7f8f9;
   color: #000;
-  border: 1px solid #282830;
-  border-bottom: 0 !important;
-  border-radius: 3px !important;
+  border: 0;
+  border-bottom: 1px solid #282830 !important;
+  border-radius: 0px !important;
 }
 
 @forward 'date-picker';
@@ -358,7 +358,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: transparent;
+  background: #f7f8f9;
   border-bottom: 1px solid #2e2e2e;
   border-radius: 0;
 }
@@ -368,7 +368,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: transparent;
+  background: #f7f8f9;
   border: 0;
 }
 
@@ -862,6 +862,10 @@ input[type="time"] {
 body {
   background-color: #f5f6f8 !important;
   font-family: Heebo;
+}
+
+.xstyle-chat-wrapper .k-chat {
+  border-color: #043563;
 }
 
 header .k-icon {

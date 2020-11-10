@@ -20,7 +20,12 @@ body {
     background-color: $body-background !important;
     font-family: Heebo;
 }
-
+//chat//
+.xstyle-chat-wrapper{
+    .k-chat{
+        border-color: $cube-color;
+    }
+}
 //header//
 
 header {

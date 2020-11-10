@@ -8,6 +8,10 @@ body {
   font-family: Heebo;
 }
 
+.xstyle-chat-wrapper .k-chat {
+  border-color: #043563;
+}
+
 header .k-icon {
   color: #043563;
 }
