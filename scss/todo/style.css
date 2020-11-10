@@ -10,6 +10,13 @@ body {
 
 .xstyle-chat-wrapper .k-chat {
   border-color: #043563;
+  max-width: 600px !important;
+  height: 508px !important;
+  margin: 0;
+}
+
+.xstyle-upload-wrapper {
+  margin-top: 5px;
 }
 
 header .k-icon {
@@ -476,5 +483,7 @@ mainbody .fa-star {
 
 [xid="controlbAddNewTask"] {
   float: left;
+  margin-top: 5px;
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

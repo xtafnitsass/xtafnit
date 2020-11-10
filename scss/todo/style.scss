@@ -24,7 +24,14 @@ body {
 .xstyle-chat-wrapper{
     .k-chat{
         border-color: $cube-color;
+        max-width:600px!important;
+        height:508px!important;
+        margin:0;
     }
+}
+//upload//
+.xstyle-upload-wrapper{
+    margin-top: 5px;
 }
 //header//
 
@@ -508,4 +515,6 @@ mainbody {
 
 [xid="controlbAddNewTask"]{
     float: left;
+    margin-top: 5px;
+    font-size: 25px;
 }
