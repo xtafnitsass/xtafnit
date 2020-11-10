@@ -1030,7 +1030,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-badge {
-  border-radius: 0;
   padding: 10px !important;
   width: 30px;
   height: 30px;
