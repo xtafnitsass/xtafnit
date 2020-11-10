@@ -6,7 +6,7 @@ $header-color:#000;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#282830;
+$footer-background:#0167b1;
 
 /*row*/
 $row-background-color:#fff;
@@ -15,16 +15,16 @@ $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
 $row-box-shadow:0 2px 9px 0 #ccc;
-$row-header-color:#ca0000;
+$row-header-color:#0167b1;
 
 /*window*/
-$window-background:#ca0000;
+$window-background:#0167b1;
 $window-margin:0px auto;
 $window-color:#fff;
 
 /*drawer*/
 
-$drawer-background-color:#282830;
+$drawer-background-color:#0167b1;
 $drawer-padding-top:0px;
 $drawer-icon-color:#F0F0F0;
 
@@ -54,13 +54,13 @@ $k-filter-edited-numeric-arrow-background-color:#f00;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #ca0000;
-$btn-background-hover: #ccc;
+$btn-background: #0167b1 !important;
+$btn-background-hover: #004475 !important;
 $btn-border-radius: 20px;
-$btn-border: 1px solid #ca0000;
-$btn-color: #fff;
+$btn-border: 1px solid #0167b1;
+$btn-color: #fff !important;
 $btn-font-weight: normal;
-$btn-color-hover:#F0F0F0;
+$btn-color-hover:#F0F0F0 !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
@@ -76,7 +76,7 @@ $autocomplete-input-color: #000;
 
 /*calendar*/
 
-$calendar-header-background: #ca0000;
+$calendar-header-background: #0167b1;
 $calendar-header-color: #F0F0F0;
 $calendar-view-background: #ebebeb;
 $calendar-view-weekend-background: #fff;
@@ -86,27 +86,27 @@ $calendar-view-date-hover-color:#ebebeb;
 $calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
 $calendar-view-today-background:#282830;
 $calendar-view-today-color: #ebebeb;
-$calendar-footer-background:#ca0000;
+$calendar-footer-background:#0167b1;
 $calendar-footer-color:#ebebeb;
 $calendar-footer-hover-color:#d6d6d6;
-$calendar-dates-color:#ca0000;
+$calendar-dates-color:#0167b1;
 
 /*date-picker*/
 
 $date-picker-background:#ebebeb;
 $date-picker-border:1px solid #282830;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#2e2e2e;
+$date-picker-icon-background:#0167b1;
 $date-picker-icon-color:#ebebeb;
-$date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:0;
-$date-mobile-border-bottom:1px solid #282830;
-$date-mobile-border-radius:0;
+$date-picker-icon-border-color:#0167b1;
+$date-mobile-border:1px solid #282830;
+$date-mobile-border-bottom:0;
+$date-mobile-border-radius:3px;
 
 /*checkbox*/
 
 $checkbox-background:#ebebeb;
-$checkbox-color:#ca0000;
+$checkbox-color:#0167b1;
 $checkbox-border-color:#2e2e2e;
 $checkbox-border-radius:0;
 $checkbox-box-shadow : none;
@@ -157,10 +157,10 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#2e2e2e;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#ca0000;
+$grid-content-line-background-hover:#0167b1;
 $grid-content-line-background-hover-amount:3;
 $grid-content-line-color-hover:#ebebeb;
-$grid-content-line-background-selected:#ca0000;
+$grid-content-line-background-selected:#0167b1;
 $grid-content-line-color-selected:#ebebeb;
 $grid-content-border:none;
 $grid-content-border-left:1px solid #eee;
@@ -168,9 +168,9 @@ $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background:#ca0000;
-$grid-pager-nav-border:#ca0000;
-$grid-pager-nav-background-hover:#ca0000;
+$grid-pager-nav-background:#0167b1;
+$grid-pager-nav-border:#0167b1;
+$grid-pager-nav-background-hover:#0167b1;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#888888;
@@ -195,7 +195,7 @@ $time-border-raduis:0px;
 
 /*float-button*/
 
-$float-button-backgorund:#ca0000;
+$float-button-backgorund:#0167b1;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #fff;
 
@@ -262,3 +262,5 @@ $freehand-border-color:#c00000;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
+
+@import './matrix/suppliers/style'
