@@ -62,10 +62,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-weight: bold;
 }
 
-.k-grid .k-grid-content .k-treelist-group td {
-  background: #f3f3f3;
-}
-
 .x-cell-header {
   margin: 5px auto;
   font-size: 18px;
