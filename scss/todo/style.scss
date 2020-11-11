@@ -20,19 +20,31 @@ body {
     background-color: $body-background !important;
     font-family: Heebo;
 }
+
 //chat//
-.xstyle-chat-wrapper{
-    .k-chat{
+.xstyle-chat-wrapper {
+    .k-chat {
         border-color: $cube-color;
-        max-width:600px!important;
-        height:508px!important;
-        margin:0;
+        max-width: 600px !important;
+        height: 508px !important;
+        margin: 0;
+
+        .k-button-send {
+            order: 3;
+            background: #386e94 !important;
+
+            &:hover {
+                background: #2e6083 !important;
+            }
+        }
     }
 }
+
 //upload//
-.xstyle-upload-wrapper{
+.xstyle-upload-wrapper {
     margin-top: 5px;
 }
+
 //header//
 
 header {
@@ -81,6 +93,7 @@ header {
 
     .k-grid-content {
         height: 80vh;
+
         .k-treelist-group {
             font-weight: bold;
         }
@@ -223,12 +236,13 @@ mainbody {
     .k-drawer {
         border-bottom-left-radius: 0px;
         border-top-left-radius: 0px;
+
         .k-badge {
-            padding: 10px!important;
+            padding: 10px !important;
             width: 30px;
             height: 30px;
-            margin-top: 5px!important;
-            margin-left: 2px!important;
+            margin-top: 5px !important;
+            margin-left: 2px !important;
         }
     }
 }
@@ -506,7 +520,7 @@ mainbody {
     }
 }
 
-[xid="controlbAddNewTask"]{
+[xid="controlbAddNewTask"] {
     float: left;
     margin-top: 5px;
     font-size: 25px;

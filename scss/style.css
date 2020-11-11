@@ -871,6 +871,17 @@ body {
   margin: 0;
 }
 
+.xstyle-chat-wrapper .k-chat .k-button-send {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  background: #386e94 !important;
+}
+
+.xstyle-chat-wrapper .k-chat .k-button-send:hover {
+  background: #2e6083 !important;
+}
+
 .xstyle-upload-wrapper {
   margin-top: 5px;
 }
