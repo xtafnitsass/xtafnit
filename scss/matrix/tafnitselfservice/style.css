@@ -825,7 +825,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
         -ms-flex: 0 0 16%;
             flex: 0 0 16%;
     max-width: 16%;
-    margin-top: 0px;
+    margin-bottom: 10px;
   }
 }
 
