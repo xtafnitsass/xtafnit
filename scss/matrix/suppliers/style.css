@@ -800,37 +800,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .k-grid-content {
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube .k-icon-wrapper {
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube .k-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .font-weight-bold,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices .grey-btn {
-  margin: auto -20px !important;
 }
 
 [xid="controlrgCloud"] {

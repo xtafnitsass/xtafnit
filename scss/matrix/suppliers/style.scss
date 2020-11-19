@@ -725,6 +725,7 @@ mainbody {
 
         [xid="controlcHello"] {
             padding-top: 120px;
+
             @media only screen and (max-height:950px) {
                 padding-top: 0px;
             }
@@ -762,16 +763,18 @@ mainbody {
             border-radius: 50px !important;
             box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 
-            @media screen and (min-height:800px){
+            @media screen and (min-height:800px) {
                 margin-top: 195px !important;
             }
+
             @media screen and (min-width:800px) {
                 margin-right: 65px !important;
             }
+
             @media screen and (min-width:1050px) {
                 margin-right: 195px !important;
             }
-            
+
         }
 
         .loginLayout {
@@ -813,6 +816,7 @@ mainbody {
             flex-direction: column;
             max-width: 674px;
             min-height: 690px;
+
             @media only screen and (max-height:950px) {
                 min-height: auto;
             }
@@ -843,14 +847,10 @@ mainbody {
 }
 
 //dashboard//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
         height: 45vh !important;
     }
-}
-
-//customer balance//  //cloud dashboard//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance {
     .cube {
         .k-icon-wrapper {
             background-image: none !important;
@@ -860,29 +860,31 @@ mainbody {
     }
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
-    .cube-wrapper {
-        .cube {
-            .font-weight-bold {
-                flex-direction: row !important;
-            }
 
-            @media only screen and (min-width:1480px) {
-                flex: 0 0 16%;
-                max-width: 16%;
-                margin-bottom: 10px;
-            }
-        }
-    }
-}
 
-//invoices//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
-    .grey-btn {
-        margin: auto -20px !important;
-    }
-}
+// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance,
+// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
+//     .cube-wrapper {
+//         .cube {
+//             .font-weight-bold {
+//                 flex-direction: row !important;
+//             }
+
+//             @media only screen and (min-width:1480px) {
+//                 flex: 0 0 16%;
+//                 max-width: 16%;
+//                 margin-bottom: 10px;
+//             }
+//         }
+//     }
+// }
+
+
+// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
+//     .grey-btn {
+//         margin: auto -20px !important;
+//     }
+// }
 
 //-------------------------------------xid
 
