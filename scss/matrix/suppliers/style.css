@@ -93,11 +93,37 @@ header #kGoBack [xid="controlkGoBack"] > span {
 }
 
 mainbody .greyPanel {
-  background: #cac5c5;
+  background: #ffffff;
+}
+
+mainbody .greyPanel .first-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+mainbody .greyPanel .first-col > div:last-child {
+  margin-right: 5px;
+  border-left: 2px solid #ccc;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 1250px) {
+  mainbody .greyPanel .first-col > div:last-child {
+    border-left: 0;
+  }
 }
 
 mainbody .greyPanel .xstyle-checkbox-wrapper {
   line-height: 2;
+  position: relative;
+  top: 5px;
 }
 
 mainbody .greyPanel .xstyle-checkbox-wrapper .fieldlist {
@@ -800,6 +826,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube .k-icon-wrapper {
+  background-image: none !important;
+  color: inherit !important;
+  left: 20px !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
@@ -808,6 +840,25 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube .font-weight-bold,
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube,
+  #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+    max-width: 16%;
+    margin-bottom: 10px;
+  }
 }
 
 [xid="controlrgCloud"] {

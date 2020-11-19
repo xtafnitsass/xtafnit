@@ -3,7 +3,7 @@
 $cube-background:#fff;
 $cube-color:#043563;
 $clock-color:#043563;
-$top-panel-background:#cac5c5;
+$top-panel-background:#ffffff;
 $header-color:#043563;
 $x-cell-header-color:#043563;
 $cube-description-color:#043563;
@@ -138,9 +138,29 @@ mainbody {
     .greyPanel {
         background: $top-panel-background;
 
+        .first-col {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            >div {
+                &:last-child {
+                    margin-right: 5px;
+                    border-left: 2px solid #ccc;
+                    padding-left: 5px;
+
+                    @media only screen and (max-width:1250px) {
+                        border-left: 0;
+                    }
+                }
+            }
+        }
+
         //fix vertical checkbox alignement//
         .xstyle-checkbox-wrapper {
             line-height: 2;
+            position: relative;
+            top: 5px;
 
             .fieldlist {
                 margin: 0;
@@ -846,11 +866,23 @@ mainbody {
     }
 }
 
+//suppliers balance//
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance {
+    .cube {
+        .k-icon-wrapper {
+            background-image: none !important;
+            color: inherit !important;
+            left: 20px !important;
+        }
+    }
+}
+
 //dashboard//
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
         height: 45vh !important;
     }
+
     .cube {
         .k-icon-wrapper {
             background-image: none !important;
@@ -862,22 +894,22 @@ mainbody {
 
 
 
-// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance,
-// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
-//     .cube-wrapper {
-//         .cube {
-//             .font-weight-bold {
-//                 flex-direction: row !important;
-//             }
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance,
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
+    .cube-wrapper {
+        .cube {
+            .font-weight-bold {
+                flex-direction: row !important;
+            }
 
-//             @media only screen and (min-width:1480px) {
-//                 flex: 0 0 16%;
-//                 max-width: 16%;
-//                 margin-bottom: 10px;
-//             }
-//         }
-//     }
-// }
+            @media only screen and (min-width:1480px) {
+                flex: 0 0 16%;
+                max-width: 16%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
 
 
 // #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
