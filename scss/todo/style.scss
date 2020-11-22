@@ -39,12 +39,15 @@ body {
         }
     }
 }
-.xstyle-date-wrapper{
+
+.xstyle-date-wrapper {
     margin-top: 5px;
 }
-.xstyle-idropdownlist-wrapper{
+
+.xstyle-idropdownlist-wrapper {
     margin-top: 10px;
 }
+
 //upload//
 .xstyle-upload-wrapper {
     margin-top: 5px;
@@ -295,6 +298,59 @@ mainbody {
         }
     }
 }
+
+//menu//
+.k-window-content {
+    header {
+        background-color: #fff !important;
+    }
+}
+
+.xstyle-menu-wrapper {
+    .k-menu {
+        border: 0 !important;
+        background-color: #fff !important;
+
+        .k-link {
+            &.k-state-active {
+                background-color: #fff !important;
+                background-image: none !important;
+
+            }
+        }
+
+        .k-state-focused {
+            >.k-link {
+                background-color: #fff !important;
+                background-image: none !important;
+
+            }
+        }
+
+        .k-state-hover {
+            >.k-link {
+                background-color: #fff !important;
+                background-image: none !important;
+
+            }
+        }
+
+        .k-menu-group {
+            .k-state-hover {
+                .k-link {
+                    background-color: #dedede !important;
+                }
+            }
+        }
+    }
+
+    .k-menu-item {
+        border: 0 !important;
+        background-color: #fff;
+        background-image: none;
+    }
+}
+
 
 //------------------------------------------------------------bootstrapClass and XId//
 
