@@ -775,12 +775,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 674px;
-  min-height: 480px;
+  min-height: 690px;
 }
 
 @media only screen and (max-height: 950px) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"] {
-    min-height: auto;
+    min-height: 480px;
   }
 }
 
