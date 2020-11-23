@@ -1662,7 +1662,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 @media only screen and (max-height: 950px) {
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"] {
-    min-height: auto;
+    min-height: 480px;
   }
 }
 
