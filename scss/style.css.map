@@ -29,7 +29,7 @@
         "radio-button.scss",
         "freehand.scss",
         "virtual-keyboard.scss",
-        "asaf-lease/ImporterCustomers/style.scss"
+        "lease4u/ImporterCustomers/style.scss"
     ],
     "names": [],
     "file": "style.css"
