@@ -862,6 +862,7 @@ input[type="time"] {
 body {
   background-color: #f5f6f8 !important;
   font-family: Heebo;
+  height: initial !important;
 }
 
 .xstyle-chat-wrapper .k-chat {
@@ -1095,6 +1096,14 @@ mainbody .fa-star {
 .k-drawer-overlay .k-drawer .k-drawer-wrapper {
   overflow-x: visible !important;
   overflow-y: visible !important;
+}
+
+.k-window-content .xtafnit_pageContainer {
+  height: auto;
+}
+
+.k-window-content .k-grid-content {
+  height: 65vh;
 }
 
 .k-window-content header {

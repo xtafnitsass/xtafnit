@@ -19,6 +19,7 @@ $body-background:#f5f6f8;
 body {
     background-color: $body-background !important;
     font-family: Heebo;
+    height: initial!important;
 }
 
 //chat//
@@ -301,6 +302,12 @@ mainbody {
 
 //menu//
 .k-window-content {
+    .xtafnit_pageContainer{
+        height:auto;
+    }
+    .k-grid-content{
+        height: 65vh;
+    }
     header {
         background-color: #fff !important;
     }
