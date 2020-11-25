@@ -355,6 +355,17 @@ mainbody {
         }
     }
 
+    .cube-wrapper {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                width: 100%;
+            }
+        }
+    }
+
+
     .gridHeaderButton {
         .x-self-container {
 
@@ -818,6 +829,7 @@ mainbody {
             background: transparent !important;
             border: 0;
             border-bottom: 1.5px solid #043563;
+            border-radius: 0px;
         }
 
         .xstyle-checkbox-wrapper {
