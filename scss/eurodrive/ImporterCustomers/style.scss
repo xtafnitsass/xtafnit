@@ -355,6 +355,17 @@ mainbody {
         }
     }
 
+    .cube-wrapper {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                width: 100%;
+            }
+        }
+    }
+
+
     .gridHeaderButton {
         .x-self-container {
 
