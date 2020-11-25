@@ -317,6 +317,17 @@ mainbody {
         }
     }
 
+    .cube-wrapper {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                width: 100%;
+            }
+        }
+    }
+
+
     .gridHeaderButton {
         .x-self-container {
 
@@ -725,6 +736,7 @@ mainbody {
 
         [xid="controlcHello"] {
             padding-top: 120px;
+
             @media only screen and (max-height:950px) {
                 padding-top: 0px;
             }
@@ -762,16 +774,18 @@ mainbody {
             border-radius: 50px !important;
             box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
 
-            @media screen and (min-height:800px){
+            @media screen and (min-height:800px) {
                 margin-top: 195px !important;
             }
+
             @media screen and (min-width:800px) {
                 margin-right: 65px !important;
             }
+
             @media screen and (min-width:1050px) {
                 margin-right: 195px !important;
             }
-            
+
         }
 
         .loginLayout {
@@ -813,6 +827,7 @@ mainbody {
             flex-direction: column;
             max-width: 674px;
             min-height: 690px;
+
             @media only screen and (max-height:950px) {
                 min-height: 480px;
             }
