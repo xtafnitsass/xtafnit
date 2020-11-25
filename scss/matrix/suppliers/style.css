@@ -269,6 +269,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  mainbody .cube-wrapper .x-self-container {
+    width: 100%;
+  }
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
   }
