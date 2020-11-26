@@ -621,6 +621,13 @@ mainbody {
     justify-content: space-between;
 
     .cube {
+        &:first-child {
+            background: $cube-color;
+
+            span {
+                color: $cube-background !important;
+            }
+        }
         color: $cube-color;
         min-height: 164px;
         display: flex;
