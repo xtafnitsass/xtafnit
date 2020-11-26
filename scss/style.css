@@ -766,20 +766,20 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-content {
-  border-color: #ff0000;
+  border-color: #f5f6f8;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
-  background: #fc6868;
-  border-color: #000;
+  background: #fff;
+  border-color: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #ff0000;
+  background: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #ffffff;
+  color: #ff0000;
 }
 
 .k-slider .k-draghandle {
