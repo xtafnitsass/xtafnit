@@ -1421,11 +1421,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-top: 5px;
 }
 
-.cube-wrapper .cube :first-child {
+.cube-wrapper .cube:first-child {
   background: #ca0000;
 }
 
-.cube-wrapper .cube :first-child span {
+.cube-wrapper .cube:first-child span {
   color: #fff !important;
 }
 

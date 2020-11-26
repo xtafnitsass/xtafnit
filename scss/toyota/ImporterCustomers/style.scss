@@ -617,7 +617,7 @@ mainbody {
     justify-content: space-between;
 
     .cube {
-        :first-child {
+        &:first-child {
             background: $cube-color;
 
             span {
