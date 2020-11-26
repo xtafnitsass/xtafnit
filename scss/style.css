@@ -885,12 +885,12 @@ input[type=number] {
 }
 
 .k-upload-status .k-button {
-  color: #3fa535 !important;
+  color: #043563 !important;
 }
 
 .k-upload-status .k-button:hover {
   background: transparent !important;
-  color: #3fa535 !important;
+  color: #043563 !important;
 }
 
 header .k-icon {
@@ -953,30 +953,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-dropdown.x-dropdown-comp {
   height: 37px;
-}
-
-.k-tabstrip:focus {
-  -webkit-box-shadow: 0 0 black;
-          box-shadow: 0 0 black;
-}
-
-.k-tabstrip .x-section-wrraper {
-  border-width: 0px !important;
-}
-
-.k-tabstrip .k-content {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 0 !important;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #3fa535;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #3fa535 !important;
-  font-weight: bold;
 }
 
 .k-pane-wrapper {
@@ -1080,7 +1056,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
-  border-left: 2px solid;
+  border-left: 1px solid #fff;
   margin-left: 5px;
   padding-left: 5px;
 }
@@ -1112,7 +1088,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #3fa535 !important;
+  background: #1387da !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1124,6 +1100,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
+}
+
+.k-button {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
+          box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
+  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
+}
+
+.k-button:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #00559b), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
+  background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -1159,6 +1147,15 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+.k-drawer-overlay .k-drawer {
+  max-height: 100vh !important;
+}
+
+.k-drawer-overlay .k-drawer .k-drawer-wrapper {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+
 .k-tabstrip .x-section-wrraper {
   border-width: 0px !important;
 }
@@ -1170,20 +1167,29 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #3fa535;
+  border-bottom: 4px solid #0469bd;
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #3fa535 !important;
+  color: #0469bd !important;
   font-weight: bold;
 }
 
 .k-window {
   border-radius: 19px;
+  padding-top: 52px !important;
 }
 
 .k-window .k-window-titlebar {
   border: 0;
+}
+
+.k-window .k-window-action {
+  color: #043563 !important;
+}
+
+.k-window .k-window-action:hover {
+  background: #fff !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -1214,7 +1220,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 #MessageBoxWindow #controlCell2Container #controlMessageText {
-  color: #3fa535;
+  color: #043563;
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
@@ -1294,7 +1300,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .white-btn .k-button {
   background: #fff !important;
   background-image: none !important;
-  color: #3fa535 !important;
+  color: #0469bd !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
@@ -1422,7 +1428,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #ca0000;
+  background: #1387da;
 }
 
 .cube-wrapper .cube:first-child span {
@@ -1477,7 +1483,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube .k-icon-wrapper {
-  color: #3fa535;
+  color: #43b1e5;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
@@ -1517,12 +1523,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .border {
   border: 0 !important;
-}
-
-.fontBig .x-dynamic-label-control {
-  line-height: 2.6;
-  margin: 5px 10px;
-  direction: ltr;
 }
 
 .boxShadow {
