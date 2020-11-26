@@ -10,6 +10,7 @@ $cube-description-color:#ca0000;
 $body-background:#f5f6f8;
 
 //------------------------------------------------------------layout//
+
 //body//
 
 body {
@@ -26,13 +27,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -616,6 +617,14 @@ mainbody {
     justify-content: space-between;
 
     .cube {
+        :first-child {
+            background: $cube-color;
+
+            span {
+                color: $cube-background !important;
+            }
+        }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;
