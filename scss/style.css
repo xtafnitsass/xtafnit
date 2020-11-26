@@ -1421,6 +1421,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-top: 5px;
 }
 
+.cube-wrapper .cube:first-child {
+  background: #25a003;
+}
+
+.cube-wrapper .cube:first-child span {
+  color: #fff !important;
+}
+
 .cube-wrapper .cube .font-weight-bold {
   display: -webkit-box;
   display: -ms-flexbox;
