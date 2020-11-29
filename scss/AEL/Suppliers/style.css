@@ -320,21 +320,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.k-window {
-  border-radius: 19px;
-  padding-top: 52px !important;
-}
-
 .k-window .k-window-titlebar {
   border: 0;
-}
-
-.k-window .k-window-action {
-  color: #043563 !important;
-}
-
-.k-window .k-window-action:hover {
-  background: #fff !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {

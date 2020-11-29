@@ -27,13 +27,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -407,19 +407,9 @@ mainbody {
 
 //window//
 .k-window {
-    border-radius: 19px;
-    padding-top: 52px !important;
 
     .k-window-titlebar {
         border: 0;
-    }
-
-    .k-window-action {
-        color: #043563 !important;
-
-        &:hover {
-            background: #fff !important;
-        }
     }
 }
 
@@ -628,6 +618,7 @@ mainbody {
                 color: $cube-background !important;
             }
         }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;
