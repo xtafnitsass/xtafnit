@@ -174,14 +174,14 @@ header .popUpWindowCls {
 
 @forward 'date-picker';
 .k-checkbox {
-  border-radius: 0;
+  border-radius: 4px;
   border-color: #2e2e2e;
   color: #ca0000;
   background: #ebebeb;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
-  border-radius: 0;
+  border-radius: 4px;
   border-color: #2e2e2e;
   color: #ca0000;
   background: #ebebeb;
@@ -202,7 +202,7 @@ header .popUpWindowCls {
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
   background: #ebebeb;
-  border: 1px solid #000 !important;
+  border: 1px solid #000 !important !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
   border-left: 0 !important;
@@ -219,7 +219,7 @@ header .popUpWindowCls {
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
   background: #ebebeb !important;
-  border: 1px solid #000;
+  border: 1px solid #000 !important;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
@@ -1163,11 +1163,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.k-window {
-  border-radius: 19px;
-  padding-top: 52px !important;
-}
-
 .k-window .k-window-titlebar {
   border: 0;
 }
@@ -1648,8 +1643,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+  border: 0 !important;
+  border-bottom: 1.5px solid #043563 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper {

@@ -308,11 +308,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.k-window {
-  border-radius: 19px;
-  padding-top: 52px !important;
-}
-
 .k-window .k-window-titlebar {
   border: 0;
 }
@@ -793,8 +788,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+  border: 0 !important;
+  border-bottom: 1.5px solid #043563 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper {

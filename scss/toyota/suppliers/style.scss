@@ -397,9 +397,6 @@ mainbody {
 
 //window//
 .k-window {
-    border-radius: 19px;
-    padding-top: 52px !important;
-
     .k-window-titlebar {
         border: 0;
     }
@@ -835,8 +832,8 @@ mainbody {
 
         .x-textbox {
             background: transparent !important;
-            border: 0;
-            border-bottom: 1.5px solid #043563;
+            border: 0!important;
+            border-bottom: 1.5px solid #043563!important;
         }
 
         .xstyle-checkbox-wrapper {
