@@ -27,13 +27,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -908,6 +908,13 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
     .grey-btn {
         margin: auto -20px !important;
+    }
+}
+
+//service call create//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate {
+    .k-grid-content {
+        height: 15vh;
     }
 }
 
