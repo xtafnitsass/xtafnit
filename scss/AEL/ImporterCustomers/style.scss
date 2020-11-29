@@ -26,13 +26,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -138,16 +138,21 @@ header {
         height: 37px;
     }
 }
+
 //button//
 
 //button//
-.k-button {
-    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-    background-image: linear-gradient(to top, #172e82 -45%, #00d0ff 164%, #5ce8ff 164%) !important;
-    &:hover {
-        background-image: linear-gradient(to top, #172e82 -45%, #5de1ff 164%, #5ce8ff 164%) !important;
+mainbody {
+    .k-button {
+        box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
+        background-image: linear-gradient(to top, #172e82 -45%, #00d0ff 164%, #5ce8ff 164%) !important;
+
+        &:hover {
+            background-image: linear-gradient(to top, #172e82 -45%, #5de1ff 164%, #5ce8ff 164%) !important;
+        }
     }
 }
+
 
 //tabstrip//
 .k-tabstrip {
@@ -323,7 +328,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: #d1062e !important;
+                        background: #d70002 !important;
                     }
                 }
             }
@@ -632,6 +637,7 @@ mainbody {
                 color: $cube-background !important;
             }
         }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;

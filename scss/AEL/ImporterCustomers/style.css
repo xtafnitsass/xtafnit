@@ -100,14 +100,14 @@ header #kGoBack [xid="controlkGoBack"] > span {
   height: 37px;
 }
 
-.k-button {
+mainbody .k-button {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #172e82), color-stop(164%, #00d0ff), color-stop(164%, #5ce8ff)) !important;
   background-image: linear-gradient(to top, #172e82 -45%, #00d0ff 164%, #5ce8ff 164%) !important;
 }
 
-.k-button:hover {
+mainbody .k-button:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #172e82), color-stop(164%, #5de1ff), color-stop(164%, #5ce8ff)) !important;
   background-image: linear-gradient(to top, #172e82 -45%, #5de1ff 164%, #5ce8ff 164%) !important;
 }
@@ -269,7 +269,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #d1062e !important;
+  background: #d70002 !important;
 }
 
 .k-datepicker .k-picker-wrap {
