@@ -48,26 +48,26 @@
 
 @forward 'button';
 .k-autocomplete {
-  border-radius: 15px;
+  border-radius: 0px;
   border: 0;
 }
 
 .k-autocomplete.k-state-border-down .k-input {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete.k-state-focused {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete .k-textbox {
   background: #F0F0F0 !important;
-  border-radius: 15px;
-  border: 1px solid #000 !important;
+  border-radius: 0px;
+  border: 0;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #000;
   color: #000;
 }
 
@@ -149,7 +149,7 @@ header .popUpWindowCls {
 
 .k-datepicker .k-picker-wrap {
   background: #ebebeb;
-  border: 1px solid #282830;
+  border: 1px solid #000;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
@@ -167,9 +167,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #ebebeb;
   color: #000;
-  border: 1px solid #282830;
-  border-bottom: 0 !important;
-  border-radius: 3px !important;
+  border: 0;
+  border-bottom: 1px solid #000 !important;
+  border-radius: 0 !important;
 }
 
 @forward 'date-picker';
@@ -202,13 +202,13 @@ header .popUpWindowCls {
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
   background: #ebebeb;
-  border: 1px solid #000 !important !important;
+  border: 0 !important;
   border-top: 0 !important;
-  border-bottom: 0 !important;
+  border-bottom: 1px solid #000 !important;
   border-left: 0 !important;
   border-right: 0 !important;
   color: #000;
-  border-radius: 15px !important;
+  border-radius: 0px !important;
   margin: 0;
 }
 
@@ -219,13 +219,13 @@ header .popUpWindowCls {
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
   background: #ebebeb !important;
-  border: 1px solid #000 !important;
+  border: 0;
   border-top: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #000;
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
@@ -359,7 +359,7 @@ mainbody .x-section-header-wrraper {
 @forward 'k-animator-container';
 .k-dropdown {
   background: transparent;
-  border-bottom: 1px solid #2e2e2e;
+  border-bottom: 1px solid #000;
   border-radius: 0;
 }
 
@@ -492,7 +492,7 @@ mainbody .x-section-header-wrraper {
   max-width: 100%;
   float: right !important;
   border: 1px solid #ccc !important;
-  border-radius: 1px solid #ccc !important;
+  border-radius: 0 !important;
 }
 
 .k-grid .k-grid-header {
@@ -693,7 +693,7 @@ mainbody .x-section-header-wrraper {
 @forward 'k-filter-container';
 .k-timepicker .k-picker-wrap {
   border: 0;
-  border-bottom: 1px solid #2e2e2e;
+  border-bottom: 1px solid #000;
 }
 
 .k-timepicker .k-picker-wrap input {
@@ -711,7 +711,7 @@ input[type="time"] {
   width: 100%;
   border: 0;
   background: #ebebeb;
-  border-bottom: 1px solid #2e2e2e !important;
+  border-bottom: 1px solid #000 !important;
   border-radius: 0px !important;
 }
 
