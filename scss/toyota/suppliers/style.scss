@@ -45,11 +45,11 @@ input[type=number] {
 
 .k-upload-status {
     .k-button {
-        color: #043563 !important;
+        color: #ca0000 !important;
 
         &:hover {
             background: transparent !important;
-            color: #043563 !important;
+            color: #ca0000 !important;
         }
     }
 }
@@ -67,7 +67,7 @@ header {
         [xid="controlkGoBack"] {
             width: 30px;
             height: 30px;
-            background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+            background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
             border-radius: 50%;
             text-align: center;
 
@@ -286,7 +286,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: #1387da !important;
+                        background: #282830 !important;
                     }
                 }
             }
@@ -310,16 +310,6 @@ mainbody {
     }
 
 
-}
-
-//button//
-.k-button {
-    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-    background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-
-    &:hover {
-        background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
-    }
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -395,10 +385,10 @@ mainbody {
 
     .k-tabstrip-items {
         .k-item.k-state-active {
-            border-bottom: 4px solid #0469bd;
+            border-bottom: 4px solid #ca0000;
 
             .k-link {
-                color: #0469bd !important;
+                color: #ca0000 !important;
                 font-weight: bold;
             }
         }
@@ -526,7 +516,7 @@ mainbody {
     .k-button {
         background: #fff !important;
         background-image: none !important;
-        color: #0469bd !important;
+        color: #ca0000 !important;
         box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 
         &:hover {
@@ -622,7 +612,7 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: #1387da;
+            background: $cube-color;
 
             span {
                 color: $cube-background !important;
