@@ -312,14 +312,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0;
 }
 
-.k-window .k-window-action {
-  color: #043563 !important;
-}
-
-.k-window .k-window-action:hover {
-  background: #fff !important;
-}
-
 #MessageBoxWindow #buttonbtn1 {
   float: left;
 }
@@ -786,10 +778,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox {
+  border-bottom: 1.5px solid #043563 !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
   background: transparent !important;
   border: 0 !important;
-  border-bottom: 1.5px solid #043563 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper {

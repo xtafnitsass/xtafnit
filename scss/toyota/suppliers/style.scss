@@ -27,13 +27,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -400,14 +400,6 @@ mainbody {
     .k-window-titlebar {
         border: 0;
     }
-
-    .k-window-action {
-        color: #043563 !important;
-
-        &:hover {
-            background: #fff !important;
-        }
-    }
 }
 
 //messagebox//
@@ -615,6 +607,7 @@ mainbody {
                 color: $cube-background !important;
             }
         }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;
@@ -718,9 +711,10 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login {
 
     mainbody {
-        .k-textbox{
-            border-radius: 0px!important;
+        .k-textbox {
+            border-radius: 0px !important;
         }
+
         .checkboxHorizontal {
             >div {
                 >div {
@@ -830,10 +824,17 @@ mainbody {
             }
         }
 
+        .x-text-control-container {
+            .x-textbox {
+                border-bottom: 1.5px solid #043563 !important;
+            }
+
+        }
+
         .x-textbox {
             background: transparent !important;
-            border: 0!important;
-            border-bottom: 1.5px solid #043563!important;
+            border: 0 !important;
+
         }
 
         .xstyle-checkbox-wrapper {
