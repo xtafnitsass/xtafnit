@@ -1728,4 +1728,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 0px;
   margin-left: 20px;
 }
+
+[xid="Cell_Container_controllTitle"],
+[xid="Cell_Container_controlbPrint"] {
+  display: inline-block;
+}
+
+[xid="Cell_Container_controlbPrint"] {
+  float: left;
+}
 /*# sourceMappingURL=style.css.map */

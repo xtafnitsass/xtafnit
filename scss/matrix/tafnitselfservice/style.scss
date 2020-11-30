@@ -935,3 +935,13 @@ mainbody {
     margin-right: 0px;
     margin-left: 20px;
 }
+
+//print button //
+[xid="Cell_Container_controllTitle"],
+[xid="Cell_Container_controlbPrint"] {
+    display: inline-block;
+}
+
+[xid="Cell_Container_controlbPrint"] {
+    float: left;
+}
