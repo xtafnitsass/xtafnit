@@ -1088,7 +1088,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #1387da !important;
+  background: #3fa535 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1100,18 +1100,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
-}
-
-.k-button {
-  -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-          box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-}
-
-.k-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #00559b), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -1175,21 +1163,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.k-window {
-  border-radius: 19px;
-  padding-top: 52px !important;
-}
-
 .k-window .k-window-titlebar {
   border: 0;
-}
-
-.k-window .k-window-action {
-  color: #043563 !important;
-}
-
-.k-window .k-window-action:hover {
-  background: #fff !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -1428,7 +1403,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #1387da;
+  background: #3fa535;
 }
 
 .cube-wrapper .cube:first-child span {

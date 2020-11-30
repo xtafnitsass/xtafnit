@@ -286,7 +286,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: #1387da !important;
+                        background: #3fa535 !important;
                     }
                 }
             }
@@ -310,16 +310,6 @@ mainbody {
     }
 
 
-}
-
-//button//
-.k-button {
-    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-    background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-
-    &:hover {
-        background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
-    }
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -407,19 +397,8 @@ mainbody {
 
 //window//
 .k-window {
-    border-radius: 19px;
-    padding-top: 52px !important;
-
     .k-window-titlebar {
         border: 0;
-    }
-
-    .k-window-action {
-        color: #043563 !important;
-
-        &:hover {
-            background: #fff !important;
-        }
     }
 }
 
@@ -622,7 +601,7 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: #1387da;
+            background: $cube-color;
 
             span {
                 color: $cube-background !important;
