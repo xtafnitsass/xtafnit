@@ -67,6 +67,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-header-wrap a.k-link {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-header-wrap th {
