@@ -16,7 +16,6 @@ $body-background:#f5f6f8;
 body {
     background-color: $body-background !important;
     font-family: Heebo;
-    height: initial !important;
 
     @media only screen and (max-width:1050px) {
         background-position: left;
@@ -704,7 +703,9 @@ mainbody {
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
-
+    body{
+        height: initial !important;
+    }
     mainbody {
 
         .checkboxHorizontal {

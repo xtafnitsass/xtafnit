@@ -2,7 +2,6 @@
 body {
   background-color: #f5f6f8 !important;
   font-family: Heebo;
-  height: initial !important;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -651,6 +650,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login body {
+  height: initial !important;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
