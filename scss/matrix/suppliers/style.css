@@ -254,8 +254,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #00559b), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
+  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -908,11 +908,11 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #00559b;
+  background-color: #0469bd;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #00559b;
-  box-shadow: 0px 0px 41px -28px #00559b;
+  -webkit-box-shadow: 0px 0px 41px -28px #0469bd;
+  box-shadow: 0px 0px 41px -28px #0469bd;
 }
 /*# sourceMappingURL=style.css.map */
