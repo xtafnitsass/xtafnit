@@ -652,10 +652,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login body {
-  height: initial !important;
-}
-
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div {
     -webkit-box-flex: 0 !important;
