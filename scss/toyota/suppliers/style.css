@@ -880,4 +880,21 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 0px;
   margin-left: 20px;
 }
+
+/*splash -- resource loader*/
+progress[value]::-webkit-progress-bar {
+  background-color: #f2ebf6;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #ca0000;
+}
+
+#progressBoxShadow {
+  -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
+  box-shadow: 0px 0px 41px -28px #ca0000;
+}
 /*# sourceMappingURL=style.css.map */
