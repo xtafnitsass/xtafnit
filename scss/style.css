@@ -857,7 +857,6 @@ input[type="time"] {
 body {
   background-color: #f5f6f8 !important;
   font-family: Heebo;
-  height: initial !important;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1789,5 +1788,22 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 [xid="controlcgCloud"] {
   margin-right: 0px;
   margin-left: 20px;
+}
+
+/*splash -- resource loader*/
+progress[value]::-webkit-progress-bar {
+  background-color: #f2ebf6;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #0469bd;
+}
+
+#progressBoxShadow {
+  -webkit-box-shadow: 0px 0px 41px -28px #0469bd;
+  box-shadow: 0px 0px 41px -28px #0469bd;
 }
 /*# sourceMappingURL=style.css.map */
