@@ -24,6 +24,7 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #d70002;
@@ -79,7 +80,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #f5f6f8;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
@@ -954,18 +955,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
   height: 37px;
 }
 
-mainbody .k-button {
-  -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-          box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #172e82), color-stop(164%, #00d0ff), color-stop(164%, #5ce8ff)) !important;
-  background-image: linear-gradient(to top, #172e82 -45%, #00d0ff 164%, #5ce8ff 164%) !important;
-}
-
-mainbody .k-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #172e82), color-stop(164%, #5de1ff), color-stop(164%, #5ce8ff)) !important;
-  background-image: linear-gradient(to top, #172e82 -45%, #5de1ff 164%, #5ce8ff 164%) !important;
-}
-
 .k-tabstrip:focus {
   -webkit-box-shadow: 0 0 black;
           box-shadow: 0 0 black;
@@ -1123,7 +1112,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #d70002 !important;
+  background: #d1062e !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1135,6 +1124,31 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.k-timeselector .k-time-now {
+  color: #d1062e !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-title {
+  color: #d1062e !important;
+}
+
+.k-timeselector .k-time-list-wrapper.k-state-focused {
+  -webkit-box-shadow: inset 0 0 3px 1px #d1062e !important;
+          box-shadow: inset 0 0 3px 1px #d1062e !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
+  color: #d1062e !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-container .k-item {
+  background: none !important;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -1256,7 +1270,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .loginTitle {
   font-size: 55px;
-  color: #d1062e;
+  color: #043563;
 }
 
 @media screen and (max-width: 1050px) {
@@ -1268,7 +1282,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .loginTitle2 {
   font-size: 31px;
   font-weight: bold;
-  color: #d1062e;
+  color: #043563;
   letter-spacing: 1.35px;
 }
 
@@ -1312,6 +1326,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .white-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.dotIcon {
+  position: absolute;
+  bottom: 51%;
+  width: auto;
+  left: 23px;
+  z-index: 10003;
 }
 
 .grey-btn {
@@ -1799,11 +1821,13 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #0469bd;
+  background-color: #d1062e;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #0469bd;
-  box-shadow: 0px 0px 41px -28px #0469bd;
+  -webkit-box-shadow: 0px 0px 41px -28px #d1062e;
+          box-shadow: 0px 0px 41px -28px #d1062e;
 }
+
+@forward 'importer-customers';
 /*# sourceMappingURL=style.css.map */
