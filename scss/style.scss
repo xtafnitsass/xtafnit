@@ -54,13 +54,13 @@ $k-filter-edited-numeric-arrow-background-color:#f00;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #0082c5!important;
-$btn-background-hover: #006699!important;
+$btn-background: #0082c5 !important;
+$btn-background-hover: #006699 !important;
 $btn-border-radius: 20px;
 $btn-border: 1px solid #0082c5;
-$btn-color: #fff!important;
+$btn-color: #fff !important;
 $btn-font-weight: normal;
-$btn-color-hover:#F0F0F0!important;
+$btn-color-hover:#F0F0F0 !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
@@ -257,10 +257,57 @@ $freehand-color: #000;
 $freehand-background: #c00000;
 $freehand-border-color:#c00000;
 
+/*layout*/
+
+$cube-background:#fff;
+$cube-color:#0082c5;
+$clock-color:#0082c5;
+$top-panel-background:#ffffff;
+$header-color:#043563;
+$x-cell-header-color:#043563;
+$cube-description-color:#0082c5;
+$body-background:#f5f6f8;
+$upload-button:#0082c5;
+$tabstrip:#0082c5;
+$drawer:#0082c5;
+$timeselector:#0082c5;
+$messageText:#0082c5;
+$timeselector:#0082c5;
+$loginTitle:#043563;
+$loginTitle2:#043563;
+$white-btn:#0082c5;
+$icon-wrapper:#0082c5;
+$progress-empty:#f2ebf6;
+$progress-fill:#0082c5;
+$progress-shadow:#0082c5;
+
+/*suppliers*/
+
+$suppliers-cube-background:#fff;
+$suppliers-cube-color:#ca0000;
+$suppliers-clock-color:#ca0000;
+$suppliers-top-panel-background:#ffffff;
+$suppliers-header-color:#043563;
+$suppliers-x-cell-header-color:#043563;
+$suppliers-cube-description-color:#ca0000;
+$suppliers-body-background:#f5f6f8;
+$suppliers-upload:#ca0000;
+$suppliers-drawer:#282830;
+$suppliers-tabstrip:#ca0000;
+$suppliers-message-text:#043563;
+$suppliers-loginTitle:#043563;
+$suppliers-loginTitle2:#043563;
+$suppliers-white-btn:#ca0000;
+$suppliers-k-icon:#43b1e5;
+$suppliers-x-textbox:#043563;
+$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-fill:#ca0000;
+$suppliers-progress-shadow:#ca0000;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
-
-@import './opl/ImporterCustomers/style';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard',
+'./importer-customers';
+// './suppliers';
