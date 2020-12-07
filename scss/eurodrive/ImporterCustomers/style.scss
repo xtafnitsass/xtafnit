@@ -25,13 +25,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -339,6 +339,44 @@ mainbody {
 
 }
 
+//timepicker//
+
+.xstyle-timepicker-wrapper {
+    .k-timepicker {
+        width: 100%;
+    }
+}
+
+.k-timeselector {
+    .k-time-now {
+        color: #25a003 !important;
+    }
+
+    .k-time-list-wrapper {
+        .k-title {
+            color: #25a003 !important;
+        }
+
+        &.k-state-focused {
+            box-shadow: inset 0 0 3px 1px #25a003 !important;
+        }
+
+        .k-time-list {
+            .k-item {
+                &:hover {
+                    color: #25a003 !important;
+                }
+            }
+
+        }
+        .k-time-container{
+            .k-item{
+                background: none!important;
+            }
+        }
+    }
+}
+
 .xstyle-buttoncontrol-wrapper {
     padding: 5px;
 }
@@ -531,12 +569,12 @@ mainbody {
     }
 }
 
-.dotIcon{
+.dotIcon {
     position: absolute;
     bottom: 51%;
     width: auto;
     left: 23px;
-    z-index: 99999;
+    z-index: 10003;
 }
 
 .grey-btn {
@@ -630,6 +668,7 @@ mainbody {
                 color: $cube-background !important;
             }
         }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;
@@ -994,13 +1033,15 @@ mainbody {
 progress[value]::-webkit-progress-bar {
     background-color: #f2ebf6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  }
+}
+
 progress[value]::-webkit-progress-value {
-    background-image:none!important;
-    background-color:#25a003;
-  }
-#progressBoxShadow{
-	-webkit-box-shadow: 0px 0px 41px -28px #25a003;
-	-moz-box-shadow: 0px 0px 41px -28px #25a003;
-    box-shadow: 0px 0px 41px -28px #25a003;	
+    background-image: none !important;
+    background-color: #25a003;
+}
+
+#progressBoxShadow {
+    -webkit-box-shadow: 0px 0px 41px -28px #25a003;
+    -moz-box-shadow: 0px 0px 41px -28px #25a003;
+    box-shadow: 0px 0px 41px -28px #25a003;
 }

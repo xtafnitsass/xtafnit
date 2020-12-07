@@ -270,6 +270,31 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   height: 37px;
 }
 
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.k-timeselector .k-time-now {
+  color: #25a003 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-title {
+  color: #25a003 !important;
+}
+
+.k-timeselector .k-time-list-wrapper.k-state-focused {
+  -webkit-box-shadow: inset 0 0 3px 1px #25a003 !important;
+          box-shadow: inset 0 0 3px 1px #25a003 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
+  color: #25a003 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-container .k-item {
+  background: none !important;
+}
+
 .xstyle-buttoncontrol-wrapper {
   padding: 5px;
 }
@@ -452,7 +477,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   bottom: 51%;
   width: auto;
   left: 23px;
-  z-index: 99999;
+  z-index: 10003;
 }
 
 .grey-btn {
