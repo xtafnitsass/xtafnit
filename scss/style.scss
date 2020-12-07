@@ -66,12 +66,12 @@ $btn-focus-border-color:transparent;
 
 /*autocomplete*/
 $autocomplete-input-background: #F0F0F0;
-$autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #000 !important;
+$autocomplete-input-border-radius: 0;
+$autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:0;
+$autocomplete-input-border-bottom:1px solid #000;
 $autocomplete-input-color: #000;
 
 /*calendar*/
@@ -94,14 +94,14 @@ $calendar-dates-color:#ca0000;
 /*date-picker*/
 
 $date-picker-background:#ebebeb;
-$date-picker-border:1px solid #282830;
+$date-picker-border:0;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#2e2e2e;
 $date-picker-icon-color:#ebebeb;
 $date-picker-icon-border-color:#2e2e2e;
-$date-mobile-border:1px solid #282830;
-$date-mobile-border-bottom:0;
-$date-mobile-border-radius:3px;
+$date-mobile-border:0;
+$date-mobile-border-bottom:1px solid #282830;
+$date-mobile-border-radius:0;
 
 /*checkbox*/
 
@@ -114,13 +114,13 @@ $checkbox-box-shadow : none;
 /*textbox*/
 
 $textbox-background:#ebebeb;
-$textbox-border:1px solid #000;
+$textbox-border:0;
 $textbox-border-top:0;
-$textbox-border-bottom:0;
+$textbox-border-bottom:1px solid #000;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
-$textbox-radius:15px;
+$textbox-radius:0px;
 $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
@@ -270,7 +270,7 @@ $cube-description-color:#c00000;
 $body-background:#f5f6f8;
 $upload-button:#c00000;
 $tabstrip:#c00000;
-$drawer:#c00000;
+$drawer:#282830;
 $timeselector:#c00000;
 $messageText:#c00000;
 $timeselector:#c00000;
