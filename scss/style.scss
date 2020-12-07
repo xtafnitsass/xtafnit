@@ -257,10 +257,57 @@ $freehand-color: #000;
 $freehand-background: #c00000;
 $freehand-border-color:#c00000;
 
+/*layout*/
+
+$cube-background:#fff;
+$cube-color:#c00000;
+$clock-color:#c00000;
+$top-panel-background:#ffffff;
+$header-color:#043563;
+$x-cell-header-color:#043563;
+$cube-description-color:#c00000;
+$body-background:#f5f6f8;
+$upload-button:#c00000;
+$tabstrip:#c00000;
+$drawer:#c00000;
+$timeselector:#c00000;
+$messageText:#c00000;
+$timeselector:#c00000;
+$loginTitle:#043563;
+$loginTitle2:#043563;
+$white-btn:#c00000;
+$icon-wrapper:#c00000;
+$progress-empty:#f2ebf6;
+$progress-fill:#c00000;
+$progress-shadow:#c00000;
+
+/*suppliers*/
+
+$suppliers-cube-background:#fff;
+$suppliers-cube-color:#043563;
+$suppliers-clock-color:#043563;
+$suppliers-top-panel-background:#ffffff;
+$suppliers-header-color:#043563;
+$suppliers-x-cell-header-color:#043563;
+$suppliers-cube-description-color:#043563;
+$suppliers-body-background:#f5f6f8;
+$suppliers-upload:#043563;
+$suppliers-drawer:#282830;
+$suppliers-tabstrip:#043563;
+$suppliers-message-text:#043563;
+$suppliers-loginTitle:#043563;
+$suppliers-loginTitle2:#043563;
+$suppliers-white-btn:#043563;
+$suppliers-k-icon:#43b1e5;
+$suppliers-x-textbox:#043563;
+$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-fill:#043563;
+$suppliers-progress-shadow:#043563;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
-
-@import './carasso/suppliers/style'
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard',
+// './importer-customers';
+'./suppliers';

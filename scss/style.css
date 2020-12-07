@@ -24,6 +24,8 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
+/*suppliers*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -79,7 +81,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
@@ -903,8 +905,8 @@ header #kGoBack {
 header #kGoBack [xid="controlkGoBack"] {
   width: 30px;
   height: 30px;
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
   border-radius: 50%;
   text-align: center;
 }
@@ -1087,7 +1089,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #1387da !important;
+  background: #282830 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1099,18 +1101,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
-}
-
-.k-button {
-  -webkit-box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-          box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-}
-
-.k-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #00559b), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -1166,29 +1156,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #0469bd;
+  border-bottom: 4px solid #043563;
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #0469bd !important;
+  color: #043563 !important;
   font-weight: bold;
-}
-
-.k-window {
-  border-radius: 19px;
-  padding-top: 52px !important;
 }
 
 .k-window .k-window-titlebar {
   border: 0;
-}
-
-.k-window .k-window-action {
-  color: #043563 !important;
-}
-
-.k-window .k-window-action:hover {
-  background: #fff !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -1299,7 +1276,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .white-btn .k-button {
   background: #fff !important;
   background-image: none !important;
-  color: #0469bd !important;
+  color: #043563 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
@@ -1427,7 +1404,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #1387da;
+  background: #043563;
 }
 
 .cube-wrapper .cube:first-child span {
@@ -1540,7 +1517,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox {
   border-radius: 0px !important;
 }
 
@@ -1657,10 +1634,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox, #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox {
+  border-bottom: 1.5px solid #043563 !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+  border: 0 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper {
@@ -1767,11 +1747,13 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #0469bd;
+  background-color: #043563;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #0469bd;
-  box-shadow: 0px 0px 41px -28px #0469bd;
+  -webkit-box-shadow: 0px 0px 41px -28px #043563;
+          box-shadow: 0px 0px 41px -28px #043563;
 }
+
+@forward 'suppliers';
 /*# sourceMappingURL=style.css.map */
