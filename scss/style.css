@@ -24,6 +24,8 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
+/*suppliers*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #3fa535;
@@ -79,7 +81,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #f5f6f8;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
@@ -884,12 +886,12 @@ input[type=number] {
 }
 
 .k-upload-status .k-button {
-  color: #043563 !important;
+  color: #3fa535 !important;
 }
 
 .k-upload-status .k-button:hover {
   background: transparent !important;
-  color: #043563 !important;
+  color: #3fa535 !important;
 }
 
 header .k-icon {
@@ -903,8 +905,8 @@ header #kGoBack {
 header #kGoBack [xid="controlkGoBack"] {
   width: 30px;
   height: 30px;
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
   border-radius: 50%;
   text-align: center;
 }
@@ -1087,7 +1089,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #3fa535 !important;
+  background: #282830 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1154,11 +1156,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #0469bd;
+  border-bottom: 4px solid #3fa535;
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #0469bd !important;
+  color: #3fa535 !important;
   font-weight: bold;
 }
 
@@ -1274,7 +1276,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .white-btn .k-button {
   background: #fff !important;
   background-image: none !important;
-  color: #0469bd !important;
+  color: #3fa535 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
@@ -1632,10 +1634,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox, #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox {
+  border-bottom: 1.5px solid #043563 !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+  border: 0 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper {
@@ -1747,6 +1752,8 @@ progress[value]::-webkit-progress-value {
 
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #3fa535;
-  box-shadow: 0px 0px 41px -28px #3fa535;
+          box-shadow: 0px 0px 41px -28px #3fa535;
 }
+
+@forward 'suppliers';
 /*# sourceMappingURL=style.css.map */
