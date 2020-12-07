@@ -24,6 +24,7 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #3fa535;
@@ -79,7 +80,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #f5f6f8;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
@@ -1125,6 +1126,31 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   height: 37px;
 }
 
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.k-timeselector .k-time-now {
+  color: #3fa535 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-title {
+  color: #3fa535 !important;
+}
+
+.k-timeselector .k-time-list-wrapper.k-state-focused {
+  -webkit-box-shadow: inset 0 0 3px 1px #3fa535 !important;
+          box-shadow: inset 0 0 3px 1px #3fa535 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
+  color: #3fa535 !important;
+}
+
+.k-timeselector .k-time-list-wrapper .k-time-container .k-item {
+  background: none !important;
+}
+
 .xstyle-buttoncontrol-wrapper {
   padding: 5px;
 }
@@ -1300,6 +1326,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .white-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.dotIcon {
+  position: absolute;
+  bottom: 51%;
+  width: auto;
+  left: 23px;
+  z-index: 10003;
 }
 
 .grey-btn {
@@ -1792,6 +1826,8 @@ progress[value]::-webkit-progress-value {
 
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #3fa535;
-  box-shadow: 0px 0px 41px -28px #3fa535;
+          box-shadow: 0px 0px 41px -28px #3fa535;
 }
+
+@forward 'importer-customers';
 /*# sourceMappingURL=style.css.map */
