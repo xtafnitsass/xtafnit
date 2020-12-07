@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
-$cube-background:#fff;
-$cube-color:#d1062e;
-$clock-color:#d1062e;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#d1062e;
-$body-background:#f5f6f8;
+$cube-background:#fff !default;
+$cube-color:#25a003 !default;
+$clock-color:#25a003 !default;
+$top-panel-background:#ffffff !default;
+$header-color:#043563 !default;
+$x-cell-header-color:#043563 !default;
+$cube-description-color:#25a003 !default;
+$body-background:#f5f6f8 !default;
+$upload-button:#25a003 !default;
+$tabstrip:#25a003 !default;
+$drawer:#25a003 !default;
+$timeselector:#25a003 !default;
+$messageText:#25a003 !default;
+$timeselector:#25a003 !default;
+$loginTitle:#043563 !default;
+$loginTitle2:#043563 !default;
+$white-btn:#25a003 !default;
+$icon-wrapper:#25a003 !default;
+$progress-empty:#f2ebf6 !default;
+$progress-fill:#25a003 !default;
+$progress-shadow:#25a003 !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -25,13 +38,13 @@ body {
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /*remove input numeric arrows Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .pageImage {
@@ -43,11 +56,11 @@ input[type=number] {
 
 .k-upload-status {
     .k-button {
-        color: #d1062e !important;
+        color: $upload-button !important;
 
         &:hover {
             background: transparent !important;
-            color: #d1062e !important;
+            color: $upload-button !important;
         }
     }
 }
@@ -157,10 +170,10 @@ header {
 
     .k-tabstrip-items {
         .k-item.k-state-active {
-            border-bottom: 4px solid #d1062e;
+            border-bottom: 4px solid $tabstrip;
 
             .k-link {
-                color: #d1062e !important;
+                color: $tabstrip !important;
                 font-weight: bold;
             }
         }
@@ -313,7 +326,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: #d1062e !important;
+                        background: $drawer !important;
                     }
                 }
             }
@@ -337,6 +350,45 @@ mainbody {
     }
 
 
+}
+
+//timepicker//
+
+.xstyle-timepicker-wrapper {
+    .k-timepicker {
+        width: 100%;
+    }
+}
+
+.k-timeselector {
+    .k-time-now {
+        color: $timeselector !important;
+    }
+
+    .k-time-list-wrapper {
+        .k-title {
+            color: $timeselector !important;
+        }
+
+        &.k-state-focused {
+            box-shadow: inset 0 0 3px 1px $timeselector !important;
+        }
+
+        .k-time-list {
+            .k-item {
+                &:hover {
+                    color: $timeselector !important;
+                }
+            }
+
+        }
+
+        .k-time-container {
+            .k-item {
+                background: none !important;
+            }
+        }
+    }
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -403,10 +455,10 @@ mainbody {
 
     .k-tabstrip-items {
         .k-item.k-state-active {
-            border-bottom: 4px solid #d1062e;
+            border-bottom: 4px solid $timeselector;
 
             .k-link {
-                color: #d1062e !important;
+                color: $timeselector !important;
                 font-weight: bold;
             }
         }
@@ -447,7 +499,7 @@ mainbody {
         text-align: center;
 
         #controlMessageText {
-            color: #d1062e;
+            color: $messageText;
         }
     }
 
@@ -478,7 +530,7 @@ mainbody {
 
 .loginTitle {
     font-size: 55px;
-    color: #d1062e;
+    color: $loginTitle;
 
     @media screen and (max-width:1050px) {
         font-size: 40px;
@@ -488,7 +540,7 @@ mainbody {
 .loginTitle2 {
     font-size: 31px;
     font-weight: bold;
-    color: #d1062e;
+    color: $loginTitle2;
     letter-spacing: 1.35px;
 
     @media screen and (max-width:1050px) {
@@ -522,13 +574,21 @@ mainbody {
     .k-button {
         background: #fff !important;
         background-image: none !important;
-        color: #d1062e !important;
+        color: $white-btn !important;
         box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 
         &:hover {
             background: #f5f3f3 !important;
         }
     }
+}
+
+.dotIcon {
+    position: absolute;
+    bottom: 51%;
+    width: auto;
+    left: 23px;
+    z-index: 10003;
 }
 
 .grey-btn {
@@ -622,6 +682,7 @@ mainbody {
                 color: $cube-background !important;
             }
         }
+
         color: $cube-color;
         min-height: 164px;
         display: flex;
@@ -667,7 +728,7 @@ mainbody {
         }
 
         .k-icon-wrapper {
-            color: #d1062e;
+            color: $icon-wrapper;
         }
 
         >div {
@@ -980,18 +1041,22 @@ mainbody {
     margin-left: 20px;
 }
 
+
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
-    background-color: #f2ebf6;
+    background-color: $progress-empty;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  }
-progress[value]::-webkit-progress-value {
-    background-image:none!important;
-    background-color:#d1062e;
-  }
-#progressBoxShadow{
-	-webkit-box-shadow: 0px 0px 41px -28px #d1062e;
-	-moz-box-shadow: 0px 0px 41px -28px #d1062e;
-    box-shadow: 0px 0px 41px -28px #d1062e;	
 }
+
+progress[value]::-webkit-progress-value {
+    background-image: none !important;
+    background-color: $progress-fill;
+}
+
+#progressBoxShadow {
+    box-shadow: 0px 0px 41px -28px $progress-shadow;
+}
+
+
+@forward 'importer-customers';
