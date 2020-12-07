@@ -531,6 +531,14 @@ mainbody {
     }
 }
 
+.dotIcon{
+    position: absolute;
+    bottom: 51%;
+    width: auto;
+    left: 23px;
+    z-index: 99999;
+}
+
 .grey-btn {
     margin: auto -15px;
 
