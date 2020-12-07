@@ -1,20 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
-$cube-background:#fff;
-$cube-color:#d1062e;
-$clock-color:#d1062e;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#d1062e;
-$body-background:#f5f6f8;
-
+$suppliers-cube-background:#fff !default;
+$suppliers-cube-color:#ca0000 !default;
+$suppliers-clock-color:#ca0000 !default;
+$suppliers-top-panel-background:#ffffff !default;
+$suppliers-header-color:#043563 !default;
+$suppliers-x-cell-header-color:#043563 !default;
+$suppliers-cube-description-color:#ca0000 !default;
+$suppliers-body-background:#f5f6f8 !default;
+$suppliers-upload:#ca0000 !default;
+$suppliers-drawer:#282830 !default;
+$suppliers-tabstrip:#ca0000 !default;
+$suppliers-message-text:#043563 !default;
+$suppliers-loginTitle:#043563 !default;
+$suppliers-loginTitle2:#043563 !default;
+$suppliers-white-btn:#ca0000 !default;
+$suppliers-k-icon:#43b1e5 !default;
+$suppliers-x-textbox:#043563 !default;
+$suppliers-progress-empty:#f2ebf6 !default;
+$suppliers-progress-fill:#ca0000 !default;
+$suppliers-progress-shadow:#ca0000 !default;
 //------------------------------------------------------------layout//
 
 //body//
 
 body {
-    background-color: $body-background !important;
+    background-color: $suppliers-body-background !important;
     font-family: Heebo;
 
     @media only screen and (max-width:1050px) {
@@ -44,11 +55,11 @@ input[type=number] {
 
 .k-upload-status {
     .k-button {
-        color: #043563 !important;
+        color: $suppliers-upload !important;
 
         &:hover {
             background: transparent !important;
-            color: #043563 !important;
+            color: $suppliers-upload !important;
         }
     }
 }
@@ -57,7 +68,7 @@ input[type=number] {
 
 header {
     .k-icon {
-        color: $header-color;
+        color: $suppliers-header-color;
     }
 
     #kGoBack {
@@ -66,7 +77,7 @@ header {
         [xid="controlkGoBack"] {
             width: 30px;
             height: 30px;
-            background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+            background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
             border-radius: 50%;
             text-align: center;
 
@@ -113,14 +124,14 @@ header {
     margin: 5px auto;
     font-size: 18px;
     min-height: 25px;
-    color: $x-cell-header-color;
+    color: $suppliers-x-cell-header-color;
     font-family: Heebo !important;
     font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
-    color: $x-cell-header-color;
+    color: $suppliers-x-cell-header-color;
     font-family: Heebo !important;
 }
 
@@ -147,7 +158,7 @@ header {
 //top panel background//
 mainbody {
     .greyPanel {
-        background: $top-panel-background;
+        background: $suppliers-top-panel-background;
 
         .first-col {
             display: flex;
@@ -285,7 +296,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: #d70002 !important;
+                        background: $suppliers-drawer !important;
                     }
                 }
             }
@@ -309,16 +320,6 @@ mainbody {
     }
 
 
-}
-
-//button//
-.k-button {
-    box-shadow: 0 0 30px 0 rgba(0, 90, 166, 0.16);
-    background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-
-    &:hover {
-        background-image: linear-gradient(to top, #00559b -45%, #25abfd 164%, #63c4ff 164%) !important;
-    }
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -394,10 +395,10 @@ mainbody {
 
     .k-tabstrip-items {
         .k-item.k-state-active {
-            border-bottom: 4px solid #0469bd;
+            border-bottom: 4px solid $suppliers-tabstrip;
 
             .k-link {
-                color: #0469bd !important;
+                color: $suppliers-tabstrip !important;
                 font-weight: bold;
             }
         }
@@ -406,7 +407,6 @@ mainbody {
 
 //window//
 .k-window {
-
     .k-window-titlebar {
         border: 0;
     }
@@ -471,7 +471,7 @@ mainbody {
 
 .loginTitle {
     font-size: 55px;
-    color: #043563;
+    color: $suppliers-loginTitle;
 
     @media screen and (max-width:1050px) {
         font-size: 40px;
@@ -481,7 +481,7 @@ mainbody {
 .loginTitle2 {
     font-size: 31px;
     font-weight: bold;
-    color: #043563;
+    color: $suppliers-loginTitle2;
     letter-spacing: 1.35px;
 
     @media screen and (max-width:1050px) {
@@ -515,7 +515,7 @@ mainbody {
     .k-button {
         background: #fff !important;
         background-image: none !important;
-        color: #0469bd !important;
+        color: $suppliers-white-btn !important;
         box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 
         &:hover {
@@ -611,14 +611,14 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: #1387da;
+            background: $suppliers-cube-color;
 
             span {
-                color: $cube-background !important;
+                color: $suppliers-cube-background !important;
             }
         }
 
-        color: $cube-color;
+        color: $suppliers-cube-color;
         min-height: 164px;
         display: flex;
         flex-direction: column;
@@ -663,13 +663,13 @@ mainbody {
         }
 
         .k-icon-wrapper {
-            color: #43b1e5;
+            color: $suppliers-k-icon;
         }
 
         >div {
             &:last-child {
                 .x-dynamic-label-control {
-                    color: $cube-description-color;
+                    color: $suppliers-cube-description-color;
                 }
             }
         }
@@ -721,6 +721,9 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login {
 
     mainbody {
+        .k-textbox {
+            border-radius: 0px !important;
+        }
 
         .checkboxHorizontal {
             >div {
@@ -831,10 +834,17 @@ mainbody {
             }
         }
 
+        .x-text-control-container {
+            .x-textbox {
+                border-bottom: 1.5px solid $suppliers-x-textbox !important;
+            }
+
+        }
+
         .x-textbox {
             background: transparent !important;
-            border: 0;
-            border-bottom: 1.5px solid #043563;
+            border: 0 !important;
+
         }
 
         .xstyle-checkbox-wrapper {
@@ -930,13 +940,6 @@ mainbody {
     }
 }
 
-
-// #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Invoices {
-//     .grey-btn {
-//         margin: auto -20px !important;
-//     }
-// }
-
 //-------------------------------------xid
 
 //remove padding cloudDashboard page 
@@ -958,15 +961,17 @@ mainbody {
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
-    background-color: #f2ebf6;
+    background-color: $suppliers-progress-empty;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  }
-progress[value]::-webkit-progress-value {
-    background-image:none!important;
-    background-color:#0469bd;
-  }
-#progressBoxShadow{
-	-webkit-box-shadow: 0px 0px 41px -28px #0469bd;
-	-moz-box-shadow: 0px 0px 41px -28px #0469bd;
-    box-shadow: 0px 0px 41px -28px #0469bd;	
 }
+
+progress[value]::-webkit-progress-value {
+    background-image: none !important;
+    background-color: $suppliers-progress-fill;
+}
+
+#progressBoxShadow {
+    box-shadow: 0px 0px 41px -28px $suppliers-progress-shadow;
+}
+
+@forward 'suppliers';
