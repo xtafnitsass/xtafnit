@@ -970,6 +970,6 @@ progress[value]::-webkit-progress-value {
 
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #25a003;
-  box-shadow: 0px 0px 41px -28px #25a003;
+          box-shadow: 0px 0px 41px -28px #25a003;
 }
 /*# sourceMappingURL=style.css.map */
