@@ -24,6 +24,7 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -78,7 +79,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
