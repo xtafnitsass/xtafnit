@@ -24,6 +24,7 @@
 /*rating*/
 /*radio*/
 /*freehand*/
+/*layout*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #25a003;
@@ -79,7 +80,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #f5f6f8;
   border: none;
-  color: #000;
+  color: #043563;
 }
 
 header .popUpWindowCls {
@@ -1827,4 +1828,6 @@ progress[value]::-webkit-progress-value {
   -webkit-box-shadow: 0px 0px 41px -28px #25a003;
           box-shadow: 0px 0px 41px -28px #25a003;
 }
+
+@forward 'importer-customers';
 /*# sourceMappingURL=style.css.map */

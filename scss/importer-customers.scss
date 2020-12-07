@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
-$cube-background:#fff;
-$cube-color:#25a003;
-$clock-color:#25a003;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#25a003;
-$body-background:#f5f6f8;
-$upload-button:#25a003;
-$tabstrip:#25a003;
-$drawer:#25a003;
-$timeselector:#25a003;
-$messageText:#25a003;
-$timeselector:#25a003;
-$loginTitle:#043563;
-$loginTitle2:#043563;
-$white-btn:#25a003;
-$icon-wrapper:#25a003;
-$progress-empty:#f2ebf6;
-$progress-fill:#25a003;
-$progress-shadow:#25a003;
+$cube-background:#fff !default;
+$cube-color:#25a003 !default;
+$clock-color:#25a003 !default;
+$top-panel-background:#ffffff !default;
+$header-color:#043563 !default;
+$x-cell-header-color:#043563 !default;
+$cube-description-color:#25a003 !default;
+$body-background:#f5f6f8 !default;
+$upload-button:#25a003 !default;
+$tabstrip:#25a003 !default;
+$drawer:#25a003 !default;
+$timeselector:#25a003 !default;
+$messageText:#25a003 !default;
+$timeselector:#25a003 !default;
+$loginTitle:#043563 !default;
+$loginTitle2:#043563 !default;
+$white-btn:#25a003 !default;
+$icon-wrapper:#25a003 !default;
+$progress-empty:#f2ebf6 !default;
+$progress-fill:#25a003 !default;
+$progress-shadow:#25a003 !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -382,9 +382,10 @@ mainbody {
             }
 
         }
-        .k-time-container{
-            .k-item{
-                background: none!important;
+
+        .k-time-container {
+            .k-item {
+                background: none !important;
             }
         }
     }
@@ -1056,3 +1057,6 @@ progress[value]::-webkit-progress-value {
 #progressBoxShadow {
     box-shadow: 0px 0px 41px -28px $progress-shadow;
 }
+
+
+@forward 'importer-customers';
