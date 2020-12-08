@@ -1381,7 +1381,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube {
-  color: #043563;
+  color: #1387da;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1405,7 +1405,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #043563;
+  background: #1387da;
 }
 
 .cube-wrapper .cube:first-child span {
