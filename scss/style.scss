@@ -66,12 +66,12 @@ $btn-focus-border-color:transparent;
 
 /*autocomplete*/
 $autocomplete-input-background: #F0F0F0;
-$autocomplete-input-border-radius: 15px;
-$autocomplete-input-border: 1px solid #0082c5 !important;
+$autocomplete-input-border-radius: 0;
+$autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:0;
+$autocomplete-input-border-bottom:1px solid #0082c5;
 $autocomplete-input-color: #000;
 
 /*calendar*/
@@ -94,14 +94,14 @@ $calendar-dates-color:#0082c5;
 /*date-picker*/
 
 $date-picker-background:#ebebeb;
-$date-picker-border:1px solid #0082c5;
+$date-picker-border:0;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#0082c5;
 $date-picker-icon-color:#ebebeb;
 $date-picker-icon-border-color:#0082c5;
-$date-mobile-border:1px solid #282830;
-$date-mobile-border-bottom:0;
-$date-mobile-border-radius:3px;
+$date-mobile-border:0;
+$date-mobile-border-bottom:1px solid #0082c5;
+$date-mobile-border-radius:0;
 
 /*checkbox*/
 
@@ -114,13 +114,13 @@ $checkbox-box-shadow : none;
 /*textbox*/
 
 $textbox-background:#ebebeb;
-$textbox-border:1px solid #0082c5;
+$textbox-border:0;
 $textbox-border-top:0;
-$textbox-border-bottom:0;
+$textbox-border-bottom:1px solid #0082c5;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
-$textbox-radius:15px;
+$textbox-radius:0;
 $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
@@ -224,13 +224,14 @@ $multiselect-border-bottom-width:1px;
 $multiselect-color:#fff;
 
 /*tabstrip*/
+
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
-$tabstrip-tab-background-color:#0082c5;
-$tabstrip-tab-color:#ffffff;
-$tabstrip-tab-active-background-color:#004f77;
-$tabstrip-tab-active-border-color:#000;
-$tabstrip-content-border-color:#004f77;
+$tabstrip-tab-background-color:#fff;
+$tabstrip-tab-color:#0082c5;
+$tabstrip-tab-active-background-color:#fff;
+$tabstrip-tab-active-border-color:#fff;
+$tabstrip-content-border-color:#f5f6f8;
 
 /*slider*/
 
@@ -269,7 +270,7 @@ $cube-description-color:#0082c5;
 $body-background:#f5f6f8;
 $upload-button:#0082c5;
 $tabstrip:#0082c5;
-$drawer:#0082c5;
+$drawer:#da242c;
 $timeselector:#0082c5;
 $messageText:#0082c5;
 $timeselector:#0082c5;

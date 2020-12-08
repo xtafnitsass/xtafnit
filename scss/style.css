@@ -50,26 +50,26 @@
 
 @forward 'button';
 .k-autocomplete {
-  border-radius: 15px;
+  border-radius: 0;
   border: 0;
 }
 
 .k-autocomplete.k-state-border-down .k-input {
-  border-radius: 15px;
+  border-radius: 0;
 }
 
 .k-autocomplete.k-state-focused {
-  border-radius: 15px;
+  border-radius: 0;
 }
 
 .k-autocomplete .k-textbox {
   background: #F0F0F0 !important;
-  border-radius: 15px;
-  border: 1px solid #0082c5 !important;
+  border-radius: 0;
+  border: 0;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #0082c5;
   color: #000;
 }
 
@@ -151,7 +151,7 @@ header .popUpWindowCls {
 
 .k-datepicker .k-picker-wrap {
   background: #ebebeb;
-  border: 1px solid #0082c5;
+  border: 0;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
@@ -169,9 +169,9 @@ header .popUpWindowCls {
 .x-datePicker-mobile {
   background: #ebebeb;
   color: #000;
-  border: 1px solid #282830;
-  border-bottom: 0 !important;
-  border-radius: 3px !important;
+  border: 0;
+  border-bottom: 1px solid #0082c5 !important;
+  border-radius: 0 !important;
 }
 
 @forward 'date-picker';
@@ -204,13 +204,13 @@ header .popUpWindowCls {
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
   background: #ebebeb;
-  border: 1px solid #0082c5 !important;
+  border: 0 !important;
   border-top: 0 !important;
-  border-bottom: 0 !important;
+  border-bottom: 1px solid #0082c5 !important;
   border-left: 0 !important;
   border-right: 0 !important;
   color: #000;
-  border-radius: 15px !important;
+  border-radius: 0 !important;
   margin: 0;
 }
 
@@ -221,13 +221,13 @@ header .popUpWindowCls {
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
   background: #ebebeb !important;
-  border: 1px solid #0082c5;
+  border: 0;
   border-top: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #0082c5;
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0;
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
@@ -768,20 +768,20 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-content {
-  border-color: #004f77;
+  border-color: #f5f6f8;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
-  background: #0082c5;
-  border-color: #000;
+  background: #fff;
+  border-color: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #004f77;
+  background: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #ffffff;
+  color: #0082c5;
 }
 
 .k-slider .k-draghandle {
@@ -1113,7 +1113,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #0082c5 !important;
+  background: #da242c !important;
 }
 
 .k-datepicker .k-picker-wrap {
