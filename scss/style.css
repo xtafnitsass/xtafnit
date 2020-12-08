@@ -75,11 +75,11 @@
 
 @forward 'autocomplete';
 header.k-header {
-  background-color: #fff !important;
+  background-color: #f5f6f8 !important;
 }
 
 header.k-header .k-toolbar {
-  background-color: #fff;
+  background-color: #f5f6f8;
   border: none;
   color: #043563;
 }
