@@ -28,7 +28,7 @@
 /*suppliers*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #0167b1 !important;
+  background: #8c36b5 !important;
   border-radius: 30px;
   border: 0 !important;
   color: #fff !important;
@@ -44,7 +44,7 @@
 }
 
 .k-button:hover {
-  background: #004a80 !important;
+  background: #7b27a1 !important;
   color: #F0F0F0 !important;
 }
 
@@ -406,7 +406,7 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
-  background-color: #1387da;
+  background-color: #8c36b5;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -429,12 +429,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #1b94eb !important;
+  background: #9a3fc6 !important;
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items .k-in.k-state-hover {
   color: #fff;
-  background: #1178c3;
+  background: #7d30a1;
   background-image: none;
 }
 
@@ -443,7 +443,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] {
-  background-color: #1387da;
+  background-color: #8c36b5;
   color: #fff;
   max-width: 100%;
 }
@@ -455,11 +455,11 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-header, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-header.k-state-focused.k-state-hover {
   background-image: none !important;
-  background: #1387da;
+  background: #8c36b5;
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused {
-  background: #1387da !important;
+  background: #8c36b5 !important;
   opacity: 0.8;
 }
 
@@ -1090,7 +1090,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #1387da !important;
+  background: #8c36b5 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1228,7 +1228,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .loginTitle {
   font-size: 55px;
-  color: #043563;
+  color: #474248;
 }
 
 @media screen and (max-width: 1050px) {
@@ -1240,7 +1240,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .loginTitle2 {
   font-size: 31px;
   font-weight: bold;
-  color: #043563;
+  color: #474248;
   letter-spacing: 1.35px;
 }
 
@@ -1381,7 +1381,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube {
-  color: #1387da;
+  color: #8c36b5;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1405,7 +1405,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #1387da;
+  background: #8c36b5;
 }
 
 .cube-wrapper .cube:first-child span {
@@ -1464,7 +1464,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
-  color: #043563;
+  color: #8c36b5;
 }
 
 .cube-wrapper .cube .fa-cloud-upload-alt {
