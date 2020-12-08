@@ -1089,7 +1089,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #282830 !important;
+  background: #0167b1 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1380,7 +1380,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube {
-  color: #043563;
+  color: #0167b1;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1404,7 +1404,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #043563;
+  background: #0167b1;
 }
 
 .cube-wrapper .cube:first-child span {
