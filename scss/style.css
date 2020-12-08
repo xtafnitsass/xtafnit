@@ -1748,12 +1748,12 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #043563;
+  background-color: #8733af;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #043563;
-          box-shadow: 0px 0px 41px -28px #043563;
+  -webkit-box-shadow: 0px 0px 41px -28px #8733af;
+          box-shadow: 0px 0px 41px -28px #8733af;
 }
 
 @forward 'suppliers';
