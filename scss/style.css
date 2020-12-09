@@ -28,7 +28,7 @@
 /*suppliers*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #8c36b5 !important;
+  background: #8733af !important;
   border-radius: 30px;
   border: 0 !important;
   color: #fff !important;
@@ -99,12 +99,12 @@ header .popUpWindowCls {
 
 @forward 'header';
 .k-calendar .k-header {
-  background: #0167b1;
+  background: #8733af;
   color: #fff;
 }
 
 .k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
-  background: #0167b1;
+  background: #8733af;
   color: #fff;
   opacity: 0.8;
 }
@@ -119,24 +119,24 @@ header .popUpWindowCls {
 }
 
 .k-calendar .k-calendar-view td:not(.k-other-month) {
-  color: #0167b1;
+  color: #8733af;
 }
 
 .k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
-  background-color: #0167b1;
+  background-color: #8733af;
   color: #fff;
   background-image: none !important;
 }
 
 .k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
-  background: #0167b1;
+  background: #8733af;
   color: #ebebeb;
   -webkit-box-shadow: inset 0 0 0 1px #ebebeb;
           box-shadow: inset 0 0 0 1px #ebebeb;
 }
 
 .k-calendar .k-footer .k-nav-today {
-  background-color: #0167b1;
+  background-color: #8733af;
   color: #fff;
 }
 
@@ -160,7 +160,7 @@ header .popUpWindowCls {
 }
 
 .k-datepicker .k-picker-wrap .k-select {
-  color: #043563;
+  color: #464247;
   border-color: #f7f8f9;
   background: #f7f8f9;
 }
@@ -170,7 +170,7 @@ header .popUpWindowCls {
   background: #f7f8f9;
   color: #000;
   border: 0;
-  border-bottom: 1px solid #043563 !important;
+  border-bottom: 1px solid #464247 !important;
   border-radius: 0px !important;
 }
 
@@ -254,7 +254,7 @@ mainbody > .row {
 
 mainbody .x-section-header-wrapper {
   background-color: #fff;
-  color: #0167b1;
+  color: #8733af;
 }
 
 mainbody .x-section-header-wrraper {
@@ -264,7 +264,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'row';
 .k-window .k-window-titlebar {
-  background: #fff;
+  background: #8733af;
   color: #fff;
 }
 
@@ -305,7 +305,7 @@ mainbody .x-section-header-wrraper {
 
 .k-animation-container li a:hover {
   background: #f2f7fc;
-  color: #043563;
+  color: #b29cbe;
   border: 0 !important;
 }
 
@@ -318,14 +318,14 @@ mainbody .x-section-header-wrraper {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   background: #f2f7fc;
-  color: #043563;
+  color: #b29cbe;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   background: #e6eff9;
-  color: #043563;
+  color: #b29cbe;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
@@ -392,7 +392,7 @@ mainbody .x-section-header-wrraper {
           align-items: center;
   height: 100%;
   float: left;
-  color: #002d41;
+  color: #464247;
 }
 
 @forward 'drop-down';
@@ -406,7 +406,7 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
-  background-color: #8c36b5;
+  background-color: #8733af;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -429,12 +429,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #9a3fc6 !important;
+  background: #9639c3 !important;
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items .k-in.k-state-hover {
   color: #fff;
-  background: #7d30a1;
+  background: #782d9b;
   background-image: none;
 }
 
@@ -443,7 +443,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] {
-  background-color: #8c36b5;
+  background-color: #8733af;
   color: #fff;
   max-width: 100%;
 }
@@ -455,11 +455,11 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-header, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-header.k-state-focused.k-state-hover {
   background-image: none !important;
-  background: #8c36b5;
+  background: #8733af;
 }
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused {
-  background: #8c36b5 !important;
+  background: #8733af !important;
   opacity: 0.8;
 }
 
@@ -683,7 +683,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link, .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-filter-menu .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #0167b1;
+  background-color: #8733af;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -707,7 +707,7 @@ mainbody .x-section-header-wrraper {
 .k-timepicker .k-picker-wrap .k-select {
   border: 0;
   background: #f7f8f9;
-  color: #043563;
+  color: #464247;
 }
 
 input[type="time"] {
@@ -720,7 +720,7 @@ input[type="time"] {
 
 @forward 'time';
 .x-floatbutton {
-  background: #1387da;
+  background: #02b5fd;
   color: #fff;
   border: 1px solid #000 !important;
 }
@@ -741,11 +741,11 @@ input[type="time"] {
 }
 
 .xstyle-upload-wrapper .k-upload-files {
-  border-color: #043563;
+  border-color: #8733af;
 }
 
 .xstyle-upload-wrapper .k-upload-files .k-file {
-  border-color: #043563;
+  border-color: #8733af;
 }
 
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
@@ -782,7 +782,7 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #043563;
+  color: #8733af;
 }
 
 .k-slider .k-draghandle {
@@ -887,12 +887,12 @@ input[type=number] {
 }
 
 .k-upload-status .k-button {
-  color: #8c36b5 !important;
+  color: #8733af !important;
 }
 
 .k-upload-status .k-button:hover {
   background: transparent !important;
-  color: #8c36b5 !important;
+  color: #8733af !important;
 }
 
 header .k-icon {
@@ -1090,7 +1090,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #8c36b5 !important;
+  background: #8733af !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1157,11 +1157,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #8c36b5;
+  border-bottom: 4px solid #8733af;
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #8c36b5 !important;
+  color: #8733af !important;
   font-weight: bold;
 }
 
@@ -1381,7 +1381,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube {
-  color: #8c36b5;
+  color: #464247;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1405,7 +1405,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #8c36b5;
+  background: #464247;
 }
 
 .cube-wrapper .cube:first-child span {
@@ -1464,7 +1464,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
-  color: #8c36b5;
+  color: #464247;
 }
 
 .cube-wrapper .cube .fa-cloud-upload-alt {
