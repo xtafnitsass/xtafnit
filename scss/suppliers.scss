@@ -637,10 +637,10 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: $suppliers-first-cube-color!important;
+            background: $suppliers-first-cube-background!important;
 
             span {
-                color: $suppliers-first-cube-background !important;
+                color: $suppliers-first-cube-color !important;
             }
         }
 

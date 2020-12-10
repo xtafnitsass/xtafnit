@@ -560,11 +560,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #ca0000 !important;
+  background: #fff !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #fff !important;
+  color: #ca0000 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
