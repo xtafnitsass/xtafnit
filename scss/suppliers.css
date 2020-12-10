@@ -66,6 +66,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-header-wrap a.k-link {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-header-wrap th {
@@ -74,6 +75,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+  color: #464247;
 }
 
 .x-cell-header {
@@ -311,6 +313,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0;
 }
 
+.k-window .k-window-content .k-edit-buttons {
+  background: #464247 !important;
+}
+
 #MessageBoxWindow #buttonbtn1 {
   float: left;
 }
@@ -412,11 +418,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.white-btn {
+.white-btn, .color-btn {
   margin: auto 5px;
 }
 
-.white-btn .k-button {
+.white-btn .k-button, .color-btn .k-button {
   background: #fff !important;
   background-image: none !important;
   color: #ca0000 !important;
@@ -424,8 +430,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
 
-.white-btn .k-button:hover {
+.white-btn .k-button:hover, .color-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.color-btn {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #8733af4d !important;
 }
 
 .grey-btn {

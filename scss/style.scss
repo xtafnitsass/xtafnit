@@ -303,6 +303,12 @@ $suppliers-x-textbox:#043563;
 $suppliers-progress-empty:#f2ebf6;
 $suppliers-progress-fill:#ca0000;
 $suppliers-progress-shadow:#ca0000;
+$suppliers-first-cube-background:#fff;
+$suppliers-first-cube-color:#ca0000;
+$suppliers-grid-font-weight:bold;
+$suppliers-grid-content-color:#464247;
+$suppliers-color-btn:#8733af4d;
+$suppliers-window-footer-background:#dadada;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
