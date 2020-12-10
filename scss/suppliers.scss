@@ -23,9 +23,9 @@ $suppliers-progress-shadow:#ca0000 !default;
 $suppliers-first-cube-background:#fff !default;
 $suppliers-first-cube-color:#ca0000 !default;
 $suppliers-grid-font-weight:bold !default;
-$suppliers-grid-content-color:#464247!default;
-$suppliers-color-btn:#8733af4d!default;
-$suppliers-window-footer-background:#464247!default;
+$suppliers-grid-content-color:#464247 !default;
+$suppliers-color-btn:#8733af4d !default;
+$suppliers-window-footer-background:#464247 !default;
 //------------------------------------------------------------layout//
 
 //body//
@@ -114,13 +114,15 @@ header {
 
         th {
             font-size: 12px;
+            font-weight: $suppliers-grid-font-weight;
+
         }
     }
 
     .k-grid-content {
         td {
             border-bottom: 1px solid #d8d8d8;
-            color:$suppliers-grid-content-color;
+            color: $suppliers-grid-content-color;
         }
     }
 
@@ -418,9 +420,10 @@ mainbody {
     .k-window-titlebar {
         border: 0;
     }
-    .k-window-content{
-        .k-edit-buttons{
-            background: $suppliers-window-footer-background!important;
+
+    .k-window-content {
+        .k-edit-buttons {
+            background: $suppliers-window-footer-background !important;
         }
     }
 }
@@ -537,10 +540,14 @@ mainbody {
     }
 }
 
-.color-btn{
+.color-btn {
     @extend .white-btn;
-    box-shadow:none!important;
-    border:1px solid $suppliers-color-btn!important;
+
+    .k-button {
+        box-shadow: none !important;
+        border: 1px solid $suppliers-color-btn !important;
+    }
+
 }
 
 .grey-btn {
@@ -630,7 +637,7 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: $suppliers-first-cube-color;
+            background: $suppliers-first-cube-color!important;
 
             span {
                 color: $suppliers-first-cube-background !important;

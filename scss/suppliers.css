@@ -71,6 +71,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-header-wrap th {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-content td {
@@ -434,7 +435,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   background: #f5f3f3 !important;
 }
 
-.color-btn {
+.color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   border: 1px solid #8733af4d !important;
@@ -559,7 +560,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #ca0000;
+  background: #ca0000 !important;
 }
 
 .cube-wrapper .cube:first-child span {
