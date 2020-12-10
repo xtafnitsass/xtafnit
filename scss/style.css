@@ -406,6 +406,7 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
+  background-color: #282830;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
