@@ -8,7 +8,6 @@
 
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
-  background-color: #575757;
   border: none;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -28,6 +27,7 @@
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li {
   color: #ff0000;
+  background-color: #575757;
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {

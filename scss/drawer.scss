@@ -17,7 +17,6 @@ $drawer-icon-color:#ff0000 !default;
     .k-drawer {
         // max-width: 150px;
         max-height: 100vh;
-        background-color: $drawer-background-color;
         border: none;
         border-bottom-left-radius: 40px;
         border-top-left-radius: 40px;
@@ -35,7 +34,7 @@ $drawer-icon-color:#ff0000 !default;
             .k-drawer-items {
                 li {
                     color: $drawer-icon-color;
-
+                    background-color: $drawer-background-color;
                     &:hover {
                         background: lighten($color: $drawer-background-color, $amount: 5) !important;
                     }
