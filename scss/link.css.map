@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,qBADiB,CACjB,YAAY,CAAA;EACR,KAAK,EAJD,OAAO,CAIM,UAAU;CAC9B;;AAGL,QAAQ,CAAR,MAAQ",
+    "sources": [
+        "link.scss"
+    ],
+    "names": [],
+    "file": "link.css"
+}
