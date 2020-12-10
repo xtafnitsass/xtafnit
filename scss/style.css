@@ -26,6 +26,7 @@
 /*freehand*/
 /*layout*/
 /*suppliers*/
+/*link*/
 .k-button {
   background: #ca0000;
   border-radius: 20px;
@@ -855,4 +856,9 @@ input[type="time"] {
 }
 
 @forward 'virtual-keyboard';
+.xstyle-ilink-wrapper .x-link_Comp {
+  color: #007bff !important;
+}
+
+@forward 'link';
 /*# sourceMappingURL=style.css.map */

@@ -310,10 +310,14 @@ $suppliers-grid-content-color:#464247;
 $suppliers-color-btn:#8733af4d;
 $suppliers-window-footer-background:#dadada;
 
+/*link*/
+
+$link-color:#007bff;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard','./link';
 // './importer-customers';
 // './suppliers';
