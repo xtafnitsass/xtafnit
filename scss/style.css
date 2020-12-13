@@ -1304,6 +1304,10 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   border: 1px solid #9e30bf4d !important;
 }
 
+.light-blue .k-button {
+  background: #02b5fd !important;
+}
+
 .grey-btn {
   margin: auto -15px;
 }
