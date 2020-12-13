@@ -29,7 +29,7 @@
 /*link*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #8733af !important;
+  background: #9e30bf !important;
   border-radius: 30px;
   border: 0 !important;
   color: #fff !important;
@@ -100,12 +100,12 @@ header .popUpWindowCls {
 
 @forward 'header';
 .k-calendar .k-header {
-  background: #8733af;
+  background: #9e30bf;
   color: #fff;
 }
 
 .k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
-  background: #8733af;
+  background: #9e30bf;
   color: #fff;
   opacity: 0.8;
 }
@@ -120,24 +120,24 @@ header .popUpWindowCls {
 }
 
 .k-calendar .k-calendar-view td:not(.k-other-month) {
-  color: #8733af;
+  color: #9e30bf;
 }
 
 .k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
-  background-color: #8733af;
+  background-color: #9e30bf;
   color: #fff;
   background-image: none !important;
 }
 
 .k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
-  background: #8733af;
+  background: #9e30bf;
   color: #ebebeb;
   -webkit-box-shadow: inset 0 0 0 1px #ebebeb;
           box-shadow: inset 0 0 0 1px #ebebeb;
 }
 
 .k-calendar .k-footer .k-nav-today {
-  background-color: #8733af;
+  background-color: #9e30bf;
   color: #fff;
 }
 
@@ -255,7 +255,7 @@ mainbody > .row {
 
 mainbody .x-section-header-wrapper {
   background-color: #fff;
-  color: #8733af;
+  color: #9e30bf;
 }
 
 mainbody .x-section-header-wrraper {
@@ -409,7 +409,7 @@ mainbody .x-section-header-wrraper {
 @forward 'drop-down';
 .k-drawer {
   border: 0 !important;
-  background: #8733af !important;
+  background: #9e30bf !important;
 }
 
 .k-drawer .k-drawer-items * {
@@ -425,7 +425,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item {
-  background: #8733af !important;
+  background: #9e30bf !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-link.k-state-focused, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-state-focused.k-state-hover {
@@ -440,7 +440,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
-  background: #8733af !important;
+  background: #9e30bf !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover, .k-drawer .k-panelbar .k-item .k-panel .k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item .k-panel .k-item td.k-state-hover.k-state-focused {
@@ -537,7 +537,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #8733af;
+  background-color: #9e30bf;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -591,17 +591,17 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager .k-pager-nav {
-  border-color: #8733af;
+  border-color: #9e30bf;
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #5e1780), color-stop(163%, #7f2ba7), color-stop(163%, #8733af));
-  background: linear-gradient(to top, #5e1780 -46%, #7f2ba7 163%, #8733af 163%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #5e1780), color-stop(163%, #7f2ba7), color-stop(163%, #9e30bf));
+  background: linear-gradient(to top, #5e1780 -46%, #7f2ba7 163%, #9e30bf 163%);
 }
 
 .k-grid .k-grid-pager .k-link:hover, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-focused.k-state-hover:hover {
   background-image: none !important;
-  background-color: #8733af !important;
+  background-color: #9e30bf !important;
   color: #ebebeb !important;
 }
 
@@ -670,7 +670,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link, .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-filter-menu .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #8733af;
+  background-color: #9e30bf;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -728,11 +728,11 @@ input[type="time"] {
 }
 
 .xstyle-upload-wrapper .k-upload-files {
-  border-color: #8733af;
+  border-color: #9e30bf;
 }
 
 .xstyle-upload-wrapper .k-upload-files .k-file {
-  border-color: #8733af;
+  border-color: #9e30bf;
 }
 
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
@@ -769,7 +769,7 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #8733af;
+  color: #9e30bf;
 }
 
 .k-slider .k-draghandle {
@@ -881,12 +881,12 @@ input[type=number] {
 }
 
 .k-upload-status .k-button {
-  color: #8733af !important;
+  color: #9e30bf !important;
 }
 
 .k-upload-status .k-button:hover {
   background: transparent !important;
-  color: #8733af !important;
+  color: #9e30bf !important;
 }
 
 header .k-icon {
@@ -1087,7 +1087,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #8733af !important;
+  background: #9e30bf !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -1154,11 +1154,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #8733af;
+  border-bottom: 4px solid #9e30bf;
 }
 
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #8733af !important;
+  color: #9e30bf !important;
   font-weight: bold;
 }
 
@@ -1278,7 +1278,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .white-btn .k-button, .color-btn .k-button {
   background: #fff !important;
   background-image: none !important;
-  color: #8733af !important;
+  color: #9e30bf !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
@@ -1290,7 +1290,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #8733af4d !important;
+  border: 1px solid #9e30bf4d !important;
 }
 
 .grey-btn {
@@ -1372,7 +1372,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   padding: 6px 8px 6px 9px;
   border-radius: 8px;
   display: table-cell;
-  color: #8733af;
+  color: #9e30bf;
   font-weight: normal;
   opacity: 0.65;
   font-family: Heebo;
@@ -1834,12 +1834,12 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #8733af;
+  background-color: #9e30bf;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #8733af;
-          box-shadow: 0px 0px 41px -28px #8733af;
+  -webkit-box-shadow: 0px 0px 41px -28px #9e30bf;
+          box-shadow: 0px 0px 41px -28px #9e30bf;
 }
 
 @forward 'suppliers';
