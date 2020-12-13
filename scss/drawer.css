@@ -29,6 +29,12 @@
   border: 0px !important;
 }
 
+.k-drawer-overlay .k-link.k-header.k-state-hover {
+  color: #fff !important;
+  background: #4a4a4a;
+  background-image: none !important;
+}
+
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
   background-color: #575757;

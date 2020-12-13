@@ -428,6 +428,12 @@ mainbody .x-section-header-wrraper {
   border: 0px !important;
 }
 
+.k-drawer-overlay .k-link.k-header.k-state-hover, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-hover.k-state-focused {
+  color: #fff !important;
+  background: #782d9b;
+  background-image: none !important;
+}
+
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
   background-color: #8733af;

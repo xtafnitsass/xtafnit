@@ -41,9 +41,16 @@ $drawer-color:#fff !default;
     .k-link {
         &.k-header {
             background-color: $drawer-background-color;
-            color: #fff !important;
+            color: $drawer-color !important;
             border: 0px !important;
+
+            &.k-state-hover {
+                color: $drawer-color !important;
+                background: darken($color: $drawer-background-color, $amount: 5);
+                background-image: none !important;
+            }
         }
+
     }
 
     .k-drawer {
