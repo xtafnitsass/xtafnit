@@ -5,7 +5,18 @@ $window-color:#fff;
 .k-window {
     .k-window-titlebar {
         background: $window-background;
-        color: $window-color;
+    }
+
+    .k-window-actions {
+        .k-button {
+            color: $window-color;
+
+            &.k-state-hover {
+                border-color: transparent !important;
+                background: 0 0 !important;
+                box-shadow: none !important;
+            }
+        }
     }
 
     .pageContainer {

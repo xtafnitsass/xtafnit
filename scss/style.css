@@ -265,7 +265,17 @@ mainbody .x-section-header-wrraper {
 @forward 'row';
 .k-window .k-window-titlebar {
   background: #ca0000;
+}
+
+.k-window .k-window-actions .k-button {
   color: #fff;
+}
+
+.k-window .k-window-actions .k-button.k-state-hover {
+  border-color: transparent !important;
+  background: 0 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .k-window .pageContainer {
