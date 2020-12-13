@@ -573,6 +573,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-left: 10px;
   border-radius: 4px;
   padding: 1px 7px 0;
+  height: 21px;
 }
 
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
