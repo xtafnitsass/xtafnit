@@ -417,6 +417,10 @@ mainbody .x-section-header-wrraper {
   background-image: none;
 }
 
+.k-drawer-overlay .k-link.k-header.k-state-focused, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-focused.k-state-hover {
+  border: 0 !important;
+}
+
 .k-drawer-overlay .k-link.k-header.k-state-hover, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-hover.k-state-focused {
   color: #fff !important;
   background-image: none !important;
@@ -478,6 +482,9 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused {
   background: #282830 !important;
+}
+
+.k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover span, .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-calendar .k-calendar-view td.k-state-hover.k-state-focused span, .k-calendar .k-calendar-view .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] td.k-state-hover.k-state-focused span {
   opacity: 0.8;
 }
 
