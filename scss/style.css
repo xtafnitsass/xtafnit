@@ -269,7 +269,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-window .k-window-actions .k-button {
-  color: #fff;
+  color: #000 !important;
 }
 
 .k-window .k-window-actions .k-button.k-state-hover {

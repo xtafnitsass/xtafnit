@@ -1,6 +1,6 @@
 $window-background:#0167b1 !default;
 $window-margin:0px auto !default;
-$window-color:#fff;
+$window-color:#fff!default;
 
 .k-window {
     .k-window-titlebar {
@@ -9,7 +9,7 @@ $window-color:#fff;
 
     .k-window-actions {
         .k-button {
-            color: $window-color;
+            color: $window-color!important;
 
             &.k-state-hover {
                 border-color: transparent !important;
