@@ -30,6 +30,10 @@
   background-image: none;
 }
 
+.k-drawer-overlay .k-link.k-header.k-state-focused {
+  border: 0 !important;
+}
+
 .k-drawer-overlay .k-link.k-header.k-state-hover {
   color: #fff !important;
   background-image: none !important;
@@ -91,6 +95,9 @@
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover {
   background: #575757 !important;
+}
+
+.k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover span {
   opacity: 0.8;
 }
 

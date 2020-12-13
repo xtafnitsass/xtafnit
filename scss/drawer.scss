@@ -45,6 +45,10 @@ $drawer-color:#fff !default;
             border: 0px !important;
             background-image: none;
 
+            &.k-state-focused {
+                border: 0 !important;
+            }
+
             &.k-state-hover {
                 color: $drawer-color !important;
                 background-image: none !important;
@@ -116,7 +120,10 @@ $drawer-color:#fff !default;
 
                     &.k-state-hover {
                         background: $drawer-background-color !important;
-                        opacity: 0.8;
+
+                        span {
+                            opacity: 0.8;
+                        }
                     }
                 }
             }
