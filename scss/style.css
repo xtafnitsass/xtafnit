@@ -263,8 +263,20 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'row';
+.k-window {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .k-window .k-window-titlebar {
   background: #ca0000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.k-window .k-window-content {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .k-window .k-window-actions .k-button {

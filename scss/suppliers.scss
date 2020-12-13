@@ -558,6 +558,7 @@ mainbody {
 .color-btn {
     @extend .white-btn;
     text-align: center;
+
     .k-button {
         box-shadow: none !important;
         border: 1px solid $suppliers-color-btn !important;
@@ -565,7 +566,16 @@ mainbody {
 
 }
 
-.light-blue{
+.fixIcon {
+    .k-icon {
+        background-color: #f2f7fd;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+    }
+}
+
+.light-blue {
     .k-button {
         background: #02b5fd !important;
     }
