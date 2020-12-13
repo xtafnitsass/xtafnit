@@ -409,6 +409,17 @@ mainbody .x-section-header-wrraper {
   background-color: #8733af;
   color: #fff !important;
   border: 0px !important;
+  background-image: none;
+}
+
+.k-drawer-overlay .k-panelbar .k-panel > li.k-item {
+  background-color: #8733af !important;
+}
+
+.k-drawer-overlay .k-panelbar .k-panel > li.k-item .k-link.k-state-hover, .k-drawer-overlay .k-panelbar .k-panel > li.k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay .k-panelbar .k-panel > li.k-item td.k-state-hover.k-state-focused {
+  color: #fff !important;
+  background: #782d9b;
+  background-image: none !important;
 }
 
 .k-drawer-overlay .k-link.k-header, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-focused.k-state-hover {

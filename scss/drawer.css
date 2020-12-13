@@ -10,6 +10,17 @@
   background-color: #575757;
   color: #fff !important;
   border: 0px !important;
+  background-image: none;
+}
+
+.k-drawer-overlay .k-panelbar .k-panel > li.k-item {
+  background-color: #575757 !important;
+}
+
+.k-drawer-overlay .k-panelbar .k-panel > li.k-item .k-link.k-state-hover {
+  color: #fff !important;
+  background: #4a4a4a;
+  background-image: none !important;
 }
 
 .k-drawer-overlay .k-link.k-header {
