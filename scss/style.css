@@ -414,11 +414,11 @@ mainbody .x-section-header-wrraper {
   background-color: #282830;
   color: #fff !important;
   border: 0px !important;
+  background-image: none;
 }
 
 .k-drawer-overlay .k-link.k-header.k-state-hover, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-hover.k-state-focused {
   color: #fff !important;
-  background: #1c1c22;
   background-image: none !important;
 }
 

@@ -16,11 +16,11 @@
   background-color: #575757;
   color: #fff !important;
   border: 0px !important;
+  background-image: none;
 }
 
 .k-drawer-overlay .k-link.k-header.k-state-hover {
   color: #fff !important;
-  background: #4a4a4a;
   background-image: none !important;
 }
 
