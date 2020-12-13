@@ -35,7 +35,6 @@ $grid-edited-numeric-arrow-color:#fff !default;
 $grid-footer-background-color:#fff !default;
 $grid-footer-border-color:#eee !default;
 $grid-content-padding:10px 0px!default;
-$grid-header-border:1px solid #d8d8d8!default;
 
 
 
@@ -68,7 +67,7 @@ $grid-header-border:1px solid #d8d8d8!default;
 
     .k-grid-header {
         background: none;
-        border: $grid-header-border;
+        border: none;
         padding:$grid-content-padding;
         .k-grid-filter {
             &.k-state-active {

@@ -716,7 +716,7 @@ mainbody {
 }
 
 .cube-wrapper {
-    box-shadow: $suppliers-box-shadow !important;
+    box-shadow: 0 0 black !important;
     padding-right: 0 !important;
     padding-left: 0 !important;
     display: flex;
@@ -738,7 +738,7 @@ mainbody {
         justify-content: center;
         flex: 0 0 100%;
         border-radius: 20px;
-        box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+        box-shadow:$suppliers-box-shadow;
         
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         margin-top: 5px;

@@ -474,7 +474,7 @@ mainbody .x-section-header-wrraper {
 
 .k-grid .k-grid-header {
   background: none;
-  border: 1px solid #d8d8d8;
+  border: none;
   padding: 10px 0px;
 }
 
@@ -1443,8 +1443,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper {
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 0 black !important;
+          box-shadow: 0 0 black !important;
   padding-right: 0 !important;
   padding-left: 0 !important;
   display: -webkit-box;
@@ -1472,8 +1472,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
-          box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
