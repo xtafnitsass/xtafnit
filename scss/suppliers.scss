@@ -28,6 +28,8 @@ $suppliers-color-btn:#8733af4d !default;
 $suppliers-window-footer-background:#464247 !default;
 $suppliers-details-top-color: #8733af !default;
 $suppliers-details-right-left-color: #464247 !default;
+$suppliers-details-top-background-color: #f7e8ff !default;
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -634,12 +636,15 @@ mainbody {
             opacity: 0.65;
             font-family: Heebo;
             font-size: 16px;
-            font-weight: 500;
+            font-weight: bold;
             font-stretch: normal;
             font-style: normal;
             line-height: 1.25;
             letter-spacing: 1.31px;
             text-align: center;
+            background: $suppliers-details-top-background-color;
+            top: -5px;
+            position: relative;
         }
     }
 
@@ -652,6 +657,8 @@ mainbody {
 
             &:first-child {
                 font-size: 18px;
+                top: 10px;
+                position: relative;
             }
 
             &:last-child {
@@ -661,13 +668,40 @@ mainbody {
     }
 
     .left {
+        margin-right: 15px;
         * {
-            color: $suppliers-details-right-left-color !important;
+            color: $suppliers-details-right-left-color;
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
             >.col-4 {
-                flex: 0 0 5%;
+                background: #efefef;
+                flex: 0 0 0.1%;
+                margin-left:10px;
+                border-radius: 4px;
+                padding: 1px 7px 0;
+                label{
+                    font-size: 11px;
+                    line-height: 1.82;
+                    letter-spacing: 0.9px;
+                    text-align: center;
+                }
+            }
+        }
+
+        >div {
+            .col-8 {
+                font-size: 14px;
+            }
+
+            &:first-child {
+                .col-8 {
+                    font-size: 14px;
+                }
+            }
+
+            &:last-child {
+                font-size: 15px;
             }
         }
     }

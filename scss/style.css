@@ -398,6 +398,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'drop-down';
 .k-drawer {
+  border: 0 !important;
   background: #8733af !important;
 }
 
@@ -1364,12 +1365,15 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   opacity: 0.65;
   font-family: Heebo;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
+  background: #f7e8ff;
+  top: -5px;
+  position: relative;
 }
 
 .details .right {
@@ -1385,20 +1389,49 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .details .right > div:first-child {
   font-size: 18px;
+  top: 10px;
+  position: relative;
 }
 
 .details .right > div:last-child {
   font-size: 12px;
 }
 
+.details .left {
+  margin-right: 15px;
+}
+
 .details .left * {
-  color: #464247 !important;
+  color: #464247;
 }
 
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+  background: #efefef;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 5%;
-          flex: 0 0 5%;
+      -ms-flex: 0 0 0.1%;
+          flex: 0 0 0.1%;
+  margin-left: 10px;
+  border-radius: 4px;
+  padding: 1px 7px 0;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+  font-size: 11px;
+  line-height: 1.82;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.details .left > div .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:first-child .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:last-child {
+  font-size: 15px;
 }
 
 .boxShadow-0 {
