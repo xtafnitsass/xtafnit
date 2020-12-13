@@ -18,9 +18,9 @@ $row-box-shadow:0 2px 9px 0 #ccc;
 $row-header-color:#8733af;
 
 /*window*/
-$window-background:#8733af;
+$window-background:#fff;
 $window-margin:0px auto;
-$window-color:#fff;
+$window-color:#000;
 
 /*drawer*/
 
@@ -65,7 +65,7 @@ $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
 /*autocomplete*/
-$autocomplete-input-background: #f7f8f9;
+$autocomplete-input-background: #fafafa;
 $autocomplete-input-border-radius: 0px;
 $autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
@@ -93,12 +93,12 @@ $calendar-dates-color:#8733af;
 
 /*date-picker*/
 
-$date-picker-background:#f7f8f9;
+$date-picker-background:#fafafa;
 $date-picker-border:1px solid #464247;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#f7f8f9;
+$date-picker-icon-background:#fafafa;
 $date-picker-icon-color:#464247;
-$date-picker-icon-border-color:#f7f8f9;
+$date-picker-icon-border-color:#fafafa;
 $date-mobile-border:0;
 $date-mobile-border-bottom:1px solid #464247;
 $date-mobile-border-radius:0px;
@@ -113,7 +113,7 @@ $checkbox-box-shadow : none;
 
 /*textbox*/
 
-$textbox-background:#f7f8f9;
+$textbox-background:#fafafa;
 $textbox-border:0;
 $textbox-border-top:0;
 $textbox-border-bottom:1px solid #464247;
@@ -138,7 +138,7 @@ $virtual-keyboard-icon-color:#fff;
 $virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
-$drop-down-background : #f7f8f9;
+$drop-down-background : #fafafa;
 $drop-down-border-bottom : 1px solid #464247;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
@@ -189,8 +189,8 @@ $grid-content-padding:10px 0px;
 
 $time-border:0;
 $time-border-bottom:1px solid #464247;
-$time-background:#f7f8f9;
-$time-icon-background:#f7f8f9;
+$time-background:#fafafa;
+$time-icon-background:#fafafa;
 $time-icon-color:#464247;
 $time-border-raduis:0px;
 
@@ -203,7 +203,7 @@ $float-button-border-color:1px solid #000;
 /*textarea*/
 
 $textarea-border-color:#464247;
-$textarea-background-color:#f7f8f9 !important;
+$textarea-background-color:#fafafa !important;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
 $textarea-border-top-width:1px;
@@ -216,7 +216,7 @@ $upload-border-color:#8733af;
 /*multiselect*/
 
 $multiselect-border-color:#464247;
-$multiselect-background-color:#f7f8f9;
+$multiselect-background-color:#fafafa;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;
 $multiselect-border-top-width:0px;

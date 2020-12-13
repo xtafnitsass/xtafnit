@@ -64,7 +64,7 @@
 }
 
 .k-autocomplete .k-textbox {
-  background: #f7f8f9 !important;
+  background: #fafafa !important;
   border-radius: 0px;
   border: 0;
   border-top: 0;
@@ -147,28 +147,28 @@ header .popUpWindowCls {
 
 @forward 'calendar';
 .k-datepicker {
-  background: #f7f8f9;
+  background: #fafafa;
 }
 
 .k-datepicker .k-picker-wrap {
-  background: #f7f8f9;
+  background: #fafafa;
   border: 1px solid #464247;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  background: #f7f8f9;
+  background: #fafafa;
   color: #000;
 }
 
 .k-datepicker .k-picker-wrap .k-select {
   color: #464247;
-  border-color: #f7f8f9;
-  background: #f7f8f9;
+  border-color: #fafafa;
+  background: #fafafa;
 }
 
 /*mobile*/
 .x-datePicker-mobile {
-  background: #f7f8f9;
+  background: #fafafa;
   color: #000;
   border: 0;
   border-bottom: 1px solid #464247 !important;
@@ -204,7 +204,7 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
-  background: #f7f8f9;
+  background: #fafafa;
   border: 0 !important;
   border-top: 0 !important;
   border-bottom: 1px solid #464247 !important;
@@ -221,7 +221,7 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
-  background: #f7f8f9 !important;
+  background: #fafafa !important;
   border: 0;
   border-top: 0;
   border-bottom: 1px solid #464247;
@@ -265,7 +265,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'row';
 .k-window .k-window-titlebar {
-  background: #8733af;
+  background: #fff;
   color: #fff;
 }
 
@@ -361,7 +361,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: #f7f8f9;
+  background: #fafafa;
   border-bottom: 1px solid #464247;
   border-radius: 0;
 }
@@ -371,7 +371,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: #f7f8f9;
+  background: #fafafa;
   border: 0;
 }
 
@@ -678,19 +678,19 @@ mainbody .x-section-header-wrraper {
 
 .k-timepicker .k-picker-wrap input {
   width: 100%;
-  background: #f7f8f9;
+  background: #fafafa;
 }
 
 .k-timepicker .k-picker-wrap .k-select {
   border: 0;
-  background: #f7f8f9;
+  background: #fafafa;
   color: #464247;
 }
 
 input[type="time"] {
   width: 100%;
   border: 0;
-  background: #f7f8f9;
+  background: #fafafa;
   border-bottom: 1px solid #464247 !important;
   border-radius: 0px !important;
 }
@@ -705,7 +705,7 @@ input[type="time"] {
 @forward 'float-button';
 .xstyle-textareacontrol-wrapper .k-textarea {
   border-color: #464247;
-  background-color: #f7f8f9 !important;
+  background-color: #fafafa !important;
   border-style: solid;
   border-left-width: 1px;
   border-right-width: 1px;
@@ -727,7 +727,7 @@ input[type="time"] {
 
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
   border-color: #464247;
-  background-color: #f7f8f9;
+  background-color: #fafafa;
   border-style: solid;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -1415,6 +1415,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-left: 10px;
   border-radius: 4px;
   padding: 1px 7px 0;
+  height: 21px;
 }
 
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
