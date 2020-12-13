@@ -16,22 +16,22 @@ $drawer-color:#fff !default;
 // side menu
 .k-drawer-overlay {
     .k-panelbar {
-        background-color: $drawer-background-color;
+        background-color: $drawer-background-color !important;
         color: $drawer-color !important;
         border: 0px !important;
-        background-image: none;
+
+        .k-item {
+            &.k-state-focused {
+                border: 0 !important;
+            }
+        }
 
         .k-panel {
             >li {
-                &.k-item {
-                    background-color: $drawer-background-color !important;
-
-                    .k-link {
-                        &.k-state-hover {
-                            color: $drawer-color !important;
-                            background: darken($color: $drawer-background-color, $amount: 5);
-                            background-image: none !important;
-                        }
+                .k-link {
+                    &.k-item {
+                        background-color: $drawer-background-color !important;
+                        color: $drawer-color !important;
                     }
                 }
             }
@@ -40,14 +40,10 @@ $drawer-color:#fff !default;
 
     .k-link {
         &.k-header {
-            background-color: $drawer-background-color;
+            background-color: $drawer-background-color !important;
             color: $drawer-color !important;
             border: 0px !important;
             background-image: none;
-
-            &.k-state-focused {
-                border: 0 !important;
-            }
 
             &.k-state-hover {
                 color: $drawer-color !important;
@@ -79,18 +75,18 @@ $drawer-color:#fff !default;
                 li {
                     color: $drawer-icon-color;
 
-                    &:hover {
-                        background: lighten($color: $drawer-background-color, $amount: 5) !important;
-                    }
+                    // &:hover {
+                    //     background: lighten($color: $drawer-background-color, $amount: 5) !important;
+                    // }
                 }
 
-                .k-in {
-                    &.k-state-hover {
-                        color: $drawer-icon-color;
-                        background: darken($color: $drawer-background-color, $amount: 5);
-                        background-image: none;
-                    }
-                }
+                // .k-in {
+                //     &.k-state-hover {
+                //         color: $drawer-icon-color;
+                //         background: darken($color: $drawer-background-color, $amount: 5);
+                //         background-image: none;
+                //     }
+                // }
             }
 
             &:nth-child(2),
@@ -120,10 +116,7 @@ $drawer-color:#fff !default;
 
                     &.k-state-hover {
                         background: $drawer-background-color !important;
-
-                        span {
-                            opacity: 0.8;
-                        }
+                        opacity: 0.8;
                     }
                 }
             }
