@@ -7,20 +7,25 @@
 }
 
 .k-drawer-overlay .k-panelbar {
-  background-color: #575757;
+  background-color: #575757 !important;
   color: #fff !important;
   border: 0px !important;
+}
+
+.k-drawer-overlay .k-panelbar .k-item.k-state-focused {
+  border: 0 !important;
+}
+
+.k-drawer-overlay .k-panelbar .k-panel > li .k-link.k-item {
+  background-color: #575757 !important;
+  color: #fff !important;
 }
 
 .k-drawer-overlay .k-link.k-header {
-  background-color: #575757;
+  background-color: #575757 !important;
   color: #fff !important;
   border: 0px !important;
   background-image: none;
-}
-
-.k-drawer-overlay .k-link.k-header.k-state-focused {
-  border: 0 !important;
 }
 
 .k-drawer-overlay .k-link.k-header.k-state-hover {
@@ -52,16 +57,6 @@
   color: #ff0000;
 }
 
-.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #646464 !important;
-}
-
-.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items .k-in.k-state-hover {
-  color: #ff0000;
-  background: #4a4a4a;
-  background-image: none;
-}
-
 .k-drawer-overlay .k-drawer .k-drawer-wrapper:nth-child(2) span, .k-drawer-overlay .k-drawer .k-drawer-wrapper:last-child span {
   color: #ff0000;
 }
@@ -84,9 +79,6 @@
 
 .k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover {
   background: #575757 !important;
-}
-
-.k-drawer-overlay .k-drawer ul[role="menu"] li[role="menuitem"] .k-link.k-state-hover span {
   opacity: 0.8;
 }
 
