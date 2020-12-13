@@ -76,11 +76,11 @@
 
 @forward 'autocomplete';
 header.k-header {
-  background-color: #f5f6f8 !important;
+  background-color: #fafafa !important;
 }
 
 header.k-header .k-toolbar {
-  background-color: #f5f6f8;
+  background-color: #fafafa;
   border: none;
   color: #043563;
 }
@@ -840,7 +840,7 @@ input[type="time"] {
 
 @forward 'link';
 body {
-  background-color: #f5f6f8 !important;
+  background-color: #fafafa !important;
   font-family: Heebo;
 }
 
