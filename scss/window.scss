@@ -6,18 +6,14 @@ $window-border:20px !default;
 .k-window {
     border-top-left-radius: $window-border;
     border-top-right-radius: $window-border;
-
+    border-bottom-left-radius: $window-border;
+    border-bottom-right-radius: $window-border;
+    
     .k-window-titlebar {
         background: $window-background;
         border-top-left-radius: $window-border;
         border-top-right-radius: $window-border;
     }
-
-    .k-window-content {
-        border-bottom-left-radius: $window-border;
-        border-bottom-right-radius: $window-border;
-    }
-
     .k-window-actions {
         .k-button {
             color: $window-color !important;

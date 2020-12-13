@@ -267,17 +267,14 @@ mainbody .x-section-header-wrraper {
 .k-window {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .k-window .k-window-titlebar {
   background: #fff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.k-window .k-window-content {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 
 .k-window .k-window-actions .k-button {
