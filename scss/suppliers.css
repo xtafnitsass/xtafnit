@@ -601,8 +601,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper {
-  -webkit-box-shadow: 0 0 black !important;
-          box-shadow: 0 0 black !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
   padding-right: 0 !important;
   padding-left: 0 !important;
   display: -webkit-box;
@@ -832,8 +832,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
-          box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {

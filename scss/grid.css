@@ -27,7 +27,8 @@
 
 .k-grid .k-grid-header {
   background: none;
-  border: none;
+  border: 1px solid #d8d8d8;
+  padding: 10px 0px;
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active {
@@ -110,6 +111,7 @@
   border: none;
   border-left: 1px solid #eee;
   font-size: 14px;
+  padding: 10px 0px;
 }
 
 .k-grid .k-grid-content td .col-template-val {

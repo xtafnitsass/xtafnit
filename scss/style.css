@@ -474,7 +474,8 @@ mainbody .x-section-header-wrraper {
 
 .k-grid .k-grid-header {
   background: none;
-  border: none;
+  border: 1px solid #d8d8d8;
+  padding: 10px 0px;
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active {
@@ -557,6 +558,7 @@ mainbody .x-section-header-wrraper {
   border: none;
   border-left: none;
   font-size: 14px;
+  padding: 10px 0px;
 }
 
 .k-grid .k-grid-content td .col-template-val {
@@ -1441,8 +1443,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper {
-  -webkit-box-shadow: 0 0 black !important;
-          box-shadow: 0 0 black !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
   padding-right: 0 !important;
   padding-left: 0 !important;
   display: -webkit-box;
@@ -1672,8 +1674,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
-          box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
