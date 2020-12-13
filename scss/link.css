@@ -1,5 +1,7 @@
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #007bff !important;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @forward 'link';
