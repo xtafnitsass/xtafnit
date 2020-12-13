@@ -43,10 +43,10 @@ $drawer-color:#fff !default;
             background-color: $drawer-background-color;
             color: $drawer-color !important;
             border: 0px !important;
+            background-image: none;
 
             &.k-state-hover {
                 color: $drawer-color !important;
-                background: darken($color: $drawer-background-color, $amount: 5);
                 background-image: none !important;
             }
         }
