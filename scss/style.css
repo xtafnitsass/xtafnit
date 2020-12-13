@@ -1128,6 +1128,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
+  color: #b7b7b7;
+  margin-right: 10px;
+  top: -5px;
+  font-size: 18px;
+}
+
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
@@ -1285,6 +1292,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .white-btn .k-button:hover, .color-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.color-btn {
+  text-align: center;
 }
 
 .color-btn .k-button {

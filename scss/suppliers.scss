@@ -29,7 +29,8 @@ $suppliers-window-footer-background:#464247 !default;
 $suppliers-details-top-color: #8733af !default;
 $suppliers-details-right-left-color: #464247 !default;
 $suppliers-details-top-background-color: #f7e8ff !default;
-$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1)!default;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
+$suppliers-grid-header-color:#ccc !default;
 
 //------------------------------------------------------------layout//
 
@@ -375,6 +376,15 @@ mainbody {
     }
 
     .gridHeaderButton {
+        .k-icon {
+            &.fa-ellipsis-v {
+                color: $suppliers-grid-header-color;
+                margin-right: 10px;
+                top: -5px;
+                font-size: 18px;
+            }
+        }
+
         .x-self-container {
 
             @media screen and (-ms-high-contrast: none),
@@ -547,7 +557,7 @@ mainbody {
 
 .color-btn {
     @extend .white-btn;
-
+    text-align: center;
     .k-button {
         box-shadow: none !important;
         border: 1px solid $suppliers-color-btn !important;
@@ -670,6 +680,7 @@ mainbody {
 
     .left {
         margin-right: 15px;
+
         * {
             color: $suppliers-details-right-left-color;
         }
@@ -678,11 +689,12 @@ mainbody {
             >.col-4 {
                 background: #efefef;
                 flex: 0 0 0.1%;
-                margin-left:10px;
+                margin-left: 10px;
                 border-radius: 4px;
                 padding: 1px 7px 0;
-                height:21px;
-                label{
+                height: 21px;
+
+                label {
                     font-size: 11px;
                     line-height: 1.82;
                     letter-spacing: 0.9px;
@@ -740,7 +752,7 @@ mainbody {
         flex: 0 0 100%;
         border-radius: 20px;
         box-shadow:$suppliers-box-shadow;
-        
+
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         margin-top: 5px;
 
