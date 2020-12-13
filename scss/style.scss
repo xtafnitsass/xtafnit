@@ -309,10 +309,13 @@ $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
 $suppliers-color-btn:#8733af4d;
 $suppliers-window-footer-background:#dadada;
+$suppliers-details-top-color: #8733af;
+$suppliers-details-right-left-color: #464247;
 
 /*link*/
 
 $link-color:#02b5fd;
+$link-text-underling:underline;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

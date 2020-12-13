@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AACI,qBADiB,CACjB,YAAY,CAAA;EACR,KAAK,EAJD,OAAO,CAIM,UAAU;CAC9B;;AAGL,QAAQ,CAAR,MAAQ",
+    "mappings": "AAGA,AACI,qBADiB,CACjB,YAAY,CAAA;EACR,KAAK,EALD,OAAO,CAKM,UAAU;EAC3B,oBAAoB,EALP,SAAS;CAMzB;;AAGL,QAAQ,CAAR,MAAQ",
     "sources": [
         "link.scss"
     ],

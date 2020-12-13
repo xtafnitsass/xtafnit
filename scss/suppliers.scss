@@ -26,6 +26,8 @@ $suppliers-grid-font-weight:bold !default;
 $suppliers-grid-content-color:#464247 !default;
 $suppliers-color-btn:#8733af4d !default;
 $suppliers-window-footer-background:#464247 !default;
+$suppliers-details-top-color: #8733af !default;
+$suppliers-details-right-left-color: #464247 !default;
 //------------------------------------------------------------layout//
 
 //body//
@@ -621,6 +623,56 @@ mainbody {
     }
 }
 
+.details {
+    .top {
+        .x-cell-header {
+            padding: 6px 8px 6px 9px;
+            border-radius: 8px;
+            display: table-cell;
+            color: $suppliers-details-top-color;
+            font-weight: normal;
+            opacity: 0.65;
+            font-family: Heebo;
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 1.31px;
+            text-align: center;
+        }
+    }
+
+    .right {
+        flex: 0 0 14%;
+        color: $suppliers-details-right-left-color !important;
+
+        >div {
+            font-size: 35px;
+
+            &:first-child {
+                font-size: 18px;
+            }
+
+            &:last-child {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .left {
+        * {
+            color: $suppliers-details-right-left-color !important;
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            >.col-4 {
+                flex: 0 0 5%;
+            }
+        }
+    }
+}
+
 
 
 .boxShadow-0 {
@@ -637,7 +689,7 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: $suppliers-first-cube-background!important;
+            background: $suppliers-first-cube-background !important;
 
             span {
                 color: $suppliers-first-cube-color !important;

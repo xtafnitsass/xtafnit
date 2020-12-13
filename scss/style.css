@@ -833,6 +833,8 @@ input[type="time"] {
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #02b5fd !important;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @forward 'link';
@@ -1351,6 +1353,52 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper .col-4 {
   margin-right: 10px;
+}
+
+.details .top .x-cell-header {
+  padding: 6px 8px 6px 9px;
+  border-radius: 8px;
+  display: table-cell;
+  color: #8733af;
+  font-weight: normal;
+  opacity: 0.65;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1.31px;
+  text-align: center;
+}
+
+.details .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14%;
+          flex: 0 0 14%;
+  color: #464247 !important;
+}
+
+.details .right > div {
+  font-size: 35px;
+}
+
+.details .right > div:first-child {
+  font-size: 18px;
+}
+
+.details .right > div:last-child {
+  font-size: 12px;
+}
+
+.details .left * {
+  color: #464247 !important;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 5%;
+          flex: 0 0 5%;
 }
 
 .boxShadow-0 {
