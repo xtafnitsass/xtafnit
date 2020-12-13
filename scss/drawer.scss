@@ -14,6 +14,18 @@ $drawer-icon-color:#ff0000 !default;
 
 // side menu
 .k-drawer-overlay {
+    .k-panelbar{
+        background-color: $drawer-background-color;
+        color: #fff !important;
+        border: 0px !important;
+    }
+    .k-link{
+        &.k-header{
+            background-color: $drawer-background-color;
+            color: #fff !important;
+            border: 0px !important;
+        }
+    }
     .k-drawer {
         // max-width: 150px;
         max-height: 100vh;
@@ -84,6 +96,7 @@ $drawer-icon-color:#ff0000 !default;
         }
     }
 }
+
 
 //fix ie expanded
 

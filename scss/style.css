@@ -405,6 +405,18 @@ mainbody .x-section-header-wrraper {
   background-image: none !important;
 }
 
+.k-drawer-overlay .k-panelbar {
+  background-color: #8733af;
+  color: #fff !important;
+  border: 0px !important;
+}
+
+.k-drawer-overlay .k-link.k-header, .k-drawer-overlay .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-overlay td.k-header.k-state-focused.k-state-hover {
+  background-color: #8733af;
+  color: #fff !important;
+  border: 0px !important;
+}
+
 .k-drawer-overlay .k-drawer {
   max-height: 100vh;
   background-color: #8733af;
