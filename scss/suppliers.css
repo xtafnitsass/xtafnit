@@ -452,6 +452,13 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   border: 1px solid #8733af4d !important;
 }
 
+.fixIcon .k-icon {
+  background-color: #f2f7fd;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
 .light-blue .k-button {
   background: #02b5fd !important;
 }

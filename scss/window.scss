@@ -1,15 +1,26 @@
 $window-background:#0167b1 !default;
 $window-margin:0px auto !default;
-$window-color:#fff!default;
+$window-color:#fff !default;
+$window-border:20px !default;
 
 .k-window {
+    border-top-left-radius: $window-border;
+    border-top-right-radius: $window-border;
+
     .k-window-titlebar {
         background: $window-background;
+        border-top-left-radius: $window-border;
+        border-top-right-radius: $window-border;
+    }
+
+    .k-window-content {
+        border-bottom-left-radius: $window-border;
+        border-bottom-right-radius: $window-border;
     }
 
     .k-window-actions {
         .k-button {
-            color: $window-color!important;
+            color: $window-color !important;
 
             &.k-state-hover {
                 border-color: transparent !important;

@@ -264,8 +264,20 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'row';
+.k-window {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .k-window .k-window-titlebar {
   background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.k-window .k-window-content {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .k-window .k-window-actions .k-button {
@@ -1302,6 +1314,13 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   border: 1px solid #9e30bf4d !important;
+}
+
+.fixIcon .k-icon {
+  background-color: #f2f7fd;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
 }
 
 .light-blue .k-button {
