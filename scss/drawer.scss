@@ -3,6 +3,7 @@ $drawer-icon-color:#ff0000 !default;
 $drawer-color:#fff !default;
 
 .k-drawer {
+    border:0!important;
     background: $drawer-background-color !important;
 
     .k-drawer-items {

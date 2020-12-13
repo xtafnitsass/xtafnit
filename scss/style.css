@@ -397,6 +397,7 @@ mainbody .x-section-header-wrraper {
 
 @forward 'drop-down';
 .k-drawer {
+  border: 0 !important;
   background: #282830 !important;
 }
 
