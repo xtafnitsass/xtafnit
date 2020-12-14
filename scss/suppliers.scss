@@ -20,6 +20,20 @@ $suppliers-x-textbox:#043563 !default;
 $suppliers-progress-empty:#f2ebf6 !default;
 $suppliers-progress-fill:#ca0000 !default;
 $suppliers-progress-shadow:#ca0000 !default;
+$suppliers-first-cube-background:#fff !default;
+$suppliers-first-cube-color:#ca0000 !default;
+$suppliers-grid-font-weight:bold !default;
+$suppliers-grid-content-color:#464247 !default;
+$suppliers-color-btn:#8733af4d !default;
+$suppliers-window-footer-background:#464247 !default;
+$suppliers-details-top-color: #8733af !default;
+$suppliers-details-right-left-color: #464247 !default;
+$suppliers-details-top-background-color: #f7e8ff !default;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
+$suppliers-grid-header-color:#ccc !default;
+$suppliers-grid-link-color:#02b5fd !default;
+$suppliers-grid-link-decoration:underline !default;
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -101,18 +115,27 @@ header {
 
             &.k-link {
                 font-size: 12px;
+                font-weight: $suppliers-grid-font-weight;
             }
 
         }
 
         th {
             font-size: 12px;
+            font-weight: $suppliers-grid-font-weight;
+
         }
     }
 
     .k-grid-content {
         td {
             border-bottom: 1px solid #d8d8d8;
+            color: $suppliers-grid-content-color;
+
+            a {
+                color: $suppliers-grid-link-color !important;
+                text-decoration: $suppliers-grid-link-decoration;
+            }
         }
     }
 
@@ -360,6 +383,17 @@ mainbody {
     }
 
     .gridHeaderButton {
+        .k-icon {
+            &.fa-ellipsis-v {
+                color: $suppliers-grid-header-color;
+                margin-right: 10px;
+                top: -5px;
+                font-size: 18px;
+            }
+        }
+        [xid="controlkiClean"]{
+            color: $suppliers-details-top-color;
+        }
         .x-self-container {
 
             @media screen and (-ms-high-contrast: none),
@@ -409,6 +443,12 @@ mainbody {
 .k-window {
     .k-window-titlebar {
         border: 0;
+    }
+
+    .k-window-content {
+        .k-edit-buttons {
+            background: $suppliers-window-footer-background !important;
+        }
     }
 }
 
@@ -524,6 +564,63 @@ mainbody {
     }
 }
 
+.color-btn {
+    @extend .white-btn;
+    text-align: center;
+
+    .k-button {
+        box-shadow: none !important;
+        border: 1px solid $suppliers-color-btn !important;
+    }
+
+}
+
+.fixIcon {
+    .k-icon {
+        background-color: #f2f7fd;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+    }
+}
+
+.titleInv {
+    flex: 0 0 10%;
+}
+
+.rectInv {
+    >div {
+        border-radius: 4px;
+        background-color: rgb(246, 233, 254);
+        margin: 0px 10px;
+    }
+
+    .labelInv {
+        .col-4 {
+            label {
+                font-size: 12px;
+                min-width: 40px;
+                text-align: right;
+            }
+        }
+
+        .col-8 {
+            font-size: 12px;
+            font-weight: bold;
+
+            span {
+                text-align: center !important;
+            }
+        }
+    }
+}
+
+.light-blue {
+    .k-button {
+        background: #02b5fd !important;
+    }
+}
+
 .grey-btn {
     margin: auto -15px;
 
@@ -595,6 +692,91 @@ mainbody {
     }
 }
 
+.details {
+    .top {
+        .x-cell-header {
+            padding: 6px 8px 6px 9px;
+            border-radius: 8px;
+            display: table-cell;
+            color: $suppliers-details-top-color;
+            font-weight: normal;
+            opacity: 0.65;
+            font-family: Heebo;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 1.31px;
+            text-align: center;
+            background: $suppliers-details-top-background-color;
+            top: -5px;
+            position: relative;
+        }
+    }
+
+    .right {
+        flex: 0 0 14%;
+        color: $suppliers-details-right-left-color !important;
+
+        >div {
+            font-size: 35px;
+
+            &:first-child {
+                font-size: 18px;
+                top: 10px;
+                position: relative;
+            }
+
+            &:last-child {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .left {
+        margin-right: 15px;
+
+        * {
+            color: $suppliers-details-right-left-color;
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            >.col-4 {
+                background: #efefef;
+                flex: 0 0 0.1%;
+                margin-left: 10px;
+                border-radius: 4px;
+                padding: 1px 7px 0;
+                height: 21px;
+
+                label {
+                    font-size: 11px;
+                    line-height: 1.82;
+                    letter-spacing: 0.9px;
+                    text-align: center;
+                }
+            }
+        }
+
+        >div {
+            .col-8 {
+                font-size: 14px;
+            }
+
+            &:first-child {
+                .col-8 {
+                    font-size: 14px;
+                }
+            }
+
+            &:last-child {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 
 
 .boxShadow-0 {
@@ -611,10 +793,10 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: $suppliers-cube-color;
+            background: $suppliers-first-cube-background !important;
 
             span {
-                color: $suppliers-cube-background !important;
+                color: $suppliers-first-cube-color !important;
             }
         }
 
@@ -625,7 +807,8 @@ mainbody {
         justify-content: center;
         flex: 0 0 100%;
         border-radius: 20px;
-        box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+        box-shadow:$suppliers-box-shadow;
+
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         margin-top: 5px;
 
@@ -803,7 +986,7 @@ mainbody {
         >.row {
             background-color: #fff;
             border-radius: 50px !important;
-            box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+            box-shadow: $suppliers-box-shadow !important;
 
             @media screen and (min-height:800px) {
                 margin-top: 195px !important;

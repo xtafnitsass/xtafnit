@@ -66,14 +66,22 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-header-wrap a.k-link {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-header-wrap th {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+  color: #464247;
+}
+
+.k-grid .k-grid-content td a {
+  color: #02b5fd !important;
+  text-decoration: underline;
 }
 
 .x-cell-header {
@@ -273,6 +281,17 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
+  color: #ccc;
+  margin-right: 10px;
+  top: -5px;
+  font-size: 18px;
+}
+
+mainbody .gridHeaderButton [xid="controlkiClean"] {
+  color: #8733af;
+}
+
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
@@ -309,6 +328,10 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-window .k-window-titlebar {
   border: 0;
+}
+
+.k-window .k-window-content .k-edit-buttons {
+  background: #464247 !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -412,11 +435,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.white-btn {
+.white-btn, .color-btn {
   margin: auto 5px;
 }
 
-.white-btn .k-button {
+.white-btn .k-button, .color-btn .k-button {
   background: #fff !important;
   background-image: none !important;
   color: #ca0000 !important;
@@ -424,8 +447,56 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
 
-.white-btn .k-button:hover {
+.white-btn .k-button:hover, .color-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.color-btn {
+  text-align: center;
+}
+
+.color-btn .k-button {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #8733af4d !important;
+}
+
+.fixIcon .k-icon {
+  background-color: #f2f7fd;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.titleInv {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10%;
+          flex: 0 0 10%;
+}
+
+.rectInv > div {
+  border-radius: 4px;
+  background-color: #f6e9fe;
+  margin: 0px 10px;
+}
+
+.rectInv .labelInv .col-4 label {
+  font-size: 12px;
+  min-width: 40px;
+  text-align: right;
+}
+
+.rectInv .labelInv .col-8 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rectInv .labelInv .col-8 span {
+  text-align: center !important;
+}
+
+.light-blue .k-button {
+  background: #02b5fd !important;
 }
 
 .grey-btn {
@@ -503,6 +574,85 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 10px;
 }
 
+.details .top .x-cell-header {
+  padding: 6px 8px 6px 9px;
+  border-radius: 8px;
+  display: table-cell;
+  color: #8733af;
+  font-weight: normal;
+  opacity: 0.65;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1.31px;
+  text-align: center;
+  background: #f7e8ff;
+  top: -5px;
+  position: relative;
+}
+
+.details .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14%;
+          flex: 0 0 14%;
+  color: #464247 !important;
+}
+
+.details .right > div {
+  font-size: 35px;
+}
+
+.details .right > div:first-child {
+  font-size: 18px;
+  top: 10px;
+  position: relative;
+}
+
+.details .right > div:last-child {
+  font-size: 12px;
+}
+
+.details .left {
+  margin-right: 15px;
+}
+
+.details .left * {
+  color: #464247;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+  background: #efefef;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0.1%;
+          flex: 0 0 0.1%;
+  margin-left: 10px;
+  border-radius: 4px;
+  padding: 1px 7px 0;
+  height: 21px;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+  font-size: 11px;
+  line-height: 1.82;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.details .left > div .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:first-child .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:last-child {
+  font-size: 15px;
+}
+
 .boxShadow-0 {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -539,19 +689,19 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
-          box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
 }
 
 .cube-wrapper .cube:first-child {
-  background: #ca0000;
+  background: #fff !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #fff !important;
+  color: #ca0000 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
@@ -741,8 +891,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
-          box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
