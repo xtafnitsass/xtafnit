@@ -464,10 +464,31 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   height: 70px;
 }
 
-.pinkRect > div {
+.rectInv .titleInv {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10%;
+          flex: 0 0 10%;
+}
+
+.rectInv > div {
   border-radius: 4px;
   background-color: #f6e9fe;
   margin: 0px 10px;
+}
+
+.rectInv .labelInv .col-4 label {
+  font-size: 12px;
+  min-width: 40px;
+  text-align: right;
+}
+
+.rectInv .labelInv .col-8 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rectInv .labelInv .col-8 span {
+  text-align: center !important;
 }
 
 .light-blue .k-button {
