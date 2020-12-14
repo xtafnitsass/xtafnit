@@ -390,6 +390,9 @@ mainbody {
                 top: -5px;
                 font-size: 18px;
             }
+            &.fa-eraser{
+                color: $suppliers-details-top-color;
+            }
         }
 
         .x-self-container {
@@ -582,11 +585,11 @@ mainbody {
     }
 }
 
-.rectInv {
-    .titleInv {
-        flex: 0 0 10%;
-    }
+.titleInv {
+    flex: 0 0 10%;
+}
 
+.rectInv {
     >div {
         border-radius: 4px;
         background-color: rgb(246, 233, 254);
