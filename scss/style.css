@@ -601,6 +601,7 @@ mainbody .x-section-header-wrraper {
 
 .k-grid .k-grid-pager .k-pager-nav {
   border-color: #9e30bf;
+  color: #9e30bf !important;
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {

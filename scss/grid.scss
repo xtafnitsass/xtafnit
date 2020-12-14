@@ -35,6 +35,7 @@ $grid-edited-numeric-arrow-color:#fff !default;
 $grid-footer-background-color:#fff !default;
 $grid-footer-border-color:#eee !default;
 $grid-content-padding:10px 0px!default;
+$grid-pager-nav-color:#003f59!default;
 
 
 
@@ -181,6 +182,7 @@ $grid-content-padding:10px 0px!default;
 
         .k-pager-nav {
             border-color: $grid-pager-nav-border;
+            color: $grid-pager-nav-color!important;
         }
 
         .k-link {
