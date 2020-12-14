@@ -903,6 +903,34 @@ header .k-icon {
   color: #043563;
 }
 
+header [xid="controlkiGoBack"] {
+  color: #02b5fd;
+  right: 50px;
+  position: relative;
+}
+
+header [xid="controlliSearch"] {
+  color: #464247;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+header [xid="controlkiNotification"] {
+  border-radius: 50%;
+  background: red;
+  width: 5px;
+  height: 5px;
+}
+
+header [xid="controlkiUser2"] {
+  border-radius: 50% !important;
+  background: #02b5fd !important;
+  width: 5px !important;
+  height: 5px !important;
+  position: absolute !important;
+}
+
 header #kGoBack {
   padding-right: 27px;
 }
