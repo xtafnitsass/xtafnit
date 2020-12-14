@@ -559,7 +559,7 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: white !important;
+  background-color: #f6e9fe !important;
   color: #000 !important;
 }
 
