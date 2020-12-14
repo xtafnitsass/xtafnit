@@ -31,6 +31,8 @@ $suppliers-details-right-left-color: #464247 !default;
 $suppliers-details-top-background-color: #f7e8ff !default;
 $suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
 $suppliers-grid-header-color:#ccc !default;
+$suppliers-grid-link-color:#02b5fd!default;
+$suppliers-grid-link-decoration:underline!default;
 
 //------------------------------------------------------------layout//
 
@@ -129,6 +131,10 @@ header {
         td {
             border-bottom: 1px solid #d8d8d8;
             color: $suppliers-grid-content-color;
+            a{
+                color:$suppliers-grid-link-color!important;
+                text-decoration: $suppliers-grid-link-decoration;
+            }
         }
     }
 
@@ -575,6 +581,13 @@ mainbody {
     }
 }
 
+.pinkRect {
+    > div {
+        border-radius: 4px;
+        background-color: rgb(246,233,254);
+        margin: 0px 10px;
+    }
+}
 .light-blue {
     .k-button {
         background: #02b5fd !important;
