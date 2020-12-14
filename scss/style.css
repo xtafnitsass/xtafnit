@@ -1328,6 +1328,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   width: 70px;
   border-radius: 50%;
   height: 70px;
+  color: #02b5fd;
 }
 
 .titleInv {
@@ -1338,7 +1339,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .rectInv > div {
   border-radius: 4px;
-  background-color: #f6e9fe;
+  background-color: #fee9e9;
   margin: 0px 10px;
 }
 
@@ -1358,7 +1359,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .light-blue .k-button {
-  background: #02b5fd !important;
+  background: #464247 !important;
 }
 
 .grey-btn {

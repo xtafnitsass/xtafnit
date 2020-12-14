@@ -33,6 +33,9 @@ $suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
 $suppliers-grid-header-color:#ccc !default;
 $suppliers-grid-link-color:#02b5fd !default;
 $suppliers-grid-link-decoration:underline !default;
+$suppliers-rectInv-background:#f6e9fe!default;
+$suppliers-window-btn-background-color:#02b5fd!default;
+$suppliers-window-fixicon-color:#003f59!default;
 
 //------------------------------------------------------------layout//
 
@@ -581,6 +584,7 @@ mainbody {
         width: 70px;
         border-radius: 50%;
         height: 70px;
+        color:$suppliers-window-fixicon-color;
     }
 }
 
@@ -591,7 +595,7 @@ mainbody {
 .rectInv {
     >div {
         border-radius: 4px;
-        background-color: rgb(246, 233, 254);
+        background-color: $suppliers-rectInv-background;
         margin: 0px 10px;
     }
 
@@ -617,7 +621,7 @@ mainbody {
 
 .light-blue {
     .k-button {
-        background: #02b5fd !important;
+        background: $suppliers-window-btn-background-color !important;
     }
 }
 
