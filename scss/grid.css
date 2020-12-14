@@ -135,6 +135,7 @@
 
 .k-grid .k-grid-pager .k-pager-nav {
   border-color: #60cde0;
+  color: #003f59 !important;
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected {
