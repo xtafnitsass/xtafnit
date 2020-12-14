@@ -52,6 +52,7 @@ header [xid="controlliSearch"] {
   text-decoration: underline;
   font-size: 14px;
   font-weight: 300;
+  margin: 0px 20px;
 }
 
 header [xid="controlkiNotification"] {
@@ -59,14 +60,24 @@ header [xid="controlkiNotification"] {
   background: red;
   width: 5px;
   height: 5px;
+  margin: 0px 20px;
 }
 
 header [xid="controlkiUser2"] {
-  border-radius: 50% !important;
-  background: #02b5fd !important;
-  width: 5px !important;
-  height: 5px !important;
-  position: absolute !important;
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  margin: 0px 20px;
+}
+
+header #kiNotification {
+  height: 20px;
+  border-left: 1px solid #ccc;
+}
+
+header #kiUser2 {
+  height: 20px;
 }
 
 header #kGoBack {
