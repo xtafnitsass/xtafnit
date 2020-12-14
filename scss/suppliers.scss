@@ -390,11 +390,10 @@ mainbody {
                 top: -5px;
                 font-size: 18px;
             }
-            &.fa-eraser{
-                color: $suppliers-details-top-color;
-            }
         }
-
+        [xid="controlkiClean"]{
+            color: $suppliers-details-top-color;
+        }
         .x-self-container {
 
             @media screen and (-ms-high-contrast: none),
