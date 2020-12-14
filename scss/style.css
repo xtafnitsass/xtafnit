@@ -1149,7 +1149,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   font-size: 18px;
 }
 
-mainbody .gridHeaderButton .k-icon.fa-eraser {
+mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #9e30bf;
 }
 
