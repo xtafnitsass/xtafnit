@@ -288,6 +288,10 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   font-size: 18px;
 }
 
+mainbody .gridHeaderButton .k-icon.fa-eraser {
+  color: #8733af;
+}
+
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
@@ -464,7 +468,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   height: 70px;
 }
 
-.rectInv .titleInv {
+.titleInv {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 10%;
           flex: 0 0 10%;
