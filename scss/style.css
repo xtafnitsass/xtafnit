@@ -525,7 +525,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header th a span:before {
-  color: #02b5fd;
+  color: #000;
 }
 
 .k-grid .k-grid-header thead {
