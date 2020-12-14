@@ -80,6 +80,20 @@ header #kiUser2 {
   height: 20px;
 }
 
+header #acSearch2 span {
+  border-radius: 30px;
+}
+
+header [xid="controlacSearch2"] {
+  background: #fff !important;
+  border-radius: 30px;
+  width: 260px;
+  border: 0;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+}
+
 header #kGoBack {
   padding-right: 27px;
 }

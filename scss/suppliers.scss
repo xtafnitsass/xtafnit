@@ -123,8 +123,24 @@ header {
         height: 20px;
         border-left: 1px solid #ccc;
     }
-    #kiUser2{
-        height:20px;
+
+    #kiUser2 {
+        height: 20px;
+    }
+
+    #acSearch2 {
+        span {
+            border-radius: 30px;
+        }
+    }
+
+    [xid="controlacSearch2"] {
+        background: #fff !important;
+        border-radius: 30px;
+        width: 260px;
+        border: 0;
+        font-size: 14px;
+        box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
     }
 
     #kGoBack {
