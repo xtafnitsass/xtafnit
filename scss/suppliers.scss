@@ -33,9 +33,11 @@ $suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
 $suppliers-grid-header-color:#ccc !default;
 $suppliers-grid-link-color:#02b5fd !default;
 $suppliers-grid-link-decoration:underline !default;
-$suppliers-rectInv-background:#f6e9fe!default;
-$suppliers-window-btn-background-color:#02b5fd!default;
-$suppliers-window-fixicon-color:#003f59!default;
+$suppliers-rectInv-background:#f6e9fe !default;
+$suppliers-window-btn-background-color:#02b5fd !default;
+$suppliers-window-fixicon-color:#003f59 !default;
+$suppliers-toolbar-goBack-color:#02b5fd !default;
+$suppliers-window-fixicon-backgronud:#f2f7fd!default;
 
 //------------------------------------------------------------layout//
 
@@ -86,6 +88,60 @@ input[type=number] {
 header {
     .k-icon {
         color: $suppliers-header-color;
+    }
+
+    [xid="controlkiGoBack"] {
+        color: $suppliers-toolbar-goBack-color;
+        right: 50px;
+        position: relative;
+    }
+
+    [xid="controlliSearch"] {
+        color: #464247;
+        text-decoration: underline;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0px 20px;
+    }
+
+    [xid="controlkiNotification"] {
+        border-radius: 50%;
+        background: red;
+        width: 5px;
+        height: 5px;
+        margin: 0px 20px;
+    }
+
+    [xid="controlkiUser2"] {
+        border-radius: 50%;
+        background: #02b5fd;
+        width: 5px;
+        height: 5px;
+        margin: 0px 20px;
+    }
+
+    #kiNotification {
+        height: 20px;
+        border-left: 1px solid #ccc;
+    }
+
+    #kiUser2 {
+        height: 20px;
+    }
+
+    #acSearch2 {
+        span {
+            border-radius: 30px;
+        }
+    }
+
+    [xid="controlacSearch2"] {
+        background: #fafafa !important;
+        border-radius: 0px !important;
+        border: 0 !important;
+        width: 260px;
+        font-size: 14px;
+        box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
     }
 
     #kGoBack {
@@ -394,9 +450,11 @@ mainbody {
                 font-size: 18px;
             }
         }
-        [xid="controlkiClean"]{
+
+        [xid="controlkiClean"] {
             color: $suppliers-details-top-color;
         }
+
         .x-self-container {
 
             @media screen and (-ms-high-contrast: none),
@@ -580,11 +638,11 @@ mainbody {
 
 .fixIcon {
     .k-icon {
-        background-color: #f2f7fd;
+        background-color: $suppliers-window-fixicon-backgronud;
         width: 70px;
         border-radius: 50%;
         height: 70px;
-        color:$suppliers-window-fixicon-color;
+        color: $suppliers-window-fixicon-color;
     }
 }
 
@@ -1124,6 +1182,11 @@ mainbody {
                 margin-bottom: 10px;
             }
         }
+    }
+}
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice{
+    .border{
+        border: 1px solid #d8d8d8!important;
     }
 }
 

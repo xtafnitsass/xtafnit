@@ -903,6 +903,59 @@ header .k-icon {
   color: #464247;
 }
 
+header [xid="controlkiGoBack"] {
+  color: #02b5fd;
+  right: 50px;
+  position: relative;
+}
+
+header [xid="controlliSearch"] {
+  color: #464247;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0px 20px;
+}
+
+header [xid="controlkiNotification"] {
+  border-radius: 50%;
+  background: red;
+  width: 5px;
+  height: 5px;
+  margin: 0px 20px;
+}
+
+header [xid="controlkiUser2"] {
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  margin: 0px 20px;
+}
+
+header #kiNotification {
+  height: 20px;
+  border-left: 1px solid #ccc;
+}
+
+header #kiUser2 {
+  height: 20px;
+}
+
+header #acSearch2 span {
+  border-radius: 30px;
+}
+
+header [xid="controlacSearch2"] {
+  background: #fafafa !important;
+  border-radius: 0px !important;
+  border: 0 !important;
+  width: 260px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+}
+
 header #kGoBack {
   padding-right: 27px;
 }
@@ -1879,6 +1932,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
     max-width: 16%;
     margin-bottom: 10px;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
+  border: 1px solid #d8d8d8 !important;
 }
 
 [xid="controlrgCloud"] {
