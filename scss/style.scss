@@ -21,12 +21,13 @@ $row-header-color:#0167b1;
 $window-background:#fff;
 $window-margin:0px auto;
 $window-color:#0167b1;
+$window-border:20px;
 
 /*drawer*/
 
 $drawer-background-color:#1387da;
-$drawer-padding-top:0px;
 $drawer-icon-color:#fff;
+$drawer-color:#fff;
 
 /*k-animator*/
 
@@ -182,6 +183,8 @@ $grid-edited-numeric-arrow-background-color:#0167b1;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
+$grid-content-padding:10px 0px;
+$grid-pager-nav-color:#003f59;
 
 
 /*time picker*/
@@ -257,10 +260,84 @@ $freehand-color: #000;
 $freehand-background: #0167b1;
 $freehand-border-color:#0167b1;
 
+/*layout*/
+
+$cube-background:#fff;
+$cube-color:#c00000;
+$clock-color:#c00000;
+$top-panel-background:#ffffff;
+$header-color:#043563;
+$x-cell-header-color:#043563;
+$cube-description-color:#c00000;
+$body-background:#f5f6f8;
+$upload-button:#c00000;
+$tabstrip:#c00000;
+$drawer:#c00000;
+$timeselector:#c00000;
+$messageText:#c00000;
+$timeselector:#c00000;
+$loginTitle:#043563;
+$loginTitle2:#043563;
+$white-btn:#c00000;
+$icon-wrapper:#c00000;
+$progress-empty:#f2ebf6;
+$progress-fill:#c00000;
+$progress-shadow:#c00000;
+
+/*suppliers*/
+
+$suppliers-cube-background:#fff;
+$suppliers-cube-color:#ca0000;
+$suppliers-clock-color:#ca0000;
+$suppliers-top-panel-background:#ffffff;
+$suppliers-header-color:#043563;
+$suppliers-x-cell-header-color:#043563;
+$suppliers-cube-description-color:#ca0000;
+$suppliers-body-background:#f5f6f8;
+$suppliers-upload:#ca0000;
+$suppliers-drawer:#282830;
+$suppliers-tabstrip:#ca0000;
+$suppliers-message-text:#043563;
+$suppliers-loginTitle:#043563;
+$suppliers-loginTitle2:#043563;
+$suppliers-white-btn:#ca0000;
+$suppliers-k-icon:#43b1e5;
+$suppliers-x-textbox:#043563;
+$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-fill:#ca0000;
+$suppliers-progress-shadow:#ca0000;
+$suppliers-first-cube-background:#fff;
+$suppliers-first-cube-color:#ca0000;
+$suppliers-grid-font-weight:bold;
+$suppliers-grid-content-color:#464247;
+$suppliers-color-btn:#8733af4d;
+$suppliers-window-footer-background:#dadada;
+$suppliers-details-top-color: #8733af;
+$suppliers-details-right-left-color: #464247;
+$suppliers-details-top-background-color: #f7e8ff;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$suppliers-grid-header-color:#b7b7b7;
+$suppliers-grid-link-color:#02b5fd;
+$suppliers-grid-link-decoration:underline;
+$suppliers-rectInv-background:#f6e9fe;
+$suppliers-window-btn-background-color:#02b5fd;
+$suppliers-window-fixicon-color:#02b5fd;
+$suppliers-toolbar-goBack-color:#02b5fd;
+
+
+/*link*/
+
+$link-color:#007bff;
+$link-text-underling:underline;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard','./link';
 
 @import './matrix/tafnitselfservice/style';
+// './importer-customers';
+//  './suppliers';
+
+/*tafnit portal*/
