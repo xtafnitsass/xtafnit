@@ -864,6 +864,22 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+.window-details-row .window-details-col .labelTitle {
+  font-size: 14px;
+  color: #464247 !important;
+  opacity: 0.68;
+}
+
+.window-details-row .window-details-col .spanData {
+  font-size: 14px;
+  color: #464247 !important;
+}
+
+.window-details-row .window-details-col .k-grid .k-grid-header th .k-link {
+  color: #464247 !important;
+  opacity: 0.7;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox {
   border-radius: 0px !important;
 }
