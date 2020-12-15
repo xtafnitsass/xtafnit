@@ -1,0 +1,11 @@
+$link-color:#007bff!default;
+$link-text-underling:underline!default;
+
+.xstyle-ilink-wrapper{
+    .x-link_Comp{
+        color:$link-color!important;
+        text-decoration-line: $link-text-underling;
+    }
+}
+
+@forward 'link';
