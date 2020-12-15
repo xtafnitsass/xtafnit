@@ -57,6 +57,11 @@ body {
         }
     }
 }
+.xstyle-textareacontrol-wrapper{
+    textarea{
+        font-size: 16px;
+    }
+}
 
 //datepicker width//
 .xstyle-date-wrapper {
@@ -366,4 +371,15 @@ mainbody {
             }
         }
     }
+}
+
+/*splash -- resource loader*/
+
+progress[value]::-webkit-progress-value {
+    background-image: none !important;
+    background-color: #ca0000;
+}
+
+#progressBoxShadow {
+    box-shadow: 0px 0px 41px -28px #ca0000;
 }

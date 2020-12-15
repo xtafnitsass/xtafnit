@@ -40,6 +40,10 @@ body {
   border-radius: 0;
 }
 
+.xstyle-textareacontrol-wrapper textarea {
+  font-size: 16px;
+}
+
 .xstyle-date-wrapper .k-datepicker .k-picker-wrap {
   border-left: 0;
   border-right: 0;
@@ -343,5 +347,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 #TafnitCore_System_UI_App_Tools_FillAndSignV2Page [xid="controlsecPreview"] > div:last-child {
   padding-right: 1px !important;
   padding-left: 1px !important;
+}
+
+/*splash -- resource loader*/
+progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #ca0000;
+}
+
+#progressBoxShadow {
+  -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
+          box-shadow: 0px 0px 41px -28px #ca0000;
 }
 /*# sourceMappingURL=style.css.map */
