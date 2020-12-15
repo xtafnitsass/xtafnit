@@ -969,18 +969,18 @@ mainbody {
             opacity: 0.68;
         }
 
-        .spanData {
+        span {
             font-size: 14px;
             color: #464247 !important;
         }
+    }
 
-        .k-grid {
-            .k-grid-header {
-                th {
-                    .k-link {
-                        color: #464247 !important;
-                        opacity: 0.7;
-                    }
+    .k-grid {
+        .k-grid-header {
+            th {
+                .k-link {
+                    color: #464247 !important;
+                    opacity: 0.7;
                 }
             }
         }
