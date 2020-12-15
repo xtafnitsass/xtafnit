@@ -1732,12 +1732,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   opacity: 0.68;
 }
 
-.window-details-row .window-details-col .spanData {
+.window-details-row .window-details-col span {
   font-size: 14px;
   color: #464247 !important;
 }
 
-.window-details-row .window-details-col .k-grid .k-grid-header th .k-link, .window-details-row .window-details-col .k-grid .k-grid-header th .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .window-details-row .window-details-col .k-grid .k-grid-header th td.k-state-focused.k-state-hover {
+.window-details-row .k-grid .k-grid-header th .k-link, .window-details-row .k-grid .k-grid-header th .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .window-details-row .k-grid .k-grid-header th td.k-state-focused.k-state-hover {
   color: #464247 !important;
   opacity: 0.7;
 }
