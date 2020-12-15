@@ -964,13 +964,14 @@ mainbody {
 .window-details-row {
     .window-details-col {
         .labelTitle {
-            font-size: 14px;
-            color: #464247 !important;
-            opacity: 0.68;
+            label {
+                font-size: 14px !important;
+                opacity: 0.68;
+            }
         }
 
         span {
-            font-size: 14px;
+            font-size: 14px!important;
             color: #464247 !important;
         }
     }

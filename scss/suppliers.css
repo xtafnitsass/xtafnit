@@ -864,14 +864,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-.window-details-row .window-details-col .labelTitle {
-  font-size: 14px;
-  color: #464247 !important;
+.window-details-row .window-details-col .labelTitle label {
+  font-size: 14px !important;
   opacity: 0.68;
 }
 
 .window-details-row .window-details-col span {
-  font-size: 14px;
+  font-size: 14px !important;
   color: #464247 !important;
 }
 
