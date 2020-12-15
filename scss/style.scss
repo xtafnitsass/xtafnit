@@ -1,123 +1,132 @@
 /*header*/
 
-$header-background:#f5f6f8;
+$header-background:#fafafa;
 $header-border: none;
 $header-color:#000;
 
 /*footer*/
 $footer-color:#fff;
-$footer-background:#000;
+$footer-background:#282830;
 
 /*row*/
+
 $row-background-color:#fff;
 $row-margin:5px;
 $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
-$row-box-shadow:0 2px 9px 0 #ccc;
+$row-box-shadow:0 10px 20px 0 rgba(175, 51, 51, 0.1);
 $row-header-color:#3fa535;
 
 /*window*/
-$window-background:#27292b;
+
+$window-background:#fff;
 $window-margin:0px auto;
-$window-color:#fff;
+$window-color:#000;
+$window-border:20px;
 
 /*drawer*/
 
 $drawer-background-color:#3fa535;
-$drawer-padding-top:0px;
-$drawer-icon-color:#fff;
+$drawer-icon-color:#F0F0F0;
+$drawer-color:#fff;
 
 
 /*k-animator*/
 
-$animator-container-border-color:#27292b;
-$animator-container-background-color:#d7d7df;
+$animator-container-border-color:#fff;
+$animator-container-background-color:#fff;
 $animator-container-focused-amount:3;
-$animator-container-color:#27292b;
-$animator-container-selected-background-color:#9c9c9c;
-$animator-container-selected-color:#F0F0F0;
+$animator-container-color:#282830;
+$animator-container-selected-background-color:#f2f7fc;
+$animator-container-selected-color:#b29cbe;
 
 $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
-$animator-scroller-thumb-background: #F0F0F0;
+$animator-scroller-thumb-background: #a9bdca;
 $animator-scroller-thumb-border: 1px solid #fff;
-$animator-scroller-background-hover:#27292b;
-$animator-scroller-webkit-background:#ccc;
+$animator-scroller-background-hover:#91a6b4;
+$animator-scroller-webkit-background:#dfdbdb;
 
-$animator-autocomplete-header-template-color:#27292b;
+$animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
 $animtaor-text-align:right;
 
 /*k-filter*/
-$k-filter-edited-numeric-border-color:#27292b;
+$k-filter-edited-numeric-border-color:#000;
 $k-filter-edited-numeric-arrow-background-color:#3fa535;
 $k-filter-edited-numeric-arrow-color:#fff;
 
+
 /*button*/
-$btn-background: #3fa535;
-$btn-background-hover: #35972d;
-$btn-border-radius: 20px;
-$btn-border: 1px solid #3fa535;
-$btn-color: #fff;
+
+$btn-background: #3fa535 !important;
+$btn-background-hover: #32882a !important;
+$btn-border-radius: 30px;
+$btn-border: 0;
+$btn-color: #fff !important;
 $btn-font-weight: normal;
-$btn-color-hover:#F0F0F0;
+$btn-color-hover:#F0F0F0 !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 
 /*autocomplete*/
-$autocomplete-input-background: #fff;
+
+$autocomplete-input-background: #fafafa;
 $autocomplete-input-border-radius: 0px;
 $autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:1px solid #27292b;
+$autocomplete-input-border-bottom:1px solid #464247;
 $autocomplete-input-color: #000;
 
 /*calendar*/
 
+
 $calendar-header-background: #3fa535;
-$calendar-header-color: #F0F0F0;
-$calendar-view-background: #ebebeb;
+$calendar-header-color: #fff;
+$calendar-view-background: #fff;
 $calendar-view-weekend-background: #fff;
-$calendar-view-weekend-color:#27292b;
-$calendar-view-date-hover-background:#27292b;
-$calendar-view-date-hover-color:#ebebeb;
+$calendar-view-weekend-color:#282830;
+$calendar-view-date-hover-background:#3fa535;
+$calendar-view-date-hover-color:#fff;
 $calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
-$calendar-view-today-background:#27292b;
+$calendar-view-today-background:#3fa535;
 $calendar-view-today-color: #ebebeb;
 $calendar-footer-background:#3fa535;
-$calendar-footer-color:#ebebeb;
+$calendar-footer-color:#fff;
 $calendar-footer-hover-color:#d6d6d6;
 $calendar-dates-color:#3fa535;
 
 /*date-picker*/
 
-$date-picker-background:#fff;
-$date-picker-border:1px solid #27292b;
+
+$date-picker-background:#fafafa;
+$date-picker-border:1px solid #464247;
 $date-picker-input-color:#000;
-$date-picker-icon-background:#27292b;
-$date-picker-icon-color:#fff;
-$date-picker-icon-border-color:#27292b;
-$date-mobile-border:0 !important;
-$date-mobile-border-bottom:1px solid #27292b;
+$date-picker-icon-background:#fafafa;
+$date-picker-icon-color:#464247;
+$date-picker-icon-border-color:#fafafa;
+$date-mobile-border:0;
+$date-mobile-border-bottom:1px solid #464247;
 $date-mobile-border-radius:0px;
 
 /*checkbox*/
 
-$checkbox-background:#fff;
+$checkbox-background:#f7f8f9;
 $checkbox-color:#3fa535;
-$checkbox-border-color:#27292b;
+$checkbox-border-color:#3fa535;
 $checkbox-border-radius:4px;
 $checkbox-box-shadow : none;
 
 /*textbox*/
 
-$textbox-background:#fff;
+
+$textbox-background:#fafafa;
 $textbox-border:0;
 $textbox-border-top:0;
-$textbox-border-bottom:1px solid #27292b;
+$textbox-border-bottom:1px solid #464247;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
@@ -126,97 +135,104 @@ $textbox-box-shadow:none;
 
 /*virutal-keyboard*/
 
-$virtual-keyboard-background:#fff;
+$virtual-keyboard-background:#ccc;
 $virtual-keyboard-border:0;
 $virtual-keyboard-border-top:0;
-$virtual-keyboard-border-bottom:1px solid #27292b;
+$virtual-keyboard-border-bottom:1px solid #000;
 $virtual-keyboard-border-left:0;
 $virtual-keyboard-border-right:0;
-$virtual-keyboard-color:#000;
+$virtual-keyboard-color:rgb(255, 0, 179);
 $virtual-keyboard-radius:0;
 $virtual-keyboard-box-shadow:none;
 $virtual-keyboard-icon-color:#fff;
-$virtual-keyboard-icon-background:#3fa535;
+$virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
-$drop-down-background : #fff;
-$drop-down-border-bottom : 1px solid #27292b;
+
+$drop-down-background : #fafafa;
+$drop-down-border-bottom : 1px solid #464247;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
-$drop-down-icon-color : #27292b;
+$drop-down-icon-color : #464247;
 
 /*grid*/
 
-$grid-header-text-color:#27292b;
-$grid-header-filter-color:#27292b;
+
+$grid-header-text-color:#868387;
+$grid-header-filter-color:#000;
 $grid-header-background:transparent;
 $grid-header-serach-float:right;
 $grid-header-serach-border:1px solid #ccc;
 $grid-header-serach-border-radius:1px solid #ccc;
 $grid-header-title-background: none;
 $grid-header-toolbar-border-color:#fff;
-$grid-header-filter-active-background:#27292b;
+$grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#3fa535;
-$grid-content-line-background-hover-amount:3;
-$grid-content-line-color-hover:#ebebeb;
-$grid-content-line-background-selected:#3fa535;
-$grid-content-line-color-selected:#ebebeb;
+$grid-content-line-background-hover:#cae7ce;
+$grid-content-line-background-hover-amount:0;
+$grid-content-line-color-hover:#000;
+$grid-content-line-background-selected:#cae7ce;
+$grid-content-line-color-selected:#000;
 $grid-content-border:none;
-$grid-content-border-left:1px solid #eee;
+$grid-content-border-left:none;
 $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background:#3fa535;
+$grid-pager-nav-background: linear-gradient(to top, #166800 -46%, #1e8a00 163%, #3fa535 163%);
 $grid-pager-nav-border:#3fa535;
-$grid-pager-nav-background-hover:#35972d;
+$grid-pager-nav-background-hover:#3fa535;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
-$grid-scoller-background:#888888;
+$grid-scoller-background:#a9bdca;
 $grid-scoller-width:10px;
 $grid-scoller-height:10px;
-$grid-scoller-webkit-background:#ccc;
+$grid-scoller-webkit-background:#dfdbdb;
 $grid-edited-numeric-border-color:#000;
 $grid-edited-numeric-arrow-background-color:#3fa535;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
+$grid-content-padding:10px 0px;
+$grid-pager-nav-color:#3fa535;
 
 
 /*time picker*/
 
 $time-border:0;
-$time-border-bottom:1px solid #27292b;
-$time-background:#fff;
-$time-icon-background:#27292b;
-$time-icon-color:#fff;
+$time-border-bottom:1px solid #464247;
+$time-background:#fafafa;
+$time-icon-background:#fafafa;
+$time-icon-color:#464247;
 $time-border-raduis:0px;
 
 /*float-button*/
 
+
 $float-button-backgorund:#3fa535;
 $float-button-color:#fff;
-$float-button-border-color:1px solid #fff;
+$float-button-border-color:1px solid #000;
 
 /*textarea*/
 
-$textarea-border-color:#27292b;
-$textarea-background-color:#fff;
+$textarea-border-color:#464247;
+$textarea-background-color:#fafafa !important;
 $textarea-border-style:solid;
-$textarea-border-left-width:0px;
-$textarea-border-top-width:0px;
-$textarea-border-right-width:0px;
+$textarea-border-left-width:1px;
+$textarea-border-top-width:1px;
+$textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#27292b;
+
+$upload-border-color:#3fa535;
 
 /*multiselect*/
 
-$multiselect-border-color:#27292b;
-$multiselect-background-color:#fff;
+
+$multiselect-border-color:#464247;
+$multiselect-background-color:#fafafa;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;
 $multiselect-border-top-width:0px;
@@ -236,12 +252,13 @@ $tabstrip-content-border-color:#f5f6f8;
 
 /*slider*/
 
-$slider-selection-color:#27292b;
+
+$slider-selection-color:#000;
 $slider-track-color:#3fa535;
-$slider-draghandle-border-color:#27292b;
-$slider-draghandle-background-color:#27292b;
-$slider-draghandle-border-color-hover:#27292b;
-$slider-draghandle-background-color-hover:#27292b;
+$slider-draghandle-border-color:#000;
+$slider-draghandle-background-color:#000;
+$slider-draghandle-border-color-hover:#000;
+$slider-draghandle-background-color-hover:#000;
 
 /*rating*/
 
@@ -249,13 +266,15 @@ $rating-star-background-color:#3fa535;
 
 /*radio*/
 
-$radio-border-color: #27292b;
+
+$radio-border-color: #000000;
 $radio-color: #3fa535;
 $radio-background-color: #fff;
 
+
 /*freehand*/
 
-$freehand-color: #fff;
+$freehand-color: #000;
 $freehand-background: #3fa535;
 $freehand-border-color:#3fa535;
 
@@ -268,7 +287,7 @@ $top-panel-background:#ffffff;
 $header-color:#043563;
 $x-cell-header-color:#043563;
 $cube-description-color:#3fa535;
-$body-background:#f5f6f8;
+$body-background:#fafafa;
 $upload-button:#3fa535;
 $tabstrip:#3fa535;
 $drawer:#3fa535;
@@ -286,30 +305,55 @@ $progress-shadow:#3fa535;
 /*suppliers*/
 
 $suppliers-cube-background:#fff;
-$suppliers-cube-color:#ca0000;
-$suppliers-clock-color:#ca0000;
+$suppliers-cube-color:#3fa535;
+$suppliers-clock-color:#3fa535;
 $suppliers-top-panel-background:#ffffff;
 $suppliers-header-color:#043563;
 $suppliers-x-cell-header-color:#043563;
-$suppliers-cube-description-color:#ca0000;
+$suppliers-cube-description-color:#3fa535;
 $suppliers-body-background:#f5f6f8;
-$suppliers-upload:#ca0000;
+$suppliers-upload:#3fa535;
 $suppliers-drawer:#282830;
-$suppliers-tabstrip:#ca0000;
+$suppliers-tabstrip:#3fa535;
 $suppliers-message-text:#043563;
 $suppliers-loginTitle:#043563;
 $suppliers-loginTitle2:#043563;
-$suppliers-white-btn:#ca0000;
+$suppliers-white-btn:#3fa535;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#043563;
 $suppliers-progress-empty:#f2ebf6;
-$suppliers-progress-fill:#ca0000;
-$suppliers-progress-shadow:#ca0000;
+$suppliers-progress-fill:#3fa535;
+$suppliers-progress-shadow:#3fa535;
+$suppliers-first-cube-background:#fff;
+$suppliers-first-cube-color:#3fa535;
+$suppliers-grid-font-weight:bold;
+$suppliers-grid-content-color:#464247;
+$suppliers-color-btn:#8733af4d;
+$suppliers-window-footer-background:#dadada;
+$suppliers-details-top-color: #8733af;
+$suppliers-details-right-left-color: #464247;
+$suppliers-details-top-background-color: #f7e8ff;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$suppliers-grid-header-color:#b7b7b7;
+$suppliers-grid-link-color:#02b5fd;
+$suppliers-grid-link-decoration:underline;
+$suppliers-rectInv-background:#f6e9fe;
+$suppliers-window-btn-background-color:#02b5fd;
+$suppliers-window-fixicon-color:#02b5fd;
+$suppliers-toolbar-goBack-color:#02b5fd;
+
+
+/*link*/
+
+$link-color:#007bff;
+$link-text-underling:underline;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard',
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
 './importer-customers';
 // './suppliers';
+
+/*lease4u customers - v5 */

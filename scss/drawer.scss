@@ -1,83 +1,50 @@
 $drawer-background-color:#575757 !default;
-$drawer-padding-top:0px !default;
 $drawer-icon-color:#ff0000 !default;
+$drawer-color:#fff !default;
 
-.k-drawer-item {
-    background-image: none !important;
+.k-drawer {
+    border:0!important;
+    background: $drawer-background-color !important;
 
-    .k-drawer-item {
-        &:hover {
+    .k-drawer-items {
+        * {
+            color: $drawer-color !important;
+        }
+
+        .k-drawer-item {
             background-image: none !important;
+
+            &.k-state-selected {
+                background: none !important;
+            }
         }
     }
-}
 
-// side menu
-.k-drawer-overlay {
-    .k-drawer {
-        // max-width: 150px;
-        max-height: 100vh;
-        background-color: $drawer-background-color;
-        border: none;
-        border-bottom-left-radius: 40px;
-        border-top-left-radius: 40px;
-        overflow: hidden;
-        padding-top: $drawer-padding-top;
+    .k-panelbar {
+        .k-item {
+            background: $drawer-background-color !important;
 
-        .k-icon::before {
-            color: $drawer-icon-color;
-        }
-
-        .k-drawer-wrapper {
-            overflow-x: visible !important;
-            overflow-y: visible !important;
-
-            .k-drawer-items {
-                li {
-                    color: $drawer-icon-color;
-
-                    &:hover {
-                        background: lighten($color: $drawer-background-color, $amount: 5) !important;
-                    }
+            .k-link {
+                &.k-state-focused {
+                    box-shadow: none !important;
+                    border: 0 !important;
                 }
 
-                .k-in {
-                    &.k-state-hover {
-                        color: $drawer-icon-color;
-                        background: darken($color: $drawer-background-color, $amount: 5);
-                        background-image: none;
-                    }
+                &.k-header {
+                    color: $drawer-color !important;
+                    background-image: none!important;
                 }
             }
 
-            &:nth-child(2),
-            &:last-child {
-                span {
-                    color: $drawer-icon-color;
-                }
-            }
+            .k-panel {
+                .k-item {
+                    background: $drawer-background-color !important;
 
-            max-width: 100%;
-        }
-
-        ul[role="menu"] {
-            li[role="menuitem"] {
-                background-color: $drawer-background-color;
-                color: $drawer-icon-color;
-                max-width: 100%;
-
-                .k-link {
-                    color: $drawer-icon-color !important;
-                    background-image: none;
-
-                    &.k-header {
-                        background-image: none !important;
-                        background: $drawer-background-color;
-                    }
-
-                    &.k-state-hover {
-                        background: $drawer-background-color !important;
-                        opacity: 0.8;
+                    .k-link {
+                        &.k-state-hover {
+                            background: none !important;
+                            opacity: 0.7;
+                        }
                     }
                 }
             }
