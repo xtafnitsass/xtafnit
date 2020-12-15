@@ -37,6 +37,7 @@ $suppliers-rectInv-background:#f6e9fe !default;
 $suppliers-window-btn-background-color:#02b5fd !default;
 $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
+$suppliers-window-fixicon-backgronud:#f2f7fd!default;
 
 //------------------------------------------------------------layout//
 
@@ -637,7 +638,7 @@ mainbody {
 
 .fixIcon {
     .k-icon {
-        background-color: #f2f7fd;
+        background-color: $suppliers-window-fixicon-backgronud;
         width: 70px;
         border-radius: 50%;
         height: 70px;
