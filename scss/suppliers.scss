@@ -144,11 +144,6 @@ header {
         position: relative;
     }
 
-    #kiMenu {
-        position: relative;
-        left: 70px;
-    }
-
     #kiUser2 {
         height: 20px;
         border-radius: 50%;
@@ -166,14 +161,19 @@ header {
         }
     }
 
-    [xid="controlacSearch2"] {
-        background: #fff !important;
-        border-radius: 30px !important;
-        border: 0 !important;
-        width: 260px;
-        font-size: 14px;
-        box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+    .k-autocomplete {
+        .k-textbox {
+            &[xid="controlacSearch2"] {
+                background: #fff !important;
+                border-radius: 30px !important;
+                border: 0 !important;
+                width: 260px;
+                font-size: 14px;
+                box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+            }
+        }
     }
+
 
     #kGoBack {
         padding-right: 27px;
