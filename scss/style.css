@@ -953,11 +953,6 @@ header #kiNotification {
   position: relative;
 }
 
-header #kiMenu {
-  position: relative;
-  left: 70px;
-}
-
 header #kiUser2 {
   height: 20px;
   border-radius: 50%;
@@ -973,7 +968,7 @@ header #acSearch2 span {
   border-radius: 30px;
 }
 
-header [xid="controlacSearch2"] {
+header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
   background: #fff !important;
   border-radius: 30px !important;
   border: 0 !important;
