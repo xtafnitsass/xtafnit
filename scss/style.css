@@ -904,9 +904,12 @@ header .k-icon {
 }
 
 header [xid="controlkiGoBack"] {
-  color: #02b5fd;
   right: 50px;
   position: relative;
+}
+
+header [xid="controlkiGoBack"] a {
+  color: #02b5fd !important;
 }
 
 header [xid="controlliSearch"] {
