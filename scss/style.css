@@ -904,9 +904,12 @@ header .k-icon {
 }
 
 header [xid="controlkiGoBack"] {
-  color: #02b5fd;
   right: 50px;
   position: relative;
+}
+
+header [xid="controlkiGoBack"] span {
+  color: #02b5fd !important;
 }
 
 header [xid="controlliSearch"] {
@@ -917,38 +920,57 @@ header [xid="controlliSearch"] {
   margin: 0px 20px;
 }
 
-header [xid="controlkiNotification"] {
+header [xid="controlkiMenu"] span {
+  font-size: 12px;
+}
+
+header #username {
+  font-size: 14px;
+  color: #464247;
+  position: relative;
+  top: -5px;
+  left: -70px;
+  max-width: 100%;
+}
+
+header #tbbEmail {
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  color: #464247;
+  opacity: 0.7;
+  font-family: Heebo-Light;
+  max-width: 100%;
+}
+
+header #kiNotification {
   border-radius: 50%;
   background: red;
   width: 5px;
   height: 5px;
-  margin: 0px 20px;
-}
-
-header [xid="controlkiUser2"] {
-  border-radius: 50%;
-  background: #02b5fd;
-  width: 5px;
-  height: 5px;
-  margin: 0px 20px;
-}
-
-header #kiNotification {
-  height: 20px;
-  border-left: 1px solid #ccc;
+  left: 0px;
+  top: -3px;
+  position: relative;
 }
 
 header #kiUser2 {
   height: 20px;
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  left: -40px;
+  top: -6px;
+  position: relative;
 }
 
 header #acSearch2 span {
   border-radius: 30px;
 }
 
-header [xid="controlacSearch2"] {
-  background: #fafafa !important;
-  border-radius: 0px !important;
+header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
+  background: #fff !important;
+  border-radius: 30px !important;
   border: 0 !important;
   width: 260px;
   font-size: 14px;
@@ -973,6 +995,10 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: white;
   font-size: 16px;
   height: 100%;
+}
+
+.k-autocomplete .k-textbox {
+  font-size: 14px !important;
 }
 
 .k-grid .k-grid-header-wrap a.k-grid-filter {
@@ -1167,6 +1193,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
+  font-size: 14px;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -1726,6 +1753,36 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+.window-details-row .window-details-col .labelTitle label {
+  font-size: 14px !important;
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.window-details-row .window-details-col span {
+  font-size: 14px !important;
+  color: #464247 !important;
+}
+
+.window-details-row .k-grid .k-grid-header th .k-link, .window-details-row .k-grid .k-grid-header th .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .window-details-row .k-grid .k-grid-header th td.k-state-focused.k-state-hover {
+  color: #464247 !important;
+  opacity: 0.7;
+}
+
+.totalCol .labelTitle label {
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.totalCol span {
+  color: #464247 !important;
+  font-weight: bold;
+}
+
+.totalCol .font-weight-bold label {
+  font-weight: bold !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox {
   border-radius: 0px !important;
 }
@@ -1932,6 +1989,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
     max-width: 16%;
     margin-bottom: 10px;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
+  border: 1px solid #eee !important;
 }
 
 [xid="controlrgCloud"] {
