@@ -920,29 +920,53 @@ header [xid="controlliSearch"] {
   margin: 0px 20px;
 }
 
-header [xid="controlkiNotification"] {
+header [xid="controlkiMenu"] span {
+  font-size: 12px;
+}
+
+header #username {
+  font-size: 14px;
+  color: #464247;
+  position: relative;
+  top: -5px;
+  left: -70px;
+  max-width: 100%;
+}
+
+header #tbbEmail {
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  color: #464247;
+  opacity: 0.7;
+  font-family: Heebo-Light;
+  max-width: 100%;
+}
+
+header #kiNotification {
   border-radius: 50%;
   background: red;
   width: 5px;
   height: 5px;
-  margin: 0px 20px;
+  left: 0px;
+  top: -3px;
+  position: relative;
 }
 
-header [xid="controlkiUser2"] {
-  border-radius: 50%;
-  background: #02b5fd;
-  width: 5px;
-  height: 5px;
-  margin: 0px 20px;
-}
-
-header #kiNotification {
-  height: 20px;
-  border-left: 1px solid #ccc;
+header #kiMenu {
+  position: relative;
+  left: 70px;
 }
 
 header #kiUser2 {
   height: 20px;
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  left: -40px;
+  top: -6px;
+  position: relative;
 }
 
 header #acSearch2 span {
@@ -950,8 +974,8 @@ header #acSearch2 span {
 }
 
 header [xid="controlacSearch2"] {
-  background: #fafafa !important;
-  border-radius: 0px !important;
+  background: #fff !important;
+  border-radius: 30px !important;
   border: 0 !important;
   width: 260px;
   font-size: 14px;
