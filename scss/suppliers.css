@@ -327,6 +327,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
+  font-size: 14px;
 }
 
 .xstyle-buttoncontrol-wrapper {
