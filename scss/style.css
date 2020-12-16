@@ -1336,10 +1336,24 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .dotIcon {
   position: absolute;
-  bottom: 51%;
+  bottom: 49%;
   width: auto;
-  left: 23px;
+  left: 5px;
   z-index: 10003;
+}
+
+.dotIcon a {
+  background: transparent !important;
+  color: #464247 !important;
+}
+
+.dotIcon a:hover {
+  background: transparent !important;
+  color: #464247 !important;
+}
+
+.dotIcon a span {
+  width: 20px;
 }
 
 .grey-btn {

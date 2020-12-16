@@ -21,6 +21,7 @@ $icon-wrapper:#25a003 !default;
 $progress-empty:#f2ebf6 !default;
 $progress-fill:#25a003 !default;
 $progress-shadow:#25a003 !default;
+$icon-tachometer:#464247 !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -584,11 +585,31 @@ mainbody {
 }
 
 .dotIcon {
+    // position: absolute;
+    // bottom: 51%;
+    // width: auto;
+    // left: 23px;
+    // z-index: 10003;
+
     position: absolute;
-    bottom: 51%;
+    bottom: 49%;
     width: auto;
-    left: 23px;
+    left: 5px;
     z-index: 10003;
+
+    a {
+        background: transparent !important;
+        color: $icon-tachometer !important;
+
+        &:hover {
+            background: transparent !important;
+            color: $icon-tachometer !important;
+        }
+
+        span {
+            width: 20px;
+        }
+    }
 }
 
 .grey-btn {
