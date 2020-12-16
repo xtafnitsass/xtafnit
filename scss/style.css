@@ -1336,10 +1336,24 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .dotIcon {
   position: absolute;
-  bottom: 51%;
+  bottom: 49%;
   width: auto;
-  left: 23px;
+  left: 5px;
   z-index: 10003;
+}
+
+.dotIcon a {
+  background: transparent !important;
+  color: #464247 !important;
+}
+
+.dotIcon a:hover {
+  background: transparent !important;
+  color: #464247 !important;
+}
+
+.dotIcon a span {
+  width: 20px;
 }
 
 .grey-btn {
@@ -1827,12 +1841,12 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #ca0000;
+  background-color: #c00000;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
-          box-shadow: 0px 0px 41px -28px #ca0000;
+  -webkit-box-shadow: 0px 0px 41px -28px #c00000;
+          box-shadow: 0px 0px 41px -28px #c00000;
 }
 
 @forward 'importer-customers';
