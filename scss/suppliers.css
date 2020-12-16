@@ -867,6 +867,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .window-details-row .window-details-col .labelTitle label {
   font-size: 14px !important;
   opacity: 0.68;
+  color: #464247 !important;
 }
 
 .window-details-row .window-details-col span {
@@ -877,6 +878,16 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .window-details-row .k-grid .k-grid-header th .k-link {
   color: #464247 !important;
   opacity: 0.7;
+}
+
+.totalCol .labelTitle label {
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.totalCol span {
+  color: #464247 !important;
+  font-weight: bold;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox {
