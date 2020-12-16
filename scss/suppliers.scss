@@ -967,11 +967,12 @@ mainbody {
             label {
                 font-size: 14px !important;
                 opacity: 0.68;
+                color: #464247 !important;
             }
         }
 
         span {
-            font-size: 14px!important;
+            font-size: 14px !important;
             color: #464247 !important;
         }
     }
@@ -985,6 +986,20 @@ mainbody {
                 }
             }
         }
+    }
+}
+
+.totalCol {
+    .labelTitle {
+        label {
+            opacity: 0.68;
+            color: #464247 !important;
+        }
+    }
+
+    span {
+        color: #464247 !important;
+        font-weight: bold;
     }
 }
 
