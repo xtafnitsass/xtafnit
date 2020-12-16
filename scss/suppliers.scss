@@ -1001,6 +1001,12 @@ mainbody {
         color: #464247 !important;
         font-weight: bold;
     }
+
+    .font-weight-bold {
+        label {
+            font-weight: bold !important;
+        }
+    }
 }
 
 //------------------------------------------------------------page login//

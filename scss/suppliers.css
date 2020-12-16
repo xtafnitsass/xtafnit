@@ -890,6 +890,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   font-weight: bold;
 }
 
+.totalCol .font-weight-bold label {
+  font-weight: bold !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox {
   border-radius: 0px !important;
 }
