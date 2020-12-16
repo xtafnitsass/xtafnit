@@ -908,7 +908,7 @@ header [xid="controlkiGoBack"] {
   position: relative;
 }
 
-header [xid="controlkiGoBack"] a {
+header [xid="controlkiGoBack"] span {
   color: #02b5fd !important;
 }
 
