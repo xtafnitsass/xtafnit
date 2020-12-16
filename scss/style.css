@@ -1964,6 +1964,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
   border: 1px solid #eee !important;
 }
