@@ -37,6 +37,7 @@ $suppliers-rectInv-background:#f6e9fe !default;
 $suppliers-window-btn-background-color:#02b5fd !default;
 $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
+$suppliers-window-fixicon-backgronud:#f2f7fd !default;
 
 //------------------------------------------------------------layout//
 
@@ -90,9 +91,13 @@ header {
     }
 
     [xid="controlkiGoBack"] {
-        color: $suppliers-toolbar-goBack-color;
+
         right: 50px;
         position: relative;
+
+        span {
+            color: $suppliers-toolbar-goBack-color !important;
+        }
     }
 
     [xid="controlliSearch"] {
@@ -103,29 +108,51 @@ header {
         margin: 0px 20px;
     }
 
-    [xid="controlkiNotification"] {
+
+    [xid="controlkiMenu"] {
+        span {
+            font-size: 12px;
+        }
+    }
+
+    #username {
+        font-size: 14px;
+        color: #464247;
+        position: relative;
+        top: -5px;
+        left: -70px;
+        max-width: 100%;
+    }
+
+    #tbbEmail {
+        position: relative;
+        top: 10px;
+        font-size: 12px;
+        color: #464247;
+        opacity: 0.7;
+        font-family: Heebo-Light;
+        max-width: 100%;
+    }
+
+    #kiNotification {
         border-radius: 50%;
         background: red;
         width: 5px;
         height: 5px;
-        margin: 0px 20px;
-    }
-
-    [xid="controlkiUser2"] {
-        border-radius: 50%;
-        background: #02b5fd;
-        width: 5px;
-        height: 5px;
-        margin: 0px 20px;
-    }
-
-    #kiNotification {
-        height: 20px;
-        border-left: 1px solid #ccc;
+        left: 0px;
+        top: -3px;
+        position: relative;
     }
 
     #kiUser2 {
         height: 20px;
+        border-radius: 50%;
+        background: #02b5fd;
+        width: 5px;
+        height: 5px;
+        left: -40px;
+        top: -6px;
+        position: relative;
     }
 
     #acSearch2 {
@@ -134,14 +161,19 @@ header {
         }
     }
 
-    [xid="controlacSearch2"] {
-        background: #fafafa !important;
-        border-radius: 0px !important;
-        border: 0 !important;
-        width: 260px;
-        font-size: 14px;
-        box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+    .k-autocomplete {
+        .k-textbox {
+            &[xid="controlacSearch2"] {
+                background: #fff !important;
+                border-radius: 30px !important;
+                border: 0 !important;
+                width: 260px;
+                font-size: 14px;
+                box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+            }
+        }
     }
+
 
     #kGoBack {
         padding-right: 27px;
@@ -159,6 +191,13 @@ header {
                 height: 100%;
             }
         }
+    }
+}
+
+//autocompete//
+.k-autocomplete {
+    .k-textbox {
+        font-size: 14px !important;
     }
 }
 
@@ -397,6 +436,7 @@ mainbody {
 
         .k-input {
             height: 37px;
+            font-size: 14px;
         }
     }
 
@@ -637,7 +677,7 @@ mainbody {
 
 .fixIcon {
     .k-icon {
-        background-color: #f2f7fd;
+        background-color: $suppliers-window-fixicon-backgronud;
         width: 70px;
         border-radius: 50%;
         height: 70px;
@@ -960,6 +1000,54 @@ mainbody {
     }
 }
 
+.window-details-row {
+    .window-details-col {
+        .labelTitle {
+            label {
+                font-size: 14px !important;
+                opacity: 0.68;
+                color: #464247 !important;
+            }
+        }
+
+        span {
+            font-size: 14px !important;
+            color: #464247 !important;
+        }
+    }
+
+    .k-grid {
+        .k-grid-header {
+            th {
+                .k-link {
+                    color: #464247 !important;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+.totalCol {
+    .labelTitle {
+        label {
+            opacity: 0.68;
+            color: #464247 !important;
+        }
+    }
+
+    span {
+        color: #464247 !important;
+        font-weight: bold;
+    }
+
+    .font-weight-bold {
+        label {
+            font-weight: bold !important;
+        }
+    }
+}
+
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_Default_UI_Login {
@@ -1181,6 +1269,13 @@ mainbody {
                 margin-bottom: 10px;
             }
         }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder,
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice {
+    .border {
+        border: 1px solid #eee !important;
     }
 }
 
