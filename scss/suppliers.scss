@@ -91,9 +91,13 @@ header {
     }
 
     [xid="controlkiGoBack"] {
-        color: $suppliers-toolbar-goBack-color;
+
         right: 50px;
         position: relative;
+
+        a {
+            color: $suppliers-toolbar-goBack-color !important;
+        }
     }
 
     [xid="controlliSearch"] {
