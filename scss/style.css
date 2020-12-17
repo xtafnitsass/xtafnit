@@ -309,6 +309,21 @@ mainbody .x-section-header-wrraper {
   border: 0px solid !important;
 }
 
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
+  background: #9c9c9c !important;
+  color: #F0F0F0 !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
+  background: #9c9c9c !important;
+  color: #F0F0F0 !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
+  background: #9c9c9c !important;
+  color: #F0F0F0 !important;
+}
+
 .k-animation-container .k-list-container .x-autocomplete-header-template {
   color: #282830;
   background: #F0F0F0;
