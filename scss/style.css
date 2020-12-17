@@ -928,9 +928,6 @@ header [xid="controlkiMenu"] span {
 header #username {
   font-size: 14px;
   color: #464247;
-  position: relative;
-  top: -5px;
-  left: -70px;
   max-width: 100%;
 }
 
@@ -951,17 +948,6 @@ header #kiNotification {
   height: 5px;
   left: 0px;
   top: -3px;
-  position: relative;
-}
-
-header #kiUser2 {
-  height: 20px;
-  border-radius: 50%;
-  background: #02b5fd;
-  width: 5px;
-  height: 5px;
-  left: -40px;
-  top: -6px;
   position: relative;
 }
 
