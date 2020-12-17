@@ -325,8 +325,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #f2f7fc;
-  color: #b29cbe;
+  background: #fcf2f2;
+  color: #000000;
   border: 0 !important;
 }
 
@@ -338,21 +338,21 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #f2f7fc;
-  color: #b29cbe;
+  background: #fcf2f2;
+  color: #000000;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #e6eff9;
-  color: #b29cbe;
+  background: #f9e6e6;
+  color: #000000;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #f2f7fc;
+  background: #fcf2f2;
 }
 
 .k-animation-container .k-nodata {
@@ -901,7 +901,7 @@ input[type=number] {
 }
 
 header .k-icon {
-  color: #043563;
+  color: #464247;
 }
 
 header [xid="controlkiGoBack"] {
@@ -1016,14 +1016,14 @@ header #kGoBack [xid="controlkGoBack"] > span {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
-  color: #043563;
+  color: #464247;
   font-family: Heebo !important;
   font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
-  color: #043563;
+  color: #464247;
   font-family: Heebo !important;
 }
 
