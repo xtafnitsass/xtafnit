@@ -863,7 +863,7 @@ input[type="time"] {
 
 @forward 'link';
 body {
-  background-color: #f5f6f8 !important;
+  background-color: #fafafa !important;
   font-family: Heebo;
 }
 
@@ -1182,7 +1182,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #282830 !important;
+  background: #ca0000 !important;
 }
 
 .k-datepicker .k-picker-wrap {
