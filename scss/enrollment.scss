@@ -118,9 +118,6 @@ header {
     #username {
         font-size: 14px;
         color: #464247;
-        position: relative;
-        top: -5px;
-        left: -70px;
         max-width: 100%;
     }
 
@@ -143,18 +140,7 @@ header {
         top: -3px;
         position: relative;
     }
-
-    #kiUser2 {
-        height: 20px;
-        border-radius: 50%;
-        background: #02b5fd;
-        width: 5px;
-        height: 5px;
-        left: -40px;
-        top: -6px;
-        position: relative;
-    }
-
+    
     #acSearch2 {
         span {
             border-radius: 30px;
