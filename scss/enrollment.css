@@ -400,6 +400,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background: #464247 !important;
 }
 
+.k-window footer {
+  background: #464247 !important;
+}
+
 #MessageBoxWindow #buttonbtn1 {
   float: left;
 }
