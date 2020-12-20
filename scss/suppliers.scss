@@ -606,23 +606,18 @@ mainbody {
             width: 62px !important;
         }
     }
-
-    >div {
-        &:last-child {
-
-            @media all and (-ms-high-contrast: none),
-            (-ms-high-contrast: active) {
-                margin-left:10px;
-            }
-        }
-        [xid="Cell_Container_controlbtnAddNewLine"]{
-            @media all and (-ms-high-contrast: none),
-            (-ms-high-contrast: active) {
-                margin-left:63px;
-            }
+    [xid="Cell_Container_controlbSearch"]{
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left:10px;
         }
     }
-
+    [xid="Cell_Container_controlbtnAddNewLine"]{
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left:63px;
+        }
+    }
 }
 
 .loginTitle {
