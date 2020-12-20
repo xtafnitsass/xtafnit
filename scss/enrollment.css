@@ -1096,6 +1096,11 @@ progress[value]::-webkit-progress-value {
   background-color: #ca0000;
 }
 
+progress[value]::-ms-fill {
+  background-image: none !important;
+  background-color: #ca0000;
+}
+
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
           box-shadow: 0px 0px 41px -28px #ca0000;
