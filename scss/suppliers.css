@@ -1131,7 +1131,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   left: 20px !important;
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton:last-child {
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton > div:last-child {
   min-width: 10px !important;
 }
 
