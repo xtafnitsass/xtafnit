@@ -873,8 +873,7 @@ input[type="time"] {
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #02b5fd !important;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration: underline;
 }
 
 @forward 'link';
@@ -1585,9 +1584,9 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 3%;
-            flex: 0 0 3%;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 3% !important;
+            flex: 0 0 3% !important;
   }
 }
 
