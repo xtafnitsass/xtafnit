@@ -827,7 +827,6 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #000000;
   color: #02b5fd;
   background-color: #fff;
 }
@@ -836,6 +835,11 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #02b5fd;
           box-shadow: 0 0 3px 0 #02b5fd;
+}
+
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #000000 !important;
 }
 
 @forward 'radio-button';
@@ -2035,6 +2039,16 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
   height: 400px;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder mainbody > div:first-child {
+  height: 60px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton {
+    padding: 0 !important;
+  }
 }
 
 [xid="controlrgCloud"] {

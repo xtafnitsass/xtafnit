@@ -606,16 +606,20 @@ mainbody {
             width: 62px !important;
         }
     }
-    [xid="Cell_Container_controlbSearch"]{
+
+    [xid="Cell_Container_controlbSearch"] {
+
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            margin-left:10px;
+            margin-left: 10px;
         }
     }
-    [xid="Cell_Container_controlbtnAddNewLine"]{
+
+    [xid="Cell_Container_controlbtnAddNewLine"] {
+
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            margin-left:63px;
+            margin-left: 63px;
         }
     }
 }
@@ -1306,6 +1310,28 @@ mainbody {
         >div {
             &:first-child {
                 height: 400px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder {
+    mainbody {
+        >div {
+            &:first-child {
+                height: 60px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice {
+    .greyPanel {
+        .gridHeaderButton {
+
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                padding: 0 !important;
             }
         }
     }

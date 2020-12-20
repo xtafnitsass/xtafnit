@@ -1159,6 +1159,16 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   height: 400px;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder mainbody > div:first-child {
+  height: 60px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton {
+    padding: 0 !important;
+  }
+}
+
 [xid="controlrgCloud"] {
   padding: 0 !important;
 }
