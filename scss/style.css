@@ -26,6 +26,7 @@
 /*freehand*/
 /*layout*/
 /*suppliers*/
+/*enrollment*/
 /*link*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
@@ -309,6 +310,21 @@ mainbody .x-section-header-wrraper {
   border: 0px solid !important;
 }
 
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
 .k-animation-container .k-list-container .x-autocomplete-header-template {
   color: #282830;
   background: #F0F0F0;
@@ -446,6 +462,7 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
+  background: #9e30bf !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
@@ -1564,6 +1581,14 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .details .left * {
   color: #464247;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 3%;
+            flex: 0 0 3%;
+  }
 }
 
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
