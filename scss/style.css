@@ -461,6 +461,7 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
+  background: #282830 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {

@@ -847,7 +847,7 @@ mainbody {
 
                 @media all and (-ms-high-contrast: none),
                 (-ms-high-contrast: active) {
-                    flex: 0 0 3%;
+                    flex: 0 0 3%!important;
                 }
 
             }
