@@ -1966,12 +1966,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-  max-width: 1520px;
-  margin: auto;
-  bottom: 3% !important;
-}
-
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
   background-color: #f2ebf6;
