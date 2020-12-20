@@ -1277,6 +1277,11 @@ mainbody {
             left: 20px !important;
         }
     }
+    .gridHeaderButton {
+        &:last-child{
+            min-width: 10px!important;
+        }
+    }
 }
 
 
@@ -1325,7 +1330,8 @@ mainbody {
     }
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice {
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice,
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService {
     .greyPanel {
         .gridHeaderButton {
 
