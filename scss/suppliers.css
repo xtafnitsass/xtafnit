@@ -473,13 +473,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .gridHeaderButton > div:last-child {
+  .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
     margin-left: 10px;
   }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .gridHeaderButton > div [xid="Cell_Container_controlbtnAddNewLine"] {
+  .gridHeaderButton [xid="Cell_Container_controlbtnAddNewLine"] {
     margin-left: 63px;
   }
 }
