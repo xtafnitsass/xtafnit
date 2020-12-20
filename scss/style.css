@@ -1416,7 +1416,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #9e30bf4d !important;
+  border: 1px solid #eebcfd !important;
 }
 
 .fixIcon .k-icon {
