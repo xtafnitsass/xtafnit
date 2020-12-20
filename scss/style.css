@@ -920,6 +920,7 @@ header .k-icon {
 }
 
 header [xid="controlkiGoBack"] {
+  cursor: pointer;
   right: 50px;
   position: relative;
 }
@@ -1346,6 +1347,18 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 @media only screen and (max-width: 640px) {
   .gridHeaderButton .k-button {
     width: 62px !important;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton > div:last-child {
+    margin-left: 10px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton > div [xid="Cell_Container_controlbtnAddNewLine"] {
+    margin-left: 63px;
   }
 }
 
@@ -2018,6 +2031,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
   border: 1px solid #eee !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
+  height: 400px;
 }
 
 [xid="controlrgCloud"] {
