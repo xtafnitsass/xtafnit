@@ -2013,6 +2013,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   left: 20px !important;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton:last-child {
+  min-width: 10px !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube .font-weight-bold,
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
   -webkit-box-orient: horizontal !important;
@@ -2046,7 +2050,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton {
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton,
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService .greyPanel .gridHeaderButton {
     padding: 0 !important;
   }
 }
