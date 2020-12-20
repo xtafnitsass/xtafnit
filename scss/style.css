@@ -462,6 +462,7 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
+  background: #ca0000 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
@@ -826,7 +827,6 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #000000;
   color: #ca0000;
   background-color: #fff;
 }
@@ -835,6 +835,11 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #ca0000;
           box-shadow: 0 0 3px 0 #ca0000;
+}
+
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #000000 !important;
 }
 
 @forward 'radio-button';
@@ -872,8 +877,7 @@ input[type="time"] {
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #02b5fd !important;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration: underline;
 }
 
 @forward 'link';
@@ -1962,6 +1966,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
+  max-width: 1520px;
+  margin: auto;
+  bottom: 3% !important;
+}
+
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
   background-color: #f2ebf6;
@@ -1970,6 +1980,11 @@ progress[value]::-webkit-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #ca0000;
+}
+
+progress[value]::-ms-fill {
   background-image: none !important;
   background-color: #ca0000;
 }

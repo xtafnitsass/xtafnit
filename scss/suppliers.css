@@ -42,6 +42,7 @@ header .k-icon {
 }
 
 header [xid="controlkiGoBack"] {
+  cursor: pointer;
   right: 50px;
   position: relative;
 }
@@ -471,6 +472,18 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
+    margin-left: 10px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton [xid="Cell_Container_controlbtnAddNewLine"] {
+    margin-left: 63px;
+  }
+}
+
 .loginTitle {
   font-size: 55px;
   color: #043563;
@@ -702,6 +715,14 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .details .left * {
   color: #464247;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 3% !important;
+            flex: 0 0 3% !important;
+  }
 }
 
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
@@ -1110,6 +1131,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   left: 20px !important;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton > div:last-child {
+  min-width: 10px !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube .font-weight-bold,
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
   -webkit-box-orient: horizontal !important;
@@ -1132,6 +1157,21 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
   border: 1px solid #eee !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
+  height: 400px;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder mainbody > div:first-child {
+  height: 60px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton,
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService .greyPanel .gridHeaderButton {
+    padding: 0 !important;
+  }
 }
 
 [xid="controlrgCloud"] {
