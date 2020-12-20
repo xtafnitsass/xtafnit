@@ -843,6 +843,17 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
+            .col-4 {
+
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    flex: 0 0 3%;
+                }
+
+            }
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
             >.col-4 {
                 background: #efefef;
                 flex: 0 0 0.1%;

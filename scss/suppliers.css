@@ -704,6 +704,14 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #464247;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 3%;
+            flex: 0 0 3%;
+  }
+}
+
 .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
   background: #efefef;
   -webkit-box-flex: 0;
