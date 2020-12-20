@@ -1084,6 +1084,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
+    bottom: 3% !important;
+  }
+}
+
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
   background-color: #f2ebf6;
