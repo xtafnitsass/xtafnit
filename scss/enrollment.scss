@@ -1217,6 +1217,14 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment{
+    footer{
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            bottom:3%!important;
+        }
+    }
+}
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
