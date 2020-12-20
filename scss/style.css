@@ -825,7 +825,6 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #000000;
   color: #b91414;
   background-color: #fff;
 }
@@ -834,6 +833,11 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #b91414;
           box-shadow: 0 0 3px 0 #b91414;
+}
+
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #000000 !important;
 }
 
 @forward 'radio-button';
