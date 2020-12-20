@@ -1277,9 +1277,12 @@ mainbody {
             left: 20px !important;
         }
     }
+
     .gridHeaderButton {
-        &:last-child{
-            min-width: 10px!important;
+        >div {
+            &:last-child {
+                min-width: 10px !important;
+            }
         }
     }
 }
