@@ -22,6 +22,9 @@ $customers-progress-fill:#25a003 !default;
 $customers-progress-shadow:#25a003 !default;
 $customers-icon-tachometer:#464247 !default;
 $customers-toolbar-goBack-color:#02b5fd!default;
+$customers-details-top-color: #25a003 !default;
+$customers-details-right-left-color: #464247 !default;
+$customers-details-top-background-color: #f7e8ff !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -763,6 +766,102 @@ mainbody {
 
             .col-4 {
                 margin-right: 10px;
+            }
+        }
+    }
+}
+
+.details {
+    .top {
+        .x-cell-header {
+            padding: 6px 8px 6px 9px;
+            border-radius: 8px;
+            display: table-cell;
+            color: $customers-details-top-color;
+            font-weight: normal;
+            opacity: 0.65;
+            font-family: Heebo;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 1.31px;
+            text-align: center;
+            background: $customers-details-top-background-color;
+            top: -5px;
+            position: relative;
+        }
+    }
+
+    .right {
+        flex: 0 0 14%;
+        color: $customers-details-right-left-color !important;
+
+        >div {
+            font-size: 35px;
+
+            &:first-child {
+                font-size: 18px;
+                top: 10px;
+                position: relative;
+            }
+
+            &:last-child {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .left {
+        margin-right: 15px;
+
+        * {
+            color: $customers-details-right-left-color;
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            .col-4 {
+
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    flex: 0 0 3% !important;
+                }
+
+            }
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            >.col-4 {
+                background: #efefef;
+                flex: 0 0 0.1%;
+                margin-left: 10px;
+                border-radius: 4px;
+                padding: 1px 7px 0;
+                height: 21px;
+
+                label {
+                    font-size: 11px;
+                    line-height: 1.82;
+                    letter-spacing: 0.9px;
+                    text-align: center;
+                }
+            }
+        }
+
+        >div {
+            .col-8 {
+                font-size: 14px;
+            }
+
+            &:first-child {
+                .col-8 {
+                    font-size: 14px;
+                }
+            }
+
+            &:last-child {
+                font-size: 15px;
             }
         }
     }
