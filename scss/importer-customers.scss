@@ -21,14 +21,14 @@ $customers-progress-empty:#f2ebf6 !default;
 $customers-progress-fill:#25a003 !default;
 $customers-progress-shadow:#25a003 !default;
 $customers-icon-tachometer:#464247 !default;
-$customers-toolbar-goBack-color:#02b5fd!default;
+$customers-toolbar-goBack-color:#02b5fd !default;
 $customers-details-top-color: #25a003 !default;
 $customers-details-right-left-color: #464247 !default;
 $customers-details-top-background-color: #f7e8ff !default;
 $customers-window-fixicon-backgronud:#f2f7fd !default;
 $customers-window-fixicon-color:#003f59 !default;
 $customers-grid-link-color:#02b5fd !default;
-$customers-grid-link-decoration:underline!default;
+$customers-grid-link-decoration:underline !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -207,6 +207,7 @@ header {
     .k-grid-content {
         td {
             border-bottom: 1px solid #d8d8d8;
+
             a {
                 color: $customers-grid-link-color !important;
                 text-decoration: $customers-grid-link-decoration;
@@ -249,8 +250,8 @@ header {
 }
 
 
-//customers-tabstrip//
-.k-customers-tabstrip {
+//tabstrip//
+.k-tabstrip {
     &:focus {
         box-shadow: 0 0 black;
     }
@@ -265,7 +266,7 @@ header {
         border-bottom: 0 !important;
     }
 
-    .k-customers-tabstrip-items {
+    .k-tabstrip-items {
         .k-item.k-state-active {
             border-bottom: 4px solid $customers-tabstrip;
 
@@ -412,15 +413,15 @@ mainbody {
     }
 }
 
-//customers-drawer//
+//drawer//
 
-.k-customers-drawer-overlay {
-    .k-customers-drawer {
+.k-drawer-overlay {
+    .k-drawer {
         border-bottom-left-radius: 0px;
         border-top-left-radius: 20px;
 
-        .k-customers-drawer-wrapper {
-            .k-customers-drawer-items {
+        .k-drawer-wrapper {
+            .k-drawer-items {
                 li {
                     &:hover {
                         background: $customers-drawer !important;
@@ -443,6 +444,7 @@ mainbody {
 
         .k-input {
             height: 37px;
+            font-size: 14px;
         }
     }
 
@@ -457,7 +459,7 @@ mainbody {
     }
 }
 
-.k-customers-timeselector {
+.k-timeselector {
     .k-time-now {
         color: $customers-timeselector !important;
     }
@@ -538,8 +540,8 @@ mainbody {
 }
 
 
-//customers-tabstrip//
-.k-customers-tabstrip {
+//tabstrip//
+.k-tabstrip {
     .x-section-wrraper {
         border-width: 0px !important;
     }
@@ -550,7 +552,7 @@ mainbody {
         border-bottom: 0 !important;
     }
 
-    .k-customers-tabstrip-items {
+    .k-tabstrip-items {
         .k-item.k-state-active {
             border-bottom: 4px solid $customers-timeselector;
 
@@ -595,7 +597,7 @@ mainbody {
         flex: 0 0 100%;
         text-align: center;
 
-        #controlcustomers-MessageText {
+        #controlMessageText {
             color: $customers-messageText;
         }
     }
@@ -622,10 +624,11 @@ mainbody {
             width: 62px !important;
         }
     }
-
 }
 
-.customers-loginTitle {
+
+
+.loginTitle {
     font-size: 55px;
     color: $customers-loginTitle;
 
@@ -634,7 +637,7 @@ mainbody {
     }
 }
 
-.customers-loginTitle2 {
+.loginTitle2 {
     font-size: 31px;
     font-weight: bold;
     color: $customers-loginTitle2;
@@ -675,7 +678,7 @@ mainbody {
     font-weight: bold;
 }
 
-.customers-white-btn {
+.white-btn {
     margin: auto 5px;
 
     .k-button {
@@ -938,7 +941,7 @@ mainbody {
         }
 
         .x-image-wrapper,
-        .k-customers-icon-wrapper {
+        .k-icon-wrapper {
             background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
             border-radius: 50%;
             position: relative;
@@ -950,7 +953,7 @@ mainbody {
             align-items: center;
         }
 
-        .k-customers-icon-wrapper {
+        .k-icon-wrapper {
             color: $customers-icon-wrapper;
         }
 
@@ -1189,7 +1192,7 @@ mainbody {
 
     .cube-wrapper {
         .cube {
-            .k-customers-icon-wrapper {
+            .k-icon-wrapper {
                 background-image: none !important;
                 color: inherit !important;
                 left: 20px !important;
@@ -1213,7 +1216,7 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount {
     .cube-wrapper {
         .cube {
-            .k-customers-icon-wrapper {
+            .k-icon-wrapper {
                 background-image: none !important;
                 color: inherit !important;
                 left: 20px !important;
