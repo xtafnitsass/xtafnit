@@ -28,6 +28,7 @@
 .k-drawer .k-panelbar .k-item .k-link.k-header {
   color: #fff !important;
   background-image: none !important;
+  background: #575757 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {

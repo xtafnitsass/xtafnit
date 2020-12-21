@@ -29,12 +29,12 @@ input[type=number] {
 }
 
 .k-upload-status .k-button {
-  color: #25a003 !important;
+  color: #ca0000 !important;
 }
 
 .k-upload-status .k-button:hover {
   background: transparent !important;
-  color: #25a003 !important;
+  color: #ca0000 !important;
 }
 
 header .k-icon {
@@ -42,7 +42,6 @@ header .k-icon {
 }
 
 header [xid="controlkiGoBack"] {
-  cursor: pointer;
   right: 50px;
   position: relative;
 }
@@ -66,9 +65,6 @@ header [xid="controlkiMenu"] span {
 header #username {
   font-size: 14px;
   color: #464247;
-  position: relative;
-  top: -5px;
-  left: -70px;
   max-width: 100%;
 }
 
@@ -89,17 +85,6 @@ header #kiNotification {
   height: 5px;
   left: 0px;
   top: -3px;
-  position: relative;
-}
-
-header #kiUser2 {
-  height: 20px;
-  border-radius: 50%;
-  background: #02b5fd;
-  width: 5px;
-  height: 5px;
-  left: -40px;
-  top: -6px;
   position: relative;
 }
 
@@ -136,20 +121,32 @@ header #kGoBack [xid="controlkGoBack"] > span {
   height: 100%;
 }
 
+.k-autocomplete .k-textbox {
+  font-size: 14px !important;
+}
+
 .k-grid .k-grid-header-wrap a.k-grid-filter {
   font-size: 8px;
 }
 
 .k-grid .k-grid-header-wrap a.k-link {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-header-wrap th {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+  color: #464247;
+}
+
+.k-grid .k-grid-content td a {
+  color: #02b5fd !important;
+  text-decoration: underline;
 }
 
 .x-cell-header {
@@ -173,30 +170,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-dropdown.x-dropdown-comp {
   height: 37px;
-}
-
-.k-customers-tabstrip:focus {
-  -webkit-box-shadow: 0 0 black;
-          box-shadow: 0 0 black;
-}
-
-.k-customers-tabstrip .x-section-wrraper {
-  border-width: 0px !important;
-}
-
-.k-customers-tabstrip .k-content {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 0 !important;
-}
-
-.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #25a003;
-}
-
-.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-link {
-  color: #25a003 !important;
-  font-weight: bold;
 }
 
 .k-pane-wrapper {
@@ -300,7 +273,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
-  border-left: 2px solid;
+  border-left: 1px solid #fff;
   margin-left: 5px;
   padding-left: 5px;
 }
@@ -326,13 +299,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.k-customers-drawer-overlay .k-customers-drawer {
+.k-drawer-overlay .k-drawer {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 20px;
 }
 
-.k-customers-drawer-overlay .k-customers-drawer .k-customers-drawer-wrapper .k-customers-drawer-items li:hover {
-  background: #25a003 !important;
+.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
+  background: #282830 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -344,31 +317,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
-}
-
-.xstyle-timepicker-wrapper .k-timepicker {
-  width: 100%;
-}
-
-.k-customers-timeselector .k-time-now {
-  color: #25a003 !important;
-}
-
-.k-customers-timeselector .k-time-list-wrapper .k-title {
-  color: #25a003 !important;
-}
-
-.k-customers-timeselector .k-time-list-wrapper.k-state-focused {
-  -webkit-box-shadow: inset 0 0 3px 1px #25a003 !important;
-          box-shadow: inset 0 0 3px 1px #25a003 !important;
-}
-
-.k-customers-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
-  color: #25a003 !important;
-}
-
-.k-customers-timeselector .k-time-list-wrapper .k-time-container .k-item {
-  background: none !important;
+  font-size: 14px;
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -398,37 +347,61 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
+  color: #ccc;
+  margin-right: 10px;
+  top: -5px;
+  font-size: 18px;
+}
+
+mainbody .gridHeaderButton [xid="controlkiClean"] {
+  color: #8733af;
+}
+
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
   }
 }
 
-.k-customers-tabstrip .x-section-wrraper {
+.k-drawer-overlay .k-drawer {
+  max-height: 100vh !important;
+}
+
+.k-drawer-overlay .k-drawer .k-drawer-wrapper {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+
+.k-tabstrip .x-section-wrraper {
   border-width: 0px !important;
 }
 
-.k-customers-tabstrip .k-content {
+.k-tabstrip .k-content {
   border-left: 0 !important;
   border-right: 0 !important;
   border-bottom: 0 !important;
 }
 
-.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #25a003;
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+  border-bottom: 4px solid #ca0000;
 }
 
-.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-link {
-  color: #25a003 !important;
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link {
+  color: #ca0000 !important;
   font-weight: bold;
-}
-
-.k-window {
-  border-radius: 19px;
 }
 
 .k-window .k-window-titlebar {
   border: 0;
+}
+
+.k-window .k-window-content .k-edit-buttons {
+  background: #464247 !important;
+}
+
+.k-window footer {
+  background: #464247 !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -458,8 +431,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   text-align: center;
 }
 
-#MessageBoxWindow #controlCell2Container #controlcustomers-MessageText {
-  color: #25a003;
+#MessageBoxWindow #controlCell2Container #controlMessageText {
+  color: #043563;
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
@@ -488,18 +461,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.customers-loginTitle {
+.loginTitle {
   font-size: 55px;
   color: #043563;
 }
 
 @media screen and (max-width: 1050px) {
-  .customers-loginTitle {
+  .loginTitle {
     font-size: 40px;
   }
 }
 
-.customers-loginTitle2 {
+.loginTitle2 {
   font-size: 31px;
   font-weight: bold;
   color: #043563;
@@ -507,7 +480,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (max-width: 1050px) {
-  .customers-loginTitle2 {
+  .loginTitle2 {
     font-size: 16px;
   }
 }
@@ -532,42 +505,69 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.customers-white-btn {
+.white-btn, .color-btn {
   margin: auto 5px;
 }
 
-.customers-white-btn .k-button {
+.white-btn .k-button, .color-btn .k-button {
   background: #fff !important;
   background-image: none !important;
-  color: #25a003 !important;
+  color: #ca0000 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
 
-.customers-white-btn .k-button:hover {
+.white-btn .k-button:hover, .color-btn .k-button:hover {
   background: #f5f3f3 !important;
 }
 
-.dotIcon {
-  position: absolute;
-  bottom: 49%;
-  width: auto;
-  left: 5px;
-  z-index: 10003;
+.color-btn {
+  text-align: center;
 }
 
-.dotIcon a {
-  background: transparent !important;
-  color: #464247 !important;
+.color-btn .k-button {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #8733af4d !important;
 }
 
-.dotIcon a:hover {
-  background: transparent !important;
-  color: #464247 !important;
+.fixIcon .k-icon {
+  background-color: #f2f7fd;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  color: #003f59;
 }
 
-.dotIcon a span {
-  width: 20px;
+.titleInv {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10%;
+          flex: 0 0 10%;
+}
+
+.rectInv > div {
+  border-radius: 4px;
+  background-color: #f6e9fe;
+  margin: 0px 10px;
+}
+
+.rectInv .labelInv .col-4 label {
+  font-size: 12px;
+  min-width: 40px;
+  text-align: right;
+}
+
+.rectInv .labelInv .col-8 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rectInv .labelInv .col-8 span {
+  text-align: center !important;
+}
+
+.light-blue .k-button {
+  background: #02b5fd !important;
 }
 
 .grey-btn {
@@ -645,6 +645,85 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 10px;
 }
 
+.details .top .x-cell-header {
+  padding: 6px 8px 6px 9px;
+  border-radius: 8px;
+  display: table-cell;
+  color: #8733af;
+  font-weight: normal;
+  opacity: 0.65;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1.31px;
+  text-align: center;
+  background: #f7e8ff;
+  top: -5px;
+  position: relative;
+}
+
+.details .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14%;
+          flex: 0 0 14%;
+  color: #464247 !important;
+}
+
+.details .right > div {
+  font-size: 35px;
+}
+
+.details .right > div:first-child {
+  font-size: 18px;
+  top: 10px;
+  position: relative;
+}
+
+.details .right > div:last-child {
+  font-size: 12px;
+}
+
+.details .left {
+  margin-right: 15px;
+}
+
+.details .left * {
+  color: #464247;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+  background: #efefef;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0.1%;
+          flex: 0 0 0.1%;
+  margin-left: 10px;
+  border-radius: 4px;
+  padding: 1px 7px 0;
+  height: 21px;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+  font-size: 11px;
+  line-height: 1.82;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.details .left > div .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:first-child .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:last-child {
+  font-size: 15px;
+}
+
 .boxShadow-0 {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -665,7 +744,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube {
-  color: #25a003;
+  color: #ca0000;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -681,19 +760,19 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
-          box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
 }
 
 .cube-wrapper .cube:first-child {
-  background: #25a003;
+  background: #fff !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #fff !important;
+  color: #ca0000 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
@@ -725,7 +804,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube .x-image-wrapper,
-.cube-wrapper .cube .k-customers-icon-wrapper {
+.cube-wrapper .cube .k-icon-wrapper {
   background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
   border-radius: 50%;
   position: relative;
@@ -743,12 +822,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           align-items: center;
 }
 
-.cube-wrapper .cube .k-customers-icon-wrapper {
-  color: #25a003;
+.cube-wrapper .cube .k-icon-wrapper {
+  color: #43b1e5;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
-  color: #25a003;
+  color: #ca0000;
 }
 
 .cube-wrapper .cube .fa-cloud-upload-alt {
@@ -786,12 +865,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0 !important;
 }
 
-.fontBig .x-dynamic-label-control {
-  line-height: 2.6;
-  margin: 5px 10px;
-  direction: ltr;
-}
-
 .boxShadow {
   -webkit-box-shadow: 0 2px 9px 0 #ccc;
           box-shadow: 0 2px 9px 0 #ccc;
@@ -808,8 +881,42 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+.window-details-row .window-details-col .labelTitle label {
+  font-size: 14px !important;
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.window-details-row .window-details-col span {
+  font-size: 14px !important;
+  color: #464247 !important;
+}
+
+.window-details-row .k-grid .k-grid-header th .k-link {
+  color: #464247 !important;
+  opacity: 0.7;
+}
+
+.totalCol .labelTitle label {
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.totalCol span {
+  color: #464247 !important;
+  font-weight: bold;
+}
+
+.totalCol .font-weight-bold label {
+  font-weight: bold !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-textbox {
+  border-radius: 0px !important;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 1 0% !important;
             flex: 0 1 0% !important;
@@ -817,39 +924,39 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 0 0% !important;
             flex: 1 0 0% !important;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody ::-webkit-input-placeholder {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody ::-webkit-input-placeholder {
   text-align: right;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-ilink-wrapper a {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-ilink-wrapper a {
   text-align: center !important;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"] {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"] {
   padding-top: 120px;
 }
 
 @media only screen and (max-height: 950px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"] {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"] {
     padding-top: 0px;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"] {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"] {
   -webkit-box-flex: 0;
       -ms-flex: 0;
           flex: 0;
@@ -858,92 +965,95 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (min-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"] {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"] {
     padding-bottom: 80px !important;
     padding-top: 80px !important;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper {
   text-align: center;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button {
   height: 56px;
   line-height: 56px;
   width: 318px;
 }
 
 @media screen and (max-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button {
     height: 40px;
     line-height: 40px;
     width: 200px;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
-          box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row {
     margin-top: 195px !important;
   }
 }
 
 @media screen and (min-width: 800px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row {
     margin-right: 65px !important;
   }
 }
 
 @media screen and (min-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row {
     margin-right: 195px !important;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout {
   background-color: rgba(255, 255, 255, 0.922) !important;
 }
 
 @media screen and (max-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout {
     padding: 10px !important;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
   border: 0;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-textbox {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-text-control-container .x-textbox {
+  border-bottom: 1.5px solid #043563 !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-textbox {
   background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+  border: 0 !important;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
   margin-right: 10px;
   line-height: 1.3;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper input {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper input {
   font-weight: bold;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"] {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"] {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -953,97 +1063,31 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media only screen and (max-height: 950px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"] {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"] {
     min-height: 480px;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginContent {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginContent {
   width: 322px;
   padding: 0;
   margin: auto;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .col {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .col {
     -ms-flex-preferred-size: auto !important;
         flex-basis: auto !important;
   }
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper {
     width: 97%;
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .k-grid-content {
-  height: 200px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .k-customers-icon-wrapper {
-  background-image: none !important;
-  color: inherit !important;
-  left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
+    bottom: 3% !important;
   }
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-customers-icon-wrapper {
-  background-image: none !important;
-  color: inherit !important;
-  left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrLatestOrders"] > div,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrInventoryOrders"] > div {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-  }
-}
-
-[xid="controlrgCloud"] {
-  padding: 0 !important;
-}
-
-[xid="controlrgCloud"] > div:last-child {
-  margin-left: 0;
-}
-
-[xid="controlcgCloud"] {
-  margin-right: 0px;
-  margin-left: 20px;
 }
 
 /*splash -- resource loader*/
@@ -1055,13 +1099,18 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-image: none !important;
-  background-color: #25a003;
+  background-color: #ca0000;
+}
+
+progress[value]::-ms-fill {
+  background-image: none !important;
+  background-color: #ca0000;
 }
 
 #progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #25a003;
-          box-shadow: 0px 0px 41px -28px #25a003;
+  -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
+          box-shadow: 0px 0px 41px -28px #ca0000;
 }
 
-@forward 'importer-customers';
-/*# sourceMappingURL=importer-customers.css.map */
+@forward 'enrollment';
+/*# sourceMappingURL=enrollment.css.map */

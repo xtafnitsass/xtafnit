@@ -26,6 +26,7 @@
 /*freehand*/
 /*layout*/
 /*suppliers*/
+/*enrollment*/
 /*link*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
@@ -82,7 +83,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fafafa;
   border: none;
-  color: #043563;
+  color: #000;
 }
 
 header .popUpWindowCls {
@@ -309,6 +310,21 @@ mainbody .x-section-header-wrraper {
   border: 0px solid !important;
 }
 
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
 .k-animation-container .k-list-container .x-autocomplete-header-template {
   color: #282830;
   background: #F0F0F0;
@@ -446,6 +462,7 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
+  background: #3fa535 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
@@ -810,7 +827,6 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #000000;
   color: #3fa535;
   background-color: #fff;
 }
@@ -819,6 +835,11 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #3fa535;
           box-shadow: 0 0 3px 0 #3fa535;
+}
+
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #000000 !important;
 }
 
 @forward 'radio-button';
@@ -856,8 +877,7 @@ input[type="time"] {
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #007bff !important;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration: underline;
 }
 
 @forward 'link';
@@ -903,6 +923,82 @@ header .k-icon {
   color: #043563;
 }
 
+header [xid="controlkiGoBack"] {
+  cursor: pointer;
+  right: 50px;
+  position: relative;
+}
+
+header [xid="controlkiGoBack"] span {
+  color: #02b5fd !important;
+}
+
+header [xid="controlliSearch"] {
+  color: #464247;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0px 20px;
+}
+
+header [xid="controlkiMenu"] span {
+  font-size: 12px;
+}
+
+header #username {
+  font-size: 14px;
+  color: #464247;
+  position: relative;
+  top: -5px;
+  left: -70px;
+  max-width: 100%;
+}
+
+header #tbbEmail {
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  color: #464247;
+  opacity: 0.7;
+  font-family: Heebo-Light;
+  max-width: 100%;
+}
+
+header #kiNotification {
+  border-radius: 50%;
+  background: red;
+  width: 5px;
+  height: 5px;
+  left: 0px;
+  top: -3px;
+  position: relative;
+}
+
+header #kiUser2 {
+  height: 20px;
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  left: -40px;
+  top: -6px;
+  position: relative;
+}
+
+header #acSearch2 span {
+  border-radius: 30px;
+}
+
+header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
+  background: #fff !important;
+  border-radius: 30px !important;
+  border: 0 !important;
+  width: 260px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+}
+
 header #kGoBack {
   padding-right: 27px;
 }
@@ -910,8 +1006,8 @@ header #kGoBack {
 header #kGoBack [xid="controlkGoBack"] {
   width: 30px;
   height: 30px;
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
   border-radius: 50%;
   text-align: center;
 }
@@ -961,26 +1057,26 @@ header #kGoBack [xid="controlkGoBack"] > span {
   height: 37px;
 }
 
-.k-tabstrip:focus {
+.k-customers-tabstrip:focus {
   -webkit-box-shadow: 0 0 black;
           box-shadow: 0 0 black;
 }
 
-.k-tabstrip .x-section-wrraper {
+.k-customers-tabstrip .x-section-wrraper {
   border-width: 0px !important;
 }
 
-.k-tabstrip .k-content {
+.k-customers-tabstrip .k-content {
   border-left: 0 !important;
   border-right: 0 !important;
   border-bottom: 0 !important;
 }
 
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active {
   border-bottom: 4px solid #3fa535;
 }
 
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
+.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-link, .k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
   color: #3fa535 !important;
   font-weight: bold;
 }
@@ -1112,12 +1208,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.k-drawer-overlay .k-drawer {
+.k-customers-drawer-overlay .k-customers-drawer {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 20px;
 }
 
-.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
+.k-customers-drawer-overlay .k-customers-drawer .k-customers-drawer-wrapper .k-customers-drawer-items li:hover {
   background: #3fa535 !important;
 }
 
@@ -1136,24 +1232,24 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   width: 100%;
 }
 
-.k-timeselector .k-time-now {
+.k-customers-timeselector .k-time-now {
   color: #3fa535 !important;
 }
 
-.k-timeselector .k-time-list-wrapper .k-title {
+.k-customers-timeselector .k-time-list-wrapper .k-title {
   color: #3fa535 !important;
 }
 
-.k-timeselector .k-time-list-wrapper.k-state-focused {
+.k-customers-timeselector .k-time-list-wrapper.k-state-focused {
   -webkit-box-shadow: inset 0 0 3px 1px #3fa535 !important;
           box-shadow: inset 0 0 3px 1px #3fa535 !important;
 }
 
-.k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
+.k-customers-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
   color: #3fa535 !important;
 }
 
-.k-timeselector .k-time-list-wrapper .k-time-container .k-item {
+.k-customers-timeselector .k-time-list-wrapper .k-time-container .k-item {
   background: none !important;
 }
 
@@ -1190,21 +1286,21 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.k-tabstrip .x-section-wrraper {
+.k-customers-tabstrip .x-section-wrraper {
   border-width: 0px !important;
 }
 
-.k-tabstrip .k-content {
+.k-customers-tabstrip .k-content {
   border-left: 0 !important;
   border-right: 0 !important;
   border-bottom: 0 !important;
 }
 
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
+.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active {
   border-bottom: 4px solid #3fa535;
 }
 
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
+.k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-link, .k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-customers-tabstrip .k-customers-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
   color: #3fa535 !important;
   font-weight: bold;
 }
@@ -1244,7 +1340,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   text-align: center;
 }
 
-#MessageBoxWindow #controlCell2Container #controlMessageText {
+#MessageBoxWindow #controlCell2Container #controlcustomers-MessageText {
   color: #3fa535;
 }
 
@@ -1274,18 +1370,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.loginTitle {
+.customers-loginTitle {
   font-size: 55px;
   color: #043563;
 }
 
 @media screen and (max-width: 1050px) {
-  .loginTitle {
+  .customers-loginTitle {
     font-size: 40px;
   }
 }
 
-.loginTitle2 {
+.customers-loginTitle2 {
   font-size: 31px;
   font-weight: bold;
   color: #043563;
@@ -1293,7 +1389,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (max-width: 1050px) {
-  .loginTitle2 {
+  .customers-loginTitle2 {
     font-size: 16px;
   }
 }
@@ -1318,11 +1414,11 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.white-btn {
+.customers-white-btn {
   margin: auto 5px;
 }
 
-.white-btn .k-button {
+.customers-white-btn .k-button {
   background: #fff !important;
   background-image: none !important;
   color: #3fa535 !important;
@@ -1330,7 +1426,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
 
-.white-btn .k-button:hover {
+.customers-white-btn .k-button:hover {
   background: #f5f3f3 !important;
 }
 
@@ -1511,7 +1607,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube .x-image-wrapper,
-.cube-wrapper .cube .k-icon-wrapper {
+.cube-wrapper .cube .k-customers-icon-wrapper {
   background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
   border-radius: 50%;
   position: relative;
@@ -1529,7 +1625,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           align-items: center;
 }
 
-.cube-wrapper .cube .k-icon-wrapper {
+.cube-wrapper .cube .k-customers-icon-wrapper {
   color: #3fa535;
 }
 
@@ -1764,7 +1860,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   height: 200px !important;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .k-icon-wrapper {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .k-customers-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
@@ -1787,7 +1883,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-customers-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
@@ -1850,5 +1946,5 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'importer-customers';
-/*lease4u customers - v5 */
+/*lease4u customers - v9 */
 /*# sourceMappingURL=style.css.map */
