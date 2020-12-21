@@ -25,6 +25,8 @@ $customers-toolbar-goBack-color:#02b5fd!default;
 $customers-details-top-color: #25a003 !default;
 $customers-details-right-left-color: #464247 !default;
 $customers-details-top-background-color: #f7e8ff !default;
+$customers-window-fixicon-backgronud:#f2f7fd !default;
+$customers-window-fixicon-color:#003f59 !default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -650,6 +652,16 @@ mainbody {
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
     padding-top: 0px !important;
+}
+
+.fixIcon {
+    .k-icon {
+        background-color: $customers-window-fixicon-backgronud;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        color: $customers-window-fixicon-color;
+    }
 }
 
 .title {

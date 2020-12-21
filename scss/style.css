@@ -1409,6 +1409,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   padding-top: 0px !important;
 }
 
+.fixIcon .k-icon {
+  background-color: #f2f7fd;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  color: #003f59;
+}
+
 .title {
   font-size: 1.5em;
   font-weight: bold;
