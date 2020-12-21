@@ -27,6 +27,8 @@ $customers-details-right-left-color: #464247 !default;
 $customers-details-top-background-color: #f7e8ff !default;
 $customers-window-fixicon-backgronud:#f2f7fd !default;
 $customers-window-fixicon-color:#003f59 !default;
+$customers-grid-link-color:#02b5fd !default;
+$customers-grid-link-decoration:underline!default;
 
 //------------------------------------------------------------layout//
 //body//
@@ -205,6 +207,10 @@ header {
     .k-grid-content {
         td {
             border-bottom: 1px solid #d8d8d8;
+            a {
+                color: $customers-grid-link-color !important;
+                text-decoration: $customers-grid-link-decoration;
+            }
         }
     }
 
