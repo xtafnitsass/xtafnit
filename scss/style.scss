@@ -262,28 +262,28 @@ $freehand-border-color:#c00000;
 
 /*layout*/
 
-$cube-background:#fff;
-$cube-color:#c00000;
-$clock-color:#c00000;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#c00000;
-$body-background:#f5f6f8;
-$upload-button:#c00000;
-$tabstrip:#c00000;
-$drawer:#c00000;
-$timeselector:#c00000;
-$messageText:#c00000;
-$timeselector:#c00000;
-$loginTitle:#043563;
-$loginTitle2:#043563;
-$white-btn:#c00000;
-$icon-wrapper:#c00000;
-$progress-empty:#f2ebf6;
-$progress-fill:#c00000;
-$progress-shadow:#c00000;
-$icon-tachometer:#464247 ;
+$customers-cube-background:#fff;
+$customers-cube-color:#c00000;
+$customers-clock-color:#c00000;
+$customers-top-panel-background:#ffffff;
+$customers-header-color:#043563;
+$customers-x-cell-header-color:#043563;
+$customers-cube-description-color:#c00000;
+$customers-body-background:#f5f6f8;
+$customers-upload-button:#c00000;
+$customers-tabstrip:#c00000;
+$customers-drawer:#c00000;
+$customers-timeselector:#c00000;
+$customers-messageText:#c00000;
+$customers-loginTitle:#043563;
+$customers-loginTitle2:#043563;
+$customers-white-btn:#c00000;
+$customers-icon-wrapper:#c00000;
+$customers-progress-empty:#f2ebf6;
+$customers-progress-fill:#c00000;
+$customers-progress-shadow:#c00000;
+$customers-icon-tachometer:#464247;
+$customers-toolbar-goBack-color:#02b5fd;
 
 /*suppliers*/
 
@@ -377,7 +377,7 @@ $link-text-underling:underline;
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard','./link';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link';
 // './importer-customers';
 //  './suppliers';
 // './enrollment';
