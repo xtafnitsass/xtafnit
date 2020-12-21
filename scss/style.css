@@ -876,7 +876,7 @@ input[type="time"] {
 
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
-  color: #007bff !important;
+  color: #02b5fd !important;
   text-decoration: underline;
 }
 
@@ -1032,6 +1032,11 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+}
+
+.k-grid .k-grid-content td a {
+  color: #02b5fd !important;
+  text-decoration: underline;
 }
 
 .x-cell-header {

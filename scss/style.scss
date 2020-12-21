@@ -307,6 +307,8 @@ $customers-details-right-left-color: #464247;
 $customers-details-top-background-color: #c8e8d1;
 $customers-window-fixicon-backgronud:#f2f7fd;
 $customers-window-fixicon-color:#003f59;
+$customers-grid-link-color:#02b5fd;
+$customers-grid-link-decoration:underline;
 
 /*suppliers*/
 
@@ -393,7 +395,7 @@ $enrollment-window-fixicon-backgronud:#f2f7fd;
 
 /*link*/
 
-$link-color:#007bff;
+$link-color:#02b5fd;
 $link-text-underling:underline;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
