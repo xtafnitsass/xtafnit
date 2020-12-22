@@ -161,6 +161,10 @@ header #kGoBack [xid="controlkGoBack"] > span {
   text-decoration: underline;
 }
 
+.k-grid .k-grid-content td a.k-button {
+  color: #fff !important;
+}
+
 .x-cell-header {
   margin: 5px auto;
   font-size: 18px;

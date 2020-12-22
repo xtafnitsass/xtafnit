@@ -218,6 +218,9 @@ header {
             a {
                 color: $customers-grid-link-color !important;
                 text-decoration: $customers-grid-link-decoration;
+                &.k-button{
+                    color: #fff !important;
+                }
             }
         }
     }
