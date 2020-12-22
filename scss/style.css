@@ -272,6 +272,12 @@ mainbody .x-section-header-wrraper {
   border-bottom-right-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .k-window {
+    width: 90% !important;
+  }
+}
+
 .k-window .k-window-titlebar {
   background: #fff;
   border-top-left-radius: 20px;
@@ -1557,7 +1563,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .xstyle-radio-wrapper .radio-label-span-supplier {
-  text-indent: 24px;
+  padding-right: 23px;
   display: inline-block;
 }
 
@@ -1567,7 +1573,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media screen and (max-width: 768px) {
   .xstyle-radio-wrapper .radio-label-span-default {
-    text-indent: 24px;
+    padding-right: 23px;
     display: inline-block;
   }
 }

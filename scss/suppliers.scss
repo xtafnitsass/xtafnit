@@ -822,7 +822,7 @@ mainbody {
 
 .xstyle-radio-wrapper {
     .radio-label-span-supplier {
-        text-indent: 24px;
+        padding-right: 23px;
         display: inline-block;
     }
 
@@ -830,7 +830,7 @@ mainbody {
         opacity: 0.7;
 
         @media screen and (max-width:768px) {
-            text-indent: 24px;
+            padding-right: 23px;
             display: inline-block;
         }
     }
