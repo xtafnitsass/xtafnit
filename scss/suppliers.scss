@@ -91,7 +91,7 @@ header {
     }
 
     [xid="controlkiGoBack"] {
-
+        cursor: pointer;
         right: 50px;
         position: relative;
 
@@ -607,6 +607,21 @@ mainbody {
         }
     }
 
+    [xid="Cell_Container_controlbSearch"] {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left: 10px;
+        }
+    }
+
+    [xid="Cell_Container_controlbtnAddNewLine"] {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left: 63px;
+        }
+    }
 }
 
 .loginTitle {
@@ -840,6 +855,17 @@ mainbody {
 
         * {
             color: $suppliers-details-right-left-color;
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            .col-4 {
+
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    flex: 0 0 3% !important;
+                }
+
+            }
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
@@ -1251,6 +1277,14 @@ mainbody {
             left: 20px !important;
         }
     }
+
+    .gridHeaderButton {
+        >div {
+            &:last-child {
+                min-width: 10px !important;
+            }
+        }
+    }
 }
 
 
@@ -1276,6 +1310,39 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice {
     .border {
         border: 1px solid #eee !important;
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
+    mainbody {
+        >div {
+            &:first-child {
+                height: 400px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder {
+    mainbody {
+        >div {
+            &:first-child {
+                height: 60px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice,
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService {
+    .greyPanel {
+        .gridHeaderButton {
+
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                padding: 0 !important;
+            }
+        }
     }
 }
 
