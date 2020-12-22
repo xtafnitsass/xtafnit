@@ -5,12 +5,15 @@ $radio-background-color: #fff !default;
 .xstyle-radio-wrapper,
 .x-damageTypeAndCamera {
     .k-radio {
-        border-color: $radio-border-color;
+        // border-color: $radio-border-color;
         color: $radio-color;
         background-color: $radio-background-color;
 
         &:focus {
             box-shadow: 0 0 3px 0 $radio-color;
+        }
+        &:checked{
+            border-color: $radio-border-color!important;
         }
     }
 }
