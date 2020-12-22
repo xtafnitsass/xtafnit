@@ -39,6 +39,12 @@ $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
 $suppliers-window-fixicon-backgronud:#f2f7fd !default;
 
+$suppliers-radio-scoller-radius:10px !default;
+$suppliers-radio-scoller-background:#a9bdca !default;
+$suppliers-radio-scoller-width:10px !default;
+$suppliers-radio-scoller-height:10px !default;
+$suppliers-radio-scoller-webkit-background:#dfdbdb !default;
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -592,6 +598,10 @@ mainbody {
 }
 
 
+
+
+
+
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
@@ -808,10 +818,30 @@ mainbody {
     }
 }
 
-.checkboxWrapperScroll{
+.radioWrapperScroll {
     max-height: 150px;
     overflow-y: scroll;
     overflow-x: hidden;
+
+    &::-webkit-scrollbar-track {
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+    &::-webkit-scrollbar {
+        width: $suppliers-radio-scoller-width;
+        height: $suppliers-radio-scoller-height;
+        background: $suppliers-radio-scoller-webkit-background;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $suppliers-radio-scoller-background;
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: darken($suppliers-radio-scoller-background, 5);
+    }
 }
 
 .details {

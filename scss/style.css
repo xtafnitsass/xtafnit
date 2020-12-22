@@ -1555,10 +1555,29 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin-right: 10px;
 }
 
-.checkboxWrapperScroll {
+.radioWrapperScroll {
   max-height: 150px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+.radioWrapperScroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: #f1f3ff;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-thumb {
+  background: #a9bdca;
+  border-radius: 5px;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-thumb:hover {
+  background: #99b1c0;
 }
 
 .details .top .x-cell-header {
