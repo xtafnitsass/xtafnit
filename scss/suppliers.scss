@@ -818,6 +818,19 @@ mainbody {
     }
 }
 
+//radio//
+
+.xstyle-radio-wrapper {
+    .radio-label-span-supplier {
+        text-indent: 24px;
+        display: inline-block;
+    }
+
+    .radio-label-span-default {
+        opacity: 0.7;
+    }
+}
+
 .radioWrapperScroll {
     max-height: 150px;
     overflow-y: auto;
