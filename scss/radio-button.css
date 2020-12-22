@@ -2,6 +2,7 @@
 .x-damageTypeAndCamera .k-radio {
   color: #7bd2f6;
   background-color: #fff;
+  border-color: #000;
 }
 
 .xstyle-radio-wrapper .k-radio:focus,
