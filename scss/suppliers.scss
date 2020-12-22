@@ -846,6 +846,7 @@ mainbody {
 
             &:last-child {
                 font-size: 12px;
+                opacity: 0.7;
             }
         }
     }
@@ -882,6 +883,7 @@ mainbody {
                     line-height: 1.82;
                     letter-spacing: 0.9px;
                     text-align: center;
+                    opacity: 0.65;
                 }
             }
         }
@@ -889,6 +891,7 @@ mainbody {
         >div {
             .col-8 {
                 font-size: 14px;
+                opacity: 0.7;
             }
 
             &:first-child {
