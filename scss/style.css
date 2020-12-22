@@ -840,7 +840,7 @@ input[type="time"] {
 
 .xstyle-radio-wrapper .k-radio:checked,
 .x-damageTypeAndCamera .k-radio:checked {
-  border-color: #000000 !important;
+  border-color: #02b5fd !important;
 }
 
 .xstyle-radio-wrapper .k-radio-label,
