@@ -820,7 +820,7 @@ mainbody {
 
 .radioWrapperScroll {
     max-height: 150px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 
     &::-webkit-scrollbar-track {
