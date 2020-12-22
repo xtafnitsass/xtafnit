@@ -26,6 +26,7 @@
 /*freehand*/
 /*layout*/
 /*suppliers*/
+/*enrollment*/
 /*link*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
@@ -82,7 +83,7 @@ header.k-header {
 header.k-header .k-toolbar {
   background-color: #fafafa;
   border: none;
-  color: #043563;
+  color: #000;
 }
 
 header .popUpWindowCls {
@@ -309,6 +310,21 @@ mainbody .x-section-header-wrraper {
   border: 0px solid !important;
 }
 
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
+}
+
 .k-animation-container .k-list-container .x-autocomplete-header-template {
   color: #282830;
   background: #F0F0F0;
@@ -446,6 +462,7 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
+  background: #d70002 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
@@ -810,7 +827,6 @@ input[type="time"] {
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  border-color: #000000;
   color: #d70002;
   background-color: #fff;
 }
@@ -819,6 +835,11 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio:focus {
   -webkit-box-shadow: 0 0 3px 0 #d70002;
           box-shadow: 0 0 3px 0 #d70002;
+}
+
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #000000 !important;
 }
 
 @forward 'radio-button';
@@ -856,8 +877,7 @@ input[type="time"] {
 @forward 'virtual-keyboard';
 .xstyle-ilink-wrapper .x-link_Comp {
   color: #007bff !important;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration: underline;
 }
 
 @forward 'link';
@@ -903,6 +923,82 @@ header .k-icon {
   color: #043563;
 }
 
+header [xid="controlkiGoBack"] {
+  cursor: pointer;
+  right: 50px;
+  position: relative;
+}
+
+header [xid="controlkiGoBack"] span {
+  color: #02b5fd !important;
+}
+
+header [xid="controlliSearch"] {
+  color: #464247;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0px 20px;
+}
+
+header [xid="controlkiMenu"] span {
+  font-size: 12px;
+}
+
+header #username {
+  font-size: 14px;
+  color: #464247;
+  position: relative;
+  top: -5px;
+  left: -70px;
+  max-width: 100%;
+}
+
+header #tbbEmail {
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  color: #464247;
+  opacity: 0.7;
+  font-family: Heebo-Light;
+  max-width: 100%;
+}
+
+header #kiNotification {
+  border-radius: 50%;
+  background: red;
+  width: 5px;
+  height: 5px;
+  left: 0px;
+  top: -3px;
+  position: relative;
+}
+
+header #kiUser2 {
+  height: 20px;
+  border-radius: 50%;
+  background: #02b5fd;
+  width: 5px;
+  height: 5px;
+  left: -40px;
+  top: -6px;
+  position: relative;
+}
+
+header #acSearch2 span {
+  border-radius: 30px;
+}
+
+header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
+  background: #fff !important;
+  border-radius: 30px !important;
+  border: 0 !important;
+  width: 260px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+}
+
 header #kGoBack {
   padding-right: 27px;
 }
@@ -910,8 +1006,8 @@ header #kGoBack {
 header #kGoBack [xid="controlkGoBack"] {
   width: 30px;
   height: 30px;
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
-  background-image: radial-gradient(circle at 103% 136%, #0469bd, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
+  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
   border-radius: 50%;
   text-align: center;
 }
@@ -920,6 +1016,10 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: white;
   font-size: 16px;
   height: 100%;
+}
+
+.k-autocomplete .k-textbox {
+  font-size: 14px !important;
 }
 
 .k-grid .k-grid-header-wrap a.k-grid-filter {
@@ -936,6 +1036,15 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+}
+
+.k-grid .k-grid-content td a {
+  color: #02b5fd !important;
+  text-decoration: underline;
+}
+
+.k-grid .k-grid-content td a.k-button {
+  color: #fff !important;
 }
 
 .x-cell-header {
@@ -1130,6 +1239,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 .k-datepicker .k-picker-wrap .k-input {
   height: 37px;
+  font-size: 14px;
 }
 
 .xstyle-timepicker-wrapper .k-timepicker {
@@ -1313,6 +1423,14 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   padding-top: 0px !important;
 }
 
+.fixIcon .k-icon {
+  background-color: #fdf2f2;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  color: #003f59;
+}
+
 .title {
   font-size: 1.5em;
   font-weight: bold;
@@ -1431,6 +1549,93 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   margin-right: 10px;
 }
 
+.details .top .x-cell-header {
+  padding: 6px 8px 6px 9px;
+  border-radius: 8px;
+  display: table-cell;
+  color: #d70002;
+  font-weight: normal;
+  opacity: 0.65;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1.31px;
+  text-align: center;
+  background: #ffe8e8;
+  top: -5px;
+  position: relative;
+}
+
+.details .right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14%;
+          flex: 0 0 14%;
+  color: #464247 !important;
+}
+
+.details .right > div {
+  font-size: 35px;
+}
+
+.details .right > div:first-child {
+  font-size: 18px;
+  top: 10px;
+  position: relative;
+}
+
+.details .right > div:last-child {
+  font-size: 12px;
+}
+
+.details .left {
+  margin-right: 15px;
+}
+
+.details .left * {
+  color: #464247;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 3% !important;
+            flex: 0 0 3% !important;
+  }
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+  background: #efefef;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0.1%;
+          flex: 0 0 0.1%;
+  margin-left: 10px;
+  border-radius: 4px;
+  padding: 1px 7px 0;
+  height: 21px;
+}
+
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+  font-size: 11px;
+  line-height: 1.82;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.details .left > div .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:first-child .col-8 {
+  font-size: 14px;
+}
+
+.details .left > div:last-child {
+  font-size: 15px;
+}
+
 .boxShadow-0 {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -1530,7 +1735,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube .k-icon-wrapper {
-  color: #d70002;
+  color: #c00000;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
@@ -1850,5 +2055,4 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'importer-customers';
-/*ael customers - v5 */
 /*# sourceMappingURL=style.css.map */

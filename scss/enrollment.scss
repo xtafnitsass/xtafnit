@@ -1,40 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
-$customers-cube-background:#fff !default;
-$customers-cube-color:#25a003 !default;
-$customers-clock-color:#25a003 !default;
-$customers-top-panel-background:#ffffff !default;
-$customers-header-color:#043563 !default;
-$customers-x-cell-header-color:#043563 !default;
-$customers-cube-description-color:#25a003 !default;
-$customers-body-background:#f5f6f8 !default;
-$customers-upload-button:#25a003 !default;
-$customers-tabstrip:#25a003 !default;
-$customers-drawer:#25a003 !default;
-$customers-timeselector:#25a003 !default;
-$customers-messageText:#25a003 !default;
-$customers-loginTitle:#043563 !default;
-$customers-loginTitle2:#043563 !default;
-$customers-white-btn:#25a003 !default;
-$customers-icon-wrapper:#25a003 !default;
-$customers-progress-empty:#f2ebf6 !default;
-$customers-progress-fill:#25a003 !default;
-$customers-progress-shadow:#25a003 !default;
-$customers-icon-tachometer:#464247 !default;
-$customers-toolbar-goBack-color:#02b5fd !default;
-$customers-details-top-color: #25a003 !default;
-$customers-details-right-left-color: #464247 !default;
-$customers-details-top-background-color: #f7e8ff !default;
-$customers-window-fixicon-backgronud:#f2f7fd !default;
-$customers-window-fixicon-color:#003f59 !default;
-$customers-grid-link-color:#02b5fd !default;
-$customers-grid-link-decoration:underline !default;
+$enrollment-cube-background:#fff !default;
+$enrollment-cube-color:#ca0000 !default;
+$enrollment-clock-color:#ca0000 !default;
+$enrollment-top-panel-background:#ffffff !default;
+$enrollment-header-color:#043563 !default;
+$enrollment-x-cell-header-color:#043563 !default;
+$enrollment-cube-description-color:#ca0000 !default;
+$enrollment-body-background:#f5f6f8 !default;
+$enrollment-upload:#ca0000 !default;
+$enrollment-drawer:#282830 !default;
+$enrollment-tabstrip:#ca0000 !default;
+$enrollment-message-text:#043563 !default;
+$enrollment-loginTitle:#043563 !default;
+$enrollment-loginTitle2:#043563 !default;
+$enrollment-white-btn:#ca0000 !default;
+$enrollment-k-icon:#43b1e5 !default;
+$enrollment-x-textbox:#043563 !default;
+$enrollment-progress-empty:#f2ebf6 !default;
+$enrollment-progress-fill:#ca0000 !default;
+$enrollment-progress-shadow:#ca0000 !default;
+$enrollment-first-cube-background:#fff !default;
+$enrollment-first-cube-color:#ca0000 !default;
+$enrollment-grid-font-weight:bold !default;
+$enrollment-grid-content-color:#464247 !default;
+$enrollment-color-btn:#8733af4d !default;
+$enrollment-window-footer-background:#464247 !default;
+$enrollment-details-top-color: #8733af !default;
+$enrollment-details-right-left-color: #464247 !default;
+$enrollment-details-top-background-color: #f7e8ff !default;
+$enrollment-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1) !default;
+$enrollment-grid-header-color:#ccc !default;
+$enrollment-grid-link-color:#02b5fd !default;
+$enrollment-grid-link-decoration:underline !default;
+$enrollment-rectInv-background:#f6e9fe !default;
+$enrollment-window-btn-background-color:#02b5fd !default;
+$enrollment-window-fixicon-color:#003f59 !default;
+$enrollment-toolbar-goBack-color:#02b5fd !default;
+$enrollment-window-fixicon-backgronud:#f2f7fd !default;
 
 //------------------------------------------------------------layout//
+
 //body//
 
 body {
-    background-color: $customers-body-background !important;
+    background-color: $enrollment-body-background !important;
     font-family: Heebo;
 
     @media only screen and (max-width:1050px) {
@@ -64,11 +74,11 @@ input[type=number] {
 
 .k-upload-status {
     .k-button {
-        color: $customers-upload-button !important;
+        color: $enrollment-upload !important;
 
         &:hover {
             background: transparent !important;
-            color: $customers-upload-button !important;
+            color: $enrollment-upload !important;
         }
     }
 }
@@ -77,16 +87,16 @@ input[type=number] {
 
 header {
     .k-icon {
-        color: $customers-header-color;
+        color: $enrollment-header-color;
     }
 
     [xid="controlkiGoBack"] {
-        cursor: pointer;
+
         right: 50px;
         position: relative;
 
         span {
-            color: $customers-toolbar-goBack-color !important;
+            color: $enrollment-toolbar-goBack-color !important;
         }
     }
 
@@ -108,9 +118,6 @@ header {
     #username {
         font-size: 14px;
         color: #464247;
-        position: relative;
-        top: -5px;
-        left: -70px;
         max-width: 100%;
     }
 
@@ -131,17 +138,6 @@ header {
         height: 5px;
         left: 0px;
         top: -3px;
-        position: relative;
-    }
-
-    #kiUser2 {
-        height: 20px;
-        border-radius: 50%;
-        background: #02b5fd;
-        width: 5px;
-        height: 5px;
-        left: -40px;
-        top: -6px;
         position: relative;
     }
 
@@ -202,31 +198,31 @@ header {
 
             &.k-link {
                 font-size: 12px;
+                font-weight: $enrollment-grid-font-weight;
             }
 
         }
 
         th {
             font-size: 12px;
+            font-weight: $enrollment-grid-font-weight;
+
         }
     }
 
     .k-grid-content {
         td {
             border-bottom: 1px solid #d8d8d8;
+            color: $enrollment-grid-content-color;
 
             a {
-                color: $customers-grid-link-color !important;
-                text-decoration: $customers-grid-link-decoration;
-                &.k-button{
-                    color: #fff !important;
-                }
+                color: $enrollment-grid-link-color !important;
+                text-decoration: $enrollment-grid-link-decoration;
             }
         }
     }
 
 }
-
 
 //cell header//
 
@@ -234,14 +230,14 @@ header {
     margin: 5px auto;
     font-size: 18px;
     min-height: 25px;
-    color: $customers-x-cell-header-color;
+    color: $enrollment-x-cell-header-color;
     font-family: Heebo !important;
     font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
-    color: $customers-x-cell-header-color;
+    color: $enrollment-x-cell-header-color;
     font-family: Heebo !important;
 }
 
@@ -259,35 +255,6 @@ header {
     }
 }
 
-
-//tabstrip//
-.k-tabstrip {
-    &:focus {
-        box-shadow: 0 0 black;
-    }
-
-    .x-section-wrraper {
-        border-width: 0px !important;
-    }
-
-    .k-content {
-        border-left: 0 !important;
-        border-right: 0 !important;
-        border-bottom: 0 !important;
-    }
-
-    .k-tabstrip-items {
-        .k-item.k-state-active {
-            border-bottom: 4px solid $customers-tabstrip;
-
-            .k-link {
-                color: $customers-tabstrip !important;
-                font-weight: bold;
-            }
-        }
-    }
-}
-
 //grid pane wrapper border//
 
 .k-pane-wrapper {
@@ -297,7 +264,7 @@ header {
 //top panel background//
 mainbody {
     .greyPanel {
-        background: $customers-top-panel-background;
+        background: $enrollment-top-panel-background;
 
         .first-col {
             display: flex;
@@ -387,7 +354,7 @@ mainbody {
 
         //linkedin left boeder and padding
         [xid="Cell_Container_controlkiLinkedin"] {
-            border-left: 2px solid;
+            border-left: 1px solid #fff;
             margin-left: 5px;
             padding-left: 5px;
         }
@@ -406,6 +373,7 @@ mainbody {
             }
         }
     }
+
 
     //footer fix
     [xid="controlfooterCol"] {
@@ -434,7 +402,7 @@ mainbody {
             .k-drawer-items {
                 li {
                     &:hover {
-                        background: $customers-drawer !important;
+                        background: $enrollment-drawer !important;
                     }
                 }
             }
@@ -459,45 +427,6 @@ mainbody {
     }
 
 
-}
-
-//timepicker//
-
-.xstyle-timepicker-wrapper {
-    .k-timepicker {
-        width: 100%;
-    }
-}
-
-.k-timeselector {
-    .k-time-now {
-        color: $customers-timeselector !important;
-    }
-
-    .k-time-list-wrapper {
-        .k-title {
-            color: $customers-timeselector !important;
-        }
-
-        &.k-state-focused {
-            box-shadow: inset 0 0 3px 1px $customers-timeselector !important;
-        }
-
-        .k-time-list {
-            .k-item {
-                &:hover {
-                    color: $customers-timeselector !important;
-                }
-            }
-
-        }
-
-        .k-time-container {
-            .k-item {
-                background: none !important;
-            }
-        }
-    }
 }
 
 .xstyle-buttoncontrol-wrapper {
@@ -537,8 +466,20 @@ mainbody {
         }
     }
 
-
     .gridHeaderButton {
+        .k-icon {
+            &.fa-ellipsis-v {
+                color: $enrollment-grid-header-color;
+                margin-right: 10px;
+                top: -5px;
+                font-size: 18px;
+            }
+        }
+
+        [xid="controlkiClean"] {
+            color: $enrollment-details-top-color;
+        }
+
         .x-self-container {
 
             @media screen and (-ms-high-contrast: none),
@@ -549,6 +490,16 @@ mainbody {
     }
 }
 
+.k-drawer-overlay {
+    .k-drawer {
+        max-height: 100vh !important;
+
+        .k-drawer-wrapper {
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+        }
+    }
+}
 
 //tabstrip//
 .k-tabstrip {
@@ -564,10 +515,10 @@ mainbody {
 
     .k-tabstrip-items {
         .k-item.k-state-active {
-            border-bottom: 4px solid $customers-timeselector;
+            border-bottom: 4px solid $enrollment-tabstrip;
 
             .k-link {
-                color: $customers-timeselector !important;
+                color: $enrollment-tabstrip !important;
                 font-weight: bold;
             }
         }
@@ -576,10 +527,18 @@ mainbody {
 
 //window//
 .k-window {
-    border-radius: 19px;
-
     .k-window-titlebar {
         border: 0;
+    }
+
+    .k-window-content {
+        .k-edit-buttons {
+            background: $enrollment-window-footer-background !important;
+        }
+    }
+
+    footer {
+        background: $enrollment-window-footer-background !important;
     }
 }
 
@@ -608,7 +567,7 @@ mainbody {
         text-align: center;
 
         #controlMessageText {
-            color: $customers-messageText;
+            color: #043563;
         }
     }
 
@@ -622,7 +581,10 @@ mainbody {
     }
 }
 
-//------------------------------------------------------------bootstrapClass//
+
+//------------------------------------------------------------bootstrapClass and XId//
+
+//class//
 .gridHeaderButton {
     display: flex;
     justify-content: flex-end;
@@ -634,13 +596,12 @@ mainbody {
             width: 62px !important;
         }
     }
+
 }
-
-
 
 .loginTitle {
     font-size: 55px;
-    color: $customers-loginTitle;
+    color: $enrollment-loginTitle;
 
     @media screen and (max-width:1050px) {
         font-size: 40px;
@@ -650,7 +611,7 @@ mainbody {
 .loginTitle2 {
     font-size: 31px;
     font-weight: bold;
-    color: $customers-loginTitle2;
+    color: $enrollment-loginTitle2;
     letter-spacing: 1.35px;
 
     @media screen and (max-width:1050px) {
@@ -673,16 +634,6 @@ mainbody {
     padding-top: 0px !important;
 }
 
-.fixIcon {
-    .k-icon {
-        background-color: $customers-window-fixicon-backgronud;
-        width: 70px;
-        border-radius: 50%;
-        height: 70px;
-        color: $customers-window-fixicon-color;
-    }
-}
-
 .title {
     font-size: 1.5em;
     font-weight: bold;
@@ -694,7 +645,7 @@ mainbody {
     .k-button {
         background: #fff !important;
         background-image: none !important;
-        color: $customers-white-btn !important;
+        color: $enrollment-white-btn !important;
         box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 
         &:hover {
@@ -703,31 +654,61 @@ mainbody {
     }
 }
 
-.dotIcon {
-    // position: absolute;
-    // bottom: 51%;
-    // width: auto;
-    // left: 23px;
-    // z-index: 10003;
+.color-btn {
+    @extend .white-btn;
+    text-align: center;
 
-    position: absolute;
-    bottom: 49%;
-    width: auto;
-    left: 5px;
-    z-index: 10003;
+    .k-button {
+        box-shadow: none !important;
+        border: 1px solid $enrollment-color-btn !important;
+    }
 
-    a {
-        background: transparent !important;
-        color: $customers-icon-tachometer !important;
+}
 
-        &:hover {
-            background: transparent !important;
-            color: $customers-icon-tachometer !important;
+.fixIcon {
+    .k-icon {
+        background-color: $enrollment-window-fixicon-backgronud;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        color: $enrollment-window-fixicon-color;
+    }
+}
+
+.titleInv {
+    flex: 0 0 10%;
+}
+
+.rectInv {
+    >div {
+        border-radius: 4px;
+        background-color: $enrollment-rectInv-background;
+        margin: 0px 10px;
+    }
+
+    .labelInv {
+        .col-4 {
+            label {
+                font-size: 12px;
+                min-width: 40px;
+                text-align: right;
+            }
         }
 
-        span {
-            width: 20px;
+        .col-8 {
+            font-size: 12px;
+            font-weight: bold;
+
+            span {
+                text-align: center !important;
+            }
         }
+    }
+}
+
+.light-blue {
+    .k-button {
+        background: $enrollment-window-btn-background-color !important;
     }
 }
 
@@ -808,7 +789,7 @@ mainbody {
             padding: 6px 8px 6px 9px;
             border-radius: 8px;
             display: table-cell;
-            color: $customers-details-top-color;
+            color: $enrollment-details-top-color;
             font-weight: normal;
             opacity: 0.65;
             font-family: Heebo;
@@ -819,7 +800,7 @@ mainbody {
             line-height: 1.25;
             letter-spacing: 1.31px;
             text-align: center;
-            background: $customers-details-top-background-color;
+            background: $enrollment-details-top-background-color;
             top: -5px;
             position: relative;
         }
@@ -827,7 +808,7 @@ mainbody {
 
     .right {
         flex: 0 0 14%;
-        color: $customers-details-right-left-color !important;
+        color: $enrollment-details-right-left-color !important;
 
         >div {
             font-size: 35px;
@@ -848,18 +829,7 @@ mainbody {
         margin-right: 15px;
 
         * {
-            color: $customers-details-right-left-color;
-        }
-
-        .xstyle-dynamiclabelcontrol-wrapper {
-            .col-4 {
-
-                @media all and (-ms-high-contrast: none),
-                (-ms-high-contrast: active) {
-                    flex: 0 0 3% !important;
-                }
-
-            }
+            color: $enrollment-details-right-left-color;
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
@@ -898,6 +868,8 @@ mainbody {
     }
 }
 
+
+
 .boxShadow-0 {
     box-shadow: none !important;
     background-color: transparent !important;
@@ -912,21 +884,22 @@ mainbody {
 
     .cube {
         &:first-child {
-            background: $customers-cube-color;
+            background: $enrollment-first-cube-background !important;
 
             span {
-                color: $customers-cube-background !important;
+                color: $enrollment-first-cube-color !important;
             }
         }
 
-        color: $customers-cube-color;
+        color: $enrollment-cube-color;
         min-height: 164px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex: 0 0 100%;
         border-radius: 20px;
-        box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+        box-shadow:$enrollment-box-shadow;
+
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         margin-top: 5px;
 
@@ -964,13 +937,13 @@ mainbody {
         }
 
         .k-icon-wrapper {
-            color: $customers-icon-wrapper;
+            color: $enrollment-k-icon;
         }
 
         >div {
             &:last-child {
                 .x-dynamic-label-control {
-                    color: $customers-cube-description-color;
+                    color: $enrollment-cube-description-color;
                 }
             }
         }
@@ -1002,14 +975,6 @@ mainbody {
     border: 0 !important;
 }
 
-.fontBig {
-    .x-dynamic-label-control {
-        line-height: 2.6;
-        margin: 5px 10px;
-        direction: ltr;
-    }
-}
-
 .boxShadow {
     box-shadow: 0 2px 9px 0 #ccc;
     border-radius: 20px;
@@ -1025,11 +990,62 @@ mainbody {
     }
 }
 
+.window-details-row {
+    .window-details-col {
+        .labelTitle {
+            label {
+                font-size: 14px !important;
+                opacity: 0.68;
+                color: #464247 !important;
+            }
+        }
+
+        span {
+            font-size: 14px !important;
+            color: #464247 !important;
+        }
+    }
+
+    .k-grid {
+        .k-grid-header {
+            th {
+                .k-link {
+                    color: #464247 !important;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+.totalCol {
+    .labelTitle {
+        label {
+            opacity: 0.68;
+            color: #464247 !important;
+        }
+    }
+
+    span {
+        color: #464247 !important;
+        font-weight: bold;
+    }
+
+    .font-weight-bold {
+        label {
+            font-weight: bold !important;
+        }
+    }
+}
 
 //------------------------------------------------------------page login//
 //login//
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login {
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login {
+
     mainbody {
+        .k-textbox {
+            border-radius: 0px !important;
+        }
 
         .checkboxHorizontal {
             >div {
@@ -1109,7 +1125,7 @@ mainbody {
         >.row {
             background-color: #fff;
             border-radius: 50px !important;
-            box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+            box-shadow: $enrollment-box-shadow !important;
 
             @media screen and (min-height:800px) {
                 margin-top: 195px !important;
@@ -1140,10 +1156,17 @@ mainbody {
             }
         }
 
+        .x-text-control-container {
+            .x-textbox {
+                border-bottom: 1.5px solid $enrollment-x-textbox !important;
+            }
+
+        }
+
         .x-textbox {
             background: transparent !important;
-            border: 0;
-            border-bottom: 1.5px solid #043563;
+            border: 0 !important;
+
         }
 
         .xstyle-checkbox-wrapper {
@@ -1194,105 +1217,33 @@ mainbody {
     }
 }
 
-//dashboard//
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard {
-    .k-grid-content {
-        height: 200px !important;
-    }
-
-    .cube-wrapper {
-        .cube {
-            .k-icon-wrapper {
-                background-image: none !important;
-                color: inherit !important;
-                left: 20px !important;
-            }
-
-            .font-weight-bold {
-                flex-direction: row !important;
-            }
-
-            @media only screen and (min-width:1480px) {
-                flex: 0 0 16%;
-                max-width: 16%;
-                margin-bottom: 10px;
-            }
-        }
-    }
-
-}
-
-//customer account//
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount {
-    .cube-wrapper {
-        .cube {
-            .k-icon-wrapper {
-                background-image: none !important;
-                color: inherit !important;
-                left: 20px !important;
-            }
-
-            .font-weight-bold {
-                flex-direction: row !important;
-            }
-
-            @media only screen and (min-width:1480px) {
-                flex: 0 0 16%;
-                max-width: 16%;
-                margin-bottom: 10px;
-            }
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment{
+    footer{
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            bottom:3%!important;
         }
     }
 }
-
-//main//
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main {
-
-    [xid="controlrLatestOrders"],
-    [xid="controlrInventoryOrders"] {
-        >div {
-            @media only screen and (max-width:768px) {
-                flex: 0 0 100%;
-            }
-        }
-    }
-}
-
-//-------------------------------------xid
-
-//remove padding cloudDashboard page 
-[xid="controlrgCloud"] {
-    padding: 0 !important;
-
-    >div {
-        &:last-child {
-            margin-left: 0;
-        }
-    }
-}
-
-[xid="controlcgCloud"] {
-    margin-right: 0px;
-    margin-left: 20px;
-}
-
-
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
-    background-color: $customers-progress-empty;
+    background-color: $enrollment-progress-empty;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
 progress[value]::-webkit-progress-value {
     background-image: none !important;
-    background-color: $customers-progress-fill;
+    background-color: $enrollment-progress-fill;
+}
+
+progress[value]::-ms-fill {
+    background-image: none !important;
+    background-color: $enrollment-progress-fill;
 }
 
 #progressBoxShadow {
-    box-shadow: 0px 0px 41px -28px $customers-progress-shadow;
+    box-shadow: 0px 0px 41px -28px $enrollment-progress-shadow;
 }
 
-
-@forward 'importer-customers';
+@forward 'enrollment';
