@@ -840,6 +840,11 @@ input[type="time"] {
   border-color: #000000 !important;
 }
 
+.xstyle-radio-wrapper .k-radio-label,
+.x-damageTypeAndCamera .k-radio-label {
+  color: #464646 !important;
+}
+
 @forward 'radio-button';
 .xstyle-freehandhtml-wrapper center {
   color: #000 !important;
