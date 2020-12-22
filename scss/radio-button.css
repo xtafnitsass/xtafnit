@@ -15,5 +15,10 @@
   border-color: #a3d0e4 !important;
 }
 
+.xstyle-radio-wrapper .k-radio-label,
+.x-damageTypeAndCamera .k-radio-label {
+  color: #464646 !important;
+}
+
 @forward 'radio-button';
 /*# sourceMappingURL=radio-button.css.map */
