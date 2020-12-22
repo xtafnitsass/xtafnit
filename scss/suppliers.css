@@ -677,6 +677,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   opacity: 0.7;
 }
 
+@media screen and (max-width: 768px) {
+  .xstyle-radio-wrapper .radio-label-span-default {
+    text-indent: 24px;
+    display: inline-block;
+  }
+}
+
 .radioWrapperScroll {
   max-height: 150px;
   overflow-y: auto;
