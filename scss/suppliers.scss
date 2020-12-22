@@ -808,6 +808,12 @@ mainbody {
     }
 }
 
+.checkboxWrapperScroll{
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .details {
     .top {
         .x-cell-header {
