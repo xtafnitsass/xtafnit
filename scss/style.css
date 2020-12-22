@@ -271,6 +271,12 @@ mainbody .x-section-header-wrraper {
   border-bottom-right-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .k-window {
+    width: 90% !important;
+  }
+}
+
 .k-window .k-window-titlebar {
   background: #ca0000;
   border-top-left-radius: 20px;
