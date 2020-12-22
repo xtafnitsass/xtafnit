@@ -33,6 +33,7 @@ $drawer-color:#fff !default;
                 &.k-header {
                     color: $drawer-color !important;
                     background-image: none!important;
+                    background: $drawer-background-color!important;
                 }
             }
 

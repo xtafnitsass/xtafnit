@@ -4,7 +4,7 @@ $link-text-underling:underline!default;
 .xstyle-ilink-wrapper{
     .x-link_Comp{
         color:$link-color!important;
-        text-decoration-line: $link-text-underling;
+        text-decoration: $link-text-underling;
     }
 }
 
