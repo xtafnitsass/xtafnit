@@ -668,6 +668,47 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin-right: 10px;
 }
 
+.xstyle-radio-wrapper .radio-label-span-supplier {
+  padding-right: 23px;
+  display: inline-block;
+}
+
+.xstyle-radio-wrapper .radio-label-span-default {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1500px) {
+  .xstyle-radio-wrapper .radio-label-span-default {
+    padding-right: 23px;
+    display: inline-block;
+  }
+}
+
+.radioWrapperScroll {
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.radioWrapperScroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #dfdbdb;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-thumb {
+  background: #a9bdca;
+  border-radius: 10px;
+}
+
+.radioWrapperScroll::-webkit-scrollbar-thumb:hover {
+  background: #99b1c0;
+}
+
 .details .top .x-cell-header {
   padding: 6px 8px 6px 9px;
   border-radius: 8px;
@@ -707,6 +748,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .details .right > div:last-child {
   font-size: 12px;
+  opacity: 0.7;
 }
 
 .details .left {
@@ -741,10 +783,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   line-height: 1.82;
   letter-spacing: 0.9px;
   text-align: center;
+  opacity: 0.65;
 }
 
 .details .left > div .col-8 {
   font-size: 14px;
+  opacity: 0.7;
 }
 
 .details .left > div:first-child .col-8 {

@@ -39,6 +39,12 @@ $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
 $suppliers-window-fixicon-backgronud:#f2f7fd !default;
 
+$suppliers-radio-scoller-radius:10px !default;
+$suppliers-radio-scoller-background:#a9bdca !default;
+$suppliers-radio-scoller-width:10px !default;
+$suppliers-radio-scoller-height:10px !default;
+$suppliers-radio-scoller-webkit-background:#dfdbdb !default;
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -592,6 +598,10 @@ mainbody {
 }
 
 
+
+
+
+
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
@@ -808,6 +818,50 @@ mainbody {
     }
 }
 
+//radio//
+
+.xstyle-radio-wrapper {
+    .radio-label-span-supplier {
+        padding-right: 23px;
+        display: inline-block;
+    }
+
+    .radio-label-span-default {
+        opacity: 0.7;
+
+        @media screen and (max-width:1500px) {
+            padding-right: 23px;
+            display: inline-block;
+        }
+    }
+}
+
+.radioWrapperScroll {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar-track {
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+    &::-webkit-scrollbar {
+        width: $suppliers-radio-scoller-width;
+        height: $suppliers-radio-scoller-height;
+        background: $suppliers-radio-scoller-webkit-background;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $suppliers-radio-scoller-background;
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: darken($suppliers-radio-scoller-background, 5);
+    }
+}
+
 .details {
     .top {
         .x-cell-header {
@@ -846,6 +900,7 @@ mainbody {
 
             &:last-child {
                 font-size: 12px;
+                opacity: 0.7;
             }
         }
     }
@@ -882,6 +937,7 @@ mainbody {
                     line-height: 1.82;
                     letter-spacing: 0.9px;
                     text-align: center;
+                    opacity: 0.65;
                 }
             }
         }
@@ -889,6 +945,7 @@ mainbody {
         >div {
             .col-8 {
                 font-size: 14px;
+                opacity: 0.7;
             }
 
             &:first-child {

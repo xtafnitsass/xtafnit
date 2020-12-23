@@ -5,6 +5,12 @@
   border-bottom-right-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .k-window {
+    width: 90% !important;
+  }
+}
+
 .k-window .k-window-titlebar {
   background: #0167b1;
   border-top-left-radius: 20px;

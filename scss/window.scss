@@ -2,13 +2,17 @@ $window-background:#0167b1 !default;
 $window-margin:0px auto !default;
 $window-color:#fff !default;
 $window-border:20px !default;
+$window-width-query-max768:90% !default;
+
 
 .k-window {
     border-top-left-radius: $window-border;
     border-top-right-radius: $window-border;
     border-bottom-left-radius: $window-border;
     border-bottom-right-radius: $window-border;
-    
+    @media screen and (max-width:768px){
+        width:$window-width-query-max768!important;
+    }
     .k-window-titlebar {
         background: $window-background;
         border-top-left-radius: $window-border;
