@@ -272,6 +272,12 @@ mainbody .x-section-header-wrraper {
   border-bottom-right-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .k-window {
+    width: 90% !important;
+  }
+}
+
 .k-window .k-window-titlebar {
   background: #fff;
   border-top-left-radius: 20px;
@@ -829,6 +835,7 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio {
   color: #d70002;
   background-color: #fff;
+  border-color: #000;
 }
 
 .xstyle-radio-wrapper .k-radio:focus,
@@ -840,6 +847,11 @@ input[type="time"] {
 .xstyle-radio-wrapper .k-radio:checked,
 .x-damageTypeAndCamera .k-radio:checked {
   border-color: #000000 !important;
+}
+
+.xstyle-radio-wrapper .k-radio-label,
+.x-damageTypeAndCamera .k-radio-label {
+  color: #464646 !important;
 }
 
 @forward 'radio-button';
