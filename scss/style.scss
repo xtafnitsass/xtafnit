@@ -24,6 +24,7 @@ $window-background:#fff;
 $window-margin:0px auto;
 $window-color:#000;
 $window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
@@ -270,6 +271,8 @@ $rating-star-background-color:#ca0000;
 $radio-border-color: #000000;
 $radio-color: #ca0000;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 
 /*freehand*/
@@ -309,6 +312,11 @@ $customers-window-fixicon-backgronud:#fdf2f2;
 $customers-window-fixicon-color:#003f59;
 $customers-grid-link-color:#02b5fd;
 $customers-grid-link-decoration:underline;
+$customers-radio-scoller-radius:10px;
+$customers-radio-scoller-background:#a9bdca;
+$customers-radio-scoller-width:10px;
+$customers-radio-scoller-height:10px;
+$customers-radio-scoller-webkit-background:#dfdbdb;
 
 /*suppliers*/
 
@@ -350,6 +358,11 @@ $suppliers-window-btn-background-color:#02b5fd;
 $suppliers-window-fixicon-color:#02b5fd;
 $suppliers-toolbar-goBack-color:#02b5fd;
 $suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-radio-scoller-radius:10px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:10px;
+$suppliers-radio-scoller-height:10px;
+$suppliers-radio-scoller-webkit-background:#dfdbdb;
 
 /*enrollment*/
 
