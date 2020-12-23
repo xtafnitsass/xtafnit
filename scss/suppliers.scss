@@ -39,6 +39,12 @@ $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
 $suppliers-window-fixicon-backgronud:#f2f7fd !default;
 
+$suppliers-radio-scoller-radius:10px !default;
+$suppliers-radio-scoller-background:#a9bdca !default;
+$suppliers-radio-scoller-width:10px !default;
+$suppliers-radio-scoller-height:10px !default;
+$suppliers-radio-scoller-webkit-background:#dfdbdb !default;
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -91,7 +97,7 @@ header {
     }
 
     [xid="controlkiGoBack"] {
-
+        cursor: pointer;
         right: 50px;
         position: relative;
 
@@ -592,6 +598,10 @@ mainbody {
 }
 
 
+
+
+
+
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
@@ -607,6 +617,21 @@ mainbody {
         }
     }
 
+    [xid="Cell_Container_controlbSearch"] {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left: 10px;
+        }
+    }
+
+    [xid="Cell_Container_controlbtnAddNewLine"] {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            margin-left: 63px;
+        }
+    }
 }
 
 .loginTitle {
@@ -793,6 +818,50 @@ mainbody {
     }
 }
 
+//radio//
+
+.xstyle-radio-wrapper {
+    .radio-label-span-supplier {
+        padding-right: 23px;
+        display: inline-block;
+    }
+
+    .radio-label-span-default {
+        opacity: 0.7;
+
+        @media screen and (max-width:1500px) {
+            padding-right: 23px;
+            display: inline-block;
+        }
+    }
+}
+
+.radioWrapperScroll {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar-track {
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+    &::-webkit-scrollbar {
+        width: $suppliers-radio-scoller-width;
+        height: $suppliers-radio-scoller-height;
+        background: $suppliers-radio-scoller-webkit-background;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $suppliers-radio-scoller-background;
+        border-radius: $suppliers-radio-scoller-radius;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: darken($suppliers-radio-scoller-background, 5);
+    }
+}
+
 .details {
     .top {
         .x-cell-header {
@@ -831,6 +900,7 @@ mainbody {
 
             &:last-child {
                 font-size: 12px;
+                opacity: 0.7;
             }
         }
     }
@@ -840,6 +910,17 @@ mainbody {
 
         * {
             color: $suppliers-details-right-left-color;
+        }
+
+        .xstyle-dynamiclabelcontrol-wrapper {
+            .col-4 {
+
+                @media all and (-ms-high-contrast: none),
+                (-ms-high-contrast: active) {
+                    flex: 0 0 3% !important;
+                }
+
+            }
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
@@ -856,6 +937,7 @@ mainbody {
                     line-height: 1.82;
                     letter-spacing: 0.9px;
                     text-align: center;
+                    opacity: 0.65;
                 }
             }
         }
@@ -863,6 +945,7 @@ mainbody {
         >div {
             .col-8 {
                 font-size: 14px;
+                opacity: 0.7;
             }
 
             &:first-child {
@@ -1251,6 +1334,14 @@ mainbody {
             left: 20px !important;
         }
     }
+
+    .gridHeaderButton {
+        >div {
+            &:last-child {
+                min-width: 10px !important;
+            }
+        }
+    }
 }
 
 
@@ -1276,6 +1367,39 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice {
     .border {
         border: 1px solid #eee !important;
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
+    mainbody {
+        >div {
+            &:first-child {
+                height: 400px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder {
+    mainbody {
+        >div {
+            &:first-child {
+                height: 60px;
+            }
+        }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice,
+#TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService {
+    .greyPanel {
+        .gridHeaderButton {
+
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                padding: 0 !important;
+            }
+        }
     }
 }
 

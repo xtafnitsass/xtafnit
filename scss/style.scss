@@ -22,6 +22,7 @@ $window-background:#fff;
 $window-margin:0px auto;
 $window-color:#000;
 $window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
@@ -253,6 +254,8 @@ $rating-star-background-color:#3fa535;
 $radio-border-color: #000000;
 $radio-color: #3fa535;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 /*freehand*/
 
@@ -262,28 +265,35 @@ $freehand-border-color:#3fa535;
 
 /*layout*/
 
-$cube-background:#fff;
-$cube-color:#c00000;
-$clock-color:#c00000;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#c00000;
-$body-background:#f5f6f8;
-$upload-button:#c00000;
-$tabstrip:#c00000;
-$drawer:#c00000;
-$timeselector:#c00000;
-$messageText:#c00000;
-$timeselector:#c00000;
-$loginTitle:#043563;
-$loginTitle2:#043563;
-$white-btn:#c00000;
-$icon-wrapper:#c00000;
-$progress-empty:#f2ebf6;
-$progress-fill:#c00000;
-$progress-shadow:#c00000;
-$icon-tachometer:#464247 ;
+$customers-cube-background:#fff;
+$customers-cube-color:#c00000;
+$customers-clock-color:#c00000;
+$customers-top-panel-background:#ffffff;
+$customers-header-color:#043563;
+$customers-x-cell-header-color:#043563;
+$customers-cube-description-color:#c00000;
+$customers-body-background:#f5f6f8;
+$customers-upload-button:#c00000;
+$customers-tabstrip:#c00000;
+$customers-drawer:#c00000;
+$customers-timeselector:#c00000;
+$customers-messageText:#c00000;
+$customers-loginTitle:#043563;
+$customers-loginTitle2:#043563;
+$customers-white-btn:#c00000;
+$customers-icon-wrapper:#c00000;
+$customers-progress-empty:#f2ebf6;
+$customers-progress-fill:#c00000;
+$customers-progress-shadow:#c00000;
+$customers-icon-tachometer:#464247;
+$customers-toolbar-goBack-color:#02b5fd;
+$customers-details-top-color: #25a003;
+$customers-details-right-left-color: #464247;
+$customers-details-top-background-color: #f7e8ff;
+$customers-window-fixicon-backgronud:#f2f7fd;
+$customers-window-fixicon-color:#003f59;
+$customers-grid-link-color:#02b5fd;
+$customers-grid-link-decoration:underline;
 
 /*suppliers*/
 
@@ -325,6 +335,52 @@ $suppliers-window-btn-background-color:#464247;
 $suppliers-window-fixicon-color:#3fa535;
 $suppliers-toolbar-goBack-color:#02b5fd;
 $suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-radio-scoller-radius:10px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:10px;
+$suppliers-radio-scoller-height:10px;
+$suppliers-radio-scoller-webkit-background:#dfdbdb;
+
+/*enrollment*/
+
+$enrollment-cube-background:#fff;
+$enrollment-cube-color:#ca0000;
+$enrollment-clock-color:#ca0000;
+$enrollment-top-panel-background:#ffffff;
+$enrollment-header-color:#043563;
+$enrollment-x-cell-header-color:#043563;
+$enrollment-cube-description-color:#ca0000;
+$enrollment-body-background:#f5f6f8;
+$enrollment-upload:#ca0000;
+$enrollment-drawer:#282830;
+$enrollment-tabstrip:#ca0000;
+$enrollment-message-text:#043563;
+$enrollment-loginTitle:#043563;
+$enrollment-loginTitle2:#043563;
+$enrollment-white-btn:#ca0000;
+$enrollment-k-icon:#43b1e5;
+$enrollment-x-textbox:#043563;
+$enrollment-progress-empty:#f2ebf6;
+$enrollment-progress-fill:#ca0000;
+$enrollment-progress-shadow:#ca0000;
+$enrollment-first-cube-background:#fff;
+$enrollment-first-cube-color:#ca0000;
+$enrollment-grid-font-weight:bold;
+$enrollment-grid-content-color:#464247;
+$enrollment-color-btn:#8733af4d;
+$enrollment-window-footer-background:#464247;
+$enrollment-details-top-color: #8733af;
+$enrollment-details-right-left-color: #464247;
+$enrollment-details-top-background-color: #f7e8ff;
+$enrollment-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$enrollment-grid-header-color:#ccc;
+$enrollment-grid-link-color:#02b5fd;
+$enrollment-grid-link-decoration:underline;
+$enrollment-rectInv-background:#f6e9fe;
+$enrollment-window-btn-background-color:#02b5fd;
+$enrollment-window-fixicon-color:#003f59;
+$enrollment-toolbar-goBack-color:#02b5fd;
+$enrollment-window-fixicon-backgronud:#f2f7fd;
 
 
 /*link*/
@@ -336,8 +392,7 @@ $link-text-underling:underline;
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard','./link',
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
 // './importer-customers';
-'./suppliers';
-
-/*lease4usuppliers v5*/
+  './suppliers';
+// './enrollment';
