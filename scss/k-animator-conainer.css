@@ -7,6 +7,21 @@
   border: 0px solid !important;
 }
 
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
+  background: #3a45da !important;
+  color: #fff !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
+  background: #3a45da !important;
+  color: #fff !important;
+}
+
+.k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
+  background: #3a45da !important;
+  color: #fff !important;
+}
+
 .k-animation-container .k-list-container .x-autocomplete-header-template {
   color: #fff;
   background: #000;
