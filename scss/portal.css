@@ -1425,9 +1425,21 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-#TafnitCore.SaaSServer.Portal.B2B.TafnitSelfService.UI.Main .k-button {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .k-button {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
   background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .cube-wrapper .cube:first-child span {
+  color: #43b1e5 !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 12% !important;
+            flex: 0 0 12% !important;
+  }
 }
 
 [xid="controlrgCloud"] {
