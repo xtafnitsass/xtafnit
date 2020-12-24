@@ -1790,8 +1790,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(51, 53, 175, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(51, 53, 175, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
@@ -2064,8 +2064,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(51, 53, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(51, 53, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
@@ -2325,9 +2325,21 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-#TafnitCore.SaaSServer.Portal.B2B.TafnitSelfService.UI.Main .k-button {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .k-button {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
   background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .cube-wrapper .cube:first-child span {
+  color: #43b1e5 !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 12% !important;
+            flex: 0 0 12% !important;
+  }
 }
 
 [xid="controlrgCloud"] {
