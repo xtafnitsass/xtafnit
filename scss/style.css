@@ -1040,14 +1040,17 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-header-wrap a.k-link {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-header-wrap th {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .k-grid .k-grid-content td {
   border-bottom: 1px solid #d8d8d8;
+  color: #464247;
 }
 
 .k-grid .k-grid-content td a {
@@ -1080,30 +1083,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-dropdown.x-dropdown-comp {
   height: 37px;
-}
-
-.k-tabstrip:focus {
-  -webkit-box-shadow: 0 0 black;
-          box-shadow: 0 0 black;
-}
-
-.k-tabstrip .x-section-wrraper {
-  border-width: 0px !important;
-}
-
-.k-tabstrip .k-content {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 0 !important;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #3fa535;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #3fa535 !important;
-  font-weight: bold;
 }
 
 .k-pane-wrapper {
@@ -1207,7 +1186,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
-  border-left: 2px solid;
+  border-left: 1px solid #fff;
   margin-left: 5px;
   padding-left: 5px;
 }
@@ -1259,20 +1238,20 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-timeselector .k-time-now {
-  color: #3fa535 !important;
+  color: #25a003 !important;
 }
 
 .k-timeselector .k-time-list-wrapper .k-title {
-  color: #3fa535 !important;
+  color: #25a003 !important;
 }
 
 .k-timeselector .k-time-list-wrapper.k-state-focused {
-  -webkit-box-shadow: inset 0 0 3px 1px #3fa535 !important;
-          box-shadow: inset 0 0 3px 1px #3fa535 !important;
+  -webkit-box-shadow: inset 0 0 3px 1px #25a003 !important;
+          box-shadow: inset 0 0 3px 1px #25a003 !important;
 }
 
 .k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
-  color: #3fa535 !important;
+  color: #25a003 !important;
 }
 
 .k-timeselector .k-time-list-wrapper .k-time-container .k-item {
@@ -1306,10 +1285,35 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
+  color: #b7b7b7;
+  margin-right: 10px;
+  top: -5px;
+  font-size: 18px;
+}
+
+mainbody .gridHeaderButton [xid="controlkiClean"] {
+  color: #3fa535;
+}
+
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .gridHeaderButton .x-self-container {
     min-width: 110px !important;
   }
+}
+
+.k-drawer-overlay .k-drawer {
+  max-height: 100vh !important;
+}
+
+.k-drawer-overlay .k-drawer .k-drawer-wrapper {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+
+.k-tabstrip:focus {
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
 }
 
 .k-tabstrip .x-section-wrraper {
@@ -1331,12 +1335,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-weight: bold;
 }
 
-.k-window {
-  border-radius: 19px;
-}
-
 .k-window .k-window-titlebar {
   border: 0;
+}
+
+.k-window .k-window-content .k-edit-buttons {
+  background: #dadada !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -1367,7 +1371,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 #MessageBoxWindow #controlCell2Container #controlMessageText {
-  color: #3fa535;
+  color: #25a003;
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
@@ -1393,6 +1397,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 @media only screen and (max-width: 640px) {
   .gridHeaderButton .k-button {
     width: 62px !important;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
+    margin-left: 10px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gridHeaderButton [xid="Cell_Container_controlbtnAddNewLine"] {
+    margin-left: 63px;
   }
 }
 
@@ -1435,24 +1451,16 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   padding-top: 0px !important;
 }
 
-.fixIcon .k-icon {
-  background-color: #f2f7fd;
-  width: 70px;
-  border-radius: 50%;
-  height: 70px;
-  color: #003f59;
-}
-
 .title {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.white-btn {
+.white-btn, .color-btn {
   margin: auto 5px;
 }
 
-.white-btn .k-button {
+.white-btn .k-button, .color-btn .k-button {
   background: #fff !important;
   background-image: none !important;
   color: #3fa535 !important;
@@ -1460,8 +1468,57 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
 }
 
-.white-btn .k-button:hover {
+.white-btn .k-button:hover, .color-btn .k-button:hover {
   background: #f5f3f3 !important;
+}
+
+.color-btn {
+  text-align: center;
+}
+
+.color-btn .k-button {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #a5d8a1 !important;
+}
+
+.fixIcon .k-icon {
+  background-color: #f2fdf4;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+  color: #25a003;
+}
+
+.titleInv {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10%;
+          flex: 0 0 10%;
+}
+
+.rectInv > div {
+  border-radius: 4px;
+  background-color: #e9feec;
+  margin: 0px 10px;
+}
+
+.rectInv .labelInv .col-4 label {
+  font-size: 12px;
+  min-width: 40px;
+  text-align: right;
+}
+
+.rectInv .labelInv .col-8 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rectInv .labelInv .col-8 span {
+  text-align: center !important;
+}
+
+.light-blue .k-button {
+  background: #464247 !important;
 }
 
 .dotIcon {
@@ -1590,7 +1647,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .radioWrapperScroll::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background: #dfdbdb;
+  background: #dbdfdc;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb {
@@ -1617,7 +1674,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
-  background: #c8e8d1;
+  background: #e8ffea;
   top: -5px;
   position: relative;
 }
@@ -1728,19 +1785,19 @@ mainbody .greyPanel .x-control-caption-wrapper label {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
-          box-shadow: 0 10px 30px 0 rgba(0, 90, 166, 0.06);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
 }
 
 .cube-wrapper .cube:first-child {
-  background: #3fa535;
+  background: #fff !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #fff !important;
+  color: #3fa535 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
@@ -1791,7 +1848,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .cube-wrapper .cube .k-icon-wrapper {
-  color: #3fa535;
+  color: #43b1e5;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
@@ -1833,12 +1890,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   border: 0 !important;
 }
 
-.fontBig .x-dynamic-label-control {
-  line-height: 2.6;
-  margin: 5px 10px;
-  direction: ltr;
-}
-
 .boxShadow {
   -webkit-box-shadow: 0 2px 9px 0 #ccc;
           box-shadow: 0 2px 9px 0 #ccc;
@@ -1855,7 +1906,43 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+.window-details-row .window-details-col .labelTitle label {
+  font-size: 14px !important;
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.window-details-row .window-details-col span {
+  font-size: 14px !important;
+  color: #464247 !important;
+}
+
+.window-details-row .k-grid .k-grid-header th .k-link, .window-details-row .k-grid .k-grid-header th .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .window-details-row .k-grid .k-grid-header th td.k-state-focused.k-state-hover {
+  color: #464247 !important;
+  opacity: 0.7;
+}
+
+.totalCol .labelTitle label {
+  opacity: 0.68;
+  color: #464247 !important;
+}
+
+.totalCol span {
+  color: #464247 !important;
+  font-weight: bold;
+}
+
+.totalCol .font-weight-bold label {
+  font-weight: bold !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-textbox {
+  border-radius: 0px !important;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 1 0% !important;
@@ -1864,6 +1951,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 0 0% !important;
@@ -1871,10 +1959,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody ::-webkit-input-placeholder {
   text-align: right;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1882,20 +1972,24 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           flex-direction: column;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-ilink-wrapper a,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-ilink-wrapper a {
   text-align: center !important;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"] {
   padding-top: 120px;
 }
 
 @media only screen and (max-height: 950px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"] {
     padding-top: 0px;
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"] {
   -webkit-box-flex: 0;
       -ms-flex: 0;
@@ -1905,16 +1999,19 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (min-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"] {
     padding-bottom: 80px !important;
     padding-top: 80px !important;
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper {
   text-align: center;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button {
   height: 56px;
   line-height: 56px;
@@ -1922,6 +2019,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (max-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button {
     height: 40px;
     line-height: 40px;
@@ -1929,51 +2027,65 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
-          box-shadow: 0 2px 124px 0 rgba(0, 30, 56, 0.16) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
     margin-top: 195px !important;
   }
 }
 
 @media screen and (min-width: 800px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
     margin-right: 65px !important;
   }
 }
 
 @media screen and (min-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row {
     margin-right: 195px !important;
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout {
   background-color: rgba(255, 255, 255, 0.922) !important;
 }
 
 @media screen and (max-width: 1050px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout {
     padding: 10px !important;
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
   border: 0;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-textbox {
-  background: transparent !important;
-  border: 0;
-  border-bottom: 1.5px solid #043563;
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox, #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox,
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-text-control-container .x-textbox,
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-filter-menu-container .x-textbox {
+  border-bottom: 1.5px solid #043563 !important;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox,
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-textbox {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -1981,15 +2093,18 @@ mainbody .greyPanel .x-control-caption-wrapper label {
           flex-direction: row-reverse;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
   margin-right: 10px;
   line-height: 1.3;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper input {
   font-weight: bold;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"] {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2000,11 +2115,13 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media only screen and (max-height: 950px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"] {
     min-height: 480px;
   }
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginContent,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginContent {
   width: 322px;
   padding: 0;
@@ -2012,12 +2129,73 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .col,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .col {
     -ms-flex-preferred-size: auto !important;
         flex-basis: auto !important;
   }
+  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper {
     width: 97%;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube .k-icon-wrapper {
+  background-image: none !important;
+  color: inherit !important;
+  left: 20px !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
+  height: 45vh !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube .k-icon-wrapper {
+  background-image: none !important;
+  color: inherit !important;
+  left: 20px !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton > div:last-child {
+  min-width: 10px !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube .font-weight-bold,
+#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube,
+  #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+    max-width: 16%;
+    margin-bottom: 10px;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
+  border: 1px solid #eee !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
+  height: 400px;
+}
+
+#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder mainbody > div:first-child {
+  height: 60px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton,
+  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService .greyPanel .gridHeaderButton {
+    padding: 0 !important;
   }
 }
 
@@ -2095,7 +2273,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
-  background-color: #f2ebf6;
+  background-color: #ebf6ed;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
@@ -2110,6 +2288,11 @@ progress[value]::-webkit-progress-value {
           box-shadow: 0px 0px 41px -28px #3fa535;
 }
 
-@forward 'importer-customers';
-/*lease4u customers - v9 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
+    bottom: 3% !important;
+  }
+}
+
+@forward 'portal';
 /*# sourceMappingURL=style.css.map */

@@ -327,9 +327,9 @@ $suppliers-top-panel-background:#ffffff;
 $suppliers-header-color:#043563;
 $suppliers-x-cell-header-color:#043563;
 $suppliers-cube-description-color:#3fa535;
-$suppliers-body-background:#f5f6f8;
+$suppliers-body-background:#fafafa;
 $suppliers-upload:#3fa535;
-$suppliers-drawer:#282830;
+$suppliers-drawer:#3fa535;
 $suppliers-tabstrip:#3fa535;
 $suppliers-message-text:#043563;
 $suppliers-loginTitle:#043563;
@@ -337,32 +337,34 @@ $suppliers-loginTitle2:#043563;
 $suppliers-white-btn:#3fa535;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#043563;
-$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-empty:#ebf6ed;
 $suppliers-progress-fill:#3fa535;
 $suppliers-progress-shadow:#3fa535;
 $suppliers-first-cube-background:#fff;
 $suppliers-first-cube-color:#3fa535;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
-$suppliers-color-btn:#8733af4d;
+$suppliers-color-btn:#a5d8a1;
 $suppliers-window-footer-background:#dadada;
-$suppliers-details-top-color: #8733af;
+$suppliers-details-top-color: #3fa535;
 $suppliers-details-right-left-color: #464247;
-$suppliers-details-top-background-color: #f7e8ff;
+$suppliers-details-top-background-color: #e8ffea;
 $suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
 $suppliers-grid-header-color:#b7b7b7;
 $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
-$suppliers-rectInv-background:#f6e9fe;
-$suppliers-window-btn-background-color:#02b5fd;
-$suppliers-window-fixicon-color:#02b5fd;
+$suppliers-rectInv-background:#e9feec;
+$suppliers-window-btn-background-color:#464247;
+$suppliers-window-fixicon-color:#25a003;
 $suppliers-toolbar-goBack-color:#02b5fd;
-$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-window-fixicon-backgronud:#f2fdf4;
 $suppliers-radio-scoller-radius:10px;
 $suppliers-radio-scoller-background:#a9bdca;
 $suppliers-radio-scoller-width:10px;
 $suppliers-radio-scoller-height:10px;
-$suppliers-radio-scoller-webkit-background:#dfdbdb;
+$suppliers-radio-scoller-webkit-background:#dbdfdc;
+$suppliers-timeselector:#25a003;
+$suppliers-messageText:#25a003;
 
 /*enrollment*/
 
@@ -416,7 +418,7 @@ $link-text-underling:underline;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
- './importer-customers';
+ //'./importer-customers';
 //  './suppliers';
 // './enrollment';
-/*lease4u customers - v9 */
+ './portal';
