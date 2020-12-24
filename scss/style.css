@@ -270,7 +270,7 @@ mainbody .x-section-header-wrraper {
   border-bottom-right-radius: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .k-window {
     width: 90% !important;
   }
@@ -1640,7 +1640,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll {
-  max-height: 150px;
+  max-height: 100px;
   overflow-y: auto;
   overflow-x: hidden;
 }
