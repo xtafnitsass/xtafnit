@@ -2,6 +2,7 @@
 .x-damageTypeAndCamera .k-radio {
   color: #7bd2f6;
   background-color: #fff;
+  border-color: #000;
 }
 
 .xstyle-radio-wrapper .k-radio:focus,
@@ -13,6 +14,11 @@
 .xstyle-radio-wrapper .k-radio:checked,
 .x-damageTypeAndCamera .k-radio:checked {
   border-color: #a3d0e4 !important;
+}
+
+.xstyle-radio-wrapper .k-radio-label,
+.x-damageTypeAndCamera .k-radio-label {
+  color: #464646 !important;
 }
 
 @forward 'radio-button';
