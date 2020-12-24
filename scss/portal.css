@@ -1430,7 +1430,23 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .cube-wrapper .cube:first-child span {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn {
+  margin: auto 5px;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn .k-button, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn .k-button {
+  background: #fff !important;
+  background-image: none !important;
+  color: #ca0000 !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn .k-button:hover, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn .k-button:hover {
+  background: #f5f3f3 !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child span.k-icon {
   color: #43b1e5 !important;
 }
 
