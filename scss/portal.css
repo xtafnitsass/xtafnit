@@ -124,15 +124,13 @@ header #kGoBack {
 header #kGoBack [xid="controlkGoBack"] {
   width: 30px;
   height: 30px;
-  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), -webkit-gradient(linear, left top, left bottom, from(#da2d7f), to(#da2d7f));
-  background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
   border-radius: 50%;
   text-align: center;
 }
 
 header #kGoBack [xid="controlkGoBack"] > span {
-  color: white;
-  font-size: 16px;
+  color: #02b5fd;
+  font-size: 20px;
   height: 100%;
 }
 
@@ -1425,6 +1423,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+}
+
+#TafnitCore.SaaSServer.Portal.B2B.TafnitSelfService.UI.Main .k-button {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
+  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
 }
 
 [xid="controlrgCloud"] {
