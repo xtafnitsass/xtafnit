@@ -281,60 +281,23 @@ $freehand-color: #000;
 $freehand-background: #ca0000;
 $freehand-border-color:#ca0000;
 
-/*layout*/
-
-$customers-cube-background:#fff;
-$customers-cube-color:#c00000;
-$customers-clock-color:#c00000;
-$customers-top-panel-background:#ffffff;
-$customers-header-color:#043563;
-$customers-x-cell-header-color:#043563;
-$customers-cube-description-color:#c00000;
-$customers-body-background:#fafafa;
-$customers-upload-button:#c00000;
-$customers-tabstrip:#c00000;
-$customers-drawer:#282830;
-$customers-timeselector:#c00000;
-$customers-messageText:#c00000;
-$customers-loginTitle:#043563;
-$customers-loginTitle2:#043563;
-$customers-white-btn:#c00000;
-$customers-icon-wrapper:#c00000;
-$customers-progress-empty:#f6ebeb;
-$customers-progress-fill:#c00000;
-$customers-progress-shadow:#c00000;
-$customers-icon-tachometer:#464247;
-$customers-toolbar-goBack-color:#02b5fd;
-$customers-details-top-color: #c00000;
-$customers-details-right-left-color: #464247;
-$customers-details-top-background-color: #ffe8e8;
-$customers-window-fixicon-backgronud:#fdf2f2;
-$customers-window-fixicon-color:#003f59;
-$customers-grid-link-color:#02b5fd;
-$customers-grid-link-decoration:underline;
-$customers-radio-scoller-radius:10px;
-$customers-radio-scoller-background:#a9bdca;
-$customers-radio-scoller-width:10px;
-$customers-radio-scoller-height:10px;
-$customers-radio-scoller-webkit-background:#dfdbdb;
-
-/*suppliers*/
+/*portal*/
 
 $suppliers-cube-background:#fff;
-$suppliers-cube-color:#ca0000;
+$suppliers-cube-color:#c00000;
 $suppliers-clock-color:#ca0000;
 $suppliers-top-panel-background:#ffffff;
 $suppliers-header-color:#043563;
 $suppliers-x-cell-header-color:#043563;
 $suppliers-cube-description-color:#ca0000;
-$suppliers-body-background:#f5f6f8;
+$suppliers-body-background:#fafafa;
 $suppliers-upload:#ca0000;
 $suppliers-drawer:#282830;
 $suppliers-tabstrip:#ca0000;
 $suppliers-message-text:#043563;
 $suppliers-loginTitle:#043563;
 $suppliers-loginTitle2:#043563;
-$suppliers-white-btn:#ca0000;
+$suppliers-white-btn:#ecb6b6;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#043563;
 $suppliers-progress-empty:#f2ebf6;
@@ -344,66 +307,28 @@ $suppliers-first-cube-background:#fff;
 $suppliers-first-cube-color:#ca0000;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
-$suppliers-color-btn:#8733af4d;
-$suppliers-window-footer-background:#dadada;
-$suppliers-details-top-color: #8733af;
+$suppliers-color-btn:#af3333;
+$suppliers-window-footer-background:transparent;
+$suppliers-details-top-color: #ca0000;
 $suppliers-details-right-left-color: #464247;
-$suppliers-details-top-background-color: #f7e8ff;
-$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$suppliers-details-top-background-color: #ffe8e8;
+$suppliers-box-shadow:0 10px 20px 0 rgba(175, 51, 51, 0.1);
 $suppliers-grid-header-color:#b7b7b7;
 $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
-$suppliers-rectInv-background:#f6e9fe;
-$suppliers-window-btn-background-color:#02b5fd;
+$suppliers-rectInv-background:#fee9e9;
+$suppliers-window-btn-background-color:#464247;
 $suppliers-window-fixicon-color:#02b5fd;
 $suppliers-toolbar-goBack-color:#02b5fd;
-$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-window-fixicon-backgronud:#fdf2f2;
 $suppliers-radio-scoller-radius:10px;
 $suppliers-radio-scoller-background:#a9bdca;
 $suppliers-radio-scoller-width:10px;
 $suppliers-radio-scoller-height:10px;
 $suppliers-radio-scoller-webkit-background:#dfdbdb;
-
-/*enrollment*/
-
-$enrollment-cube-background:#fff;
-$enrollment-cube-color:#ca0000;
-$enrollment-clock-color:#ca0000;
-$enrollment-top-panel-background:#ffffff;
-$enrollment-header-color:#043563;
-$enrollment-x-cell-header-color:#043563;
-$enrollment-cube-description-color:#ca0000;
-$enrollment-body-background:#f5f6f8;
-$enrollment-upload:#ca0000;
-$enrollment-drawer:#282830;
-$enrollment-tabstrip:#ca0000;
-$enrollment-message-text:#043563;
-$enrollment-loginTitle:#043563;
-$enrollment-loginTitle2:#043563;
-$enrollment-white-btn:#ca0000;
-$enrollment-k-icon:#43b1e5;
-$enrollment-x-textbox:#043563;
-$enrollment-progress-empty:#f2ebf6;
-$enrollment-progress-fill:#ca0000;
-$enrollment-progress-shadow:#ca0000;
-$enrollment-first-cube-background:#fff;
-$enrollment-first-cube-color:#ca0000;
-$enrollment-grid-font-weight:bold;
-$enrollment-grid-content-color:#464247;
-$enrollment-color-btn:#8733af4d;
-$enrollment-window-footer-background:#464247;
-$enrollment-details-top-color: #8733af;
-$enrollment-details-right-left-color: #464247;
-$enrollment-details-top-background-color: #f7e8ff;
-$enrollment-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
-$enrollment-grid-header-color:#ccc;
-$enrollment-grid-link-color:#02b5fd;
-$enrollment-grid-link-decoration:underline;
-$enrollment-rectInv-background:#f6e9fe;
-$enrollment-window-btn-background-color:#02b5fd;
-$enrollment-window-fixicon-color:#003f59;
-$enrollment-toolbar-goBack-color:#02b5fd;
-$enrollment-window-fixicon-backgronud:#f2f7fd;
+$suppliers-timeselector:#ca0000;
+$suppliers-messageText:#ca0000;
+$suppliers-icon-tachometer: #464247;
 
 
 /*link*/
@@ -416,6 +341,4 @@ $link-text-underling:underline;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
- './importer-customers';
-//  './suppliers';
-// './enrollment';
+ './portal';
