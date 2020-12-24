@@ -189,13 +189,12 @@ header {
         [xid="controlkGoBack"] {
             width: 30px;
             height: 30px;
-            background-image: radial-gradient(circle at 103% 136%, #ca0000, #25abfd 385%, #63c4ff 385%), linear-gradient(to bottom, #da2d7f, #da2d7f);
             border-radius: 50%;
             text-align: center;
 
             >span {
-                color: white;
-                font-size: 16px;
+                color: $suppliers-toolbar-goBack-color;
+                font-size: 20px;
                 height: 100%;
             }
         }
@@ -1546,6 +1545,14 @@ mainbody {
         }
     }
 }
+
+//tafnit//
+#TafnitCore.SaaSServer.Portal.B2B.TafnitSelfService.UI.Main{
+    .k-button{
+        background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
+    }
+}
+
 
 //-------------------------------------xid
 
