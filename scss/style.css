@@ -1791,11 +1791,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #3fa535 !important;
+  background: #fff !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #fff !important;
+  color: #3fa535 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
