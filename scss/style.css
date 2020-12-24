@@ -1338,11 +1338,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .k-window .k-window-content .k-edit-buttons {
-  background: #dadada !important;
+  background: transparent !important;
 }
 
 .k-window footer {
-  background: #dadada !important;
+  background: transparent !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
