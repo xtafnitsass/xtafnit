@@ -269,7 +269,7 @@ mainbody .x-section-header-wrraper {
   border-bottom-right-radius: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .k-window {
     width: 90% !important;
   }
