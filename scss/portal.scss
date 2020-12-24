@@ -45,6 +45,7 @@ $suppliers-radio-scoller-height:10px !default;
 $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
+$suppliers-icon-tachometer: #464247 !default;
 
 //------------------------------------------------------------layout//
 
@@ -804,11 +805,11 @@ mainbody {
 
     a {
         background: transparent !important;
-        color: $customers-icon-tachometer !important;
+        color: $suppliers-icon-tachometer !important;
 
         &:hover {
             background: transparent !important;
-            color: $customers-icon-tachometer !important;
+            color: $suppliers-icon-tachometer !important;
         }
 
         span {
