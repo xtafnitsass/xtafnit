@@ -38,12 +38,14 @@ $suppliers-window-btn-background-color:#02b5fd !default;
 $suppliers-window-fixicon-color:#003f59 !default;
 $suppliers-toolbar-goBack-color:#02b5fd !default;
 $suppliers-window-fixicon-backgronud:#f2f7fd !default;
-
 $suppliers-radio-scoller-radius:10px !default;
 $suppliers-radio-scoller-background:#a9bdca !default;
 $suppliers-radio-scoller-width:10px !default;
 $suppliers-radio-scoller-height:10px !default;
 $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
+$suppliers-timeselector:#25a003 !default;
+$suppliers-messageText:#25a003 !default;
+$suppliers-icon-tachometer: #464247 !default;
 
 //------------------------------------------------------------layout//
 
@@ -238,6 +240,10 @@ header {
             a {
                 color: $suppliers-grid-link-color !important;
                 text-decoration: $suppliers-grid-link-decoration;
+
+                &.k-button {
+                    color: #fff !important;
+                }
             }
         }
     }
@@ -449,6 +455,45 @@ mainbody {
 
 }
 
+//timepicker//
+
+.xstyle-timepicker-wrapper {
+    .k-timepicker {
+        width: 100%;
+    }
+}
+
+.k-timeselector {
+    .k-time-now {
+        color: $suppliers-timeselector !important;
+    }
+
+    .k-time-list-wrapper {
+        .k-title {
+            color: $suppliers-timeselector !important;
+        }
+
+        &.k-state-focused {
+            box-shadow: inset 0 0 3px 1px $suppliers-timeselector !important;
+        }
+
+        .k-time-list {
+            .k-item {
+                &:hover {
+                    color: $suppliers-timeselector !important;
+                }
+            }
+
+        }
+
+        .k-time-container {
+            .k-item {
+                background: none !important;
+            }
+        }
+    }
+}
+
 .xstyle-buttoncontrol-wrapper {
     padding: 5px;
 }
@@ -523,6 +568,10 @@ mainbody {
 
 //tabstrip//
 .k-tabstrip {
+    &:focus {
+        box-shadow: 0 0 black;
+    }
+
     .x-section-wrraper {
         border-width: 0px !important;
     }
@@ -556,6 +605,10 @@ mainbody {
             background: $suppliers-window-footer-background !important;
         }
     }
+
+    footer {
+        background: $suppliers-window-footer-background !important;
+    }
 }
 
 //messagebox//
@@ -583,7 +636,7 @@ mainbody {
         text-align: center;
 
         #controlMessageText {
-            color: #043563;
+            color: $suppliers-messageText;
         }
     }
 
@@ -744,6 +797,28 @@ mainbody {
 .light-blue {
     .k-button {
         background: $suppliers-window-btn-background-color !important;
+    }
+}
+
+.dotIcon {
+    position: absolute;
+    bottom: 49%;
+    width: auto;
+    left: 5px;
+    z-index: 10003;
+
+    a {
+        background: transparent !important;
+        color: $suppliers-icon-tachometer !important;
+
+        &:hover {
+            background: transparent !important;
+            color: $suppliers-icon-tachometer !important;
+        }
+
+        span {
+            width: 20px;
+        }
     }
 }
 
@@ -1133,7 +1208,9 @@ mainbody {
 
 //------------------------------------------------------------page login//
 //login//
-#TafnitCore_SaaSServer_Portal_Default_UI_Login {
+#TafnitCore_SaaSServer_Portal_Default_UI_Login,
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login,
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login {
 
     mainbody {
         .k-textbox {
@@ -1321,7 +1398,7 @@ mainbody {
     }
 }
 
-//dashboard//
+//suppliers dashboard and balance//
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
         height: 45vh !important;
@@ -1343,7 +1420,6 @@ mainbody {
         }
     }
 }
-
 
 
 #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance,
@@ -1403,6 +1479,73 @@ mainbody {
     }
 }
 
+//customers//
+
+//dashboard//
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard {
+    .k-grid-content {
+        height: 200px !important;
+    }
+
+    .cube-wrapper {
+        .cube {
+            .k-icon-wrapper {
+                background-image: none !important;
+                color: inherit !important;
+                left: 20px !important;
+            }
+
+            .font-weight-bold {
+                flex-direction: row !important;
+            }
+
+            @media only screen and (min-width:1480px) {
+                flex: 0 0 16%;
+                max-width: 16%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+}
+
+//customer account//
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount {
+    .cube-wrapper {
+        .cube {
+            .k-icon-wrapper {
+                background-image: none !important;
+                color: inherit !important;
+                left: 20px !important;
+            }
+
+            .font-weight-bold {
+                flex-direction: row !important;
+            }
+
+            @media only screen and (min-width:1480px) {
+                flex: 0 0 16%;
+                max-width: 16%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+//main//
+
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main {
+
+    [xid="controlrLatestOrders"],
+    [xid="controlrInventoryOrders"] {
+        >div {
+            @media only screen and (max-width:768px) {
+                flex: 0 0 100%;
+            }
+        }
+    }
+}
+
 //-------------------------------------xid
 
 //remove padding cloudDashboard page 
@@ -1437,4 +1580,16 @@ progress[value]::-webkit-progress-value {
     box-shadow: 0px 0px 41px -28px $suppliers-progress-shadow;
 }
 
-@forward 'suppliers';
+//enrollment//
+
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment {
+    footer {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            bottom: 3% !important;
+        }
+    }
+}
+
+@forward 'portal';

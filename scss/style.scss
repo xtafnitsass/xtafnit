@@ -22,6 +22,7 @@ $window-background:#fff;
 $window-margin:0px auto;
 $window-color:#0167b1;
 $window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
@@ -253,6 +254,8 @@ $rating-star-background-color:#0167b1;
 $radio-border-color: #000000;
 $radio-color: #0167b1;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 /*freehand*/
 
@@ -260,31 +263,7 @@ $freehand-color: #000;
 $freehand-background: #0167b1;
 $freehand-border-color:#0167b1;
 
-/*layout*/
-
-$cube-background:#fff;
-$cube-color:#c00000;
-$clock-color:#c00000;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#c00000;
-$body-background:#f5f6f8;
-$upload-button:#c00000;
-$tabstrip:#c00000;
-$drawer:#c00000;
-$timeselector:#c00000;
-$messageText:#c00000;
-$timeselector:#c00000;
-$loginTitle:#043563;
-$loginTitle2:#043563;
-$white-btn:#c00000;
-$icon-wrapper:#c00000;
-$progress-empty:#f2ebf6;
-$progress-fill:#c00000;
-$progress-shadow:#c00000;
-
-/*suppliers*/
+/*portal*/
 
 $suppliers-cube-background:#fff;
 $suppliers-cube-color:#ca0000;
@@ -323,6 +302,15 @@ $suppliers-rectInv-background:#f6e9fe;
 $suppliers-window-btn-background-color:#02b5fd;
 $suppliers-window-fixicon-color:#02b5fd;
 $suppliers-toolbar-goBack-color:#02b5fd;
+$suppliers-window-fixicon-backgronud:#fdf2f2;
+$suppliers-radio-scoller-radius:10px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:10px;
+$suppliers-radio-scoller-height:10px;
+$suppliers-radio-scoller-webkit-background:#dfdbdb;
+$suppliers-timeselector:#ca0000;
+$suppliers-messageText:#ca0000;
+$suppliers-icon-tachometer: #464247;
 
 
 /*link*/
@@ -334,10 +322,5 @@ $link-text-underling:underline;
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard','./link';
-
-@import './matrix/tafnitselfservice/style';
-// './importer-customers';
-//  './suppliers';
-
-/*tafnit portal*/
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
+'./portal';
