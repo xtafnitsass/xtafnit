@@ -1440,7 +1440,8 @@ mainbody {
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder,
-#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice {
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice,
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate {
     .border {
         border: 1px solid #eee !important;
     }
@@ -1551,15 +1552,16 @@ mainbody {
     .k-button {
         background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
     }
+
     .white-btn {
         margin: auto 5px;
-    
+
         .k-button {
             background: #fff !important;
             background-image: none !important;
             color: $suppliers-white-btn !important;
             box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
-    
+
             &:hover {
                 background: #f5f3f3 !important;
             }
@@ -1575,8 +1577,9 @@ mainbody {
                     color: #43b1e5 !important;
                 }
             }
+
             @media only screen and (min-width: 1480px) {
-                flex: 0 0 12%!important;
+                flex: 0 0 12% !important;
             }
         }
     }
