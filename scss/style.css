@@ -930,7 +930,7 @@ input[type=number] {
 }
 
 header .k-icon {
-  color: #043563;
+  color: #464247;
 }
 
 header [xid="controlkiGoBack"] {
@@ -1062,14 +1062,14 @@ header #kGoBack [xid="controlkGoBack"] > span {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
-  color: #043563;
+  color: #464247;
   font-family: Heebo !important;
   font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
-  color: #043563;
+  color: #464247;
   font-family: Heebo !important;
 }
 
@@ -1414,7 +1414,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .loginTitle {
   font-size: 55px;
-  color: #043563;
+  color: #464247;
 }
 
 @media screen and (max-width: 1050px) {
@@ -1426,7 +1426,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .loginTitle2 {
   font-size: 31px;
   font-weight: bold;
-  color: #043563;
+  color: #464247;
   letter-spacing: 1.35px;
 }
 
@@ -1793,11 +1793,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #fff !important;
+  background: #25a003 !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #25a003 !important;
+  color: #fff !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
@@ -2120,7 +2120,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-filter-menu-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-text-control-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .k-filter-menu-container .x-textbox {
-  border-bottom: 1.5px solid #043563 !important;
+  border-bottom: 1.5px solid #464247 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox,
