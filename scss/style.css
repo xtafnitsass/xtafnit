@@ -1336,11 +1336,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .k-window .k-window-content .k-edit-buttons {
-  background: transparent !important;
+  background: #dadada !important;
 }
 
 .k-window footer {
-  background: transparent !important;
+  background: #dadada !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
@@ -1414,7 +1414,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .loginTitle {
   font-size: 55px;
-  color: #464247;
+  color: #474248;
 }
 
 @media screen and (max-width: 1050px) {
@@ -1426,7 +1426,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .loginTitle2 {
   font-size: 31px;
   font-weight: bold;
-  color: #464247;
+  color: #474248;
   letter-spacing: 1.35px;
 }
 
@@ -1479,7 +1479,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #ecb0b1 !important;
+  border: 1px solid #fdbcbc !important;
 }
 
 .fixIcon .k-icon {
@@ -1487,7 +1487,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   width: 70px;
   border-radius: 50%;
   height: 70px;
-  color: #464247;
+  color: #d70002;
 }
 
 .titleInv {
@@ -1641,18 +1641,18 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll::-webkit-scrollbar-track {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .radioWrapperScroll::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  background: #dfdbdb;
+  width: 5px;
+  height: 5px;
+  background: #f1f3ff;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb {
   background: #a9bdca;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb:hover {
@@ -1674,7 +1674,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
-  background: #fee9e9;
+  background: #ffe8e8;
   top: -5px;
   position: relative;
 }
@@ -1769,7 +1769,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube {
-  color: #d70002;
+  color: #464247;
   min-height: 164px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1785,8 +1785,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
@@ -1797,7 +1797,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #ca0000 !important;
+  color: #464247 !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
@@ -1852,7 +1852,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
-  color: #d70002;
+  color: #464247;
 }
 
 .cube-wrapper .cube .fa-cloud-upload-alt {
@@ -2059,8 +2059,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
