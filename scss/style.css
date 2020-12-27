@@ -1785,8 +1785,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
@@ -2059,8 +2059,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
@@ -2242,7 +2242,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
-#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border,
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate .border {
   border: 1px solid #eee !important;
 }
 
