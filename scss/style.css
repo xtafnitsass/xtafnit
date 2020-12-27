@@ -1483,7 +1483,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .fixIcon .k-icon {
-  background-color: #f2fdf4;
+  background-color: #d3efdd;
   width: 70px;
   border-radius: 50%;
   height: 70px;
@@ -1498,7 +1498,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .rectInv > div {
   border-radius: 4px;
-  background-color: #e9feec;
+  background-color: #d3efdd;
   margin: 0px 10px;
 }
 
@@ -1674,7 +1674,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
-  background: #e8ffea;
+  background: #d3efdd;
   top: -5px;
   position: relative;
 }
