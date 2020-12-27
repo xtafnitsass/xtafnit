@@ -44,7 +44,7 @@
 }
 
 .k-button:hover {
-  background: #25a003 !important;
+  background: #1c8100 !important;
   color: #F0F0F0 !important;
 }
 
@@ -1479,15 +1479,15 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 .color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #9bd4b1 !important;
+  border: 1px solid #d3efdd !important;
 }
 
 .fixIcon .k-icon {
-  background-color: #f2fdf3;
+  background-color: #d3efdd;
   width: 70px;
   border-radius: 50%;
   height: 70px;
-  color: #043563;
+  color: #464247;
 }
 
 .titleInv {
@@ -1498,7 +1498,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 .rectInv > div {
   border-radius: 4px;
-  background-color: #e9feec;
+  background-color: #d3efdd;
   margin: 0px 10px;
 }
 
@@ -1674,7 +1674,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
-  background: #e8ffe9;
+  background: #d3efdd;
   top: -5px;
   position: relative;
 }
@@ -1785,8 +1785,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(51, 175, 51, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(51, 175, 51, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
@@ -2059,8 +2059,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(51, 175, 51, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(51, 175, 51, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
@@ -2242,7 +2242,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
-#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border {
+#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border,
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate .border {
   border: 1px solid #eee !important;
 }
 
