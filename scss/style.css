@@ -1027,4 +1027,21 @@ progress[value]::-webkit-progress-value {
 [xid="control2"] {
   color: #fff !important;
 }
+
+[xid="control2"]:hover {
+  text-decoration: none !important;
+}
+
+[xid="controlSurveyExitMessage"] {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
