@@ -1033,7 +1033,7 @@ progress[value]::-webkit-progress-value {
 }
 
 [xid="controlSurveyExitMessage"] {
-  height: 80vh;
+  height: 80vh !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

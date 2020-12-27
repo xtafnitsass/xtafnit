@@ -229,7 +229,7 @@ progress[value]::-webkit-progress-value {
     }
 }
 [xid="controlSurveyExitMessage"]{
-    height: 80vh;
+    height: 80vh!important;
     display: flex;
     justify-content: center;
     align-items: center;
