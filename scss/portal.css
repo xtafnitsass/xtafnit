@@ -608,7 +608,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
           align-items: center;
 }
 
-.fixIcon .k-icon {
+.fixIcon .k-icon.fa-user-tag {
   width: 100%;
   position: relative;
   left: 5px;
