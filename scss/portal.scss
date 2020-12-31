@@ -753,12 +753,22 @@ mainbody {
 }
 
 .fixIcon {
-    .k-icon {
+    .k-icon-wrapper {
         background-color: $suppliers-window-fixicon-backgronud;
         width: 70px;
         border-radius: 50%;
         height: 70px;
         color: $suppliers-window-fixicon-color;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .k-icon {
+        width: 100%;
+        position: relative;
+        left: 5px;
     }
 }
 
