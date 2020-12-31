@@ -762,6 +762,15 @@ mainbody {
     }
 }
 
+.svgIcon{
+    img{
+        fill:$suppliers-window-fixicon-color;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+    }
+}
+
 .titleInv {
     flex: 0 0 10%;
 }

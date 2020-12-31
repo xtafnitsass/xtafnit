@@ -598,6 +598,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #003f59;
 }
 
+.svgIcon img {
+  fill: #003f59;
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
 .titleInv {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 10%;
