@@ -762,20 +762,6 @@ mainbody {
     }
 }
 
-.svgIcon{
-    .x-image-wrapper{
-        width: 70px;
-        border-radius: 50%;
-        height: 70px;
-        background: $suppliers-window-fixicon-backgronud;;
-        margin: auto;
-    }
-    img{
-        width: 40px;
-        height: 65px;
-    }
-}
-
 .titleInv {
     flex: 0 0 10%;
 }
