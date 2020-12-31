@@ -1482,12 +1482,28 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   border: 1px solid #8733af4d !important;
 }
 
-.fixIcon .k-icon {
+.fixIcon .k-icon-wrapper {
   background-color: #fdf2f2;
   width: 70px;
   border-radius: 50%;
   height: 70px;
   color: #003f59;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixIcon .k-icon.fa-user-tag {
+  width: 100%;
+  position: relative;
+  left: 5px;
 }
 
 .titleInv {
