@@ -902,6 +902,17 @@ body {
   }
 }
 
+#SignBack {
+  background-size: cover;
+  background-position: center;
+}
+
+#SignLink {
+  background: transparent !important;
+  color: white !important;
+  border-radius: 20px;
+}
+
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
