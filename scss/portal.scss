@@ -104,10 +104,6 @@ header {
         opacity: 0.09;
     }
 
-    input[placeholder="חיפוש"] {
-        text-indent: 40px;
-    }
-
     .x-search {
         position: absolute;
         top: 10px;
@@ -207,6 +203,7 @@ header {
                 width: 260px;
                 font-size: 14px;
                 box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+                text-indent: 40px!important;
             }
         }
     }

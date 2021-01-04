@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*header*/
 /*footer*/
 /*row*/
@@ -939,10 +938,6 @@ header #separator {
   opacity: 0.09;
 }
 
-header input[placeholder="חיפוש"] {
-  text-indent: 40px;
-}
-
 header .x-search {
   position: absolute;
   top: 10px;
@@ -1032,6 +1027,7 @@ header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
   font-size: 14px;
   -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
           box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
+  text-indent: 40px !important;
 }
 
 header #kGoBack {
