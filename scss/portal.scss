@@ -98,6 +98,23 @@ header {
         color: $suppliers-header-color;
     }
 
+    #separator {
+        border-color: #8733af;
+        margin-right: 15px;
+        opacity: 0.09;
+    }
+
+    input[placeholder="חיפוש"] {
+        text-indent: 40px;
+    }
+
+    .x-search {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #ccc;
+    }
+
     [xid="controlkiGoBack"] {
         cursor: pointer;
         right: 50px;
@@ -130,6 +147,12 @@ header {
         top: -5px;
         left: -70px;
         max-width: 100%;
+
+        span {
+            span {
+                font-weight: normal !important;
+            }
+        }
     }
 
     #tbbEmail {
@@ -138,8 +161,14 @@ header {
         font-size: 12px;
         color: #464247;
         opacity: 0.7;
-        font-family: Heebo-Light;
+        font-family: Heebo;
         max-width: 100%;
+
+        span {
+            span {
+                font-weight: normal !important;
+            }
+        }
     }
 
     #kiNotification {
@@ -148,7 +177,7 @@ header {
         width: 5px;
         height: 5px;
         left: 0px;
-        top: -3px;
+        top: -6px;
         position: relative;
     }
 
@@ -769,6 +798,16 @@ mainbody {
         width: 100%;
         position: relative;
         left: 5px;
+    }
+}
+
+.x-grid-file {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    &:before {
+        margin-right: 5px;
     }
 }
 
