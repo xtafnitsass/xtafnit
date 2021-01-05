@@ -22,6 +22,8 @@ body {
 [xid="Cell_Container_controlSurveyLogo"] .x-image-wrapper img {
   width: 100px !important;
   height: auto !important;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 800px) {
