@@ -273,25 +273,25 @@ $suppliers-header-color:#464247;
 $suppliers-x-cell-header-color:#464247;
 $suppliers-cube-description-color:#464247;
 $suppliers-body-background:#fafafa;
-$suppliers-upload:#9e30bf;
-$suppliers-drawer:#9e30bf;
-$suppliers-tabstrip:#9e30bf;
-$suppliers-message-text:#9e30bf;
+$suppliers-upload:#386e94;
+$suppliers-drawer:#386e94;
+$suppliers-tabstrip:#386e94;
+$suppliers-message-text:#386e94;
 $suppliers-loginTitle:#474248;
 $suppliers-loginTitle2:#474248;
-$suppliers-white-btn:#9e30bf;
+$suppliers-white-btn:#386e94;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#464247;
 $suppliers-progress-empty:#f2ebf6;
-$suppliers-progress-fill:#9e30bf;
-$suppliers-progress-shadow:#9e30bf;
+$suppliers-progress-fill:#386e94;
+$suppliers-progress-shadow:#386e94;
 $suppliers-first-cube-background:#fff;
 $suppliers-first-cube-color:#464247;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
 $suppliers-color-btn:#eebcfd;
 $suppliers-window-footer-background:#dadada;
-$suppliers-details-top-color: #9e30bf;
+$suppliers-details-top-color: #386e94;
 $suppliers-details-right-left-color: #464247;
 $suppliers-details-top-background-color: #f7e8ff;
 $suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
@@ -300,7 +300,7 @@ $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
 $suppliers-rectInv-background:#f6e9fe;
 $suppliers-window-btn-background-color:#02b5fd;
-$suppliers-window-fixicon-color:#9e30bf;
+$suppliers-window-fixicon-color:#386e94;
 $suppliers-toolbar-goBack-color:#02b5fd;
 $suppliers-window-fixicon-backgronud:#f2f7fd;
 $suppliers-radio-scoller-radius:5px;
@@ -308,8 +308,8 @@ $suppliers-radio-scoller-background:#a9bdca;
 $suppliers-radio-scoller-width:5px;
 $suppliers-radio-scoller-height:5px;
 $suppliers-radio-scoller-webkit-background:#f1f3ff;
-$suppliers-timeselector:#9e30bf;
-$suppliers-messageText:#9e30bf;
+$suppliers-timeselector:#386e94;
+$suppliers-messageText:#386e94;
 $suppliers-icon-tachometer: #464247;
 
 
@@ -322,7 +322,7 @@ $link-text-underling:underline;
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link';
+//'./portal';
 
-//@import './todo/style';
+@import './todo/style';
