@@ -21,12 +21,14 @@ $row-header-color:#386e94;
 $window-background:#5d6171;
 $window-margin:0px auto;
 $window-color:#fff;
+$window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
 $drawer-background-color:#5d6171;
-$drawer-padding-top:0px;
 $drawer-icon-color:#fff;
+$drawer-color:#fff;
 
 /*k-animator*/
 
@@ -182,6 +184,8 @@ $grid-edited-numeric-arrow-background-color:#386e94;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
+$grid-content-padding:10px 0px;
+$grid-pager-nav-color:#003f59;
 
 
 /*time picker*/
@@ -250,6 +254,8 @@ $rating-star-background-color:#386e94;
 $radio-border-color: #000000;
 $radio-color: #386e94;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 /*freehand*/
 
@@ -257,10 +263,66 @@ $freehand-color: #000;
 $freehand-background: #386e94;
 $freehand-border-color:#386e94;
 
+/*portal*/
+
+$suppliers-cube-background:#fff;
+$suppliers-cube-color:#464247;
+$suppliers-clock-color:#464247;
+$suppliers-top-panel-background:#ffffff;
+$suppliers-header-color:#464247;
+$suppliers-x-cell-header-color:#464247;
+$suppliers-cube-description-color:#464247;
+$suppliers-body-background:#fafafa;
+$suppliers-upload:#9e30bf;
+$suppliers-drawer:#9e30bf;
+$suppliers-tabstrip:#9e30bf;
+$suppliers-message-text:#9e30bf;
+$suppliers-loginTitle:#474248;
+$suppliers-loginTitle2:#474248;
+$suppliers-white-btn:#9e30bf;
+$suppliers-k-icon:#43b1e5;
+$suppliers-x-textbox:#464247;
+$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-fill:#9e30bf;
+$suppliers-progress-shadow:#9e30bf;
+$suppliers-first-cube-background:#fff;
+$suppliers-first-cube-color:#464247;
+$suppliers-grid-font-weight:bold;
+$suppliers-grid-content-color:#464247;
+$suppliers-color-btn:#eebcfd;
+$suppliers-window-footer-background:#dadada;
+$suppliers-details-top-color: #9e30bf;
+$suppliers-details-right-left-color: #464247;
+$suppliers-details-top-background-color: #f7e8ff;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$suppliers-grid-header-color:#b7b7b7;
+$suppliers-grid-link-color:#02b5fd;
+$suppliers-grid-link-decoration:underline;
+$suppliers-rectInv-background:#f6e9fe;
+$suppliers-window-btn-background-color:#02b5fd;
+$suppliers-window-fixicon-color:#9e30bf;
+$suppliers-toolbar-goBack-color:#02b5fd;
+$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-radio-scoller-radius:5px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:5px;
+$suppliers-radio-scoller-height:5px;
+$suppliers-radio-scoller-webkit-background:#f1f3ff;
+$suppliers-timeselector:#9e30bf;
+$suppliers-messageText:#9e30bf;
+$suppliers-icon-tachometer: #464247;
+
+
+/*link*/
+
+$link-color:#007bff;
+$link-text-underling:underline;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
-'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard';
+'./tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
+'./portal';
 
-@import './todo/style';
+//@import './todo/style';

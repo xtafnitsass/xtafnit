@@ -34,6 +34,8 @@ $grid-edited-numeric-arrow-background-color:#f00 !default;
 $grid-edited-numeric-arrow-color:#fff !default;
 $grid-footer-background-color:#fff !default;
 $grid-footer-border-color:#eee !default;
+$grid-content-padding:10px 0px!default;
+$grid-pager-nav-color:#003f59!default;
 
 
 
@@ -67,7 +69,7 @@ $grid-footer-border-color:#eee !default;
     .k-grid-header {
         background: none;
         border: none;
-
+        padding:$grid-content-padding;
         .k-grid-filter {
             &.k-state-active {
                 background: $grid-header-filter-active-background;
@@ -159,7 +161,7 @@ $grid-footer-border-color:#eee !default;
             border: $grid-content-border;
             border-left: $grid-content-border-left;
             font-size: 14px;
-
+            padding:$grid-content-padding;
             .col-template-val {
                 margin: 0;
             }
@@ -180,6 +182,7 @@ $grid-footer-border-color:#eee !default;
 
         .k-pager-nav {
             border-color: $grid-pager-nav-border;
+            color: $grid-pager-nav-color!important;
         }
 
         .k-link {
