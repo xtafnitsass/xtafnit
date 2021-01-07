@@ -1435,12 +1435,6 @@ mainbody {
     }
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate {
-    .k-grid-content {
-        height: 15vh;
-    }
-}
-
 //suppliers balance//
 #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance {
     .cube {
@@ -1638,6 +1632,23 @@ mainbody {
         }
     }
 }
+
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate {
+    .k-grid-content {
+        height: 15vh;
+    }
+}
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main{
+    mainbody{
+        mainbody{
+            .col{
+                margin-bottom:5px;
+            }
+        }
+    }
+}
+
 
 
 //-------------------------------------xid
