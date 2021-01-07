@@ -1392,6 +1392,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate .k-grid-content {
+  height: 15vh;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube .k-icon-wrapper {
   background-image: none !important;
   color: inherit !important;

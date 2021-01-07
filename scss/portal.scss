@@ -204,7 +204,7 @@ header {
                 width: 260px;
                 font-size: 14px;
                 box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
-                text-indent: 40px!important;
+                text-indent: 40px !important;
             }
         }
     }
@@ -1432,6 +1432,12 @@ mainbody {
                 width: 97%;
             }
         }
+    }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate {
+    .k-grid-content {
+        height: 15vh;
     }
 }
 
