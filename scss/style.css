@@ -1695,7 +1695,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll {
-  max-height: 100px;
+  max-height: 150px;
   overflow-y: auto;
   overflow-x: hidden;
 }
