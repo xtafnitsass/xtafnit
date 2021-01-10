@@ -204,7 +204,7 @@ header {
                 width: 260px;
                 font-size: 14px;
                 box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
-                text-indent: 40px!important;
+                text-indent: 40px !important;
             }
         }
     }
@@ -1257,7 +1257,8 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_Login,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login,
+#TafnitCore_ToDo_UI_Login {
 
     mainbody {
         .k-textbox {
@@ -1629,6 +1630,13 @@ mainbody {
                 flex: 0 0 12% !important;
             }
         }
+    }
+}
+
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate {
+    .k-grid-content {
+        height: 15vh;
     }
 }
 
