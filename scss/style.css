@@ -1689,7 +1689,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll {
-  max-height: 100px;
+  max-height: 150px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -2437,6 +2437,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
         -ms-flex: 0 0 12% !important;
             flex: 0 0 12% !important;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate .k-grid-content {
+  height: 15vh;
 }
 
 [xid="controlrgCloud"] {
