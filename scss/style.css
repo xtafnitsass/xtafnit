@@ -700,7 +700,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link, .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-filter-menu .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #f00;
+  background-color: #386e94;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
