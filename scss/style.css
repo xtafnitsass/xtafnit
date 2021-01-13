@@ -310,23 +310,23 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-container {
-  background: #386e94;
+  background: #fff;
   border: 0px solid !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
-  background: #386e94 !important;
-  color: #fff !important;
+  background: #e9f4fe !important;
+  color: #282830 !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
-  background: #386e94 !important;
-  color: #fff !important;
+  background: #e9f4fe !important;
+  color: #282830 !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
-  background: #386e94 !important;
-  color: #fff !important;
+  background: #e9f4fe !important;
+  color: #282830 !important;
 }
 
 .k-animation-container .k-list-container .x-autocomplete-header-template {
@@ -344,8 +344,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #386e94;
-  color: #fff;
+  background: #e9f4fe;
+  color: #282830;
   border: 0 !important;
 }
 
@@ -357,21 +357,21 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #386e94;
-  color: #fff;
+  background: #e9f4fe;
+  color: #282830;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #346689;
-  color: #fff;
+  background: #daedfd;
+  color: #282830;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #386e94;
+  background: #e9f4fe;
 }
 
 .k-animation-container .k-nodata {
@@ -381,7 +381,7 @@ mainbody .x-section-header-wrraper {
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar {
   width: 10px;
-  background: #ccc;
+  background: #dfdbdb;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-track {
@@ -390,12 +390,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb {
-  background: #386e94;
+  background: #a9bdca;
   border: 1px solid #fff;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb:hover {
-  background: #2e6083;
+  background: #91a6b4;
 }
 
 @forward 'k-animator-container';
