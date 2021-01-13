@@ -416,6 +416,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   margin-right: 10px;
   top: -5px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 mainbody .gridHeaderButton [xid="controlkiClean"] {
@@ -798,7 +799,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll {
-  max-height: 150px;
+  max-height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
 }
