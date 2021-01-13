@@ -776,8 +776,28 @@ input[type="time"] {
   border-bottom-width: 1px;
 }
 
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::-webkit-input-placeholder {
+  color: #464247;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input:-ms-input-placeholder {
+  color: #464247;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::-ms-input-placeholder {
+  color: #464247;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::placeholder {
+  color: #464247;
+}
+
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
   color: #fff;
+}
+
+.p-floating-container ul[role="listbox"] + input + label {
+  top: -17px;
 }
 
 @forward 'multiselect';
@@ -1313,6 +1333,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   margin-right: 10px;
   top: -5px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 mainbody .gridHeaderButton [xid="controlkiClean"] {
@@ -1695,7 +1716,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .radioWrapperScroll {
-  max-height: 150px;
+  max-height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
 }
