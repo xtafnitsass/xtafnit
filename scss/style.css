@@ -1594,7 +1594,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .light-blue .k-button {
-  background: #02b5fd !important;
+  background: #464247 !important;
 }
 
 .dotIcon {
@@ -1869,11 +1869,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #fff !important;
+  background: #d1062e !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #464247 !important;
+  color: #fff !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
