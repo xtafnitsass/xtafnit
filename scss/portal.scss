@@ -293,20 +293,6 @@ header {
     font-family: Heebo !important;
 }
 
-//fix inputs height to eqaul//
-
-.xstyle-multiselect-wrapper {
-    .k-multiselect-wrap {
-        height: 37px;
-    }
-}
-
-.k-dropdown {
-    &.x-dropdown-comp {
-        height: 37px;
-    }
-}
-
 //grid pane wrapper border//
 
 .k-pane-wrapper {
@@ -473,7 +459,6 @@ mainbody {
         border-top: 0;
 
         .k-input {
-            height: 37px;
             font-size: 14px;
         }
     }
