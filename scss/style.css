@@ -1114,14 +1114,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-family: Heebo !important;
 }
 
-.xstyle-multiselect-wrapper .k-multiselect-wrap {
-  height: 37px;
-}
-
-.k-dropdown.x-dropdown-comp {
-  height: 37px;
-}
-
 .k-pane-wrapper {
   border: 0;
 }
@@ -1266,7 +1258,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  height: 37px;
   font-size: 14px;
 }
 
