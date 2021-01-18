@@ -2,7 +2,7 @@
 
 $header-background:#fafafa;
 $header-border: none;
-$header-color:#000;
+$header-color:#464247;
 
 /*footer*/
 $footer-color:#fff;
@@ -15,7 +15,7 @@ $row-margin:5px;
 $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
-$row-box-shadow:0 10px 20px 0 rgba(175, 51, 51, 0.1);
+$row-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
 $row-header-color:#0082c5;
 
 /*window*/
@@ -24,13 +24,13 @@ $window-background:#fff;
 $window-margin:0px auto;
 $window-color:#000;
 $window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
 $drawer-background-color:#da242c;
 $drawer-icon-color:#fff;
 $drawer-color:#fff;
-
 
 /*k-animator*/
 
@@ -53,10 +53,10 @@ $animator-autocomplete-header-template-background:#F0F0F0;
 $animtaor-text-align:right;
 
 /*k-filter*/
+
 $k-filter-edited-numeric-border-color:#000;
 $k-filter-edited-numeric-arrow-background-color:#0082c5;
 $k-filter-edited-numeric-arrow-color:#fff;
-
 
 /*button*/
 
@@ -82,7 +82,6 @@ $autocomplete-input-border-bottom:1px solid #464247;
 $autocomplete-input-color: #000;
 
 /*calendar*/
-
 
 $calendar-header-background: #0082c5;
 $calendar-header-color: #fff;
@@ -120,6 +119,7 @@ $checkbox-border-color:#0082c5;
 $checkbox-border-radius:4px;
 $checkbox-box-shadow : none;
 
+
 /*textbox*/
 
 
@@ -155,11 +155,12 @@ $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
 $drop-down-icon-color : #464247;
 
+
+
 /*grid*/
 
-
 $grid-header-text-color:#868387;
-$grid-header-filter-color:#000;
+$grid-header-filter-color:#02b5fd;
 $grid-header-background:transparent;
 $grid-header-serach-float:right;
 $grid-header-serach-border:1px solid #ccc;
@@ -169,10 +170,10 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#ffd5d5;
+$grid-content-line-background-hover:#f6e9fe;
 $grid-content-line-background-hover-amount:0;
 $grid-content-line-color-hover:#000;
-$grid-content-line-background-selected:#ffd5d5;
+$grid-content-line-background-selected:#f6e9fe;
 $grid-content-line-color-selected:#000;
 $grid-content-border:none;
 $grid-content-border-left:none;
@@ -207,6 +208,7 @@ $time-icon-background:#fafafa;
 $time-icon-color:#464247;
 $time-border-raduis:0px;
 
+
 /*float-button*/
 
 
@@ -239,6 +241,7 @@ $multiselect-border-top-width:0px;
 $multiselect-border-right-width:0px;
 $multiselect-border-bottom-width:1px;
 $multiselect-color:#fff;
+$multiselect-placeholder-color:#464247;
 
 /*tabstrip*/
 
@@ -266,10 +269,11 @@ $rating-star-background-color:#0082c5;
 
 /*radio*/
 
-
-$radio-border-color: #000000;
+$radio-border-color: #0082c5;
 $radio-color: #0082c5;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 
 /*freehand*/
@@ -278,69 +282,54 @@ $freehand-color: #000;
 $freehand-background: #0082c5;
 $freehand-border-color:#0082c5;
 
-/*layout*/
-
-$cube-background:#fff;
-$cube-color:#0082c5;
-$clock-color:#0082c5;
-$top-panel-background:#ffffff;
-$header-color:#043563;
-$x-cell-header-color:#043563;
-$cube-description-color:#0082c5;
-$body-background:#fafafa;
-$upload-button:#0082c5;
-$tabstrip:#0082c5;
-$drawer:#da242c;
-$timeselector:#0082c5;
-$messageText:#0082c5;
-$timeselector:#0082c5;
-$loginTitle:#043563;
-$loginTitle2:#043563;
-$white-btn:#0082c5;
-$icon-wrapper:#0082c5;
-$progress-empty:#f2ebf6;
-$progress-fill:#0082c5;
-$progress-shadow:#0082c5;
-
-/*suppliers*/
+/*portal*/
 
 $suppliers-cube-background:#fff;
-$suppliers-cube-color:#0082c5;
-$suppliers-clock-color:#0082c5;
+$suppliers-cube-color:#464247;
+$suppliers-clock-color:#464247;
 $suppliers-top-panel-background:#ffffff;
-$suppliers-header-color:#043563;
-$suppliers-x-cell-header-color:#043563;
-$suppliers-cube-description-color:#0082c5;
-$suppliers-body-background:#f5f6f8;
+$suppliers-header-color:#464247;
+$suppliers-x-cell-header-color:#464247;
+$suppliers-cube-description-color:#464247;
+$suppliers-body-background:#fafafa;
 $suppliers-upload:#0082c5;
-$suppliers-drawer:#282830;
+$suppliers-drawer:#da242c;
 $suppliers-tabstrip:#0082c5;
-$suppliers-message-text:#043563;
-$suppliers-loginTitle:#043563;
-$suppliers-loginTitle2:#043563;
+$suppliers-message-text:#0082c5;
+$suppliers-loginTitle:#474248;
+$suppliers-loginTitle2:#474248;
 $suppliers-white-btn:#0082c5;
 $suppliers-k-icon:#43b1e5;
-$suppliers-x-textbox:#043563;
-$suppliers-progress-empty:#f2ebf6;
+$suppliers-x-textbox:#464247;
+$suppliers-progress-empty:#f6ebeb;
 $suppliers-progress-fill:#0082c5;
 $suppliers-progress-shadow:#0082c5;
 $suppliers-first-cube-background:#fff;
-$suppliers-first-cube-color:#0082c5;
+$suppliers-first-cube-color:#464247;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
-$suppliers-color-btn:#8733af4d;
-$suppliers-window-footer-background:#dadada;
-$suppliers-details-top-color: #8733af;
+$suppliers-color-btn:#fdbcbc;
+$suppliers-window-footer-background:transparent;
+$suppliers-details-top-color: #0082c5;
 $suppliers-details-right-left-color: #464247;
-$suppliers-details-top-background-color: #f7e8ff;
-$suppliers-box-shadow:0 10px 20px 0 rgba(51, 146, 175, 0.1);
+$suppliers-details-top-background-color: #ffe8e8;
+$suppliers-box-shadow:0 10px 20px 0 rgba(175, 51, 51, 0.1);
 $suppliers-grid-header-color:#b7b7b7;
 $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
-$suppliers-rectInv-background:#f6e9fe;
+$suppliers-rectInv-background:#fee9e9;
 $suppliers-window-btn-background-color:#02b5fd;
-$suppliers-window-fixicon-color:#02b5fd;
+$suppliers-window-fixicon-color:#0082c5;
 $suppliers-toolbar-goBack-color:#02b5fd;
+$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-radio-scoller-radius:5px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:5px;
+$suppliers-radio-scoller-height:5px;
+$suppliers-radio-scoller-webkit-background:#f1f3ff;
+$suppliers-timeselector:#0082c5;
+$suppliers-messageText:#0082c5;
+$suppliers-icon-tachometer: #464247;
 
 
 /*link*/
@@ -353,7 +342,4 @@ $link-text-underling:underline;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./importer-customers';
-// './suppliers';
-
-/*opl customers - v5 */
+'./portal';
