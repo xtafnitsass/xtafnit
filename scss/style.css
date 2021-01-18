@@ -1860,11 +1860,11 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #fff !important;
+  background: #da242c !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #464247 !important;
+  color: #fff !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
