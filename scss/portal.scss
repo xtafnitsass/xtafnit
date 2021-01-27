@@ -549,7 +549,7 @@ mainbody {
                 margin-right: 10px;
                 top: -5px;
                 font-size: 18px;
-                cursor:pointer;
+                cursor: pointer;
             }
         }
 
@@ -1545,7 +1545,8 @@ mainbody {
 }
 
 //customer account//
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance {
     .cube-wrapper {
         .cube {
             .k-icon-wrapper {
