@@ -1114,14 +1114,6 @@ header #kGoBack [xid="controlkGoBack"] > span {
   font-family: Heebo !important;
 }
 
-.xstyle-multiselect-wrapper .k-multiselect-wrap {
-  height: 37px;
-}
-
-.k-dropdown.x-dropdown-comp {
-  height: 37px;
-}
-
 .k-pane-wrapper {
   border: 0;
 }
@@ -1266,7 +1258,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  height: 37px;
   font-size: 14px;
 }
 
@@ -2395,13 +2386,15 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .k-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .font-weight-bold {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
       -ms-flex-direction: row !important;
@@ -2409,7 +2402,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 @media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube {
+  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube,
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 16%;
             flex: 0 0 16%;
