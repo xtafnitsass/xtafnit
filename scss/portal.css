@@ -1506,6 +1506,14 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child {
+  background: #fff !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child span {
+  color: #ca0000 !important;
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .k-button {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
   background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
