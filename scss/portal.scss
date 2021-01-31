@@ -1583,6 +1583,20 @@ mainbody {
 }
 
 //tafnit//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
+    .cube-wrapper {
+        .cube {
+            &:first-child {
+                background: $suppliers-cube-background !important;
+
+                span {
+                    color: $suppliers-cube-color !important;
+                }
+            }
+        }
+    }
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main {
     .k-button {
         background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
