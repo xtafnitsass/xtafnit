@@ -1583,7 +1583,8 @@ mainbody {
 }
 
 //tafnit//
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
     .cube-wrapper {
         .cube {
             &:first-child {
