@@ -1,0 +1,39 @@
+.k-button.x-button {
+  width: 100%;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.k-button.x-button .x-button_caption_text {
+  position: relative;
+  display: block;
+}
+
+/*row collapse button arrow*/
+.x-btn-collapse {
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  position: absolute;
+  border: 1px solid;
+  left: 15px;
+  right: auto;
+}
+
+.x-btn-collapse.x-collapse-close, .x-btn-collapse.x-collapse-open.collapsed {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.x-btn-collapse #x-arrow-collapse {
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+
+.k-ltr .x-btn-collapse {
+  right: 15px;
+  left: auto;
+}
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,48 @@
+.k-grid {
+    tr {
+        td {
+            cursor: pointer;
+
+            &:hover {
+                background-color: #7ad2f7 !important;
+            }
+
+            &.k-state-selected {
+                background-color: #13688c !important;
+
+                &:hover {
+                    background-color: #3379b5 !important;
+                }
+            }
+        }
+
+        &.k-state-selected {
+            td {
+                background-color: #13688c !important;
+            }
+
+            &:hover {
+                td {
+                    background-color: #3379b5 !important;
+                }
+            }
+        }
+
+        &:hover {
+            td {
+                background-color: #7ad2f7 !important;
+            }
+        }
+    }
+
+    .x-searchinput {
+        width: 150px;
+    }
+}
+
+/* unknow */
+
+
+.x-oldGrid-control {
+    display: inline-block;
+}

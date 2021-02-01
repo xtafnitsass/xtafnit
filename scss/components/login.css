@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) {
+  #TafnitCore_System_UI_App_Login .x-section-wrraper {
+    margin: auto !important;
+    min-height: 679px !important;
+    height: 679px !important;
+  }
+  #TafnitCore_System_UI_App_Login .x-section-wrraper .x-section-content-wrapper {
+    height: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #TafnitCore_System_UI_App_Login .x-section-wrraper {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #TafnitCore_System_UI_App_Login .x-section-wrraper {
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #TafnitCore_System_UI_App_Login .x-section-wrraper {
+    width: 70% !important;
+  }
+  #TafnitCore_System_UI_App_Login .x-section-content-wrapper > .col:first-child {
+    display: block !important;
+  }
+}
+
+#TafnitCore_System_UI_App_Login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+#TafnitCore_System_UI_App_Login .x-self-container {
+  margin-top: 10px;
+}
+
+#TafnitCore_System_UI_App_Login .x-section-wrraper {
+  border: none;
+  -webkit-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 30px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 30px 0 rgba(0, 0, 0, 0.5);
+  width: 70%;
+}
+
+#TafnitCore_System_UI_App_Login .x-dynamic-label-control {
+  margin-bottom: 20px;
+}
+
+#TafnitCore_System_UI_App_Login .carousel.slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 318px;
+}
+
+#TafnitCore_System_UI_App_Login .x-section-content-wrapper :last-child > .x-cell {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#TafnitCore_System_UI_App_Login .x-section-content-wrapper > .col:first-child {
+  display: none;
+}
+
+#TafnitCore_System_UI_App_Login .x-section-content-wrapper {
+  min-height: 70%;
+}
+/*# sourceMappingURL=login.css.map */

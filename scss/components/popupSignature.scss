@@ -1,0 +1,72 @@
+#SignWindow {
+    height: 85%;
+
+    #signatureFrame {
+        display: block;
+        height: 95%;
+        width: 100%;
+
+        #toolbarSignatureFrame {
+            display: block;
+            width: 100%;
+            height: 35px;
+
+            >a {
+                margin-left: 10px;
+            }
+
+            .signatureColorPicker {
+                border-radius: 50%;
+                background-color: red;
+                width: 18px;
+                height: 18px;
+                margin-left: 10px;
+                float: left;
+                margin-top: 9px;
+                cursor: pointer;
+
+                &.black {
+                    background-color: black;
+                }
+
+                &.blue {
+                    background-color: blue;
+                }
+
+                &.red {
+                    background-color: red;
+                }
+            }
+        }
+
+        #controlGraphicalSignature {
+            position: initial;
+            width: 99%;
+            height: 90%;
+            margin: 2px;
+            padding: 0;
+            display: block;
+            border-top: 1px solid #ccc;
+            border-bottom: 3px dashed #ccc;
+        }
+    }
+}
+
+.GraphicalSignaturePlaceHolders,
+.GraphicalSignaturePlaceHoldersSign {
+    border: 1px solid black;
+    display: inline-block;
+
+    .x-popup_signatureImg {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+.k-ltr {
+    .signatureColorPicker {
+        float: right;
+    }
+}

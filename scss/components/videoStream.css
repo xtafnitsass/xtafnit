@@ -1,0 +1,50 @@
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.video-wrapper .x-light-video,
+.video-wrapper .x-settings-video {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: white;
+  padding: 5px;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+.video-wrapper .x-videoRTC {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.video-wrapper .x-timer-video {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  background: white;
+  color: red;
+  font-weight: bold;
+  z-index: 9999;
+  padding: 1px 7px;
+}
+
+/*unknwow hierarchy*/
+.redRect {
+  z-index: 99;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  border: 2px solid red;
+  display: none;
+}
+
+.xCanvasRTC {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=videoStream.css.map */

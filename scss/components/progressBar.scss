@@ -1,0 +1,17 @@
+.xstyle-progressbar-wrapper {
+
+    .x-minvalue,
+    .x-maxvalue {
+        font-weight: bolder;
+    }
+
+    .x-minvalue {
+        float: left;
+    }
+
+    .x-maxvalue {
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+    }
+}

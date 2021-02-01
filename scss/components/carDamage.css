@@ -1,0 +1,200 @@
+.x-cardamage-wrapper .x-image-wrapper .map .map {
+  background-size: cover !important;
+}
+
+.x-cardamage-wrapper .x-carMarksWindow {
+  display: none;
+}
+
+.x-cardamage-wrapper .x-carMarksWindow .x-controlGraphicalCarMarks {
+  position: initial;
+  width: 98%;
+  height: 85%;
+  margin: 2px;
+  padding: 0;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+/*car damage window*/
+.x-sectionDamageTypeAndCamera .x-winHeadLine {
+  display: inline-block;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera {
+  display: inline-block;
+  width: 100%;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-selectDamageType {
+  font-size: 16px;
+  width: 35%;
+  float: left;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-selectDamageType .x-formDamageType {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-selectDamageType .x-formDamageType .x-radioDamageType {
+  margin-right: 10px;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection {
+  width: 65%;
+  text-align: right;
+  float: right;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-imagePreview {
+  position: relative;
+  width: 40%;
+  float: right;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-imagePreview #lastImagePreview {
+  width: 95px;
+  height: 95px;
+  display: inline-block;
+  visibility: hidden;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-cameraSection_btns_wrapper {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-cameraSection_btns_wrapper .x-camera1 {
+  margin: 0 5%;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-cameraSection_btns_wrapper .x-camera1 #cameraBtnPoint {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.x-sectionDamageTypeAndCamera .x-damageTypeAndCamera .x-cameraSection .x-cameraSection_btns_wrapper .x-uploaderCD #x-file-add {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointLinksArea {
+  padding-top: 10px;
+  display: none;
+  width: 100%;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointLinksArea #pointLinksAreaImgs {
+  padding-left: 0;
+  background-color: beige;
+  height: 70px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointLinksArea #pointLinksAreaImgs li {
+  list-style-type: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointLinksArea #pointLinksAreaImgs li .carDmLiDiv > a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 240px;
+  display: inline-block;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointLinksArea #pointLinksAreaImgs li .carDmLiDiv .carDmImagesRemove {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointNotesArea {
+  padding-top: 10px;
+}
+
+.x-sectionDamageTypeAndCamera .x-pointNotesArea #notesAreaP {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.x-sectionDamageTypeAndCamera .x-confirmCancelBtns {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.x-sectionDamageTypeAndCamera .x-confirmCancelBtns .k-button {
+  float: right;
+  width: 20%;
+  font-size: 15px;
+  margin: 0 2px;
+}
+
+.x-sectionDamageTypeAndCamera .x-confirmCancelBtns #deleteBtnPoint {
+  float: left;
+}
+
+#ImagePreviewCarDamageWindow #PreviewOfCD {
+  text-align: center;
+}
+
+.k-rtl .x-selectDamageType {
+  float: right !important;
+}
+
+.k-rtl .x-cameraSection {
+  float: left !important;
+  text-align: left !important;
+}
+
+.k-rtl .x-cameraSection .x-cameraSection_btns_wrapper {
+  float: left !important;
+}
+
+.k-rtl .x-pointLinksArea #pointLinksAreaImgs {
+  padding-right: 0 !important;
+}
+
+.k-rtl .x-pointLinksArea #pointLinksAreaImgs li {
+  margin-left: 10px !important;
+  margin-right: 0px !important;
+}
+
+.k-rtl .x-confirmCancelBtns .k-button {
+  float: left !important;
+}
+
+.k-rtl .x-confirmCancelBtns #deleteBtnPoint {
+  float: right !important;
+}
+/*# sourceMappingURL=carDamage.css.map */

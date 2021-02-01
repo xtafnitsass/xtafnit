@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,eADW,CACX,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "imap.scss"
+    ],
+    "names": [],
+    "file": "imap.css"
+}

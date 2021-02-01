@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iCAAiC,CAAC;EAC9B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "currentLocation.scss"
+    ],
+    "names": [],
+    "file": "currentLocation.css"
+}

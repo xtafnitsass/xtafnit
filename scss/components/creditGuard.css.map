@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,UAAU,EAAE,MAAM;CAWrB;;AAZD,AAGI,sBAHkB,CAGlB,qBAAqB,CAAC;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,GAAG;CACpB;;AAPL,AASI,sBATkB,CASlB,kBAAkB,CAAC;EACf,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "creditGuard.scss"
+    ],
+    "names": [],
+    "file": "creditGuard.css"
+}

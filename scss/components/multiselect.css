@@ -1,0 +1,18 @@
+.xstyle-multiselect-wrapper input.k-input {
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+}
+
+.k-multiselect-wrap {
+  min-height: 37px;
+}
+
+.k-multiselect-wrap input {
+  width: auto !important;
+}
+
+.k-multiselect-wrap li.k-button {
+  margin-top: 3.2px;
+  margin-bottom: 3.2px;
+}
+/*# sourceMappingURL=multiselect.css.map */

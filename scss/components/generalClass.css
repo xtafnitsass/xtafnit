@@ -1,0 +1,73 @@
+/* fix width when setting display flex */
+.fixWidth > .x-self-container {
+  width: 100%;
+}
+
+/*for grid max line*/
+.x-max-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.x-max-line.x-max-line-1 {
+  -webkit-line-clamp: 1;
+}
+
+.x-max-line.x-max-line-2 {
+  -webkit-line-clamp: 2;
+}
+
+.x-max-line.x-max-line-3 {
+  -webkit-line-clamp: 3;
+}
+
+.x-max-line.x-max-line-4 {
+  -webkit-line-clamp: 4;
+}
+
+.x-max-line.x-max-line-5 {
+  -webkit-line-clamp: 5;
+}
+
+/*for disabled area not clickable*/
+.x-disabled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1029;
+  height: 100%;
+}
+
+/*highlight -- for grid*/
+.highlight {
+  background-color: #FFFF88;
+}
+
+/*hide password*/
+.x-password {
+  -webkit-text-security: disc;
+  -mox-text-security: disc;
+}
+
+/*fix badge width*/
+.x-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+/*for UXStudio*/
+.focus {
+  border: 5px solid #ffefa5;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+/*uknown*/
+.iframe-border-0 iframe {
+  border: 0;
+}
+/*# sourceMappingURL=generalClass.css.map */

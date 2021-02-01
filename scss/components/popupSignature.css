@@ -1,0 +1,70 @@
+#SignWindow {
+  height: 85%;
+}
+
+#SignWindow #signatureFrame {
+  display: block;
+  height: 95%;
+  width: 100%;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame {
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame > a {
+  margin-left: 10px;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker {
+  border-radius: 50%;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black {
+  background-color: black;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue {
+  background-color: blue;
+}
+
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red {
+  background-color: red;
+}
+
+#SignWindow #signatureFrame #controlGraphicalSignature {
+  position: initial;
+  width: 99%;
+  height: 90%;
+  margin: 2px;
+  padding: 0;
+  display: block;
+  border-top: 1px solid #ccc;
+  border-bottom: 3px dashed #ccc;
+}
+
+.GraphicalSignaturePlaceHolders,
+.GraphicalSignaturePlaceHoldersSign {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.GraphicalSignaturePlaceHolders .x-popup_signatureImg,
+.GraphicalSignaturePlaceHoldersSign .x-popup_signatureImg {
+  width: 100%;
+  height: 100%;
+}
+
+.k-ltr .signatureColorPicker {
+  float: right;
+}
+/*# sourceMappingURL=popupSignature.css.map */

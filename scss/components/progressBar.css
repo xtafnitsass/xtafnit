@@ -1,0 +1,15 @@
+.xstyle-progressbar-wrapper .x-minvalue,
+.xstyle-progressbar-wrapper .x-maxvalue {
+  font-weight: bolder;
+}
+
+.xstyle-progressbar-wrapper .x-minvalue {
+  float: left;
+}
+
+.xstyle-progressbar-wrapper .x-maxvalue {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+/*# sourceMappingURL=progressBar.css.map */

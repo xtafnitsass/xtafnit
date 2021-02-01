@@ -1,0 +1,17 @@
+.x-icons {
+  font-size: 50px;
+  border-radius: 50%;
+}
+
+.x-icons.x-fa-success {
+  color: #1dbb00;
+}
+
+.x-icons.x-fa-warning, .x-icons.x-fa-error {
+  color: #ef0000;
+}
+
+.x-icons.x-fa-question, .x-icons.x-fa-info {
+  color: #006bef;
+}
+/*# sourceMappingURL=messageBox.css.map */

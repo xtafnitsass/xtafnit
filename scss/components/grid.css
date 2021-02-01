@@ -1,0 +1,37 @@
+.k-grid tr td {
+  cursor: pointer;
+}
+
+.k-grid tr td:hover {
+  background-color: #7ad2f7 !important;
+}
+
+.k-grid tr td.k-state-selected {
+  background-color: #13688c !important;
+}
+
+.k-grid tr td.k-state-selected:hover {
+  background-color: #3379b5 !important;
+}
+
+.k-grid tr.k-state-selected td {
+  background-color: #13688c !important;
+}
+
+.k-grid tr.k-state-selected:hover td {
+  background-color: #3379b5 !important;
+}
+
+.k-grid tr:hover td {
+  background-color: #7ad2f7 !important;
+}
+
+.k-grid .x-searchinput {
+  width: 150px;
+}
+
+/* unknow */
+.x-oldGrid-control {
+  display: inline-block;
+}
+/*# sourceMappingURL=grid.css.map */

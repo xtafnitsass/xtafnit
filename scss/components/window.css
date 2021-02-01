@@ -1,0 +1,12 @@
+.k-window {
+  margin-top: 15px;
+}
+
+.k-window footer {
+  z-index: 10003;
+}
+
+.k-window .k-window-content header {
+  position: relative;
+}
+/*# sourceMappingURL=window.css.map */

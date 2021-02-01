@@ -1,0 +1,192 @@
+.x-crumb-wrapper {
+  display: inline-block;
+}
+
+.x-crumb-wrapper.x-horizontal, .x-crumb-wrapper.x-vertical {
+  width: 100%;
+}
+
+.x-crumb-wrapper.x-horizontal .x-bcNodeArrow {
+  vertical-align: text-bottom;
+}
+
+.x-crumb-wrapper.x-horizontal .x-progressBread .x-breadcrumbNode:after {
+  left: 50%;
+  right: 0;
+}
+
+.x-crumb-wrapper.x-vertical {
+  display: inline-block;
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread a {
+  display: list-item;
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread .x-bsLinkLi {
+  display: list-item !important;
+  width: 100%;
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread .x-breadcrumbNode {
+  display: list-item;
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread .x-breadcrumbNode:before {
+  margin: 0 auto;
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread .x-breadcrumbNode:after {
+  width: 100%;
+  height: 0.5em;
+  top: 2.5em;
+  right: 0%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.x-crumb-wrapper.x-vertical .x-progressBread .x-breadcrumbNode .x-brscCaption {
+  right: 55%;
+  position: relative;
+}
+
+.x-crumb-wrapper .x-progressBread {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  table-layout: fixed;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1em;
+}
+
+.x-crumb-wrapper .x-progressBread .x-bsLinkLi {
+  text-align: right !important;
+  font-size: 1em !important;
+  width: initial !important;
+}
+
+.x-crumb-wrapper .x-progressBread .x-bsLinkLi::after, .x-crumb-wrapper .x-progressBread .x-bsLinkLi:before {
+  display: none !important;
+}
+
+.x-crumb-wrapper .x-progressBread .x-bsLinkLi .x-bcNodeArrow {
+  display: inline-block;
+  padding: 0 1px;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.3em;
+  width: 4.3em;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode a:hover {
+  text-decoration: underline;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode .k-i-arrow-chevron-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode .x-brscCaption {
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode:before {
+  content: attr(data-index);
+  display: block;
+  background: #dfe3e4;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  margin-bottom: 0.25em;
+  line-height: 3em;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: #dfe3e4;
+  width: 100%;
+  height: 0.5em;
+  top: 1.25em;
+  margin-left: 1.5em\9;
+  right: 50%;
+  left: 0;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode:last-child:after {
+  display: none;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-complete {
+  color: #2ecc71;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-complete:before, .x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-complete:after {
+  color: #fff;
+  background: #2ecc71;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-disable {
+  color: #cc2e2e;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-disable:before, .x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-disable:after {
+  color: #fff;
+  background: #cc2e2e;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-skipped {
+  color: #ff9865;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-skipped:before, .x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-skipped:after {
+  color: #fff;
+  background: #ff9865;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-active {
+  color: #3498db;
+}
+
+.x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-active:before, .x-crumb-wrapper .x-progressBread .x-breadcrumbNode.is-active:after {
+  color: #fff;
+  background: #3498db;
+}
+
+.k-ltr .k-i-arrow-chevron-left {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.k-ltr .x-crumb-wrapper .x-progressBread .x-bsLinkLi {
+  text-align: left !important;
+}
+
+.k-ltr .x-crumb-wrapper.x-vertical .x-progressBread .x-breadcrumbNode .x-brscCaption {
+  left: 55%;
+  position: relative;
+}
+
+.k-ltr .x-crumb-wrapper .x-progressBread .x-breadcrumbNode:after {
+  left: 0%;
+  right: 0;
+}
+/*# sourceMappingURL=breadcrumb.css.map */

@@ -1,0 +1,97 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+/*ios height calc fix*/
+
+@supports (-webkit-touch-callout: none) {
+    mainbody {
+        padding-top: 49px !important;
+        padding-bottom: 49px !important;
+
+        &.headerNone {
+            padding-top: 0px !important;
+        }
+    }
+}
+/*ie fix*/
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    /*fix switch*/
+    .k-rtl {
+        .k-switch {
+            &.k-switch-on {
+                .k-switch-handle {
+                    left: 27px !important;
+                }
+            }
+        }
+    }
+
+    .k-switch {
+        &[dir="rtl"] {
+            &.k-switch-on {
+                .k-switch-handle {
+                    left: 27px !important;
+                }
+            }
+        }
+
+    }
+
+    /*fix lookup*/
+    .x-input-group-text {
+        height: 32px !important;
+    }
+}
+
+/*max width 1200 --large desktop*/
+@media screen and (max-width:$breakpoint-xl) {}
+
+/*max width 992 --desktop*/
+@media screen and (max-width:$breakpoint-lg) {}
+
+/*max width 768 --tablets*/
+@media screen and (max-width:$breakpoint-md) {
+
+    .rating-container {
+        font-size: 1.4em !important;
+    }
+
+    #TafnitCore_System_UI_App_PortalNew {
+        .x-listview-item {
+            width: 90px;
+        }
+    }
+
+    [xid="controlfhWelcome"],
+    [xid="controlfhGoodbye"] {
+        table {
+            display: block;
+
+            td {
+                display: block;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    max-width: none;
+                }
+            }
+        }
+    }
+}
+
+/*max width 576 -- phones*/
+@media screen and (max-width:$breakpoint-sm) {
+    #header {
+        >span {
+            width: 140px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

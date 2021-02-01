@@ -1,0 +1,66 @@
+.x-multichoice-wrapper {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul {
+  list-style: none;
+  width: 100%;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row {
+  display: block;
+  padding: 5px;
+  margin: 0 1px 1px 0;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row label:before {
+  display: inline-block;
+  content: "+";
+  margin: 0 4px 0 4px;
+  width: 20px;
+  height: 20px;
+  border: 1.8px solid #425fd6;
+  border-radius: 100%;
+  vertical-align: middle;
+  color: #425fd6;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2em;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row input[type="checkbox"] {
+  display: none;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row input[type="checkbox"]:checked + label:before {
+  background: #f95e5e;
+  border-color: #f95e5e;
+  color: #fff;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  -webkit-transform-origin: center center center;
+          transform-origin: center center center;
+}
+
+.x-multichoice-wrapper .x-multichoice-ul li.x-multichoice-row-selected {
+  border-radius: 5px;
+}
+/*# sourceMappingURL=multichoice.css.map */

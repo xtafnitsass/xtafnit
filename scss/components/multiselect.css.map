@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,2BAFmB,CACvB,KAAK,AACA,QAAQ,CAAC;EACN,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;CACxB;;AAIT,AAAA,mBAAmB,CAAC;EAChB,UAAU,EAAE,IAAI;CAUnB;;AAXD,AAEI,mBAFe,CAEf,KAAK,CAAC;EACF,KAAK,EAAE,eAAe;CACzB;;AAJL,AAMQ,mBANW,CAKf,EAAE,AACG,SAAS,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;CACvB",
+    "sources": [
+        "multiselect.scss"
+    ],
+    "names": [],
+    "file": "multiselect.css"
+}

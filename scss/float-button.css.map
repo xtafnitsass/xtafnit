@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAIA,AAAA,cAAc,CAAC;EACX,UAAU,EALW,IAAI;EAMzB,KAAK,EALW,IAAI;EAMpB,MAAM,EALiB,GAAG,CAAC,KAAK,CAAC,IAAI,CAKH,UAAU;CAC/C;;AAED,QAAQ,CAAR,cAAQ",
-    "sources": [
-        "float-button.scss"
-    ],
-    "names": [],
-    "file": "float-button.css"
-}

@@ -1,0 +1,20 @@
+.k-dropdown {
+  width: 100%;
+}
+
+.k-dropdown span.k-input {
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+}
+
+.k-dropdown .k-select {
+  border-color: transparent;
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+}
+
+.k-rtl .k-dropdown-wrap .k-select {
+  text-align: left;
+}
+/*# sourceMappingURL=dropdown.css.map */

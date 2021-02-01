@@ -1,0 +1,68 @@
+header > span {
+  overflow: hidden;
+}
+
+header > span > b {
+  overflow: hidden;
+}
+
+header .fal.fa-home {
+  font-size: 22px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-fixed-top .x-control-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/*check with ran */
+.x-toolbar-header .kendoToolbarHeader {
+  font-size: 100%;
+  font-weight: bold;
+  z-index: 10000;
+}
+
+.x-toolbar-header .kendoToolbarHeader .k-icon.k-i-arrow-60-down {
+  background: none !important;
+}
+
+.x-toolbar-header .kendoToolbarHeader .k-toolbar-first-visible {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  direction: rtl;
+}
+
+.x-toolbar-header .kendoToolbarHeader.k-toolbar :nth-child(2) {
+  margin-right: 0 !important;
+  margin-left: 4em;
+  float: left !important;
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+.k-rtl .k-toolbar > :last-child {
+  margin-left: 5px !important;
+}
+
+/*check with ran */
+.x-embeddedToolbar {
+  margin: 0px 2px;
+}
+
+.x-embeddedToolbar .k-dropdown.x-dropdown-comp {
+  width: 200px;
+}
+
+.x-embeddedToolbar .k-textbox {
+  margin: 0 !important;
+}
+/*# sourceMappingURL=header.css.map */

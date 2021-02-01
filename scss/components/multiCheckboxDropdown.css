@@ -1,0 +1,53 @@
+.x-main-multiCheckbox {
+  font-size: 18px;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox {
+  margin: 0px;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox .x-multiCheckbox-placeholder {
+  font-weight: normal;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox .x-multiCheckbox-placeholder a {
+  display: block;
+  min-height: 37px;
+  overflow: hidden;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox dd {
+  margin: 0px;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox dd .x-optionsList {
+  text-align: left;
+  z-index: 1000;
+  margin: -1px 0 0 0;
+  border: 0;
+  display: none;
+  width: 100%;
+  padding: 2px 15px 2px 5px;
+  list-style: none;
+  overflow: auto;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(171, 171, 171, 0.29);
+          box-shadow: 0px 0px 0px 1px rgba(171, 171, 171, 0.29);
+}
+
+.x-main-multiCheckbox .x-multiCheckbox dd .x-optionsList li {
+  margin-bottom: 10px;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox dd .x-optionsList li.d-ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.x-main-multiCheckbox .x-multiCheckbox dd .x-optionsList input[type="checkbox"] {
+  margin-left: 4px;
+}
+
+.k-rtl .x-main-multiCheckbox .x-optionsList {
+  text-align: right !important;
+}
+/*# sourceMappingURL=multiCheckboxDropdown.css.map */

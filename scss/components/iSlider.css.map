@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,kBAFU,CACd,kBAAkB,AACb,cAAc,CAAC;EACZ,MAAM,EAAE,QAAQ;CACnB;;AAJT,AAOI,kBAPc,CAOd,kBAAkB,CAAC;EACf,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "iSlider.scss"
+    ],
+    "names": [],
+    "file": "iSlider.css"
+}

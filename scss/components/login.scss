@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+    #TafnitCore_System_UI_App_Login {
+        .x-section-wrraper {
+            margin: auto !important;
+            min-height: 679px !important;
+            height: 679px !important;
+
+            .x-section-content-wrapper {
+                height: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #TafnitCore_System_UI_App_Login .x-section-wrraper {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #TafnitCore_System_UI_App_Login .x-section-wrraper {
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #TafnitCore_System_UI_App_Login {
+        .x-section-wrraper {
+            width: 70% !important;
+        }
+
+        .x-section-content-wrapper>.col:first-child {
+            display: block !important;
+        }
+    }
+}
+
+#TafnitCore_System_UI_App_Login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+
+    .x-self-container {
+        margin-top: 10px;
+    }
+
+    .x-section-wrraper {
+        border: none;
+        box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 30px 0 rgba(0, 0, 0, 0.5);
+        width: 70%;
+    }
+
+    .x-dynamic-label-control {
+        margin-bottom: 20px;
+    }
+
+    .carousel.slide {
+        display: flex;
+        align-items: center;
+        min-height: 318px;
+    }
+
+    .x-section-content-wrapper :last-child>.x-cell {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .x-section-content-wrapper>.col:first-child {
+        display: none;
+    }
+
+    .x-section-content-wrapper {
+        min-height: 70%;
+    }
+}

@@ -1,0 +1,38 @@
+/*datepicker*/
+.x-datePickerResponsive {
+  width: 100%;
+}
+
+.x-datePickerResponsive.x-datePicker-mobile {
+  border-radius: 3px;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  border-width: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.x-datePickerResponsive .x-datePicker-pc .k-picker-wrap .k-select {
+  width: 2em;
+}
+
+.xstyle-date-wrapper input.k-input {
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  min-height: 37px;
+}
+
+/*unknow*/
+.x-idatePicker-input,
+.x-idatePickerMonth-input {
+  font-size: 18px;
+  text-align: left !important;
+  direction: ltr;
+}
+
+.x-idatePicker-input {
+  width: 100%;
+}
+/*# sourceMappingURL=datepicker.css.map */

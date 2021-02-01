@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,sBAAsB;AACtB,AAAA,cAAc,CAAC;EACX,SAAS,EAAE,OAAO;EAClB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;CAMZ;;AATD,AAKI,cALU,CAKV,iBAAiB,CAAC;EACd,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,IAAI;CACd;;AAGL,gBAAgB;AAEhB,AAEQ,aAFK,CACT,iBAAiB,AACZ,MAAM,CAAC;EACJ,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "rating.scss"
+    ],
+    "names": [],
+    "file": "rating.css"
+}

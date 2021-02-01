@@ -1,0 +1,9 @@
+.xstyle-xmenu-wrapper {
+    .k-menu-group {
+        &.k-popup {
+            width: max-content;
+            height: auto;
+            padding: 20px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.k-scrollview .k-scrollview-wrap .k-scrollview-page {
+  text-align: center;
+  display: table;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.k-scrollview .k-scrollview-wrap .k-scrollview-page .img-wrapper {
+  padding: 2em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.k-scrollview .k-scrollview-wrap .k-scrollview-page .img-wrapper > div {
+  width: 30%;
+  min-width: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1em;
+}
+
+.k-scrollview .k-scrollview-wrap .k-scrollview-page .img-wrapper > div > div {
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+/*# sourceMappingURL=scrollviewKendo.css.map */

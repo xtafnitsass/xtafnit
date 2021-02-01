@@ -1,0 +1,66 @@
+.p-floating-container {
+  position: relative;
+}
+
+.p-floating-container label,
+.p-floating-container ul[role="presentation"] + input + label {
+  left: 8px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: 'all 200ms';
+  transition: 'all 200ms';
+}
+
+.p-floating-container input:not(:placeholder-shown) + label, .p-floating-container input:not(:-ms-input-placeholder) + label {
+  transform: scale(0.7);
+  opacity: 1;
+  right: 0;
+  top: -9px;
+  margin: 0;
+  position: absolute;
+  transform-origin: right;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.p-floating-container ul[role="listbox"] + input {
+  display: none;
+}
+
+.p-floating-container ul[role="listbox"] + input + label {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  opacity: 1;
+  right: 0;
+  top: -9px;
+  margin: 0;
+  position: absolute;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.p-floating-container input:not(:placeholder-shown) + label {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  opacity: 1;
+  right: 0;
+  top: -9px;
+  margin: 0;
+  position: absolute;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+/*# sourceMappingURL=pFloating.css.map */
