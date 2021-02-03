@@ -105,4 +105,16 @@
 [dir="rtl"] .k-message-group.k-alt {
   text-align: right !important;
 }
+
+.k-ltr .k-message-group:not(.k-alt),
+[dir="ltr"] .k-message-group:not(.k-alt) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.k-ltr .k-message-group.k-alt,
+[dir="ltr"] .k-message-group.k-alt {
+  text-align: left !important;
+}
 /*# sourceMappingURL=chat.css.map */

@@ -107,3 +107,16 @@
         }
     }
 }
+
+.k-ltr,
+[dir="ltr"] {
+    .k-message-group {
+        &:not(.k-alt) {
+            align-items: flex-end;
+        }
+
+        &.k-alt {
+            text-align: left !important;
+        }
+    }
+}
