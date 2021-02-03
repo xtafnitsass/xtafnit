@@ -1,0 +1,108 @@
+.k-chat .k-phone,
+.k-chat .k-instagram,
+.k-chat .k-facebook {
+  background: #385898;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0px;
+  top: 6px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.k-chat .k-bubble {
+  margin-right: 35px;
+  background-color: #e1ffc7 !important;
+  border-radius: 5px 0px 5px 5px !important;
+  border-color: #fff !important;
+  direction: rtl;
+}
+
+.k-chat .k-bubble.info {
+  background-color: rgba(225, 245, 254, 0.922) !important;
+  border-radius: 0px 5px 5px 5px !important;
+}
+
+.k-chat .k-message-list-content > .k-message-group {
+  display: none;
+}
+
+.k-chat .k-instagram {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.k-chat .k-phone {
+  background: #71d871;
+}
+
+.k-chat .k-message-time {
+  opacity: 1 !important;
+  top: 130%;
+  right: 0 !important;
+  left: auto !important;
+}
+
+.k-chat .right {
+  left: 0px;
+  right: auto;
+}
+
+.k-chat .left .k-bubble {
+  margin-left: 35px;
+  margin-right: 0px;
+  background-color: #f3f3f3 !important;
+  border-radius: 0px 5px 5px 5px !important;
+}
+
+.k-chat .left .k-message-time {
+  right: auto !important;
+  left: 0 !important;
+}
+
+.k-chat .k-message-box input {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  direction: rtl;
+}
+
+.k-chat .k-message-alert {
+  margin: auto;
+}
+
+.k-chat .k-card-list {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.k-chat .k-message-group {
+  max-width: 100% !important;
+}
+
+.k-chat .k-message-group.k-alt {
+  -ms-flex-item-align: start !important;
+      align-self: flex-start !important;
+}
+
+.k-rtl .k-message-group:not(.k-alt),
+[dir="rtl"] .k-message-group:not(.k-alt) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.k-rtl .k-message-group.k-alt,
+[dir="rtl"] .k-message-group.k-alt {
+  text-align: right !important;
+}
+/*# sourceMappingURL=chat.css.map */
