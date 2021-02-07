@@ -1414,6 +1414,17 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin: auto;
 }
 
+.required span.mandatory.active + input,
+.required span.mandatory.active + span > span.k-dropdown-wrap,
+.required span.mandatory.active + div > span.k-autocomplete > input,
+.required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
+.required span.mandatory.active + textarea.k-textbox,
+.required span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
+.required span.mandatory.active ~ label.k-checkbox-label:before,
+.required span.mandatory.active + span.k-switch.k-widget .k-switch-container {
+  background: rgba(255, 234, 97, 0.48) !important;
+}
+
 .gridHeaderButton {
   display: -webkit-box;
   display: -ms-flexbox;
