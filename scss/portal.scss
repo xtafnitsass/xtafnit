@@ -670,6 +670,21 @@ mainbody {
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+.required {
+
+    span.mandatory.active+input,
+    span.mandatory.active+span>span.k-dropdown-wrap,
+    span.mandatory.active+div>span.k-autocomplete>input,
+    span.mandatory.active+label.switch>input.switch-input+span.switch-label,
+    span.mandatory.active+textarea.k-textbox,
+    span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
+    span.mandatory.active~label.k-checkbox-label:before,
+    span.mandatory.active+span.k-switch.k-widget .k-switch-container {
+        background: rgba(255, 234, 97, 0.48) !important;
+    }
+}
+
 .gridHeaderButton {
     display: flex;
     justify-content: flex-end;
