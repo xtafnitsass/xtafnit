@@ -2523,4 +2523,9 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'portal';
+.k-stepper {
+  background-color: transparent;
+}
+
+@forward 'stepper';
 /*# sourceMappingURL=style.css.map */
