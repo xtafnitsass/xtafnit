@@ -485,6 +485,7 @@ label.btn {
 .p-floating-container input:not(:placeholder-shown) + label, .p-floating-container input:not(:-ms-input-placeholder) + label {
   transform: scale(0.7);
   opacity: 1;
+  color: #003f59;
   right: 0;
   top: -9px;
   margin: 0;
@@ -504,6 +505,7 @@ label.btn {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  color: #003f59;
   right: 0;
   top: -9px;
   margin: 0;
@@ -521,6 +523,7 @@ label.btn {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  color: #003f59;
   right: 0;
   top: -9px;
   margin: 0;
@@ -1208,6 +1211,7 @@ header .fal.fa-home {
 
 .xstyle-textcontrol-wrapper .x-login-user-error-msg {
   color: #f00;
+  font-size: 14px;
 }
 
 .k-textbox.x-textbox {
@@ -1230,6 +1234,7 @@ header .fal.fa-home {
 
 .xstyle-password-wrapper .x-login-user-error-msg {
   color: #f00;
+  font-size: 14px;
 }
 
 .xstyle-password-wrapper span.k-textbox {

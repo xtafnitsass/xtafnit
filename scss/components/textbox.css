@@ -5,6 +5,7 @@
 
 .xstyle-textcontrol-wrapper .x-login-user-error-msg {
   color: #f00;
+  font-size: 14px;
 }
 
 .k-textbox.x-textbox {
@@ -27,6 +28,7 @@
 
 .xstyle-password-wrapper .x-login-user-error-msg {
   color: #f00;
+  font-size: 14px;
 }
 
 .xstyle-password-wrapper span.k-textbox {
