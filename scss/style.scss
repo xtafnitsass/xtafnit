@@ -318,6 +318,10 @@ $suppliers-icon-tachometer: #464247;
 $link-color:#007bff;
 $link-text-underling:underline;
 
+/*stepper*/
+
+$stepper-background:transparent;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
