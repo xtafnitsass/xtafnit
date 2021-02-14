@@ -17,6 +17,7 @@
             +label {
                 transform: scale(0.7);
                 opacity: 1;
+                font-size: 16px;
                 color:#003f59;
                 right: 0;
                 top: -9px;
@@ -36,6 +37,7 @@
             +label {
                 transform: scale(0.7);
                 opacity: 1;
+                font-size: 16px;
                 color:#003f59;
                 right: 0;
                 top: -9px;
@@ -53,6 +55,7 @@
 .p-floating-container input:not(:placeholder-shown)+label {
     transform: scale(0.7);
     opacity: 1;
+    font-size: 16px;
     color:#003f59;
     right: 0;
     top: -9px;

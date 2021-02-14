@@ -15,6 +15,7 @@
 .p-floating-container input:not(:placeholder-shown) + label, .p-floating-container input:not(:-ms-input-placeholder) + label {
   transform: scale(0.7);
   opacity: 1;
+  font-size: 16px;
   color: #003f59;
   right: 0;
   top: -9px;
@@ -35,6 +36,7 @@
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  font-size: 16px;
   color: #003f59;
   right: 0;
   top: -9px;
@@ -53,6 +55,7 @@
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  font-size: 16px;
   color: #003f59;
   right: 0;
   top: -9px;

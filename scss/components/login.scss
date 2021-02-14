@@ -40,42 +40,99 @@
     }
 }
 
+
 #TafnitCore_System_UI_App_Login {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100vh;
+    padding: 0 !important;
 
-    .x-self-container {
-        margin-top: 10px;
+    mainbody {
+        padding: 0 !important;
+
+        >.row {
+            height: 100vh;
+        }
     }
 
-    .x-section-wrraper {
-        border: none;
-        box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 30px 0 rgba(0, 0, 0, 0.5);
-        width: 70%;
+    input.k-textbox {
+        border: 0;
+        background: #e4e4e4;
+        border-radius: 0;
+
+        &::placeholder {
+            color: #707070;
+        }
     }
 
-    .x-dynamic-label-control {
-        margin-bottom: 20px;
+    [xid="controlloginDetailsLeft"] {
+        >div {
+            &:first-child {
+                flex-grow: 0.7;
+                display: flex;
+                align-items: center;
+            }
+
+            &:last-child {
+                flex-grow: 1;
+                display: flex;
+                align-items: flex-start;
+                padding-top: 20px;
+            }
+        }
+
     }
 
-    .carousel.slide {
-        display: flex;
-        align-items: center;
-        min-height: 318px;
+    [xid="controlcSocialBtnLogin"]>div {
+        flex: 0 0 49%;
     }
 
-    .x-section-content-wrapper :last-child>.x-cell {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
+    [xid="controlscrollviewColumn"] {
+        background: #e4e4e4;
     }
 
-    .x-section-content-wrapper>.col:first-child {
-        display: none;
+    .k-button {
+        background: white;
+        border-color: #dadada;
+        color: #003f59;
+        font-size: 14px;
+
+        .k-icon {
+            font-size: 22px;
+        }
     }
 
-    .x-section-content-wrapper {
-        min-height: 70%;
+    [xid="controlbtnLoginPage"] {
+        background: #005a99;
+        color: white;
+    }
+
+    .fa-google {
+        background:
+            linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0 25%/48% 40%,
+            linear-gradient(to top left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+
+            linear-gradient(-40deg, transparent 53%, #ea4335 54%),
+            linear-gradient(45deg, transparent 46%, #4285f4 48%),
+            #34a853;
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+
+        &.k-icon:before {
+            position: initial !important;
+        }
+    }
+    .xstyle-checkbox-wrapper  {
+        .col-4{
+            order: 0;
+            flex: 0 0 95%;
+            max-width: 250px;
+            padding-right: 5px;
+        }
+      
+        .col-8 {
+            order: -1;
+            flex: 0 0 5%;
+        }
     }
 }
