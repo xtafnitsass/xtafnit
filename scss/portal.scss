@@ -549,7 +549,7 @@ mainbody {
                 margin-right: 10px;
                 top: -5px;
                 font-size: 18px;
-                cursor:pointer;
+                cursor: pointer;
             }
         }
 
@@ -670,6 +670,21 @@ mainbody {
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+.required {
+
+    span.mandatory.active+input,
+    span.mandatory.active+span>span.k-dropdown-wrap,
+    span.mandatory.active+div>span.k-autocomplete>input,
+    span.mandatory.active+label.switch>input.switch-input+span.switch-label,
+    span.mandatory.active+textarea.k-textbox,
+    span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
+    span.mandatory.active~label.k-checkbox-label:before,
+    span.mandatory.active+span.k-switch.k-widget .k-switch-container {
+        background: rgba(255, 234, 97, 0.48) !important;
+    }
+}
+
 .gridHeaderButton {
     display: flex;
     justify-content: flex-end;
@@ -1545,7 +1560,8 @@ mainbody {
 }
 
 //customer account//
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance {
     .cube-wrapper {
         .cube {
             .k-icon-wrapper {
@@ -1582,6 +1598,21 @@ mainbody {
 }
 
 //tafnit//
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard {
+    .cube-wrapper {
+        .cube {
+            &:first-child {
+                background: $suppliers-cube-background !important;
+
+                span {
+                    color: $suppliers-cube-color !important;
+                }
+            }
+        }
+    }
+}
+
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main {
     .k-button {
         background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;

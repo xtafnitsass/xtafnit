@@ -337,9 +337,13 @@ $suppliers-icon-tachometer: #464247;
 $link-color:#02b5fd;
 $link-text-underling:underline;
 
+/*stepper*/
+
+$stepper-background:transparent;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal';
+'./portal','./stepper';
