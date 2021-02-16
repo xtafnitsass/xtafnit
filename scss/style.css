@@ -26,6 +26,7 @@
 /*freehand*/
 /*portal*/
 /*link*/
+/*stepper*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -496,16 +497,15 @@ mainbody .x-section-header-wrraper {
   }
 }
 
-.k-grid .k-header {
+.k-grid .k-toolbar {
   background: transparent;
-  margin-bottom: 15px;
 }
 
-.k-grid .k-header.k-grid-toolbar {
+.k-grid .k-toolbar.k-grid-toolbar {
   border-color: #fff !important;
 }
 
-.k-grid .k-header .k-grid-serach {
+.k-grid .k-toolbar .k-grid-serach {
   max-width: 100%;
   float: right !important;
   border: 1px solid #ccc !important;
@@ -1413,6 +1413,17 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   height: 40px;
   line-height: 2 !important;
   margin: auto;
+}
+
+.required span.mandatory.active + input,
+.required span.mandatory.active + span > span.k-dropdown-wrap,
+.required span.mandatory.active + div > span.k-autocomplete > input,
+.required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
+.required span.mandatory.active + textarea.k-textbox,
+.required span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
+.required span.mandatory.active ~ label.k-checkbox-label:before,
+.required span.mandatory.active + span.k-switch.k-widget .k-switch-container {
+  background: rgba(255, 234, 97, 0.48) !important;
 }
 
 .gridHeaderButton {
@@ -2387,13 +2398,15 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .k-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .font-weight-bold {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
       -ms-flex-direction: row !important;
@@ -2401,7 +2414,8 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 @media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube {
+  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube,
+  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 16%;
             flex: 0 0 16%;
@@ -2417,6 +2431,16 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child {
+  background: #fff !important;
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child span,
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child span {
+  color: #464247 !important;
 }
 
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .k-button {
@@ -2493,4 +2517,9 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'portal';
+.k-stepper {
+  background-color: transparent;
+}
+
+@forward 'stepper';
 /*# sourceMappingURL=style.css.map */
