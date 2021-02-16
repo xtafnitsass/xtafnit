@@ -26,6 +26,7 @@
 /*freehand*/
 /*portal*/
 /*link*/
+/*stepper*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000 !important;
@@ -496,16 +497,15 @@ mainbody .x-section-header-wrraper {
   }
 }
 
-.k-grid .k-header {
+.k-grid .k-toolbar {
   background: transparent;
-  margin-bottom: 15px;
 }
 
-.k-grid .k-header.k-grid-toolbar {
+.k-grid .k-toolbar.k-grid-toolbar {
   border-color: #fff !important;
 }
 
-.k-grid .k-header .k-grid-serach {
+.k-grid .k-toolbar .k-grid-serach {
   max-width: 100%;
   float: right !important;
   border: 1px solid #ccc !important;
@@ -2517,4 +2517,9 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'portal';
+.k-stepper {
+  background-color: transparent;
+}
+
+@forward 'stepper';
 /*# sourceMappingURL=style.css.map */
