@@ -524,6 +524,16 @@ mainbody {
 
 //ie fix all unset width//
 mainbody {
+    .greyPanel {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                min-width: 110px !important;
+            }
+        }
+    }
+
     .x-self-container {
 
         @media screen and (-ms-high-contrast: none),
@@ -555,14 +565,6 @@ mainbody {
 
         [xid="controlkiClean"] {
             color: $suppliers-details-top-color;
-        }
-
-        .x-self-container {
-
-            @media screen and (-ms-high-contrast: none),
-            (-ms-high-contrast: active) {
-                min-width: 110px !important;
-            }
         }
     }
 }
@@ -663,13 +665,17 @@ mainbody {
 }
 
 
-
-
-
-
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+.dotIcon {
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        width: 55px!important;
+    }
+}
 
 .required {
 
@@ -701,7 +707,7 @@ mainbody {
 
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            margin-left: 10px;
+            margin-left: -5px;
         }
     }
 
@@ -1299,13 +1305,6 @@ mainbody {
 
         }
 
-        .xstyle-ilink-wrapper {
-            a {
-                text-align: center !important;
-            }
-
-        }
-
         [xid="controlcHello"] {
             padding-top: 120px;
 
@@ -1496,6 +1495,7 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect,
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
     mainbody {
         >div {
