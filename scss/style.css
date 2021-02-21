@@ -1327,7 +1327,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .gridHeaderButton .x-self-container {
+  mainbody .gridHeaderButton .greyPanel .x-self-container {
     min-width: 110px !important;
   }
 }
