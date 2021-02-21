@@ -1153,14 +1153,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
           flex-direction: column;
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-ilink-wrapper a {
-  text-align: center !important;
-}
-
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
