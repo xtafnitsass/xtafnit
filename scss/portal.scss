@@ -524,6 +524,16 @@ mainbody {
 
 //ie fix all unset width//
 mainbody {
+    .greyPanel {
+        .x-self-container {
+
+            @media screen and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                min-width: 110px !important;
+            }
+        }
+    }
+
     .x-self-container {
 
         @media screen and (-ms-high-contrast: none),
@@ -555,15 +565,6 @@ mainbody {
 
         [xid="controlkiClean"] {
             color: $suppliers-details-top-color;
-        }
-        .greyPanel{
-            .x-self-container {
-
-                @media screen and (-ms-high-contrast: none),
-                (-ms-high-contrast: active) {
-                    min-width: 110px !important;
-                }
-            }
         }
     }
 }
@@ -664,13 +665,17 @@ mainbody {
 }
 
 
-
-
-
-
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+.dotIcon {
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        width: 55px;
+    }
+}
 
 .required {
 
@@ -702,7 +707,7 @@ mainbody {
 
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            margin-left: 10px;
+            margin-left: -5px;
         }
     }
 
@@ -1489,6 +1494,7 @@ mainbody {
         border: 1px solid #eee !important;
     }
 }
+
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect,
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
     mainbody {
