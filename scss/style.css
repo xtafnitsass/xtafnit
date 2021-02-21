@@ -1302,6 +1302,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  mainbody .greyPanel .x-self-container {
+    min-width: 110px !important;
+  }
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
     min-width: 15%;
   }
@@ -1323,12 +1329,6 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
 
 mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #9e30bf;
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .gridHeaderButton .greyPanel .x-self-container {
-    min-width: 110px !important;
-  }
 }
 
 .k-drawer-overlay .k-drawer {
@@ -1414,6 +1414,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin: auto;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .dotIcon {
+    width: 55px;
+  }
+}
+
 .required span.mandatory.active + input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
@@ -1446,7 +1452,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
-    margin-left: 10px;
+    margin-left: -5px;
   }
 }
 
