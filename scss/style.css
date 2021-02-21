@@ -2355,7 +2355,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   border: 1px solid #eee !important;
 }
 
-#TafnitCore.SaaSServer.Portal.ImporterCustomers.UI.ClientSelect #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
   height: 400px;
 }
 
