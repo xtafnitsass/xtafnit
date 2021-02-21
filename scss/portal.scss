@@ -524,21 +524,11 @@ mainbody {
 
 //ie fix all unset width//
 mainbody {
-    .greyPanel {
-        .x-self-container {
-
-            @media screen and (-ms-high-contrast: none),
-            (-ms-high-contrast: active) {
-                min-width: 110px !important;
-            }
-        }
-    }
-
     .x-self-container {
 
         @media screen and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            min-width: 15%;
+            min-width: 110px !important;
         }
     }
 
