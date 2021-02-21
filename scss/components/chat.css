@@ -1,6 +1,7 @@
 .k-chat .k-phone,
 .k-chat .k-instagram,
-.k-chat .k-facebook {
+.k-chat .k-facebook,
+.k-chat .fa-user {
   background: #385898;
   color: #fff;
   width: 25px;
@@ -22,7 +23,7 @@
 
 .k-chat .k-bubble {
   margin-right: 35px;
-  background-color: #e1ffc7 !important;
+  background-color: #385898 !important;
   border-radius: 5px 0px 5px 5px !important;
   border-color: #fff !important;
   direction: rtl;
@@ -42,7 +43,7 @@
 }
 
 .k-chat .k-phone {
-  background: #71d871;
+  background: #28a745;
 }
 
 .k-chat .k-message-time {
@@ -57,11 +58,41 @@
   right: auto;
 }
 
+.k-chat .right .k-bubble:after {
+  content: '';
+  position: absolute;
+  right: 34px;
+  top: 42%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-left-color: #385898;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -4px;
+  margin-right: -8px;
+}
+
 .k-chat .left .k-bubble {
   margin-left: 35px;
   margin-right: 0px;
-  background-color: #f3f3f3 !important;
+  background-color: #28a745 !important;
   border-radius: 0px 5px 5px 5px !important;
+}
+
+.k-chat .left .k-bubble:after {
+  content: '';
+  position: absolute;
+  left: 34px;
+  top: 42%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-right-color: #28a745;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -4px;
+  margin-left: -8px;
 }
 
 .k-chat .left .k-message-time {

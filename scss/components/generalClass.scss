@@ -73,3 +73,13 @@
         border: 0;
     }
 }
+
+.ieFix {
+    .flex-grow-0 {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            flex: 0 0 auto;
+        }
+    }
+}

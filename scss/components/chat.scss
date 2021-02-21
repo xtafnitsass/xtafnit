@@ -2,7 +2,8 @@
 
     .k-phone,
     .k-instagram,
-    .k-facebook {
+    .k-facebook,
+    .fa-user {
         background: #385898;
         color: #fff;
         width: 25px;
@@ -18,7 +19,7 @@
 
     .k-bubble {
         margin-right: 35px;
-        background-color: #e1ffc7 !important;
+        background-color: #385898 !important;
         border-radius: 5px 0px 5px 5px !important;
         border-color: #fff !important;
         direction: rtl;
@@ -41,7 +42,7 @@
     }
 
     .k-phone {
-        background: rgb(113, 216, 113);
+        background: #28a745;
     }
 
     .k-message-time {
@@ -54,14 +55,46 @@
     .right {
         left: 0px;
         right: auto;
+
+        .k-bubble {
+            &:after {
+                content: '';
+                position: absolute;
+                right: 34px;
+                top: 42%;
+                width: 0;
+                height: 0;
+                border: 15px solid transparent;
+                border-left-color: #385898;
+                border-right: 0;
+                border-bottom: 0;
+                margin-top: -4px;
+                margin-right: -8px;
+            }
+        }
     }
 
     .left {
         .k-bubble {
             margin-left: 35px;
             margin-right: 0px;
-            background-color: #f3f3f3 !important;
+            background-color: #28a745 !important;
             border-radius: 0px 5px 5px 5px !important;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 34px;
+                top: 42%;
+                width: 0;
+                height: 0;
+                border: 15px solid transparent;
+                border-right-color: #28a745;
+                border-left: 0;
+                border-bottom: 0;
+                margin-top: -4px;
+                margin-left: -8px;
+            }
         }
 
         .k-message-time {

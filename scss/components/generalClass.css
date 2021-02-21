@@ -70,4 +70,12 @@
 .iframe-border-0 iframe {
   border: 0;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ieFix .flex-grow-0 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+}
 /*# sourceMappingURL=generalClass.css.map */
