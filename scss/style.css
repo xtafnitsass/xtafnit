@@ -1417,7 +1417,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .dotIcon {
-    width: 55px;
+    width: 55px !important;
   }
 }
 
