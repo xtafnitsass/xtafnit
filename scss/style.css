@@ -1833,6 +1833,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background-color: transparent !important;
 }
 
+.grid-30 .k-grid-content {
+  height: 30vh !important;
+}
+
 .cube-wrapper {
   -webkit-box-shadow: 0 0 black !important;
           box-shadow: 0 0 black !important;
@@ -2307,10 +2311,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate .k-grid-content {
-  height: 30vh !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
