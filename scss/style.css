@@ -2503,9 +2503,13 @@ progress[value]::-webkit-progress-value {
           box-shadow: 0px 0px 41px -28px #ca0000;
 }
 
+#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment [xid="controldiProfile"] {
+  min-height: 5px;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 3% !important;
+    bottom: 8% !important;
   }
 }
 
