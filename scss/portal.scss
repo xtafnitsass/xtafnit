@@ -528,7 +528,7 @@ mainbody {
 
         @media screen and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            min-width: 15%;
+            min-width: 110px !important;
         }
     }
 
@@ -555,14 +555,6 @@ mainbody {
 
         [xid="controlkiClean"] {
             color: $suppliers-details-top-color;
-        }
-
-        .x-self-container {
-
-            @media screen and (-ms-high-contrast: none),
-            (-ms-high-contrast: active) {
-                min-width: 110px !important;
-            }
         }
     }
 }
@@ -663,13 +655,17 @@ mainbody {
 }
 
 
-
-
-
-
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+.dotIcon {
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        width: 55px !important;
+    }
+}
 
 .required {
 
@@ -701,7 +697,7 @@ mainbody {
 
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            margin-left: 10px;
+            margin-left: -5px;
         }
     }
 
@@ -1090,6 +1086,12 @@ mainbody {
     background-color: transparent !important;
 }
 
+.grid-30 {
+    .k-grid-content {
+        height: 30vh !important;
+    }
+}
+
 .cube-wrapper {
     box-shadow: 0 0 black !important;
     padding-right: 0 !important;
@@ -1299,13 +1301,6 @@ mainbody {
 
         }
 
-        .xstyle-ilink-wrapper {
-            a {
-                text-align: center !important;
-            }
-
-        }
-
         [xid="controlcHello"] {
             padding-top: 120px;
 
@@ -1496,6 +1491,7 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect,
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
     mainbody {
         >div {
@@ -1676,6 +1672,11 @@ mainbody {
     margin-left: 20px;
 }
 
+//fix jb drawer image //
+[xid="controldiProfile"] {
+    min-height: 5px;
+}
+
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
@@ -1699,7 +1700,7 @@ progress[value]::-webkit-progress-value {
 
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            bottom: 3% !important;
+            bottom: 8% !important;
         }
     }
 }
