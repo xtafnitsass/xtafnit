@@ -1832,6 +1832,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background-color: transparent !important;
 }
 
+.grid-30 .k-grid-content {
+  height: 30vh !important;
+}
+
 .cube-wrapper {
   -webkit-box-shadow: 0 0 black !important;
           box-shadow: 0 0 black !important;
