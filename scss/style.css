@@ -1302,14 +1302,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .greyPanel .x-self-container {
-    min-width: 110px !important;
-  }
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
-    min-width: 15%;
+    min-width: 110px !important;
   }
 }
 
@@ -2491,6 +2485,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin-left: 20px;
 }
 
+[xid="controldiProfile"] {
+  min-height: 5px;
+}
+
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
   background-color: #f2ebf6;
@@ -2510,7 +2508,7 @@ progress[value]::-webkit-progress-value {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 3% !important;
+    bottom: 8% !important;
   }
 }
 
