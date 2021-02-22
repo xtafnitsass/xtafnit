@@ -1304,7 +1304,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
-    min-width: 15%;
+    min-width: 110px !important;
   }
 }
 
@@ -1324,12 +1324,6 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
 
 mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #0167b1;
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .gridHeaderButton .x-self-container {
-    min-width: 110px !important;
-  }
 }
 
 .k-drawer-overlay .k-drawer {
@@ -1415,6 +1409,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin: auto;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .dotIcon {
+    width: 55px !important;
+  }
+}
+
 .required span.mandatory.active + input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
@@ -1447,7 +1447,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
-    margin-left: 10px;
+    margin-left: -5px;
   }
 }
 
@@ -1833,6 +1833,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   background-color: transparent !important;
 }
 
+.grid-30 .k-grid-content {
+  height: 30vh !important;
+}
+
 .cube-wrapper {
   -webkit-box-shadow: 0 0 black !important;
           box-shadow: 0 0 black !important;
@@ -2063,14 +2067,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-ilink-wrapper a {
-  text-align: center !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
@@ -2356,6 +2352,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   border: 1px solid #eee !important;
 }
 
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect mainbody > div:first-child,
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
   height: 400px;
 }
@@ -2493,6 +2490,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin-left: 20px;
 }
 
+[xid="controldiProfile"] {
+  min-height: 5px;
+}
+
 /*splash -- resource loader*/
 progress[value]::-webkit-progress-bar {
   background-color: #f2ebf6;
@@ -2512,7 +2513,7 @@ progress[value]::-webkit-progress-value {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 3% !important;
+    bottom: 8% !important;
   }
 }
 
