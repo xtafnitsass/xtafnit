@@ -392,7 +392,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
-    min-width: 15%;
+    min-width: 110px !important;
   }
 }
 
@@ -412,12 +412,6 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
 
 mainbody .gridHeaderButton [xid="controlkiClean"] {
   color: #8733af;
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .gridHeaderButton .x-self-container {
-    min-width: 110px !important;
-  }
 }
 
 .k-drawer-overlay .k-drawer {
@@ -503,6 +497,12 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   margin: auto;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .dotIcon {
+    width: 55px !important;
+  }
+}
+
 .required span.mandatory.active + input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
@@ -535,7 +535,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
-    margin-left: 10px;
+    margin-left: -5px;
   }
 }
 
@@ -1153,14 +1153,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
           flex-direction: column;
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-ilink-wrapper a,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-ilink-wrapper a {
-  text-align: center !important;
-}
-
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
@@ -1440,6 +1432,7 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   border: 1px solid #eee !important;
 }
 
+#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect mainbody > div:first-child,
 #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes mainbody > div:first-child {
   height: 400px;
 }
