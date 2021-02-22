@@ -1308,14 +1308,8 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .greyPanel .x-self-container {
-    min-width: 110px !important;
-  }
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
-    min-width: 15%;
+    min-width: 110px !important;
   }
 }
 
