@@ -2308,6 +2308,10 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   left: 20px !important;
 }
 
+#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate .k-grid-content {
+  height: 30vh !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
