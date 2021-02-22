@@ -1086,6 +1086,12 @@ mainbody {
     background-color: transparent !important;
 }
 
+.grid-30 {
+    .k-grid-content {
+        height: 30vh !important;
+    }
+}
+
 .cube-wrapper {
     box-shadow: 0 0 black !important;
     padding-right: 0 !important;
