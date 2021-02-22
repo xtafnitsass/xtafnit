@@ -663,7 +663,7 @@ mainbody {
 
     @media all and (-ms-high-contrast: none),
     (-ms-high-contrast: active) {
-        width: 55px!important;
+        width: 55px !important;
     }
 }
 
@@ -1666,6 +1666,11 @@ mainbody {
     margin-left: 20px;
 }
 
+//fix jb drawer image //
+[xid="controldiProfile"] {
+    min-height: 5px;
+}
+
 /*splash -- resource loader*/
 
 progress[value]::-webkit-progress-bar {
@@ -1689,7 +1694,7 @@ progress[value]::-webkit-progress-value {
 
         @media all and (-ms-high-contrast: none),
         (-ms-high-contrast: active) {
-            bottom: 3% !important;
+            bottom: 8% !important;
         }
     }
 }
