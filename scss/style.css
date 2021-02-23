@@ -27,6 +27,7 @@
 /*portal*/
 /*link*/
 /*stepper*/
+/*menu*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #25a003 !important;
@@ -2523,4 +2524,19 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'stepper';
+.k-menu {
+  background: transparent;
+  border: 0;
+}
+
+.k-menu li.k-item {
+  border: 1px solid #25a003;
+}
+
+.k-menu li.k-item .k-group {
+  border: 1px solid #25a003;
+  background: 1px solid #f5f5f5;
+}
+
+@forward 'menu';
 /*# sourceMappingURL=style.css.map */
