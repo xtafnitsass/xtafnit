@@ -9,7 +9,7 @@ $menu-popup-background:1px solid #f5f5f5 !default;
     border: $menu-border;
 
     li.k-item {
-        border: $menu-button-border;
+        border: $menu-button-border!important;
 
         .k-group {
             border: $menu-popup-border;

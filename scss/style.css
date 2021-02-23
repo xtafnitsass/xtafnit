@@ -2529,7 +2529,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item {
-  border: 1px solid #bbdceb;
+  border: 1px solid #bbdceb !important;
 }
 
 .k-menu li.k-item .k-group {
