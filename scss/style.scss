@@ -323,9 +323,17 @@ $link-text-underling:underline;
 
 $stepper-background:transparent;
 
+/*menu*/
+
+$menu-background:transparent;
+$menu-border:0;
+$menu-button-border:1px solid #bbdceb;
+$menu-popup-border:1px solid #bbdceb;
+$menu-popup-background:1px solid #f5f5f5;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper';
+'./portal', './stepper' ,'./menu';
