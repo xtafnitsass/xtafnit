@@ -22,6 +22,10 @@
   .x-input-group-text {
     height: 32px !important;
   }
+  /*fix menu*/
+  .xstyle-xmenu-wrapper .k-menu-group.k-popup {
+    min-width: 200px;
+  }
 }
 
 /*max width 1200 --large desktop*/
@@ -158,7 +162,7 @@ iframe {
 }
 
 a.x-link_Comp {
-  display: block;
+  display: inline;
 }
 
 ::-webkit-input-placeholder {
@@ -390,6 +394,11 @@ select:-webkit-autofill:focus {
   background-color: #f5f5f5;
 }
 
+/*ux studio*/
+#TafnitCore_System_UI_App_UnitTest_UXStudioUT {
+  padding-left: 210px;
+}
+
 /*Unknow*/
 label.btn {
   padding: 0;
@@ -466,6 +475,43 @@ label.btn {
 /*uknown*/
 .iframe-border-0 iframe {
   border: 0;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ieFix .flex-grow-0 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+}
+
+.checkBoxHorizontal .col-4 {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 95%;
+          flex: 0 0 95%;
+  max-width: 90%;
+  padding-right: 5px;
+}
+
+.checkBoxHorizontal .col-8 {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 1.2%;
+          flex: 0 0 1.2%;
+}
+
+.leftStudio {
+  position: fixed;
+  left: 0;
+  bottom: 38px;
+  top: 42px;
+  width: 207px;
+  z-index: 1029;
 }
 
 .p-floating-container {
@@ -1205,6 +1251,30 @@ header .fal.fa-home {
   width: max-content;
   height: auto;
   padding: 20px;
+}
+
+.xstyle-xmenu-wrapper .k-animation-container .k-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+  width: 45px;
+  cursor: pointer;
 }
 
 /*text input*/
@@ -2830,7 +2900,8 @@ header .fal.fa-home {
 
 .k-chat .k-phone,
 .k-chat .k-instagram,
-.k-chat .k-facebook {
+.k-chat .k-facebook,
+.k-chat .fa-user {
   background: #385898;
   color: #fff;
   width: 25px;
@@ -2852,7 +2923,7 @@ header .fal.fa-home {
 
 .k-chat .k-bubble {
   margin-right: 35px;
-  background-color: #e1ffc7 !important;
+  background-color: #385898 !important;
   border-radius: 5px 0px 5px 5px !important;
   border-color: #fff !important;
   direction: rtl;
@@ -2872,7 +2943,7 @@ header .fal.fa-home {
 }
 
 .k-chat .k-phone {
-  background: #71d871;
+  background: #28a745;
 }
 
 .k-chat .k-message-time {
@@ -2887,11 +2958,41 @@ header .fal.fa-home {
   right: auto;
 }
 
+.k-chat .right .k-bubble:after {
+  content: '';
+  position: absolute;
+  right: 34px;
+  top: 42%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-left-color: #385898;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -4px;
+  margin-right: -8px;
+}
+
 .k-chat .left .k-bubble {
   margin-left: 35px;
   margin-right: 0px;
-  background-color: #f3f3f3 !important;
+  background-color: #28a745 !important;
   border-radius: 0px 5px 5px 5px !important;
+}
+
+.k-chat .left .k-bubble:after {
+  content: '';
+  position: absolute;
+  left: 34px;
+  top: 42%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-right-color: #28a745;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -4px;
+  margin-left: -8px;
 }
 
 .k-chat .left .k-message-time {

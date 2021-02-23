@@ -15,6 +15,7 @@ $breakpoint-xl: 1200px;
         }
     }
 }
+
 /*ie fix*/
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
@@ -44,6 +45,14 @@ $breakpoint-xl: 1200px;
     /*fix lookup*/
     .x-input-group-text {
         height: 32px !important;
+    }
+
+    /*fix menu*/
+    .xstyle-xmenu-wrapper {
+        .k-menu-group.k-popup {
+            min-width: 200px;
+        }
+
     }
 }
 

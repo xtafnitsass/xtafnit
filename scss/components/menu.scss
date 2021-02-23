@@ -6,4 +6,20 @@
             padding: 20px;
         }
     }
+
+    .k-animation-container {
+        .k-button {
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+
+    li[overflow="xOverflow"] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        width: 45px;
+        cursor: pointer;
+    }
 }

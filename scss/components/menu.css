@@ -5,4 +5,28 @@
   height: auto;
   padding: 20px;
 }
+
+.xstyle-xmenu-wrapper .k-animation-container .k-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+  width: 45px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=menu.css.map */

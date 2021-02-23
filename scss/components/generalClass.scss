@@ -83,3 +83,26 @@
         }
     }
 }
+
+.checkBoxHorizontal {
+    .col-4 {
+        order: 0;
+        flex: 0 0 95%;
+        max-width: 90%;
+        padding-right: 5px;
+    }
+
+    .col-8 {
+        order: -1;
+        flex: 0 0 1.2%;
+    }
+}
+
+.leftStudio {
+    position: fixed;
+    left: 0;
+    bottom: 38px;
+    top: 42px;
+    width: 207px;
+    z-index: 1029;
+}

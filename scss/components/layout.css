@@ -328,6 +328,11 @@ select:-webkit-autofill:focus {
   background-color: #f5f5f5;
 }
 
+/*ux studio*/
+#TafnitCore_System_UI_App_UnitTest_UXStudioUT {
+  padding-left: 210px;
+}
+
 /*Unknow*/
 label.btn {
   padding: 0;

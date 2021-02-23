@@ -22,6 +22,10 @@
   .x-input-group-text {
     height: 32px !important;
   }
+  /*fix menu*/
+  .xstyle-xmenu-wrapper .k-menu-group.k-popup {
+    min-width: 200px;
+  }
 }
 
 /*max width 1200 --large desktop*/
