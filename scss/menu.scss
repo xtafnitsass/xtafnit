@@ -17,6 +17,9 @@ $menu-color:#333!default;
             background: $menu-popup-background;
             ;
         }
+        i.k-icon{
+            color:$menu-color!important;
+        }
     }
 }
 

@@ -2538,5 +2538,9 @@ progress[value]::-webkit-progress-value {
   background: 1px solid #f5f5f5;
 }
 
+.k-menu li.k-item i.k-icon {
+  color: #333 !important;
+}
+
 @forward 'menu';
 /*# sourceMappingURL=style.css.map */
