@@ -52,8 +52,17 @@ $breakpoint-xl: 1200px;
         .k-menu-group.k-popup {
             min-width: 200px;
         }
-
     }
+
+    /*lookup*/
+    .xstyle-lookup-wrapper {
+
+        .x-input-group-text,
+        .x-selection-lookup-button {
+            height: 100% !important;
+        }
+    }
+
 }
 
 /*max width 1200 --large desktop*/
