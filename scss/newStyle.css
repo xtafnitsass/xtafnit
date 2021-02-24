@@ -1609,6 +1609,12 @@ header .fal.fa-home {
   padding: 0;
 }
 
+/*fix autocomplete clear*/
+input.k-input[dir="ltr"] + .k-clear-value {
+  right: 0px;
+  left: initial;
+}
+
 .x-cardamage-wrapper .x-image-wrapper .map .map {
   background-size: cover !important;
 }
@@ -2323,9 +2329,6 @@ header .fal.fa-home {
 }
 
 .k-dropdown .k-select {
-  border-color: transparent;
-  background-color: transparent;
-  width: 100%;
   text-align: right;
 }
 

@@ -46,3 +46,12 @@
         padding: 0;
     }
 }
+
+/*fix autocomplete clear*/
+input.k-input[dir="ltr"] {
+    +.k-clear-value {
+        right: 0px;
+        left: initial;
+    }
+
+}

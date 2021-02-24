@@ -41,4 +41,10 @@
   margin: 0 0 1px 0;
   padding: 0;
 }
+
+/*fix autocomplete clear*/
+input.k-input[dir="ltr"] + .k-clear-value {
+  right: 0px;
+  left: initial;
+}
 /*# sourceMappingURL=autocomplete.css.map */
