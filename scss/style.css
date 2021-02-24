@@ -2537,6 +2537,8 @@ progress[value]::-webkit-progress-value {
 .k-menu li.k-item .k-group {
   border: 1px solid #25a003;
   background: 1px solid #f5f5f5;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .k-menu li.k-item i.k-icon {
