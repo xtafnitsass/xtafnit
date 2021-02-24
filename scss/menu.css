@@ -1,0 +1,23 @@
+.k-menu {
+  background: transparent;
+  border: 0;
+}
+
+.k-menu li.k-item {
+  border: 1px solid #bbdceb !important;
+  border-radius: 15px !important;
+}
+
+.k-menu li.k-item .k-group {
+  border: 1px solid #bbdceb;
+  background: 1px solid #f5f5f5;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.k-menu li.k-item i.k-icon {
+  color: #333 !important;
+}
+
+@forward 'menu';
+/*# sourceMappingURL=menu.css.map */
