@@ -2542,7 +2542,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
-  color: #333 !important;
+  color: #d70002 !important;
 }
 
 @forward 'menu';
