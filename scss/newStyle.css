@@ -1854,6 +1854,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .k-rtl .x-lookup .x-selection-lookup .x-form-control {
   width: 100%;
+  height: 100%;
   border-radius: 0;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
