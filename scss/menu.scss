@@ -1,0 +1,32 @@
+$menu-background:transparent !default;
+$menu-border:0 !default;
+$menu-button-border:1px solid #bbdceb !default;
+$menu-popup-border:1px solid #bbdceb !default;
+$menu-popup-background:1px solid #f5f5f5 !default;
+$menu-border-radius:15px !default;
+$menu-color:#333 !default;
+$menu-popup-border-radius:20px !default;
+$menu-popup-padding:5px !default;
+
+.k-menu {
+    background: $menu-background;
+    border: $menu-border;
+
+    li.k-item {
+        border: $menu-button-border !important;
+        border-radius: $menu-border-radius !important;
+
+        .k-group {
+            border: $menu-popup-border;
+            background: $menu-popup-background;
+            border-radius: $menu-popup-border-radius;
+            padding: $menu-popup-padding;
+        }
+
+        i.k-icon {
+            color: $menu-color !important;
+        }
+    }
+}
+
+@forward 'menu';
