@@ -1,0 +1,59 @@
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control,
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
+  color: #ff5a85 !important;
+  background: #fdeff3;
+}
+
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
+  color: #05685a !important;
+  background: #e6f9f6;
+}
+
+.cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
+  color: #c7c5c5 !important;
+}
+
+.cube-wrapper .cube.workflow .k-icon-wrapper {
+  background: none;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.cube-wrapper .cube.workflow .k-icon-wrapper .k-icon {
+  color: #c7c5c5 !important;
+  font-weight: normal;
+}
+
+.rectAll,
+.rectLate,
+.rectFrozen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.rectAll {
+  background: #f7e8ff;
+  color: #000;
+}
+
+.rectLate {
+  background: #efefef;
+  color: #464247;
+}
+
+.rectFrozen {
+  background: #efefef;
+  color: #464247;
+}
+
+@forward 'workflow';
+/*# sourceMappingURL=workflow.css.map */
