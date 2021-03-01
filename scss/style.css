@@ -1095,7 +1095,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 
 .k-grid .k-grid-content td a {
   color: #02b5fd !important;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .k-grid .k-grid-content td a.k-button {
@@ -2531,7 +2531,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item {
-  border: 1px solid #eebcfd !important;
+  border: 0px !important;
   border-radius: 15px !important;
 }
 
@@ -2543,7 +2543,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
-  color: #9e30bf !important;
+  color: #c7c5c5 !important;
 }
 
 @forward 'menu';
