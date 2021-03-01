@@ -2546,6 +2546,7 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+/*workflows*/
 .cube-wrapper .cube.workflow .late .x-dynamic-label-control,
 .cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
   border-radius: 5px;
@@ -2579,6 +2580,7 @@ progress[value]::-webkit-progress-value {
   font-weight: normal;
 }
 
+/*myTasks*/
 .rectAll,
 .rectLate,
 .rectFrozen {
@@ -2601,6 +2603,26 @@ progress[value]::-webkit-progress-value {
 .rectFrozen {
   background: #efefef;
   color: #464247;
+}
+
+.statusFrozen, .statusLate, .statusOngoing {
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.statusFrozen {
+  background: #e8fbf7;
+  color: #69a99f;
+}
+
+.statusLate {
+  background: #fdeff3;
+  color: #fe8daa;
+}
+
+.statusOngoing {
+  background: #f0eaf6;
+  color: #b583ce;
 }
 
 @forward 'workflow';

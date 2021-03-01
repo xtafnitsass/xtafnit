@@ -350,6 +350,12 @@ $workflow-rectLate-background: #efefef;
 $workflow-rectLate-color: #464247;
 $workflow-rectFrozen-background: #efefef;
 $workflow-rectFrozen-color: #464247;
+$workflow-statusFrozen-background:#e8fbf7;
+$workflow-statusFrozen-color:#69a99f;
+$workflow-statusLate-background:#fdeff3;
+$workflow-statusLate-color:#fe8daa;
+$workflow-statusOngoing-background:#f0eaf6;
+$workflow-statusOngoing-color:#b583ce;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
