@@ -3,7 +3,6 @@ $workflow-cube-late-background : #fdeff3 !default;
 $workflow-cube-frozen-color : #05685a !default;
 $workflow-cube-frozen-background : #e6f9f6 !default;
 $workflow-cube-openSubTotal-color: #c7c5c5 !default;
-$workflow-cube-ellipsis-color: #c7c5c5 !default;
 
 $workflow-rectAll-background: #f7e8ff !default;
 $workflow-rectAll-color: #000 !default;
@@ -49,18 +48,6 @@ $workflow-statusOngoing-color:#b583ce !default;
             .openSubTotal {
                 .x-dynamic-label-control {
                     color: $workflow-cube-openSubTotal-color !important;
-                }
-            }
-
-            .k-icon-wrapper {
-                background: none;
-                left: 0;
-                width: auto;
-                height: auto;
-
-                .k-icon {
-                    color: $workflow-cube-ellipsis-color !important;
-                    font-weight: normal;
                 }
             }
         }
