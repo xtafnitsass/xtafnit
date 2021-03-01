@@ -2542,13 +2542,13 @@ progress[value]::-webkit-progress-value {
 
 .k-menu li.k-item .k-group {
   border: 0px;
-  background: 1px solid #fff;
+  background: #fff;
   border-radius: 20px;
   padding: 5px;
 }
 
 .k-menu li.k-item i.k-icon {
-  color: #464247 !important;
+  color: #c7c5c5 !important;
 }
 
 @forward 'menu';
