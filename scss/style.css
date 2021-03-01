@@ -28,6 +28,7 @@
 /*link*/
 /*stepper*/
 /*menu*/
+/*workflow*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #9e30bf !important;
@@ -2546,4 +2547,91 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+/*workflows*/
+.cube-wrapper .cube.workflow .late,
+.cube-wrapper .cube.workflow .frozen {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.cube-wrapper .cube.workflow .late {
+  background: #fdeff3;
+}
+
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
+  color: #ff5a85 !important;
+}
+
+.cube-wrapper .cube.workflow .frozen {
+  background: #e6f9f6;
+}
+
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
+  color: #05685a !important;
+}
+
+.cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
+  color: #c7c5c5 !important;
+}
+
+.cube-wrapper .cube.workflow .k-icon-wrapper {
+  background: none;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.cube-wrapper .cube.workflow .k-icon-wrapper .k-icon {
+  color: #c7c5c5 !important;
+  font-weight: normal;
+}
+
+/*myTasks*/
+.rectAll,
+.rectLate,
+.rectFrozen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.rectAll {
+  background: #f7e8ff;
+  color: #000;
+}
+
+.rectLate {
+  background: #efefef;
+  color: #464247;
+}
+
+.rectFrozen {
+  background: #efefef;
+  color: #464247;
+}
+
+.statusFrozen,
+.statusLate,
+.statusOngoing {
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.statusFrozen {
+  background: #e8fbf7;
+  color: #69a99f;
+}
+
+.statusLate {
+  background: #fdeff3;
+  color: #fe8daa;
+}
+
+.statusOngoing {
+  background: #f0eaf6;
+  color: #b583ce;
+}
+
+@forward 'workflow';
 /*# sourceMappingURL=style.css.map */

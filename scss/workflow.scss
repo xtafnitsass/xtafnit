@@ -1,0 +1,117 @@
+$workflow-cube-late-color : #ff5a85 !default;
+$workflow-cube-late-background : #fdeff3 !default;
+$workflow-cube-frozen-color : #05685a !default;
+$workflow-cube-frozen-background : #e6f9f6 !default;
+$workflow-cube-openSubTotal-color: #c7c5c5 !default;
+$workflow-cube-ellipsis-color: #c7c5c5 !default;
+
+$workflow-rectAll-background: #f7e8ff !default;
+$workflow-rectAll-color: #000 !default;
+$workflow-rectLate-background: #efefef !default;
+$workflow-rectLate-color: #464247 !default;
+$workflow-rectFrozen-background: #efefef !default;
+$workflow-rectFrozen-color: #464247 !default;
+$workflow-statusFrozen-background:#e8fbf7 !default;
+$workflow-statusFrozen-color:#69a99f !default;
+$workflow-statusLate-background:#fdeff3 !default;
+$workflow-statusLate-color:#fe8daa !default;
+$workflow-statusOngoing-background:#f0eaf6 !default;
+$workflow-statusOngoing-color:#b583ce !default;
+
+/*workflows*/
+
+.cube-wrapper {
+    .cube {
+        &.workflow {
+
+            .late,
+            .frozen {
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .late {
+                background: $workflow-cube-late-background;
+
+                .x-dynamic-label-control {
+                    color: $workflow-cube-late-color !important;
+                }
+            }
+
+            .frozen {
+                background: $workflow-cube-frozen-background;
+
+                .x-dynamic-label-control {
+                    color: $workflow-cube-frozen-color !important;
+                }
+            }
+
+            .openSubTotal {
+                .x-dynamic-label-control {
+                    color: $workflow-cube-openSubTotal-color !important;
+                }
+            }
+
+            .k-icon-wrapper {
+                background: none;
+                left: 0;
+                width: auto;
+                height: auto;
+
+                .k-icon {
+                    color: $workflow-cube-ellipsis-color !important;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+/*myTasks*/
+
+.rectAll,
+.rectLate,
+.rectFrozen {
+    align-items: center;
+    border-radius: 10px;
+}
+
+.rectAll {
+    background: $workflow-rectAll-background;
+    color: $workflow-rectAll-color;
+
+}
+
+.rectLate {
+    background: $workflow-rectLate-background;
+    color: $workflow-rectLate-color;
+}
+
+.rectFrozen {
+    background: $workflow-rectFrozen-background;
+    color: $workflow-rectFrozen-color;
+}
+
+.statusFrozen,
+.statusLate,
+.statusOngoing {
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.statusFrozen {
+    background: $workflow-statusFrozen-background;
+    color: $workflow-statusFrozen-color;
+}
+
+.statusLate {
+    background: $workflow-statusLate-background;
+    color: $workflow-statusLate-color;
+}
+
+.statusOngoing {
+    background: $workflow-statusOngoing-background;
+    color: $workflow-statusOngoing-color;
+}
+
+@forward 'workflow';
