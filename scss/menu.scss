@@ -15,7 +15,7 @@ $menu-popup-padding:5px !default;
     li.k-item {
         border: $menu-button-border !important;
         border-radius: $menu-border-radius !important;
-        .k-state-focused{
+        &.k-state-focused{
             box-shadow: none!important;
         }
         .k-group {
