@@ -8,7 +8,7 @@
   border-radius: 15px !important;
 }
 
-.k-menu li.k-item .k-state-focused {
+.k-menu li.k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
