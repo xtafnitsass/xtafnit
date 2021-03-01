@@ -2535,6 +2535,11 @@ progress[value]::-webkit-progress-value {
   border-radius: 15px !important;
 }
 
+.k-menu li.k-item .k-state-focused {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .k-menu li.k-item .k-group {
   border: 1px solid #eebcfd;
   background: 1px solid #f5f5f5;
@@ -2572,18 +2577,6 @@ progress[value]::-webkit-progress-value {
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
   color: #c7c5c5 !important;
-}
-
-.cube-wrapper .cube.workflow .k-icon-wrapper {
-  background: none;
-  left: 0;
-  width: auto;
-  height: auto;
-}
-
-.cube-wrapper .cube.workflow .k-icon-wrapper .k-icon {
-  color: #c7c5c5 !important;
-  font-weight: normal;
 }
 
 /*myTasks*/
