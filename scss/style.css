@@ -2551,7 +2551,11 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
+<<<<<<< HEAD
   color: #c7c5c5 !important;
+=======
+  color: #333 !important;
+>>>>>>> feature
   font-size: 20px;
 }
 
@@ -2750,4 +2754,6 @@ progress[value]::-webkit-progress-value {
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
 }
+
+@forward 'timeline';
 /*# sourceMappingURL=style.css.map */

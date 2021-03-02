@@ -85,4 +85,6 @@
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
 }
+
+@forward 'timeline';
 /*# sourceMappingURL=timeline.css.map */
