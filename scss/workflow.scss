@@ -19,6 +19,8 @@ $workflow-statusOngoing-color:#b583ce !default;
 
 $workflow-timlineActivity-background:#f0eaf6 !default;
 $workflow-timlineActivity-color: #464247 !default;
+$workflow-timelineUser-color:#464742 !default;
+$workflow-timlineActivityTitle-color:#5a5a5a !default;
 
 
 /*workflows*/
@@ -30,7 +32,7 @@ $workflow-timlineActivity-color: #464247 !default;
             .late,
             .frozen {
                 border-radius: 5px;
-                padding: 5px;
+                width: 100px;
             }
 
             .late {
@@ -107,7 +109,7 @@ $workflow-timlineActivity-color: #464247 !default;
 
 /*timeline*/
 
-.timlineActivity{
+.timlineActivity {
     background: $workflow-timlineActivity-background;
     color: $workflow-timlineActivity-color;
     font-size: 12px;
@@ -115,12 +117,17 @@ $workflow-timlineActivity-color: #464247 !default;
     border-radius: 5px;
 }
 
-.timelineUser{
+.timelineUser {
     font-size: 12px;
-    color: #464742;
+    color: $workflow-timelineUser-color;
 }
-.timlineActivityTitle{
-    color: #5a5a5a;
+
+.timlineActivityTitle {
+    color: $workflow-timlineActivityTitle-color;
+}
+
+.menuRows {
+    font-size: 14px;
 }
 
 @forward 'workflow';
