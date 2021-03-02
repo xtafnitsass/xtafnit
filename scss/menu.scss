@@ -7,6 +7,10 @@ $menu-border-radius:15px !default;
 $menu-color:#333 !default;
 $menu-popup-border-radius:20px !default;
 $menu-popup-padding:5px !default;
+$menu-dot-size:20px!default;
+$menu-label-color:#797979!default;
+$menu-hover-background:#e4e4e4!default;
+$menu-box-shadow:2px 2px 10px rgb(218 ,217 ,217)!default;
 
 .k-menu {
     background: $menu-background;
@@ -23,10 +27,23 @@ $menu-popup-padding:5px !default;
             background: $menu-popup-background;
             border-radius: $menu-popup-border-radius;
             padding: $menu-popup-padding;
+            box-shadow: $menu-box-shadow!important;
         }
 
         i.k-icon {
             color: $menu-color !important;
+            font-size: $menu-dot-size;
+        }
+    }
+    .xMenuItemColor{
+        span{
+            color:$menu-label-color!important;
+        }
+    }
+    .xMenuHover{
+        &:hover{
+            transition: 0.2s all;
+            background:$menu-hover-background;
         }
     }
 }

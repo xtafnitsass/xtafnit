@@ -2,7 +2,7 @@
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
-  padding: 5px;
+  width: 100px;
 }
 
 .cube-wrapper .cube.workflow .late {
@@ -88,6 +88,10 @@
 
 .timlineActivityTitle {
   color: #5a5a5a;
+}
+
+.menuRows {
+  font-size: 14px;
 }
 
 @forward 'workflow';

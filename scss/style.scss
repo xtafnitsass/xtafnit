@@ -334,6 +334,10 @@ $menu-border-radius:15px;
 $menu-color:#c7c5c5;
 $menu-popup-border-radius:20px;
 $menu-popup-padding:5px;
+$menu-dot-size:20px;
+$menu-label-color:#797979;
+$menu-hover-background:#e4e4e4;
+$menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
 /*workflow*/
 
 $workflow-cube-late-color : #ff5a85;
@@ -357,10 +361,22 @@ $workflow-statusOngoing-color:#b583ce;
 
 $workflow-timlineActivity-background:#f0eaf6;
 $workflow-timlineActivity-color: #464247;
+$workflow-timelineUser-color:#464742;
+$workflow-timlineActivityTitle-color:#5a5a5a;
+
+/*timeline*/
+
+$timeline-first-dot-background:#00a1ff;
+$timeline-borderline:2px dashed #eaeaea;
+$timeline-flag-color:#464742;
+$timeline-dot-background:#888;
+$timeline-date-color:#777272;
+$timeline-description-color:#a5a5a5;
+$timeline-card-border-color:#a5a5a5;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './workflow','./timeline';
+'./portal', './stepper', './menu', './workflow', './timeline';
