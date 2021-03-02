@@ -2625,5 +2625,60 @@ progress[value]::-webkit-progress-value {
   color: #b583ce;
 }
 
+/*timeline*/
+.timlineActivity {
+  background: #b583ce;
+  color: #464247;
+  font-size: 12px;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+.timelineUser {
+  font-size: 12px;
+}
+
 @forward 'workflow';
+.k-timeline .k-timeline-circle {
+  display: none;
+}
+
+.k-timeline .k-timeline-flag-wrap:after {
+  content: "";
+  position: absolute;
+  left: 1%;
+  right: 9%;
+  top: 54px;
+  border-top: 2px dashed #eaeaea;
+}
+
+.k-timeline .k-timeline-flag-wrap .k-timeline-flag {
+  background-color: transparent;
+  color: #464742;
+  font-weight: bold;
+}
+
+.k-timeline-card-callout.k-card-callout *.k-callout-w {
+  display: none;
+}
+
+.k-timeline-vertical::after {
+  display: none;
+}
+
+.k-timeline-vertical .k-timeline-card .k-card {
+  width: 1000px;
+}
+
+.k-timeline-vertical .k-timeline-event {
+  padding: 10px 0;
+}
+
+.k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
+  display: none;
+}
+
+.k-rtl .k-timeline-vertical .k-timeline-card .k-card {
+  border-color: darkgray;
+}
 /*# sourceMappingURL=style.css.map */

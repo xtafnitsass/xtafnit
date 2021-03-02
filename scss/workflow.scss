@@ -17,6 +17,10 @@ $workflow-statusLate-color:#fe8daa !default;
 $workflow-statusOngoing-background:#f0eaf6 !default;
 $workflow-statusOngoing-color:#b583ce !default;
 
+$workflow-timlineActivity-background:#f0eaf6 !default;
+$workflow-timlineActivity-color: #464247 !default;
+
+
 /*workflows*/
 
 .cube-wrapper {
@@ -100,5 +104,20 @@ $workflow-statusOngoing-color:#b583ce !default;
     background: $workflow-statusOngoing-background;
     color: $workflow-statusOngoing-color;
 }
+
+/*timeline*/
+
+.timlineActivity{
+    background: $workflow-timlineActivity-background;
+    color: $workflow-timlineActivity-color;
+    font-size: 12px;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.timelineUser{
+    font-size: 12px;
+}
+
 
 @forward 'workflow';
