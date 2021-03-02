@@ -2748,7 +2748,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
-  border-color: solid 1px #eee;
+  border-color: #eee;
 }
 
 @forward 'timeline';
