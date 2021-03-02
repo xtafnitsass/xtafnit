@@ -111,13 +111,16 @@ $workflow-timlineActivity-color: #464247 !default;
     background: $workflow-timlineActivity-background;
     color: $workflow-timlineActivity-color;
     font-size: 12px;
-    padding: 1px 5px;
+    padding: 2px 7px;
     border-radius: 5px;
 }
 
 .timelineUser{
     font-size: 12px;
+    color: #464742;
 }
-
+.timlineActivityTitle{
+    color: #5a5a5a;
+}
 
 @forward 'workflow';

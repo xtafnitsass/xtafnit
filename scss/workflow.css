@@ -77,12 +77,17 @@
   background: #f0eaf6;
   color: #464247;
   font-size: 12px;
-  padding: 1px 5px;
+  padding: 2px 7px;
   border-radius: 5px;
 }
 
 .timelineUser {
   font-size: 12px;
+  color: #464742;
+}
+
+.timlineActivityTitle {
+  color: #5a5a5a;
 }
 
 @forward 'workflow';
