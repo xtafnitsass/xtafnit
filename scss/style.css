@@ -2710,7 +2710,7 @@ progress[value]::-webkit-progress-value {
 
 .k-timeline-vertical .k-timeline-date-wrap {
   position: absolute;
-  right: -20px;
+  right: 20px;
   font-size: 12px;
   padding-right: 0px;
   margin-top: 16px;
@@ -2739,7 +2739,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-timeline-vertical .k-timeline-event {
-  padding: 10px 0;
+  padding: 10px 50px;
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
