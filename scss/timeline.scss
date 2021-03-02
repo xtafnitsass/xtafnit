@@ -1,25 +1,27 @@
-$timeline-first-dot-background:#00a1ff!default;
+$timeline-first-dot-background:#00a1ff !default;
 
 .k-timeline {
+    margin-top: 0px;
+
     .k-timeline-circle {
         display: none;
     }
 
     .k-timeline-flag-wrap {
-        &:first-child{
+        &:first-child {
             .k-timeline-flag {
                 &:before {
                     content: "";
-                    background: $timeline-first-dot-background!important;
+                    background: $timeline-first-dot-background !important;
                 }
             }
         }
+
         &:after {
             content: "";
             position: absolute;
             left: 0px;
             right: 150px;
-            top: 54px;
             border-top: 2px dashed #eaeaea;
         }
 
@@ -56,15 +58,33 @@ $timeline-first-dot-background:#00a1ff!default;
         display: none;
     }
 
+    .k-timeline-date-wrap {
+        position: absolute;
+        right: -20px;
+        font-size: 12px;
+        padding-right: 0px;
+        margin-top: 16px;
+        transform: translate(0, 0);
+
+        .k-timeline-date {
+            display: table-caption;
+            text-align: center;
+            color: #777272;
+        }
+    }
+
     .k-timeline-card {
         .k-card {
             width: 1000px;
             border-radius: 20px;
 
             .k-card-inner {
+                border-radius: 20px;
+
                 .k-card-body {
                     .k-card-description {
                         color: #a5a5a5;
+                        font-size: 14px;
                     }
                 }
             }
