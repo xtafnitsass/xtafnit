@@ -159,15 +159,15 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#f6e9fe;
+$grid-content-line-background-hover:#fdf9ff;
 $grid-content-line-background-hover-amount:0;
 $grid-content-line-color-hover:#000;
-$grid-content-line-background-selected:#f6e9fe;
+$grid-content-line-background-selected:#fdf9ff;
 $grid-content-line-color-selected:#000;
 $grid-content-border:none;
 $grid-content-border-left:none;
 $grid-content-odd-background:none;
-$grid-content-odd-background-mobile:#ccc;
+$grid-content-odd-background-mobile:#fdf9ff;
 $grid-pager-background:none;
 $grid-pager-border:none;
 $grid-pager-nav-background: linear-gradient(to top, #5e1780 -46%, #7f2ba7 163%, #9e30bf 163%);
@@ -335,8 +335,8 @@ $menu-color:#c7c5c5;
 $menu-popup-border-radius:20px;
 $menu-popup-padding:5px;
 $menu-dot-size:20px;
-$menu-label-color:#797979;
-$menu-hover-background:#fcfcfc;
+$menu-label-color:#909090;
+$menu-hover-background:#f1f4ff;
 $menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
 
 /*workflow*/
@@ -345,7 +345,7 @@ $workflow-cube-late-color : #ff5a85;
 $workflow-cube-late-background : #fdeff3;
 $workflow-cube-frozen-color : #05685a;
 $workflow-cube-frozen-background : #e6f9f6;
-$workflow-cube-openSubTotal-color: #c7c5c5;
+$workflow-cube-openSubTotal-color: #909090;
 
 $workflow-rectAll-background: #f7e8ff;
 $workflow-rectAll-color: #000;
@@ -373,7 +373,7 @@ $timeline-flag-color:#464742;
 $timeline-dot-background:#888;
 $timeline-date-color:#777272;
 $timeline-description-color:#a5a5a5;
-$timeline-card-border-color:#a5a5a5;
+$timeline-card-border-color:solid 1px #eee;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

@@ -583,17 +583,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #f6e9fe !important;
+  background-color: #fdf9ff !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #f6e9fe !important;
+  background: #fdf9ff !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #f6e9fe !important;
+  background: #fdf9ff !important;
   color: #000 !important;
 }
 
@@ -614,7 +614,7 @@ mainbody .x-section-header-wrraper {
 
 @media only screen and (max-width: 768px) {
   .k-grid .k-grid-content .k-alt {
-    background: #ccc;
+    background: #fdf9ff;
   }
 }
 
@@ -2556,13 +2556,13 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu .xMenuItemColor span {
-  color: #797979 !important;
+  color: #909090 !important;
 }
 
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #fcfcfc;
+  background: #f1f4ff;
 }
 
 @forward 'menu';
@@ -2590,7 +2590,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
-  color: #c7c5c5 !important;
+  color: #909090 !important;
 }
 
 /*myTasks*/
@@ -2711,7 +2711,7 @@ progress[value]::-webkit-progress-value {
 
 .k-timeline-vertical .k-timeline-date-wrap {
   position: absolute;
-  right: -20px;
+  right: 20px;
   font-size: 12px;
   padding-right: 0px;
   margin-top: 16px;
@@ -2740,7 +2740,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-timeline-vertical .k-timeline-event {
-  padding: 10px 0;
+  padding: 10px 50px;
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
@@ -2748,7 +2748,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
-  border-color: #a5a5a5;
+  border-color: solid 1px #eee;
 }
 
 @forward 'timeline';
