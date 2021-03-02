@@ -1,14 +1,24 @@
+$timeline-first-dot-background:#00a1ff!default;
+
 .k-timeline {
     .k-timeline-circle {
         display: none;
     }
 
     .k-timeline-flag-wrap {
+        &:first-child{
+            .k-timeline-flag {
+                &:before {
+                    content: "";
+                    background: $timeline-first-dot-background!important;
+                }
+            }
+        }
         &:after {
             content: "";
             position: absolute;
-            left: 1%;
-            right: 9%;
+            left: 0px;
+            right: 150px;
             top: 54px;
             border-top: 2px dashed #eaeaea;
         }
@@ -17,6 +27,17 @@
             background-color: transparent;
             color: #464742;
             font-weight: bold;
+
+            &:before {
+                content: "";
+                width: 7px;
+                height: 7px;
+                background: #888;
+                border-radius: 50%;
+                position: absolute;
+                top: 12px;
+                right: 0px;
+            }
         }
     }
 }
@@ -38,6 +59,15 @@
     .k-timeline-card {
         .k-card {
             width: 1000px;
+            border-radius: 20px;
+
+            .k-card-inner {
+                .k-card-body {
+                    .k-card-description {
+                        color: #a5a5a5;
+                    }
+                }
+            }
         }
     }
 
