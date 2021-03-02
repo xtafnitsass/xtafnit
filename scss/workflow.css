@@ -72,5 +72,18 @@
   color: #b583ce;
 }
 
+/*timeline*/
+.timlineActivity {
+  background: #f0eaf6;
+  color: #464247;
+  font-size: 12px;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+.timelineUser {
+  font-size: 12px;
+}
+
 @forward 'workflow';
 /*# sourceMappingURL=workflow.css.map */
