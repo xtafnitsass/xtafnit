@@ -29,6 +29,7 @@
 /*stepper*/
 /*menu*/
 /*workflow*/
+/*timeline*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000;
@@ -2544,10 +2545,23 @@ progress[value]::-webkit-progress-value {
   background: 1px solid #f5f5f5;
   border-radius: 20px;
   padding: 5px;
+  -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
+          box-shadow: 2px 2px 10px #dad9d9 !important;
 }
 
 .k-menu li.k-item i.k-icon {
   color: #333 !important;
+  font-size: 20px;
+}
+
+.k-menu .xMenuItemColor span {
+  color: #797979 !important;
+}
+
+.k-menu .xMenuHover:hover {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background: #e4e4e4;
 }
 
 @forward 'menu';
@@ -2555,7 +2569,7 @@ progress[value]::-webkit-progress-value {
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
-  padding: 5px;
+  width: 100px;
 }
 
 .cube-wrapper .cube.workflow .late {
@@ -2641,6 +2655,10 @@ progress[value]::-webkit-progress-value {
 
 .timlineActivityTitle {
   color: #5a5a5a;
+}
+
+.menuRows {
+  font-size: 14px;
 }
 
 @forward 'workflow';
@@ -2729,6 +2747,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
-  border-color: darkgray;
+  border-color: #a5a5a5;
 }
+
+@forward 'timeline';
 /*# sourceMappingURL=style.css.map */
