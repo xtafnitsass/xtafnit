@@ -2551,11 +2551,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
-<<<<<<< HEAD
   color: #c7c5c5 !important;
-=======
-  color: #333 !important;
->>>>>>> feature
   font-size: 20px;
 }
 
@@ -2566,7 +2562,7 @@ progress[value]::-webkit-progress-value {
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #e4e4e4;
+  background: #fcfcfc;
 }
 
 @forward 'menu';
