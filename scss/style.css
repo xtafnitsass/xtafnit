@@ -2628,15 +2628,20 @@ progress[value]::-webkit-progress-value {
 
 /*timeline*/
 .timlineActivity {
-  background: #b583ce;
+  background: #f0eaf6;
   color: #464247;
   font-size: 12px;
-  padding: 1px 5px;
+  padding: 2px 7px;
   border-radius: 5px;
 }
 
 .timelineUser {
   font-size: 12px;
+  color: #464742;
+}
+
+.timlineActivityTitle {
+  color: #5a5a5a;
 }
 
 @forward 'workflow';
@@ -2644,11 +2649,16 @@ progress[value]::-webkit-progress-value {
   display: none;
 }
 
+.k-timeline .k-timeline-flag-wrap:first-child .k-timeline-flag:before {
+  content: "";
+  background: #00a1ff !important;
+}
+
 .k-timeline .k-timeline-flag-wrap:after {
   content: "";
   position: absolute;
-  left: 1%;
-  right: 9%;
+  left: 0px;
+  right: 150px;
   top: 54px;
   border-top: 2px dashed #eaeaea;
 }
@@ -2657,6 +2667,17 @@ progress[value]::-webkit-progress-value {
   background-color: transparent;
   color: #464742;
   font-weight: bold;
+}
+
+.k-timeline .k-timeline-flag-wrap .k-timeline-flag:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #888;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  right: 0px;
 }
 
 .k-timeline-card-callout.k-card-callout *.k-callout-w {
@@ -2669,6 +2690,11 @@ progress[value]::-webkit-progress-value {
 
 .k-timeline-vertical .k-timeline-card .k-card {
   width: 1000px;
+  border-radius: 20px;
+}
+
+.k-timeline-vertical .k-timeline-card .k-card .k-card-inner .k-card-body .k-card-description {
+  color: #a5a5a5;
 }
 
 .k-timeline-vertical .k-timeline-event {
