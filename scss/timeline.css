@@ -35,7 +35,7 @@
 .k-timeline .k-timeline-flag-wrap:after {
   content: "";
   position: absolute;
-  left: 0px;
+  left: 40px;
   right: 150px;
   border-top: 2px dashed #eaeaea;
 }
@@ -131,8 +131,8 @@
   background: #f8fbfe !important;
 }
 
-.k-window .k-timeline-flag-wrap :after {
-  left: 85px !important;
+.k-window .k-timeline-flag-wrap:after {
+  left: 80px !important;
 }
 
 @forward 'timeline';
