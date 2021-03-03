@@ -1,3 +1,9 @@
+/*fix checkbox*/
+ul.fieldlist {
+  position: relative;
+  top: 4px;
+}
+
 /*workflows*/
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {

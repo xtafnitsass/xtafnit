@@ -751,9 +751,9 @@ input[type="time"] {
   border-color: #464247;
   background-color: #fafafa !important;
   border-style: solid;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
   border-bottom-width: 1px;
 }
 
@@ -2566,6 +2566,12 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+/*fix checkbox*/
+ul.fieldlist {
+  position: relative;
+  top: 4px;
+}
+
 /*workflows*/
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
