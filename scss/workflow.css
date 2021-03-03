@@ -131,7 +131,22 @@ ul.fieldlist {
 .textAreaPadding textarea {
   padding-top: 15px;
   padding-right: 15px;
-  color: #464247;
+}
+
+.textAreaPadding textarea::-webkit-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea:-ms-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea::-ms-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea::placeholder {
+  color: #464247 !important;
 }
 
 /*color floating label*/
