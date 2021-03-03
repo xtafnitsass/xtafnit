@@ -117,6 +117,10 @@ $workflow-textarea-color:#464247 !default;
     color: $workflow-statusOngoing-color;
 }
 
+.transformFlipX {
+    transform: scaleX(-1);
+}
+
 /*timeline*/
 
 .timlineActivity {
@@ -148,6 +152,11 @@ $workflow-textarea-color:#464247 !default;
         margin-top: 5px;
         position: relative;
         right: -20px;
+    }
+
+    .pageContainer {
+        margin: 0 auto !important;
+        height: 99% !important;
     }
 }
 
