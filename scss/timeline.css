@@ -24,7 +24,7 @@
 }
 
 .k-timeline .k-timeline-circle {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline .k-timeline-flag-wrap:first-child .k-timeline-flag:before {
@@ -58,7 +58,7 @@
 }
 
 .k-timeline-card-callout.k-card-callout.k-callout-w {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline-vertical {
@@ -66,7 +66,7 @@
 }
 
 .k-timeline-vertical::after {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline-vertical .k-timeline-date-wrap {
@@ -109,7 +109,7 @@
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
-  display: none;
+  display: none !important;
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
