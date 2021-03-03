@@ -60,6 +60,7 @@ $timeline-card-border-color:#a5a5a5 !default;
 }
 
 .k-timeline-vertical {
+    padding-left: 0;
     &::after {
         display: none;
     }
@@ -80,6 +81,7 @@ $timeline-card-border-color:#a5a5a5 !default;
     }
 
     .k-timeline-card {
+        width: 100%;
         .k-card {
             width: 1000px;
             border-radius: 20px;
@@ -99,6 +101,7 @@ $timeline-card-border-color:#a5a5a5 !default;
 
     .k-timeline-event {
         padding: 10px 50px;
+        padding-left: 0px;
     }
 }
 

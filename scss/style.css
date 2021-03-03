@@ -2728,6 +2728,10 @@ ul.fieldlist {
   display: none;
 }
 
+.k-timeline-vertical {
+  padding-left: 0;
+}
+
 .k-timeline-vertical::after {
   display: none;
 }
@@ -2748,6 +2752,10 @@ ul.fieldlist {
   color: #777272;
 }
 
+.k-timeline-vertical .k-timeline-card {
+  width: 100%;
+}
+
 .k-timeline-vertical .k-timeline-card .k-card {
   width: 1000px;
   border-radius: 20px;
@@ -2764,6 +2772,7 @@ ul.fieldlist {
 
 .k-timeline-vertical .k-timeline-event {
   padding: 10px 50px;
+  padding-left: 0px;
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
