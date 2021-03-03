@@ -1,5 +1,26 @@
 .k-timeline {
   margin-top: 0px;
+  height: 610px;
+  overflow-y: scroll;
+}
+
+.k-timeline::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.k-timeline::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #dfdbdb;
+}
+
+.k-timeline::-webkit-scrollbar-thumb {
+  background: #a9bdca;
+  border-radius: 10px;
+}
+
+.k-timeline::-webkit-scrollbar-thumb:hover {
+  background: #99b1c0;
 }
 
 .k-timeline .k-timeline-circle {
@@ -96,7 +117,10 @@
 }
 
 .k-window .k-timeline {
+  border-radius: 20px;
   background: #f8fbfe !important;
+  height: 471px !important;
+  overflow-y: scroll !important;
 }
 
 .k-window .k-timeline .k-card-header {
@@ -105,6 +129,10 @@
 
 .k-window .k-timeline .k-card-inner {
   background: #f8fbfe !important;
+}
+
+.k-window .k-timeline-flag-wrap :after {
+  left: 85px !important;
 }
 
 @forward 'timeline';
