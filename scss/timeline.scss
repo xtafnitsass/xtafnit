@@ -55,7 +55,7 @@ $timeline-scoller-background:#a9bdca!default;
         &:after {
             content: "";
             position: absolute;
-            left: 0px;
+            left: 40px;
             right: 150px;
             border-top: $timeline-borderline;
         }
@@ -169,8 +169,8 @@ $timeline-scoller-background:#a9bdca!default;
     }
 
     .k-timeline-flag-wrap {
-        :after {
-            left: 85px !important;
+        &:after {
+            left: 80px !important;
         }
     }
 }

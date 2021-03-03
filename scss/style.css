@@ -2695,6 +2695,18 @@ ul.fieldlist {
   color: #02b5fd !important;
 }
 
+/*fix textarea*/
+.textAreaPadding textarea {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+/*color floating label*/
+.p-floating-container input:not(:placeholder-shown) + label,
+.p-floating-container ul[role="listbox"] + input + label {
+  color: #afaeb0 !important;
+}
+
 @forward 'workflow';
 .k-timeline {
   margin-top: 0px;
@@ -2733,7 +2745,7 @@ ul.fieldlist {
 .k-timeline .k-timeline-flag-wrap:after {
   content: "";
   position: absolute;
-  left: 0px;
+  left: 40px;
   right: 150px;
   border-top: 2px dashed #eaeaea;
 }
@@ -2829,8 +2841,8 @@ ul.fieldlist {
   background: #f8fbfe !important;
 }
 
-.k-window .k-timeline-flag-wrap :after {
-  left: 85px !important;
+.k-window .k-timeline-flag-wrap:after {
+  left: 80px !important;
 }
 
 @forward 'timeline';
