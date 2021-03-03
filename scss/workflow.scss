@@ -24,11 +24,15 @@ $workflow-timlineActivityTitle-color:#5a5a5a !default;
 
 $workflow-checkbox-border-color:#464742 !default;
 $workflow-checkbox-color:#464742 !default;
+$workflow-checkbox-border-color-checked:#02b5fd !default;
+$workflow-checkbox-color-checked:#02b5fd !default;
 
 /*workflows*/
 
 .cube-wrapper {
     .cube {
+        min-height: 213px!important;
+        max-width: 340px!important;
         &.workflow {
 
             .late,
@@ -142,9 +146,17 @@ ul.fieldlist {
 }
 
 /*fix checkbox*/
+
 .k-checkbox {
-    border-color: $workflow-checkbox-border-color!important;
-    color: $workflow-checkbox-color!important;
+    border-color: $workflow-checkbox-border-color !important;
+    color: $workflow-checkbox-color !important;
+
+    &:hover,
+    &:checked,
+    &:focus {
+        border-color: $workflow-checkbox-border-color-checked!important;
+        color: $workflow-checkbox-color-checked!important;
+    }
 }
 
 
