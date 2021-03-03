@@ -53,7 +53,7 @@ $timeline-card-border-color:#a5a5a5 !default;
 
 .k-timeline-card-callout {
     &.k-card-callout {
-        *.k-callout-w {
+        &.k-callout-w {
             display: none;
         }
     }
