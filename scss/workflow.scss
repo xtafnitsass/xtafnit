@@ -26,8 +26,8 @@ $workflow-checkbox-border-color:#464742 !default;
 $workflow-checkbox-color:#464742 !default;
 $workflow-checkbox-border-color-checked:#02b5fd !default;
 $workflow-checkbox-color-checked:#02b5fd !default;
-$workflow-floating-lable-color:#afaeb0!default;
-$workflow-textarea-color:#464247!default;
+$workflow-floating-lable-color:#afaeb0 !default;
+$workflow-textarea-color:#464247 !default;
 
 /*workflows*/
 
@@ -179,7 +179,10 @@ ul.fieldlist {
     textarea {
         padding-top: 15px;
         padding-right: 15px;
-        color:$workflow-textarea-color;
+
+        &::placeholder {
+            color: $workflow-textarea-color !important;
+        }
     }
 }
 
@@ -187,7 +190,7 @@ ul.fieldlist {
 
 .p-floating-container input:not(:placeholder-shown)+label,
 .p-floating-container ul[role="listbox"]+input+label {
-    color:$workflow-floating-lable-color!important;
+    color: $workflow-floating-lable-color !important;
 }
 
 @forward 'workflow';

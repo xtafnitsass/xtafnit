@@ -108,12 +108,12 @@
   padding-left: 0px;
 }
 
-.k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
-  display: none !important;
-}
-
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
+}
+
+.k-event-collapse {
+  display: none !important;
 }
 
 .k-window .k-timeline {
