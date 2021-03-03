@@ -1,7 +1,6 @@
 /*workflows*/
 .cube-wrapper .cube {
   min-height: 213px !important;
-  max-width: 340px !important;
 }
 
 .cube-wrapper .cube.workflow .late,
@@ -104,6 +103,7 @@
 .menuRows {
   font-size: 14px;
   min-height: 108px;
+  min-width: 137px;
 }
 
 .k-window .timlineActivity {

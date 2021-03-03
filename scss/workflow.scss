@@ -34,8 +34,6 @@ $workflow-textarea-color:#464247 !default;
 .cube-wrapper {
     .cube {
         min-height: 213px !important;
-        max-width: 340px !important;
-
         &.workflow {
 
             .late,
@@ -143,6 +141,7 @@ $workflow-textarea-color:#464247 !default;
 .menuRows {
     font-size: 14px;
     min-height: 108px;
+    min-width: 137px;
 }
 
 .k-window {
