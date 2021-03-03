@@ -2666,6 +2666,13 @@ progress[value]::-webkit-progress-value {
   font-size: 14px;
 }
 
+.k-window .timlineActivity {
+  display: block !important;
+  margin-top: 5px;
+  position: relative;
+  right: -20px;
+}
+
 /*ConfirmActivity*/
 /*fix checkbox*/
 ul.fieldlist {
@@ -2756,7 +2763,7 @@ ul.fieldlist {
 }
 
 .k-timeline-vertical .k-timeline-card .k-card {
-  width: 100%;
+  width: 85%;
   border-radius: 20px;
 }
 
@@ -2780,6 +2787,18 @@ ul.fieldlist {
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
+}
+
+.k-window .k-timeline {
+  background: #f8fbfe !important;
+}
+
+.k-window .k-timeline .k-card-header {
+  background: #f8fbfe !important;
+}
+
+.k-window .k-timeline .k-card-inner {
+  background: #f8fbfe !important;
 }
 
 @forward 'timeline';

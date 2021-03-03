@@ -99,6 +99,13 @@
   font-size: 14px;
 }
 
+.k-window .timlineActivity {
+  display: block !important;
+  margin-top: 5px;
+  position: relative;
+  right: -20px;
+}
+
 /*ConfirmActivity*/
 /*fix checkbox*/
 ul.fieldlist {
