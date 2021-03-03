@@ -6,11 +6,11 @@ $timeline-date-color:#777272 !default;
 $timeline-description-color:#a5a5a5 !default;
 $timeline-card-border-color:#a5a5a5 !default;
 $timeline-window-background:#f8fbfe !default;
-$timeline-scoller-radius:10px!default;
-$timeline-scoller-width:10px!default;
-$timeline-scoller-height:10px!default;
-$timeline-scoller-webkit-background:#dfdbdb!default;
-$timeline-scoller-background:#a9bdca!default;
+$timeline-scoller-radius:10px !default;
+$timeline-scoller-width:10px !default;
+$timeline-scoller-height:10px !default;
+$timeline-scoller-webkit-background:#dfdbdb !default;
+$timeline-scoller-background:#a9bdca !default;
 
 
 .k-timeline {
@@ -39,7 +39,7 @@ $timeline-scoller-background:#a9bdca!default;
     }
 
     .k-timeline-circle {
-        display: none!important;
+        display: none !important;
     }
 
     .k-timeline-flag-wrap {
@@ -83,7 +83,7 @@ $timeline-scoller-background:#a9bdca!default;
 .k-timeline-card-callout {
     &.k-card-callout {
         &.k-callout-w {
-            display: none!important;
+            display: none !important;
         }
     }
 }
@@ -92,7 +92,7 @@ $timeline-scoller-background:#a9bdca!default;
     padding-left: 0;
 
     &::after {
-        display: none!important;
+        display: none !important;
     }
 
     .k-timeline-date-wrap {
@@ -139,12 +139,6 @@ $timeline-scoller-background:#a9bdca!default;
 .k-rtl {
     .k-timeline-vertical {
         .k-timeline-card {
-            &.k-collapsed {
-                .k-event-collapse {
-                    display: none!important;
-                }
-            }
-
             .k-card {
                 border-color: $timeline-card-border-color;
             }
@@ -152,12 +146,16 @@ $timeline-scoller-background:#a9bdca!default;
     }
 }
 
+.k-event-collapse {
+    display: none !important;
+}
+
 .k-window {
     .k-timeline {
         border-radius: 20px;
         background: $timeline-window-background !important;
-        height: 471px!important;
-        overflow-y: scroll!important;
+        height: 471px !important;
+        overflow-y: scroll !important;
 
         .k-card-header {
             background: $timeline-window-background !important;
