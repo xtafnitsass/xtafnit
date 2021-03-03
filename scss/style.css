@@ -2645,6 +2645,11 @@ progress[value]::-webkit-progress-value {
   color: #b583ce;
 }
 
+.transformFlipX {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
 /*timeline*/
 .timlineActivity {
   background: #b583ce;
@@ -2674,6 +2679,11 @@ progress[value]::-webkit-progress-value {
   margin-top: 5px;
   position: relative;
   right: -20px;
+}
+
+.k-window .pageContainer {
+  margin: 0 auto !important;
+  height: 99% !important;
 }
 
 /*ConfirmActivity*/
