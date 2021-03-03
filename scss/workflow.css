@@ -1,4 +1,9 @@
 /*workflows*/
+.cube-wrapper .cube {
+  min-height: 213px !important;
+  max-width: 340px !important;
+}
+
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
@@ -105,6 +110,11 @@ ul.fieldlist {
 .k-checkbox {
   border-color: #464742 !important;
   color: #464742 !important;
+}
+
+.k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
+  border-color: #02b5fd !important;
+  color: #02b5fd !important;
 }
 
 @forward 'workflow';
