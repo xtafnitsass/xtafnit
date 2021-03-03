@@ -22,13 +22,8 @@ $workflow-timlineActivity-color: #464247 !default;
 $workflow-timelineUser-color:#464742 !default;
 $workflow-timlineActivityTitle-color:#5a5a5a !default;
 
-
-/*fix checkbox*/
-
-ul.fieldlist {
-    position: relative;
-    top: 4px;
-}
+$workflow-checkbox-border-color:#464742 !default;
+$workflow-checkbox-color:#464742 !default;
 
 /*workflows*/
 
@@ -136,5 +131,22 @@ ul.fieldlist {
 .menuRows {
     font-size: 14px;
 }
+
+/*ConfirmActivity*/
+
+/*fix checkbox*/
+
+ul.fieldlist {
+    position: relative;
+    top: 4px;
+}
+
+/*fix checkbox*/
+.k-checkbox {
+    border-color: $workflow-checkbox-border-color!important;
+    color: $workflow-checkbox-color!important;
+}
+
+
 
 @forward 'workflow';
