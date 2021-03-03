@@ -23,6 +23,13 @@ $workflow-timelineUser-color:#464742 !default;
 $workflow-timlineActivityTitle-color:#5a5a5a !default;
 
 
+/*fix checkbox*/
+
+ul.fieldlist {
+    position: relative;
+    top: 4px;
+}
+
 /*workflows*/
 
 .cube-wrapper {
