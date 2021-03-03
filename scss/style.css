@@ -2702,19 +2702,19 @@ ul.fieldlist {
 }
 
 .textAreaPadding textarea::-webkit-input-placeholder {
-  color: #464247 !important;
+  color: #afaeb0 !important;
 }
 
 .textAreaPadding textarea:-ms-input-placeholder {
-  color: #464247 !important;
+  color: #afaeb0 !important;
 }
 
 .textAreaPadding textarea::-ms-input-placeholder {
-  color: #464247 !important;
+  color: #afaeb0 !important;
 }
 
 .textAreaPadding textarea::placeholder {
-  color: #464247 !important;
+  color: #afaeb0 !important;
 }
 
 /*color floating label*/
