@@ -2551,7 +2551,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
-  color: #c7c5c5 !important;
+  color: #c4c5c5 !important;
   font-size: 20px;
 }
 
@@ -2562,7 +2562,7 @@ progress[value]::-webkit-progress-value {
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #f8fbff;
+  background: #fafafa;
 }
 
 @forward 'menu';
@@ -2595,7 +2595,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
-  color: #909090 !important;
+  color: #656266 !important;
 }
 
 /*myTasks*/
