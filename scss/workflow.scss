@@ -31,8 +31,9 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 
 .cube-wrapper {
     .cube {
-        min-height: 213px!important;
-        max-width: 340px!important;
+        min-height: 213px !important;
+        max-width: 340px !important;
+
         &.workflow {
 
             .late,
@@ -136,6 +137,15 @@ $workflow-checkbox-color-checked:#02b5fd !default;
     font-size: 14px;
 }
 
+.k-window {
+    .timlineActivity {
+        display: block !important;
+        margin-top: 5px;
+        position: relative;
+        right: -20px;
+    }
+}
+
 /*ConfirmActivity*/
 
 /*fix checkbox*/
@@ -154,8 +164,8 @@ ul.fieldlist {
     &:hover,
     &:checked,
     &:focus {
-        border-color: $workflow-checkbox-border-color-checked!important;
-        color: $workflow-checkbox-color-checked!important;
+        border-color: $workflow-checkbox-border-color-checked !important;
+        color: $workflow-checkbox-color-checked !important;
     }
 }
 

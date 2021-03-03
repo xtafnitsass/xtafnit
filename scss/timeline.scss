@@ -5,6 +5,7 @@ $timeline-dot-background:#888 !default;
 $timeline-date-color:#777272 !default;
 $timeline-description-color:#a5a5a5 !default;
 $timeline-card-border-color:#a5a5a5 !default;
+$timeline-window-background:#f8fbfe !default;
 
 .k-timeline {
     margin-top: 0px;
@@ -61,6 +62,7 @@ $timeline-card-border-color:#a5a5a5 !default;
 
 .k-timeline-vertical {
     padding-left: 0;
+
     &::after {
         display: none;
     }
@@ -82,8 +84,9 @@ $timeline-card-border-color:#a5a5a5 !default;
 
     .k-timeline-card {
         width: 100%;
+
         .k-card {
-            width: 100%;
+            width: 85%;
             border-radius: 20px;
 
             .k-card-inner {
@@ -117,6 +120,20 @@ $timeline-card-border-color:#a5a5a5 !default;
             .k-card {
                 border-color: $timeline-card-border-color;
             }
+        }
+    }
+}
+
+.k-window {
+    .k-timeline {
+        background: $timeline-window-background !important;
+
+        .k-card-header {
+            background: $timeline-window-background !important;
+        }
+
+        .k-card-inner {
+            background: $timeline-window-background !important;
         }
     }
 }

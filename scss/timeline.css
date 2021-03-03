@@ -69,7 +69,7 @@
 }
 
 .k-timeline-vertical .k-timeline-card .k-card {
-  width: 100%;
+  width: 85%;
   border-radius: 20px;
 }
 
@@ -93,6 +93,18 @@
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
+}
+
+.k-window .k-timeline {
+  background: #f8fbfe !important;
+}
+
+.k-window .k-timeline .k-card-header {
+  background: #f8fbfe !important;
+}
+
+.k-window .k-timeline .k-card-inner {
+  background: #f8fbfe !important;
 }
 
 @forward 'timeline';
