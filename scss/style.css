@@ -2698,6 +2698,7 @@ ul.fieldlist {
 .textAreaPadding textarea {
   padding-top: 15px;
   padding-right: 15px;
+  color: #464247;
 }
 
 /*color floating label*/
@@ -2733,7 +2734,7 @@ ul.fieldlist {
 }
 
 .k-timeline .k-timeline-circle {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline .k-timeline-flag-wrap:first-child .k-timeline-flag:before {
@@ -2767,7 +2768,7 @@ ul.fieldlist {
 }
 
 .k-timeline-card-callout.k-card-callout.k-callout-w {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline-vertical {
@@ -2775,7 +2776,7 @@ ul.fieldlist {
 }
 
 .k-timeline-vertical::after {
-  display: none;
+  display: none !important;
 }
 
 .k-timeline-vertical .k-timeline-date-wrap {
@@ -2818,7 +2819,7 @@ ul.fieldlist {
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card.k-collapsed .k-event-collapse {
-  display: none;
+  display: none !important;
 }
 
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
