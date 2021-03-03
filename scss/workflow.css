@@ -127,5 +127,17 @@ ul.fieldlist {
   color: #02b5fd !important;
 }
 
+/*fix textarea*/
+.textAreaPadding textarea {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+/*color floating label*/
+.p-floating-container input:not(:placeholder-shown) + label,
+.p-floating-container ul[role="listbox"] + input + label {
+  color: #afaeb0 !important;
+}
+
 @forward 'workflow';
 /*# sourceMappingURL=workflow.css.map */
