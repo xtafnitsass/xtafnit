@@ -97,6 +97,7 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 .statusOngoing {
     padding: 2px 10px;
     border-radius: 10px;
+    font-size:12px;
 }
 
 .statusFrozen {
@@ -135,6 +136,8 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 
 .menuRows {
     font-size: 14px;
+    min-width: 137px;
+    min-height: 108px;
 }
 
 .k-window {
