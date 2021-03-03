@@ -6,9 +6,37 @@ $timeline-date-color:#777272 !default;
 $timeline-description-color:#a5a5a5 !default;
 $timeline-card-border-color:#a5a5a5 !default;
 $timeline-window-background:#f8fbfe !default;
+$timeline-scoller-radius:10px!default;
+$timeline-scoller-width:10px!default;
+$timeline-scoller-height:10px!default;
+$timeline-scoller-webkit-background:#dfdbdb!default;
+$timeline-scoller-background:#a9bdca!default;
+
 
 .k-timeline {
     margin-top: 0px;
+    height: 610px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar-track {
+        border-radius: $timeline-scoller-radius;
+    }
+
+    &::-webkit-scrollbar {
+        width: $timeline-scoller-width;
+        height: $timeline-scoller-height;
+        background: $timeline-scoller-webkit-background;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $timeline-scoller-background;
+        border-radius: $timeline-scoller-radius;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: darken($timeline-scoller-background, 5);
+    }
 
     .k-timeline-circle {
         display: none;
@@ -126,7 +154,10 @@ $timeline-window-background:#f8fbfe !default;
 
 .k-window {
     .k-timeline {
+        border-radius: 20px;
         background: $timeline-window-background !important;
+        height: 471px!important;
+        overflow-y: scroll!important;
 
         .k-card-header {
             background: $timeline-window-background !important;
@@ -134,6 +165,12 @@ $timeline-window-background:#f8fbfe !default;
 
         .k-card-inner {
             background: $timeline-window-background !important;
+        }
+    }
+
+    .k-timeline-flag-wrap {
+        :after {
+            left: 85px !important;
         }
     }
 }
