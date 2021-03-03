@@ -39,7 +39,7 @@ $timeline-scoller-background:#a9bdca!default;
     }
 
     .k-timeline-circle {
-        display: none;
+        display: none!important;
     }
 
     .k-timeline-flag-wrap {
@@ -83,7 +83,7 @@ $timeline-scoller-background:#a9bdca!default;
 .k-timeline-card-callout {
     &.k-card-callout {
         &.k-callout-w {
-            display: none;
+            display: none!important;
         }
     }
 }
@@ -92,7 +92,7 @@ $timeline-scoller-background:#a9bdca!default;
     padding-left: 0;
 
     &::after {
-        display: none;
+        display: none!important;
     }
 
     .k-timeline-date-wrap {
@@ -141,7 +141,7 @@ $timeline-scoller-background:#a9bdca!default;
         .k-timeline-card {
             &.k-collapsed {
                 .k-event-collapse {
-                    display: none;
+                    display: none!important;
                 }
             }
 

@@ -131,6 +131,7 @@ ul.fieldlist {
 .textAreaPadding textarea {
   padding-top: 15px;
   padding-right: 15px;
+  color: #464247;
 }
 
 /*color floating label*/
