@@ -36,7 +36,7 @@
   right: 0px;
 }
 
-.k-timeline-card-callout.k-card-callout *.k-callout-w {
+.k-timeline-card-callout.k-card-callout.k-callout-w {
   display: none;
 }
 
