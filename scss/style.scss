@@ -380,6 +380,11 @@ $timeline-date-color:#777272;
 $timeline-description-color:#a5a5a5;
 $timeline-card-border-color:#a5a5a5;
 $timeline-window-background:#f8fbfe;
+$timeline-scoller-radius:10px;
+$timeline-scoller-width:10px;
+$timeline-scoller-height:10px;
+$timeline-scoller-webkit-background:#dfdbdb;
+$timeline-scoller-background:#a9bdca;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
