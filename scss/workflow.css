@@ -1,9 +1,3 @@
-/*fix checkbox*/
-ul.fieldlist {
-  position: relative;
-  top: 4px;
-}
-
 /*workflows*/
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
@@ -98,6 +92,19 @@ ul.fieldlist {
 
 .menuRows {
   font-size: 14px;
+}
+
+/*ConfirmActivity*/
+/*fix checkbox*/
+ul.fieldlist {
+  position: relative;
+  top: 4px;
+}
+
+/*fix checkbox*/
+.k-checkbox {
+  border-color: #464742 !important;
+  color: #464742 !important;
 }
 
 @forward 'workflow';
