@@ -2,10 +2,10 @@
   .roundedNoneMobile {
     border-radius: 0 !important;
   }
-  .xtafnit_pageContainer,
-  #uber-container {
-    padding: 0 !important;
-  }
+}
+
+.roundedNoneMobile {
+  border-radius: 20px !important;
 }
 
 /*workflows*/
