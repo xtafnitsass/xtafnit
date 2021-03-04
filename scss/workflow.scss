@@ -29,15 +29,14 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 $workflow-floating-lable-color:#afaeb0 !default;
 $workflow-textarea-color:#464247 !default;
 
+.roundedNoneMobile {
+    border-radius: 20px !important;
+}
 
 @media only screen and(max-width:1024px) {
     .roundedNoneMobile {
         border-radius: 0 !important;
     }
-}
-
-.roundedNoneMobile {
-    border-radius: 20px !important;
 }
 
 /*workflows*/

@@ -1,11 +1,11 @@
+.roundedNoneMobile {
+  border-radius: 20px !important;
+}
+
 @media only screen and (max-width: 1024px) {
   .roundedNoneMobile {
     border-radius: 0 !important;
   }
-}
-
-.roundedNoneMobile {
-  border-radius: 20px !important;
 }
 
 /*workflows*/
