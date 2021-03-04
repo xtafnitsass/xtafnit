@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1024px) {
+  .roundedNoneMobile {
+    border-radius: 0 !important;
+  }
+  .xtafnit_pageContainer,
+  #uber-container {
+    padding: 0 !important;
+  }
+}
+
 /*workflows*/
 .cube-wrapper .cube {
   min-height: 213px !important;
@@ -80,6 +90,21 @@
 .transformFlipX {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+}
+
+.fixPadding .col {
+  padding-left: 0px !important;
+}
+
+.fixPadding .col .x-cell-header {
+  margin-top: 10px !important;
+  margin-bottom: 25px !important;
+}
+
+.fixButton .k-button {
+  width: 75px !important;
+  min-width: 100%;
+  padding: 0 !important;
 }
 
 /*timeline*/
