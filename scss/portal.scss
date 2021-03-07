@@ -1432,12 +1432,24 @@ mainbody {
     }
 }
 
-.cube {
-    &.cubeFix {
-        .k-icon-wrapper {
-            background-image: none !important;
-            color: inherit !important;
-            left: 20px !important;
+
+.cube-wrapper {
+    .cube {
+        &.cubeFix {
+            .k-icon-wrapper {
+                background-image: none !important;
+                color: inherit !important;
+                left: 20px !important;
+            }
+        }
+        .font-weight-bold {
+            flex-direction: row !important;
+        }
+
+        @media only screen and (min-width:1480px) {
+            flex: 0 0 16%;
+            max-width: 16%;
+            margin-bottom: 10px;
         }
     }
 }
@@ -1457,23 +1469,6 @@ mainbody {
     }
 }
 
-
-#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance,
-#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
-    .cube-wrapper {
-        .cube {
-            .font-weight-bold {
-                flex-direction: row !important;
-            }
-
-            @media only screen and (min-width:1480px) {
-                flex: 0 0 16%;
-                max-width: 16%;
-                margin-bottom: 10px;
-            }
-        }
-    }
-}
 
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder,
 #TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice,
