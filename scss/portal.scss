@@ -1261,6 +1261,7 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login,
+#TafnitCore_SaaSServer_Portal_Agents_UI_Login,
 #TafnitCore_ToDo_UI_Login {
 
     mainbody {
@@ -1431,9 +1432,8 @@ mainbody {
     }
 }
 
-//suppliers balance//
-#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance {
-    .cube {
+.cube {
+    &.cubeFix {
         .k-icon-wrapper {
             background-image: none !important;
             color: inherit !important;
@@ -1446,14 +1446,6 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
         height: 45vh !important;
-    }
-
-    .cube {
-        .k-icon-wrapper {
-            background-image: none !important;
-            color: inherit !important;
-            left: 20px !important;
-        }
     }
 
     .gridHeaderButton {
