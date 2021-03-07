@@ -349,12 +349,65 @@ $menu-popup-border:1px solid #25a003;
 $menu-popup-background:1px solid #f5f5f5;
 $menu-border-radius:15px;
 $menu-color:#25a003;
-$menu-popup-border-radius:20px !default;
-$menu-popup-padding:5px !default;
+$menu-popup-border-radius:20px;
+$menu-popup-padding:5px;
+$menu-dot-size:20px;
+$menu-label-color:#797979;
+$menu-hover-background:#e4e4e4;
+$menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
+
+/*workflow*/
+
+$workflow-cube-late-color : #ff5a85;
+$workflow-cube-late-background : #fdeff3;
+$workflow-cube-frozen-color : #05685a;
+$workflow-cube-frozen-background : #e6f9f6;
+$workflow-cube-openSubTotal-color: #c7c5c5;
+
+$workflow-rectAll-background: #f7e8ff;
+$workflow-rectAll-color: #000;
+$workflow-rectLate-background: #efefef;
+$workflow-rectLate-color: #464247;
+$workflow-rectFrozen-background: #efefef;
+$workflow-rectFrozen-color: #464247;
+$workflow-statusFrozen-background:#e8fbf7;
+$workflow-statusFrozen-color:#69a99f;
+$workflow-statusLate-background:#fdeff3;
+$workflow-statusLate-color:#fe8daa;
+$workflow-statusOngoing-background:#f0eaf6;
+$workflow-statusOngoing-color:#b583ce;
+
+$workflow-timlineActivity-background:#b583ce;
+$workflow-timlineActivity-color: #464247;
+$workflow-timelineUser-color:#464742;
+$workflow-timlineActivityTitle-color:#5a5a5a;
+
+$workflow-checkbox-border-color:#464742;
+$workflow-checkbox-color:#464742;
+$workflow-checkbox-border-color-checked:#02b5fd;
+$workflow-checkbox-color-checked:#02b5fd;
+$workflow-floating-lable-color:#afaeb0;
+$workflow-textarea-color:#464247;
+
+/*timeline*/
+
+$timeline-first-dot-background:#00a1ff;
+$timeline-borderline:2px dashed #eaeaea;
+$timeline-flag-color:#464742;
+$timeline-dot-background:#888;
+$timeline-date-color:#777272;
+$timeline-description-color:#a5a5a5;
+$timeline-card-border-color:#a5a5a5;
+$timeline-window-background:#f8fbfe;
+$timeline-scoller-radius:10px;
+$timeline-scoller-width:10px;
+$timeline-scoller-height:10px;
+$timeline-scoller-webkit-background:#dfdbdb;
+$timeline-scoller-background:#a9bdca;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu';
+'./portal', './stepper', './menu', './timeline';
