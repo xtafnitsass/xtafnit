@@ -124,6 +124,14 @@ mainbody mainbody {
   overflow-wrap: break-word;
 }
 
+.fixDynamicLabelFontWeightBold .x-control-caption-text {
+  font-weight: bold;
+}
+
+.fixDynamicLabelFontWeightBold .x-dynamic-label-control {
+  font-weight: bold;
+}
+
 .x-control-caption-text {
   overflow: hidden;
   text-overflow: ellipsis;
