@@ -2368,6 +2368,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
@@ -2602,7 +2609,8 @@ progress[value]::-webkit-progress-value {
     left: 20px !important;
   }
   .k-timeline-date-wrap {
-    right: 210px !important;
+    left: 20px;
+    right: unset !important;
     z-index: 9999;
     margin-top: 5px !important;
   }
