@@ -1420,10 +1420,27 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
-.cube.cubeFix .k-icon-wrapper {
+.cube-wrapper .cube.cubeFix .k-icon-wrapper {
   background-image: none !important;
   color: inherit !important;
   left: 20px !important;
+}
+
+.cube-wrapper .cube .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  .cube-wrapper .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+    max-width: 16%;
+    margin-bottom: 10px;
+  }
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
@@ -1432,25 +1449,6 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton > div:last-child {
   min-width: 10px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube .font-weight-bold,
-#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_SupplierBalance .cube-wrapper .cube,
-  #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
