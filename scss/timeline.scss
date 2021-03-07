@@ -33,7 +33,8 @@ $timeline-scoller-background:#a9bdca !default;
     }
 
     .k-timeline-date-wrap {
-        right: 210px!important;
+        left:200px;
+        right: unset!important;
         z-index: 9999;
         margin-top: 5px!important;
     }
