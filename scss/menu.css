@@ -8,15 +8,33 @@
   border-radius: 15px !important;
 }
 
+.k-menu li.k-item.k-state-focused {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .k-menu li.k-item .k-group {
   border: 1px solid #bbdceb;
   background: 1px solid #f5f5f5;
   border-radius: 20px;
   padding: 5px;
+  -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
+          box-shadow: 2px 2px 10px #dad9d9 !important;
 }
 
 .k-menu li.k-item i.k-icon {
   color: #333 !important;
+  font-size: 20px;
+}
+
+.k-menu .xMenuItemColor span {
+  color: #797979 !important;
+}
+
+.k-menu .xMenuHover:hover {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background: #e4e4e4;
 }
 
 @forward 'menu';
