@@ -2362,6 +2362,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
