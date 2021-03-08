@@ -30,6 +30,7 @@
 /*menu*/
 /*workflow*/
 /*timeline*/
+/*tooltip*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #9e30bf !important;
@@ -2363,6 +2364,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
   }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
   height: 45vh !important;
 }
@@ -2943,4 +2951,16 @@ ul.fieldlist {
 }
 
 @forward 'timeline';
+.k-tooltip.k-widget {
+  border-color: #fff;
+  color: #464247;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 39px 0 #dbdce2;
+          box-shadow: 0 2px 39px 0 #dbdce2;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+@forward './tooltip';
 /*# sourceMappingURL=style.css.map */

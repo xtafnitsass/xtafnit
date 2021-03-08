@@ -1454,6 +1454,12 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard{
+    .font-weight-bold {
+        flex-direction: row-reverse !important;
+    }
+}
+
 //suppliers dashboard and balance//
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
@@ -1512,7 +1518,7 @@ mainbody {
     }
 }
 
-//customers//
+
 
 //dashboard//
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard {
@@ -1539,7 +1545,6 @@ mainbody {
             }
         }
     }
-
 }
 
 //customer account//
