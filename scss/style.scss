@@ -406,6 +406,15 @@ $timeline-scoller-height:10px;
 $timeline-scoller-webkit-background:#dfdbdb;
 $timeline-scoller-background:#a9bdca;
 
+/*tooltip*/
+
+$tooltip-border-color:#fff;
+$tooltip-color:#464247;
+$tooltip-background-color:#fff;
+$tooltip-box-shadow:0 2px 39px 0 rgb(219, 220, 226);
+$tooltip-font-size:14px;
+$tooltip-border-radius:15px;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',

@@ -30,6 +30,7 @@
 /*menu*/
 /*workflow*/
 /*timeline*/
+/*tooltip*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0082c5 !important;
@@ -102,12 +103,12 @@ header .popUpWindowCls {
 }
 
 @forward 'header';
-.k-calendar .k-header {
+.k-calendar .k-header, .k-calendar .k-calendar-header {
   background: #0082c5;
   color: #fff;
 }
 
-.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
+.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header .k-link.k-state-hover, .k-calendar .k-calendar-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header td.k-state-hover.k-state-focused {
   background: #0082c5;
   color: #fff;
   opacity: 0.8;
@@ -167,6 +168,12 @@ header .popUpWindowCls {
   color: #464247;
   border-color: #fafafa;
   background: #fafafa;
+}
+
+.k-daterangepicker input.k-textbox {
+  background: #fafafa;
+  border: 1px solid #464247;
+  color: #000;
 }
 
 /*mobile*/
@@ -2361,6 +2368,13 @@ mainbody .gridHeaderButton [xid="controlkiClean"] {
     max-width: 16%;
     margin-bottom: 10px;
   }
+}
+
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .font-weight-bold {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
