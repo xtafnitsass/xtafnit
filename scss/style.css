@@ -170,12 +170,6 @@ header .popUpWindowCls {
   background: #fafafa;
 }
 
-.k-daterangepicker input.k-textbox {
-  background: #fafafa;
-  border: 1px solid #464247;
-  color: #000;
-}
-
 /*mobile*/
 .x-datePicker-mobile {
   background: #fafafa;
@@ -242,6 +236,22 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.k-daterangepicker input.k-textbox {
+  background: #fafafa !important;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #464247;
+  border-left: 0;
+  border-right: 0;
+  color: #000;
+  border-radius: 0px;
+}
+
+.k-daterangepicker input.k-textbox:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }

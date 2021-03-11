@@ -28,16 +28,6 @@ $date-mobile-border-radius:0 !default;
     }
 }
 
-.k-daterangepicker {
-    input {
-        &.k-textbox {
-            background: $date-picker-background;
-            border: $date-picker-border;
-            color: $date-picker-input-color;
-        }
-    }
-}
-
 /*mobile*/
 
 .x-datePicker-mobile {
