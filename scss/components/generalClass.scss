@@ -106,3 +106,38 @@
     width: 207px;
     z-index: 1029;
 }
+
+
+.fixDynamicLabelFontWeightBold {
+
+    .x-control-caption-text,
+    .x-dynamic-label-control {
+        font-weight: bold;
+    }
+}
+
+.dirLtr {
+
+    .x-dynamic-label-control,
+    .x-link_Comp {
+        direction: ltr;
+    }
+}
+
+.cursor-pointer {
+    .x-dynamic-label-control {
+        cursor: pointer;
+    }
+
+}
+
+.position-absolute.fixedIcon {
+    top: 5px;
+    left: 20px;
+    width: auto;
+}
+
+
+.textColor.greyContent {
+    color: #464247;
+}

@@ -95,6 +95,10 @@ mainbody mainbody {
   margin: 0px !important;
 }
 
+mainbody > .row {
+  background: #fff;
+}
+
 #uber-container,
 .container-fluid {
   width: 100%;
@@ -527,6 +531,30 @@ label.btn {
   z-index: 1029;
 }
 
+.fixDynamicLabelFontWeightBold .x-control-caption-text,
+.fixDynamicLabelFontWeightBold .x-dynamic-label-control {
+  font-weight: bold;
+}
+
+.dirLtr .x-dynamic-label-control,
+.dirLtr .x-link_Comp {
+  direction: ltr;
+}
+
+.cursor-pointer .x-dynamic-label-control {
+  cursor: pointer;
+}
+
+.position-absolute.fixedIcon {
+  top: 5px;
+  left: 20px;
+  width: auto;
+}
+
+.textColor.greyContent {
+  color: #464247;
+}
+
 .p-floating-container {
   position: relative;
 }
@@ -923,6 +951,7 @@ header .fal.fa-home {
   margin-bottom: 8px;
   border: 1px solid rgba(162, 162, 162, 0.7);
   border-radius: 5px;
+  background: #fff;
 }
 
 .x-section-wrraper .x-section-header-wrraper {

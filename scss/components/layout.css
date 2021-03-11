@@ -24,6 +24,10 @@ mainbody mainbody {
   margin: 0px !important;
 }
 
+mainbody > .row {
+  background: #fff;
+}
+
 #uber-container,
 .container-fluid {
   width: 100%;
