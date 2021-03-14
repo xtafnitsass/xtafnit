@@ -21,5 +21,17 @@
         height: 35px;
         width: 45px;
         cursor: pointer;
+
+        .k-menu-expand-arrow {
+            display: none !important;
+        }
+
+        &.k-state-hover {
+            background: transparent;
+
+            .k-menu-link {
+                background: transparent;
+            }
+        }
     }
 }

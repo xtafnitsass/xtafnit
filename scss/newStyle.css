@@ -555,6 +555,22 @@ label.btn {
   color: #464247;
 }
 
+.fixDateRange > .col-4,
+.fixDateRange > .col-8 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.fixDateRange .k-textbox-container {
+  width: 49%;
+}
+
+.plOverflowFix .k-menu-link {
+  padding-left: 0 !important;
+}
+
 .p-floating-container {
   position: relative;
 }
@@ -1317,6 +1333,18 @@ header .fal.fa-home {
   height: 35px;
   width: 45px;
   cursor: pointer;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"] .k-menu-expand-arrow {
+  display: none !important;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"].k-state-hover {
+  background: transparent;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"].k-state-hover .k-menu-link {
+  background: transparent;
 }
 
 /*text input*/

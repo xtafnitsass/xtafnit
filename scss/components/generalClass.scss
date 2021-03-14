@@ -141,3 +141,24 @@
 .textColor.greyContent {
     color: #464247;
 }
+
+.fixDateRange {
+
+    >.col-4,
+    >.col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.fixDateRange {
+    .k-textbox-container {
+        width: 49%;
+    }
+}
+
+.plOverflowFix {
+    .k-menu-link {
+        padding-left: 0 !important;
+    }
+}

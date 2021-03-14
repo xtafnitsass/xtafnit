@@ -29,4 +29,16 @@
   width: 45px;
   cursor: pointer;
 }
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"] .k-menu-expand-arrow {
+  display: none !important;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"].k-state-hover {
+  background: transparent;
+}
+
+.xstyle-xmenu-wrapper li[overflow="xOverflow"].k-state-hover .k-menu-link {
+  background: transparent;
+}
 /*# sourceMappingURL=menu.css.map */
