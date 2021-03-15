@@ -30,13 +30,12 @@
 /*menu*/
 /*workflow*/
 /*timeline*/
-/*tooltip*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #ca0000;
-  border-radius: 20px;
-  border: 1px solid #ca0000 !important;
-  color: #fff;
+  background: #25a003 !important;
+  border-radius: 30px;
+  border: 0 !important;
+  color: #fff !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-weight: normal;
@@ -49,42 +48,42 @@
 }
 
 .k-button:hover {
-  background: #ccc;
-  color: #F0F0F0;
+  background: #1c8100 !important;
+  color: #F0F0F0 !important;
 }
 
 @forward 'button';
 .k-autocomplete {
-  border-radius: 15px;
+  border-radius: 0px;
   border: 0;
 }
 
 .k-autocomplete.k-state-border-down .k-input {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete.k-state-focused {
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-autocomplete .k-textbox {
-  background: #F0F0F0 !important;
-  border-radius: 15px;
-  border: 1px solid #000 !important;
+  background: #fafafa !important;
+  border-radius: 0px;
+  border: 0;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #464247;
   color: #000;
 }
 
 @forward 'autocomplete';
 header.k-header {
-  background-color: #fff !important;
+  background-color: #fafafa !important;
 }
 
 header.k-header .k-toolbar {
-  background-color: #fff;
+  background-color: #fafafa;
   border: none;
   color: #000;
 }
@@ -104,18 +103,18 @@ header .popUpWindowCls {
 
 @forward 'header';
 .k-calendar .k-header, .k-calendar .k-calendar-header {
-  background: #ca0000;
-  color: #F0F0F0;
+  background: #25a003;
+  color: #fff;
 }
 
 .k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header .k-link.k-state-hover, .k-calendar .k-calendar-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header td.k-state-hover.k-state-focused {
-  background: #ca0000;
-  color: #F0F0F0;
+  background: #25a003;
+  color: #fff;
   opacity: 0.8;
 }
 
 .k-calendar .k-calendar-view {
-  background: #ebebeb;
+  background: #fff;
 }
 
 .k-calendar .k-calendar-view th {
@@ -124,25 +123,25 @@ header .popUpWindowCls {
 }
 
 .k-calendar .k-calendar-view td:not(.k-other-month) {
-  color: #ca0000;
+  color: #25a003;
 }
 
 .k-calendar .k-calendar-view td.k-state-hover .k-link, .k-calendar .k-calendar-view td.k-state-hover td.k-state-focused.k-state-hover {
-  background-color: #282830;
-  color: #ebebeb;
+  background-color: #25a003;
+  color: #fff;
   background-image: none !important;
 }
 
 .k-calendar .k-calendar-view td.k-state-focused .k-link, .k-calendar .k-calendar-view td.k-state-focused td.k-state-focused.k-state-hover {
-  background: #282830;
+  background: #25a003;
   color: #ebebeb;
   -webkit-box-shadow: inset 0 0 0 1px #ebebeb;
           box-shadow: inset 0 0 0 1px #ebebeb;
 }
 
 .k-calendar .k-footer .k-nav-today {
-  background-color: #ca0000;
-  color: #ebebeb;
+  background-color: #25a003;
+  color: #fff;
 }
 
 .k-calendar .k-footer .k-nav-today:hover {
@@ -151,53 +150,53 @@ header .popUpWindowCls {
 
 @forward 'calendar';
 .k-datepicker {
-  background: #ebebeb;
+  background: #fafafa;
 }
 
 .k-datepicker .k-picker-wrap {
-  background: #ebebeb;
-  border: 1px solid #282830;
+  background: #fafafa;
+  border: 1px solid #464247;
 }
 
 .k-datepicker .k-picker-wrap .k-input {
-  background: #ebebeb;
+  background: #fafafa;
   color: #000;
 }
 
 .k-datepicker .k-picker-wrap .k-select {
-  color: #ebebeb;
-  border-color: #2e2e2e;
-  background: #2e2e2e;
+  color: #464247;
+  border-color: #fafafa;
+  background: #fafafa;
 }
 
 /*mobile*/
 .x-datePicker-mobile {
-  background: #ebebeb;
+  background: #fafafa;
   color: #000;
   border: 0;
-  border-bottom: 1px solid #282830 !important;
-  border-radius: 0 !important;
+  border-bottom: 1px solid #464247 !important;
+  border-radius: 0px !important;
 }
 
 @forward 'date-picker';
 .k-checkbox {
-  border-radius: 0;
-  border-color: #2e2e2e;
-  color: #ca0000;
-  background: #ebebeb;
+  border-radius: 4px;
+  border-color: #25a003;
+  color: #25a003;
+  background: #f7f8f9;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
-  border-radius: 0;
-  border-color: #2e2e2e;
-  color: #ca0000;
-  background: #ebebeb;
+  border-radius: 4px;
+  border-color: #25a003;
+  color: #25a003;
+  background: #f7f8f9;
 }
 
 .k-checkbox:checked:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #2e2e2e;
+  border-color: #25a003;
 }
 
 @forward 'checkbox';
@@ -208,14 +207,14 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container .k-floating-label-container input.k-textbox, .k-filter-menu-container .k-floating-label-container input.k-textbox {
-  background: #ebebeb;
-  border: 1px solid #000 !important;
+  background: #fafafa;
+  border: 0 !important;
   border-top: 0 !important;
-  border-bottom: 0 !important;
+  border-bottom: 1px solid #464247 !important;
   border-left: 0 !important;
   border-right: 0 !important;
   color: #000;
-  border-radius: 15px !important;
+  border-radius: 0px !important;
   margin: 0;
 }
 
@@ -225,14 +224,14 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox, .k-filter-menu-container > input.k-textbox {
-  background: #ebebeb !important;
-  border: 1px solid #000;
+  background: #fafafa !important;
+  border: 0;
   border-top: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #464247;
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
@@ -241,14 +240,14 @@ header .popUpWindowCls {
 }
 
 .k-daterangepicker input.k-textbox {
-  background: #ebebeb !important;
-  border: 1px solid #000;
+  background: #fafafa !important;
+  border: 0;
   border-top: 0;
-  border-bottom: 0;
+  border-bottom: 1px solid #464247;
   border-left: 0;
   border-right: 0;
   color: #000;
-  border-radius: 15px;
+  border-radius: 0px;
 }
 
 .k-daterangepicker input.k-textbox:focus {
@@ -265,8 +264,8 @@ header .popUpWindowCls {
 
 mainbody > .row {
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 9px 0 #ccc;
-          box-shadow: 0 2px 9px 0 #ccc;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
   border-radius: 20px;
   padding: 10px;
   margin: 5px auto;
@@ -275,7 +274,7 @@ mainbody > .row {
 
 mainbody .x-section-header-wrapper {
   background-color: #fff;
-  color: #ca0000;
+  color: #25a003;
 }
 
 mainbody .x-section-header-wrraper {
@@ -298,13 +297,13 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-window .k-window-titlebar {
-  background: #ca0000;
+  background: #fff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .k-window .k-window-actions .k-button {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .k-window .k-window-actions .k-button.k-state-hover {
@@ -331,23 +330,23 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-container {
-  background: #282830;
+  background: #fff;
   border: 0px solid !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
-  background: #9c9c9c !important;
-  color: #F0F0F0 !important;
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
-  background: #9c9c9c !important;
-  color: #F0F0F0 !important;
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
-  background: #9c9c9c !important;
-  color: #F0F0F0 !important;
+  background: #f2f7fc !important;
+  color: #b29cbe !important;
 }
 
 .k-animation-container .k-list-container .x-autocomplete-header-template {
@@ -356,7 +355,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li {
-  background: #d7d7df;
+  background: #fff;
 }
 
 .k-animation-container li a {
@@ -365,44 +364,44 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #9c9c9c;
-  color: #F0F0F0;
+  background: #f2f7fc;
+  color: #b29cbe;
   border: 0 !important;
 }
 
 .k-animation-container .k-list {
-  background: #d7d7df;
+  background: #fff;
   color: #282830;
 }
 
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #9c9c9c;
-  color: #F0F0F0;
+  background: #f2f7fc;
+  color: #b29cbe;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #949494;
-  color: #F0F0F0;
+  background: #e6eff9;
+  color: #b29cbe;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #9c9c9c;
+  background: #f2f7fc;
 }
 
 .k-animation-container .k-nodata {
-  background: #d7d7df;
+  background: #fff;
   color: #282830;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar {
   width: 10px;
-  background: #ccc;
+  background: #dfdbdb;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-track {
@@ -411,18 +410,18 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb {
-  background: #F0F0F0;
+  background: #a9bdca;
   border: 1px solid #fff;
 }
 
 .k-animation-container .k-list-scroller::-webkit-scrollbar-thumb:hover {
-  background: #282830;
+  background: #91a6b4;
 }
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: transparent;
-  border-bottom: 1px solid #2e2e2e;
+  background: #fafafa;
+  border-bottom: 1px solid #464247;
   border-radius: 0;
 }
 
@@ -431,7 +430,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: transparent;
+  background: #fafafa;
   border: 0;
 }
 
@@ -453,13 +452,13 @@ mainbody .x-section-header-wrraper {
           align-items: center;
   height: 100%;
   float: left;
-  color: #2e2e2e;
+  color: #464247;
 }
 
 @forward 'drop-down';
 .k-drawer {
   border: 0 !important;
-  background: #282830 !important;
+  background: #25a003 !important;
 }
 
 .k-drawer .k-drawer-items * {
@@ -475,7 +474,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item {
-  background: #282830 !important;
+  background: #25a003 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-link.k-state-focused, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-state-focused.k-state-hover {
@@ -487,11 +486,11 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
-  background: #282830 !important;
+  background: #25a003 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
-  background: #282830 !important;
+  background: #25a003 !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover, .k-drawer .k-panelbar .k-item .k-panel .k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item .k-panel .k-item td.k-state-hover.k-state-focused {
@@ -539,7 +538,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active {
-  background: #2e2e2e;
+  background: #ccc;
 }
 
 .k-grid .k-grid-header .k-grid-filter.k-state-active span:before {
@@ -558,15 +557,15 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header th.k-header {
-  color: #2e2e2e;
+  color: #868387;
 }
 
 .k-grid .k-grid-header th a {
-  color: #2e2e2e !important;
+  color: #868387 !important;
 }
 
 .k-grid .k-grid-header th a span:before {
-  color: #2e2e2e;
+  color: #000;
 }
 
 .k-grid .k-grid-header thead {
@@ -587,7 +586,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-link, .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-content tr.k-grid-edit-row .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #f00;
+  background-color: #25a003;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -600,23 +599,23 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #d90000 !important;
-  color: #ebebeb !important;
+  background-color: #e9feec !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #ca0000 !important;
-  color: #ebebeb !important;
+  background: #e9feec !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #ca0000 !important;
-  color: #ebebeb !important;
+  background: #e9feec !important;
+  color: #000 !important;
 }
 
 .k-grid .k-grid-content td {
   border: none;
-  border-left: 1px solid #eee;
+  border-left: none;
   font-size: 14px;
   padding: 10px 0px;
 }
@@ -641,17 +640,18 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager .k-pager-nav {
-  border-color: #ca0000;
-  color: #003f59 !important;
+  border-color: #25a003;
+  color: #25a003 !important;
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {
-  background: #ca0000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #166800), color-stop(163%, #1e8a00), color-stop(163%, #25a003));
+  background: linear-gradient(to top, #166800 -46%, #1e8a00 163%, #25a003 163%);
 }
 
 .k-grid .k-grid-pager .k-link:hover, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-focused.k-state-hover:hover {
   background-image: none !important;
-  background-color: #ca0000 !important;
+  background-color: #25a003 !important;
   color: #ebebeb !important;
 }
 
@@ -666,9 +666,9 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-auto-scrollable {
-  scrollbar-face-color: #888888;
+  scrollbar-face-color: #a9bdca;
   scrollbar-track-color: white;
-  scrollbar-arrow-color: #888888;
+  scrollbar-arrow-color: #a9bdca;
   scrollbar-base-color: white;
   scrollbar-3dlight-color: #000;
   scrollbar-highlight-color: #000;
@@ -683,16 +683,16 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background: #ccc;
+  background: #dfdbdb;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb {
-  background: #888888;
+  background: #a9bdca;
   border-radius: 10px;
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar-thumb:hover {
-  background: #7b7b7b;
+  background: #99b1c0;
 }
 
 @forward 'grid';
@@ -720,7 +720,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-link, .k-filter-menu .k-numerictextbox .k-numeric-wrap .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-filter-menu .k-numerictextbox .k-numeric-wrap td.k-state-focused.k-state-hover {
-  background-color: #f00;
+  background-color: #25a003;
   color: #fff;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
@@ -733,39 +733,39 @@ mainbody .x-section-header-wrraper {
 @forward 'k-filter-container';
 .k-timepicker .k-picker-wrap {
   border: 0;
-  border-bottom: 1px solid #2e2e2e;
+  border-bottom: 1px solid #464247;
 }
 
 .k-timepicker .k-picker-wrap input {
   width: 100%;
-  background: #ebebeb;
+  background: #fafafa;
 }
 
 .k-timepicker .k-picker-wrap .k-select {
   border: 0;
-  background: #2e2e2e;
-  color: #ebebeb;
+  background: #fafafa;
+  color: #464247;
 }
 
 input[type="time"] {
   width: 100%;
   border: 0;
-  background: #ebebeb;
-  border-bottom: 1px solid #2e2e2e !important;
+  background: #fafafa;
+  border-bottom: 1px solid #464247 !important;
   border-radius: 0px !important;
 }
 
 @forward 'time';
 .x-floatbutton {
-  background: #ca0000;
+  background: #25a003;
   color: #fff;
-  border: 1px solid #fff !important;
+  border: 1px solid #000 !important;
 }
 
 @forward 'float-button';
 .xstyle-textareacontrol-wrapper .k-textarea {
-  border-color: #000;
-  background-color: #fff;
+  border-color: #464247;
+  background-color: #fafafa !important;
   border-style: solid;
   border-left-width: 1px;
   border-right-width: 1px;
@@ -778,16 +778,16 @@ input[type="time"] {
 }
 
 .xstyle-upload-wrapper .k-upload-files {
-  border-color: #000;
+  border-color: #25a003;
 }
 
 .xstyle-upload-wrapper .k-upload-files .k-file {
-  border-color: #000;
+  border-color: #25a003;
 }
 
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap {
-  border-color: #000;
-  background-color: #f7f8f9;
+  border-color: #464247;
+  background-color: #fafafa;
   border-style: solid;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -826,20 +826,20 @@ input[type="time"] {
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-content {
-  border-color: #ff0000;
+  border-color: #f5f6f8;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
-  background: #fc6868;
-  border-color: #000;
+  background: #fff;
+  border-color: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  background: #ff0000;
+  background: #fff;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
-  color: #ffffff;
+  color: #25a003;
 }
 
 .k-slider .k-draghandle {
@@ -859,26 +859,26 @@ input[type="time"] {
 }
 
 .k-slider .k-slider-track {
-  background-color: #c00000;
+  background-color: #25a003;
 }
 
 @forward 'slider';
 .xstyle-rating-wrapper .filled-stars {
-  color: #dcf02d !important;
+  color: #25a003 !important;
 }
 
 @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
-  color: #b91414;
+  color: #25a003;
   background-color: #fff;
   border-color: #000;
 }
 
 .xstyle-radio-wrapper .k-radio:focus,
 .x-damageTypeAndCamera .k-radio:focus {
-  -webkit-box-shadow: 0 0 3px 0 #b91414;
-          box-shadow: 0 0 3px 0 #b91414;
+  -webkit-box-shadow: 0 0 3px 0 #25a003;
+          box-shadow: 0 0 3px 0 #25a003;
 }
 
 .xstyle-radio-wrapper .k-radio:checked,
@@ -894,8 +894,8 @@ input[type="time"] {
 @forward 'radio-button';
 .xstyle-freehandhtml-wrapper center {
   color: #000 !important;
-  background: #c00000 !important;
-  border-color: #c00000 !important;
+  background: #25a003 !important;
+  border-color: #25a003 !important;
 }
 
 .x-vkeyboard span.k-textbox {
@@ -930,1637 +930,6 @@ input[type="time"] {
 }
 
 @forward 'link';
-body {
-  background-color: #fafafa !important;
-  font-family: Heebo;
-}
-
-@media only screen and (max-width: 1050px) {
-  body {
-    background-position: left;
-    background-size: cover;
-  }
-}
-
-/* remove input numeric arrows Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/*remove input numeric arrows Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
-.pageImage {
-  background-position: center;
-  background-size: cover;
-}
-
-.k-upload-status .k-button {
-  color: #9e30bf !important;
-}
-
-.k-upload-status .k-button:hover {
-  background: transparent !important;
-  color: #9e30bf !important;
-}
-
-header .k-icon {
-  color: #464247;
-}
-
-header #separator {
-  border-color: #8733af;
-  margin-right: 15px;
-  opacity: 0.09;
-}
-
-header .x-search {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: #ccc;
-}
-
-header [xid="controlkiGoBack"] {
-  cursor: pointer;
-  right: 50px;
-  position: relative;
-}
-
-header [xid="controlkiGoBack"] span {
-  color: #02b5fd !important;
-}
-
-header [xid="controlliSearch"] {
-  color: #464247;
-  text-decoration: underline;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0px 20px;
-}
-
-header [xid="controlkiMenu"] span {
-  font-size: 12px;
-}
-
-header #username {
-  font-size: 14px;
-  color: #464247;
-  position: relative;
-  top: -5px;
-  left: -70px;
-  max-width: 100%;
-}
-
-header #username span span {
-  font-weight: normal !important;
-}
-
-header #tbbEmail {
-  position: relative;
-  top: 10px;
-  font-size: 12px;
-  color: #464247;
-  opacity: 0.7;
-  font-family: Heebo;
-  max-width: 100%;
-}
-
-header #tbbEmail span span {
-  font-weight: normal !important;
-}
-
-header #kiNotification {
-  border-radius: 50%;
-  background: red;
-  width: 5px;
-  height: 5px;
-  left: 0px;
-  top: -6px;
-  position: relative;
-}
-
-header #kiUser2 {
-  height: 20px;
-  border-radius: 50%;
-  background: #02b5fd;
-  width: 5px;
-  height: 5px;
-  left: -40px;
-  top: -6px;
-  position: relative;
-}
-
-header #acSearch2 span {
-  border-radius: 30px;
-}
-
-header .k-autocomplete .k-textbox[xid="controlacSearch2"] {
-  background: #fff !important;
-  border-radius: 30px !important;
-  border: 0 !important;
-  width: 260px;
-  font-size: 14px;
-  -webkit-box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
-          box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.03);
-  text-indent: 40px !important;
-}
-
-header #kGoBack {
-  padding-right: 27px;
-}
-
-header #kGoBack [xid="controlkGoBack"] {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  text-align: center;
-}
-
-header #kGoBack [xid="controlkGoBack"] > span {
-  color: #02b5fd;
-  font-size: 20px;
-  height: 100%;
-}
-
-.k-autocomplete .k-textbox {
-  font-size: 14px !important;
-}
-
-.k-grid .k-grid-header-wrap a.k-grid-filter {
-  font-size: 8px;
-}
-
-.k-grid .k-grid-header-wrap a.k-link {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.k-grid .k-grid-header-wrap th {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.k-grid .k-grid-content td {
-  border-bottom: 1px solid #d8d8d8;
-  color: #464247;
-}
-
-.k-grid .k-grid-content td a {
-  color: #02b5fd !important;
-  text-decoration: underline;
-}
-
-.k-grid .k-grid-content td a.k-button {
-  color: #fff !important;
-}
-
-.x-cell-header {
-  margin: 5px auto;
-  font-size: 18px;
-  min-height: 25px;
-  color: #464247;
-  font-family: Heebo !important;
-  font-weight: bold;
-}
-
-.x-section-header,
-.x-control-caption-text {
-  color: #464247;
-  font-family: Heebo !important;
-}
-
-.k-pane-wrapper {
-  border: 0;
-}
-
-mainbody .greyPanel {
-  background: #ffffff;
-}
-
-mainbody .greyPanel .first-col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-mainbody .greyPanel .first-col > div:last-child {
-  margin-right: 5px;
-  border-left: 2px solid #ccc;
-  padding-left: 5px;
-}
-
-@media only screen and (max-width: 1250px) {
-  mainbody .greyPanel .first-col > div:last-child {
-    border-left: 0;
-  }
-}
-
-mainbody .greyPanel .xstyle-checkbox-wrapper {
-  line-height: 2;
-  position: relative;
-  top: 5px;
-}
-
-mainbody .greyPanel .xstyle-checkbox-wrapper .fieldlist {
-  margin: 0;
-}
-
-mainbody .greyPanel .k-textbox,
-mainbody .greyPanel h1,
-mainbody .greyPanel h2,
-mainbody .greyPanel h3,
-mainbody .greyPanel h4,
-mainbody .greyPanel h5,
-mainbody .greyPanel h6,
-mainbody .greyPanel label {
-  font-family: "Heebo", sans-serif !important;
-}
-
-mainbody .greyPanel .x-control-caption-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-mainbody .greyPanel .x-control-caption-wrapper label {
-  font-size: 15px;
-}
-
-@media only screen and (max-width: 1250px) {
-  mainbody .greyPanel > .col {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    margin: 2px auto;
-  }
-}
-
-.x-fa-warning,
-.x-fa-error {
-  color: #ed5356;
-  background: rgba(244, 182, 183, 0.24);
-  padding: 12px;
-  font-size: 30px;
-}
-
-.pageContainer footer [xid="controlfooterCol"] {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.pageContainer footer [xid="Cell_Container_controlkiFacebook"] {
-  padding-left: 5px;
-}
-
-.pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
-  border-left: 1px solid #fff;
-  margin-left: 5px;
-  padding-left: 5px;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .checkboxHorizontal .xstyle-checkbox-wrapper label {
-    margin-right: 20px !important;
-  }
-  [xid="controlfooterCol"] [xid="Cell_Container_controlkiFacebook"] {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 15px;
-            flex: 0 0 15px;
-  }
-  [xid="controlfooterCol"] [xid="Cell_Container_controlkiLinkedin"] {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 40px;
-            flex: 0 0 40px;
-  }
-  [xid="controlfooterCol"] [xid="Cell_Container_controllogo"] {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50px;
-            flex: 0 0 50px;
-  }
-}
-
-.k-drawer-overlay .k-drawer {
-  border-bottom-left-radius: 0px;
-  border-top-left-radius: 20px;
-}
-
-.k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #9e30bf !important;
-}
-
-.k-datepicker .k-picker-wrap {
-  border-left: 0;
-  border-radius: 0;
-  border-right: 0;
-  border-top: 0;
-}
-
-.k-datepicker .k-picker-wrap .k-input {
-  font-size: 14px;
-}
-
-.xstyle-timepicker-wrapper .k-timepicker {
-  width: 100%;
-}
-
-.k-timeselector .k-time-now {
-  color: #9e30bf !important;
-}
-
-.k-timeselector .k-time-list-wrapper .k-title {
-  color: #9e30bf !important;
-}
-
-.k-timeselector .k-time-list-wrapper.k-state-focused {
-  -webkit-box-shadow: inset 0 0 3px 1px #9e30bf !important;
-          box-shadow: inset 0 0 3px 1px #9e30bf !important;
-}
-
-.k-timeselector .k-time-list-wrapper .k-time-list .k-item:hover {
-  color: #9e30bf !important;
-}
-
-.k-timeselector .k-time-list-wrapper .k-time-container .k-item {
-  background: none !important;
-}
-
-.xstyle-buttoncontrol-wrapper {
-  padding: 5px;
-}
-
-.k-filter-help-text,
-.k-filter-menu .k-textbox,
-.k-filter-menu .k-widget,
-.k-button {
-  font-size: 16px;
-}
-
-.k-animation-container {
-  text-align: right;
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .x-self-container {
-    min-width: 110px !important;
-  }
-}
-
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  mainbody .cube-wrapper .x-self-container {
-    width: 100%;
-  }
-}
-
-mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
-  color: #b7b7b7;
-  margin-right: 10px;
-  top: -5px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-mainbody .gridHeaderButton [xid="controlkiClean"] {
-  color: #9e30bf;
-}
-
-.k-drawer-overlay .k-drawer {
-  max-height: 100vh !important;
-}
-
-.k-drawer-overlay .k-drawer .k-drawer-wrapper {
-  overflow-x: visible !important;
-  overflow-y: visible !important;
-}
-
-.k-tabstrip:focus {
-  -webkit-box-shadow: 0 0 black;
-          box-shadow: 0 0 black;
-}
-
-.k-tabstrip .x-section-wrraper {
-  border-width: 0px !important;
-}
-
-.k-tabstrip .k-content {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 0 !important;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active {
-  border-bottom: 4px solid #9e30bf;
-}
-
-.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
-  color: #9e30bf !important;
-  font-weight: bold;
-}
-
-.k-window .k-window-titlebar {
-  border: 0;
-}
-
-.k-window .k-window-content .k-edit-buttons {
-  background: #dadada !important;
-}
-
-.k-window footer {
-  background: #dadada !important;
-}
-
-#MessageBoxWindow #buttonbtn1 {
-  float: left;
-}
-
-#MessageBoxWindow #buttonbtn2,
-#MessageBoxWindow #buttonbtn1 {
-  width: 102px !important;
-  height: 37px !important;
-  line-height: 2 !important;
-}
-
-#MessageBoxWindow #controlCell1Container {
-  max-width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  text-align: center;
-}
-
-#MessageBoxWindow #controlCell2Container {
-  max-width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  text-align: center;
-}
-
-#MessageBoxWindow #controlCell2Container #controlMessageText {
-  color: #9e30bf;
-}
-
-#MessageBoxWindow #controlCell3Container #buttonbtn1 {
-  width: 102px !important;
-  height: 40px;
-  line-height: 2 !important;
-  margin: auto;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .dotIcon {
-    width: 55px !important;
-  }
-}
-
-.required span.mandatory.active + input,
-.required span.mandatory.active + span > span.k-dropdown-wrap,
-.required span.mandatory.active + div > span.k-autocomplete > input,
-.required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
-.required span.mandatory.active + textarea.k-textbox,
-.required span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
-.required span.mandatory.active ~ label.k-checkbox-label:before,
-.required span.mandatory.active + span.k-switch.k-widget .k-switch-container {
-  background: rgba(255, 234, 97, 0.48) !important;
-}
-
-.gridHeaderButton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.gridHeaderButton .k-button {
-  width: 92px;
-}
-
-@media only screen and (max-width: 640px) {
-  .gridHeaderButton .k-button {
-    width: 62px !important;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .gridHeaderButton [xid="Cell_Container_controlbSearch"] {
-    margin-left: -5px;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .gridHeaderButton [xid="Cell_Container_controlbtnAddNewLine"] {
-    margin-left: 63px;
-  }
-}
-
-.loginTitle {
-  font-size: 55px;
-  color: #474248;
-}
-
-@media screen and (max-width: 1050px) {
-  .loginTitle {
-    font-size: 40px;
-  }
-}
-
-.loginTitle2 {
-  font-size: 31px;
-  font-weight: bold;
-  color: #474248;
-  letter-spacing: 1.35px;
-}
-
-@media screen and (max-width: 1050px) {
-  .loginTitle2 {
-    font-size: 16px;
-  }
-}
-
-.deskTitle {
-  font-size: 18px;
-}
-
-.nameTitle {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.pageTitle {
-  margin-bottom: 0px !important;
-  padding-bottom: 0px !important;
-  padding-top: 0px !important;
-}
-
-.title {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.white-btn, .color-btn {
-  margin: auto 5px;
-}
-
-.white-btn .k-button, .color-btn .k-button {
-  background: #fff !important;
-  background-image: none !important;
-  color: #9e30bf !important;
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
-          box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
-}
-
-.white-btn .k-button:hover, .color-btn .k-button:hover {
-  background: #f5f3f3 !important;
-}
-
-.color-btn {
-  text-align: center;
-}
-
-.color-btn .k-button {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: 1px solid #eebcfd !important;
-}
-
-.fixIcon .k-icon-wrapper {
-  background-color: #f2f7fd;
-  width: 70px;
-  border-radius: 50%;
-  height: 70px;
-  color: #9e30bf;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.fixIcon .k-icon.fa-user-tag {
-  width: 100%;
-  position: relative;
-  left: 5px;
-}
-
-.x-grid-file {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.x-grid-file:before {
-  margin-right: 5px;
-}
-
-.titleInv {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 10%;
-          flex: 0 0 10%;
-}
-
-.rectInv > div {
-  border-radius: 4px;
-  background-color: #f6e9fe;
-  margin: 0px 10px;
-}
-
-.rectInv .labelInv .col-4 label {
-  font-size: 12px;
-  min-width: 40px;
-  text-align: right;
-}
-
-.rectInv .labelInv .col-8 {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.rectInv .labelInv .col-8 span {
-  text-align: center !important;
-}
-
-.light-blue .k-button {
-  background: #02b5fd !important;
-}
-
-.dotIcon {
-  position: absolute;
-  bottom: 49%;
-  width: auto;
-  left: 5px;
-  z-index: 10003;
-}
-
-.dotIcon a {
-  background: transparent !important;
-  color: #464247 !important;
-}
-
-.dotIcon a:hover {
-  background: transparent !important;
-  color: #464247 !important;
-}
-
-.dotIcon a span {
-  width: 20px;
-}
-
-.grey-btn {
-  margin: auto -15px;
-}
-
-.grey-btn .k-button {
-  line-height: 38px !important;
-  height: 38px !important;
-  float: left;
-  width: 92px !important;
-}
-
-@media only screen and (max-width: 640px) {
-  .grey-btn .k-button {
-    width: 62px !important;
-  }
-}
-
-.grey-btn .k-button:hover {
-  opacity: 0.8;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .checkboxHorizontal > div:first-child .x-login-user-error-msg {
-    height: 40px;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .checkboxHorizontal > div:first-child {
-    height: 65px;
-  }
-}
-
-.checkboxHorizontal > div > div > div {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 0%;
-          flex: 0 1 0%;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .checkboxHorizontal > div > div > div {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 1% !important;
-            flex: 0 0 1% !important;
-  }
-}
-
-.checkboxHorizontal > div > div > div:first-child {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 0%;
-          flex: 1 0 0%;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .checkboxHorizontal > div > div > div:first-child {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 30% !important;
-            flex: 0 0 30% !important;
-  }
-}
-
-.checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper .col-4 {
-  margin-right: 10px;
-}
-
-.xstyle-radio-wrapper .radio-label-span-supplier {
-  padding-right: 23px;
-  display: inline-block;
-}
-
-.xstyle-radio-wrapper .radio-label-span-default {
-  opacity: 0.7;
-}
-
-@media screen and (max-width: 1500px) {
-  .xstyle-radio-wrapper .radio-label-span-default {
-    padding-right: 23px;
-    display: inline-block;
-  }
-}
-
-.radioWrapperScroll {
-  max-height: 300px;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.radioWrapperScroll::-webkit-scrollbar-track {
-  border-radius: 5px;
-}
-
-.radioWrapperScroll::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-  background: #f1f3ff;
-}
-
-.radioWrapperScroll::-webkit-scrollbar-thumb {
-  background: #a9bdca;
-  border-radius: 5px;
-}
-
-.radioWrapperScroll::-webkit-scrollbar-thumb:hover {
-  background: #99b1c0;
-}
-
-.details .top .x-cell-header {
-  padding: 6px 8px 6px 9px;
-  border-radius: 8px;
-  display: table-cell;
-  color: #9e30bf;
-  font-weight: normal;
-  opacity: 0.65;
-  font-family: Heebo;
-  font-size: 16px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: 1.31px;
-  text-align: center;
-  background: #f7e8ff;
-  top: -5px;
-  position: relative;
-}
-
-.details .right {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 14%;
-          flex: 0 0 14%;
-  color: #464247 !important;
-}
-
-.details .right > div {
-  font-size: 35px;
-}
-
-.details .right > div:first-child {
-  font-size: 18px;
-  top: 10px;
-  position: relative;
-}
-
-.details .right > div:last-child {
-  font-size: 12px;
-  opacity: 0.7;
-}
-
-.details .left {
-  margin-right: 15px;
-}
-
-.details .left * {
-  color: #464247;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 3% !important;
-            flex: 0 0 3% !important;
-  }
-}
-
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
-  background: #efefef;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 0.1%;
-          flex: 0 0 0.1%;
-  margin-left: 10px;
-  border-radius: 4px;
-  padding: 1px 7px 0;
-  height: 21px;
-}
-
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
-  font-size: 11px;
-  line-height: 1.82;
-  letter-spacing: 0.9px;
-  text-align: center;
-  opacity: 0.65;
-}
-
-.details .left > div .col-8 {
-  font-size: 14px;
-  opacity: 0.7;
-}
-
-.details .left > div:first-child .col-8 {
-  font-size: 14px;
-}
-
-.details .left > div:last-child {
-  font-size: 15px;
-}
-
-.boxShadow-0 {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  background-color: transparent !important;
-}
-
-.grid-30 .k-grid-content {
-  height: 30vh !important;
-}
-
-.cube-wrapper {
-  -webkit-box-shadow: 0 0 black !important;
-          box-shadow: 0 0 black !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.cube-wrapper .cube {
-  color: #464247;
-  min-height: 164px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
-  background-image: linear-gradient(to top, #fafbfc, #ffffff);
-  margin-top: 5px;
-}
-
-.cube-wrapper .cube:first-child {
-  background: #fff !important;
-}
-
-.cube-wrapper .cube:first-child span {
-  color: #464247 !important;
-}
-
-.cube-wrapper .cube .font-weight-bold {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  height: 100%;
-}
-
-.cube-wrapper .cube .fontBig .x-dynamic-label-control {
-  direction: ltr;
-  font-size: 30px;
-}
-
-@media only screen and (min-width: 450px) and (max-width: 1479px) {
-  .cube-wrapper .cube .fontBig .x-dynamic-label-control {
-    font-size: 50px;
-  }
-}
-
-.cube-wrapper .cube .x-image-wrapper,
-.cube-wrapper .cube .k-icon-wrapper {
-  background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
-  border-radius: 50%;
-  position: relative;
-  left: 10px;
-  width: 50px;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cube-wrapper .cube .k-icon-wrapper {
-  color: #43b1e5;
-}
-
-.cube-wrapper .cube > div:last-child .x-dynamic-label-control {
-  color: #464247;
-}
-
-.cube-wrapper .cube .fa-cloud-upload-alt {
-  width: 45px;
-}
-
-@media only screen and (min-width: 810px) {
-  .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 49%;
-            flex: 0 0 49%;
-    max-width: 49%;
-  }
-}
-
-@media only screen and (min-width: 1480px) {
-  .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 19%;
-            flex: 0 0 19%;
-    margin-top: 0px;
-  }
-}
-
-.shekel-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.border {
-  border: 0 !important;
-}
-
-.boxShadow {
-  -webkit-box-shadow: 0 2px 9px 0 #ccc;
-          box-shadow: 0 2px 9px 0 #ccc;
-  border-radius: 20px;
-  margin: 5px;
-  background: #fff;
-}
-
-@media only screen and (max-width: 768px) {
-  .mobileView > .col {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-  }
-}
-
-.window-details-row .window-details-col .labelTitle label {
-  font-size: 14px !important;
-  opacity: 0.68;
-  color: #464247 !important;
-}
-
-.window-details-row .window-details-col span {
-  font-size: 14px !important;
-  color: #464247 !important;
-}
-
-.window-details-row .k-grid .k-grid-header th .k-link, .window-details-row .k-grid .k-grid-header th .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .window-details-row .k-grid .k-grid-header th td.k-state-focused.k-state-hover {
-  color: #464247 !important;
-  opacity: 0.7;
-}
-
-.totalCol .labelTitle label {
-  opacity: 0.68;
-  color: #464247 !important;
-}
-
-.totalCol span {
-  color: #464247 !important;
-  font-weight: bold;
-}
-
-.totalCol .font-weight-bold label {
-  font-weight: bold !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-textbox,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-textbox,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .k-textbox,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .k-textbox,
-#TafnitCore_ToDo_UI_Login mainbody .k-textbox {
-  border-radius: 0px !important;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_ToDo_UI_Login mainbody .checkboxHorizontal > div > div > div {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 1 0% !important;
-            flex: 0 1 0% !important;
-  }
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_ToDo_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
-    -webkit-box-flex: 1 !important;
-        -ms-flex: 1 0 0% !important;
-            flex: 1 0 0% !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_ToDo_UI_Login mainbody ::-webkit-input-placeholder {
-  text-align: right;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_ToDo_UI_Login mainbody [xid="controlcHello"] {
-  padding-top: 120px;
-}
-
-@media only screen and (max-height: 950px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_ToDo_UI_Login mainbody [xid="controlcHello"] {
-    padding-top: 0px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_ToDo_UI_Login mainbody [xid="controlcLogin1"] {
-  -webkit-box-flex: 0;
-      -ms-flex: 0;
-          flex: 0;
-  margin: 20px auto;
-  padding: 0;
-}
-
-@media screen and (min-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_ToDo_UI_Login mainbody [xid="controlcLogin1"] {
-    padding-bottom: 80px !important;
-    padding-top: 80px !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper {
-  text-align: center;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper .k-button {
-  height: 56px;
-  line-height: 56px;
-  width: 318px;
-}
-
-@media screen and (max-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper .k-button {
-    height: 40px;
-    line-height: 40px;
-    width: 200px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
-#TafnitCore_ToDo_UI_Login mainbody > .row {
-  background-color: #fff;
-  border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-}
-
-@media screen and (min-height: 800px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
-  #TafnitCore_ToDo_UI_Login mainbody > .row {
-    margin-top: 195px !important;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
-  #TafnitCore_ToDo_UI_Login mainbody > .row {
-    margin-right: 65px !important;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
-  #TafnitCore_ToDo_UI_Login mainbody > .row {
-    margin-right: 195px !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginLayout,
-#TafnitCore_ToDo_UI_Login mainbody .loginLayout {
-  background-color: rgba(255, 255, 255, 0.922) !important;
-}
-
-@media screen and (max-width: 1050px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginLayout,
-  #TafnitCore_ToDo_UI_Login mainbody .loginLayout {
-    padding: 10px !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
-  border: 0;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox, #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-filter-menu-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-filter-menu-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .k-filter-menu-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .k-filter-menu-container .x-textbox,
-#TafnitCore_ToDo_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_ToDo_UI_Login mainbody .k-filter-menu-container .x-textbox {
-  border-bottom: 1.5px solid #464247 !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-textbox,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-textbox,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-textbox,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-textbox,
-#TafnitCore_ToDo_UI_Login mainbody .x-textbox {
-  background: transparent !important;
-  border: 0 !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
-  margin-right: 10px;
-  line-height: 1.3;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper input {
-  font-weight: bold;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_ToDo_UI_Login mainbody [xid="controlrLogin"] {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 674px;
-  min-height: 690px;
-}
-
-@media only screen and (max-height: 950px) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_ToDo_UI_Login mainbody [xid="controlrLogin"] {
-    min-height: 480px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginContent,
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginContent,
-#TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginContent,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginContent,
-#TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginContent,
-#TafnitCore_ToDo_UI_Login mainbody .loginContent {
-  width: 322px;
-  padding: 0;
-  margin: auto;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .col,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .col,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .col,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .col,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .col,
-  #TafnitCore_ToDo_UI_Login mainbody .col {
-    -ms-flex-preferred-size: auto !important;
-        flex-basis: auto !important;
-  }
-  #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper {
-    width: 97%;
-  }
-}
-
-.cube-wrapper .cube.cubeFix .k-icon-wrapper {
-  background-image: none !important;
-  color: inherit !important;
-  left: 20px !important;
-}
-
-.cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: reverse !important;
-      -ms-flex-direction: row-reverse !important;
-          flex-direction: row-reverse !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .k-grid-content {
-  height: 45vh !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_Dashboard .gridHeaderButton > div:last-child {
-  min-width: 10px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputInvoiceNoOrder .border,
-#TafnitCore_SaaSServer_Portal_Default_UI_DislayInputInvoice .border,
-#TafnitCore_SaaSServer_Portal_Default_UI_DisplayInputDeliveryCertificate .border {
-  border: 1px solid #eee !important;
-}
-
-#TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder mainbody > div:first-child {
-  height: 60px;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoice .greyPanel .gridHeaderButton,
-  #TafnitCore_SaaSServer_Portal_Default_UI_InputInvoiceForService .greyPanel .gridHeaderButton {
-    padding: 0 !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .k-grid-content {
-  height: 200px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .k-icon-wrapper {
-  background-image: none !important;
-  color: inherit !important;
-  left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .k-icon-wrapper,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .k-icon-wrapper {
-  background-image: none !important;
-  color: inherit !important;
-  left: 20px !important;
-}
-
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube .font-weight-bold,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube .font-weight-bold {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: row !important;
-          flex-direction: row !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_CustomerAccount .cube-wrapper .cube,
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CustomerBalance .cube-wrapper .cube {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 16%;
-            flex: 0 0 16%;
-    max-width: 16%;
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrLatestOrders"] > div,
-  #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Main [xid="controlrInventoryOrders"] > div {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child {
-  background: #fff !important;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard .cube-wrapper .cube:first-child span,
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child span {
-  color: #464247 !important;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .k-button {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-45%, #0469bd), color-stop(164%, #25abfd), color-stop(164%, #63c4ff)) !important;
-  background-image: linear-gradient(to top, #0469bd -45%, #25abfd 164%, #63c4ff 164%) !important;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn {
-  margin: auto 5px;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn .k-button, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn .k-button {
-  background: #fff !important;
-  background-image: none !important;
-  color: #9e30bf !important;
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
-          box-shadow: 0 0 10px 0 rgba(0, 90, 166, 0.16);
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .white-btn .k-button:hover, #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Main .color-btn .k-button:hover {
-  background: #f5f3f3 !important;
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube:first-child span.k-icon {
-  color: #43b1e5 !important;
-}
-
-@media only screen and (min-width: 1480px) {
-  #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_CloudDashboard .cube-wrapper .cube {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 12% !important;
-            flex: 0 0 12% !important;
-  }
-}
-
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_ServiceCallCreate .k-grid-content {
-  height: 15vh;
-}
-
-[xid="controlrgCloud"] {
-  padding: 0 !important;
-}
-
-[xid="controlrgCloud"] > div:last-child {
-  margin-left: 0;
-}
-
-[xid="controlcgCloud"] {
-  margin-right: 0px;
-  margin-left: 20px;
-}
-
-[xid="controldiProfile"] {
-  min-height: 5px;
-}
-
-/*splash -- resource loader*/
-progress[value]::-webkit-progress-bar {
-  background-color: #f2ebf6;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-}
-
-progress[value]::-webkit-progress-value {
-  background-image: none !important;
-  background-color: #9e30bf;
-}
-
-#progressBoxShadow {
-  -webkit-box-shadow: 0px 0px 41px -28px #9e30bf;
-          box-shadow: 0px 0px 41px -28px #9e30bf;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 8% !important;
-  }
-}
-
-@forward 'portal';
 .k-stepper {
   background-color: transparent;
 }
@@ -2572,7 +941,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item {
-  border: 1px solid #bbdceb !important;
+  border: 0px !important;
   border-radius: 15px !important;
 }
 
@@ -2582,8 +951,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item .k-group {
-  border: 1px solid #bbdceb;
-  background: 1px solid #f5f5f5;
+  border: 0px;
+  background: #fff;
   border-radius: 20px;
   padding: 5px;
   -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
@@ -2591,213 +960,21 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item i.k-icon {
-  color: #333 !important;
+  color: #c4c5c5 !important;
   font-size: 20px;
 }
 
 .k-menu .xMenuItemColor span {
-  color: #797979 !important;
+  color: #464247 !important;
 }
 
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #e4e4e4;
+  background: #fafafa;
 }
 
 @forward 'menu';
-.roundedNoneMobile {
-  border-radius: 20px !important;
-}
-
-@media only screen and (max-width: 1024px) {
-  .roundedNoneMobile {
-    border-radius: 0 !important;
-  }
-}
-
-/*workflows*/
-.cube-wrapper .cube {
-  min-height: 213px !important;
-}
-
-.cube-wrapper .cube.workflow .late,
-.cube-wrapper .cube.workflow .frozen {
-  border-radius: 5px;
-  width: 100px;
-}
-
-.cube-wrapper .cube.workflow .late {
-  background: #fdeff3;
-}
-
-.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
-  color: #ff5a85 !important;
-}
-
-.cube-wrapper .cube.workflow .frozen {
-  background: #e6f9f6;
-}
-
-.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
-  color: #05685a !important;
-}
-
-.cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
-  color: #c7c5c5 !important;
-}
-
-/*myTasks*/
-.rectAll,
-.rectLate,
-.rectFrozen {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 10px;
-}
-
-.rectAll {
-  background: #f7e8ff;
-  color: #000;
-}
-
-.rectLate {
-  background: #efefef;
-  color: #464247;
-}
-
-.rectFrozen {
-  background: #efefef;
-  color: #464247;
-}
-
-.statusFrozen,
-.statusLate,
-.statusOngoing {
-  padding: 2px 10px;
-  border-radius: 10px;
-  font-size: 12px;
-}
-
-.statusFrozen {
-  background: #e8fbf7;
-  color: #69a99f;
-}
-
-.statusLate {
-  background: #fdeff3;
-  color: #fe8daa;
-}
-
-.statusOngoing {
-  background: #f0eaf6;
-  color: #b583ce;
-}
-
-.transformFlipX {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-.fixPadding .col {
-  padding-left: 0px !important;
-}
-
-.fixPadding .col .x-cell-header {
-  margin-top: 10px !important;
-  margin-bottom: 25px !important;
-}
-
-.fixButton .k-button {
-  width: 75px !important;
-  min-width: 100%;
-  padding: 0 !important;
-}
-
-/*timeline*/
-.timlineActivity {
-  background: #b583ce;
-  color: #464247;
-  font-size: 12px;
-  padding: 2px 7px;
-  border-radius: 5px;
-}
-
-.timelineUser {
-  font-size: 12px;
-  color: #464742;
-}
-
-.timlineActivityTitle {
-  color: #5a5a5a;
-}
-
-.menuRows {
-  font-size: 14px;
-  min-height: 108px;
-  min-width: 137px;
-}
-
-.k-window .timlineActivity {
-  display: block !important;
-  margin-top: 5px;
-  position: relative;
-  right: -20px;
-}
-
-.k-window .pageContainer {
-  margin: 0 auto !important;
-  height: 99% !important;
-}
-
-/*ConfirmActivity*/
-/*fix checkbox*/
-ul.fieldlist {
-  position: relative;
-  top: 4px;
-}
-
-/*fix checkbox*/
-.k-checkbox {
-  border-color: #464742 !important;
-  color: #464742 !important;
-}
-
-.k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
-  border-color: #02b5fd !important;
-  color: #02b5fd !important;
-}
-
-/*fix textarea*/
-.textAreaPadding textarea {
-  padding-top: 15px;
-  padding-right: 15px;
-}
-
-.textAreaPadding textarea::-webkit-input-placeholder {
-  color: #464247 !important;
-}
-
-.textAreaPadding textarea:-ms-input-placeholder {
-  color: #464247 !important;
-}
-
-.textAreaPadding textarea::-ms-input-placeholder {
-  color: #464247 !important;
-}
-
-.textAreaPadding textarea::placeholder {
-  color: #464247 !important;
-}
-
-/*color floating label*/
-.p-floating-container input:not(:placeholder-shown) + label,
-.p-floating-container ul[role="listbox"] + input + label {
-  color: #afaeb0 !important;
-}
-
-@forward 'workflow';
 @media only screen and (max-width: 1024px) {
   .k-timeline-vertical,
   .k-timeline-event {
@@ -2966,16 +1143,364 @@ ul.fieldlist {
 }
 
 @forward 'timeline';
-.k-tooltip.k-widget {
-  border-color: #fff;
-  color: #464247;
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 39px 0 #dbdce2;
-          box-shadow: 0 2px 39px 0 #dbdce2;
-  font-size: 14px;
-  border-radius: 15px;
-  padding: 5px 10px;
+body {
+  background-color: #f5f6f7 !important;
 }
 
-@forward './tooltip';
+.x-cell-header {
+  margin: 5px auto;
+  font-size: 20px;
+  min-height: 30px;
+}
+
+#cameraBtnPoint {
+  display: none;
+}
+
+[xid="controlcBalance"] {
+  background: #25a003 !important;
+  color: #fff !important;
+}
+
+.k-pane-wrapper {
+  border: 0;
+}
+
+.xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 250px;
+  padding-bottom: 20px;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap {
+  background: transparent;
+  border-radius: 0;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
+.xstyle-textareacontrol-wrapper textarea {
+  font-size: 16px;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
+.x-datePicker-mobile {
+  border: 0;
+}
+
+mainbody .greyPanel {
+  background: #cac5c5;
+}
+
+mainbody .greyPanel .xstyle-checkbox-wrapper {
+  line-height: 2;
+}
+
+mainbody .greyPanel .xstyle-checkbox-wrapper .fieldlist {
+  margin: 0;
+}
+
+mainbody .greyPanel .k-textbox,
+mainbody .greyPanel h1,
+mainbody .greyPanel h2,
+mainbody .greyPanel h3,
+mainbody .greyPanel h4,
+mainbody .greyPanel h5,
+mainbody .greyPanel h6,
+mainbody .greyPanel label {
+  font-family: "Heebo", sans-serif !important;
+}
+
+mainbody .greyPanel .x-control-caption-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+mainbody .greyPanel .x-control-caption-wrapper label {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1250px) {
+  mainbody .greyPanel > .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin: 2px auto;
+  }
+}
+
+.pageContainer footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pageContainer footer > .row {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+}
+
+.pageContainer footer [xid="controlcfRefreshTasks"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.pageContainer footer [xid="Cell_Container_controlkiFacebook"] {
+  padding-left: 5px;
+}
+
+.pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
+  border-left: 2px solid;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [xid="controlfooterCol"] [xid="Cell_Container_controlkiFacebook"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 15px;
+            flex: 0 0 15px;
+  }
+  [xid="controlfooterCol"] [xid="Cell_Container_controlkiLinkedin"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+  }
+  [xid="controlfooterCol"] [xid="Cell_Container_controllogo"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50px;
+            flex: 0 0 50px;
+  }
+}
+
+.outerTitle {
+  background-color: transparent !important;
+  padding-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.outerTitle h3.x-section-header {
+  padding-bottom: 0;
+}
+
+.outerTitle .x-section-header-wrapper {
+  background-color: transparent !important;
+  background-image: none;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.checkboxHorizontal > div > div > div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 0%;
+          flex: 0 1 0%;
+}
+
+.checkboxHorizontal > div > div > div:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0%;
+          flex: 1 0 0%;
+}
+
+.boxShadow-0 {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.cube {
+  background: #fff;
+  color: #25a003;
+  min-height: 160px;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  border: 1px solid #eee;
+}
+
+.cube .font-weight-bold {
+  font-size: 2.5em;
+}
+
+@media only screen and (min-width: 810px) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+  }
+}
+
+@media only screen and (min-width: 1480px) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 14%;
+            flex: 0 0 14%;
+  }
+}
+
+.shekel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.border {
+  border: 0 !important;
+}
+
+.fontBig .x-dynamic-label-control {
+  line-height: 2.6;
+  margin: 5px 10px;
+  direction: ltr;
+}
+
+.boxShadow {
+  -webkit-box-shadow: 0 2px 9px 0 #ccc;
+          box-shadow: 0 2px 9px 0 #ccc;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.iconWithVerticalText .k-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconWithVerticalText .k-icon-wrapper .k-icon {
+  font-size: 18px;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody [xid="controlrLogin"] {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody [xid="controlrLogin"] {
+    max-width: 90%;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .loginContent {
+  width: 600px;
+  margin: 2px auto;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .col {
+    -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .imgIeFix {
+    min-height: 276px;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .imgIeFix .x-self-container {
+    width: 100%;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .xstyle-checkbox-wrapper {
+    width: 97%;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_TaskList .xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 60vh !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main {
+  margin-top: 0 !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main > mainbody > .row {
+  background: none;
+}
+
+#TafnitCore_System_UI_App_Tools_FillAndSignV2Page [xid="controlsecPreview"] > div:last-child {
+  padding-right: 1px !important;
+  padding-left: 1px !important;
+}
+
+/*splash -- resource loader*/
+progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #25a003;
+}
+
+#progressBoxShadow {
+  -webkit-box-shadow: 0px 0px 41px -28px #25a003;
+          box-shadow: 0px 0px 41px -28px #25a003;
+}
 /*# sourceMappingURL=style.css.map */
