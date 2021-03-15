@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+body {
+  background-color: #f5f6f7 !important;
+}
+
+.x-cell-header {
+  margin: 5px auto;
+  font-size: 20px;
+  min-height: 30px;
+}
+
+#cameraBtnPoint {
+  display: none;
+}
+
+[xid="controlcBalance"] {
+  background: #d66e3b !important;
+  color: #fff !important;
+}
+
+.k-pane-wrapper {
+  border: 0;
+}
+
+.xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 250px;
+  padding-bottom: 20px;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap {
+  background: transparent;
+  border-radius: 0;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
+.xstyle-textareacontrol-wrapper textarea {
+  font-size: 16px;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.xstyle-date-wrapper .k-datepicker .k-picker-wrap .k-select {
+  border-radius: 0;
+}
+
+.x-datePicker-mobile {
+  border: 0;
+}
+
+mainbody .greyPanel {
+  background: #cac5c5;
+}
+
+mainbody .greyPanel .xstyle-checkbox-wrapper {
+  line-height: 2;
+}
+
+mainbody .greyPanel .xstyle-checkbox-wrapper .fieldlist {
+  margin: 0;
+}
+
+mainbody .greyPanel .k-textbox,
+mainbody .greyPanel h1,
+mainbody .greyPanel h2,
+mainbody .greyPanel h3,
+mainbody .greyPanel h4,
+mainbody .greyPanel h5,
+mainbody .greyPanel h6,
+mainbody .greyPanel label {
+  font-family: "Heebo", sans-serif !important;
+}
+
+mainbody .greyPanel .x-control-caption-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+mainbody .greyPanel .x-control-caption-wrapper label {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1250px) {
+  mainbody .greyPanel > .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin: 2px auto;
+  }
+}
+
+.pageContainer footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pageContainer footer > .row {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+}
+
+.pageContainer footer [xid="controlcfRefreshTasks"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.pageContainer footer [xid="Cell_Container_controlkiFacebook"] {
+  padding-left: 5px;
+}
+
+.pageContainer footer [xid="Cell_Container_controlkiLinkedin"] {
+  border-left: 2px solid;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  [xid="controlfooterCol"] [xid="Cell_Container_controlkiFacebook"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 15px;
+            flex: 0 0 15px;
+  }
+  [xid="controlfooterCol"] [xid="Cell_Container_controlkiLinkedin"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+  }
+  [xid="controlfooterCol"] [xid="Cell_Container_controllogo"] {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50px;
+            flex: 0 0 50px;
+  }
+}
+
+.outerTitle {
+  background-color: transparent !important;
+  padding-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.outerTitle h3.x-section-header {
+  padding-bottom: 0;
+}
+
+.outerTitle .x-section-header-wrapper {
+  background-color: transparent !important;
+  background-image: none;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.checkboxHorizontal > div > div > div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 0%;
+          flex: 0 1 0%;
+}
+
+.checkboxHorizontal > div > div > div:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0%;
+          flex: 1 0 0%;
+}
+
+.boxShadow-0 {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.cube {
+  background: #fff;
+  color: #d66e3b;
+  min-height: 160px;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  border: 1px solid #eee;
+}
+
+.cube .font-weight-bold {
+  font-size: 2.5em;
+}
+
+@media only screen and (min-width: 810px) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+  }
+}
+
+@media only screen and (min-width: 1480px) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16%;
+            flex: 0 0 16%;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .cube {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 14%;
+            flex: 0 0 14%;
+  }
+}
+
+.shekel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.border {
+  border: 0 !important;
+}
+
+.fontBig .x-dynamic-label-control {
+  line-height: 2.6;
+  margin: 5px 10px;
+  direction: ltr;
+}
+
+.boxShadow {
+  -webkit-box-shadow: 0 2px 9px 0 #ccc;
+          box-shadow: 0 2px 9px 0 #ccc;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.iconWithVerticalText .k-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconWithVerticalText .k-icon-wrapper .k-icon {
+  font-size: 18px;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody [xid="controlrLogin"] {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody [xid="controlrLogin"] {
+    max-width: 90%;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .loginContent {
+  width: 600px;
+  margin: 2px auto;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .col {
+    -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .imgIeFix {
+    min-height: 276px;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .imgIeFix .x-self-container {
+    width: 100%;
+  }
+  #TafnitCore_SaaSServer_Portal_Transportation_UI_Login mainbody .xstyle-checkbox-wrapper {
+    width: 97%;
+  }
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_TaskList .xstyle-gridv4-wrapper .k-grid-content {
+  max-height: 60vh !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main {
+  margin-top: 0 !important;
+}
+
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main > mainbody > .row {
+  background: none;
+}
+
+#TafnitCore_System_UI_App_Tools_FillAndSignV2Page [xid="controlsecPreview"] > div:last-child {
+  padding-right: 1px !important;
+  padding-left: 1px !important;
+}
+
+/*splash -- resource loader*/
+progress[value]::-webkit-progress-value {
+  background-image: none !important;
+  background-color: #d66e3b;
+}
+
+#progressBoxShadow {
+  -webkit-box-shadow: 0px 0px 41px -28px #d66e3b;
+          box-shadow: 0px 0px 41px -28px #d66e3b;
+}
+/*# sourceMappingURL=style.css.map */

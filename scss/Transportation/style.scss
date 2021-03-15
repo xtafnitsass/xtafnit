@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+
+$cube-background:#fff;
+$cube-color:#d66e3b;
+$top-panel-background:#cac5c5;
+
+//------------------------------------------------------------layout//
+body {
+    background-color: #f5f6f7 !important;
+}
+
+//cell header//
+
+.x-cell-header {
+    margin: 5px auto;
+    font-size: 20px;
+    min-height: 30px;
+}
+
+#cameraBtnPoint{
+    display:none;
+}
+
+//first cube//
+
+[xid="controlcBalance"] {
+    background: $cube-color !important;
+    color: $cube-background !important;
+}
+
+//grid pane wrapper border//
+
+.k-pane-wrapper {
+    border: 0;
+}
+
+//grid max height//
+.xstyle-gridv4-wrapper {
+    .k-grid-content {
+        max-height: 250px;
+        padding-bottom: 20px;
+    }
+}
+
+//timepicker width//
+.xstyle-timepicker-wrapper {
+    .k-timepicker {
+        width: 100%;
+
+        .k-picker-wrap {
+            background: transparent;
+            border-radius: 0;
+
+            .k-select {
+                border-radius: 0;
+            }
+        }
+    }
+}
+.xstyle-textareacontrol-wrapper{
+    textarea{
+        font-size: 16px;
+    }
+}
+
+//datepicker width//
+.xstyle-date-wrapper {
+    .k-datepicker {
+        .k-picker-wrap {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-radius: 0;
+
+            .k-select {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+//fix mobile date time picker//
+.x-datePicker-mobile {
+    border: 0;
+}
+
+//top panel background//
+mainbody {
+    .greyPanel {
+        background: $top-panel-background;
+
+        //fix vertical checkbox alignement//
+        .xstyle-checkbox-wrapper {
+            line-height: 2;
+
+            .fieldlist {
+                margin: 0;
+            }
+        }
+
+        //font heebo in grey panel//
+        .k-textbox,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label {
+            font-family: "Heebo", sans-serif !important;
+        }
+
+        //fix vertical text alignement//
+        .x-control-caption-wrapper {
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            label {
+                font-size: 15px;
+            }
+        }
+
+        //mobile view column components//
+        >.col {
+            @media only screen and (max-width:1250px) {
+                flex: 0 0 100%;
+                margin: 2px auto;
+            }
+        }
+    }
+}
+
+//footer//
+.pageContainer {
+    footer {
+        display: flex;
+        justify-content: center;
+
+        >.row {
+            flex: 0 0 55%;
+        }
+
+        //footer icon one line left side
+        [xid="controlcfRefreshTasks"] {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+
+        //facebook icon padding
+        [xid="Cell_Container_controlkiFacebook"] {
+            padding-left: 5px;
+        }
+
+        //linkedin left boeder and padding
+        [xid="Cell_Container_controlkiLinkedin"] {
+            border-left: 2px solid;
+            margin-left: 5px;
+            padding-left: 5px;
+        }
+    }
+}
+
+//ie  fix
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    //footer fix
+    [xid="controlfooterCol"] {
+        [xid="Cell_Container_controlkiFacebook"] {
+            flex: 0 0 15px;
+        }
+
+        [xid="Cell_Container_controlkiLinkedin"] {
+            flex: 0 0 40px;
+        }
+
+        [xid="Cell_Container_controllogo"] {
+            flex: 0 0 50px;
+        }
+    }
+}
+
+
+//------------------------------------------------------------bootstrapClass//
+.outerTitle {
+    background-color: transparent !important;
+    padding-right: 0 !important;
+    margin-bottom: 0 !important;
+
+    h3 {
+        &.x-section-header {
+            padding-bottom: 0;
+        }
+    }
+
+    .x-section-header-wrapper {
+        background-color: transparent !important;
+        background-image: none;
+    }
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.checkboxHorizontal {
+    >div {
+        >div {
+            >div {
+                flex: 0 1 0%;
+
+                &:first-child {
+                    flex: 1 0 0%;
+                }
+            }
+        }
+    }
+}
+
+.boxShadow-0 {
+    box-shadow: none !important;
+}
+
+.cube {
+    background: $cube-background;
+    color: $cube-color;
+    min-height: 160px;
+    box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    border: 1px solid #eee;
+
+    .font-weight-bold {
+        font-size: 2.5em;
+    }
+
+    @media only screen and (min-width:810px) {
+        flex: 0 0 32%;
+    }
+
+    @media only screen and (min-width:1480px) {
+        flex: 0 0 16%;
+    }
+
+    //ie  fix cube width
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        flex: 0 0 14%;
+    }
+}
+
+.shekel-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border: 0 !important;
+}
+
+.fontBig {
+    .x-dynamic-label-control {
+        line-height: 2.6;
+        margin: 5px 10px;
+        direction: ltr;
+    }
+}
+
+.boxShadow {
+    box-shadow: 0 2px 9px 0 #ccc;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.iconWithVerticalText {
+    .k-icon-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .k-icon {
+            font-size: 18px;
+        }
+    }
+}
+
+//------------------------------------------------------------page login//
+//login//
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Login {
+    mainbody {
+
+        //login fix col direction
+        [xid="controlrLogin"] {
+            flex-direction: column;
+            max-width: 75%;
+
+            @media only screen and (max-width:768px) {
+                max-width: 90%;
+            }
+        }
+
+        //login content width
+        .loginContent {
+            width: 600px;
+            margin: 2px auto;
+        }
+
+        //ie  fix
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+
+            //fix col layout 
+            .col {
+                flex-basis: auto !important;
+            }
+
+            //logo fix
+            .imgIeFix {
+                min-height: 276px;
+
+                .x-self-container {
+                    width: 100%;
+                }
+            }
+
+            //fix checkbox 
+            .xstyle-checkbox-wrapper {
+                width: 97%;
+            }
+        }
+    }
+}
+
+//task//
+#TafnitCore_SaaSServer_Portal_Transportation_UI_TaskList {
+    .xstyle-gridv4-wrapper {
+        .k-grid-content {
+            max-height: 60vh !important;
+        }
+    }
+}
+
+//main//
+#TafnitCore_SaaSServer_Portal_Transportation_UI_Main {
+    margin-top: 0 !important;
+
+    >mainbody {
+        >.row {
+            background: none;
+        }
+    }
+}
+
+//fill and sign//
+#TafnitCore_System_UI_App_Tools_FillAndSignV2Page {
+    [xid="controlsecPreview"] {
+        >div {
+            &:last-child {
+                padding-right: 1px !important;
+                padding-left: 1px !important;
+            }
+        }
+    }
+}
+
+/*splash -- resource loader*/
+
+progress[value]::-webkit-progress-value {
+    background-image: none !important;
+    background-color: #d66e3b;
+}
+
+#progressBoxShadow {
+    box-shadow: 0px 0px 41px -28px #d66e3b;
+}
