@@ -1341,7 +1341,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   cursor: pointer;
 }
 
-mainbody .gridHeaderButton [xid="controlkiClean"] {
+mainbody .gridHeaderButton .kIconPaint {
   color: #9e30bf;
 }
 
