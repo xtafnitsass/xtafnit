@@ -2735,7 +2735,6 @@ progress[value]::-webkit-progress-value {
 
 .menuRows {
   font-size: 14px;
-  min-height: 108px;
   min-width: 137px;
 }
 
