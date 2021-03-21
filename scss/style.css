@@ -103,12 +103,12 @@ header .popUpWindowCls {
 }
 
 @forward 'header';
-.k-calendar .k-header {
+.k-calendar .k-header, .k-calendar .k-calendar-header {
   background: #9e30bf;
   color: #fff;
 }
 
-.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
+.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header .k-link.k-state-hover, .k-calendar .k-calendar-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header td.k-state-hover.k-state-focused {
   background: #9e30bf;
   color: #fff;
   opacity: 0.8;
@@ -236,6 +236,22 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.k-daterangepicker input.k-textbox {
+  background: #fafafa !important;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #464247;
+  border-left: 0;
+  border-right: 0;
+  color: #000;
+  border-radius: 0px;
+}
+
+.k-daterangepicker input.k-textbox:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1326,7 +1342,7 @@ mainbody .gridHeaderButton .k-icon.fa-ellipsis-v {
   cursor: pointer;
 }
 
-mainbody .gridHeaderButton [xid="controlkiClean"] {
+mainbody .gridHeaderButton .kIconPaint {
   color: #9e30bf;
 }
 
@@ -2720,7 +2736,6 @@ progress[value]::-webkit-progress-value {
 
 .menuRows {
   font-size: 14px;
-  min-height: 108px;
   min-width: 137px;
 }
 
