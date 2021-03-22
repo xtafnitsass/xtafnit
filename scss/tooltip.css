@@ -1,0 +1,13 @@
+.k-tooltip.k-widget {
+  border-color: #fff;
+  color: #464247;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 39px 0 #dbdce2;
+          box-shadow: 0 2px 39px 0 #dbdce2;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+@forward './tooltip';
+/*# sourceMappingURL=tooltip.css.map */
