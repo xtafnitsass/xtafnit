@@ -46,6 +46,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
+$suppliers-mobile-header-color:#fff !default;
 
 //------------------------------------------------------------layout//
 
@@ -93,6 +94,25 @@ input[type=number] {
 }
 
 //header//
+
+@media only screen and (max-width: 768px) {
+    header {
+        &.k-header {
+            background-color: $suppliers-drawer !important;
+            border-bottom-left-radius: 15px;
+
+            .k-toolbar {
+                background: $suppliers-drawer;
+                border-bottom-left-radius: 15px;
+            }
+        }
+
+        .k-icon , #username , #tbbEmail {
+            color: $suppliers-mobile-header-color !important;
+        }
+        
+    }
+}
 
 header {
     .k-icon {
@@ -553,7 +573,7 @@ mainbody {
             }
         }
 
-        [xid="controlkiClean"] {
+        .kIconPaint {
             color: $suppliers-details-top-color;
         }
     }
@@ -1262,7 +1282,8 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login,
-#TafnitCore_ToDo_UI_Login {
+#TafnitCore_ToDo_UI_Login,
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login {
 
     mainbody {
         .k-textbox {
@@ -1454,6 +1475,12 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard{
+    .font-weight-bold {
+        flex-direction: row-reverse !important;
+    }
+}
+
 //suppliers dashboard and balance//
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
@@ -1512,7 +1539,7 @@ mainbody {
     }
 }
 
-//customers//
+
 
 //dashboard//
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard {
@@ -1539,7 +1566,6 @@ mainbody {
             }
         }
     }
-
 }
 
 //customer account//

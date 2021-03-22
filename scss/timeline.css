@@ -12,7 +12,8 @@
     left: 20px !important;
   }
   .k-timeline-date-wrap {
-    right: 210px !important;
+    left: 20px;
+    right: unset !important;
     z-index: 9999;
     margin-top: 5px !important;
   }
