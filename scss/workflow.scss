@@ -28,7 +28,9 @@ $workflow-checkbox-border-color-checked:#02b5fd !default;
 $workflow-checkbox-color-checked:#02b5fd !default;
 $workflow-floating-lable-color:#afaeb0 !default;
 $workflow-textarea-color:#464247 !default;
-$workflow-rectAll-active-background:#f7e8ff!default;
+$workflow-rectAll-active-background:#f7e8ff !default;
+$workflow-mobile-header-background:#9038ba !default;
+$workflow-mobile-header-color:#fff !default;
 
 .roundedNoneMobile {
     border-radius: 20px !important;
@@ -43,6 +45,11 @@ $workflow-rectAll-active-background:#f7e8ff!default;
 /*workflows*/
 
 .cube-wrapper {
+    @media only screen and (min-width: 1480px) {
+        flex: 0 0 22% !important;
+        max-width: 22% !important;
+    }
+
     .cube {
         min-height: 213px !important;
 
@@ -81,8 +88,8 @@ $workflow-rectAll-active-background:#f7e8ff!default;
 
 /*myTasks*/
 
-.active{
-    background: $workflow-rectAll-active-background!important;
+.active {
+    background: $workflow-rectAll-active-background !important;
 }
 
 .rectAll,
@@ -234,5 +241,27 @@ ul.fieldlist {
 .p-floating-container ul[role="listbox"]+input+label {
     color: $workflow-floating-lable-color !important;
 }
+
+/*header mobile*/
+
+@media only screen and (min-width: 768) {
+    header {
+        &.k-header {
+            background-color: $workflow-mobile-header-background !important;
+            border-bottom-left-radius: 15px;
+
+            .k-toolbar {
+                background: $workflow-mobile-header-background;
+                border-bottom-left-radius: 15px;
+            }
+        }
+
+        .k-icon {
+            color: $workflow-mobile-header-color !important;
+        }
+    }
+}
+
+
 
 @forward 'workflow';
