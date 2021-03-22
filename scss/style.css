@@ -31,6 +31,7 @@
 /*workflow*/
 /*timeline*/
 /*tooltip*/
+/*header mobile */
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #9e30bf !important;
@@ -967,20 +968,6 @@ input[type=number] {
 .k-upload-status .k-button:hover {
   background: transparent !important;
   color: #9e30bf !important;
-}
-
-@media only screen and (max-width: 768px) {
-  header.k-header {
-    background-color: #9038ba !important;
-    border-bottom-left-radius: 15px;
-  }
-  header.k-header .k-toolbar {
-    background: #9038ba;
-    border-bottom-left-radius: 15px;
-  }
-  header .k-icon, header #username, header #tbbEmail {
-    color: #fff !important;
-  }
 }
 
 header .k-icon {
@@ -3035,4 +3022,21 @@ ul.fieldlist {
 }
 
 @forward './tooltip';
+@media only screen and (max-width: 768px) {
+  header.k-header {
+    background-color: #9e30bf !important;
+    border-bottom-left-radius: 15px;
+  }
+  header.k-header .k-toolbar {
+    background: #9e30bf;
+    border-bottom-left-radius: 15px;
+  }
+  header .k-icon,
+  header #username,
+  header #tbbEmail {
+    color: #fff !important;
+  }
+}
+
+@forward './headerMobile';
 /*# sourceMappingURL=style.css.map */
