@@ -45,13 +45,12 @@ $workflow-mobile-header-color:#fff !default;
 /*workflows*/
 
 .cube-wrapper {
-    @media only screen and (min-width: 1480px) {
-        flex: 0 0 22% !important;
-        max-width: 22% !important;
-    }
-
     .cube {
         min-height: 213px !important;
+        @media only screen and (min-width: 1480px) {
+            flex: 0 0 22% !important;
+            max-width: 22% !important;
+        }
 
         &.workflow {
 
@@ -244,7 +243,7 @@ ul.fieldlist {
 
 /*header mobile*/
 
-@media only screen and (min-width: 768) {
+@media only screen and (max-width: 768) {
     header {
         &.k-header {
             background-color: $workflow-mobile-header-background !important;
