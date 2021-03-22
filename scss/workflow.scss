@@ -28,6 +28,7 @@ $workflow-checkbox-border-color-checked:#02b5fd !default;
 $workflow-checkbox-color-checked:#02b5fd !default;
 $workflow-floating-lable-color:#afaeb0 !default;
 $workflow-textarea-color:#464247 !default;
+$workflow-rectAll-active-background:#f7e8ff!default;
 
 .roundedNoneMobile {
     border-radius: 20px !important;
@@ -79,6 +80,10 @@ $workflow-textarea-color:#464247 !default;
 }
 
 /*myTasks*/
+
+.active{
+    background: $workflow-rectAll-active-background!important;
+}
 
 .rectAll,
 .rectLate,

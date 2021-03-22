@@ -40,6 +40,10 @@
 }
 
 /*myTasks*/
+.active {
+  background: #f7e8ff !important;
+}
+
 .rectAll,
 .rectLate,
 .rectFrozen {
