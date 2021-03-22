@@ -330,6 +330,7 @@ $suppliers-radio-scoller-webkit-background:#f1f3ff;
 $suppliers-timeselector:#0082c5;
 $suppliers-messageText:#0082c5;
 $suppliers-icon-tachometer: #464247;
+$suppliers-mobile-header-color:#fff;
 
 
 /*link*/
@@ -389,6 +390,7 @@ $workflow-checkbox-border-color-checked:#02b5fd;
 $workflow-checkbox-color-checked:#02b5fd;
 $workflow-floating-lable-color:#afaeb0;
 $workflow-textarea-color:#464247;
+$workflow-rectAll-active-background:#f7e8ff;
 
 /*timeline*/
 
@@ -405,6 +407,15 @@ $timeline-scoller-width:10px;
 $timeline-scoller-height:10px;
 $timeline-scoller-webkit-background:#dfdbdb;
 $timeline-scoller-background:#a9bdca;
+
+/*tooltip*/
+
+$tooltip-border-color:#fff;
+$tooltip-color:#464247;
+$tooltip-background-color:#fff;
+$tooltip-box-shadow:0 2px 39px 0 rgb(219, 220, 226);
+$tooltip-font-size:14px;
+$tooltip-border-radius:15px;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
