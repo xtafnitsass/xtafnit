@@ -459,7 +459,7 @@ mainbody .x-section-header-wrraper {
 @forward 'drop-down';
 .k-drawer {
   border: 0 !important;
-  background: #9e30bf !important;
+  background: #9038ba !important;
 }
 
 .k-drawer .k-drawer-items * {
@@ -475,7 +475,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item {
-  background: #9e30bf !important;
+  background: #9038ba !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-link.k-state-focused, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-state-focused.k-state-hover {
@@ -487,11 +487,11 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
   color: #fff !important;
   background-image: none !important;
-  background: #9e30bf !important;
+  background: #9038ba !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
-  background: #9e30bf !important;
+  background: #9038ba !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover, .k-drawer .k-panelbar .k-item .k-panel .k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item .k-panel .k-item td.k-state-hover.k-state-focused {
@@ -1268,7 +1268,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #9e30bf !important;
+  background: #9038ba !important;
 }
 
 .k-datepicker .k-picker-wrap {
