@@ -46,7 +46,7 @@ input[type=number] {
     background: #282830;
     border-bottom-left-radius: 15px;
   }
-  header .k-icon {
+  header .k-icon, header #username, header #tbbEmail {
     color: #fff !important;
   }
 }
