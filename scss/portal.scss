@@ -107,9 +107,10 @@ input[type=number] {
             }
         }
 
-        .k-icon {
+        .k-icon , #username , #tbbEmail {
             color: $suppliers-mobile-header-color !important;
         }
+        
     }
 }
 
