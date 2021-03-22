@@ -2647,6 +2647,15 @@ progress[value]::-webkit-progress-value {
 }
 
 /*workflows*/
+@media only screen and (min-width: 1480px) {
+  .cube-wrapper {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 22% !important;
+            flex: 0 0 22% !important;
+    max-width: 22% !important;
+  }
+}
+
 .cube-wrapper .cube {
   min-height: 213px !important;
 }
@@ -2828,6 +2837,21 @@ ul.fieldlist {
 .p-floating-container input:not(:placeholder-shown) + label,
 .p-floating-container ul[role="listbox"] + input + label {
   color: #afaeb0 !important;
+}
+
+/*header mobile*/
+@media only screen and (min-width: 768) {
+  header.k-header {
+    background-color: #9038ba !important;
+    border-bottom-left-radius: 15px;
+  }
+  header.k-header .k-toolbar {
+    background: #9038ba;
+    border-bottom-left-radius: 15px;
+  }
+  header .k-icon {
+    color: #fff !important;
+  }
 }
 
 @forward 'workflow';
