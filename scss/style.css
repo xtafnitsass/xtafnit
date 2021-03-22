@@ -3024,11 +3024,11 @@ ul.fieldlist {
 @forward './tooltip';
 @media only screen and (max-width: 768px) {
   header.k-header {
-    background-color: #9e30bf !important;
+    background-color: #9038ba !important;
     border-bottom-left-radius: 15px;
   }
   header.k-header .k-toolbar {
-    background: #9e30bf;
+    background: #9038ba;
     border-bottom-left-radius: 15px;
   }
   header .k-icon,
