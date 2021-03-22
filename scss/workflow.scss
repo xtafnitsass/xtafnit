@@ -243,7 +243,7 @@ ul.fieldlist {
 
 /*header mobile*/
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 768px) {
     header {
         &.k-header {
             background-color: $workflow-mobile-header-background !important;
