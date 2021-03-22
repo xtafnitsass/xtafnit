@@ -37,5 +37,21 @@
           box-shadow: none;
 }
 
+.k-daterangepicker input.k-textbox {
+  background: #ccc !important;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #000;
+  border-left: 0;
+  border-right: 0;
+  color: black;
+  border-radius: 0;
+}
+
+.k-daterangepicker input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 @forward 'textbox';
 /*# sourceMappingURL=textbox.css.map */
