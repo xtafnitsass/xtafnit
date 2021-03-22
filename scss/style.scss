@@ -330,7 +330,6 @@ $suppliers-radio-scoller-webkit-background:#f1f3ff;
 $suppliers-timeselector:#0082c5;
 $suppliers-messageText:#0082c5;
 $suppliers-icon-tachometer: #464247;
-$suppliers-mobile-header-color:#fff;
 
 
 /*link*/
@@ -417,9 +416,14 @@ $tooltip-box-shadow:0 2px 39px 0 rgb(219, 220, 226);
 $tooltip-font-size:14px;
 $tooltip-border-radius:15px;
 
+/*header mobile */
+
+$header-mobile-color:#fff;
+$header-mobile-background:#da242c;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu';
+'./portal', './stepper', './menu','./headerMobile';
