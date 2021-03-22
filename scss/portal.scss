@@ -46,6 +46,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
+$suppliers-mobile-header-color:#fff !default;
 
 //------------------------------------------------------------layout//
 
@@ -93,6 +94,24 @@ input[type=number] {
 }
 
 //header//
+
+@media only screen and (max-width: 768px) {
+    header {
+        &.k-header {
+            background-color: $suppliers-drawer !important;
+            border-bottom-left-radius: 15px;
+
+            .k-toolbar {
+                background: $suppliers-drawer;
+                border-bottom-left-radius: 15px;
+            }
+        }
+
+        .k-icon {
+            color: $suppliers-mobile-header-color !important;
+        }
+    }
+}
 
 header {
     .k-icon {
