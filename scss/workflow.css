@@ -201,20 +201,5 @@ ul.fieldlist {
   color: #afaeb0 !important;
 }
 
-/*header mobile*/
-@media only screen and (max-width: 768px) {
-  header.k-header {
-    background-color: #9038ba !important;
-    border-bottom-left-radius: 15px;
-  }
-  header.k-header .k-toolbar {
-    background: #9038ba;
-    border-bottom-left-radius: 15px;
-  }
-  header .k-icon {
-    color: #fff !important;
-  }
-}
-
 @forward 'workflow';
 /*# sourceMappingURL=workflow.css.map */
