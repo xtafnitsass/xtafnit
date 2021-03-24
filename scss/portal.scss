@@ -47,6 +47,7 @@ $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
 
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -553,7 +554,7 @@ mainbody {
             }
         }
 
-        [xid="controlkiClean"] {
+        .kIconPaint {
             color: $suppliers-details-top-color;
         }
     }
@@ -1262,7 +1263,8 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login,
-#TafnitCore_ToDo_UI_Login {
+#TafnitCore_ToDo_UI_Login,
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login {
 
     mainbody {
         .k-textbox {
