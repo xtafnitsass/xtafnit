@@ -37,20 +37,6 @@ input[type=number] {
   color: #ca0000 !important;
 }
 
-@media only screen and (max-width: 768px) {
-  header.k-header {
-    background-color: #282830 !important;
-    border-bottom-left-radius: 15px;
-  }
-  header.k-header .k-toolbar {
-    background: #282830;
-    border-bottom-left-radius: 15px;
-  }
-  header .k-icon, header #username, header #tbbEmail {
-    color: #fff !important;
-  }
-}
-
 header .k-icon {
   color: #043563;
 }
