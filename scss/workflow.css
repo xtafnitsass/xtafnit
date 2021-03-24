@@ -1,0 +1,205 @@
+.roundedNoneMobile {
+  border-radius: 20px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .roundedNoneMobile {
+    border-radius: 0 !important;
+  }
+}
+
+/*workflows*/
+.cube-wrapper .cube {
+  min-height: 213px !important;
+}
+
+@media only screen and (min-width: 1480px) {
+  .cube-wrapper .cube {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 22% !important;
+            flex: 0 0 22% !important;
+    max-width: 22% !important;
+  }
+}
+
+.cube-wrapper .cube.workflow .late,
+.cube-wrapper .cube.workflow .frozen {
+  border-radius: 5px;
+  width: 100px;
+}
+
+.cube-wrapper .cube.workflow .late {
+  background: #fdeff3;
+}
+
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
+  color: #ff5a85 !important;
+}
+
+.cube-wrapper .cube.workflow .frozen {
+  background: #e6f9f6;
+}
+
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
+  color: #05685a !important;
+}
+
+.cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
+  color: #c7c5c5 !important;
+}
+
+/*myTasks*/
+.active {
+  background: #f7e8ff !important;
+}
+
+.rectAll,
+.rectLate,
+.rectFrozen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.rectAll {
+  background: #f7e8ff;
+  color: #000;
+}
+
+.rectLate {
+  background: #efefef;
+  color: #464247;
+}
+
+.rectFrozen {
+  background: #efefef;
+  color: #464247;
+}
+
+.statusFrozen,
+.statusLate,
+.statusOngoing {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.statusFrozen {
+  background: #e8fbf7;
+  color: #69a99f;
+}
+
+.statusLate {
+  background: #fdeff3;
+  color: #fe8daa;
+}
+
+.statusOngoing {
+  background: #f0eaf6;
+  color: #b583ce;
+}
+
+.transformFlipX {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.fixPadding .col {
+  padding-left: 0px !important;
+}
+
+.fixPadding .col .x-cell-header {
+  margin-top: 10px !important;
+  margin-bottom: 25px !important;
+}
+
+.fixButton .k-button {
+  width: 75px !important;
+  min-width: 100%;
+  padding: 0 !important;
+}
+
+/*timeline*/
+.timlineActivity {
+  background: #f0eaf6;
+  color: #464247;
+  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+
+.timelineUser {
+  font-size: 12px;
+  color: #464742;
+}
+
+.timlineActivityTitle {
+  color: #5a5a5a;
+}
+
+.menuRows {
+  font-size: 14px;
+  min-width: 137px;
+}
+
+.k-window .timlineActivity {
+  display: block !important;
+  margin-top: 5px;
+  position: relative;
+  right: -20px;
+}
+
+.k-window .pageContainer {
+  margin: 0 auto !important;
+  height: 99% !important;
+}
+
+/*ConfirmActivity*/
+/*fix checkbox*/
+ul.fieldlist {
+  position: relative;
+  top: 4px;
+}
+
+/*fix checkbox*/
+.k-checkbox {
+  border-color: #464742 !important;
+  color: #464742 !important;
+}
+
+.k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
+  border-color: #02b5fd !important;
+  color: #02b5fd !important;
+}
+
+/*fix textarea*/
+.textAreaPadding textarea {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.textAreaPadding textarea::-webkit-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea:-ms-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea::-ms-input-placeholder {
+  color: #464247 !important;
+}
+
+.textAreaPadding textarea::placeholder {
+  color: #464247 !important;
+}
+
+/*color floating label*/
+.p-floating-container input:not(:placeholder-shown) + label,
+.p-floating-container ul[role="listbox"] + input + label {
+  color: #afaeb0 !important;
+}
+
+@forward 'workflow';
+/*# sourceMappingURL=workflow.css.map */

@@ -14,9 +14,29 @@ $animator-scroller-webkit-background:#ccc !default;
 
 $animator-autocomplete-header-template-color:#fff !default;
 $animator-autocomplete-header-template-background:#000 !default;
+$animtaor-text-align:right !default;
 
 .k-animation-container {
+    text-align: right;
+
     .k-list-container {
+        .k-list-optionlabel {
+            &.k-state-selected {
+                background: $animator-container-selected-background-color !important;
+                color: $animator-container-selected-color !important;
+            }
+
+            &.k-state-focused {
+                background: $animator-container-selected-background-color !important;
+                color: $animator-container-selected-color !important;
+            }
+
+            &.k-state-hover {
+                background: $animator-container-selected-background-color !important;
+                color: $animator-container-selected-color !important;
+            }
+        }
+
         background: $animator-container-border-color;
         border: 0px solid !important;
 

@@ -8,8 +8,28 @@
   border-bottom-width: 1px;
 }
 
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input:-ms-input-placeholder {
+  color: #000;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::-ms-input-placeholder {
+  color: #000;
+}
+
+.xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap input::placeholder {
+  color: #000;
+}
+
 .xstyle-multiselect-wrapper .k-multiselect .k-multiselect-wrap li.k-button {
   color: #fff;
+}
+
+.p-floating-container ul[role="listbox"] + input + label {
+  top: -17px;
 }
 
 @forward 'multiselect';

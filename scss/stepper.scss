@@ -1,0 +1,7 @@
+$stepper-background:transparent!default;
+
+.k-stepper{
+    background-color:$stepper-background;
+}
+
+@forward 'stepper';

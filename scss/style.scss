@@ -21,12 +21,14 @@ $row-header-color:#0082c5;
 $window-background:#0082c5;
 $window-margin:0px auto;
 $window-color:#fff;
+$window-border:20px;
+$window-width-query-max768:90%;
 
 /*drawer*/
 
 $drawer-background-color:#da242c;
-$drawer-padding-top:70px;
-$drawer-icon-color:#F0F0F0;
+$drawer-icon-color:#fff;
+$drawer-color:#fff;
 
 /*k-animator*/
 
@@ -46,6 +48,7 @@ $animator-scroller-webkit-background:#ccc;
 
 $animator-autocomplete-header-template-color:#282830;
 $animator-autocomplete-header-template-background:#F0F0F0;
+$animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
@@ -181,6 +184,8 @@ $grid-edited-numeric-arrow-background-color:#0082c5;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
+$grid-content-padding:10px 0px;
+$grid-pager-nav-color:#003f59;
 
 
 /*time picker*/
@@ -221,6 +226,7 @@ $multiselect-border-top-width:0px;
 $multiselect-border-right-width:0px;
 $multiselect-border-bottom-width:1px;
 $multiselect-color:#fff;
+$multiselect-placeholder-color:#464247;
 
 /*tabstrip*/
 $tabstrip-wrapper-background:#fff;
@@ -249,12 +255,153 @@ $rating-star-background-color:#0082c5;
 $radio-border-color: #000000;
 $radio-color: #b91414;
 $radio-background-color: #fff;
+$radio-label-color : #464646;
+$radio-border-color-not-checked:#000;
 
 /*freehand*/
 
 $freehand-color: #fff;
 $freehand-background: #c00000;
 $freehand-border-color:#c00000;
+
+/*portal*/
+
+$suppliers-cube-background:#fff;
+$suppliers-cube-color:#464247;
+$suppliers-clock-color:#464247;
+$suppliers-top-panel-background:#ffffff;
+$suppliers-header-color:#464247;
+$suppliers-x-cell-header-color:#464247;
+$suppliers-cube-description-color:#464247;
+$suppliers-body-background:#fafafa;
+$suppliers-upload:#9e30bf;
+$suppliers-drawer:#9e30bf;
+$suppliers-tabstrip:#9e30bf;
+$suppliers-message-text:#9e30bf;
+$suppliers-loginTitle:#474248;
+$suppliers-loginTitle2:#474248;
+$suppliers-white-btn:#9e30bf;
+$suppliers-k-icon:#43b1e5;
+$suppliers-x-textbox:#464247;
+$suppliers-progress-empty:#f2ebf6;
+$suppliers-progress-fill:#9e30bf;
+$suppliers-progress-shadow:#9e30bf;
+$suppliers-first-cube-background:#fff;
+$suppliers-first-cube-color:#464247;
+$suppliers-grid-font-weight:bold;
+$suppliers-grid-content-color:#464247;
+$suppliers-color-btn:#eebcfd;
+$suppliers-window-footer-background:#dadada;
+$suppliers-details-top-color: #9e30bf;
+$suppliers-details-right-left-color: #464247;
+$suppliers-details-top-background-color: #f7e8ff;
+$suppliers-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
+$suppliers-grid-header-color:#b7b7b7;
+$suppliers-grid-link-color:#02b5fd;
+$suppliers-grid-link-decoration:underline;
+$suppliers-rectInv-background:#f6e9fe;
+$suppliers-window-btn-background-color:#02b5fd;
+$suppliers-window-fixicon-color:#9e30bf;
+$suppliers-toolbar-goBack-color:#02b5fd;
+$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-radio-scoller-radius:5px;
+$suppliers-radio-scoller-background:#a9bdca;
+$suppliers-radio-scoller-width:5px;
+$suppliers-radio-scoller-height:5px;
+$suppliers-radio-scoller-webkit-background:#f1f3ff;
+$suppliers-timeselector:#9e30bf;
+$suppliers-messageText:#9e30bf;
+$suppliers-icon-tachometer: #464247;
+
+
+/*link*/
+
+$link-color:#007bff;
+$link-text-underling:underline;
+
+/*stepper*/
+
+$stepper-background:transparent;
+
+/*menu*/
+
+$menu-background:transparent;
+$menu-border:0;
+$menu-button-border:1px solid #bbdceb;
+$menu-popup-border:1px solid #bbdceb;
+$menu-popup-background:1px solid #f5f5f5;
+$menu-border-radius:15px;
+$menu-color:#333;
+$menu-popup-border-radius:20px;
+$menu-popup-padding:5px;
+$menu-dot-size:20px;
+$menu-label-color:#797979;
+$menu-hover-background:#e4e4e4;
+$menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
+
+/*workflow*/
+
+$workflow-cube-late-color : #ff5a85;
+$workflow-cube-late-background : #fdeff3;
+$workflow-cube-frozen-color : #05685a;
+$workflow-cube-frozen-background : #e6f9f6;
+$workflow-cube-openSubTotal-color: #c7c5c5;
+
+$workflow-rectAll-background: #f7e8ff;
+$workflow-rectAll-color: #000;
+$workflow-rectLate-background: #efefef;
+$workflow-rectLate-color: #464247;
+$workflow-rectFrozen-background: #efefef;
+$workflow-rectFrozen-color: #464247;
+$workflow-statusFrozen-background:#e8fbf7;
+$workflow-statusFrozen-color:#69a99f;
+$workflow-statusLate-background:#fdeff3;
+$workflow-statusLate-color:#fe8daa;
+$workflow-statusOngoing-background:#f0eaf6;
+$workflow-statusOngoing-color:#b583ce;
+
+$workflow-timlineActivity-background:#b583ce;
+$workflow-timlineActivity-color: #464247;
+$workflow-timelineUser-color:#464742;
+$workflow-timlineActivityTitle-color:#5a5a5a;
+
+$workflow-checkbox-border-color:#464742;
+$workflow-checkbox-color:#464742;
+$workflow-checkbox-border-color-checked:#02b5fd;
+$workflow-checkbox-color-checked:#02b5fd;
+$workflow-floating-lable-color:#afaeb0;
+$workflow-textarea-color:#464247;
+$workflow-rectAll-active-background:#f7e8ff;
+
+/*timeline*/
+
+$timeline-first-dot-background:#00a1ff;
+$timeline-borderline:2px dashed #eaeaea;
+$timeline-flag-color:#464742;
+$timeline-dot-background:#888;
+$timeline-date-color:#777272;
+$timeline-description-color:#a5a5a5;
+$timeline-card-border-color:#a5a5a5;
+$timeline-window-background:#f8fbfe;
+$timeline-scoller-radius:10px;
+$timeline-scoller-width:10px;
+$timeline-scoller-height:10px;
+$timeline-scoller-webkit-background:#dfdbdb;
+$timeline-scoller-background:#a9bdca;
+
+/*tooltip*/
+
+$tooltip-border-color:#fff;
+$tooltip-color:#464247;
+$tooltip-background-color:#fff;
+$tooltip-box-shadow:0 2px 39px 0 rgb(219, 220, 226);
+$tooltip-font-size:14px;
+$tooltip-border-radius:15px;
+
+/*header mobile */
+
+$header-mobile-color:#fff;
+$header-mobile-background:#9e30bf;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
