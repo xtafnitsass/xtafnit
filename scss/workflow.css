@@ -13,6 +13,15 @@
   min-height: 213px !important;
 }
 
+@media only screen and (min-width: 1480px) {
+  .cube-wrapper .cube {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 22% !important;
+            flex: 0 0 22% !important;
+    max-width: 22% !important;
+  }
+}
+
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
@@ -40,6 +49,10 @@
 }
 
 /*myTasks*/
+.active {
+  background: #f7e8ff !important;
+}
+
 .rectAll,
 .rectLate,
 .rectFrozen {
@@ -127,7 +140,6 @@
 
 .menuRows {
   font-size: 14px;
-  min-height: 108px;
   min-width: 137px;
 }
 

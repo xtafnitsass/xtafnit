@@ -47,6 +47,7 @@ $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
 
+
 //------------------------------------------------------------layout//
 
 //body//
@@ -553,7 +554,7 @@ mainbody {
             }
         }
 
-        [xid="controlkiClean"] {
+        .kIconPaint {
             color: $suppliers-details-top-color;
         }
     }
@@ -1262,7 +1263,8 @@ mainbody {
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login,
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login,
-#TafnitCore_ToDo_UI_Login {
+#TafnitCore_ToDo_UI_Login,
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login {
 
     mainbody {
         .k-textbox {
@@ -1454,6 +1456,12 @@ mainbody {
     }
 }
 
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard{
+    .font-weight-bold {
+        flex-direction: row-reverse !important;
+    }
+}
+
 //suppliers dashboard and balance//
 #TafnitCore_SaaSServer_Portal_Default_UI_Dashboard {
     .k-grid-content {
@@ -1478,16 +1486,16 @@ mainbody {
     }
 }
 
-#TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect,
-#TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
-    mainbody {
-        >div {
-            &:first-child {
-                height: 400px;
-            }
-        }
-    }
-}
+// #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_ClientSelect,
+// #TafnitCore_SaaSServer_Portal_Default_UI_userDetailes {
+//     mainbody {
+//         >div {
+//             &:first-child {
+//                 height: 400px;
+//             }
+//         }
+//     }
+// }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_AddInvoiceNoOrder {
     mainbody {
@@ -1512,7 +1520,7 @@ mainbody {
     }
 }
 
-//customers//
+
 
 //dashboard//
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Dashboard {
@@ -1539,7 +1547,6 @@ mainbody {
             }
         }
     }
-
 }
 
 //customer account//

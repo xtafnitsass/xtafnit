@@ -30,6 +30,8 @@
 /*menu*/
 /*workflow*/
 /*timeline*/
+/*tooltip*/
+/*header mobile */
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000 !important;
@@ -102,12 +104,12 @@ header .popUpWindowCls {
 }
 
 @forward 'header';
-.k-calendar .k-header {
+.k-calendar .k-header, .k-calendar .k-calendar-header {
   background: #ca0000;
   color: #F0F0F0;
 }
 
-.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused {
+.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header .k-link.k-state-hover, .k-calendar .k-calendar-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header td.k-state-hover.k-state-focused {
   background: #ca0000;
   color: #F0F0F0;
   opacity: 0.8;
@@ -235,6 +237,22 @@ header .popUpWindowCls {
 }
 
 .x-text-control-container > input.k-textbox:focus, .k-filter-menu-container > input.k-textbox:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.k-daterangepicker input.k-textbox {
+  background: transparent !important;
+  border: 0;
+  border-top: 0;
+  border-bottom: 1px solid #2e2e2e;
+  border-left: 0;
+  border-right: 0;
+  color: #000;
+  border-radius: 0px;
+}
+
+.k-daterangepicker input.k-textbox:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -972,7 +990,8 @@ input[type="time"] {
     left: 20px !important;
   }
   .k-timeline-date-wrap {
-    right: 210px !important;
+    left: 20px;
+    right: unset !important;
     z-index: 9999;
     margin-top: 5px !important;
   }
