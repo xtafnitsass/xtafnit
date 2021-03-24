@@ -1,0 +1,6 @@
+.k-stepper {
+  background-color: transparent;
+}
+
+@forward 'stepper';
+/*# sourceMappingURL=stepper.css.map */

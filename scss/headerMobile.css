@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+  header.k-header {
+    background-color: #9e30bf !important;
+    border-bottom-left-radius: 15px;
+  }
+  header.k-header .k-toolbar {
+    background: #9e30bf;
+    border-bottom-left-radius: 15px;
+  }
+  header .k-icon,
+  header #username,
+  header #tbbEmail {
+    color: #fff !important;
+  }
+}
+
+@forward './headerMobile';
+/*# sourceMappingURL=headerMobile.css.map */
