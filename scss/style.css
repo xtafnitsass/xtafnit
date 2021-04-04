@@ -1750,12 +1750,12 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb {
-  background: #a9bdca;
+  background: #02b5fd;
   border-radius: 5px;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb:hover {
-  background: #99b1c0;
+  background: #02a3e4;
 }
 
 .details .top .x-cell-header {
@@ -2048,7 +2048,7 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .gridSearch input[checked]:before {
   content: "";
-  background: #a9bdca;
+  background: #02b5fd;
   width: 8px;
   height: 8px;
 }
