@@ -1267,6 +1267,13 @@ mainbody {
         border-radius: 50% !important;
     }
 
+    input[checked]:before {
+        content: "";
+        background: $suppliers-radio-scoller-background;
+        width: 8px;
+        height: 8px;
+    }
+
     .k-grid-search {
         width: 99%;
     }
