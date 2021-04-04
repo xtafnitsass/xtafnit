@@ -1274,10 +1274,6 @@ mainbody {
         height: 8px;
     }
 
-    .k-grid-search {
-        width: 99%;
-    }
-
     .k-grid {
         .k-grid-content {
             height: 27vh !important;
@@ -1305,6 +1301,24 @@ mainbody {
     }
 }
 
+.searchDesign {
+    .k-grid-toolbar {
+        display: flex;
+        justify-content: flex-end;
+
+        .k-grid-search {
+            width: 30%;
+            border-radius: 20px;
+            background: #eee;
+            border: 0;
+
+            input.k-input {
+                border-radius: 20px;
+                background: #eee;
+            }
+        }
+    }
+}
 
 
 
