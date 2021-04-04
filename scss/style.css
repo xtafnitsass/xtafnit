@@ -1750,12 +1750,12 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb {
-  background: #a9bdca;
+  background: #0082c5;
   border-radius: 5px;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb:hover {
-  background: #99b1c0;
+  background: #0071ac;
 }
 
 .details .top .x-cell-header {
@@ -2044,6 +2044,13 @@ mainbody .gridHeaderButton .kIconPaint {
 .gridSearch .k-checkbox:checked,
 .gridSearch .k-checkbox:focus {
   border-radius: 50% !important;
+}
+
+.gridSearch input[checked]:before {
+  content: "";
+  background: #0082c5;
+  width: 8px;
+  height: 8px;
 }
 
 .gridSearch .k-grid-search {
