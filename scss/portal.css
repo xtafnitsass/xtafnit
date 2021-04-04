@@ -1113,6 +1113,13 @@ mainbody .gridHeaderButton .kIconPaint {
   border-radius: 50% !important;
 }
 
+.gridSearch input[checked]:before {
+  content: "";
+  background: #a9bdca;
+  width: 8px;
+  height: 8px;
+}
+
 .gridSearch .k-grid-search {
   width: 99%;
 }
