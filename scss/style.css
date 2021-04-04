@@ -874,7 +874,7 @@ input[type="time"] {
 .x-damageTypeAndCamera .k-radio {
   color: #0082c5;
   background-color: #fff;
-  border-color: #000;
+  border-color: #0082c5;
 }
 
 .xstyle-radio-wrapper .k-radio:focus,
