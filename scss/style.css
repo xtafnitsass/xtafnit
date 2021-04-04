@@ -2045,8 +2045,11 @@ mainbody .gridHeaderButton .kIconPaint {
   border-radius: 50% !important;
 }
 
-.gridSearch .k-grid-search {
-  width: 99%;
+.gridSearch input[checked]:before {
+  content: "";
+  background: #a9bdca;
+  width: 8px;
+  height: 8px;
 }
 
 .gridSearch .k-grid .k-grid-content {
@@ -2071,6 +2074,27 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .gridSearch .k-grid .k-grid-content td {
   border-bottom: 0px !important;
+}
+
+.searchDesign .k-grid-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.searchDesign .k-grid-toolbar .k-grid-search {
+  width: 30%;
+  border-radius: 20px;
+  background: #eee;
+  border: 0;
+}
+
+.searchDesign .k-grid-toolbar .k-grid-search input.k-input {
+  border-radius: 20px;
+  background: #eee;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
