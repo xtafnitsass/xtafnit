@@ -1750,12 +1750,12 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb {
-  background: #a9bdca;
+  background: #0167b1;
   border-radius: 10px;
 }
 
 .radioWrapperScroll::-webkit-scrollbar-thumb:hover {
-  background: #99b1c0;
+  background: #015898;
 }
 
 .details .top .x-cell-header {
@@ -2048,7 +2048,7 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .gridSearch input[checked]:before {
   content: "";
-  background: #a9bdca;
+  background: #0167b1;
   width: 8px;
   height: 8px;
 }
@@ -2081,13 +2081,10 @@ mainbody .gridHeaderButton .kIconPaint {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .searchDesign .k-grid-toolbar .k-grid-search {
-  width: 30%;
+  width: 35%;
   border-radius: 20px;
   background: #eee;
   border: 0;
@@ -2096,6 +2093,10 @@ mainbody .gridHeaderButton .kIconPaint {
 .searchDesign .k-grid-toolbar .k-grid-search input.k-input {
   border-radius: 20px;
   background: #eee;
+}
+
+.searchDesign .k-grid .k-grid-content td {
+  font-size: 16px !important;
 }
 
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
