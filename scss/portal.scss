@@ -1304,10 +1304,8 @@ mainbody {
 .searchDesign {
     .k-grid-toolbar {
         display: flex;
-        justify-content: flex-end;
-
         .k-grid-search {
-            width: 30%;
+            width: 35%;
             border-radius: 20px;
             background: #eee;
             border: 0;
@@ -1315,6 +1313,13 @@ mainbody {
             input.k-input {
                 border-radius: 20px;
                 background: #eee;
+            }
+        }
+    }
+    .k-grid{
+        .k-grid-content{
+            td{
+                font-size: 16px!important;
             }
         }
     }
