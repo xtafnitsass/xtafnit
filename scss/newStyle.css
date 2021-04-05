@@ -179,7 +179,7 @@ iframe {
 }
 
 a.x-link_Comp {
-  display: inline;
+  display: inline-block;
 }
 
 ::-webkit-input-placeholder {
