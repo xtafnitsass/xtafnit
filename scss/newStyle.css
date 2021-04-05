@@ -571,6 +571,10 @@ label.btn {
   padding-left: 0 !important;
 }
 
+.timlineActivityTitle {
+  white-space: break-spaces;
+}
+
 .p-floating-container {
   position: relative;
 }
