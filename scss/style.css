@@ -2404,7 +2404,7 @@ mainbody .gridHeaderButton .kIconPaint {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 674px;
-  min-height: 690px;
+  min-height: 680px;
 }
 
 @media only screen and (max-height: 950px) {
