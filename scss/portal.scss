@@ -1304,8 +1304,14 @@ mainbody {
 .searchDesign {
     .k-grid-toolbar {
         display: flex;
+
         .k-grid-search {
             width: 35%;
+
+            @media only screen and(max-width:576px) {
+                width: 95% !important;
+            }
+
             border-radius: 20px;
             background: #eee;
             border: 0;
@@ -1316,10 +1322,11 @@ mainbody {
             }
         }
     }
-    .k-grid{
-        .k-grid-content{
-            td{
-                font-size: 16px!important;
+
+    .k-grid {
+        .k-grid-content {
+            td {
+                font-size: 16px !important;
             }
         }
     }
