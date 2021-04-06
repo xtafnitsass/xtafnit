@@ -349,4 +349,8 @@ select:-webkit-autofill:focus {
 label.btn {
   padding: 0;
 }
+
+.k-pane-wrapper {
+  width: 100%;
+}
 /*# sourceMappingURL=layout.css.map */

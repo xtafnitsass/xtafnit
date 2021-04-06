@@ -22,7 +22,8 @@ mainbody {
     mainbody {
         margin: 0px !important;
     }
-    > .row{
+
+    >.row {
         background: #fff;
     }
 }
@@ -345,4 +346,9 @@ label {
     &.btn {
         padding: 0;
     }
+}
+
+
+.k-pane-wrapper {
+    width: 100%;
 }

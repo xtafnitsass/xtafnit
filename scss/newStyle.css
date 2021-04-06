@@ -424,6 +424,10 @@ label.btn {
   padding: 0;
 }
 
+.k-pane-wrapper {
+  width: 100%;
+}
+
 /* fix width when setting display flex */
 .fixWidth > .x-self-container {
   width: 100%;
