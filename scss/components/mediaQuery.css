@@ -67,5 +67,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .k-window .pageContainer {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=mediaQuery.css.map */

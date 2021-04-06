@@ -112,4 +112,9 @@ $breakpoint-xl: 1200px;
             text-overflow: ellipsis;
         }
     }
+    .k-window  {
+        .pageContainer{
+            padding: 0;
+        }
+    }
 }
