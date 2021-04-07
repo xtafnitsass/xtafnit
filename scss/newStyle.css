@@ -3145,6 +3145,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
   text-align: left !important;
 }
 
+.xstyle-itreeview-wrapper .k-sprite {
+  font-size: 16px;
+}
+
 .x-compass-arrow {
   position: static;
   width: auto;
