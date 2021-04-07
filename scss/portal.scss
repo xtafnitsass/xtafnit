@@ -1256,6 +1256,87 @@ mainbody {
     }
 }
 
+
+
+.gridSearch {
+
+    .k-checkbox,
+    .k-checkbox:hover,
+    .k-checkbox:checked,
+    .k-checkbox:focus {
+        border-radius: 50% !important;
+    }
+
+    input[checked]:before {
+        content: "";
+        background: $suppliers-radio-scoller-background;
+        width: 8px;
+        height: 8px;
+    }
+
+    .k-grid {
+        .k-grid-content {
+            height: 27vh !important;
+
+            tr.k-state-selected td {
+                background: transparent !important;
+            }
+
+            tr.k-state-selected {
+                background: transparent !important;
+            }
+
+            tr:hover {
+                background: transparent !important;
+
+                td {
+                    background: transparent !important;
+                }
+            }
+
+            td {
+                border-bottom: 0px !important;
+            }
+        }
+    }
+}
+
+.searchDesign {
+    .k-grid-toolbar {
+        display: flex;
+
+        .k-grid-search {
+            width: 35%;
+
+            @media only screen and(max-width:576px) {
+                width: 95% !important;
+            }
+
+            border-radius: 20px;
+            background: #eee;
+            border: 0;
+
+            input.k-input {
+                border-radius: 20px;
+                background: #eee;
+            }
+        }
+    }
+
+    .k-grid {
+        .k-grid-content {
+            td {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+
+
+
+
+
 //------------------------------------------------------------page login//
 //login//
 #TafnitCore_SaaSServer_Portal_Default_UI_Login,
@@ -1403,7 +1484,7 @@ mainbody {
         [xid="controlrLogin"] {
             flex-direction: column;
             max-width: 674px;
-            min-height: 690px;
+            min-height: 680px;
 
             @media only screen and (max-height:950px) {
                 min-height: 480px;
@@ -1444,6 +1525,7 @@ mainbody {
                 left: 20px !important;
             }
         }
+
         .font-weight-bold {
             flex-direction: row !important;
         }
@@ -1456,7 +1538,7 @@ mainbody {
     }
 }
 
-#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard{
+#TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Dashboard {
     .font-weight-bold {
         flex-direction: row-reverse !important;
     }
