@@ -2837,12 +2837,12 @@ mainbody {
 
 .rectLate {
   background: #efefef;
-  color: #868387;
+  color: #000;
 }
 
 .rectFrozen {
   background: #efefef;
-  color: #868387;
+  color: #000;
 }
 
 @media only screen and (max-width: 1024px) {
