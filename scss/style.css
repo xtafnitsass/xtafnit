@@ -2831,18 +2831,18 @@ mainbody {
 }
 
 .rectAll {
-  background: #f7e8ff;
+  background: #efefef;
   color: #000;
 }
 
 .rectLate {
   background: #efefef;
-  color: #464247;
+  color: #868387;
 }
 
 .rectFrozen {
   background: #efefef;
-  color: #464247;
+  color: #868387;
 }
 
 @media only screen and (max-width: 1024px) {

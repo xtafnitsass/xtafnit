@@ -1,10 +1,10 @@
-$workflow-rectAll-active-background:#f7e8ff;
-$workflow-rectAll-background: #f7e8ff;
-$workflow-rectAll-color: #000;
-$workflow-rectLate-background: #efefef;
-$workflow-rectLate-color: #464247;
-$workflow-rectFrozen-background: #efefef;
-$workflow-rectFrozen-color: #464247;
+$todo-rectAll-active-background:#f7e8ff;
+$todo-rectAll-background: #efefef;
+$todo-rectAll-color: #000;
+$todo-rectLate-background: #efefef;
+$todo-rectLate-color: #868387;
+$todo-rectFrozen-background: #efefef;
+$todo-rectFrozen-color: #868387;
 
 //body//
 .xtafnit_pageContainer {
@@ -157,7 +157,7 @@ mainbody{
 /*myTasks*/
 
 .active {
-    background: $workflow-rectAll-active-background !important;
+    background: $todo-rectAll-active-background !important;
 }
 
 .rectAll,
@@ -168,17 +168,17 @@ mainbody{
 }
 
 .rectAll {
-    background: $workflow-rectAll-background;
-    color: $workflow-rectAll-color;
+    background: $todo-rectAll-background;
+    color: $todo-rectAll-color;
 
 }
 
 .rectLate {
-    background: $workflow-rectLate-background;
-    color: $workflow-rectLate-color;
+    background: $todo-rectLate-background;
+    color: $todo-rectLate-color;
 }
 
 .rectFrozen {
-    background: $workflow-rectFrozen-background;
-    color: $workflow-rectFrozen-color;
+    background: $todo-rectFrozen-background;
+    color: $todo-rectFrozen-color;
 }
