@@ -593,6 +593,10 @@ label.btn {
   white-space: break-spaces;
 }
 
+.pageImage {
+  background-attachment: fixed;
+}
+
 .p-floating-container {
   position: relative;
 }

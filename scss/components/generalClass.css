@@ -151,4 +151,8 @@
 .timlineActivityTitle {
   white-space: break-spaces;
 }
+
+.pageImage {
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=generalClass.css.map */
