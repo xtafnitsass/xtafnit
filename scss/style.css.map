@@ -36,7 +36,8 @@
         "workflow.scss",
         "timeline.scss",
         "tooltip.scss",
-        "headerMobile.scss"
+        "headerMobile.scss",
+        "consumer-products.scss"
     ],
     "names": [],
     "file": "style.css"
