@@ -71,8 +71,12 @@ body mainbody {
 .k-separator {
   position: absolute;
   top: 12px;
-  height: 18px;
+  height: 18px !important;
   color: #ccc;
+}
+
+#kiDrawer {
+  padding-right: 20px;
 }
 
 #separator1 {
@@ -80,7 +84,7 @@ body mainbody {
 }
 
 #separator2 {
-  right: 20px;
+  right: 50px;
 }
 
 @forward 'consumer-products';
