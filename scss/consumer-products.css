@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !important;
   background-attachment: fixed !important;
-  height: calc(100vh - 65px);
+  height: 400px;
 }
 
 body mainbody {
@@ -62,10 +62,12 @@ body mainbody {
 
 #kiNotification {
   left: 40px !important;
+  background: initial !important;
 }
 
 #kiUser2 {
   left: 60px !important;
+  background: initial !important;
 }
 
 .k-separator {
@@ -77,6 +79,7 @@ body mainbody {
 
 #kiDrawer {
   padding-right: 20px;
+  padding-left: 15px;
 }
 
 #separator1 {
@@ -84,7 +87,109 @@ body mainbody {
 }
 
 #separator2 {
-  right: 50px;
+  right: 55px;
+}
+
+.fs-12 .fa-chevron-down {
+  font-size: 12px;
+}
+
+.k-toolbar .k-badge {
+  position: absolute;
+  left: 102px;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+}
+
+.k-menu .k-link.k-state-active {
+  background-color: transparent !important;
+}
+
+.consumerGrey .k-input,
+.consumerGrey .x-dynamic-label-control {
+  color: #043563 !important;
+}
+
+.iconMarginLeft .k-icon {
+  margin-left: 7px;
+}
+
+.cubeTop {
+  -webkit-box-shadow: 0px 0px 5px #cac4c4;
+          box-shadow: 0px 0px 5px #cac4c4;
+  background: #fff;
+}
+
+.scrollText {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  width: 80% !important;
+  display: block !important;
+  text-align: right;
+}
+
+.scrollviewRound .k-scrollview {
+  border-radius: 0.65em;
+}
+
+.k-scrollview .k-scrollview-nav {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.k-scrollview .k-link {
+  margin: 0px 2px !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.k-scrollview .k-link.k-primary {
+  background: #fff !important;
+}
+
+.circleLightBlue {
+  width: 50px;
+  margin: auto;
+}
+
+.circleLightBlue:before {
+  background: #a2feec;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 8px;
+  content: "";
+}
+
+.fw-300 .k-icon {
+  font-weight: 300 !important;
+}
+
+.consumerLinkColor .x-control-caption-text {
+  color: #b0b4c1 !important;
+}
+
+.consumerLinkColor .x-link_Comp {
+  color: #636a86 !important;
+}
+
+.productCube .cubeDetails {
+  background: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.productCube .x-image-wrapper img {
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+}
+
+.k-drawer {
+  max-width: 100% !important;
+  border-radius: 0 !important;
 }
 
 @forward 'consumer-products';

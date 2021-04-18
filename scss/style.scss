@@ -5,8 +5,8 @@ $header-border: none;
 $header-color:#043563;
 
 /*footer*/
-$footer-color:#fff;
-$footer-background:#191d2d;
+$footer-color:#043563;
+$footer-background:transparent;
 
 /*row*/
 $row-background-color:#fff;
@@ -26,9 +26,9 @@ $window-width-query-max768:90%;
 
 /*drawer*/
 
-$drawer-background-color:#1387da;
-$drawer-icon-color:#fff;
-$drawer-color:#fff;
+$drawer-background-color:linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff);
+$drawer-icon-color:#043563;
+$drawer-color:#043563;
 
 /*k-animator*/
 
@@ -328,15 +328,15 @@ $menu-background:transparent;
 $menu-border:0;
 $menu-button-border:0px solid #bbdceb;
 $menu-popup-border:0px solid #bbdceb;
-$menu-popup-background:1px solid #f5f5f5;
+$menu-popup-background:#fff;
 $menu-border-radius:0px;
 $menu-color:#333;
-$menu-popup-border-radius:20px;
-$menu-popup-padding:5px;
-$menu-dot-size:20px;
+$menu-popup-border-radius:10px;
+$menu-popup-padding:0px;
+$menu-dot-size:12px;
 $menu-label-color:#797979;
 $menu-hover-background:#e4e4e4;
-$menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
+$menu-box-shadow:-5px 5px 10px #9c9c9c;
 
 /*workflow*/
 
@@ -411,6 +411,14 @@ $consumer-button-gradient-background-color:linear-gradient(270deg, #bbc2e7, #667
 $consumer-close-btn-color:#6677d8;
 $consumer-kicon-border-bottom:1px solid #043563;
 $consumer-kicon-color:#6677d8;
+$consumer-grey-color:#8b90a5;
+$consumer-scrollview-text-color:#fff;
+$consumer-scrollview-dot-color:#fff;
+$consumer-my-products-color:#b0b4c1;
+$consumer-link-see-all-color:#636a86;
+$consumer-cube-background-color:#fff;
+$consumer-cube-top-background: #fff;
+$consumer-cube-top-boxshadow:0px 0px 5px #cac4c4;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

@@ -323,8 +323,8 @@ mainbody .x-section-header-wrraper {
 @forward 'window';
 .pageContainer footer,
 .fullPageContainer footer {
-  background: #191d2d !important;
-  color: #fff;
+  background: transparent !important;
+  color: #043563;
 }
 
 @forward 'footer';
@@ -461,11 +461,11 @@ mainbody .x-section-header-wrraper {
 @forward 'drop-down';
 .k-drawer {
   border: 0 !important;
-  background: #1387da !important;
+  background: linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !important;
 }
 
 .k-drawer .k-drawer-items * {
-  color: #fff !important;
+  color: #043563 !important;
 }
 
 .k-drawer .k-drawer-items .k-drawer-item {
@@ -477,7 +477,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item {
-  background: #1387da !important;
+  background: linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-link.k-state-focused, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-state-focused.k-state-hover {
@@ -487,13 +487,13 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-drawer .k-panelbar .k-item .k-link.k-header, .k-drawer .k-panelbar .k-item .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item td.k-header.k-state-focused.k-state-hover {
-  color: #fff !important;
+  color: #043563 !important;
   background-image: none !important;
-  background: #1387da !important;
+  background: linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item {
-  background: #1387da !important;
+  background: linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !important;
 }
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover, .k-drawer .k-panelbar .k-item .k-panel .k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item .k-panel .k-item td.k-state-hover.k-state-focused {
@@ -2682,16 +2682,16 @@ progress[value]::-webkit-progress-value {
 
 .k-menu li.k-item .k-group {
   border: 0px solid #bbdceb;
-  background: 1px solid #f5f5f5;
-  border-radius: 20px;
-  padding: 5px;
-  -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
-          box-shadow: 2px 2px 10px #dad9d9 !important;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  -webkit-box-shadow: -5px 5px 10px #9c9c9c !important;
+          box-shadow: -5px 5px 10px #9c9c9c !important;
 }
 
 .k-menu li.k-item i.k-icon {
   color: #333 !important;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .k-menu .xMenuItemColor span {
@@ -2905,7 +2905,7 @@ progress[value]::-webkit-progress-value {
 body {
   background: linear-gradient(315deg, #e1e4f9 0%, #f1f1f1 49%, #e1e4f9 100%) !important;
   background-attachment: fixed !important;
-  height: calc(100vh - 65px);
+  height: 400px;
 }
 
 body mainbody {
@@ -2967,10 +2967,12 @@ body mainbody {
 
 #kiNotification {
   left: 40px !important;
+  background: initial !important;
 }
 
 #kiUser2 {
   left: 60px !important;
+  background: initial !important;
 }
 
 .k-separator {
@@ -2982,6 +2984,7 @@ body mainbody {
 
 #kiDrawer {
   padding-right: 20px;
+  padding-left: 15px;
 }
 
 #separator1 {
@@ -2989,7 +2992,109 @@ body mainbody {
 }
 
 #separator2 {
-  right: 50px;
+  right: 55px;
+}
+
+.fs-12 .fa-chevron-down {
+  font-size: 12px;
+}
+
+.k-toolbar .k-badge {
+  position: absolute;
+  left: 102px;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+}
+
+.k-menu .k-link.k-state-active, .k-menu .k-calendar .k-calendar-view td.k-state-active.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-menu td.k-state-active.k-state-focused.k-state-hover {
+  background-color: transparent !important;
+}
+
+.consumerGrey .k-input,
+.consumerGrey .x-dynamic-label-control {
+  color: #8b90a5 !important;
+}
+
+.iconMarginLeft .k-icon {
+  margin-left: 7px;
+}
+
+.cubeTop {
+  -webkit-box-shadow: 0px 0px 5px #cac4c4;
+          box-shadow: 0px 0px 5px #cac4c4;
+  background: #fff;
+}
+
+.scrollText {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  width: 80% !important;
+  display: block !important;
+  text-align: right;
+}
+
+.scrollviewRound .k-scrollview {
+  border-radius: 0.65em;
+}
+
+.k-scrollview .k-scrollview-nav {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.k-scrollview .k-link, .k-scrollview .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-state-focused.k-state-hover {
+  margin: 0px 2px !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.k-scrollview .k-link.k-primary, .k-scrollview .k-calendar .k-calendar-view td.k-primary.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-primary.k-state-focused.k-state-hover {
+  background: #fff !important;
+}
+
+.circleLightBlue {
+  width: 50px;
+  margin: auto;
+}
+
+.circleLightBlue:before {
+  background: #a2feec;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 8px;
+  content: "";
+}
+
+.fw-300 .k-icon {
+  font-weight: 300 !important;
+}
+
+.consumerLinkColor .x-control-caption-text {
+  color: #b0b4c1 !important;
+}
+
+.consumerLinkColor .x-link_Comp {
+  color: #636a86 !important;
+}
+
+.productCube .cubeDetails {
+  background: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.productCube .x-image-wrapper img {
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+}
+
+.k-drawer {
+  max-width: 100% !important;
+  border-radius: 0 !important;
 }
 
 @forward 'consumer-products';
