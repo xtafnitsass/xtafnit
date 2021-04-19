@@ -1546,7 +1546,7 @@ mainbody .gridHeaderButton .kIconPaint {
 .color-btn .k-button {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #bad8f5 !important;
+  border: 1px solid #7b72f4 !important;
 }
 
 .fixIcon .k-icon-wrapper {
@@ -2918,6 +2918,8 @@ body mainbody {
 
 .active.w-120 {
   width: 120px;
+  border-radius: 0;
+  border-top-right-radius: 0.85em;
 }
 
 .k-drawer .k-drawer-items drawer-item-container {
