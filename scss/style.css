@@ -32,6 +32,7 @@
 /*timeline*/
 /*tooltip*/
 /*header mobile */
+/*consumer-product*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000;
@@ -3104,4 +3105,233 @@ ul.fieldlist {
 }
 
 @forward './headerMobile';
+body {
+  background: linear-gradient(315deg, #e1e4f9 0%, #f1f1f1 49%, #e1e4f9 100%) !important;
+  background-attachment: fixed !important;
+  height: 400px;
+}
+
+body mainbody {
+  height: 100%;
+}
+
+.k-drawer .k-drawer-items drawer-item-container {
+  padding: 0px 20px;
+}
+
+.k-drawer .k-drawer-items drawer-item-container:first-child {
+  padding-right: 60px;
+}
+
+.k-drawer .k-drawer-items drawer-item-container [xid="controlkiClose"] {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  color: #6677d8 !important;
+  font-weight: 500;
+}
+
+.k-drawer .k-drawer-items drawer-item-container [xid="controldiHeader"] {
+  text-align: center;
+  padding-right: 45px;
+  font-size: 14px;
+}
+
+.activeBorderBottom {
+  font-weight: bold;
+  border-bottom: 2px solid #043563;
+  border-radius: 0;
+}
+
+.placeholderColor input.k-textbox::-webkit-input-placeholder {
+  color: #04356393;
+}
+
+.placeholderColor input.k-textbox:-ms-input-placeholder {
+  color: #04356393;
+}
+
+.placeholderColor input.k-textbox::-ms-input-placeholder {
+  color: #04356393;
+}
+
+.placeholderColor input.k-textbox::placeholder {
+  color: #04356393;
+}
+
+.gradientColor .k-button {
+  background: -webkit-gradient(linear, right top, left top, from(#bbc2e7), to(#6677d8)) !important;
+  background: linear-gradient(270deg, #bbc2e7, #6677d8) !important;
+}
+
+.xstyle-password-wrapper .x-control-content-wrapper > .k-textbox {
+  background: transparent !important;
+}
+
+.blueColor .k-icon {
+  color: #6677d8 !important;
+}
+
+.x-kicon-caption {
+  border-bottom: 1px solid #043563;
+}
+
+.kIconColor .k-icon {
+  color: #6677d8 !important;
+  font-weight: 500;
+}
+
+.whiteSpace {
+  white-space: nowrap;
+}
+
+.k-scrollview-next,
+.k-scrollview-prev {
+  display: none !important;
+}
+
+#kiNotification {
+  left: 40px !important;
+  background: initial !important;
+}
+
+#kiUser2 {
+  left: 60px !important;
+  background: initial !important;
+}
+
+.k-separator {
+  position: absolute;
+  top: 12px;
+  height: 18px !important;
+  color: #ccc;
+}
+
+#kiDrawer {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+#separator1 {
+  left: 80px;
+}
+
+#separator2 {
+  right: 55px;
+}
+
+.fs-12 .fa-chevron-down {
+  font-size: 12px;
+}
+
+.k-toolbar .k-badge {
+  position: absolute;
+  left: 102px;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+}
+
+.k-menu .k-link.k-state-active, .k-menu .k-calendar .k-calendar-view td.k-state-active.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-menu td.k-state-active.k-state-focused.k-state-hover {
+  background-color: transparent !important;
+}
+
+.consumerGrey .k-input,
+.consumerGrey .x-dynamic-label-control {
+  color: #8b90a5 !important;
+}
+
+.iconMarginLeft .k-icon {
+  margin-left: 7px;
+}
+
+.cubeTop {
+  -webkit-box-shadow: 0px 0px 5px #cac4c4;
+          box-shadow: 0px 0px 5px #cac4c4;
+  background: #fff;
+}
+
+.scrollText {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  width: 80% !important;
+  display: block !important;
+  text-align: right;
+}
+
+.scrollviewRound .k-scrollview {
+  border-radius: 0.65em;
+}
+
+.k-scrollview .k-scrollview-nav {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.k-scrollview .k-link, .k-scrollview .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-state-focused.k-state-hover {
+  margin: 0px 2px !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+
+.k-scrollview .k-link.k-primary, .k-scrollview .k-calendar .k-calendar-view td.k-primary.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-primary.k-state-focused.k-state-hover {
+  background: #fff !important;
+}
+
+.circleLightBlue {
+  width: 50px;
+  margin: auto;
+}
+
+.circleLightBlue.big:before {
+  width: 40px;
+  height: 40px;
+  right: -8px;
+}
+
+.circleLightBlue:before {
+  background: #a2feec;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 8px;
+  opacity: 0.6;
+  content: "";
+}
+
+.fw-300 .k-icon {
+  font-weight: 300 !important;
+}
+
+.consumerLinkColor .x-control-caption-text {
+  color: #b0b4c1 !important;
+}
+
+.consumerLinkColor .x-link_Comp {
+  color: #636a86 !important;
+}
+
+.productCube .cubeDetails {
+  background: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.productCube .x-image-wrapper img {
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+}
+
+.k-drawer {
+  max-width: 100% !important;
+  border-radius: 0 !important;
+}
+
+.k-drawer .k-drawer-wrapper {
+  width: 100%;
+}
+
+@forward 'consumer-products';
 /*# sourceMappingURL=style.css.map */

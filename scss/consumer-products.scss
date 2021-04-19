@@ -1,0 +1,281 @@
+$consumer-active-border-bottom-color:#043563 !default;
+$consumer-placeholder-color:#043563 !default;
+$consumer-body-background-color:linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff) !default;
+$consumer-button-gradient-background-color:linear-gradient(15deg, #ccc, #6677d8) !default;
+$consumer-close-btn-color:#6677d8 !default;
+$consumer-kicon-border-bottom:1px solid #043563 !default;
+$consumer-kicon-color:#6677d8 !default;
+$consumer-grey-color:#043563 !default;
+$consumer-scrollview-text-color:#fff !default;
+$consumer-scrollview-dot-color:#fff !default;
+$consumer-my-products-color:#b0b4c1 !default;
+$consumer-link-see-all-color:#636a86 !default;
+$consumer-cube-background-color:#fff !default;
+$consumer-cube-top-background: #fff !default;
+$consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
+
+
+
+
+body {
+    background: $consumer-body-background-color !important;
+    background-attachment: fixed !important;
+    // height: calc(100vh - 200px);
+    height: 400px;
+
+    mainbody {
+        height: 100%;
+    }
+}
+
+
+
+.k-drawer {
+    .k-drawer-items {
+        drawer-item-container {
+            &:first-child {
+                padding-right: 60px;
+            }
+
+            padding: 0px 20px;
+
+            [xid="controlkiClose"] {
+                order: 2;
+                color: $consumer-kicon-color !important;
+                font-weight: 500;
+            }
+
+            [xid="controldiHeader"] {
+                text-align: center;
+                padding-right: 45px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.activeBorderBottom {
+    font-weight: bold;
+    border-bottom: 2px solid $consumer-active-border-bottom-color;
+    border-radius: 0;
+}
+
+.placeholderColor {
+    input {
+        &.k-textbox {
+            &::placeholder {
+                color: $consumer-placeholder-color;
+            }
+        }
+    }
+}
+
+.gradientColor {
+    .k-button {
+        background: $consumer-button-gradient-background-color !important;
+    }
+}
+
+.xstyle-password-wrapper {
+    .x-control-content-wrapper {
+        >.k-textbox {
+            background: transparent !important;
+        }
+    }
+}
+
+.blueColor {
+    .k-icon {
+        color: $consumer-close-btn-color !important;
+    }
+}
+
+.x-kicon-caption {
+    border-bottom: $consumer-kicon-border-bottom;
+}
+
+.kIconColor {
+    .k-icon {
+        color: $consumer-kicon-color !important;
+        font-weight: 500;
+    }
+}
+
+.whiteSpace {
+    white-space: nowrap;
+}
+
+.k-scrollview-next,
+.k-scrollview-prev {
+    display: none !important;
+}
+
+#kiNotification {
+    left: 40px !important;
+    background: initial !important;
+}
+
+#kiUser2 {
+    left: 60px !important;
+    background: initial !important;
+}
+
+.k-separator {
+    position: absolute;
+    top: 12px;
+    height: 18px !important;
+    color: #ccc;
+}
+
+#kiDrawer {
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+#separator1 {
+    left: 80px;
+}
+
+#separator2 {
+    right: 55px;
+}
+
+.fs-12 {
+    .fa-chevron-down {
+        font-size: 12px;
+    }
+}
+
+.k-toolbar {
+    .k-badge {
+        position: absolute;
+        left: 102px;
+        width: 15px;
+        height: 15px;
+        top: 9px;
+    }
+}
+
+.k-menu {
+    .k-link {
+        &.k-state-active {
+            background-color: transparent !important;
+        }
+    }
+}
+
+.consumerGrey {
+
+    .k-input,
+    .x-dynamic-label-control {
+        color: $consumer-grey-color !important;
+    }
+}
+
+.iconMarginLeft {
+    .k-icon {
+        margin-left: 7px;
+    }
+}
+
+.cubeTop {
+    box-shadow: $consumer-cube-top-boxshadow;
+    background: $consumer-cube-top-background;
+}
+
+.scrollText {
+    color: $consumer-scrollview-text-color;
+    position: absolute;
+    top: 20px;
+    width: 80% !important;
+    display: block !important;
+    text-align: right;
+}
+
+.scrollviewRound {
+    .k-scrollview {
+        border-radius: 0.65em;
+    }
+}
+
+.k-scrollview {
+    .k-scrollview-nav {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .k-link {
+        margin: 0px 2px !important;
+        width: 7px !important;
+        height: 7px !important;
+
+        &.k-primary {
+            background: $consumer-scrollview-dot-color !important;
+        }
+    }
+}
+
+.circleLightBlue {
+    width: 50px;
+    margin: auto;
+
+    &.big {
+        &:before {
+            width: 40px;
+            height: 40px;
+            right: -8px;
+        }
+    }
+
+    &:before {
+        background: #a2feec;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        right: 8px;
+        opacity: 0.6;
+        content: "";
+    }
+}
+
+.fw-300 {
+    .k-icon {
+        font-weight: 300 !important;
+    }
+}
+
+.consumerLinkColor {
+    .x-control-caption-text {
+        color: $consumer-my-products-color !important;
+    }
+
+    .x-link_Comp {
+        color: $consumer-link-see-all-color !important;
+    }
+}
+
+.productCube {
+    .cubeDetails {
+        background: $consumer-cube-background-color;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .x-image-wrapper {
+        img {
+            border-top-left-radius: 0.25em;
+            border-top-right-radius: 0.25em;
+        }
+    }
+}
+
+.k-drawer {
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    .k-drawer-wrapper{
+        width:100%;
+    }
+}
+
+@forward 'consumer-products';
