@@ -13,6 +13,7 @@ $consumer-link-see-all-color:#636a86 !default;
 $consumer-cube-background-color:#fff !default;
 $consumer-cube-top-background: #fff !default;
 $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
+$consumer-active-background:#f7e8ff!default;
 
 
 
@@ -28,7 +29,12 @@ body {
     }
 }
 
-
+.active {
+    background: $consumer-active-background;
+    &.w-120{
+        width:120px;
+    }
+}
 
 .k-drawer {
     .k-drawer-items {
@@ -274,5 +280,6 @@ body {
     max-width: 100% !important;
     border-radius: 0 !important;
 }
+
 
 @forward 'consumer-products';
