@@ -11,11 +11,11 @@ $consumer-scrollview-dot-color:#fff !default;
 $consumer-my-products-color:#b0b4c1 !default;
 $consumer-link-see-all-color:#636a86 !default;
 $consumer-cube-background-color:#fff !default;
-$consumer-cube-top-background: #fff!default;
-$consumer-cube-top-boxshadow:0px 0px 5px #cac4c4  !default;
+$consumer-cube-top-background: #fff !default;
+$consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
 
 
-    
+
 
 body {
     background: $consumer-body-background-color !important;
@@ -25,6 +25,32 @@ body {
 
     mainbody {
         height: 100%;
+    }
+}
+
+
+
+.k-drawer {
+    .k-drawer-items {
+        drawer-item-container {
+            &:first-child {
+                padding-right: 60px;
+            }
+
+            padding: 0px 20px;
+
+            [xid="controlkiClose"] {
+                order: 2;
+                color: $consumer-kicon-color !important;
+                font-weight: 500;
+            }
+
+            [xid="controldiHeader"] {
+                text-align: center;
+                padding-right: 45px;
+                font-size: 14px;
+            }
+        }
     }
 }
 
@@ -151,10 +177,12 @@ body {
         margin-left: 7px;
     }
 }
-.cubeTop{
-    box-shadow:$consumer-cube-top-boxshadow;
-    background:$consumer-cube-top-background;
+
+.cubeTop {
+    box-shadow: $consumer-cube-top-boxshadow;
+    background: $consumer-cube-top-background;
 }
+
 .scrollText {
     color: $consumer-scrollview-text-color;
     position: absolute;
@@ -191,6 +219,14 @@ body {
     width: 50px;
     margin: auto;
 
+    &.big {
+        &:before {
+            width: 40px;
+            height: 40px;
+            right: -8px;
+        }
+    }
+
     &:before {
         background: #a2feec;
         position: absolute;
@@ -200,7 +236,6 @@ body {
         right: 8px;
         content: "";
     }
-
 }
 
 .fw-300 {

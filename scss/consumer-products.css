@@ -8,6 +8,28 @@ body mainbody {
   height: 100%;
 }
 
+.k-drawer .k-drawer-items drawer-item-container {
+  padding: 0px 20px;
+}
+
+.k-drawer .k-drawer-items drawer-item-container:first-child {
+  padding-right: 60px;
+}
+
+.k-drawer .k-drawer-items drawer-item-container [xid="controlkiClose"] {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  color: #6677d8 !important;
+  font-weight: 500;
+}
+
+.k-drawer .k-drawer-items drawer-item-container [xid="controldiHeader"] {
+  text-align: center;
+  padding-right: 45px;
+  font-size: 14px;
+}
+
 .activeBorderBottom {
   font-weight: bold;
   border-bottom: 2px solid #043563;
@@ -152,6 +174,12 @@ body mainbody {
 .circleLightBlue {
   width: 50px;
   margin: auto;
+}
+
+.circleLightBlue.big:before {
+  width: 40px;
+  height: 40px;
+  right: -8px;
 }
 
 .circleLightBlue:before {
