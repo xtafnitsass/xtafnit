@@ -3297,6 +3297,7 @@ body mainbody {
   height: 20px;
   border-radius: 50%;
   right: 8px;
+  opacity: 0.6;
   content: "";
 }
 
@@ -3326,6 +3327,10 @@ body mainbody {
 .k-drawer {
   max-width: 100% !important;
   border-radius: 0 !important;
+}
+
+.k-drawer .k-drawer-wrapper {
+  width: 100%;
 }
 
 @forward 'consumer-products';
