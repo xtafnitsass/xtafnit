@@ -2905,7 +2905,6 @@ progress[value]::-webkit-progress-value {
 body {
   background: #f5f5f5 !important;
   background-attachment: fixed !important;
-  height: 400px;
 }
 
 body mainbody {
