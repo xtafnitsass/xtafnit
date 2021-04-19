@@ -403,6 +403,25 @@ $tooltip-border-radius:15px;
 $header-mobile-color:#fff;
 $header-mobile-background:#9e30bf;
 
+
+/*consumer-product*/
+
+$consumer-active-border-bottom-color:#043563;
+$consumer-placeholder-color:#04356393;
+$consumer-body-background-color:linear-gradient(315deg, rgba(225, 228, 249, 1) 0%, rgba(241, 241, 241, 1) 49%, rgba(225, 228, 249, 1) 100%);
+$consumer-button-gradient-background-color:linear-gradient(270deg, #bbc2e7, #6677d8);
+$consumer-close-btn-color:#6677d8;
+$consumer-kicon-border-bottom:1px solid #043563;
+$consumer-kicon-color:#6677d8;
+$consumer-grey-color:#8b90a5;
+$consumer-scrollview-text-color:#fff;
+$consumer-scrollview-dot-color:#fff;
+$consumer-my-products-color:#b0b4c1;
+$consumer-link-see-all-color:#636a86;
+$consumer-cube-background-color:#fff;
+$consumer-cube-top-background: #fff;
+$consumer-cube-top-boxshadow:0px 0px 5px #cac4c4;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
