@@ -1121,7 +1121,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .gridSearch .k-grid .k-grid-content {
-  padding-bottom: 30px;
+  padding-bottom: 20%;
 }
 
 .gridSearch .k-grid .k-grid-content tr.k-state-selected td {
