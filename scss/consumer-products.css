@@ -14,6 +14,8 @@ body mainbody {
 
 .active.w-120 {
   width: 120px;
+  border-radius: 0;
+  border-top-right-radius: 0.85em;
 }
 
 .k-drawer .k-drawer-items drawer-item-container {
