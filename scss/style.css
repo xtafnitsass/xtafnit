@@ -2912,6 +2912,14 @@ body mainbody {
   height: 100%;
 }
 
+.active {
+  background: #f7e8ff;
+}
+
+.active.w-120 {
+  width: 120px;
+}
+
 .k-drawer .k-drawer-items drawer-item-container {
   padding: 0px 20px;
 }
