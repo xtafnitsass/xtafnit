@@ -3329,9 +3329,5 @@ body mainbody {
   border-radius: 0 !important;
 }
 
-.k-drawer .k-drawer-wrapper {
-  width: 100%;
-}
-
 @forward 'consumer-products';
 /*# sourceMappingURL=style.css.map */
