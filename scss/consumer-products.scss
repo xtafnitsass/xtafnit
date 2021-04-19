@@ -21,9 +21,7 @@ $consumer-active-background:#f7e8ff!default;
 body {
     background: $consumer-body-background-color !important;
     background-attachment: fixed !important;
-    // height: calc(100vh - 200px);
-    height: 400px;
-
+ 
     mainbody {
         height: 100%;
     }
