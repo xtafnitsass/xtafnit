@@ -1,12 +1,12 @@
 /*header*/
 
-$header-background:transparent;
+$header-background:#f5f5f5;
 $header-border: none;
 $header-color:#043563;
 
 /*footer*/
 $footer-color:#043563;
-$footer-background:transparent;
+$footer-background:#f5f5f5;
 
 /*row*/
 $row-background-color:#fff;
@@ -18,7 +18,7 @@ $row-box-shadow:0 2px 9px 0 #ccc;
 $row-header-color:#0167b1;
 
 /*window*/
-$window-background:#fff;
+$window-background:#f5f5f5;
 $window-margin:0px auto;
 $window-color:#0167b1;
 $window-border:20px;
@@ -26,7 +26,7 @@ $window-width-query-max768:90%;
 
 /*drawer*/
 
-$drawer-background-color:linear-gradient(135deg, #e3dfff, #f5eeee, #e3dfff);
+$drawer-background-color:#f5f5f5;
 $drawer-icon-color:#043563;
 $drawer-color:#043563;
 
@@ -275,12 +275,12 @@ $suppliers-x-cell-header-color:#043563;
 $suppliers-cube-description-color:#043563;
 $suppliers-body-background:#f5f6f8;
 $suppliers-upload:#1387da;
-$suppliers-drawer:transparent;
+$suppliers-drawer:#f5f5f5;
 $suppliers-tabstrip:#043563;
 $suppliers-message-text:#043563;
 $suppliers-loginTitle:#043563;
 $suppliers-loginTitle2:#043563;
-$suppliers-white-btn:#1387da;
+$suppliers-white-btn:#7b72f4;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#043563;
 $suppliers-progress-empty:#f2ebf6;
@@ -400,13 +400,13 @@ $tooltip-border-radius:15px;
 /*header mobile */
 
 $header-mobile-color:#043563;
-$header-mobile-background:transparent;
+$header-mobile-background:#f5f5f5;
 
 /*consumer-product*/
 
 $consumer-active-border-bottom-color:#043563;
 $consumer-placeholder-color:#04356393;
-$consumer-body-background-color:linear-gradient(315deg, rgba(225, 228, 249, 1) 0%, rgba(241, 241, 241, 1) 49%, rgba(225, 228, 249, 1) 100%);
+$consumer-body-background-color:#f5f5f5;
 $consumer-button-gradient-background-color:linear-gradient(270deg, #bbc2e7, #6677d8);
 $consumer-close-btn-color:#6677d8;
 $consumer-kicon-border-bottom:1px solid #043563;
