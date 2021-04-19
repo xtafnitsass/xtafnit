@@ -1120,10 +1120,6 @@ mainbody .gridHeaderButton .kIconPaint {
   height: 8px;
 }
 
-.gridSearch .k-grid .k-grid-content {
-  padding-bottom: 20%;
-}
-
 .gridSearch .k-grid .k-grid-content tr.k-state-selected td {
   background: transparent !important;
 }
