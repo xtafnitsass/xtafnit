@@ -107,6 +107,9 @@ body {
 }
 
 .kIconColor {
+    &.ml-icon-5{
+        margin-left:5px;
+    }
     .k-icon {
         color: $consumer-kicon-color !important;
         font-weight: 500;
@@ -206,6 +209,7 @@ body {
 
 .scrollviewRound {
     .k-scrollview {
+        border:0!important;
         border-radius: 0.65em;
     }
 }
