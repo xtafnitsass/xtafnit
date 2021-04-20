@@ -178,7 +178,7 @@ body mainbody {
   color: #fff;
   position: absolute;
   top: 20px;
-  width: 80% !important;
+  width: 90% !important;
   display: block !important;
   text-align: right;
 }
@@ -224,7 +224,6 @@ body mainbody {
   height: 20px;
   border-radius: 50%;
   right: 8px;
-  opacity: 0.6;
   content: "";
 }
 
