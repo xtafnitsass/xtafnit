@@ -13,6 +13,7 @@ $consumer-cube-background-color:#fff !default;
 $consumer-cube-top-background: #fff !default;
 $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
 $consumer-active-background:#f7e8ff!default;
+$consumer-placeholder-color:#020d3b !default;
 
 
 
@@ -73,6 +74,7 @@ body {
     input {
         &.k-textbox {
             &::placeholder {
+                color:$consumer-placeholder-color!important;
                 opacity: 0.5;
             }
         }

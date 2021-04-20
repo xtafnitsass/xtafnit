@@ -2954,18 +2954,22 @@ body mainbody {
 }
 
 .placeholderColor input.k-textbox::-webkit-input-placeholder {
+  color: #020d3b !important;
   opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox:-ms-input-placeholder {
+  color: #020d3b !important;
   opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox::-ms-input-placeholder {
+  color: #020d3b !important;
   opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox::placeholder {
+  color: #020d3b !important;
   opacity: 0.5;
 }
 
