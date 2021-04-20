@@ -11,12 +11,13 @@ $consumer-link-see-all-color:#636a86 !default;
 $consumer-cube-background-color:#fff !default;
 $consumer-cube-top-background: #fff !default;
 $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
-$consumer-active-background:#f7e8ff!default;
+$consumer-active-background:#f7e8ff !default;
 $consumer-placeholder-color:#020d3b !default;
-$consumer-dropdown-arrow-color:#5c50f2!default;
-$consumer-dynamic-label-color:#020d3b!default;
+$consumer-dropdown-arrow-color:#5c50f2 !default;
+$consumer-dynamic-label-color:#020d3b !default;
 $consumer-scrollview-dot-color-active:#fff !default;
-$consumer-kicon-caption-color:#020d3b !default;
+$consumer-kicon-caption-color:#020d3b !default; 
+$consumer-products-background:#c1ccff47!default;
 
 
 
@@ -25,30 +26,31 @@ $consumer-kicon-caption-color:#020d3b !default;
 body {
     background: $consumer-body-background-color !important;
     background-attachment: fixed !important;
- 
+
     mainbody {
         height: 100%;
     }
 }
 
-.xstyle-dynamiclabelcontrol-wrapper{
-    .x-dynamic-label-control{
-        color:$consumer-dynamic-label-color!important;
+.xstyle-dynamiclabelcontrol-wrapper {
+    .x-dynamic-label-control {
+        color: $consumer-dynamic-label-color !important;
     }
 }
 
-#headerLogoCompany{
+#headerLogoCompany {
     margin-left: 10%;
 }
 
-.opacity-6{
+.opacity-6 {
     opacity: 0.6;
 }
 
 .active {
     background: $consumer-active-background;
-    &.w-120{
-        width:120px;
+
+    &.w-120 {
+        width: 120px;
         border-radius: 0;
         border-top-right-radius: 0.85em;
     }
@@ -88,7 +90,7 @@ body {
     input {
         &.k-textbox {
             &::placeholder {
-                color:$consumer-placeholder-color!important;
+                color: $consumer-placeholder-color !important;
                 opacity: 0.5;
             }
         }
@@ -117,13 +119,14 @@ body {
 
 .x-kicon-caption {
     border-bottom: $consumer-kicon-border-bottom;
-    color:$consumer-kicon-caption-color!important;
+    color: $consumer-kicon-caption-color !important;
 }
 
 .kIconColor {
-    &.ml-icon-5{
-        margin-left:5px;
+    &.ml-icon-5 {
+        margin-left: 5px;
     }
+
     .k-icon {
         color: $consumer-kicon-color !important;
         font-weight: 500;
@@ -223,7 +226,7 @@ body {
 
 .scrollviewRound {
     .k-scrollview {
-        border:0!important;
+        border: 0 !important;
         border-radius: 0.65em;
     }
 }
@@ -238,11 +241,12 @@ body {
         margin: 0px 2px !important;
         width: 7px !important;
         height: 7px !important;
-        background: $consumer-scrollview-dot-color!important;
-        opacity: 0.3!important;
+        background: $consumer-scrollview-dot-color !important;
+        opacity: 0.3 !important;
+
         &.k-primary {
             background: $consumer-scrollview-dot-color-active !important;
-            opacity: 1!important;
+            opacity: 1 !important;
         }
     }
 }
@@ -277,6 +281,12 @@ body {
     }
 }
 
+.productBackground {
+    .x-self-container {
+        background: $consumer-products-background;
+    }
+}
+
 .consumerLinkColor {
     .x-control-caption-text {
         opacity: 0.5;
@@ -307,11 +317,11 @@ body {
     border-radius: 0 !important;
 }
 
-.arrowColor{
+.arrowColor {
     .k-dropdown {
-        .k-icon{
-            &.k-i-arrow-60-down{
-                color:$consumer-dropdown-arrow-color!important;
+        .k-icon {
+            &.k-i-arrow-60-down {
+                color: $consumer-dropdown-arrow-color !important;
             }
         }
     }
