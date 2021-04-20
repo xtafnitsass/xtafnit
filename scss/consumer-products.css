@@ -7,6 +7,14 @@ body mainbody {
   height: 100%;
 }
 
+.xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
+  color: #020d3b !important;
+}
+
+#headerLogoCompany {
+  margin-left: 10%;
+}
+
 .opacity-6 {
   opacity: 0.6;
 }
@@ -188,10 +196,13 @@ body mainbody {
   margin: 0px 2px !important;
   width: 7px !important;
   height: 7px !important;
+  background: #3754d4 !important;
+  opacity: 0.3 !important;
 }
 
 .k-scrollview .k-link.k-primary {
   background: #fff !important;
+  opacity: 1 !important;
 }
 
 .circleLightBlue {

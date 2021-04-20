@@ -3114,6 +3114,14 @@ body mainbody {
   height: 100%;
 }
 
+.xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
+  color: #020d3b !important;
+}
+
+#headerLogoCompany {
+  margin-left: 10%;
+}
+
 .opacity-6 {
   opacity: 0.6;
 }
@@ -3140,7 +3148,7 @@ body mainbody {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  color: #6677d8 !important;
+  color: #5c50f2 !important;
   font-weight: 500;
 }
 
@@ -3186,7 +3194,7 @@ body mainbody {
 }
 
 .blueColor .k-icon {
-  color: #6677d8 !important;
+  color: #5c50f2 !important;
 }
 
 .x-kicon-caption {
@@ -3198,7 +3206,7 @@ body mainbody {
 }
 
 .kIconColor .k-icon {
-  color: #6677d8 !important;
+  color: #5c50f2 !important;
   font-weight: 500;
 }
 
@@ -3295,10 +3303,13 @@ body mainbody {
   margin: 0px 2px !important;
   width: 7px !important;
   height: 7px !important;
+  background: #3754d4 !important;
+  opacity: 0.3 !important;
 }
 
 .k-scrollview .k-link.k-primary, .k-scrollview .k-calendar .k-calendar-view td.k-primary.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-primary.k-state-focused.k-state-hover {
   background: #fff !important;
+  opacity: 1 !important;
 }
 
 .circleLightBlue {

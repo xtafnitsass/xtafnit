@@ -6,7 +6,7 @@ $consumer-kicon-border-bottom:1px solid #020d3b !default;
 $consumer-kicon-color:#5c50f2 !default;
 $consumer-grey-color:#020d3b !default;
 $consumer-scrollview-text-color:#fff !default;
-$consumer-scrollview-dot-color:#fff !default;
+$consumer-scrollview-dot-color:#3754d4 !default;
 $consumer-my-products-color:#b0b4c1 !default;
 $consumer-link-see-all-color:#636a86 !default;
 $consumer-cube-background-color:#fff !default;
@@ -15,6 +15,9 @@ $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
 $consumer-active-background:#f7e8ff!default;
 $consumer-placeholder-color:#020d3b !default;
 $consumer-dropdown-arrow-color:#5c50f2!default;
+$consumer-dynamic-label-color:#020d3b!default;
+$consumer-scrollview-dot-color-active:#fff !default;
+
 
 
 
@@ -26,6 +29,16 @@ body {
     mainbody {
         height: 100%;
     }
+}
+
+.xstyle-dynamiclabelcontrol-wrapper{
+    .x-dynamic-label-control{
+        color:$consumer-dynamic-label-color!important;
+    }
+}
+
+#headerLogoCompany{
+    margin-left: 10%;
 }
 
 .opacity-6{
@@ -224,9 +237,11 @@ body {
         margin: 0px 2px !important;
         width: 7px !important;
         height: 7px !important;
-
+        background: $consumer-scrollview-dot-color!important;
+        opacity: 0.3!important;
         &.k-primary {
-            background: $consumer-scrollview-dot-color !important;
+            background: $consumer-scrollview-dot-color-active !important;
+            opacity: 1!important;
         }
     }
 }
