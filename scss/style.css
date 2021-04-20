@@ -216,7 +216,7 @@ header .popUpWindowCls {
   border-bottom: 1px solid #020d3b !important;
   border-left: 0 !important;
   border-right: 0 !important;
-  color: #000;
+  color: #020d3b;
   border-radius: 0px !important;
   margin: 0;
 }
@@ -233,7 +233,7 @@ header .popUpWindowCls {
   border-bottom: 1px solid #020d3b;
   border-left: 0;
   border-right: 0;
-  color: #000;
+  color: #020d3b;
   border-radius: 0px;
 }
 
@@ -249,7 +249,7 @@ header .popUpWindowCls {
   border-bottom: 1px solid #020d3b;
   border-left: 0;
   border-right: 0;
-  color: #000;
+  color: #020d3b;
   border-radius: 0px;
 }
 
