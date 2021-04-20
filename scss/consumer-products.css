@@ -232,6 +232,10 @@ body mainbody {
   font-weight: 300 !important;
 }
 
+.productBackground .x-self-container {
+  background: #c1ccff47;
+}
+
 .consumerLinkColor .x-control-caption-text {
   opacity: 0.5;
 }
