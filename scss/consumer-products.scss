@@ -7,7 +7,6 @@ $consumer-kicon-color:#5c50f2 !default;
 $consumer-grey-color:#020d3b !default;
 $consumer-scrollview-text-color:#fff !default;
 $consumer-scrollview-dot-color:#3754d4 !default;
-$consumer-my-products-color:#b0b4c1 !default;
 $consumer-link-see-all-color:#636a86 !default;
 $consumer-cube-background-color:#fff !default;
 $consumer-cube-top-background: #fff !default;
@@ -278,7 +277,7 @@ body {
 
 .consumerLinkColor {
     .x-control-caption-text {
-        color: $consumer-my-products-color !important;
+        opacity: 0.5;
     }
 
     .x-link_Comp {

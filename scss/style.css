@@ -3339,7 +3339,7 @@ body mainbody {
 }
 
 .consumerLinkColor .x-control-caption-text {
-  color: #b0b4c1 !important;
+  opacity: 0.5;
 }
 
 .consumerLinkColor .x-link_Comp {
