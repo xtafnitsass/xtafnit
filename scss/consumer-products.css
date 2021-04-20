@@ -86,6 +86,10 @@ body mainbody {
   border-bottom: 1px solid #020d3b;
 }
 
+.kIconColor.ml-icon-5 {
+  margin-left: 5px;
+}
+
 .kIconColor .k-icon {
   color: #5c50f2 !important;
   font-weight: 500;
@@ -171,6 +175,7 @@ body mainbody {
 }
 
 .scrollviewRound .k-scrollview {
+  border: 0 !important;
   border-radius: 0.65em;
 }
 
