@@ -406,14 +406,13 @@ $header-mobile-background:#9e30bf;
 
 /*consumer-product*/
 
-$consumer-active-border-bottom-color:#043563;
-$consumer-placeholder-color:#04356393;
-$consumer-body-background-color:linear-gradient(315deg, rgba(225, 228, 249, 1) 0%, rgba(241, 241, 241, 1) 49%, rgba(225, 228, 249, 1) 100%);
-$consumer-button-gradient-background-color:linear-gradient(270deg, #bbc2e7, #6677d8);
+$consumer-active-border-bottom-color:#020d3b;
+$consumer-body-background-color:#f8f8f8;
+$consumer-button-gradient-background-color:linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff);
 $consumer-close-btn-color:#6677d8;
-$consumer-kicon-border-bottom:1px solid #043563;
+$consumer-kicon-border-bottom:1px solid #020d3b;
 $consumer-kicon-color:#6677d8;
-$consumer-grey-color:#8b90a5;
+$consumer-grey-color:#020d3b;
 $consumer-scrollview-text-color:#fff;
 $consumer-scrollview-dot-color:#fff;
 $consumer-my-products-color:#b0b4c1;
@@ -428,4 +427,4 @@ $consumer-active-background:#f7e8ff;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './workflow', './timeline', './tooltip','./headerMobile','./consumer-products';
+'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products';
