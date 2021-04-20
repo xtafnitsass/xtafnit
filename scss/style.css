@@ -3106,12 +3106,16 @@ ul.fieldlist {
 
 @forward './headerMobile';
 body {
-  background: linear-gradient(315deg, #e1e4f9 0%, #f1f1f1 49%, #e1e4f9 100%) !important;
+  background: #f8f8f8 !important;
   background-attachment: fixed !important;
 }
 
 body mainbody {
   height: 100%;
+}
+
+.opacity-6 {
+  opacity: 0.6;
 }
 
 .active {
@@ -3148,29 +3152,29 @@ body mainbody {
 
 .activeBorderBottom {
   font-weight: bold;
-  border-bottom: 2px solid #043563;
+  border-bottom: 2px solid #020d3b;
   border-radius: 0;
 }
 
 .placeholderColor input.k-textbox::-webkit-input-placeholder {
-  color: #04356393;
+  opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox:-ms-input-placeholder {
-  color: #04356393;
+  opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox::-ms-input-placeholder {
-  color: #04356393;
+  opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox::placeholder {
-  color: #04356393;
+  opacity: 0.5;
 }
 
 .gradientColor .k-button {
-  background: -webkit-gradient(linear, right top, left top, from(#bbc2e7), to(#6677d8)) !important;
-  background: linear-gradient(270deg, #bbc2e7, #6677d8) !important;
+  background: -webkit-gradient(linear, right top, left top, color-stop(122%, #97afff), color-stop(116%, #97afff), to(#5e77ff)) !important;
+  background: linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff) !important;
 }
 
 .xstyle-password-wrapper .x-control-content-wrapper > .k-textbox {
@@ -3182,7 +3186,7 @@ body mainbody {
 }
 
 .x-kicon-caption {
-  border-bottom: 1px solid #043563;
+  border-bottom: 1px solid #020d3b;
 }
 
 .kIconColor .k-icon {
@@ -3247,7 +3251,7 @@ body mainbody {
 
 .consumerGrey .k-input,
 .consumerGrey .x-dynamic-label-control {
-  color: #8b90a5 !important;
+  color: #020d3b !important;
 }
 
 .iconMarginLeft .k-icon {
