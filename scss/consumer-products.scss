@@ -282,7 +282,7 @@ body {
 }
 
 .productBackground {
-    .x-self-container {
+    >.x-self-container {
         background: $consumer-products-background;
     }
 }
