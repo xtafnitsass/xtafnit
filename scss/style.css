@@ -2911,6 +2911,14 @@ body mainbody {
   height: 100%;
 }
 
+.xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
+  color: #020d3b !important;
+}
+
+#headerLogoCompany {
+  margin-left: 10%;
+}
+
 .opacity-6 {
   opacity: 0.6;
 }
@@ -3056,7 +3064,7 @@ body mainbody {
 
 .consumerGrey .k-input,
 .consumerGrey .x-dynamic-label-control {
-  color: rgba(2, 14, 59, 0.5) !important;
+  color: #020d3b !important;
 }
 
 .iconMarginLeft .k-icon {
@@ -3092,10 +3100,13 @@ body mainbody {
   margin: 0px 2px !important;
   width: 7px !important;
   height: 7px !important;
+  background: #3754d4 !important;
+  opacity: 0.3 !important;
 }
 
 .k-scrollview .k-link.k-primary, .k-scrollview .k-calendar .k-calendar-view td.k-primary.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-scrollview td.k-primary.k-state-focused.k-state-hover {
   background: #fff !important;
+  opacity: 1 !important;
 }
 
 .circleLightBlue {
