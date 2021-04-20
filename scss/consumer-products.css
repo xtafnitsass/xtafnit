@@ -232,7 +232,7 @@ body mainbody {
   font-weight: 300 !important;
 }
 
-.productBackground .x-self-container {
+.productBackground > .x-self-container {
   background: #c1ccff47;
 }
 
