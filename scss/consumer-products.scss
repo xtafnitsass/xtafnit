@@ -1,9 +1,9 @@
 $consumer-active-border-bottom-color:#020d3b !default;
 $consumer-body-background-color:#f8f8f8 !default;
 $consumer-button-gradient-background-color:linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff) !default;
-$consumer-close-btn-color:#6677d8 !default;
+$consumer-close-btn-color:#5c50f2 !default;
 $consumer-kicon-border-bottom:1px solid #020d3b !default;
-$consumer-kicon-color:#6677d8 !default;
+$consumer-kicon-color:#5c50f2 !default;
 $consumer-grey-color:#020d3b !default;
 $consumer-scrollview-text-color:#fff !default;
 $consumer-scrollview-dot-color:#fff !default;
@@ -14,6 +14,7 @@ $consumer-cube-top-background: #fff !default;
 $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4 !default;
 $consumer-active-background:#f7e8ff!default;
 $consumer-placeholder-color:#020d3b !default;
+$consumer-dropdown-arrow-color:#5c50f2!default;
 
 
 
@@ -284,6 +285,16 @@ body {
 .k-drawer {
     max-width: 100% !important;
     border-radius: 0 !important;
+}
+
+.arrowColor{
+    .k-dropdown {
+        .k-icon{
+            &.k-i-arrow-60-down{
+                color:$consumer-dropdown-arrow-color!important;
+            }
+        }
+    }
 }
 
 
