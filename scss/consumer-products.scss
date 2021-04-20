@@ -16,6 +16,7 @@ $consumer-placeholder-color:#020d3b !default;
 $consumer-dropdown-arrow-color:#5c50f2!default;
 $consumer-dynamic-label-color:#020d3b!default;
 $consumer-scrollview-dot-color-active:#fff !default;
+$consumer-kicon-caption-color:#020d3b !default;
 
 
 
@@ -116,6 +117,7 @@ body {
 
 .x-kicon-caption {
     border-bottom: $consumer-kicon-border-bottom;
+    color:$consumer-kicon-caption-color!important;
 }
 
 .kIconColor {
