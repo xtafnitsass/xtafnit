@@ -18,6 +18,8 @@ $consumer-dynamic-label-color:#020d3b !default;
 $consumer-scrollview-dot-color-active:#fff !default;
 $consumer-kicon-caption-color:#020d3b !default;
 $consumer-products-background:#c1ccff47 !default;
+$consumer-circleLightBlue-color:#a2feec !default;
+
 
 
 
@@ -219,7 +221,7 @@ body {
     color: $consumer-scrollview-text-color;
     position: absolute;
     top: 20px;
-    width: 80% !important;
+    width: 90% !important;
     display: block !important;
     text-align: right;
 }
@@ -264,13 +266,12 @@ body {
     }
 
     &:before {
-        background: #a2feec;
+        background: $consumer-circleLightBlue-color;
         position: absolute;
         width: 20px;
         height: 20px;
         border-radius: 50%;
         right: 8px;
-        opacity: 0.6;
         content: "";
     }
 }
