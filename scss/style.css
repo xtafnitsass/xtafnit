@@ -3276,8 +3276,8 @@ body mainbody {
 }
 
 .cubeTop {
-  -webkit-box-shadow: 0px 0px 5px #cac4c4;
-          box-shadow: 0px 0px 5px #cac4c4;
+  -webkit-box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
+          box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
   background: #fff;
 }
 
@@ -3337,6 +3337,15 @@ body mainbody {
 
 .fw-300 .k-icon {
   font-weight: 300 !important;
+}
+
+.productBackground {
+  -webkit-box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
+          box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
+  padding: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 43%;
+          flex: 0 0 43%;
 }
 
 .productBackground > .x-self-container {
