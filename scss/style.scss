@@ -409,12 +409,12 @@ $header-mobile-background:#9e30bf;
 $consumer-active-border-bottom-color:#020d3b;
 $consumer-body-background-color:#f8f8f8;
 $consumer-button-gradient-background-color:linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff);
-$consumer-close-btn-color:#6677d8;
+$consumer-close-btn-color:#5c50f2;
 $consumer-kicon-border-bottom:1px solid #020d3b;
-$consumer-kicon-color:#6677d8;
+$consumer-kicon-color:#5c50f2;
 $consumer-grey-color:#020d3b;
 $consumer-scrollview-text-color:#fff;
-$consumer-scrollview-dot-color:#fff;
+$consumer-scrollview-dot-color:#3754d4;
 $consumer-my-products-color:#b0b4c1;
 $consumer-link-see-all-color:#636a86;
 $consumer-cube-background-color:#fff;
@@ -423,6 +423,8 @@ $consumer-cube-top-boxshadow:0px 0px 5px #cac4c4;
 $consumer-active-background:#f7e8ff;
 $consumer-placeholder-color:#020d3b;
 $consumer-dropdown-arrow-color:#5c50f2;
+$consumer-dynamic-label-color:#020d3b;
+$consumer-scrollview-dot-color-active:#fff;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
