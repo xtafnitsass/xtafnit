@@ -1,12 +1,12 @@
 /*header*/
 
-$header-background:#f5f5f5;
+$header-background:#f8f8f8;
 $header-border: none;
-$header-color:#043563;
+$header-color:#020d3b;
 
 /*footer*/
-$footer-color:#043563;
-$footer-background:#f5f5f5;
+$footer-color:#020d3b;
+$footer-background:#f8f8f8;
 
 /*row*/
 $row-background-color:#fff;
@@ -18,7 +18,7 @@ $row-box-shadow:0 2px 9px 0 #ccc;
 $row-header-color:#0167b1;
 
 /*window*/
-$window-background:#f5f5f5;
+$window-background:#f8f8f8;
 $window-margin:0px auto;
 $window-color:#0167b1;
 $window-border:20px;
@@ -26,9 +26,9 @@ $window-width-query-max768:90%;
 
 /*drawer*/
 
-$drawer-background-color:#f5f5f5;
-$drawer-icon-color:#043563;
-$drawer-color:#043563;
+$drawer-background-color:#f8f8f8;
+$drawer-icon-color:#020d3b;
+$drawer-color:#020d3b;
 
 /*k-animator*/
 
@@ -37,7 +37,7 @@ $animator-container-background-color:#fff;
 $animator-container-focused-amount:3;
 $animator-container-color:#282830;
 $animator-container-selected-background-color:#f2f7fc;
-$animator-container-selected-color:#043563;
+$animator-container-selected-color:#020d3b;
 
 $animator-scroller-width:10px;
 $animator-scroller-box-shadow: inset 0 0 3px #fff;
@@ -73,7 +73,7 @@ $autocomplete-input-border: 0;
 $autocomplete-input-border-top:0;
 $autocomplete-input-border-left:0;
 $autocomplete-input-border-right:0;
-$autocomplete-input-border-bottom:1px solid #043563;
+$autocomplete-input-border-bottom:1px solid #020d3b;
 $autocomplete-input-color: #000;
 
 /*calendar*/
@@ -99,10 +99,10 @@ $date-picker-background:#f7f8f9;
 $date-picker-border:1px solid #282830;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#f7f8f9;
-$date-picker-icon-color:#043563;
+$date-picker-icon-color:#020d3b;
 $date-picker-icon-border-color:#f7f8f9;
 $date-mobile-border:0;
-$date-mobile-border-bottom:1px solid #043563;
+$date-mobile-border-bottom:1px solid #020d3b;
 $date-mobile-border-radius:0px;
 
 /*checkbox*/
@@ -118,7 +118,7 @@ $checkbox-box-shadow : none;
 $textbox-background:transparent;
 $textbox-border:0;
 $textbox-border-top:0;
-$textbox-border-bottom:1px solid #043563;
+$textbox-border-bottom:1px solid #020d3b;
 $textbox-border-left:0;
 $textbox-border-right:0;
 $textbox-color:#000;
@@ -141,7 +141,7 @@ $virtual-keyboard-icon-background:#F00;
 
 /*drop-down*/
 $drop-down-background : transparent;
-$drop-down-border-bottom : 1px solid #043563;
+$drop-down-border-bottom : 1px solid #020d3b;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
 $drop-down-icon-color : #002d41;
@@ -191,10 +191,10 @@ $grid-pager-nav-color:#003f59;
 /*time picker*/
 
 $time-border:0;
-$time-border-bottom:1px solid #043563;
+$time-border-bottom:1px solid #020d3b;
 $time-background:#f7f8f9;
 $time-icon-background:#f7f8f9;
-$time-icon-color:#043563;
+$time-icon-color:#020d3b;
 $time-border-raduis:0px;
 
 /*float-button*/
@@ -205,7 +205,7 @@ $float-button-border-color:1px solid #000;
 
 /*textarea*/
 
-$textarea-border-color:#043563;
+$textarea-border-color:#020d3b;
 $textarea-background-color:#f7f8f9 !important;
 $textarea-border-style:solid;
 $textarea-border-left-width:1px;
@@ -214,11 +214,11 @@ $textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#043563;
+$upload-border-color:#020d3b;
 
 /*multiselect*/
 
-$multiselect-border-color:#043563;
+$multiselect-border-color:#020d3b;
 $multiselect-background-color:#f7f8f9;
 $multiselect-border-style:solid;
 $multiselect-border-left-width:0px;
@@ -232,7 +232,7 @@ $multiselect-placeholder-color:#464247;
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
 $tabstrip-tab-background-color:#fff;
-$tabstrip-tab-color:#043563;
+$tabstrip-tab-color:#020d3b;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
@@ -267,22 +267,22 @@ $freehand-border-color:#0167b1;
 /*portal*/
 
 $suppliers-cube-background:#fff;
-$suppliers-cube-color:#043563;
-$suppliers-clock-color:#043563;
+$suppliers-cube-color:#020d3b;
+$suppliers-clock-color:#020d3b;
 $suppliers-top-panel-background:#ffffff;
-$suppliers-header-color:#043563;
-$suppliers-x-cell-header-color:#043563;
-$suppliers-cube-description-color:#043563;
+$suppliers-header-color:#020d3b;
+$suppliers-x-cell-header-color:#020d3b;
+$suppliers-cube-description-color:#020d3b;
 $suppliers-body-background:#f5f6f8;
 $suppliers-upload:#1387da;
-$suppliers-drawer:#f5f5f5;
-$suppliers-tabstrip:#043563;
-$suppliers-message-text:#043563;
-$suppliers-loginTitle:#043563;
-$suppliers-loginTitle2:#043563;
+$suppliers-drawer:#f8f8f8;
+$suppliers-tabstrip:#020d3b;
+$suppliers-message-text:#020d3b;
+$suppliers-loginTitle:#020d3b;
+$suppliers-loginTitle2:#020d3b;
 $suppliers-white-btn:#7b72f4;
 $suppliers-k-icon:#43b1e5;
-$suppliers-x-textbox:#043563;
+$suppliers-x-textbox:#020d3b;
 $suppliers-progress-empty:#f2ebf6;
 $suppliers-progress-fill:#0760B4;
 $suppliers-progress-shadow:#0760B4;
@@ -292,7 +292,7 @@ $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
 $suppliers-color-btn:#7b72f4;
 $suppliers-window-footer-background:#dadada;
-$suppliers-details-top-color: #043563;
+$suppliers-details-top-color: #020d3b;
 $suppliers-details-right-left-color: #464247;
 $suppliers-details-top-background-color: #f7e8ff;
 $suppliers-box-shadow:0 10px 20px 0 rgba(51, 53, 175, 0.1);
@@ -301,7 +301,7 @@ $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
 $suppliers-rectInv-background:#f6e9fe;
 $suppliers-window-btn-background-color:#02b5fd;
-$suppliers-window-fixicon-color:#043563;
+$suppliers-window-fixicon-color:#020d3b;
 $suppliers-toolbar-goBack-color:#02b5fd;
 $suppliers-window-fixicon-backgronud:#fdf2f2;
 $suppliers-radio-scoller-radius:10px;
@@ -309,8 +309,8 @@ $suppliers-radio-scoller-background:#a9bdca;
 $suppliers-radio-scoller-width:10px;
 $suppliers-radio-scoller-height:10px;
 $suppliers-radio-scoller-webkit-background:#dfdbdb;
-$suppliers-timeselector:#043563;
-$suppliers-messageText:#043563;
+$suppliers-timeselector:#020d3b;
+$suppliers-messageText:#020d3b;
 $suppliers-icon-tachometer: #464247;
 
 /*link*/
@@ -399,17 +399,17 @@ $tooltip-border-radius:15px;
 
 /*header mobile */
 
-$header-mobile-color:#043563;
-$header-mobile-background:#f5f5f5;
+$header-mobile-color:#020d3b;
+$header-mobile-background:#f8f8f8;
 
 /*consumer-product*/
 
-$consumer-active-border-bottom-color:#043563;
-$consumer-placeholder-color:#04356393;
-$consumer-body-background-color:#f5f5f5;
-$consumer-button-gradient-background-color:linear-gradient(270deg, #bbc2e7, #6677d8);
+$consumer-active-border-bottom-color:#020d3b;
+$consumer-placeholder-color:#020d3b93;
+$consumer-body-background-color:#f8f8f8;
+$consumer-button-gradient-background-color:linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff);
 $consumer-close-btn-color:#6677d8;
-$consumer-kicon-border-bottom:1px solid #043563;
+$consumer-kicon-border-bottom:1px solid #020d3b;
 $consumer-kicon-color:#6677d8;
 $consumer-grey-color:#8b90a5;
 $consumer-scrollview-text-color:#fff;
