@@ -239,6 +239,10 @@ body mainbody {
   font-weight: bold;
 }
 
+.productBackgroundBig {
+  background: #c1ccff47;
+}
+
 .productBackground {
   -webkit-box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
           box-shadow: 0 0 14px 0 rgba(98, 128, 122, 0.2);
@@ -250,6 +254,10 @@ body mainbody {
 
 .productBackground > .x-self-container {
   background: #c1ccff47;
+}
+
+.consumerLinkColor.line-height-8 {
+  line-height: 0.8;
 }
 
 .consumerLinkColor .x-control-caption-text {
@@ -278,6 +286,34 @@ body mainbody {
 
 .arrowColor .k-dropdown .k-icon.k-i-arrow-60-down {
   color: #5c50f2 !important;
+}
+
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li label {
+  color: #020d3b;
+  font-size: 13px;
+  background: #f8f8f8;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li label::before {
+  display: none !important;
+}
+
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li.multichoice-row-selected {
+  font-weight: bold;
+  background: #5c50f2;
 }
 
 @forward 'consumer-products';
