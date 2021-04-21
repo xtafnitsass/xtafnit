@@ -358,11 +358,16 @@ body {
             li {
                 flex: 0 0 50%;
 
+                .x-multichoice-row {
+                    display: flex;
+                    justify-content: center;
+                }
+
                 label {
                     color: $consumer-grey-color;
                     font-size: 13px;
                     background: $consumer-multichoice-background;
-                    padding: 5px;
+                    padding: 5px 10px;
                     border-radius: 20px;
 
                     &::before {
@@ -373,7 +378,7 @@ body {
                 &.multichoice-row-selected {
                     label {
                         font-weight: bold;
-                        background: $consumer-multichoice-background-selected!important;
+                        background: $consumer-multichoice-background-selected !important;
                     }
                 }
             }

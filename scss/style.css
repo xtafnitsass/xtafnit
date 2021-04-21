@@ -3203,11 +3203,20 @@ body mainbody {
           flex: 0 0 50%;
 }
 
+.multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li .x-multichoice-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li label {
   color: #020d3b;
   font-size: 13px;
   background: #dcdfe4;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 20px;
 }
 
