@@ -20,6 +20,8 @@ $consumer-kicon-caption-color:#020d3b !default;
 $consumer-products-background:#c1ccff47 !default;
 $consumer-circleLightBlue-color:#a2feec !default;
 $consumer-active-color:#020d3b !default;
+$consumer-multichoice-background:#f8f8f8 !default;
+$consumer-multichoice-background-selected:#5c50f2 !default;
 
 
 body {
@@ -289,6 +291,10 @@ body {
     }
 }
 
+.productBackgroundBig {
+    background: $consumer-products-background;
+}
+
 .productBackground {
     box-shadow: $consumer-cube-top-boxshadow;
     padding: 0;
@@ -300,6 +306,10 @@ body {
 }
 
 .consumerLinkColor {
+    &.line-height-8 {
+        line-height: 0.8;
+    }
+
     .x-control-caption-text {
         opacity: 0.5;
     }
@@ -338,6 +348,38 @@ body {
         }
     }
 }
+
+.multiChoiceDesign {
+    .x-multichoice-wrapper {
+        .x-multichoice-ul {
+            padding: 0 !important;
+            margin: 0 !important;
+
+            li {
+                flex: 0 0 50%;
+
+                label {
+                    color: $consumer-grey-color;
+                    font-size: 13px;
+                    background: $consumer-multichoice-background;
+                    ;
+                    padding: 5px;
+                    border-radius: 20px;
+
+                    &::before {
+                        display: none !important;
+                    }
+                }
+
+                &.multichoice-row-selected {
+                    font-weight: bold;
+                    background: $consumer-multichoice-background-selected;
+                }
+            }
+        }
+    }
+}
+
 
 
 @forward 'consumer-products';
