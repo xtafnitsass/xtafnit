@@ -2927,6 +2927,10 @@ body mainbody {
   background: #cdc9ff;
 }
 
+.active .x-dynamic-label-control {
+  color: #020d3b !important;
+}
+
 .active.w-120 {
   width: 120px;
   border-radius: 0;
@@ -3133,6 +3137,10 @@ body mainbody {
 
 .fw-300 .k-icon {
   font-weight: 300 !important;
+}
+
+.font-weight-bold .k-button {
+  font-weight: bold;
 }
 
 .productBackground {
