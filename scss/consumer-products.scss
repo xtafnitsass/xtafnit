@@ -19,10 +19,7 @@ $consumer-scrollview-dot-color-active:#fff !default;
 $consumer-kicon-caption-color:#020d3b !default;
 $consumer-products-background:#c1ccff47 !default;
 $consumer-circleLightBlue-color:#a2feec !default;
-
-
-
-
+$consumer-active-color:#020d3b !default;
 
 
 body {
@@ -50,6 +47,10 @@ body {
 
 .active {
     background: $consumer-active-background;
+
+    .x-dynamic-label-control {
+        color: $consumer-active-color !important;
+    }
 
     &.w-120 {
         width: 120px;
@@ -279,6 +280,12 @@ body {
 .fw-300 {
     .k-icon {
         font-weight: 300 !important;
+    }
+}
+
+.font-weight-bold {
+    .k-button {
+        font-weight: bold;
     }
 }
 
