@@ -3127,7 +3127,7 @@ body mainbody {
 }
 
 .active {
-  background: #f7e8ff;
+  background: #e8e6f9;
 }
 
 .active .x-dynamic-label-control {
@@ -3189,8 +3189,8 @@ body mainbody {
 }
 
 .gradientColor .k-button {
-  background: -webkit-gradient(linear, right top, left top, color-stop(122%, #97afff), color-stop(116%, #97afff), to(#5e77ff)) !important;
-  background: linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff) !important;
+  background: -webkit-gradient(linear, right top, left top, from(#97afff), to(#5e77ff)) !important;
+  background: linear-gradient(270deg, #97afff, #5e77ff) !important;
 }
 
 .xstyle-password-wrapper .x-control-content-wrapper > .k-textbox {
@@ -3372,7 +3372,7 @@ body mainbody {
 }
 
 .consumerLinkColor .x-link_Comp {
-  color: #636a86 !important;
+  color: #020d3b !important;
 }
 
 .productCube .cubeDetails {
@@ -3418,7 +3418,7 @@ body mainbody {
 .multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li label {
   color: #020d3b;
   font-size: 13px;
-  background: #f8f8f8;
+  background: #dcdfe4;
   padding: 5px 10px;
   border-radius: 20px;
 }
@@ -3429,7 +3429,7 @@ body mainbody {
 
 .multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li.multichoice-row-selected label {
   font-weight: bold;
-  background: #5c50f2 !important;
+  background: #d7d5f6 !important;
 }
 
 @forward 'consumer-products';
