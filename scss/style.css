@@ -3217,7 +3217,7 @@ body mainbody {
 
 .multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li.multichoice-row-selected label {
   font-weight: bold;
-  background: #5c50f2 !important;
+  background: #d7d5f6 !important;
 }
 
 @forward 'consumer-products';
