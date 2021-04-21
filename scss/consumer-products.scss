@@ -362,7 +362,6 @@ body {
                     color: $consumer-grey-color;
                     font-size: 13px;
                     background: $consumer-multichoice-background;
-                    ;
                     padding: 5px;
                     border-radius: 20px;
 
@@ -372,8 +371,10 @@ body {
                 }
 
                 &.multichoice-row-selected {
-                    font-weight: bold;
-                    background: $consumer-multichoice-background-selected;
+                    label {
+                        font-weight: bold;
+                        background: $consumer-multichoice-background-selected!important;
+                    }
                 }
             }
         }
