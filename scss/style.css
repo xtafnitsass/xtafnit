@@ -32,6 +32,7 @@
 /*timeline*/
 /*tooltip*/
 /*header mobile */
+/*consumer-product*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0082c5 !important;
@@ -2704,7 +2705,7 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   header.k-header {
     background-color: #da242c !important;
     border-bottom-left-radius: 15px;
