@@ -2445,6 +2445,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
   display: block;
 }
 
+.k-button .k-icon {
+  overflow: visible !important;
+}
+
 /*row collapse button arrow*/
 .x-btn-collapse {
   width: 20px;

@@ -10,6 +10,10 @@
   display: block;
 }
 
+.k-button .k-icon {
+  overflow: visible !important;
+}
+
 /*row collapse button arrow*/
 .x-btn-collapse {
   width: 20px;
