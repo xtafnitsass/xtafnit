@@ -3483,7 +3483,7 @@ body mainbody {
   border-radius: 50% !important;
 }
 
-.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected {
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected .k-link, .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected td.k-state-focused.k-state-hover {
   color: #fff !important;
 }
 
