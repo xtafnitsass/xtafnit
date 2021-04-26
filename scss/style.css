@@ -3440,18 +3440,40 @@ body mainbody {
 
 .xstyle-calendar-wrapper .k-calendar {
   border: 0 !important;
+  width: 100% !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-other-month {
+  opacity: 0.4;
 }
 
 .xstyle-calendar-wrapper .k-calendar > .k-header {
   border: 0 !important;
 }
 
-.xstyle-calendar-wrapper .k-calendar .k-calendar-view th {
-  border: 0 !important;
+.xstyle-calendar-wrapper .k-calendar > .k-header .k-nav-prev > span,
+.xstyle-calendar-wrapper .k-calendar > .k-header .k-nav-next > span {
+  font-size: 20px;
+  color: #5c50f2 !important;
 }
 
-.xstyle-calendar-wrapper .k-calendar .k-today.k-state-selected .k-link, .xstyle-calendar-wrapper .k-calendar .k-today.k-state-selected .k-calendar-view td.k-state-focused.k-state-hover, .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected td.k-state-focused.k-state-hover {
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view {
+  width: 100% !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view tbody {
+  font-size: 14px;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view th {
+  border: 0 !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected .k-link, .xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected td.k-state-focused.k-state-hover {
   border-radius: 50%;
+  background-color: #5c50f2 !important;
 }
 
 @forward 'consumer-products';
