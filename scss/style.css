@@ -3280,6 +3280,10 @@ body mainbody {
   border-radius: 50% !important;
 }
 
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected {
+  color: #fff !important;
+}
+
 .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today .k-link, .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today td.k-state-focused.k-state-hover {
   border-radius: 50% !important;
   background-color: transparent !important;
