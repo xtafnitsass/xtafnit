@@ -27,9 +27,7 @@ $consumer-calendar-header-arrow-color:#5c50f2 !default;
 $consumer-calendar-today-color:#5c50f2 !default;
 $consumer-calendar-other-month-color:#020d3b !default;
 $consumer-calendar-today-background-color:transparent !default;
-
-
-
+$consumer-calendar-today-selected-color:#fff!default;
 
 body {
     background: $consumer-body-background-color !important;
@@ -451,6 +449,9 @@ body {
             }
 
             .k-today {
+                &.k-state-selected{
+                    color: $consumer-calendar-today-selected-color !important;
+                }
                 .k-link {
                     border-radius: 50% !important;
                     background-color: $consumer-calendar-today-background-color !important;
