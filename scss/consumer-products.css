@@ -45,7 +45,7 @@ body mainbody {
   border-radius: 20px;
 }
 
-.active.time.fixCenter {
+.active.time.fixCenter .x-dynamic-label-control {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

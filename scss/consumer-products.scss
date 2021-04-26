@@ -28,8 +28,8 @@ $consumer-calendar-today-color:#5c50f2 !default;
 $consumer-calendar-other-month-color:#020d3b !default;
 $consumer-calendar-today-background-color:transparent !default;
 $consumer-calendar-today-selected-color:#fff !default;
-$consumer-active-background-time:#f8f8f8!default;
-$consumer-active-background-selected:#f7e8ff!default;
+$consumer-active-background-time:#f8f8f8 !default;
+$consumer-active-background-selected:#f7e8ff !default;
 
 body {
     background: $consumer-body-background-color !important;
@@ -72,18 +72,24 @@ body {
         border-radius: 0;
         border-top-right-radius: 0.85em;
     }
-    &.time{
-        background: $consumer-active-background-time!important;
+
+    &.time {
+        background: $consumer-active-background-time !important;
         width: 120px;
         border-radius: 20px;
+
         &.fixCenter {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin:0px 5px;
+            .x-dynamic-label-control {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 5px;
+            }
+
         }
-        &.selected{
-            background: $consumer-active-background-selected!important;
+
+        &.selected {
+            background: $consumer-active-background-selected !important;
         }
     }
 }
