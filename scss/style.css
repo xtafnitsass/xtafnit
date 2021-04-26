@@ -1391,11 +1391,11 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .k-window .k-window-content .k-edit-buttons {
-  background: #dadada !important;
+  background: #fff !important;
 }
 
 .k-window footer {
-  background: #dadada !important;
+  background: #fff !important;
 }
 
 #MessageBoxWindow #buttonbtn1 {
