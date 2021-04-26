@@ -76,6 +76,12 @@ body {
         background: $consumer-active-background-time!important;
         width: 120px;
         border-radius: 20px;
+        &.fixCenter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0px 5px;
+        }
         &.selected{
             background: $consumer-active-background-selected!important;
         }
