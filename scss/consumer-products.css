@@ -372,16 +372,17 @@ body mainbody {
           box-shadow: none !important;
 }
 
-.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-hover > a {
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-hover > .k-link {
   border-radius: 50% !important;
 }
 
 .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today .k-link {
   border-radius: 50% !important;
-  background-color: #5c50f2 !important;
-  color: #fff !important;
+  background-color: transparent !important;
+  color: #5c50f2 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  font-weight: bold;
 }
 
 @forward 'consumer-products';
