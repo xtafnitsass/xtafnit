@@ -366,14 +366,18 @@ body mainbody {
 }
 
 .xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected .k-link {
-  border-radius: 50%;
+  border-radius: 50% !important;
   background-color: #5c50f2 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-hover > a {
+  border-radius: 50% !important;
+}
+
 .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today .k-link {
-  border-radius: 50%;
+  border-radius: 50% !important;
   background-color: #5c50f2 !important;
   color: #fff !important;
   -webkit-box-shadow: none !important;
