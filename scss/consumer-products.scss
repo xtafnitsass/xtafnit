@@ -24,8 +24,9 @@ $consumer-multichoice-background:#f8f8f8 !default;
 $consumer-multichoice-background-selected:#5c50f2 !default;
 $consumer-calendar-selectday-background-color:#5c50f2 !default;
 $consumer-calendar-header-arrow-color:#5c50f2 !default;
-$consumer-calendar-today-color:#fff !default;
+$consumer-calendar-today-color:#5c50f2 !default;
 $consumer-calendar-other-month-color:#020d3b !default;
+$consumer-calendar-today-background-color:transparent !default;
 
 
 
@@ -436,14 +437,14 @@ body {
             td {
                 &.k-state-selected {
                     .k-link {
-                        border-radius: 50%!important;
+                        border-radius: 50% !important;
                         background-color: $consumer-calendar-selectday-background-color !important;
                         box-shadow: none !important;
                     }
                 }
 
                 &.k-state-hover {
-                    >a {
+                    >.k-link {
                         border-radius: 50% !important;
                     }
                 }
@@ -451,10 +452,11 @@ body {
 
             .k-today {
                 .k-link {
-                    border-radius: 50%!important;
-                    background-color: $consumer-calendar-selectday-background-color !important;
+                    border-radius: 50% !important;
+                    background-color: $consumer-calendar-today-background-color !important;
                     color: $consumer-calendar-today-color !important;
                     box-shadow: none !important;
+                    font-weight: bold;
                 }
             }
         }
