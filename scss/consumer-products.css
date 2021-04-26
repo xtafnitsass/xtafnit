@@ -83,6 +83,12 @@ body mainbody {
   font-size: 14px;
 }
 
+@media only screen and (max-width: 1281px) {
+  .k-window header.k-header {
+    background: transparent !important;
+  }
+}
+
 .activeBorderBottom {
   font-weight: bold;
   border-bottom: 2px solid #020d3b;

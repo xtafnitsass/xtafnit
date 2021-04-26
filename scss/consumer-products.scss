@@ -30,6 +30,7 @@ $consumer-calendar-today-background-color:transparent !default;
 $consumer-calendar-today-selected-color:#fff !default;
 $consumer-active-background-time:#f8f8f8 !default;
 $consumer-active-background-selected:#f7e8ff !default;
+$consumer-window-header-mobile:transparent !default;
 
 body {
     background: $consumer-body-background-color !important;
@@ -116,6 +117,16 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 1281px) {
+    .k-window {
+        header.k-header {
+            background: $consumer-window-header-mobile !important;
+        }
+    }
+
+}
+
 
 .activeBorderBottom {
     font-weight: bold;
