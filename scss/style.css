@@ -3242,6 +3242,7 @@ body mainbody {
 
 .xstyle-calendar-wrapper .k-calendar .k-other-month {
   opacity: 0.4;
+  color: #020d3b !important;
 }
 
 .xstyle-calendar-wrapper .k-calendar > .k-header {
@@ -3271,6 +3272,16 @@ body mainbody {
 .xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected .k-link, .xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected td.k-state-focused.k-state-hover {
   border-radius: 50%;
   background-color: #5c50f2 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today .k-link, .xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today td.k-state-focused.k-state-hover {
+  border-radius: 50%;
+  background-color: #5c50f2 !important;
+  color: #fff !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 @forward 'consumer-products';
