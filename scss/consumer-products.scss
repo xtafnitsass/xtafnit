@@ -94,6 +94,17 @@ body {
     }
 }
 
+.anotherDaySelected {
+    background: $consumer-calendar-today-color;
+    border-radius: 50%;
+    width: 25px;
+
+    .x-dynamic-label-control {
+        color: $consumer-calendar-today-selected-color !important;
+        text-align: center;
+    }
+}
+
 .k-drawer {
     .k-drawer-items {
         drawer-item-container {
