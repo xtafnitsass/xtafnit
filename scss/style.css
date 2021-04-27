@@ -2970,6 +2970,17 @@ body mainbody {
   background: #f7e8ff !important;
 }
 
+.anotherDaySelected {
+  background: #5c50f2;
+  border-radius: 50%;
+  width: 25px;
+}
+
+.anotherDaySelected .x-dynamic-label-control {
+  color: #fff !important;
+  text-align: center;
+}
+
 .k-drawer .k-drawer-items drawer-item-container {
   padding: 0px 20px;
 }
