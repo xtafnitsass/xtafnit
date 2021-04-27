@@ -192,7 +192,8 @@ body mainbody {
   right: 55px;
 }
 
-.fs-12 .fa-chevron-down {
+.fs-12 .fa-chevron-down,
+.fs-12 .fa-chevron-up {
   font-size: 12px;
 }
 
