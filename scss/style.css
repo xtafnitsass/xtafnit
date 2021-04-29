@@ -2878,21 +2878,4 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'timeline';
-@media only screen and (max-width: 1281px) {
-  header.k-header {
-    background-color: #ca0000 !important;
-    border-bottom-left-radius: 15px;
-  }
-  header.k-header .k-toolbar {
-    background: #ca0000;
-    border-bottom-left-radius: 15px;
-  }
-  header .k-icon,
-  header #username,
-  header #tbbEmail {
-    color: #fff !important;
-  }
-}
-
-@forward './headerMobile';
 /*# sourceMappingURL=style.css.map */
