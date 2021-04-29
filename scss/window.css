@@ -28,6 +28,11 @@
           box-shadow: none !important;
 }
 
+.k-window header {
+  background: transparent !important;
+  border-radius: 0;
+}
+
 .k-window .pageContainer {
   margin: 0px auto;
 }

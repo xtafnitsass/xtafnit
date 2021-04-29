@@ -3,6 +3,7 @@ $window-margin:0px auto !default;
 $window-color:#fff !default;
 $window-border:20px !default;
 $window-width-query-max768:90% !default;
+$window-background-header:transparent !default;
 
 
 .k-window {
@@ -28,6 +29,10 @@ $window-width-query-max768:90% !default;
                 box-shadow: none !important;
             }
         }
+    }
+    header{
+        background: $window-background-header!important;
+        border-radius: 0;
     }
 
     .pageContainer {
