@@ -22,7 +22,15 @@ $consumer-circleLightBlue-color:#a2feec !default;
 $consumer-active-color:#020d3b !default;
 $consumer-multichoice-background:#f8f8f8 !default;
 $consumer-multichoice-background-selected:#5c50f2 !default;
-
+$consumer-calendar-selectday-background-color:#5c50f2 !default;
+$consumer-calendar-header-arrow-color:#5c50f2 !default;
+$consumer-calendar-today-color:#5c50f2 !default;
+$consumer-calendar-other-month-color:#020d3b !default;
+$consumer-calendar-today-background-color:transparent !default;
+$consumer-calendar-today-selected-color:#fff !default;
+$consumer-active-background-time:#f8f8f8 !default;
+$consumer-active-background-selected:#f7e8ff !default;
+$consumer-window-header-mobile:transparent !default;
 
 body {
     background: $consumer-body-background-color !important;
@@ -59,6 +67,42 @@ body {
         border-radius: 0;
         border-top-right-radius: 0.85em;
     }
+
+    &.w-150 {
+        width: 150px;
+        border-radius: 0;
+        border-top-right-radius: 0.85em;
+    }
+
+    &.time {
+        background: $consumer-active-background-time !important;
+        width: 120px;
+        border-radius: 20px;
+
+        &.fixCenter {
+            .x-dynamic-label-control {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+
+        &.selected {
+            background: $consumer-active-background-selected !important;
+        }
+    }
+}
+
+.anotherDaySelected {
+    background: $consumer-calendar-today-color;
+    border-radius: 50%;
+    width: 25px;
+
+    .x-dynamic-label-control {
+        color: $consumer-calendar-today-selected-color !important;
+        text-align: center;
+    }
 }
 
 .k-drawer {
@@ -84,6 +128,16 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 1281px) {
+    .k-window {
+        header.k-header {
+            background: $consumer-window-header-mobile !important;
+        }
+    }
+
+}
+
 
 .activeBorderBottom {
     font-weight: bold;
@@ -178,7 +232,9 @@ body {
 }
 
 .fs-12 {
-    .fa-chevron-down {
+
+    .fa-chevron-down,
+    .fa-chevron-up {
         font-size: 12px;
     }
 }
@@ -380,6 +436,76 @@ body {
                         font-weight: bold;
                         background: $consumer-multichoice-background-selected !important;
                     }
+                }
+            }
+        }
+    }
+}
+
+.xstyle-calendar-wrapper {
+    .k-calendar {
+        border: 0 !important;
+        width: 100% !important;
+
+        .k-other-month {
+            opacity: 0.4;
+            color: $consumer-calendar-other-month-color !important;
+        }
+
+        >.k-header {
+            border: 0 !important;
+
+            .k-nav-prev,
+            .k-nav-next {
+                >span {
+                    font-size: 20px;
+                    color: $consumer-calendar-header-arrow-color !important;
+                }
+            }
+        }
+
+        .k-calendar-view {
+            width: 100% !important;
+
+            tbody {
+                font-size: 14px;
+            }
+
+            th {
+                border: 0 !important;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            td {
+                &.k-state-selected {
+                    .k-link {
+                        border-radius: 50% !important;
+                        background-color: $consumer-calendar-selectday-background-color !important;
+                        box-shadow: none !important;
+                    }
+                }
+
+                &.k-state-hover {
+                    >.k-link {
+                        border-radius: 50% !important;
+                    }
+                }
+            }
+
+            .k-today {
+                &.k-state-selected {
+                    .k-link {
+                        color: $consumer-calendar-today-selected-color !important;
+                    }
+                }
+
+                .k-link {
+                    border-radius: 50% !important;
+                    background-color: $consumer-calendar-today-background-color !important;
+                    color: $consumer-calendar-today-color !important;
+                    box-shadow: none !important;
+                    font-weight: bold;
                 }
             }
         }

@@ -33,6 +33,45 @@ body mainbody {
   border-top-right-radius: 0.85em;
 }
 
+.active.w-150 {
+  width: 150px;
+  border-radius: 0;
+  border-top-right-radius: 0.85em;
+}
+
+.active.time {
+  background: #f8f8f8 !important;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.active.time.fixCenter .x-dynamic-label-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.active.time.selected {
+  background: #f7e8ff !important;
+}
+
+.anotherDaySelected {
+  background: #5c50f2;
+  border-radius: 50%;
+  width: 25px;
+}
+
+.anotherDaySelected .x-dynamic-label-control {
+  color: #fff !important;
+  text-align: center;
+}
+
 .k-drawer .k-drawer-items drawer-item-container {
   padding: 0px 20px;
 }
@@ -53,6 +92,12 @@ body mainbody {
   text-align: center;
   padding-right: 45px;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 1281px) {
+  .k-window header.k-header {
+    background: transparent !important;
+  }
 }
 
 .activeBorderBottom {
@@ -147,7 +192,8 @@ body mainbody {
   right: 55px;
 }
 
-.fs-12 .fa-chevron-down {
+.fs-12 .fa-chevron-down,
+.fs-12 .fa-chevron-up {
   font-size: 12px;
 }
 
@@ -323,6 +369,64 @@ body mainbody {
 .multiChoiceDesign .x-multichoice-wrapper .x-multichoice-ul li.multichoice-row-selected label {
   font-weight: bold;
   background: #5c50f2 !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar {
+  border: 0 !important;
+  width: 100% !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-other-month {
+  opacity: 0.4;
+  color: #020d3b !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar > .k-header {
+  border: 0 !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar > .k-header .k-nav-prev > span,
+.xstyle-calendar-wrapper .k-calendar > .k-header .k-nav-next > span {
+  font-size: 20px;
+  color: #5c50f2 !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view {
+  width: 100% !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view tbody {
+  font-size: 14px;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view th {
+  border: 0 !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-selected .k-link {
+  border-radius: 50% !important;
+  background-color: #5c50f2 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view td.k-state-hover > .k-link {
+  border-radius: 50% !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today.k-state-selected .k-link {
+  color: #fff !important;
+}
+
+.xstyle-calendar-wrapper .k-calendar .k-calendar-view .k-today .k-link {
+  border-radius: 50% !important;
+  background-color: transparent !important;
+  color: #5c50f2 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-weight: bold;
 }
 
 @forward 'consumer-products';
