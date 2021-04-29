@@ -32,6 +32,7 @@
 /*timeline*/
 /*tooltip*/
 /*header mobile */
+/*consumer-product*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0082c5 !important;
@@ -313,6 +314,11 @@ mainbody .x-section-header-wrraper {
   background: 0 0 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.k-window header {
+  background: transparent !important;
+  border-radius: 0;
 }
 
 .k-window .pageContainer {
@@ -2090,6 +2096,12 @@ mainbody .gridHeaderButton .kIconPaint {
   border: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  .searchDesign .k-grid-toolbar .k-grid-search {
+    width: 95% !important;
+  }
+}
+
 .searchDesign .k-grid-toolbar .k-grid-search input.k-input {
   border-radius: 20px;
   background: #eee;
@@ -2399,7 +2411,7 @@ mainbody .gridHeaderButton .kIconPaint {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 674px;
-  min-height: 690px;
+  min-height: 680px;
 }
 
 @media only screen and (max-height: 950px) {
@@ -2866,7 +2878,7 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'timeline';
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   header.k-header {
     background-color: #da242c !important;
     border-bottom-left-radius: 15px;
