@@ -1157,6 +1157,12 @@ mainbody .gridHeaderButton .kIconPaint {
   border: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  .searchDesign .k-grid-toolbar .k-grid-search {
+    width: 95% !important;
+  }
+}
+
 .searchDesign .k-grid-toolbar .k-grid-search input.k-input {
   border-radius: 20px;
   background: #eee;
@@ -1460,7 +1466,7 @@ mainbody .gridHeaderButton .kIconPaint {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 674px;
-  min-height: 690px;
+  min-height: 680px;
 }
 
 @media only screen and (max-height: 950px) {
