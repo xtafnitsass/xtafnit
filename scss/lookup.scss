@@ -1,0 +1,30 @@
+$lookup-border-bottom-color:1px solid #464247 !default;
+$lookup-background-color:#fafafa !default;
+
+.xstyle-lookup-wrapper {
+    .x-lookup {
+        .x-selection-lookup {
+            .x-form-control {
+                border: 0;
+                border-bottom: $lookup-border-bottom-color;
+                border-radius: 0;
+                background: $lookup-background-color;
+            }
+
+            .x-open-lookup {
+                .x-selection-lookup-button {
+                    border: 0 !important;
+                    border-bottom: $lookup-border-bottom-color !important;
+                    border-radius: 0;
+
+                    .x-input-group-text {
+                        background: $lookup-background-color;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@forward 'lookup';

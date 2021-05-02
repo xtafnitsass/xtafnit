@@ -441,6 +441,11 @@ $consumer-active-background-time:#f8f8f8;
 $consumer-active-background-selected:#f7e8ff;
 $consumer-window-header-mobile:transparent;
 
+/*lookup*/
+
+$lookup-border-bottom-color:1px solid #464247;
+$lookup-background-color:#fafafa;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
