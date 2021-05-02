@@ -3112,6 +3112,13 @@ ul.fieldlist {
 }
 
 @forward './headerMobile';
+.xstyle-lookup-wrapper .x-lookup .x-description-lookup .x-description-input {
+  border: 0 !important;
+  border-bottom: 1px solid #464247 !important;
+  border-radius: 0 !important;
+  height: 36px !important;
+}
+
 .xstyle-lookup-wrapper .x-lookup .x-selection-lookup .x-form-control {
   border: 0;
   border-bottom: 1px solid #464247;
