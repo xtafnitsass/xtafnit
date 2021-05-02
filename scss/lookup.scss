@@ -3,6 +3,15 @@ $lookup-background-color:#fafafa !default;
 
 .xstyle-lookup-wrapper {
     .x-lookup {
+        .x-description-lookup {
+            .x-description-input {
+                border: 0 !important;
+                border-bottom: $lookup-border-bottom-color !important;
+                border-radius: 0 !important;
+                height: 36px !important;
+            }
+        }
+
         .x-selection-lookup {
             .x-form-control {
                 border: 0;
