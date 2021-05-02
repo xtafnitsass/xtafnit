@@ -13,6 +13,10 @@ $lookup-background-color:#fafafa !default;
         }
 
         .x-selection-lookup {
+            .k-textbox:focus {
+                box-shadow: none !important;
+            }
+
             .x-form-control {
                 border: 0;
                 border-bottom: $lookup-border-bottom-color;
