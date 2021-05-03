@@ -4,6 +4,8 @@ $window-color:#fff !default;
 $window-border:20px !default;
 $window-width-query-max768:90% !default;
 $window-background-header:transparent !default;
+$window-kendoToolbarHeader-background:#fff!default;
+$window-kendoToolbarHeader-border:0px!default;
 
 
 .k-window {
@@ -29,6 +31,10 @@ $window-background-header:transparent !default;
                 box-shadow: none !important;
             }
         }
+    }
+    .kendoToolbarHeader{
+        background: $window-kendoToolbarHeader-background!important;
+        border: $window-kendoToolbarHeader-border!important;
     }
     header{
         background: $window-background-header!important;
