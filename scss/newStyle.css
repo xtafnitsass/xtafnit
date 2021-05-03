@@ -1953,6 +1953,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   border-radius: 0;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+  font-size: 18px;
 }
 
 .k-rtl .x-lookup .x-description-lookup.x-description-full-display {
@@ -2004,6 +2005,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   border-top-left-radius: 5px;
   border-left: 1px solid #a3d0e4 !important;
   border-right: 0;
+  font-size: 18px;
 }
 
 .k-ltr .x-lookup .x-description-lookup.x-description-full-display {
