@@ -33,6 +33,7 @@
 /*tooltip*/
 /*header mobile */
 /*consumer-product*/
+/*lookup*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -314,6 +315,11 @@ mainbody .x-section-header-wrraper {
   background: 0 0 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.k-window .kendoToolbarHeader {
+  background: #fff !important;
+  border: 0px !important;
 }
 
 .k-window header {
@@ -3013,6 +3019,11 @@ body mainbody {
   font-weight: bold;
   border-bottom: 2px solid #020d3b;
   border-radius: 0;
+}
+
+.placeholderColor input.x-datePickerResponsive {
+  color: #020d3b !important;
+  opacity: 0.5;
 }
 
 .placeholderColor input.k-textbox::-webkit-input-placeholder {
