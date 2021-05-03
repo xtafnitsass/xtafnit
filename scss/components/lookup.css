@@ -22,7 +22,7 @@
 
 .k-rtl .x-lookup .x-selection-lookup .x-open-lookup .x-selection-lookup-button .x-input-group-text {
   width: 100%;
-  height: 35.9px;
+  height: 35px;
   text-align: center;
   font-weight: 600;
   border: 0;
@@ -45,7 +45,7 @@
 .k-rtl .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 36.9px;
+  height: 38px;
 }
 
 .k-ltr .x-lookup input.k-input {
@@ -96,7 +96,7 @@
 .k-ltr .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 36.9px;
+  height: 38px;
 }
 
 .xstyle-lookup-wrapper {
