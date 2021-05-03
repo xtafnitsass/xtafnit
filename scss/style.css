@@ -3564,6 +3564,7 @@ body mainbody {
   border-bottom: 1px solid #464247;
   border-radius: 0;
   background: #fafafa;
+  color: #000 !important;
 }
 
 .xstyle-lookup-wrapper .x-lookup .x-selection-lookup .x-open-lookup .x-selection-lookup-button {
