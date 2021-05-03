@@ -3573,7 +3573,7 @@ body mainbody {
 }
 
 .xstyle-lookup-wrapper .x-lookup .x-input-group-text {
-  height: 35px !important;
+  height: 36px !important;
 }
 
 @forward 'lookup';
