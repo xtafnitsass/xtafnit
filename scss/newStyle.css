@@ -1962,7 +1962,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 .k-rtl .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 38px;
+  height: 37px;
 }
 
 .k-ltr .x-lookup input.k-input {
@@ -2013,7 +2013,11 @@ input.k-input[dir="ltr"] + .k-clear-value {
 .k-ltr .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 38px;
+  height: 37px;
+}
+
+.xstyle-lookup-wrapper {
+  padding: 0 !important;
 }
 
 .k-window {

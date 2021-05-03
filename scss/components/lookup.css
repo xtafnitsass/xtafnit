@@ -45,7 +45,7 @@
 .k-rtl .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 38px;
+  height: 37px;
 }
 
 .k-ltr .x-lookup input.k-input {
@@ -96,6 +96,10 @@
 .k-ltr .x-lookup .x-description-lookup .x-description-input {
   border-radius: 5px;
   width: 100%;
-  height: 38px;
+  height: 37px;
+}
+
+.xstyle-lookup-wrapper {
+  padding: 0 !important;
 }
 /*# sourceMappingURL=lookup.css.map */
