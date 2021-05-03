@@ -24,6 +24,8 @@ $window-color:#fff;
 $window-border:20px;
 $window-width-query-max768:90%;
 $window-background-header:transparent;
+$window-kendoToolbarHeader-background:#fff;
+$window-kendoToolbarHeader-border:0px;
 
 /*drawer*/
 
@@ -451,4 +453,4 @@ $lookup-background-color:#fafafa;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products' , './lookup';
+'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup';
