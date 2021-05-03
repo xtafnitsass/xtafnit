@@ -1,5 +1,6 @@
 $lookup-border-bottom-color:1px solid #464247 !default;
 $lookup-background-color:#fafafa !default;
+$lookup-color:#000!default;
 
 .xstyle-lookup-wrapper {
     .x-lookup {
@@ -21,6 +22,7 @@ $lookup-background-color:#fafafa !default;
                 border-bottom: $lookup-border-bottom-color;
                 border-radius: 0;
                 background: $lookup-background-color;
+                color:$lookup-color!important;
             }
 
             .x-open-lookup {
