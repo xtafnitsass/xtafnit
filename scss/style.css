@@ -3141,5 +3141,9 @@ ul.fieldlist {
   border-radius: 0;
 }
 
+.xstyle-lookup-wrapper .x-lookup .x-input-group-text {
+  height: 35px !important;
+}
+
 @forward 'lookup';
 /*# sourceMappingURL=style.css.map */
