@@ -46,6 +46,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
+$suppliers-datepicker-font-size:14px!default;
 
 
 //------------------------------------------------------------layout//
@@ -460,7 +461,7 @@ mainbody {
         border-top: 0;
 
         .k-input {
-            font-size: 14px;
+            font-size: $suppliers-datepicker-font-size;
         }
     }
 
