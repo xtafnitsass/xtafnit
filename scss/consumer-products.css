@@ -106,6 +106,26 @@ body mainbody {
   border-radius: 0;
 }
 
+.placeholderColor input.x-datePickerResponsive::-webkit-input-placeholder {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor input.x-datePickerResponsive:-ms-input-placeholder {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor input.x-datePickerResponsive::-ms-input-placeholder {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor input.x-datePickerResponsive::placeholder {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
 .placeholderColor input.k-textbox::-webkit-input-placeholder {
   color: #020d3b !important;
   opacity: 0.5;

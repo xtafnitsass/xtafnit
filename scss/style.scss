@@ -24,6 +24,8 @@ $window-color:#000;
 $window-border:20px;
 $window-width-query-max768:90%;
 $window-background-header:transparent;
+$window-kendoToolbarHeader-background:#fff;
+$window-kendoToolbarHeader-border:0px;
 
 /*drawer*/
 
@@ -313,6 +315,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb;
 $suppliers-timeselector:#ca0000;
 $suppliers-messageText:#ca0000;
 $suppliers-icon-tachometer: #464247;
+$suppliers-datepicker-font-size:14px;
 
 
 /*link*/
@@ -440,6 +443,12 @@ $consumer-calendar-today-selected-color:#fff;
 $consumer-active-background-time:#f8f8f8;
 $consumer-active-background-selected:#f7e8ff;
 $consumer-window-header-mobile:transparent;
+
+/*lookup*/
+
+$lookup-border-bottom-color:1px solid #464247;
+$lookup-background-color:#fafafa;
+$lookup-color:#000;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

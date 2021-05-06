@@ -147,6 +147,14 @@ body {
 
 .placeholderColor {
     input {
+        &.x-datePickerResponsive {
+            &::placeholder {
+                color: $consumer-placeholder-color !important;
+                opacity: 0.5;
+            }
+
+        }
+
         &.k-textbox {
             &::placeholder {
                 color: $consumer-placeholder-color !important;
