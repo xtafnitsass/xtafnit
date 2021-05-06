@@ -10,6 +10,10 @@
   vertical-align: text-bottom;
 }
 
+.x-crumb-wrapper.x-horizontal .x-progressBread .x-bsLinkLi {
+  display: inline;
+}
+
 .x-crumb-wrapper.x-horizontal .x-progressBread .x-breadcrumbNode:after {
   left: 50%;
   right: 0;

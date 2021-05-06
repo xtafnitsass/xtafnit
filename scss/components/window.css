@@ -2,6 +2,19 @@
   margin-top: 15px;
 }
 
+.k-window #watermark {
+  display: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .k-window footer {
+    position: absolute;
+  }
+  .k-window .x-pagePopup {
+    margin: 0 !important;
+  }
+}
+
 .k-window footer {
   z-index: 10003;
 }

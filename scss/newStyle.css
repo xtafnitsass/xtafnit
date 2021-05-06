@@ -2030,6 +2030,19 @@ input.k-input[dir="ltr"] + .k-clear-value {
   margin-top: 15px;
 }
 
+.k-window #watermark {
+  display: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .k-window footer {
+    position: absolute;
+  }
+  .k-window .x-pagePopup {
+    margin: 0 !important;
+  }
+}
+
 .k-window footer {
   z-index: 10003;
 }
@@ -2186,6 +2199,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .x-crumb-wrapper.x-horizontal .x-bcNodeArrow {
   vertical-align: text-bottom;
+}
+
+.x-crumb-wrapper.x-horizontal .x-progressBread .x-bsLinkLi {
+  display: inline;
 }
 
 .x-crumb-wrapper.x-horizontal .x-progressBread .x-breadcrumbNode:after {
