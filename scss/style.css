@@ -2722,7 +2722,7 @@ span.mandatory.active + textarea.k-textbox,
 span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
 span.mandatory.active ~ label.k-checkbox-label:before,
 span.mandatory.active + span.k-switch.k-widget .k-switch-container {
-  background: rgba(255, 234, 97, 0.48) !important;
+  background: #ffea617a !important;
 }
 
 @media only screen and (max-width: 1024px) {
