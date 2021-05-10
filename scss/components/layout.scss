@@ -254,11 +254,11 @@ a {
         font-size: 16px;
     }
 }
-
+ 
 /*mandatory fileds*/
 .mandatory {
     &.active {
-
+        +div .x-form-control,
         +input,
         +span>span.k-dropdown-wrap,
         +div>span.k-autocomplete>input,
