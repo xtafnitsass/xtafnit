@@ -276,6 +276,7 @@ a.x-link_Comp {
 
 /*mandatory fileds*/
 .mandatory.active + div .x-form-control,
+.mandatory.active + div .x-password,
 .mandatory.active + input,
 .mandatory.active + span > span.k-dropdown-wrap,
 .mandatory.active + div > span.k-autocomplete > input,

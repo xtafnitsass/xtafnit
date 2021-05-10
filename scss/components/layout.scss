@@ -259,6 +259,7 @@ a {
 .mandatory {
     &.active {
         +div .x-form-control,
+        +div .x-password,
         +input,
         +span>span.k-dropdown-wrap,
         +div>span.k-autocomplete>input,
