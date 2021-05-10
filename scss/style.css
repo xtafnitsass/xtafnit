@@ -2713,6 +2713,18 @@ progress[value]::-webkit-progress-value {
   border-radius: 20px !important;
 }
 
+span.mandatory.active + div .x-form-control,
+span.mandatory.active + input,
+span.mandatory.active + span > span.k-dropdown-wrap,
+span.mandatory.active + div > span.k-autocomplete > input,
+span.mandatory.active + label.switch > input.switch-input + span.switch-label,
+span.mandatory.active + textarea.k-textbox,
+span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
+span.mandatory.active ~ label.k-checkbox-label:before,
+span.mandatory.active + span.k-switch.k-widget .k-switch-container {
+  background: rgba(255, 234, 97, 0.48) !important;
+}
+
 @media only screen and (max-width: 1024px) {
   .roundedNoneMobile {
     border-radius: 0 !important;
