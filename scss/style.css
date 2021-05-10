@@ -2714,6 +2714,7 @@ progress[value]::-webkit-progress-value {
 }
 
 span.mandatory.active + div .x-form-control,
+span.mandatory.active + div .x-password,
 span.mandatory.active + input,
 span.mandatory.active + span > span.k-dropdown-wrap,
 span.mandatory.active + div > span.k-autocomplete > input,
