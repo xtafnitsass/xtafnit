@@ -607,6 +607,18 @@ label.btn {
   position: relative;
 }
 
+.p-floating-container .k-dropdown.notselected label {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  top: 10px;
+  right: 10px;
+}
+
+.p-floating-container.xstyle-idropdownlist-wrapper label {
+  position: unset;
+  opacity: 1;
+}
+
 .p-floating-container label,
 .p-floating-container ul[role="presentation"] + input + label {
   left: 8px;
