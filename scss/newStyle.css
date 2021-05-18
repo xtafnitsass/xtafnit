@@ -1407,11 +1407,15 @@ header .fal.fa-home {
 
 .k-textbox.x-textbox {
   width: 100%;
-  padding: 0 .571em;
+  padding: 0;
   min-height: 37px;
   line-height: 1em;
   font-size: 18px;
   outline: 0;
+}
+
+.k-textbox[type="number"] {
+  padding: 0 .571em;
 }
 
 .k-textboxinput[type='number'] {
