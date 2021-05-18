@@ -145,6 +145,11 @@ body {
     border-radius: 0;
 }
 
+.x-active{
+    border-top: 3px solid $consumer-active-border-bottom-color;
+    border-radius: 0;
+}
+
 .placeholderColor {
     input {
         &.x-datePickerResponsive {

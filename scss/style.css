@@ -3231,6 +3231,11 @@ body mainbody {
   border-radius: 0;
 }
 
+.x-active {
+  border-top: 3px solid #020d3b;
+  border-radius: 0;
+}
+
 .placeholderColor input.x-datePickerResponsive::-webkit-input-placeholder {
   color: #020d3b !important;
   opacity: 0.5;
