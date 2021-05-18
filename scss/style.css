@@ -3069,7 +3069,7 @@ body mainbody {
 }
 
 .x-kicon-caption {
-  border-bottom: 1px solid #020d3b;
+  border-bottom: 0px;
   color: #020d3b !important;
 }
 
