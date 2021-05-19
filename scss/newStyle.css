@@ -2054,7 +2054,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .k-window footer {
-    position: absolute;
+    position: relative;
   }
   .k-window .x-pagePopup {
     margin: 0 !important;
