@@ -145,7 +145,7 @@ body {
     border-radius: 0;
 }
 
-.x-active{
+.x-active {
     border-top: 3px solid $consumer-active-border-bottom-color;
     border-radius: 0;
 }
@@ -356,6 +356,12 @@ body {
 
 .font-weight-bold {
     .k-button {
+        font-weight: bold;
+    }
+}
+
+.font-bold-label {
+    label {
         font-weight: bold;
     }
 }
