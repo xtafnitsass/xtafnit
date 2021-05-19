@@ -2509,7 +2509,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   right: auto;
 }
 
-.x-btn-collapse.x-collapse-close, .x-btn-collapse.x-collapse-open.collapsed {
+.x-btn-collapse.collapsed {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }

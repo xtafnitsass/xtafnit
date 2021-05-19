@@ -26,8 +26,7 @@
     left: 15px;
     right: auto;
 
-    &.x-collapse-close,
-    &.x-collapse-open.collapsed {
+    &.collapsed{
         transform: rotate(180deg);
     }
 
