@@ -3219,6 +3219,10 @@ body mainbody {
   font-weight: bold;
 }
 
+.font-bold-label label {
+  font-weight: bold;
+}
+
 .productBackgroundBig {
   background: #c1ccff47;
 }
