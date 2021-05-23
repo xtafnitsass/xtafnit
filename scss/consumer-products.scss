@@ -262,6 +262,12 @@ body {
     }
 }
 
+.marginRightCheckbox{
+    label.x-control-caption-text{
+        margin-right: 10px;
+    }
+}
+
 .k-menu {
     .k-link {
         &.k-state-active {

@@ -3355,6 +3355,10 @@ body mainbody {
   top: 9px;
 }
 
+.marginRightCheckbox label.x-control-caption-text {
+  margin-right: 10px;
+}
+
 .k-menu .k-link.k-state-active, .k-menu .k-calendar .k-calendar-view td.k-state-active.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-menu td.k-state-active.k-state-focused.k-state-hover {
   background-color: transparent !important;
 }
