@@ -2116,6 +2116,7 @@ mainbody .gridHeaderButton .kIconPaint {
   font-size: 16px !important;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-textbox,
@@ -2127,6 +2128,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div,
@@ -2141,6 +2143,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
@@ -2154,6 +2157,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody ::-webkit-input-placeholder,
@@ -2164,6 +2168,7 @@ mainbody .gridHeaderButton .kIconPaint {
   text-align: right;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
@@ -2177,6 +2182,7 @@ mainbody .gridHeaderButton .kIconPaint {
           flex-direction: column;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
@@ -2188,6 +2194,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media only screen and (max-height: 950px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlcHello"],
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcHello"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcHello"],
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcHello"],
@@ -2199,6 +2206,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlcLogin1"],
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"],
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"],
@@ -2214,6 +2222,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (min-width: 1050px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlcLogin1"],
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlcLogin1"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlcLogin1"],
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlcLogin1"],
@@ -2226,6 +2235,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .x-button-wrapper,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper,
@@ -2236,6 +2246,7 @@ mainbody .gridHeaderButton .kIconPaint {
   text-align: center;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button,
@@ -2249,6 +2260,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (max-width: 1050px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-button-wrapper .k-button,
@@ -2262,6 +2274,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody > .row,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
@@ -2276,6 +2289,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (min-height: 800px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
@@ -2288,6 +2302,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (min-width: 800px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
@@ -2300,6 +2315,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (min-width: 1050px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody > .row,
@@ -2311,6 +2327,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .loginLayout,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout,
@@ -2322,6 +2339,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media screen and (max-width: 1050px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .loginLayout,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginLayout,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginLayout,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginLayout,
@@ -2333,6 +2351,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
@@ -2343,7 +2362,9 @@ mainbody .gridHeaderButton .kIconPaint {
   border: 0;
 }
 
-#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox, #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox,
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .x-text-control-container .x-textbox, #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .k-filter-menu-container .x-textbox,
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-text-control-container .x-textbox,
+#TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-filter-menu-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-text-control-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-filter-menu-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-text-control-container .x-textbox,
@@ -2359,6 +2380,7 @@ mainbody .gridHeaderButton .kIconPaint {
   border-bottom: 1.5px solid #464247 !important;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .x-textbox,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .x-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .x-textbox,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .x-textbox,
@@ -2370,6 +2392,7 @@ mainbody .gridHeaderButton .kIconPaint {
   border: 0 !important;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper,
@@ -2383,6 +2406,7 @@ mainbody .gridHeaderButton .kIconPaint {
           flex-direction: row-reverse;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
@@ -2394,6 +2418,7 @@ mainbody .gridHeaderButton .kIconPaint {
   line-height: 1.3;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper input,
@@ -2404,6 +2429,7 @@ mainbody .gridHeaderButton .kIconPaint {
   font-weight: bold;
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlrLogin"],
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"],
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"],
@@ -2420,6 +2446,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media only screen and (max-height: 950px) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody [xid="controlrLogin"],
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody [xid="controlrLogin"],
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody [xid="controlrLogin"],
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody [xid="controlrLogin"],
@@ -2431,6 +2458,7 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+#TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .loginContent,
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .loginContent,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .loginContent,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .loginContent,
@@ -2444,6 +2472,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .col,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .col,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .col,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .col,
@@ -2454,6 +2483,7 @@ mainbody .gridHeaderButton .kIconPaint {
     -ms-flex-preferred-size: auto !important;
         flex-basis: auto !important;
   }
+  #TafnitCore.SaaSServer.ConsumerProducts.UI.Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .xstyle-checkbox-wrapper,
