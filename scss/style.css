@@ -2664,12 +2664,6 @@ progress[value]::-webkit-progress-value {
           box-shadow: 0px 0px 41px -28px #0760B4;
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 8% !important;
-  }
-}
-
 @forward 'portal';
 .k-stepper {
   background-color: transparent;
@@ -3021,6 +3015,11 @@ body mainbody {
   border-radius: 0;
 }
 
+.x-active {
+  border-top: 3px solid #020d3b;
+  border-radius: 0;
+}
+
 .placeholderColor input.x-datePickerResponsive::-webkit-input-placeholder {
   color: #020d3b !important;
   opacity: 0.5;
@@ -3140,6 +3139,10 @@ body mainbody {
   top: 9px;
 }
 
+.marginRightCheckbox label.x-control-caption-text {
+  margin-right: 10px;
+}
+
 .k-menu .k-link.k-state-active, .k-menu .k-calendar .k-calendar-view td.k-state-active.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-menu td.k-state-active.k-state-focused.k-state-hover {
   background-color: transparent !important;
 }
@@ -3217,6 +3220,10 @@ body mainbody {
 }
 
 .font-weight-bold .k-button {
+  font-weight: bold;
+}
+
+.font-bold-label label {
   font-weight: bold;
 }
 

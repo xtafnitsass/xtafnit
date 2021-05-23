@@ -145,6 +145,11 @@ body {
     border-radius: 0;
 }
 
+.x-active {
+    border-top: 3px solid $consumer-active-border-bottom-color;
+    border-radius: 0;
+}
+
 .placeholderColor {
     input {
         &.x-datePickerResponsive {
@@ -257,6 +262,12 @@ body {
     }
 }
 
+.marginRightCheckbox{
+    label.x-control-caption-text{
+        margin-right: 10px;
+    }
+}
+
 .k-menu {
     .k-link {
         &.k-state-active {
@@ -351,6 +362,12 @@ body {
 
 .font-weight-bold {
     .k-button {
+        font-weight: bold;
+    }
+}
+
+.font-bold-label {
+    label {
         font-weight: bold;
     }
 }

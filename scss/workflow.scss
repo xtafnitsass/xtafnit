@@ -29,9 +29,23 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 $workflow-floating-lable-color:#afaeb0 !default;
 $workflow-textarea-color:#464247 !default;
 $workflow-rectAll-active-background:#f7e8ff !default;
+$workflow-mandatory-background:rgba(255, 234, 97, 0.48)!default;
 
 .roundedNoneMobile {
     border-radius: 20px !important;
+}
+
+span.mandatory.active+div .x-form-control,
+span.mandatory.active+div .x-password,
+span.mandatory.active+input,
+span.mandatory.active+span>span.k-dropdown-wrap,
+span.mandatory.active+div>span.k-autocomplete>input,
+span.mandatory.active+label.switch>input.switch-input+span.switch-label,
+span.mandatory.active+textarea.k-textbox,
+span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
+span.mandatory.active~label.k-checkbox-label:before,
+span.mandatory.active+span.k-switch.k-widget .k-switch-container {
+    background: $workflow-mandatory-background !important;
 }
 
 @media only screen and(max-width:1024px) {
