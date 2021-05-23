@@ -230,6 +230,10 @@ body mainbody {
   top: 9px;
 }
 
+.marginRightCheckbox label.x-control-caption-text {
+  margin-right: 10px;
+}
+
 .k-menu .k-link.k-state-active {
   background-color: transparent !important;
 }
