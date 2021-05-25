@@ -32,6 +32,18 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   opacity: 0.6;
 }
 
+.k-grid .k-grid-header {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-content {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-pager {
+  background: #f8f8f8 !important;
+}
+
 .active {
   background: #f7e8ff;
 }
