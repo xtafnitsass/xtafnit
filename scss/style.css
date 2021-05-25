@@ -531,7 +531,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-toolbar {
-  background: transparent;
+  background: #f8f8f8;
 }
 
 .k-grid .k-toolbar.k-grid-toolbar {
@@ -583,7 +583,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-header thead {
-  background: none;
+  background: #f8f8f8;
 }
 
 .k-grid .k-grid-content {
@@ -649,7 +649,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager {
-  background: none;
+  background: #f8f8f8;
   border: none;
 }
 
@@ -670,12 +670,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-footer {
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-color: #eee;
 }
 
 .k-grid .k-grid-footer td {
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-color: #eee;
 }
 
@@ -2939,6 +2939,18 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 
 .opacity-6 {
   opacity: 0.6;
+}
+
+.k-grid .k-grid-header {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-content {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-pager {
+  background: #f8f8f8 !important;
 }
 
 .active {
