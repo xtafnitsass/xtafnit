@@ -152,7 +152,7 @@ $drop-down-icon-color : #002d41;
 /*grid*/
 
 $grid-header-text-color:#002d41;
-$grid-header-filter-color:#0469bd;
+$grid-header-filter-color:#7b72f4;
 $grid-header-background:#f8f8f8;
 $grid-header-serach-float:right;
 $grid-header-serach-border:1px solid #ccc;
@@ -170,12 +170,12 @@ $grid-content-line-color-selected:#000;
 $grid-content-border:none;
 $grid-content-border-left:none;
 $grid-content-odd-background:none;
-$grid-content-odd-background-mobile:#ccc;
+$grid-content-odd-background-mobile:none;
 $grid-pager-background:#f8f8f8;
 $grid-pager-border:none;
-$grid-pager-nav-background: linear-gradient(to top, #0469bd -46%, #25abfd 163%, #63c4ff 163%);
-$grid-pager-nav-border:#0167b1;
-$grid-pager-nav-background-hover:#0167b1;
+$grid-pager-nav-background:linear-gradient(270deg, #97afff, #5e77ff);
+$grid-pager-nav-border:#5e77ff;
+$grid-pager-nav-background-hover:linear-gradient(270deg, #97afff, #5e77ff);
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#a9bdca;
@@ -183,12 +183,12 @@ $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-scoller-webkit-background:#dfdbdb;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#0167b1;
+$grid-edited-numeric-arrow-background-color:#7b72f4;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#f8f8f8;
-$grid-footer-border-color:#eee;
+$grid-footer-border-color:#f8f8f8;
 $grid-content-padding:10px 0px;
-$grid-pager-nav-color:#003f59;
+$grid-pager-nav-color:#7b72f4;
 
 
 /*time picker*/
