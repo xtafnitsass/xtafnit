@@ -198,6 +198,16 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
             }
         }
     }
+    span{
+        &.k-input{
+            color: $consumer-placeholder-color !important;
+            opacity: 0.5;
+        }
+    }
+    label{
+        color: $consumer-placeholder-color !important;
+        opacity: 0.5;
+    }
 }
 
 .gradientColor {
