@@ -176,6 +176,16 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   opacity: 0.5;
 }
 
+.placeholderColor span.k-input {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor label {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
 .gradientColor .k-button {
   background: -webkit-gradient(linear, right top, left top, color-stop(122%, #97afff), color-stop(116%, #97afff), to(#5e77ff)) !important;
   background: linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff) !important;
