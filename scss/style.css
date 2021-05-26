@@ -2727,6 +2727,11 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   background: #ffea617a !important;
 }
 
+.dynamicTitle {
+  font-weight: bold;
+  color: #9e30bf;
+}
+
 @media only screen and (max-width: 1024px) {
   .roundedNoneMobile {
     border-radius: 0 !important;
