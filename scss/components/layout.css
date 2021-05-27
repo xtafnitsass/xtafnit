@@ -195,7 +195,7 @@ a.x-link_Comp {
   height: 15px;
   display: inline-block;
   position: absolute;
-  z-index: 999;
+  z-index: 1030;
   cursor: pointer;
 }
 
