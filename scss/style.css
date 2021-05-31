@@ -856,6 +856,13 @@ input[type="time"] {
   color: #ca0000;
 }
 
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-next,
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-prev {
+  color: #000 !important;
+  background: unset !important;
+  top: 10px !important;
+}
+
 .k-slider .k-draghandle {
   border-color: #000;
   background-color: #000;
