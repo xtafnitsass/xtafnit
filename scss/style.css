@@ -32,6 +32,8 @@
 /*timeline*/
 /*tooltip*/
 /*header mobile */
+/*consumer-product*/
+/*lookup*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -313,6 +315,16 @@ mainbody .x-section-header-wrraper {
   background: 0 0 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.k-window .kendoToolbarHeader {
+  background: #fff !important;
+  border: 0px !important;
+}
+
+.k-window header {
+  background: transparent !important;
+  border-radius: 0;
 }
 
 .k-window .pageContainer {
@@ -842,6 +854,13 @@ input[type="time"] {
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
   color: #fff;
+}
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-next,
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-prev {
+  color: #000 !important;
+  background: unset !important;
+  top: 10px !important;
 }
 
 .k-slider .k-draghandle {
