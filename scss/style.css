@@ -855,6 +855,13 @@ input[type="time"] {
   color: #da2128;
 }
 
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-next,
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-prev {
+  color: #000 !important;
+  background: unset !important;
+  top: 10px !important;
+}
+
 .k-slider .k-draghandle {
   border-color: #000;
   background-color: #000;
@@ -2661,12 +2668,6 @@ progress[value]::-webkit-progress-value {
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #da2128;
           box-shadow: 0px 0px 41px -28px #da2128;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 8% !important;
-  }
 }
 
 @forward 'portal';

@@ -7,6 +7,19 @@ body mainbody {
   height: 100%;
 }
 
+span.mandatory.active + div .x-form-control,
+span.mandatory.active + div .x-password,
+span.mandatory.active + input,
+span.mandatory.active + span > span.k-dropdown-wrap,
+span.mandatory.active + div > span.k-autocomplete > input,
+span.mandatory.active + label.switch > input.switch-input + span.switch-label,
+span.mandatory.active + textarea.k-textbox,
+span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
+span.mandatory.active ~ label.k-checkbox-label:before,
+span.mandatory.active + span.k-switch.k-widget .k-switch-container {
+  background: rgba(255, 234, 97, 0.48) !important;
+}
+
 .xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
   color: #020d3b !important;
 }
@@ -17,6 +30,18 @@ body mainbody {
 
 .opacity-6 {
   opacity: 0.6;
+}
+
+.k-grid .k-grid-header {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-content {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-pager {
+  background: #f8f8f8 !important;
 }
 
 .active {
@@ -106,6 +131,11 @@ body mainbody {
   border-radius: 0;
 }
 
+.x-active {
+  border-top: 3px solid #020d3b;
+  border-radius: 0;
+}
+
 .placeholderColor input.x-datePickerResponsive::-webkit-input-placeholder {
   color: #020d3b !important;
   opacity: 0.5;
@@ -144,6 +174,15 @@ body mainbody {
 .placeholderColor input.k-textbox::placeholder {
   color: #020d3b !important;
   opacity: 0.5;
+}
+
+.placeholderColor span.k-input {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor label {
+  color: #020d3b !important;
 }
 
 .gradientColor .k-button {
@@ -225,6 +264,10 @@ body mainbody {
   top: 9px;
 }
 
+.marginRightCheckbox label.x-control-caption-text {
+  margin-right: 10px;
+}
+
 .k-menu .k-link.k-state-active {
   background-color: transparent !important;
 }
@@ -302,6 +345,10 @@ body mainbody {
 }
 
 .font-weight-bold .k-button {
+  font-weight: bold;
+}
+
+.font-bold-label label {
   font-weight: bold;
 }
 

@@ -252,6 +252,9 @@ $tabstrip-tab-color:#da2128;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
+$tabstrip-arrow-color:#000;
+$tabstrip-arrow-background:unset;
+$tabstrip-arrow-top-position:10px;
 
 /*slider*/
 
@@ -331,6 +334,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb;
 $suppliers-timeselector:#da2128;
 $suppliers-messageText:#da2128;
 $suppliers-icon-tachometer: #464247;
+$suppliers-datepicker-font-size:14px;
 
 
 /*link*/
@@ -391,6 +395,10 @@ $workflow-checkbox-color-checked:#02b5fd;
 $workflow-floating-lable-color:#afaeb0;
 $workflow-textarea-color:#464247;
 $workflow-rectAll-active-background:#f7e8ff;
+$workflow-mandatory-background:#ffea617a;
+
+$websdk-dynamic-title-font-weight:bold;
+$websdk-dynamic-title-color:#9e30bf;
 
 /*timeline*/
 
@@ -458,6 +466,10 @@ $consumer-calendar-today-selected-color:#fff;
 $consumer-active-background-time:#f8f8f8;
 $consumer-active-background-selected:#f7e8ff;
 $consumer-window-header-mobile:transparent;
+$consumer-mandatory-background:rgba(255, 234, 97, 0.48);
+$consumer-grid-header-background:#f8f8f8;
+$consumer-grid-content-background:#f8f8f8;
+$consumer-grid-pager-background:#f8f8f8;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
