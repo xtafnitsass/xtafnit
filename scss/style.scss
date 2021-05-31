@@ -25,6 +25,9 @@ $window-margin:0px auto;
 $window-color:#000;
 $window-border:20px;
 $window-width-query-max768:90%;
+$window-background-header:transparent;
+$window-kendoToolbarHeader-background:#fff;
+$window-kendoToolbarHeader-border:0px;
 
 /*drawer*/
 
@@ -251,6 +254,9 @@ $tabstrip-tab-color:#d66e3b;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
+$tabstrip-arrow-color:#000;
+$tabstrip-arrow-background:unset;
+$tabstrip-arrow-top-position:10px;
 
 /*slider*/
 
@@ -330,6 +336,7 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb;
 $suppliers-timeselector:#d66e3b;
 $suppliers-messageText:#d66e3b;
 $suppliers-icon-tachometer: #464247;
+$suppliers-datepicker-font-size:14px;
 
 /*link*/
 
@@ -389,6 +396,10 @@ $workflow-checkbox-color-checked:#02b5fd;
 $workflow-floating-lable-color:#afaeb0;
 $workflow-textarea-color:#464247;
 $workflow-rectAll-active-background:#f7e8ff;
+$workflow-mandatory-background:#ffea617a;
+
+$websdk-dynamic-title-font-weight:bold;
+$websdk-dynamic-title-color:#9e30bf;
 
 /*timeline*/
 
@@ -419,6 +430,53 @@ $tooltip-border-radius:15px;
 
 $header-mobile-color:#fff;
 $header-mobile-background:#9e30bf;
+
+
+/*consumer-product*/
+
+$consumer-active-border-bottom-color:#020d3b;
+$consumer-body-background-color:#f8f8f8;
+$consumer-button-gradient-background-color:linear-gradient(270deg, #97afff, #5e77ff);
+$consumer-close-btn-color:#5c50f2;
+$consumer-kicon-border-bottom:1px solid #020d3b;
+$consumer-kicon-color:#5c50f2;
+$consumer-grey-color:#020d3b;
+$consumer-scrollview-text-color:#fff;
+$consumer-scrollview-dot-color:#3754d4;
+$consumer-link-see-all-color:#020d3b;
+$consumer-cube-background-color:#fff;
+$consumer-cube-top-background: #fff;
+$consumer-cube-top-boxshadow:0 0 14px 0 rgba(98, 128, 122, 0.2);
+$consumer-active-background:#e8e6f9;
+$consumer-placeholder-color:#020d3b;
+$consumer-dropdown-arrow-color:#5c50f2;
+$consumer-dynamic-label-color:#020d3b;
+$consumer-scrollview-dot-color-active:#fff;
+$consumer-kicon-caption-color:#020d3b;
+$consumer-products-background:#c1ccff47;
+$consumer-circleLightBlue-color:#a2feec;
+$consumer-active-color:#020d3b;
+$consumer-multichoice-background:#dcdfe4;
+$consumer-multichoice-background-selected:#d7d5f6;
+$consumer-calendar-selectday-background-color:#5c50f2;
+$consumer-calendar-header-arrow-color:#5c50f2;
+$consumer-calendar-today-color:#5c50f2;
+$consumer-calendar-other-month-color:#020d3b;
+$consumer-calendar-today-background-color:transparent;
+$consumer-calendar-today-selected-color:#fff;
+$consumer-active-background-time:#f8f8f8;
+$consumer-active-background-selected:#f7e8ff;
+$consumer-window-header-mobile:transparent;
+$consumer-mandatory-background:rgba(255, 234, 97, 0.48);
+$consumer-grid-header-background:#f8f8f8;
+$consumer-grid-content-background:#f8f8f8;
+$consumer-grid-pager-background:#f8f8f8;
+
+/*lookup*/
+
+$lookup-border-bottom-color:1px solid #464247;
+$lookup-background-color:#fafafa;
+$lookup-color:#000;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
