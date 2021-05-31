@@ -1106,6 +1106,72 @@ mainbody .gridHeaderButton .kIconPaint {
   font-weight: bold !important;
 }
 
+.gridSearch .k-checkbox,
+.gridSearch .k-checkbox:hover,
+.gridSearch .k-checkbox:checked,
+.gridSearch .k-checkbox:focus {
+  border-radius: 50% !important;
+}
+
+.gridSearch input[checked]:before {
+  content: "";
+  background: #a9bdca;
+  width: 8px;
+  height: 8px;
+}
+
+.gridSearch .k-grid .k-grid-content {
+  height: 27vh !important;
+}
+
+.gridSearch .k-grid .k-grid-content tr.k-state-selected td {
+  background: transparent !important;
+}
+
+.gridSearch .k-grid .k-grid-content tr.k-state-selected {
+  background: transparent !important;
+}
+
+.gridSearch .k-grid .k-grid-content tr:hover {
+  background: transparent !important;
+}
+
+.gridSearch .k-grid .k-grid-content tr:hover td {
+  background: transparent !important;
+}
+
+.gridSearch .k-grid .k-grid-content td {
+  border-bottom: 0px !important;
+}
+
+.searchDesign .k-grid-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.searchDesign .k-grid-toolbar .k-grid-search {
+  width: 35%;
+  border-radius: 20px;
+  background: #eee;
+  border: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .searchDesign .k-grid-toolbar .k-grid-search {
+    width: 95% !important;
+  }
+}
+
+.searchDesign .k-grid-toolbar .k-grid-search input.k-input {
+  border-radius: 20px;
+  background: #eee;
+}
+
+.searchDesign .k-grid .k-grid-content td {
+  font-size: 16px !important;
+}
+
 #TafnitCore_SaaSServer_Portal_Default_UI_Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_ImporterCustomers_UI_Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Login mainbody .k-textbox,
@@ -1400,7 +1466,7 @@ mainbody .gridHeaderButton .kIconPaint {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 674px;
-  min-height: 690px;
+  min-height: 680px;
 }
 
 @media only screen and (max-height: 950px) {
@@ -1645,12 +1711,6 @@ progress[value]::-webkit-progress-value {
 #progressBoxShadow {
   -webkit-box-shadow: 0px 0px 41px -28px #ca0000;
           box-shadow: 0px 0px 41px -28px #ca0000;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #TafnitCore_SaaSServer_Portal_Student_Enrollment_UI_Enrollment footer {
-    bottom: 8% !important;
-  }
 }
 
 @forward 'portal';
