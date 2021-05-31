@@ -607,6 +607,13 @@ label.btn {
   position: relative;
 }
 
+.p-floating-container.dir-ltr label {
+  left: 0 !important;
+  right: unset !important;
+  -webkit-transform-origin: left !important;
+          transform-origin: left !important;
+}
+
 .p-floating-container .k-dropdown.notselected label {
   -webkit-transform: scale(1);
           transform: scale(1);

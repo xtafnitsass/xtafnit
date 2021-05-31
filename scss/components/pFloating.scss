@@ -1,8 +1,16 @@
 .p-floating-container {
     position: relative;
 
+    &.dir-ltr {
+        label {
+            left: 0 !important;
+            right: unset !important;
+            transform-origin: left !important;
+        }
+    }
+
     .k-dropdown {
-        &.notselected{
+        &.notselected {
             label {
                 transform: scale(1);
                 top: 10px;
@@ -10,12 +18,14 @@
             }
         }
     }
-    &.xstyle-idropdownlist-wrapper{
-        label{
+
+    &.xstyle-idropdownlist-wrapper {
+        label {
             position: unset;
             opacity: 1;
         }
     }
+
     label,
     ul[role="presentation"]+input+label {
         left: 8px;
@@ -87,6 +97,3 @@
 .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown)+label {
     right: 14px !important;
 }
-
-
-
