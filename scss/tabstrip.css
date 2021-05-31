@@ -19,4 +19,11 @@
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link {
   color: #ffffff;
 }
+
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-next,
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-prev {
+  color: #000 !important;
+  background: unset !important;
+  top: 10px !important;
+}
 /*# sourceMappingURL=tabstrip.css.map */
