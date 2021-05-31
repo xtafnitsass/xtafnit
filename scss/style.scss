@@ -26,6 +26,8 @@ $window-color:#000;
 $window-border:20px;
 $window-width-query-max768:90%;
 $window-background-header:transparent;
+$window-kendoToolbarHeader-background:#fff;
+$window-kendoToolbarHeader-border:0px;
 
 /*drawer*/
 
@@ -252,6 +254,9 @@ $tabstrip-tab-color:#3fa535;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
+$tabstrip-arrow-color:#000;
+$tabstrip-arrow-background:unset;
+$tabstrip-arrow-top-position:10px;
 
 /*slider*/
 
@@ -331,6 +336,7 @@ $suppliers-radio-scoller-webkit-background:#dbdfdc;
 $suppliers-timeselector:#25a003;
 $suppliers-messageText:#25a003;
 $suppliers-icon-tachometer: #464247;
+$suppliers-datepicker-font-size:14px;
 
 
 /*link*/
@@ -391,6 +397,10 @@ $workflow-checkbox-color-checked:#02b5fd;
 $workflow-floating-lable-color:#afaeb0;
 $workflow-textarea-color:#464247;
 $workflow-rectAll-active-background:#f7e8ff;
+$workflow-mandatory-background:#ffea617a;
+
+$websdk-dynamic-title-font-weight:bold;
+$websdk-dynamic-title-color:#9e30bf;
 
 /*timeline*/
 
@@ -458,6 +468,16 @@ $consumer-calendar-today-selected-color:#fff;
 $consumer-active-background-time:#f8f8f8;
 $consumer-active-background-selected:#f7e8ff;
 $consumer-window-header-mobile:transparent;
+$consumer-mandatory-background:rgba(255, 234, 97, 0.48);
+$consumer-grid-header-background:#f8f8f8;
+$consumer-grid-content-background:#f8f8f8;
+$consumer-grid-pager-background:#f8f8f8;
+
+/*lookup*/
+
+$lookup-border-bottom-color:1px solid #464247;
+$lookup-background-color:#fafafa;
+$lookup-color:#000;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
