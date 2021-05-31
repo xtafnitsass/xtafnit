@@ -5,6 +5,9 @@ $tabstrip-tab-color:#ffffff !default;
 $tabstrip-tab-active-background-color:#ff0000 !default;
 $tabstrip-tab-active-border-color:#000 !default;
 $tabstrip-content-border-color:#ff0000 !default;
+$tabstrip-arrow-color:#000 !default;
+$tabstrip-arrow-background:unset !default;
+$tabstrip-arrow-top-position:10px !default;
 
 .xstyle-tab-wrapper {
     .k-tabstrip {
@@ -28,6 +31,13 @@ $tabstrip-content-border-color:#ff0000 !default;
                     color: $tabstrip-tab-color;
                 }
             }
+        }
+
+        .k-tabstrip-next,
+        .k-tabstrip-prev {
+            color: $tabstrip-arrow-color !important;
+            background: $tabstrip-arrow-background !important;
+            top: $tabstrip-arrow-top-position !important;
         }
     }
 }
