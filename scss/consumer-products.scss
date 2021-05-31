@@ -31,6 +31,11 @@ $consumer-calendar-today-selected-color:#fff !default;
 $consumer-active-background-time:#f8f8f8 !default;
 $consumer-active-background-selected:#f7e8ff !default;
 $consumer-window-header-mobile:transparent !default;
+$consumer-mandatory-background:rgba(255, 234, 97, 0.48)!default;
+$consumer-grid-header-background:#f8f8f8!default;
+$consumer-grid-content-background:#f8f8f8!default;
+$consumer-grid-pager-background:#f8f8f8!default;
+
 
 body {
     background: $consumer-body-background-color !important;
@@ -39,6 +44,20 @@ body {
     mainbody {
         height: 100%;
     }
+}
+
+
+span.mandatory.active+div .x-form-control,
+span.mandatory.active+div .x-password,
+span.mandatory.active+input,
+span.mandatory.active+span>span.k-dropdown-wrap,
+span.mandatory.active+div>span.k-autocomplete>input,
+span.mandatory.active+label.switch>input.switch-input+span.switch-label,
+span.mandatory.active+textarea.k-textbox,
+span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
+span.mandatory.active~label.k-checkbox-label:before,
+span.mandatory.active+span.k-switch.k-widget .k-switch-container {
+    background: $consumer-mandatory-background !important;
 }
 
 .xstyle-dynamiclabelcontrol-wrapper {
@@ -53,6 +72,18 @@ body {
 
 .opacity-6 {
     opacity: 0.6;
+}
+
+.k-grid{
+    .k-grid-header{
+        background:$consumer-grid-header-background!important;
+    }
+    .k-grid-content{
+        background:$consumer-grid-content-background!important;
+    }
+    .k-grid-pager{
+        background:$consumer-grid-pager-background!important;
+    }
 }
 
 .active {
@@ -145,14 +176,36 @@ body {
     border-radius: 0;
 }
 
+.x-active {
+    border-top: 3px solid $consumer-active-border-bottom-color;
+    border-radius: 0;
+}
+
 .placeholderColor {
     input {
+        &.x-datePickerResponsive {
+            &::placeholder {
+                color: $consumer-placeholder-color !important;
+                opacity: 0.5;
+            }
+
+        }
+
         &.k-textbox {
             &::placeholder {
                 color: $consumer-placeholder-color !important;
                 opacity: 0.5;
             }
         }
+    }
+    span{
+        &.k-input{
+            color: $consumer-placeholder-color !important;
+            opacity: 0.5;
+        }
+    }
+    label{
+        color: $consumer-placeholder-color !important;
     }
 }
 
@@ -246,6 +299,12 @@ body {
         width: 15px;
         height: 15px;
         top: 9px;
+    }
+}
+
+.marginRightCheckbox{
+    label.x-control-caption-text{
+        margin-right: 10px;
     }
 }
 
@@ -343,6 +402,12 @@ body {
 
 .font-weight-bold {
     .k-button {
+        font-weight: bold;
+    }
+}
+
+.font-bold-label {
+    label {
         font-weight: bold;
     }
 }
