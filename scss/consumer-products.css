@@ -7,6 +7,19 @@ body mainbody {
   height: 100%;
 }
 
+span.mandatory.active + div .x-form-control,
+span.mandatory.active + div .x-password,
+span.mandatory.active + input,
+span.mandatory.active + span > span.k-dropdown-wrap,
+span.mandatory.active + div > span.k-autocomplete > input,
+span.mandatory.active + label.switch > input.switch-input + span.switch-label,
+span.mandatory.active + textarea.k-textbox,
+span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
+span.mandatory.active ~ label.k-checkbox-label:before,
+span.mandatory.active + span.k-switch.k-widget .k-switch-container {
+  background: rgba(255, 234, 97, 0.48) !important;
+}
+
 .xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
   color: #020d3b !important;
 }
@@ -17,6 +30,18 @@ body mainbody {
 
 .opacity-6 {
   opacity: 0.6;
+}
+
+.k-grid .k-grid-header {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-content {
+  background: #f8f8f8 !important;
+}
+
+.k-grid .k-grid-pager {
+  background: #f8f8f8 !important;
 }
 
 .active {
@@ -151,6 +176,15 @@ body mainbody {
   opacity: 0.5;
 }
 
+.placeholderColor span.k-input {
+  color: #020d3b !important;
+  opacity: 0.5;
+}
+
+.placeholderColor label {
+  color: #020d3b !important;
+}
+
 .gradientColor .k-button {
   background: -webkit-gradient(linear, right top, left top, color-stop(122%, #97afff), color-stop(116%, #97afff), to(#5e77ff)) !important;
   background: linear-gradient(to left, #97afff 122%, #97afff 116%, #5e77ff) !important;
@@ -228,6 +262,10 @@ body mainbody {
   width: 15px;
   height: 15px;
   top: 9px;
+}
+
+.marginRightCheckbox label.x-control-caption-text {
+  margin-right: 10px;
 }
 
 .k-menu .k-link.k-state-active {

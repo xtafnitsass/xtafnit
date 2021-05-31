@@ -31,6 +31,9 @@ $workflow-textarea-color:#464247 !default;
 $workflow-rectAll-active-background:#f7e8ff !default;
 $workflow-mandatory-background:rgba(255, 234, 97, 0.48)!default;
 
+$websdk-dynamic-title-font-weight:bold!default;
+$websdk-dynamic-title-color:#9e30bf!default;
+
 .roundedNoneMobile {
     border-radius: 20px !important;
 }
@@ -46,6 +49,11 @@ span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
 span.mandatory.active~label.k-checkbox-label:before,
 span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     background: $workflow-mandatory-background !important;
+}
+
+.dynamicTitle{
+    font-weight: $websdk-dynamic-title-font-weight;
+    color: $websdk-dynamic-title-color;
 }
 
 @media only screen and(max-width:1024px) {
