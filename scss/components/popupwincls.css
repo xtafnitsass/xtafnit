@@ -1,5 +1,13 @@
 .popUpWindowCls {
   position: fixed;
-  top: 30%;
+  top: 25%;
+}
+
+.popUpWindowCls .xtafnit_pageContainer {
+  margin: 0 !important;
+}
+
+.popUpWindowCls #watermark {
+  display: none;
 }
 /*# sourceMappingURL=popupwincls.css.map */

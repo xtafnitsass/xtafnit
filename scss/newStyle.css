@@ -3215,7 +3215,15 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .popUpWindowCls {
   position: fixed;
-  top: 30%;
+  top: 25%;
+}
+
+.popUpWindowCls .xtafnit_pageContainer {
+  margin: 0 !important;
+}
+
+.popUpWindowCls #watermark {
+  display: none;
 }
 
 .x-compass-arrow {

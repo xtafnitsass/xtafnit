@@ -1,4 +1,10 @@
 .popUpWindowCls{
     position: fixed;
-    top:30%;
+    top:25%;
+    .xtafnit_pageContainer{
+        margin:0!important;
+    }
+    #watermark{
+        display:none;
+    }
 }
