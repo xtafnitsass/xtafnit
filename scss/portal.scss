@@ -927,7 +927,7 @@ mainbody {
     }
 
     &.checkboxHorizontalRight {
-        &.d-ltr{
+        .d-ltr{
             direction: ltr;
             .fieldlist{
                 position:static;
