@@ -927,6 +927,12 @@ mainbody {
     }
 
     &.checkboxHorizontalRight {
+        &.d-ltr{
+            direction: ltr;
+            .fieldlist{
+                position:static;
+            }
+        }
         .xstyle-checkbox-wrapper {
             flex-direction: row-reverse;
             justify-content: flex-end;
