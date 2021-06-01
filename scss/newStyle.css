@@ -3216,6 +3216,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 .popUpWindowCls {
   position: fixed;
   top: 25%;
+  z-index: 1031;
 }
 
 .popUpWindowCls .xtafnit_pageContainer {
