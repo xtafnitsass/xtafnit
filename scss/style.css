@@ -1721,6 +1721,14 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+.checkboxHorizontal.checkboxHorizontalRight.d-ltr {
+  direction: ltr;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight.d-ltr .fieldlist {
+  position: static;
+}
+
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
