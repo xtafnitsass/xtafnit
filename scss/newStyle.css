@@ -3232,6 +3232,14 @@ input.k-input[dir="ltr"] + .k-clear-value {
   display: none;
 }
 
+.popUpWindowCls .popup_close_btn {
+  text-align: left;
+}
+
+.popUpWindowCls .popup_close_btn.rtl {
+  text-align: right !important;
+}
+
 .x-compass-arrow {
   position: static;
   width: auto;

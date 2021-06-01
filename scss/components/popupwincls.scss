@@ -13,4 +13,10 @@
     #watermark{
         display:none;
     }
+    .popup_close_btn{
+        text-align: left;
+    }
+    .popup_close_btn.rtl{
+        text-align: right!important;
+    }
 }
