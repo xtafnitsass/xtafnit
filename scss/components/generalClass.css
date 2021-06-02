@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .fixWidthSelf > .x-self-container {
+    width: 20%;
+  }
+}
+
 /*for grid max line*/
 .x-max-line {
   display: -webkit-box;
