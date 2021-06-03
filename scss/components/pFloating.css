@@ -19,6 +19,7 @@
 .p-floating-container.xstyle-idropdownlist-wrapper label {
   position: unset;
   opacity: 1;
+  visibility: visible;
 }
 
 .p-floating-container label,
@@ -27,6 +28,7 @@
   position: absolute;
   top: 0;
   opacity: 0;
+  visibility: hidden;
   -webkit-transition: 'all 200ms';
   transition: 'all 200ms';
 }
@@ -34,6 +36,7 @@
 .p-floating-container input:not(:placeholder-shown) + label, .p-floating-container input:not(:-ms-input-placeholder) + label {
   transform: scale(0.7);
   opacity: 1;
+  visibility: visible;
   font-size: 16px;
   color: #003f59;
   right: 0;
@@ -55,6 +58,7 @@
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  visibility: visible;
   font-size: 16px;
   color: #003f59;
   right: 0;
@@ -74,6 +78,7 @@
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   opacity: 1;
+  visibility: visible;
   font-size: 16px;
   color: #003f59;
   right: 0;

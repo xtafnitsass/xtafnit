@@ -23,6 +23,7 @@
         label {
             position: unset;
             opacity: 1;
+            visibility: visible;
         }
     }
 
@@ -32,6 +33,7 @@
         position: absolute;
         top: 0;
         opacity: 0;
+        visibility: hidden;
         transition: 'all 200ms';
     }
 
@@ -42,6 +44,7 @@
             +label {
                 transform: scale(0.7);
                 opacity: 1;
+                visibility: visible;
                 font-size: 16px;
                 color: #003f59;
                 right: 0;
@@ -62,6 +65,7 @@
             +label {
                 transform: scale(0.7);
                 opacity: 1;
+                visibility: visible;
                 font-size: 16px;
                 color: #003f59;
                 right: 0;
@@ -80,6 +84,7 @@
 .p-floating-container input:not(:placeholder-shown)+label {
     transform: scale(0.7);
     opacity: 1;
+    visibility: visible;
     font-size: 16px;
     color: #003f59;
     right: 0;
