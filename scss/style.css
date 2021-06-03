@@ -1140,7 +1140,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header {
+.x-cell-header, legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
