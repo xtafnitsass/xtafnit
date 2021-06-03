@@ -89,7 +89,7 @@
   transition: 0.3s all;
 }
 
-.p-floating-container.xstyle-lookup-wrapper label, .p-floating-container.xstyle-lookuptafnit-wrapper label {
+.p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
   right: 14px !important;
 }
 /*# sourceMappingURL=pFloating.css.map */

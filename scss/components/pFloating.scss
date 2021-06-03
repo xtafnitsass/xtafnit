@@ -99,12 +99,8 @@
     &.xstyle-lookup-wrapper,
     &.xstyle-lookuptafnit-wrapper {
 
-        // input:not(:placeholder-shown)+label{
-        label {
+        input:not(:placeholder-shown)+label {
             right: 14px !important;
         }
-
-        // }
     }
-
 }
