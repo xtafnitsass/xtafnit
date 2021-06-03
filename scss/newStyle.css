@@ -169,6 +169,7 @@ input[type="checkbox"][readonly] {
 
 ul.fieldlist {
   padding: 0;
+  margin: 0;
 }
 
 li {
