@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.x-cell-header, legend.x-groupbox-caption {
+.x-cell-header {
   width: 100%;
   height: 15px;
   font: bold 14px Arial;
