@@ -708,6 +708,8 @@ label.btn {
 
 .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
   right: 14px !important;
+  width: 400px;
+  height: 1px;
 }
 
 header > span {

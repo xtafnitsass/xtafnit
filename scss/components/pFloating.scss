@@ -106,6 +106,8 @@
 
         input:not(:placeholder-shown)+label {
             right: 14px !important;
+            width: 400px;
+            height: 1px;
         }
     }
 }
