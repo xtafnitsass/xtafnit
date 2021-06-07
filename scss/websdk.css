@@ -1,0 +1,12 @@
+.classifiedButton .k-button {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.classifiedButton .k-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+@forward 'websdk';
+/*# sourceMappingURL=websdk.css.map */
