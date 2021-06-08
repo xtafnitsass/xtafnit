@@ -1,3 +1,7 @@
+.xstyle-datetimepicker-wrapper .k-datetimepicker {
+  width: 100%;
+}
+
 .xstyle-datetimepicker-wrapper input.k-input {
   padding-top: 5.5px;
   padding-bottom: 5.5px;
