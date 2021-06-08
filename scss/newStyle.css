@@ -790,6 +790,14 @@ header .fal.fa-home {
   padding-bottom: 4.5px;
 }
 
+.xstyle-timepicker-wrapper .k-timepicker {
+  width: 100%;
+}
+
+.xstyle-timepicker-wrapper .k-timepicker input {
+  height: 36px;
+}
+
 /*timerange unknow*/
 .x-notification {
   display: none;
