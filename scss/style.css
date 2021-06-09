@@ -3674,7 +3674,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 }
 
 .xstyle-lookup-wrapper .x-lookup .x-input-group-text, .xstyle-lookuptafnit-wrapper .x-lookup .x-input-group-text {
-  height: 36px !important;
+  height: 34px !important;
 }
 
 @forward 'lookup';
