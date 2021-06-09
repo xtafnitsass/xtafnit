@@ -2502,6 +2502,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
   width: 100%;
 }
 
+.k-dropdown span.k-icon {
+  width: 100%;
+}
+
 .k-dropdown span.k-input {
   padding-top: 5.5px;
   padding-bottom: 5.5px;

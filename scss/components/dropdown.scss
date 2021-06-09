@@ -2,6 +2,9 @@
     width: 100%;
 
     span {
+        &.k-icon{
+            width:100%;
+        }
         &.k-input {
             padding-top: 5.5px;
             padding-bottom: 5.5px;
