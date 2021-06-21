@@ -161,6 +161,7 @@ img {
 
 .x-marquee {
   direction: ltr;
+  text-align: initial !important;
 }
 
 input[type="checkbox"][readonly] {
