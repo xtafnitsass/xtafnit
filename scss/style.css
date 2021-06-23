@@ -34,6 +34,7 @@
 /*header mobile */
 /*consumer-product*/
 /*lookup*/
+/*websdk*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -1140,7 +1141,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header {
+.x-cell-header, legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
@@ -1720,6 +1721,14 @@ mainbody .gridHeaderButton .kIconPaint {
         -ms-flex: 0 0 30% !important;
             flex: 0 0 30% !important;
   }
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr {
+  direction: ltr;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr .fieldlist {
+  position: static;
 }
 
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
@@ -2946,6 +2955,10 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 
 .opacity-6 {
   opacity: 0.6;
+}
+
+.gridHeight .k-grid-content {
+  height: 200px;
 }
 
 .k-grid .k-grid-header {

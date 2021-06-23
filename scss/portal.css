@@ -188,7 +188,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header {
+.x-cell-header, legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
@@ -768,6 +768,14 @@ mainbody .gridHeaderButton .kIconPaint {
         -ms-flex: 0 0 30% !important;
             flex: 0 0 30% !important;
   }
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr {
+  direction: ltr;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr .fieldlist {
+  position: static;
 }
 
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {

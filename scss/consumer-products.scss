@@ -35,6 +35,7 @@ $consumer-mandatory-background:rgba(255, 234, 97, 0.48)!default;
 $consumer-grid-header-background:#f8f8f8!default;
 $consumer-grid-content-background:#f8f8f8!default;
 $consumer-grid-pager-background:#f8f8f8!default;
+$consumer-grid-content-height:200px!default;
 
 
 body {
@@ -72,6 +73,12 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
 .opacity-6 {
     opacity: 0.6;
+}
+
+.gridHeight{
+    .k-grid-content{
+        height: $consumer-grid-content-height;
+    }
 }
 
 .k-grid{

@@ -449,12 +449,18 @@ $consumer-mandatory-background:rgba(255, 234, 97, 0.48);
 $consumer-grid-header-background:#f8f8f8;
 $consumer-grid-content-background:#f8f8f8;
 $consumer-grid-pager-background:#f8f8f8;
+$consumer-grid-content-height:200px;
 
 /*lookup*/
 
 $lookup-border-bottom-color:1px solid #464247;
 $lookup-background-color:#fafafa;
 $lookup-color:#000;
+
+/*websdk*/
+
+$websdk-classifiedButton-background:transparent;
+$websdk-classifiedButton-color:#000;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
