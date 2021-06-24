@@ -980,6 +980,10 @@ input[type=number] {
   background-size: cover;
 }
 
+.x-embeddedToolbar .k-icon {
+  font-size: 25px;
+}
+
 .k-upload-status .k-button {
   color: #9e30bf !important;
 }
