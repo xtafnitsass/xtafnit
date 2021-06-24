@@ -1,0 +1,16 @@
+$websdk-classifiedButton-background:transparent !default;
+$websdk-classifiedButton-color:#000 !default;
+
+.classifiedButton {
+    .k-button {
+        background: transparent !important;
+        color: $websdk-classifiedButton-color!important;
+
+        &:hover {
+            box-shadow: none !important;
+        }
+    }
+}
+
+
+@forward 'websdk';
