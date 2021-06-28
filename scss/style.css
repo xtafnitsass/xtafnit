@@ -1142,7 +1142,7 @@ header #kGoBack [xid="controlkGoBack"] > span {
 }
 
 .k-grid .k-grid-content td a.k-button {
-  color: #fff !important;
+  color: #9e30bf !important;
 }
 
 .x-cell-header, legend {
@@ -2955,6 +2955,7 @@ ul.fieldlist {
 .classifiedButton .k-button {
   background: transparent !important;
   color: #000 !important;
+  border: 0 !important;
 }
 
 .classifiedButton .k-button:hover {
