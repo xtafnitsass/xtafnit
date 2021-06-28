@@ -47,6 +47,7 @@ $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
 $suppliers-datepicker-font-size:14px!default;
+$suppliers-drawer-hamburger-font-size:25px!default;
 
 
 //------------------------------------------------------------layout//
@@ -79,6 +80,12 @@ input[type=number] {
 .pageImage {
     background-position: center;
     background-size: cover;
+}
+
+.x-embeddedToolbar{
+    .k-icon{
+        font-size:$suppliers-drawer-hamburger-font-size;
+    }
 }
 
 //upload//

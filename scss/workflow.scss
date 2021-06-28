@@ -33,6 +33,8 @@ $workflow-mandatory-background:rgba(255, 234, 97, 0.48)!default;
 
 $websdk-dynamic-title-font-weight:bold!default;
 $websdk-dynamic-title-color:#9e30bf!default;
+$websdk-classifiedButton-background:transparent !default;
+$websdk-classifiedButton-color:#000 !default;
 
 .roundedNoneMobile {
     border-radius: 20px !important;
@@ -259,6 +261,22 @@ ul.fieldlist {
 .p-floating-container input:not(:placeholder-shown)+label,
 .p-floating-container ul[role="listbox"]+input+label {
     color: $workflow-floating-lable-color !important;
+}
+
+
+
+
+/*websdk*/
+
+.classifiedButton {
+    .k-button {
+        background: transparent !important;
+        color: $websdk-classifiedButton-color!important;
+
+        &:hover {
+            box-shadow: none !important;
+        }
+    }
 }
 
 @forward 'workflow';

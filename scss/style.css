@@ -981,6 +981,10 @@ input[type=number] {
   background-size: cover;
 }
 
+.x-embeddedToolbar .k-icon {
+  font-size: 25px;
+}
+
 .k-upload-status .k-button {
   color: #9e30bf !important;
 }
@@ -2740,7 +2744,7 @@ span.mandatory.active + textarea.k-textbox,
 span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
 span.mandatory.active ~ label.k-checkbox-label:before,
 span.mandatory.active + span.k-switch.k-widget .k-switch-container {
-  background: #ffea617a !important;
+  background: #efe7f4 !important;
 }
 
 .dynamicTitle {
@@ -2945,6 +2949,17 @@ ul.fieldlist {
 .p-floating-container input:not(:placeholder-shown) + label,
 .p-floating-container ul[role="listbox"] + input + label {
   color: #afaeb0 !important;
+}
+
+/*websdk*/
+.classifiedButton .k-button {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.classifiedButton .k-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 @forward 'workflow';
@@ -3180,15 +3195,4 @@ ul.fieldlist {
 }
 
 @forward 'lookup';
-.classifiedButton .k-button {
-  background: transparent !important;
-  color: #000 !important;
-}
-
-.classifiedButton .k-button:hover {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-
-@forward 'websdk';
 /*# sourceMappingURL=style.css.map */
