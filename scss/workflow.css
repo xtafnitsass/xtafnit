@@ -219,5 +219,16 @@ ul.fieldlist {
   color: #afaeb0 !important;
 }
 
+/*websdk*/
+.classifiedButton .k-button {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.classifiedButton .k-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 @forward 'workflow';
 /*# sourceMappingURL=workflow.css.map */
