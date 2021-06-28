@@ -1,3 +1,7 @@
+.x-cardamage-wrapper .x-image-wrapper .map {
+  background-size: cover !important;
+}
+
 .x-cardamage-wrapper .x-image-wrapper .map .map {
   background-size: cover !important;
 }
