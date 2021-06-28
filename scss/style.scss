@@ -59,13 +59,14 @@ $k-filter-edited-numeric-arrow-background-color:#9e30bf;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #9e30bf !important;
-$btn-background-hover: #7b27a1 !important;
+
+$btn-background: #fff !important;
+$btn-background-hover: #fff !important;
 $btn-border-radius: 30px;
-$btn-border: 0;
-$btn-color: #fff !important;
-$btn-font-weight: normal;
-$btn-color-hover:#F0F0F0 !important;
+$btn-border: 1px solid #9e30bf;
+$btn-color: #9e30bf !important;
+$btn-font-weight: bold;
+$btn-color-hover:#9e30bf !important;
 $btn-focus-box-shadow:none;
 $btn-focus-border-color:transparent;
 

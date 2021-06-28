@@ -37,13 +37,13 @@
 /*websdk*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
-  background: #9e30bf !important;
+  background: #fff !important;
   border-radius: 30px;
-  border: 0 !important;
-  color: #fff !important;
+  border: 1px solid #9e30bf !important;
+  color: #9e30bf !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .k-button:focus {
@@ -53,8 +53,8 @@
 }
 
 .k-button:hover {
-  background: #7b27a1 !important;
-  color: #F0F0F0 !important;
+  background: #fff !important;
+  color: #9e30bf !important;
 }
 
 @forward 'button';
