@@ -2,6 +2,10 @@
   background-size: cover !important;
 }
 
+.x-cardamage-wrapper .x-image-wrapper .maphilighted {
+  background-size: cover !important;
+}
+
 .x-cardamage-wrapper .x-carMarksWindow {
   display: none;
 }
