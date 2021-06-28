@@ -272,7 +272,7 @@ ul.fieldlist {
     .k-button {
         background: transparent !important;
         color: $websdk-classifiedButton-color!important;
-
+        border: 0!important;
         &:hover {
             box-shadow: none !important;
         }

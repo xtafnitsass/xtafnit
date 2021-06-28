@@ -2954,6 +2954,7 @@ ul.fieldlist {
 .classifiedButton .k-button {
   background: transparent !important;
   color: #000 !important;
+  border: 0 !important;
 }
 
 .classifiedButton .k-button:hover {

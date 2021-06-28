@@ -48,6 +48,7 @@ $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
 $suppliers-datepicker-font-size:14px!default;
 $suppliers-drawer-hamburger-font-size:25px!default;
+$suppliers-grid-content-color-button:#fff!default;
 
 
 //------------------------------------------------------------layout//
@@ -277,7 +278,7 @@ header {
                 text-decoration: $suppliers-grid-link-decoration;
 
                 &.k-button {
-                    color: #fff !important;
+                    color: $suppliers-grid-content-color-button !important;
                 }
             }
         }
