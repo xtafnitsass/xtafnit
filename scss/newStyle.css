@@ -2516,8 +2516,8 @@ input.k-input[dir="ltr"] + .k-clear-value {
 }
 
 .k-dropdown span.k-input {
-  padding-top: 5.5px;
-  padding-bottom: 5.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .k-dropdown .k-select {
@@ -3275,6 +3275,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .popUpWindowCls .popup_close_btn.rtl {
   text-align: right !important;
+}
+
+.xstyle-checkbox-wrapper {
+  min-height: 39px;
 }
 
 .x-compass-arrow {
