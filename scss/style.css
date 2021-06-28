@@ -2914,8 +2914,8 @@ ul.fieldlist {
 
 /*fix checkbox*/
 .k-checkbox {
-  border-color: #464742 !important;
-  color: #464742 !important;
+  border-color: #02b5fd !important;
+  color: #02b5fd !important;
 }
 
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
