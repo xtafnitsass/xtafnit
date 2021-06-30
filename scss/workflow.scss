@@ -55,6 +55,14 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     background: $workflow-mandatory-background !important;
 }
 
+.k-picker-wrap {
+    border-top-right-radius: $websdk-roundedinputs !important;
+
+    span.k-select {
+        border-top-left-radius: $websdk-roundedinputs !important;
+    }
+}
+
 .dynamicTitle {
     font-weight: $websdk-dynamic-title-font-weight;
     color: $websdk-dynamic-title-color;
@@ -67,7 +75,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 }
 
 mainbody {
-    input:not([type='checkbox']) {
+    input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']) {
         border-top-left-radius: $websdk-roundedinputs !important;
         border-top-right-radius: $websdk-roundedinputs !important;
     }
@@ -77,6 +85,8 @@ mainbody {
         border-top-right-radius: $websdk-roundedinputs !important;
     }
 }
+
+
 
 /*workflows*/
 
