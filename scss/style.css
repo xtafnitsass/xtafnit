@@ -2719,13 +2719,10 @@ progress[value]::-webkit-progress-value {
   font-size: 20px;
 }
 
-.k-menu .xMenuItemColor .xMenuItemColor {
+.k-menu .xMenuItemColor:last-child {
+  border-bottom: 0;
   border-bottom: 1px solid #9797971f;
   border-radius: 0;
-}
-
-.k-menu .xMenuItemColor .xMenuItemColor:last-child {
-  border-bottom: 0;
 }
 
 .k-menu .xMenuItemColor span {
@@ -2747,6 +2744,11 @@ progress[value]::-webkit-progress-value {
 @forward 'menu';
 .roundedNoneMobile {
   border-radius: 20px !important;
+}
+
+.x-input-group-text {
+  text-align: left !important;
+  padding-left: 9px !important;
 }
 
 span.mandatory.active + div .x-form-control,
