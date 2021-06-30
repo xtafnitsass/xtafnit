@@ -2708,7 +2708,7 @@ progress[value]::-webkit-progress-value {
 .k-menu li.k-item .k-group {
   border: 0px;
   background: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 5px;
   -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
           box-shadow: 2px 2px 10px #dad9d9 !important;
@@ -2720,13 +2720,13 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu .xMenuItemColor span {
-  color: #909090 !important;
+  color: #8733af !important;
 }
 
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #fafafa;
+  background: #fff;
 }
 
 @forward 'menu';
