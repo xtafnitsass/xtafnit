@@ -1,8 +1,10 @@
 $lookup-border-bottom-color:1px solid #464247 !default;
 $lookup-background-color:#fafafa !default;
-$lookup-color:#000!default;
+$lookup-color:#000 !default;
+$lookup-xinput-group-color:#000 !default;
 
-.xstyle-lookup-wrapper , .xstyle-lookuptafnit-wrapper {
+.xstyle-lookup-wrapper,
+.xstyle-lookuptafnit-wrapper {
     .x-lookup {
         .x-description-lookup {
             .x-description-input {
@@ -22,7 +24,7 @@ $lookup-color:#000!default;
                 border-bottom: $lookup-border-bottom-color;
                 border-radius: 0;
                 background: $lookup-background-color;
-                color:$lookup-color!important;
+                color: $lookup-color !important;
             }
 
             .x-open-lookup {
@@ -41,6 +43,7 @@ $lookup-color:#000!default;
 
         .x-input-group-text {
             height: 34px !important;
+            color: $lookup-xinput-group-color !important;
         }
     }
 }
