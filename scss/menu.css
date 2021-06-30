@@ -27,8 +27,23 @@
   font-size: 20px;
 }
 
+.k-menu .xMenuItemColor .xMenuItemColor {
+  border-bottom: 1px solid #9797971f;
+  border-radius: 0;
+}
+
+.k-menu .xMenuItemColor .xMenuItemColor:last-child {
+  border-bottom: 0;
+}
+
 .k-menu .xMenuItemColor span {
   color: #797979 !important;
+}
+
+.k-menu .xMenuItemColor span:hover {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  font-weight: bold !important;
 }
 
 .k-menu .xMenuHover:hover {
