@@ -104,4 +104,26 @@
 .xstyle-lookup-wrapper {
   padding: 0 !important;
 }
+
+.xLookupSplit {
+  width: 1px;
+  height: 90%;
+  top: 5%;
+  background: #d4d4d4;
+  position: absolute;
+  right: 200px;
+}
+
+.xLookupFullDescription {
+  position: absolute;
+  right: 210px;
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+}
 /*# sourceMappingURL=lookup.css.map */

@@ -70,5 +70,11 @@
   .k-window .pageContainer {
     padding: 0;
   }
+  .xLookupSplit {
+    right: 80px !important;
+  }
+  .xLookupFullDescription {
+    right: 90px !important;
+  }
 }
 /*# sourceMappingURL=mediaQuery.css.map */
