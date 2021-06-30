@@ -29,12 +29,14 @@ $workflow-checkbox-color-checked:#02b5fd !default;
 $workflow-floating-lable-color:#afaeb0 !default;
 $workflow-textarea-color:#464247 !default;
 $workflow-rectAll-active-background:#f7e8ff !default;
-$workflow-mandatory-background:rgba(255, 234, 97, 0.48)!default;
+$workflow-mandatory-background:rgba(255, 234, 97, 0.48) !default;
 
-$websdk-dynamic-title-font-weight:bold!default;
-$websdk-dynamic-title-color:#9e30bf!default;
+$websdk-dynamic-title-font-weight:bold !default;
+$websdk-dynamic-title-color:#9e30bf !default;
 $websdk-classifiedButton-background:transparent !default;
 $websdk-classifiedButton-color:#000 !default;
+
+$websdk-roundedinputs:7px !default;
 
 .roundedNoneMobile {
     border-radius: 20px !important;
@@ -53,7 +55,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     background: $workflow-mandatory-background !important;
 }
 
-.dynamicTitle{
+.dynamicTitle {
     font-weight: $websdk-dynamic-title-font-weight;
     color: $websdk-dynamic-title-color;
 }
@@ -64,11 +66,24 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     }
 }
 
+mainbody {
+    input {
+        border-top-left-radius: $websdk-roundedinputs !important;
+        border-top-right-radius: $websdk-roundedinputs !important;
+    }
+
+    .k-dropdown-wrap {
+        border-top-left-radius: $websdk-roundedinputs !important;
+        border-top-right-radius: $websdk-roundedinputs !important;
+    }
+}
+
 /*workflows*/
 
 .cube-wrapper {
     .cube {
         min-height: 213px !important;
+
         @media only screen and (min-width: 1480px) {
             flex: 0 0 22% !important;
             max-width: 22% !important;
@@ -271,8 +286,9 @@ ul.fieldlist {
 .classifiedButton {
     .k-button {
         background: transparent !important;
-        color: $websdk-classifiedButton-color!important;
-        border: 0!important;
+        color: $websdk-classifiedButton-color !important;
+        border: 0 !important;
+
         &:hover {
             box-shadow: none !important;
         }
