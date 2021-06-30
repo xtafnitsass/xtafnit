@@ -1047,7 +1047,7 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            .col-4 {
+            .col-4 , .col-33 {
 
                 @media all and (-ms-high-contrast: none),
                 (-ms-high-contrast: active) {
@@ -1058,7 +1058,7 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            >.col-4 {
+            >.col-4 , .col-33 {
                 background: #efefef;
                 flex: 0 0 0.1%;
                 margin-left: 10px;
@@ -1077,13 +1077,13 @@ mainbody {
         }
 
         >div {
-            .col-8 {
+            .col-8 , .col-67 {
                 font-size: 14px;
                 opacity: 0.7;
             }
 
             &:first-child {
-                .col-8 {
+                .col-8 , .col-67 {
                     font-size: 14px;
                 }
             }

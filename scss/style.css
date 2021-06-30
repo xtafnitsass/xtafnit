@@ -1840,14 +1840,14 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 3% !important;
             flex: 0 0 3% !important;
   }
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
   background: #efefef;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0.1%;
@@ -1858,7 +1858,7 @@ mainbody .gridHeaderButton .kIconPaint {
   height: 21px;
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 label {
   font-size: 11px;
   line-height: 1.82;
   letter-spacing: 0.9px;
@@ -1866,12 +1866,12 @@ mainbody .gridHeaderButton .kIconPaint {
   opacity: 0.65;
 }
 
-.details .left > div .col-8 {
+.details .left > div .col-8, .details .left > div .col-67 {
   font-size: 14px;
   opacity: 0.7;
 }
 
-.details .left > div:first-child .col-8 {
+.details .left > div:first-child .col-8, .details .left > div:first-child .col-67 {
   font-size: 14px;
 }
 
@@ -2718,8 +2718,23 @@ progress[value]::-webkit-progress-value {
   font-size: 20px;
 }
 
+.k-menu .xMenuItemColor .xMenuItemColor {
+  border-bottom: 1px solid #9797971f;
+  border-radius: 0;
+}
+
+.k-menu .xMenuItemColor .xMenuItemColor:last-child {
+  border-bottom: 0;
+}
+
 .k-menu .xMenuItemColor span {
   color: #797979 !important;
+}
+
+.k-menu .xMenuItemColor span:hover {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  font-weight: bold !important;
 }
 
 .k-menu .xMenuHover:hover {
