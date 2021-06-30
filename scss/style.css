@@ -2745,6 +2745,11 @@ progress[value]::-webkit-progress-value {
   border-radius: 20px !important;
 }
 
+.x-input-group-text {
+  text-align: left !important;
+  padding-left: 9px !important;
+}
+
 span.mandatory.active + div .x-form-control,
 span.mandatory.active + div .x-password,
 span.mandatory.active + input,
