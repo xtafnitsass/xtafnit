@@ -2751,6 +2751,10 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   border-top-right-radius: 7px !important;
 }
 
+.k-picker-wrap input {
+  border-top-right-radius: 7px !important;
+}
+
 .k-picker-wrap span.k-select {
   border-top-left-radius: 7px !important;
 }
