@@ -2758,7 +2758,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   }
 }
 
-mainbody input {
+mainbody input:not([type='checkbox']) {
   border-top-left-radius: 7px !important;
   border-top-right-radius: 7px !important;
 }
