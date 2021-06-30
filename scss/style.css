@@ -2746,6 +2746,14 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   background: #ffea617a !important;
 }
 
+.k-picker-wrap {
+  border-top-right-radius: 7px !important;
+}
+
+.k-picker-wrap span.k-select {
+  border-top-left-radius: 7px !important;
+}
+
 .dynamicTitle {
   font-weight: bold;
   color: #9e30bf;
@@ -2757,7 +2765,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   }
 }
 
-mainbody input:not([type='checkbox']) {
+mainbody input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']) {
   border-top-left-radius: 7px !important;
   border-top-right-radius: 7px !important;
 }
