@@ -2718,13 +2718,10 @@ progress[value]::-webkit-progress-value {
   font-size: 20px;
 }
 
-.k-menu .xMenuItemColor .xMenuItemColor {
+.k-menu .xMenuItemColor:last-child {
+  border-bottom: 0;
   border-bottom: 1px solid #9797971f;
   border-radius: 0;
-}
-
-.k-menu .xMenuItemColor .xMenuItemColor:last-child {
-  border-bottom: 0;
 }
 
 .k-menu .xMenuItemColor span {
