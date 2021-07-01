@@ -2760,6 +2760,39 @@ progress[value]::-webkit-progress-value {
   border-top-right-radius: 7px !important;
 }
 
+::-webkit-input-placeholder {
+  color: #464247 !important;
+  font-size: 14px !important;
+}
+
+:-ms-input-placeholder {
+  color: #464247 !important;
+  font-size: 14px !important;
+}
+
+::-ms-input-placeholder {
+  color: #464247 !important;
+  font-size: 14px !important;
+}
+
+::placeholder {
+  color: #464247 !important;
+  font-size: 14px !important;
+}
+
+.p-floating-container input:not(:placeholder-shown) + label {
+  font-size: 14px !important;
+  color: #464247 !important;
+}
+
+.k-textbox, .k-dropdown input {
+  font-size: 14px !important;
+}
+
+.xstyle-checkbox-wrapper {
+  font-size: 14px !important;
+}
+
 span.mandatory.active + div .x-form-control,
 span.mandatory.active + div + div .x-input-group-text,
 span.mandatory.active + div .x-password,
@@ -2776,6 +2809,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 
 .k-picker-wrap {
   border-top-right-radius: 7px !important;
+  border-top-left-radius: 7px !important;
 }
 
 .k-picker-wrap input {
