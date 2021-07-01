@@ -2752,12 +2752,8 @@ progress[value]::-webkit-progress-value {
   border-top-left-radius: 7px !important;
 }
 
-.x-form-control {
-  border-top-left-radius: 0 !important;
-}
-
 span.mandatory.active + div .x-form-control,
-span.mandatory.active + div .x-input-group-text,
+span.mandatory.active + div + div .x-input-group-text,
 span.mandatory.active + div .x-password,
 span.mandatory.active + input,
 span.mandatory.active + span > span.k-dropdown-wrap,
@@ -2793,7 +2789,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   }
 }
 
-mainbody input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']) {
+mainbody input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']):not(.x-form-control) {
   border-top-left-radius: 7px !important;
   border-top-right-radius: 7px !important;
 }
