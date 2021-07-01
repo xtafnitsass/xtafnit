@@ -2748,9 +2748,15 @@ progress[value]::-webkit-progress-value {
 .x-input-group-text {
   text-align: left !important;
   padding-left: 9px !important;
+  border-top-left-radius: 7px !important;
+}
+
+.x-form-control {
+  border-top-left-radius: 0 !important;
 }
 
 span.mandatory.active + div .x-form-control,
+span.mandatory.active + div .x-input-group-text,
 span.mandatory.active + div .x-password,
 span.mandatory.active + input,
 span.mandatory.active + span > span.k-dropdown-wrap,
