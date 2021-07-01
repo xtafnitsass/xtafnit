@@ -73,7 +73,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
 .k-picker-wrap {
     border-top-right-radius: $websdk-roundedinputs !important;
-
+    border-top-left-radius: $websdk-roundedinputs!important;
     input {
         border-top-right-radius: $websdk-roundedinputs !important;
     }
