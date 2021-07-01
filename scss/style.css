@@ -3014,25 +3014,25 @@ ul.fieldlist {
 }
 
 .textAreaPadding textarea::-webkit-input-placeholder {
-  color: #afaeb0 !important;
+  color: #464247 !important;
 }
 
 .textAreaPadding textarea:-ms-input-placeholder {
-  color: #afaeb0 !important;
+  color: #464247 !important;
 }
 
 .textAreaPadding textarea::-ms-input-placeholder {
-  color: #afaeb0 !important;
+  color: #464247 !important;
 }
 
 .textAreaPadding textarea::placeholder {
-  color: #afaeb0 !important;
+  color: #464247 !important;
 }
 
 /*color floating label*/
 .p-floating-container input:not(:placeholder-shown) + label,
 .p-floating-container ul[role="listbox"] + input + label {
-  color: #afaeb0 !important;
+  color: #464247 !important;
 }
 
 /*websdk*/
