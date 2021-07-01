@@ -38,6 +38,9 @@ $websdk-classifiedButton-color:#000 !default;
 
 $websdk-roundedinputs:7px !default;
 
+$websdk-color-inputs:#464247 !default;
+$websdk-inputs-font-size:14px !default;
+
 .roundedNoneMobile {
     border-radius: 20px !important;
 }
@@ -45,34 +48,37 @@ $websdk-roundedinputs:7px !default;
 .x-input-group-text{
     text-align: left!important;
     padding-left: 9px!important;
-    border-top-left-radius: 7px!important;
+    border-top-left-radius: $websdk-roundedinputs!important;
 }
 
 .x-form-control{
-    border-top-right-radius: 7px!important;
+    border-top-right-radius: $websdk-roundedinputs!important;
 }
 
 .k-dropdown{
-    border-top-left-radius: 7px!important;
-    border-top-right-radius: 7px!important;    
+    border-top-left-radius: $websdk-roundedinputs!important;
+    border-top-right-radius: $websdk-roundedinputs!important;    
 }
 
 ::placeholder{
-    color:#464247!important;
-    font-size: 14px!important;
+    color:$websdk-color-inputs!important;
+    font-size: $websdk-inputs-font-size!important;
 }
 
 .p-floating-container input:not(:placeholder-shown) + label {
-    font-size: 14px!important;
-    color:#464247!important;
+    font-size: $websdk-inputs-font-size!important;
+    color:$websdk-color-inputs!important;
 }
 
 .k-textbox, .k-dropdown input {
-    font-size: 14px!important;
+    font-size: $websdk-inputs-font-size!important;
 }
 
 .xstyle-checkbox-wrapper {
-    font-size: 14px!important;
+    font-size: $websdk-inputs-font-size!important;
+    label{
+        color:$websdk-color-inputs!important;
+    }
 }
 
 span.mandatory.active+div .x-form-control,

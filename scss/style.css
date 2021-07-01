@@ -2794,6 +2794,10 @@ progress[value]::-webkit-progress-value {
   font-size: 14px !important;
 }
 
+.xstyle-checkbox-wrapper label {
+  color: #464247 !important;
+}
+
 span.mandatory.active + div .x-form-control,
 span.mandatory.active + div + div .x-input-group-text,
 span.mandatory.active + div .x-password,
