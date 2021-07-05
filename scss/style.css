@@ -2769,6 +2769,10 @@ progress[value]::-webkit-progress-value {
   font-weight: bold;
 }
 
+.k-dropdown label {
+  font-weight: normal !important;
+}
+
 ::-webkit-input-placeholder {
   color: #464247 !important;
   font-size: 14px !important;
