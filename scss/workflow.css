@@ -321,6 +321,10 @@ ul.fieldlist {
   color: #afaeb0 !important;
 }
 
+.p-floating-container .k-dropdown.notselected label {
+  font-weight: bold !important;
+}
+
 /*websdk*/
 .classifiedButton .k-button {
   background: transparent !important;

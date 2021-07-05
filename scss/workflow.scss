@@ -67,15 +67,18 @@ legend {
 .k-dropdown {
     border-top-left-radius: $websdk-roundedinputs !important;
     border-top-right-radius: $websdk-roundedinputs !important;
-    .k-dropdown-wrap{
+
+    .k-dropdown-wrap {
         height: 36px;
     }
+
     .k-dropdown .k-input {
         font-weight: bold;
         font-size: 14px;
     }
-    label{
-        font-weight: normal!important;
+
+    label {
+        font-weight: normal !important;
     }
 }
 
@@ -355,6 +358,15 @@ ul.fieldlist {
     color: $workflow-floating-lable-color !important;
 }
 
+
+.p-floating-container {
+    .k-dropdown.notselected {
+        label {
+            font-weight: bold !important;
+        }
+    }
+
+}
 
 
 
