@@ -147,7 +147,7 @@ mainbody > .row {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
-  font: normal 18px Arial;
+  font-family: normal 18px Arial;
   min-height: 1em;
   margin-bottom: 0.1rem;
 }
