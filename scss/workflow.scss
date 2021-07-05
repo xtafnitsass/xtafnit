@@ -41,6 +41,13 @@ $websdk-roundedinputs:7px !default;
 $websdk-color-inputs:#464247 !default;
 $websdk-inputs-font-size:14px !default;
 
+
+.x-cell-header,
+legend {
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
 .roundedNoneMobile {
     border-radius: 20px !important;
 }
