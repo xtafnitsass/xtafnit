@@ -42,7 +42,8 @@
   color: #464247 !important;
 }
 
-.k-textbox, .k-dropdown input {
+.k-textbox,
+.k-dropdown input {
   font-size: 14px !important;
 }
 
@@ -52,6 +53,10 @@
 
 .xstyle-checkbox-wrapper label {
   color: #464247 !important;
+}
+
+.d-flex > .x-self-container {
+  width: 100%;
 }
 
 span.mandatory.active + div .x-form-control,

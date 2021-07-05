@@ -45,40 +45,49 @@ $websdk-inputs-font-size:14px !default;
     border-radius: 20px !important;
 }
 
-.x-input-group-text{
-    text-align: left!important;
-    padding-left: 9px!important;
-    border-top-left-radius: $websdk-roundedinputs!important;
+.x-input-group-text {
+    text-align: left !important;
+    padding-left: 9px !important;
+    border-top-left-radius: $websdk-roundedinputs !important;
 }
 
-.x-form-control{
-    border-top-right-radius: $websdk-roundedinputs!important;
+.x-form-control {
+    border-top-right-radius: $websdk-roundedinputs !important;
 }
 
-.k-dropdown{
-    border-top-left-radius: $websdk-roundedinputs!important;
-    border-top-right-radius: $websdk-roundedinputs!important;    
+.k-dropdown {
+    border-top-left-radius: $websdk-roundedinputs !important;
+    border-top-right-radius: $websdk-roundedinputs !important;
 }
 
-::placeholder{
-    color:$websdk-color-inputs!important;
-    font-size: $websdk-inputs-font-size!important;
+::placeholder {
+    color: $websdk-color-inputs !important;
+    font-size: $websdk-inputs-font-size !important;
 }
 
-.p-floating-container input:not(:placeholder-shown) + label {
-    font-size: $websdk-inputs-font-size!important;
-    color:$websdk-color-inputs!important;
+.p-floating-container input:not(:placeholder-shown)+label {
+    font-size: $websdk-inputs-font-size !important;
+    color: $websdk-color-inputs !important;
 }
 
-.k-textbox, .k-dropdown input {
-    font-size: $websdk-inputs-font-size!important;
+.k-textbox,
+.k-dropdown input {
+    font-size: $websdk-inputs-font-size !important;
 }
 
 .xstyle-checkbox-wrapper {
-    font-size: $websdk-inputs-font-size!important;
-    label{
-        color:$websdk-color-inputs!important;
+    font-size: $websdk-inputs-font-size !important;
+
+    label {
+        color: $websdk-color-inputs !important;
     }
+}
+
+.d-flex {
+    >.x-self-container {
+        width: 100%;
+    }
+
 }
 
 span.mandatory.active+div .x-form-control,
@@ -97,7 +106,8 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
 .k-picker-wrap {
     border-top-right-radius: $websdk-roundedinputs !important;
-    border-top-left-radius: $websdk-roundedinputs!important;
+    border-top-left-radius: $websdk-roundedinputs !important;
+
     input {
         border-top-right-radius: $websdk-roundedinputs !important;
     }
@@ -119,7 +129,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 }
 
 mainbody {
-    input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']):not(.x-form-control ) {
+    input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']):not(.x-form-control) {
         border-top-left-radius: $websdk-roundedinputs !important;
         border-top-right-radius: $websdk-roundedinputs !important;
     }
