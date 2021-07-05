@@ -1149,14 +1149,14 @@ header #kGoBack [xid="controlkGoBack"] > span {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
-  color: #464247;
+  color: #9038ba;
   font-family: Heebo !important;
   font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
-  color: #464247;
+  color: #9038ba;
   font-family: Heebo !important;
 }
 
