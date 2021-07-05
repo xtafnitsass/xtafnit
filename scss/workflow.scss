@@ -56,6 +56,8 @@ legend {
     text-align: left !important;
     padding-left: 9px !important;
     border-top-left-radius: $websdk-roundedinputs !important;
+    font-size: 24px;
+    line-height: 24px;
 }
 
 .x-form-control {
@@ -65,11 +67,13 @@ legend {
 .k-dropdown {
     border-top-left-radius: $websdk-roundedinputs !important;
     border-top-right-radius: $websdk-roundedinputs !important;
+    font-weight: bold;
 }
 
 ::placeholder {
     color: $websdk-color-inputs !important;
     font-size: $websdk-inputs-font-size !important;
+    font-weight: bold;
 }
 
 .p-floating-container input:not(:placeholder-shown)+label {
@@ -88,13 +92,6 @@ legend {
     label {
         color: $websdk-color-inputs !important;
     }
-}
-
-.d-flex {
-    >.x-self-container {
-        width: 100%;
-    }
-
 }
 
 span.mandatory.active+div .x-form-control,
