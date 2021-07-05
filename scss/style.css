@@ -2743,6 +2743,11 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.x-cell-header, legend {
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
 .roundedNoneMobile {
   border-radius: 20px !important;
 }
