@@ -23,7 +23,15 @@ legend {
 .k-dropdown {
   border-top-left-radius: 7px !important;
   border-top-right-radius: 7px !important;
+}
+
+.k-dropdown .k-dropdown-wrap {
+  height: 36px;
+}
+
+.k-dropdown .k-dropdown .k-input {
   font-weight: bold;
+  font-size: 14px;
 }
 
 .k-dropdown label {
