@@ -19,11 +19,11 @@ $menu-dot-side:right;
 .k-menu {
     background: $menu-background;
     border: $menu-border;
-    float:$menu-dot-side!important;
+    
     li.k-item {
         border: $menu-button-border !important;
         border-radius: $menu-border-radius !important;
-
+        float:$menu-dot-side!important;
         &.k-state-focused {
             box-shadow: none !important;
         }

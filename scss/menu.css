@@ -1,12 +1,12 @@
 .k-menu {
   background: transparent;
   border: 0;
-  float: right !important;
 }
 
 .k-menu li.k-item {
   border: 1px solid #bbdceb !important;
   border-radius: 15px !important;
+  float: right !important;
 }
 
 .k-menu li.k-item.k-state-focused {
