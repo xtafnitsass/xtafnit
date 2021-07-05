@@ -68,6 +68,9 @@ legend {
     border-top-left-radius: $websdk-roundedinputs !important;
     border-top-right-radius: $websdk-roundedinputs !important;
     font-weight: bold;
+    label{
+        font-weight: normal!important;
+    }
 }
 
 ::placeholder {
