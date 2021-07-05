@@ -2698,7 +2698,7 @@ progress[value]::-webkit-progress-value {
 .k-menu li.k-item {
   border: 0px !important;
   border-radius: 15px !important;
-  float: right !important;
+  float: left !important;
 }
 
 .k-menu li.k-item.k-state-focused {
