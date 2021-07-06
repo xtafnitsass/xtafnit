@@ -23,6 +23,11 @@ legend {
   color: #9038ba !important;
 }
 
+.k-toolbar-first-visible > span {
+  font-size: 35px;
+  color: #953bbf;
+}
+
 .roundedNoneMobile {
   border-radius: 20px !important;
 }

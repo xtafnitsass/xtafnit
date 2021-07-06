@@ -43,6 +43,8 @@ $websdk-inputs-font-size:14px !default;
 
 $websdk-toolbar-anchor-background:#fafafa !default;
 $websdk-toolbar-anchor-icon-color:#9038ba !default;
+$websdk-toolbar-title-color :#953bbf!default;
+$websdk-toolbar-title-size :35px!default;
 
 
 .x-cell-header,
@@ -54,15 +56,25 @@ legend {
 .k-overflow-anchor {
     border: 0 !important;
     background: $websdk-toolbar-anchor-background !important;
-    &:hover{
+
+    &:hover {
         background: $websdk-toolbar-anchor-background !important;
     }
-    &:focus{
-        box-shadow: none!important;
+
+    &:focus {
+        box-shadow: none !important;
     }
+
     .k-icon {
         font-size: 24px;
-        color: #9038ba !important;
+        color: $websdk-toolbar-anchor-icon-color !important;
+    }
+}
+
+.k-toolbar-first-visible {
+    >span {
+        font-size: $websdk-toolbar-title-size;
+        color: $websdk-toolbar-title-color;
     }
 }
 
