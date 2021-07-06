@@ -2766,7 +2766,7 @@ progress[value]::-webkit-progress-value {
   color: #9038ba !important;
 }
 
-.k-toolbar-first-visible > span {
+#tbHeader > span {
   font-size: 35px;
   color: #953bbf;
 }
