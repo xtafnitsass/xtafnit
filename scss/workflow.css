@@ -28,6 +28,10 @@ legend {
   color: #953bbf;
 }
 
+#tbHeader > span > span {
+  font-weight: normal !important;
+}
+
 .roundedNoneMobile {
   border-radius: 20px !important;
 }
