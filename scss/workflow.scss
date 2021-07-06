@@ -75,6 +75,9 @@ legend {
     >span {
         font-size: $websdk-toolbar-title-size;
         color: $websdk-toolbar-title-color;
+        >span{
+            font-weight: normal!important;
+        }
     }
 }
 
