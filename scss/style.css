@@ -2747,6 +2747,25 @@ progress[value]::-webkit-progress-value {
   font-weight: normal !important;
 }
 
+.k-overflow-anchor {
+  border: 0 !important;
+  background: #fafafa !important;
+}
+
+.k-overflow-anchor:hover {
+  background: #fafafa !important;
+}
+
+.k-overflow-anchor:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.k-overflow-anchor .k-icon {
+  font-size: 24px;
+  color: #9038ba !important;
+}
+
 .roundedNoneMobile {
   border-radius: 20px !important;
 }
