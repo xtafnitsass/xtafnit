@@ -41,11 +41,41 @@ $websdk-roundedinputs:7px !default;
 $websdk-color-inputs:#464247 !default;
 $websdk-inputs-font-size:14px !default;
 
+$websdk-toolbar-anchor-background:#fafafa !default;
+$websdk-toolbar-anchor-icon-color:#9038ba !default;
+$websdk-toolbar-title-color :#953bbf!default;
+$websdk-toolbar-title-size :35px!default;
+
 
 .x-cell-header,
 legend {
     font-size: 16px !important;
     font-weight: normal !important;
+}
+
+.k-overflow-anchor {
+    border: 0 !important;
+    background: $websdk-toolbar-anchor-background !important;
+
+    &:hover {
+        background: $websdk-toolbar-anchor-background !important;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+
+    .k-icon {
+        font-size: 24px;
+        color: $websdk-toolbar-anchor-icon-color !important;
+    }
+}
+
+.k-toolbar-first-visible {
+    >span {
+        font-size: $websdk-toolbar-title-size;
+        color: $websdk-toolbar-title-color;
+    }
 }
 
 .roundedNoneMobile {
