@@ -372,4 +372,9 @@ label.btn {
 .k-pane-wrapper {
   width: 100%;
 }
+
+/*need to be at workflow cloud websdk*/
+#TafnitCore_System_UI_App_WebSDK > mainbody {
+  padding-right: 50px;
+}
 /*# sourceMappingURL=layout.css.map */
