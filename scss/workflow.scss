@@ -45,6 +45,7 @@ $websdk-toolbar-anchor-background:#fafafa !default;
 $websdk-toolbar-anchor-icon-color:#9038ba !default;
 $websdk-toolbar-title-color :#953bbf!default;
 $websdk-toolbar-title-size :35px!default;
+$websdk-menu-items-color :#8733af!default;
 
 
 .x-cell-header,
@@ -68,6 +69,16 @@ legend {
     .k-icon {
         font-size: 24px;
         color: $websdk-toolbar-anchor-icon-color !important;
+    }
+}
+
+
+.k-menu-group {
+    .x-link_Comp {
+        text-decoration: none!important;
+        color: $websdk-menu-items-color !important;
+        font-weight: normal!important;
+        font-size: 16px;
     }
 }
 

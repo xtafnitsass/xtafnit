@@ -23,6 +23,13 @@ legend {
   color: #9038ba !important;
 }
 
+.k-menu-group .x-link_Comp {
+  text-decoration: none !important;
+  color: #8733af !important;
+  font-weight: normal !important;
+  font-size: 16px;
+}
+
 #tbHeader > span {
   font-size: 35px;
   color: #953bbf;
