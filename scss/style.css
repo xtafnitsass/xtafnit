@@ -2773,6 +2773,19 @@ progress[value]::-webkit-progress-value {
   font-size: 16px;
 }
 
+.k-menu-group .x-link_Comp:hover {
+  font-weight: bold !important;
+}
+
+.xstyle-xmenu-wrapper li.k-state-hover {
+  background: none !important;
+}
+
+.xstyle-xmenu-wrapper li .k-menu-link {
+  background: none !important;
+  color: #464247 !important;
+}
+
 #tbHeader > span {
   font-size: 35px;
   color: #953bbf;
