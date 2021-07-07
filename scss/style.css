@@ -2722,7 +2722,7 @@ progress[value]::-webkit-progress-value {
 
 .k-menu .xMenuItemColor:last-child {
   border-bottom: 0;
-  border-bottom: 1px solid #9797971f;
+  border-bottom: 0;
   border-radius: 0;
 }
 
@@ -2765,6 +2765,13 @@ progress[value]::-webkit-progress-value {
 .k-overflow-anchor .k-icon {
   font-size: 24px;
   color: #9038ba !important;
+}
+
+.k-menu-group .x-link_Comp {
+  text-decoration: none !important;
+  color: #8733af !important;
+  font-weight: normal !important;
+  font-size: 16px;
 }
 
 #tbHeader > span {
