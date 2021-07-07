@@ -182,3 +182,9 @@ mainbody{
     background: $todo-rectFrozen-background;
     color: $todo-rectFrozen-color;
 }
+
+
+.k-window .k-window-content header {
+    position: fixed!important;
+    top: 40px!important;
+}

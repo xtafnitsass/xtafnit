@@ -139,4 +139,9 @@ mainbody {
   background: #efefef;
   color: #000;
 }
+
+.k-window .k-window-content header {
+  position: fixed !important;
+  top: 40px !important;
+}
 /*# sourceMappingURL=style.css.map */
