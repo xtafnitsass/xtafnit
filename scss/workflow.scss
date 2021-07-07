@@ -43,9 +43,9 @@ $websdk-inputs-font-size:14px !default;
 
 $websdk-toolbar-anchor-background:#fafafa !default;
 $websdk-toolbar-anchor-icon-color:#9038ba !default;
-$websdk-toolbar-title-color :#953bbf!default;
-$websdk-toolbar-title-size :35px!default;
-$websdk-menu-items-color :#8733af!default;
+$websdk-toolbar-title-color :#953bbf !default;
+$websdk-toolbar-title-size :35px !default;
+$websdk-menu-items-color :#8733af !default;
 
 
 .x-cell-header,
@@ -75,10 +75,27 @@ legend {
 
 .k-menu-group {
     .x-link_Comp {
-        text-decoration: none!important;
+        text-decoration: none !important;
         color: $websdk-menu-items-color !important;
-        font-weight: normal!important;
+        font-weight: normal !important;
         font-size: 16px;
+
+        &:hover {
+            font-weight: bold !important;
+        }
+    }
+}
+
+.xstyle-xmenu-wrapper {
+    li {
+        &.k-state-hover {
+            background: none !important;
+        }
+
+        .k-menu-link {
+            background: none !important;
+            color: $workflow-rectLate-color !important;
+        }
     }
 }
 
@@ -86,8 +103,9 @@ legend {
     >span {
         font-size: $websdk-toolbar-title-size;
         color: $websdk-toolbar-title-color;
-        >span{
-            font-weight: normal!important;
+
+        >span {
+            font-weight: normal !important;
         }
     }
 }
