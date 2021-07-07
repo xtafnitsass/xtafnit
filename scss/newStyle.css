@@ -453,11 +453,6 @@ label.btn {
   width: 100%;
 }
 
-/*need to be at workflow cloud websdk*/
-#TafnitCore_System_UI_App_WebSDK > mainbody {
-  padding-right: 50px;
-}
-
 /* fix width when setting display flex */
 .fixWidth > .x-self-container {
   width: 100%;
