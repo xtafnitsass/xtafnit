@@ -1,4 +1,9 @@
 .xstyle-xmenu-wrapper {
+    li{
+        &.k-item{
+            z-index: 1030!important;
+        }
+    }
     .k-menu-group {
         &.k-popup {
             width: max-content;

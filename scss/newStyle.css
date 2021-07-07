@@ -1391,6 +1391,10 @@ header .fal.fa-home {
   display: inline-block;
 }
 
+.xstyle-xmenu-wrapper li.k-item {
+  z-index: 1030 !important;
+}
+
 .xstyle-xmenu-wrapper .k-menu-group.k-popup {
   width: -webkit-max-content;
   width: -moz-max-content;
