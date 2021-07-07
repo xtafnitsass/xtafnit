@@ -46,7 +46,24 @@ $websdk-toolbar-anchor-icon-color:#9038ba !default;
 $websdk-toolbar-title-color :#953bbf !default;
 $websdk-toolbar-title-size :35px !default;
 $websdk-menu-items-color :#8733af !default;
+$websdk-goUpArrow-color :#8733af !default;
+$websdk-goUpArrow-border-color :1px solid #dec6e9 !default;
 
+
+.goUpArrow {
+    border-radius: 50%;
+    border: $websdk-goUpArrow-border-color ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: $websdk-goUpArrow-color;
+    position: absolute;
+    bottom: 90px;
+    right: -10px;
+}
 
 .x-cell-header,
 legend {
@@ -81,6 +98,7 @@ legend {
         font-size: 16px;
         border-bottom: 1px solid #dedede;
         width: 100%;
+
         &:hover {
             font-weight: bold !important;
         }
