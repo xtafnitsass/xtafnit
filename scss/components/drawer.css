@@ -15,7 +15,7 @@
 }
 
 .k-drawer-container .k-drawer.hide-scroller::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 
 .k-drawer-container .k-drawer .k-drawer-wrapper {
