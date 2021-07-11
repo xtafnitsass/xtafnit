@@ -16,6 +16,11 @@
     }
 
     .k-drawer {
+        &.hide-scroller{
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
         overflow-y: auto !important;
 
         .k-drawer-wrapper {

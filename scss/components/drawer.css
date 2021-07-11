@@ -14,6 +14,10 @@
   overflow-y: auto !important;
 }
 
+.k-drawer-container .k-drawer.hide-scroller::-webkit-scrollbar {
+  display: none;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper {
   overflow-x: unset !important;
   overflow-y: unset !important;
