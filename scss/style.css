@@ -339,6 +339,11 @@ mainbody .x-section-header-wrraper {
   color: #fff;
 }
 
+.pageContainer mainbody footer,
+.fullPageContainer mainbody footer {
+  bottom: 40px !important;
+}
+
 @forward 'footer';
 .k-animation-container {
   text-align: right;

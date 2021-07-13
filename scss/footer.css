@@ -4,5 +4,10 @@
   color: #fff;
 }
 
+.pageContainer mainbody footer,
+.fullPageContainer mainbody footer {
+  bottom: 40px !important;
+}
+
 @forward 'footer';
 /*# sourceMappingURL=footer.css.map */

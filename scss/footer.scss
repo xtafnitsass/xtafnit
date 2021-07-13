@@ -1,11 +1,17 @@
 $footer-color:#fff !default;
 $footer-background:#0167b1 !default;
+$footer-inside-mainbody-bottom:40px!default;
 
 .pageContainer,
 .fullPageContainer {
     footer {
         background: $footer-background !important;
         color: $footer-color;
+    }
+    mainbody{
+        footer{
+            bottom:$footer-inside-mainbody-bottom!important;
+        }
     }
 }
 
