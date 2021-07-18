@@ -105,22 +105,22 @@
           flex: 0 0 1.2%;
 }
 
-.leftStudio {
+.leftStudio,
+.rightStudio {
   position: fixed;
-  left: 0;
   bottom: 38px;
   top: 42px;
   width: 207px;
   z-index: 1029;
+  padding-top: 50px;
+}
+
+.leftStudio {
+  left: 0;
 }
 
 .rightStudio {
-  position: fixed;
   right: 0;
-  bottom: 38px;
-  top: 42px;
-  width: 207px;
-  z-index: 1029;
 }
 
 .fixDynamicLabelFontWeightBold .x-control-caption-text,
