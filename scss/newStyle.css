@@ -441,7 +441,7 @@ select:-webkit-autofill:focus {
 
 /*ux studio*/
 #TafnitCore_System_UI_App_UnitTest_UXStudioUT {
-  padding: 0px 210px;
+  padding: 0px 250px;
 }
 
 /*Unknow*/
@@ -565,9 +565,10 @@ label.btn {
   position: fixed;
   bottom: 38px;
   top: 42px;
-  width: 207px;
+  width: 250px;
   z-index: 1029;
   padding-top: 50px;
+  height: 100%;
 }
 
 .leftStudio {
