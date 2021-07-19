@@ -6,6 +6,14 @@
         }
     }
 
+    .btnBackground {
+        .k-button {
+            background: #8733af !important;
+            color: #fff !important;
+        }
+    }
+    
+
     padding: 0 !important;
 
     mainbody {
@@ -111,20 +119,6 @@
 
         &.k-icon:before {
             position: initial !important;
-        }
-    }
-
-    .xstyle-checkbox-wrapper {
-        .col-4 {
-            order: 0;
-            flex: 0 0 95%;
-            max-width: 250px;
-            padding-right: 5px;
-        }
-
-        .col-8 {
-            order: -1;
-            flex: 0 0 5%;
         }
     }
 }
