@@ -239,6 +239,10 @@ mainbody .k-dropdown-wrap {
   color: #c7c5c5 !important;
 }
 
+.opacity-6 {
+  opacity: 0.6;
+}
+
 /*myTasks*/
 .active {
   background: #f7e8ff !important;
