@@ -82,4 +82,29 @@
 #TafnitCore_System_UI_App_WebSDK_Login .fa-google.k-icon:before {
   position: initial !important;
 }
+
+.VerticalLine {
+  border-top: 1px solid #eee;
+  position: relative;
+  top: 50%;
+}
+
+.rightVerticalLine {
+  right: 30px;
+}
+
+.leftVerticalLine {
+  left: 30px;
+}
+
+/*fix login tabstrip title colors*/
+.xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-link, .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item td.k-state-focused.k-state-hover {
+  color: #464247 !important;
+  opacity: 0.6 !important;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
+  color: #9e30bf !important;
+  opacity: 1 !important;
+}
 /*# sourceMappingURL=login.css.map */
