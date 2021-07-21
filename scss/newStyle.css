@@ -522,7 +522,7 @@ label.btn {
 
 /*for UXStudio*/
 .focus {
-  border: 5px solid #ffefa5;
+  border: 5px solid #ffefa5 !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
