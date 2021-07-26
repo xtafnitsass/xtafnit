@@ -40,6 +40,7 @@
 .xstyle-gridv4-wrapper.stickFilterRight .k-grid-filter,
 .xstyle-gridv4-wrapper.stickFilterRight .k-header-column-menu {
   float: right !important;
+  margin-left: 0px;
 }
 
 /*for disabled area not clickable*/
