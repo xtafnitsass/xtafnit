@@ -48,6 +48,8 @@ $websdk-toolbar-title-size :35px !default;
 $websdk-menu-items-color :#8733af !default;
 $websdk-goUpArrow-color :#8733af !default;
 $websdk-goUpArrow-border-color :1px solid #dec6e9 !default;
+$websdk-xLookupFullDescription-color:#464247!default;
+$websdk-dateandtime-color:#464247!default;
 
 
 .goUpArrow {
@@ -151,6 +153,9 @@ legend {
 
     .k-dropdown-wrap {
         height: 36px;
+        .k-input{
+            font-size: 14px;
+        }
     }
 
     .k-dropdown .k-input {
@@ -207,6 +212,8 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
     input {
         border-top-right-radius: $websdk-roundedinputs !important;
+        font-size: 14px!important;
+        color:$websdk-dateandtime-color!important;
     }
 
     span.k-select {
@@ -467,6 +474,12 @@ ul.fieldlist {
             box-shadow: none !important;
         }
     }
+}
+
+.xLookupFullDescription{
+    color: $websdk-xLookupFullDescription-color;
+    font-size: 14px;
+    opacity: 0.8;
 }
 
 @forward 'workflow';
