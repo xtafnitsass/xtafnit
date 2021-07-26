@@ -2120,12 +2120,12 @@ input.k-input[dir="ltr"] + .k-clear-value {
   top: 15%;
   background: #d4d4d4;
   position: absolute;
-  right: 200px;
+  right: 40%;
 }
 
 .xLookupFullDescription {
   position: absolute;
-  right: 210px;
+  right: 41%;
   height: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
