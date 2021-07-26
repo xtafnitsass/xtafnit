@@ -491,6 +491,12 @@ label.btn {
   -webkit-line-clamp: 5;
 }
 
+/*grid filter stick right*/
+.xstyle-gridv4-wrapper.stickFilterRight .k-grid-filter,
+.xstyle-gridv4-wrapper.stickFilterRight .k-header-column-menu {
+  float: right !important;
+}
+
 /*for disabled area not clickable*/
 .x-disabled {
   position: absolute;
