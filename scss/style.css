@@ -2942,7 +2942,7 @@ mainbody .col.flex-row .x-self-container {
   width: 100%;
 }
 
-mainbody .col.flex-row .x-groupbox-wrapper .x-self-container {
+mainbody .x-groupbox-wrapper .x-self-container {
   width: 100%;
 }
 
