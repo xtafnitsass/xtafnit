@@ -3151,7 +3151,7 @@ ul.fieldlist {
 /*color floating label*/
 .p-floating-container input:not(:placeholder-shown) + label,
 .p-floating-container ul[role="listbox"] + input + label {
-  color: #a043c6 !important;
+  color: #464247 !important;
 }
 
 .p-floating-container .k-dropdown.notselected label {
