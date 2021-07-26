@@ -212,6 +212,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     .mandatory.active{
         ~.k-select{
             background: $websdk-mandatory-input-background!important;
+            border-color: $websdk-mandatory-input-background!important;
         }
     } 
 }
