@@ -2912,7 +2912,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   background: #ffea617a !important;
 }
 
-.k-picker-wrap .mandatory.active + .k-select {
+.k-picker-wrap .mandatory.active ~ .k-select {
   background: #efe7f4 !important;
 }
 

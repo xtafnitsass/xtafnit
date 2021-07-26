@@ -210,7 +210,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
 .k-picker-wrap{
     .mandatory.active{
-        +.k-select{
+        ~.k-select{
             background: $websdk-mandatory-input-background!important;
         }
     } 
