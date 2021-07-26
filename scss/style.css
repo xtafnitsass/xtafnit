@@ -2938,7 +2938,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   }
 }
 
-mainbody .row .col .x-self-container {
+mainbody .col.flex-row .x-self-container {
   width: 100%;
 }
 
