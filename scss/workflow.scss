@@ -50,6 +50,7 @@ $websdk-goUpArrow-color :#8733af !default;
 $websdk-goUpArrow-border-color :1px solid #dec6e9 !default;
 $websdk-xLookupFullDescription-color:#464247 !default;
 $websdk-dateandtime-color:#464247 !default;
+$websdk-mandatory-input-background:#efe7f4!default;
 
 
 .goUpArrow {
@@ -205,6 +206,14 @@ span.mandatory.active+span.k-datepicker>span.k-picker-wrap>input,
 span.mandatory.active~label.k-checkbox-label:before,
 span.mandatory.active+span.k-switch.k-widget .k-switch-container {
     background: $workflow-mandatory-background !important;
+}
+
+.k-picker-wrap{
+    .mandatory.active{
+        +.k-select{
+            background: $websdk-mandatory-input-background!important;
+        }
+    } 
 }
 
 .k-picker-wrap {
