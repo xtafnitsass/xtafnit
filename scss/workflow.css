@@ -109,24 +109,32 @@ legend {
   font-weight: normal !important;
 }
 
+.xstyle-lookuptafnit-wrapper,
+input,
 ::-webkit-input-placeholder {
   color: #464247 !important;
   font-size: 14px !important;
   font-weight: bold;
 }
 
+.xstyle-lookuptafnit-wrapper,
+input,
 :-ms-input-placeholder {
   color: #464247 !important;
   font-size: 14px !important;
   font-weight: bold;
 }
 
+.xstyle-lookuptafnit-wrapper,
+input,
 ::-ms-input-placeholder {
   color: #464247 !important;
   font-size: 14px !important;
   font-weight: bold;
 }
 
+.xstyle-lookuptafnit-wrapper,
+input,
 ::placeholder {
   color: #464247 !important;
   font-size: 14px !important;
