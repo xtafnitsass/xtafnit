@@ -169,7 +169,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   background: rgba(255, 234, 97, 0.48) !important;
 }
 
-.k-picker-wrap .mandatory.active + .k-select {
+.k-picker-wrap .mandatory.active ~ .k-select {
   background: #efe7f4 !important;
 }
 
