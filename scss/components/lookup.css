@@ -9,7 +9,7 @@
   position: relative;
   left: 14px;
   right: auto;
-  z-index: 1050;
+  z-index: 1025;
 }
 
 .k-rtl .x-lookup .x-selection-lookup .x-open-lookup .x-selection-lookup-button {
@@ -61,7 +61,7 @@
   position: relative;
   right: 15px;
   left: auto;
-  z-index: 1050;
+  z-index: 1025;
 }
 
 .k-ltr .x-lookup .x-selection-lookup .x-open-lookup .x-selection-lookup-button {
