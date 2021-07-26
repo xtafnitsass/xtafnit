@@ -195,7 +195,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   }
 }
 
-mainbody .x-groupbox-wrapper .col.d-flex > .x-self-container {
+mainbody .row .col .x-self-container {
   width: 100%;
 }
 
