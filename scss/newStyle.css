@@ -501,7 +501,7 @@ label.btn {
 /*for disabled area not clickable*/
 .x-disabled {
   position: absolute;
-  top: 0;
+  top: -5px;
   left: 0;
   right: 0;
   z-index: 1029;
