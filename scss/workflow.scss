@@ -121,6 +121,10 @@ legend {
     }
 }
 
+.xstyle-ilink-wrapper {
+    min-height: 39px;
+}
+
 #tbHeader {
     >span {
         font-size: $websdk-toolbar-title-size;
