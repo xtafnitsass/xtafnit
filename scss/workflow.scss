@@ -506,7 +506,15 @@ ul.fieldlist {
             width: 39%;
         }
     }
+    @media screen and (max-width:576px) {
+        &::placeholder {
+            text-overflow: ellipsis;
+            width: 69%!important;
+        }
+    }
 }
+
+
 
 
 
