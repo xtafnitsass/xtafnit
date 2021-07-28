@@ -230,292 +230,304 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 }
 
 
-    .k-picker-wrap {
+.k-picker-wrap {
+    border-top-right-radius: $websdk-roundedinputs !important;
+    border-top-left-radius: $websdk-roundedinputs !important;
+
+    input {
         border-top-right-radius: $websdk-roundedinputs !important;
+        font-size: 14px !important;
+        color: $websdk-dateandtime-color !important;
+    }
+
+    span.k-select {
         border-top-left-radius: $websdk-roundedinputs !important;
-
-        input {
-            border-top-right-radius: $websdk-roundedinputs !important;
-            font-size: 14px !important;
-            color: $websdk-dateandtime-color !important;
-        }
-
-        span.k-select {
-            border-top-left-radius: $websdk-roundedinputs !important;
-        }
     }
+}
 
-    .dynamicTitle {
-        font-weight: $websdk-dynamic-title-font-weight;
-        color: $websdk-dynamic-title-color;
+.dynamicTitle {
+    font-weight: $websdk-dynamic-title-font-weight;
+    color: $websdk-dynamic-title-color;
+}
+
+@media only screen and(max-width:1024px) {
+    .roundedNoneMobile {
+        border-radius: 0 !important;
     }
+}
 
-    @media only screen and(max-width:1024px) {
-        .roundedNoneMobile {
-            border-radius: 0 !important;
+mainbody {
+    .col.flex-row {
+        .x-self-container {
+            width: 100%;
         }
     }
 
-    mainbody {
-        .col.flex-row {
-            .x-self-container {
-                width: 100%;
+    .x-groupbox-wrapper {
+        .x-self-container {
+            width: 100%;
+        }
+    }
+
+    input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']):not(.x-form-control) {
+        border-top-left-radius: $websdk-roundedinputs !important;
+        border-top-right-radius: $websdk-roundedinputs !important;
+    }
+
+    .k-dropdown-wrap {
+        border-top-left-radius: $websdk-roundedinputs !important;
+        border-top-right-radius: $websdk-roundedinputs !important;
+    }
+}
+
+
+
+/*workflows*/
+
+.cube-wrapper {
+    .cube {
+        min-height: 213px !important;
+
+        @media only screen and (min-width: 1480px) {
+            flex: 0 0 22% !important;
+            max-width: 22% !important;
+        }
+
+        &.workflow {
+
+            .late,
+            .frozen {
+                border-radius: 5px;
+                width: 100px;
             }
-        }
 
-        .x-groupbox-wrapper {
-            .x-self-container {
-                width: 100%;
-            }
-        }
+            .late {
+                background: $workflow-cube-late-background;
 
-        input:not([type='checkbox']):not([data-role='datepicker']):not([data-role='timepicker']):not(.x-form-control) {
-            border-top-left-radius: $websdk-roundedinputs !important;
-            border-top-right-radius: $websdk-roundedinputs !important;
-        }
-
-        .k-dropdown-wrap {
-            border-top-left-radius: $websdk-roundedinputs !important;
-            border-top-right-radius: $websdk-roundedinputs !important;
-        }
-    }
-
-
-
-    /*workflows*/
-
-    .cube-wrapper {
-        .cube {
-            min-height: 213px !important;
-
-            @media only screen and (min-width: 1480px) {
-                flex: 0 0 22% !important;
-                max-width: 22% !important;
+                .x-dynamic-label-control {
+                    color: $workflow-cube-late-color !important;
+                }
             }
 
-            &.workflow {
+            .frozen {
+                background: $workflow-cube-frozen-background;
 
-                .late,
-                .frozen {
-                    border-radius: 5px;
-                    width: 100px;
+                .x-dynamic-label-control {
+                    color: $workflow-cube-frozen-color !important;
                 }
+            }
 
-                .late {
-                    background: $workflow-cube-late-background;
-
-                    .x-dynamic-label-control {
-                        color: $workflow-cube-late-color !important;
-                    }
-                }
-
-                .frozen {
-                    background: $workflow-cube-frozen-background;
-
-                    .x-dynamic-label-control {
-                        color: $workflow-cube-frozen-color !important;
-                    }
-                }
-
-                .openSubTotal {
-                    .x-dynamic-label-control {
-                        color: $workflow-cube-openSubTotal-color !important;
-                    }
+            .openSubTotal {
+                .x-dynamic-label-control {
+                    color: $workflow-cube-openSubTotal-color !important;
                 }
             }
         }
     }
+}
 
-    .opacity-6 {
-        opacity: 0.6;
-    }
+.opacity-6 {
+    opacity: 0.6;
+}
 
-    /*myTasks*/
+/*myTasks*/
 
-    .active {
-        background: $workflow-rectAll-active-background !important;
-    }
+.active {
+    background: $workflow-rectAll-active-background !important;
+}
 
-    .rectAll,
-    .rectLate,
-    .rectFrozen {
-        align-items: center;
-        border-radius: 10px;
-    }
+.rectAll,
+.rectLate,
+.rectFrozen {
+    align-items: center;
+    border-radius: 10px;
+}
 
-    .rectAll {
-        background: $workflow-rectAll-background;
-        color: $workflow-rectAll-color;
+.rectAll {
+    background: $workflow-rectAll-background;
+    color: $workflow-rectAll-color;
 
-    }
+}
 
-    .rectLate {
-        background: $workflow-rectLate-background;
-        color: $workflow-rectLate-color;
-    }
+.rectLate {
+    background: $workflow-rectLate-background;
+    color: $workflow-rectLate-color;
+}
 
-    .rectFrozen {
-        background: $workflow-rectFrozen-background;
-        color: $workflow-rectFrozen-color;
-    }
+.rectFrozen {
+    background: $workflow-rectFrozen-background;
+    color: $workflow-rectFrozen-color;
+}
 
-    .statusFrozen,
-    .statusLate,
-    .statusOngoing {
-        padding: 2px 10px;
-        border-radius: 10px;
-        font-size: 12px;
-    }
+.statusFrozen,
+.statusLate,
+.statusOngoing {
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
 
-    .statusFrozen {
-        background: $workflow-statusFrozen-background;
-        color: $workflow-statusFrozen-color;
-    }
+.statusFrozen {
+    background: $workflow-statusFrozen-background;
+    color: $workflow-statusFrozen-color;
+}
 
-    .statusLate {
-        background: $workflow-statusLate-background;
-        color: $workflow-statusLate-color;
-    }
+.statusLate {
+    background: $workflow-statusLate-background;
+    color: $workflow-statusLate-color;
+}
 
-    .statusOngoing {
-        background: $workflow-statusOngoing-background;
-        color: $workflow-statusOngoing-color;
-    }
+.statusOngoing {
+    background: $workflow-statusOngoing-background;
+    color: $workflow-statusOngoing-color;
+}
 
-    .transformFlipX {
-        transform: scaleX(-1);
-    }
+.transformFlipX {
+    transform: scaleX(-1);
+}
 
-    .fixPadding {
-        .col {
-            padding-left: 0px !important;
+.fixPadding {
+    .col {
+        padding-left: 0px !important;
 
-            .x-cell-header {
-                margin-top: 10px !important;
-                margin-bottom: 25px !important;
-            }
+        .x-cell-header {
+            margin-top: 10px !important;
+            margin-bottom: 25px !important;
         }
     }
+}
 
-    .fixButton {
-        .k-button {
-            width: 75px !important;
-            min-width: 100%;
-            padding: 0 !important;
-        }
+.fixButton {
+    .k-button {
+        width: 75px !important;
+        min-width: 100%;
+        padding: 0 !important;
     }
+}
 
-    /*timeline*/
+/*timeline*/
 
+.timlineActivity {
+    background: $workflow-timlineActivity-background;
+    color: $workflow-timlineActivity-color;
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+.timelineUser {
+    font-size: 12px;
+    color: $workflow-timelineUser-color;
+}
+
+.timlineActivityTitle {
+    color: $workflow-timlineActivityTitle-color;
+}
+
+.menuRows {
+    font-size: 14px;
+    // min-height: 108px;
+    min-width: 137px;
+}
+
+.k-window {
     .timlineActivity {
-        background: $workflow-timlineActivity-background;
-        color: $workflow-timlineActivity-color;
-        font-size: 12px;
-        padding: 2px 7px;
-        border-radius: 5px;
-    }
-
-    .timelineUser {
-        font-size: 12px;
-        color: $workflow-timelineUser-color;
-    }
-
-    .timlineActivityTitle {
-        color: $workflow-timlineActivityTitle-color;
-    }
-
-    .menuRows {
-        font-size: 14px;
-        // min-height: 108px;
-        min-width: 137px;
-    }
-
-    .k-window {
-        .timlineActivity {
-            display: block !important;
-            margin-top: 5px;
-            position: relative;
-            right: -20px;
-        }
-
-        .pageContainer {
-            margin: 0 auto !important;
-            height: 99% !important;
-        }
-    }
-
-    /*ConfirmActivity*/
-
-    /*fix checkbox*/
-
-    ul.fieldlist {
+        display: block !important;
+        margin-top: 5px;
         position: relative;
-        top: 4px;
+        right: -20px;
     }
 
-    /*fix checkbox*/
+    .pageContainer {
+        margin: 0 auto !important;
+        height: 99% !important;
+    }
+}
 
-    .k-checkbox {
-        border-color: $workflow-checkbox-border-color !important;
-        color: $workflow-checkbox-color !important;
+/*ConfirmActivity*/
 
-        &:hover,
-        &:checked,
-        &:focus {
-            border-color: $workflow-checkbox-border-color-checked !important;
-            color: $workflow-checkbox-color-checked !important;
+/*fix checkbox*/
+
+ul.fieldlist {
+    position: relative;
+    top: 4px;
+}
+
+/*fix checkbox*/
+
+.k-checkbox {
+    border-color: $workflow-checkbox-border-color !important;
+    color: $workflow-checkbox-color !important;
+
+    &:hover,
+    &:checked,
+    &:focus {
+        border-color: $workflow-checkbox-border-color-checked !important;
+        color: $workflow-checkbox-color-checked !important;
+    }
+}
+
+/*fix textarea*/
+.textAreaPadding {
+    textarea {
+        padding-top: 15px;
+        padding-right: 15px;
+
+        &::placeholder {
+            color: $workflow-textarea-color !important;
+        }
+    }
+}
+
+/*color floating label*/
+
+.p-floating-container input:not(:placeholder-shown)+label,
+.p-floating-container ul[role="listbox"]+input+label {
+    color: $workflow-floating-lable-color !important;
+}
+
+
+.p-floating-container {
+    .k-dropdown.notselected {
+        label {
+            font-weight: bold !important;
         }
     }
 
-    /*fix textarea*/
-    .textAreaPadding {
-        textarea {
-            padding-top: 15px;
-            padding-right: 15px;
+}
 
-            &::placeholder {
-                color: $workflow-textarea-color !important;
-            }
+.xstyle-lookuptafnit-wrapper {
+    input.k-textbox {
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &::placeholder {
+            text-overflow: ellipsis;
+            width: 39%;
         }
     }
-
-    /*color floating label*/
-
-    .p-floating-container input:not(:placeholder-shown)+label,
-    .p-floating-container ul[role="listbox"]+input+label {
-        color: $workflow-floating-lable-color !important;
-    }
-
-
-    .p-floating-container {
-        .k-dropdown.notselected {
-            label {
-                font-weight: bold !important;
-            }
-        }
-
-    }
+}
 
 
 
-    /*websdk*/
+/*websdk*/
 
-    .classifiedButton {
-        .k-button {
-            background: transparent !important;
-            color: $websdk-classifiedButton-color !important;
-            border: 0 !important;
+.classifiedButton {
+    .k-button {
+        background: transparent !important;
+        color: $websdk-classifiedButton-color !important;
+        border: 0 !important;
 
-            &:hover {
-                box-shadow: none !important;
-            }
+        &:hover {
+            box-shadow: none !important;
         }
     }
+}
 
-    .xLookupFullDescription {
-        color: $websdk-xLookupFullDescription-color;
-        font-size: 14px;
-        opacity: 0.8;
-    }
+.xLookupFullDescription {
+    color: $websdk-xLookupFullDescription-color;
+    font-size: 14px;
+    opacity: 0.8;
+}
 
-    @forward 'workflow';
+@forward 'workflow';

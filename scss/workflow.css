@@ -427,6 +427,31 @@ ul.fieldlist {
   font-weight: bold !important;
 }
 
+.xstyle-lookuptafnit-wrapper input.k-textbox {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.xstyle-lookuptafnit-wrapper input.k-textbox::-webkit-input-placeholder {
+  text-overflow: ellipsis;
+  width: 39%;
+}
+
+.xstyle-lookuptafnit-wrapper input.k-textbox:-ms-input-placeholder {
+  text-overflow: ellipsis;
+  width: 39%;
+}
+
+.xstyle-lookuptafnit-wrapper input.k-textbox::-ms-input-placeholder {
+  text-overflow: ellipsis;
+  width: 39%;
+}
+
+.xstyle-lookuptafnit-wrapper input.k-textbox::placeholder {
+  text-overflow: ellipsis;
+  width: 39%;
+}
+
 /*websdk*/
 .classifiedButton .k-button {
   background: transparent !important;
