@@ -71,10 +71,10 @@
     padding: 0;
   }
   .xLookupSplit {
-    right: 80px !important;
+    right: 70% !important;
   }
   .xLookupFullDescription {
-    right: 90px !important;
+    right: 71% !important;
   }
 }
 /*# sourceMappingURL=mediaQuery.css.map */
