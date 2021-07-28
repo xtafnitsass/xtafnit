@@ -2810,6 +2810,10 @@ progress[value]::-webkit-progress-value {
   color: #868387 !important;
 }
 
+.xstyle-ilink-wrapper {
+  min-height: 39px;
+}
+
 #tbHeader > span {
   font-size: 30px;
   color: #953bbf;
