@@ -3195,6 +3195,25 @@ ul.fieldlist {
   width: 39%;
 }
 
+@media screen and (max-width: 576px) {
+  .xstyle-lookuptafnit-wrapper::-webkit-input-placeholder {
+    text-overflow: ellipsis;
+    width: 69% !important;
+  }
+  .xstyle-lookuptafnit-wrapper:-ms-input-placeholder {
+    text-overflow: ellipsis;
+    width: 69% !important;
+  }
+  .xstyle-lookuptafnit-wrapper::-ms-input-placeholder {
+    text-overflow: ellipsis;
+    width: 69% !important;
+  }
+  .xstyle-lookuptafnit-wrapper::placeholder {
+    text-overflow: ellipsis;
+    width: 69% !important;
+  }
+}
+
 /*websdk*/
 .classifiedButton .k-button {
   background: transparent !important;
