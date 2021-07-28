@@ -3404,5 +3404,13 @@ input.k-input[dir="ltr"] + .k-clear-value {
   height: 500px;
 }
 
+.x-groupbox-wrapper > div {
+  padding: 0;
+}
+
+.xstyle-groupbox-wrapper {
+  padding: 0;
+}
+
 /*Phase 2 if needed -- credit card / credit guard / share / multichoice */
 /*# sourceMappingURL=newStyle.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,mBADe,GACd,GAAG,CAAC;EACD,OAAO,EAAE,CAAC;CACb;;AAGL,AAAA,wBAAwB,CAAC;EACrB,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "groupBox.scss"
+    ],
+    "names": [],
+    "file": "groupBox.css"
+}
