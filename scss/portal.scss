@@ -50,7 +50,7 @@ $suppliers-datepicker-font-size:14px !default;
 $suppliers-drawer-hamburger-font-size:25px !default;
 $suppliers-grid-content-color-button:#fff !default;
 $suppliers-grid-lookup-background:#fafafa !default;
-$suppliers-grid-lookup-background: 1px solid #464247 !default;
+$suppliers-grid-lookup-border: 1px solid #464247 !default;
 
 
 
@@ -1214,7 +1214,7 @@ mainbody {
 
 .gridLookup {
     border-bottom: $suppliers-grid-lookup-background;
-    background: $suppliers-grid-lookup-background;
+    background: $suppliers-grid-lookup-border;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     width: 95%;
