@@ -192,7 +192,8 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header, legend {
+.x-cell-header,
+legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
@@ -888,14 +889,16 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4,
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 3% !important;
             flex: 0 0 3% !important;
   }
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
   background: #efefef;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0.1%;
@@ -906,7 +909,8 @@ mainbody .gridHeaderButton .kIconPaint {
   height: 21px;
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label, .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 label {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 label {
   font-size: 11px;
   line-height: 1.82;
   letter-spacing: 0.9px;
@@ -914,12 +918,14 @@ mainbody .gridHeaderButton .kIconPaint {
   opacity: 0.65;
 }
 
-.details .left > div .col-8, .details .left > div .col-67 {
+.details .left > div .col-8,
+.details .left > div .col-67 {
   font-size: 14px;
   opacity: 0.7;
 }
 
-.details .left > div:first-child .col-8, .details .left > div:first-child .col-67 {
+.details .left > div:first-child .col-8,
+.details .left > div:first-child .col-67 {
   font-size: 14px;
 }
 
@@ -1060,7 +1066,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .gridLookup {
-  border-bottom: 1px solid;
+  border-bottom: #fafafa;
   background: #fafafa;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;

@@ -46,9 +46,12 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
-$suppliers-datepicker-font-size:14px!default;
-$suppliers-drawer-hamburger-font-size:25px!default;
-$suppliers-grid-content-color-button:#fff!default;
+$suppliers-datepicker-font-size:14px !default;
+$suppliers-drawer-hamburger-font-size:25px !default;
+$suppliers-grid-content-color-button:#fff !default;
+$suppliers-grid-lookup-background:#fafafa !default;
+$suppliers-grid-lookup-background: 1px solid #464247 !default;
+
 
 
 //------------------------------------------------------------layout//
@@ -83,9 +86,9 @@ input[type=number] {
     background-size: cover;
 }
 
-.x-embeddedToolbar{
-    .k-icon{
-        font-size:$suppliers-drawer-hamburger-font-size;
+.x-embeddedToolbar {
+    .k-icon {
+        font-size: $suppliers-drawer-hamburger-font-size;
     }
 }
 
@@ -288,7 +291,8 @@ header {
 
 //cell header//
 
-.x-cell-header , legend{
+.x-cell-header,
+legend {
     margin: 5px auto;
     font-size: 18px;
     min-height: 25px;
@@ -935,12 +939,14 @@ mainbody {
     }
 
     &.checkboxHorizontalRight {
-        .d-ltr{
+        .d-ltr {
             direction: ltr;
-            .fieldlist{
-                position:static;
+
+            .fieldlist {
+                position: static;
             }
         }
+
         .xstyle-checkbox-wrapper {
             flex-direction: row-reverse;
             justify-content: flex-end;
@@ -1047,7 +1053,9 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            .col-4 , .col-33 {
+
+            .col-4,
+            .col-33 {
 
                 @media all and (-ms-high-contrast: none),
                 (-ms-high-contrast: active) {
@@ -1058,7 +1066,9 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            >.col-4 , .col-33 {
+
+            >.col-4,
+            .col-33 {
                 background: #efefef;
                 flex: 0 0 0.1%;
                 margin-left: 10px;
@@ -1077,13 +1087,17 @@ mainbody {
         }
 
         >div {
-            .col-8 , .col-67 {
+
+            .col-8,
+            .col-67 {
                 font-size: 14px;
                 opacity: 0.7;
             }
 
             &:first-child {
-                .col-8 , .col-67 {
+
+                .col-8,
+                .col-67 {
                     font-size: 14px;
                 }
             }
@@ -1198,9 +1212,9 @@ mainbody {
     }
 }
 
-.gridLookup{
-    border-bottom: 1px solid;
-    background: #fafafa;
+.gridLookup {
+    border-bottom: $suppliers-grid-lookup-background;
+    background: $suppliers-grid-lookup-background;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     width: 95%;
@@ -1301,7 +1315,8 @@ mainbody {
 
     .k-grid {
         .k-grid-content {
-            height: 27vh!important;
+            height: 27vh !important;
+
             tr.k-state-selected td {
                 background: transparent !important;
             }
