@@ -2018,8 +2018,8 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .gridLookup {
-  border-bottom: #fafafa;
-  background: 1px solid #464247;
+  border-bottom: 1px solid #464247;
+  background: #fafafa;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   width: 95%;
