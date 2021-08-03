@@ -321,6 +321,8 @@ $suppliers-icon-tachometer: #464247;
 $suppliers-datepicker-font-size:14px;
 $suppliers-drawer-hamburger-font-size:25px;
 $suppliers-grid-content-color-button:#fff;
+$suppliers-grid-lookup-background:#fafafa;
+$suppliers-grid-lookup-background: 1px solid #464247;
 
 
 /*link*/
@@ -490,4 +492,4 @@ $websdk-classifiedButton-color:#000;
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup','./login';
+'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup', './login';
