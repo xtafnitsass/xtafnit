@@ -3342,7 +3342,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   z-index: 1031;
 }
 
-.popUpWindowCls mainbody > .row {
+.popUpWindowCls mainbody {
   -webkit-box-shadow: 0px 5px 20px 0 black;
           box-shadow: 0px 5px 20px 0 black;
 }
