@@ -34,8 +34,8 @@ $grid-edited-numeric-arrow-background-color:#f00 !default;
 $grid-edited-numeric-arrow-color:#fff !default;
 $grid-footer-background-color:#fff !default;
 $grid-footer-border-color:#eee !default;
-$grid-content-padding:10px 0px!default;
-$grid-pager-nav-color:#003f59!default;
+$grid-content-padding:10px 0px !default;
+$grid-pager-nav-color:#003f59 !default;
 
 
 
@@ -50,12 +50,20 @@ $grid-pager-nav-color:#003f59!default;
         }
     }
 
-    .k-toolbar  {
+    .k-toolbar {
         background: $grid-header-background;
-        
+
 
         &.k-grid-toolbar {
             border-color: $grid-header-toolbar-border-color !important;
+
+            >a.k-button {
+                align-items: center;
+
+                >i {
+                    margin-left: .1875rem;
+                }
+            }
         }
 
         .k-grid-serach {
@@ -69,7 +77,8 @@ $grid-pager-nav-color:#003f59!default;
     .k-grid-header {
         background: none;
         border: none;
-        padding:$grid-content-padding;
+        padding: $grid-content-padding;
+
         .k-grid-filter {
             &.k-state-active {
                 background: $grid-header-filter-active-background;
@@ -161,7 +170,8 @@ $grid-pager-nav-color:#003f59!default;
             border: $grid-content-border;
             border-left: $grid-content-border-left;
             font-size: 14px;
-            padding:$grid-content-padding;
+            padding: $grid-content-padding;
+
             .col-template-val {
                 margin: 0;
             }
@@ -182,7 +192,7 @@ $grid-pager-nav-color:#003f59!default;
 
         .k-pager-nav {
             border-color: $grid-pager-nav-border;
-            color: $grid-pager-nav-color!important;
+            color: $grid-pager-nav-color !important;
         }
 
         .k-link {
