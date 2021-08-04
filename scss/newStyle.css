@@ -734,6 +734,7 @@ label.btn {
   right: 14px !important;
   width: 400px;
   height: 1px;
+  top: -5px !important;
 }
 
 header > span {
