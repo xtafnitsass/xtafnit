@@ -51,4 +51,8 @@
 .k-daterangepicker > span.k-textbox-container {
   width: 49%;
 }
+
+.k-daterangepicker > span.k-textbox-container input {
+  height: 39px;
+}
 /*# sourceMappingURL=datepicker.css.map */
