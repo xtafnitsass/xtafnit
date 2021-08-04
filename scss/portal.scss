@@ -49,8 +49,7 @@ $suppliers-icon-tachometer: #464247 !default;
 $suppliers-datepicker-font-size:14px !default;
 $suppliers-drawer-hamburger-font-size:25px !default;
 $suppliers-grid-content-color-button:#fff !default;
-$suppliers-grid-lookup-background:#fafafa !default;
-$suppliers-grid-lookup-border: 1px solid #464247 !default;
+
 
 
 
@@ -1211,17 +1210,6 @@ mainbody {
         }
     }
 }
-
-.gridLookup {
-    border-bottom: $suppliers-grid-lookup-border;
-    background: $suppliers-grid-lookup-background;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    width: 95%;
-    height: 37px;
-    line-height: 37px;
-}
-
 
 .shekel-wrapper {
     display: flex;
