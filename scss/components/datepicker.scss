@@ -41,3 +41,21 @@
 .x-idatePicker-input {
     width: 100%;
 }
+
+/*dateRangePicker*/
+
+.k-daterangepicker {
+    display: flex;
+    justify-content: space-between;
+
+    >span {
+        &:nth-child(2) {
+            display: none;
+        }
+
+        &.k-textbox-container {
+            width: 49%;
+        }
+    }
+
+}

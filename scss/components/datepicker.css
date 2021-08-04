@@ -33,4 +33,22 @@
 .x-idatePicker-input {
   width: 100%;
 }
+
+/*dateRangePicker*/
+.k-daterangepicker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.k-daterangepicker > span:nth-child(2) {
+  display: none;
+}
+
+.k-daterangepicker > span.k-textbox-container {
+  width: 49%;
+}
 /*# sourceMappingURL=datepicker.css.map */
