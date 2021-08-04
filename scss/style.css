@@ -2784,6 +2784,7 @@ progress[value]::-webkit-progress-value {
 legend {
   font-size: 16px !important;
   font-weight: normal !important;
+  margin: 0 !important;
 }
 
 .k-overflow-anchor {
