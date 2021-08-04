@@ -4,6 +4,10 @@
   z-index: 1031;
 }
 
+.popUpWindowCls mainbody {
+  margin-top: 0 !important;
+}
+
 .popUpWindowCls mainbody > .row {
   -webkit-box-shadow: 0px 5px 20px 0 black;
           box-shadow: 0px 5px 20px 0 black;
