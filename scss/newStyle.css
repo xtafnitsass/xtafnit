@@ -3351,6 +3351,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
     */
 }
 
+.popUpWindowCls mainbody {
+  margin-top: 0 !important;
+}
+
 .popUpWindowCls .xtafnit_pageContainer {
   margin: 0 !important;
 }
