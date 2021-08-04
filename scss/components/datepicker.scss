@@ -54,8 +54,16 @@
         }
 
         &.k-textbox-container {
+            padding-top: 0 !important;
             width: 49%;
-            input{
+
+            .k-label {
+                top: 34px;
+                font-size: 12px;
+                color: #464247;
+            }
+
+            input {
                 height: 39px;
             }
         }
