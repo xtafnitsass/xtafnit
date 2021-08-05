@@ -178,4 +178,11 @@
 .pageImage {
   background-attachment: fixed;
 }
+
+.lookupGridCutText {
+  width: 47%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 /*# sourceMappingURL=generalClass.css.map */

@@ -634,6 +634,13 @@ label.btn {
   background-attachment: fixed;
 }
 
+.lookupGridCutText {
+  width: 47%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .p-floating-container {
   position: relative;
 }
