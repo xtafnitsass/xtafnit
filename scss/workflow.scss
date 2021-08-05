@@ -72,7 +72,7 @@ $websdk-mandatory-input-background:#efe7f4 !default;
 legend {
     font-size: 16px !important;
     font-weight: normal !important;
-    margin: 0!important;
+    margin: 0 !important;
 }
 
 .k-overflow-anchor {
@@ -511,10 +511,11 @@ ul.fieldlist {
             width: 39%;
         }
     }
+
     @media screen and (max-width:576px) {
         &::placeholder {
             text-overflow: ellipsis;
-            width: 69%!important;
+            width: 69% !important;
         }
     }
 }
@@ -524,6 +525,14 @@ ul.fieldlist {
 
 
 /*websdk*/
+
+
+.searchDesign {
+    .k-autocomplete {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+}
 
 .classifiedButton {
     .k-button {

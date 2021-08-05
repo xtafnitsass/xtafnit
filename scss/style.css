@@ -3238,6 +3238,12 @@ ul.fieldlist {
 }
 
 /*websdk*/
+.searchDesign .k-autocomplete {
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .classifiedButton .k-button {
   background: transparent !important;
   color: #9038ba !important;
