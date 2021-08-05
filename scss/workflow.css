@@ -483,6 +483,16 @@ ul.fieldlist {
           box-shadow: none !important;
 }
 
+.searchIconXSelf {
+  position: absolute;
+  right: 10px;
+}
+
+.searchIconXSelf .searchIcon .k-icon {
+  font-size: 16px;
+  color: #9e30bf;
+}
+
 .classifiedButton .k-button {
   background: transparent !important;
   color: #000 !important;
