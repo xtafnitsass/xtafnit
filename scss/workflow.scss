@@ -534,6 +534,19 @@ ul.fieldlist {
     }
 }
 
+.searchIconXSelf {
+    position: absolute;
+    right: 10px;
+
+    .searchIcon {
+        .k-icon {
+            font-size: 16px;
+            color: $websdk-dynamic-title-color;
+        }
+    }
+}
+
+
 .classifiedButton {
     .k-button {
         background: transparent !important;
