@@ -180,7 +180,7 @@
 }
 
 .lookupGridCutText {
-  width: 47%;
+  max-width: 47%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
