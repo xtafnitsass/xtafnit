@@ -2137,6 +2137,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
       -ms-flex-align: center;
           align-items: center;
   top: 0;
+  white-space: nowrap;
+  width: 48%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .k-window {

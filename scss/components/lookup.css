@@ -127,5 +127,9 @@
       -ms-flex-align: center;
           align-items: center;
   top: 0;
+  white-space: nowrap;
+  width: 48%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /*# sourceMappingURL=lookup.css.map */
