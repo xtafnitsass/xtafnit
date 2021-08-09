@@ -3348,9 +3348,24 @@ input.k-input[dir="ltr"] + .k-clear-value {
   position: fixed;
   right: 0;
   left: 0;
-  top: 25%;
+  top: 15%;
   margin: auto;
   z-index: 1031;
+}
+
+.popUpWindowCls .x-pagePopup {
+  padding-bottom: 5px;
+  background: white;
+  -webkit-box-shadow: 0px 5px 20px 0 black;
+          box-shadow: 0px 5px 20px 0 black;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.popUpWindowCls .x-pagePopup mainbody {
+  overflow: scroll;
+  max-height: 600px;
 }
 
 .popUpWindowCls .xstyle-itoolbar-wrapper .k-toolbar {
@@ -3363,8 +3378,8 @@ input.k-input[dir="ltr"] + .k-clear-value {
 }
 
 .popUpWindowCls mainbody > .row {
-  -webkit-box-shadow: 0px 5px 20px 0 black;
-          box-shadow: 0px 5px 20px 0 black;
+  -webkit-box-shadow: 0px 5px 20px 0 #c5c3c3;
+          box-shadow: 0px 5px 20px 0 #c5c3c3;
 }
 
 .popUpWindowCls .xtafnit_pageContainer {

@@ -2,9 +2,23 @@
     position: fixed;
     right: 0;
     left: 0;
-    top: 25%;
+    top: 15%;
     margin: auto;
     z-index: 1031;
+
+    .x-pagePopup {
+        padding-bottom: 5px;
+        background: white;
+        box-shadow: 0px 5px 20px 0 black;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+
+        mainbody {
+            overflow: scroll;
+            max-height: 600px;
+        }
+    }
 
     .xstyle-itoolbar-wrapper {
         .k-toolbar {
@@ -17,7 +31,7 @@
         margin-top: 0 !important;
 
         >.row {
-            box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 70%);
+            box-shadow: 0px 5px 20px 0 #c5c3c3;
         }
     }
 
