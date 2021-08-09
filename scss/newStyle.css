@@ -2693,6 +2693,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
   height: 39px;
 }
 
+.xstyle-daterange-wrapper {
+  padding: 0;
+}
+
 .x-infoWrap {
   direction: rtl !important;
   display: inline-block;
