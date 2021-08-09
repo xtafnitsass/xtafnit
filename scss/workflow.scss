@@ -53,6 +53,14 @@ $websdk-dateandtime-color:#464247 !default;
 $websdk-mandatory-input-background:#efe7f4 !default;
 
 
+.k-overflow-wrapper{
+    .k-separator.k-item{
+        border-bottom: 1px solid #cacaca;
+        height: 0;
+        display: block!important;
+    }
+}
+
 .goUpArrow {
     border-radius: 50%;
     border: $websdk-goUpArrow-border-color;
