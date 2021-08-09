@@ -3346,7 +3346,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .popUpWindowCls {
   position: fixed;
+  right: 0;
+  left: 0;
   top: 25%;
+  margin: auto;
   z-index: 1031;
 }
 
