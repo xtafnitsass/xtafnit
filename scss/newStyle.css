@@ -3364,8 +3364,23 @@ input.k-input[dir="ltr"] + .k-clear-value {
 }
 
 .popUpWindowCls .x-pagePopup mainbody {
-  overflow: scroll;
+  overflow: auto;
   max-height: 600px;
+}
+
+.popUpWindowCls .x-pagePopup mainbody::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #dfdbdb;
+}
+
+.popUpWindowCls .x-pagePopup mainbody::-webkit-scrollbar-thumb {
+  background: #a9bdca;
+  border-radius: 10px;
+}
+
+.popUpWindowCls .x-pagePopup mainbody::-webkit-scrollbar-track {
+  border-radius: 10px;
 }
 
 .popUpWindowCls .xstyle-itoolbar-wrapper .k-toolbar {
