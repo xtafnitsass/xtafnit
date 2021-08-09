@@ -3366,6 +3366,8 @@ input.k-input[dir="ltr"] + .k-clear-value {
 .popUpWindowCls .x-pagePopup mainbody {
   overflow: auto;
   max-height: 600px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .popUpWindowCls .x-pagePopup mainbody::-webkit-scrollbar {
