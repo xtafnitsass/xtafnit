@@ -52,6 +52,8 @@ $websdk-xLookupFullDescription-color:#464247 !default;
 $websdk-dateandtime-color:#464247 !default;
 $websdk-mandatory-input-background:#efe7f4 !default;
 
+$workflow-cube-first-cube-openSubTotal-color:#fff!default;
+
 
 .k-overflow-wrapper{
     .k-separator.k-item{
@@ -299,6 +301,28 @@ mainbody {
 
 .cube-wrapper {
     .cube {
+        &:first-child{
+            .k-menu li.k-item i.k-icon{
+                color:#fff!important;
+            }
+            
+            .k-menu .xMenuItemColor span {
+                color: #464247 !important;
+            }
+
+            &.workflow {
+                .openSubTotal {
+                    .x-dynamic-label-control {
+                        color: #fff !important;
+                    }
+                }
+                .late ,.frozen{
+                    background: #fff!important; 
+                }
+
+            }
+
+        }
         min-height: 213px !important;
 
         @media only screen and (min-width: 1480px) {

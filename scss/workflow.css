@@ -242,6 +242,22 @@ mainbody .k-dropdown-wrap {
   min-height: 213px !important;
 }
 
+.cube-wrapper .cube:first-child .k-menu li.k-item i.k-icon {
+  color: #fff !important;
+}
+
+.cube-wrapper .cube:first-child .k-menu .xMenuItemColor span {
+  color: #464247 !important;
+}
+
+.cube-wrapper .cube:first-child.workflow .openSubTotal .x-dynamic-label-control {
+  color: #fff !important;
+}
+
+.cube-wrapper .cube:first-child.workflow .late, .cube-wrapper .cube:first-child.workflow .frozen {
+  background: #fff !important;
+}
+
 @media only screen and (min-width: 1480px) {
   .cube-wrapper .cube {
     -webkit-box-flex: 0 !important;
