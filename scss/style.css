@@ -1944,11 +1944,11 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .cube-wrapper .cube:first-child {
-  background: #f2dbff !important;
+  background: #9038ba !important;
 }
 
 .cube-wrapper .cube:first-child span {
-  color: #464247 !important;
+  color: #fff !important;
 }
 
 .cube-wrapper .cube .font-weight-bold {
