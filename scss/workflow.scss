@@ -302,15 +302,26 @@ mainbody {
 .cube-wrapper {
     .cube {
         &:first-child{
-            
+            .k-menu li.k-item i.k-icon{
+                color:#fff!important;
+            }
             .openSubTotal {
                 .x-dynamic-label-control {
-                    color: $workflow-cube-first-cube-openSubTotal-color !important;
+                    color: #fff !important;
                 }
             }
             .k-menu .xMenuItemColor span {
                 color: #464247 !important;
             }
+
+            &.workflow {
+
+                .late ,.frozen{
+                    background: #fff!important; 
+                }
+
+            }
+
         }
         min-height: 213px !important;
 
