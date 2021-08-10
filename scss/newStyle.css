@@ -3419,6 +3419,15 @@ input.k-input[dir="ltr"] + .k-clear-value {
   min-height: 39px;
 }
 
+.xstyle-numberrange-wrapper.x-login-user-error, .xstyle-numberrange-wrapper.x-login-user-error-msg {
+  border-color: #f00 !important;
+}
+
+.xstyle-numberrange-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
+
 .x-compass-arrow {
   position: static;
   width: auto;

@@ -1,0 +1,9 @@
+.xstyle-numberrange-wrapper.x-login-user-error, .xstyle-numberrange-wrapper.x-login-user-error-msg {
+  border-color: #f00 !important;
+}
+
+.xstyle-numberrange-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
+/*# sourceMappingURL=rangeNumber.css.map */
