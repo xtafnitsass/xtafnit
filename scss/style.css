@@ -3006,12 +3006,12 @@ mainbody .k-dropdown-wrap {
   color: #fff !important;
 }
 
-.cube-wrapper .cube:first-child .openSubTotal .x-dynamic-label-control {
-  color: #fff !important;
-}
-
 .cube-wrapper .cube:first-child .k-menu .xMenuItemColor span {
   color: #464247 !important;
+}
+
+.cube-wrapper .cube:first-child.workflow .openSubTotal .x-dynamic-label-control {
+  color: #fff !important;
 }
 
 .cube-wrapper .cube:first-child.workflow .late, .cube-wrapper .cube:first-child.workflow .frozen {
