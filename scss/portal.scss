@@ -683,6 +683,7 @@ mainbody {
 .required {
 
     span.mandatory.active+input,
+    span.mandatory.active+div .k-textbox-container input,
     span.mandatory.active+span>span.k-dropdown-wrap,
     span.mandatory.active+div>span.k-autocomplete>input,
     span.mandatory.active+label.switch>input.switch-input+span.switch-label,
