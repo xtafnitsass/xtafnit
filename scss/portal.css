@@ -509,6 +509,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .required span.mandatory.active + input,
+.required span.mandatory.active + div .k-textbox-container input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
 .required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
