@@ -2996,6 +2996,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 }
 
 .k-drawer-container .k-drawer .k-drawer-wrapper li[data-role="drawer-item"] .drawer-item-control-wrapper .k-panelbar .k-group.k-panel {
+  margin-right: 10px;
   border: 0px !important;
   font-weight: normal !important;
 }
