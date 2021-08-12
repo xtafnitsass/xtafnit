@@ -55,20 +55,30 @@ $websdk-mandatory-input-background:#efe7f4 !default;
 $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 
 
+
+.details {
+    .right {
+        >div {
+            &:first-child {
+                top: 0px !important;
+            }
+        }
+    }
+}
+
 .drawerSearch {
     >.k-icon {
         z-index: 10;
         position: absolute;
-        right: 5px;
         top: 50px;
         color: #8733af !important;
     }
 
-    input {
-        border-radius: 20px;
-        text-indent: 40px;
+    input.k-textbox {
+        border-radius: 20px !important;
+        text-indent: 40px !important;
         color: #464247 !important;
-        border-radius: 20px;
+        border-radius: 20px !important;
     }
 }
 

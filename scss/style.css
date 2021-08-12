@@ -2759,6 +2759,24 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.details .right > div:first-child {
+  top: 0px !important;
+}
+
+.drawerSearch > .k-icon {
+  z-index: 10;
+  position: absolute;
+  top: 50px;
+  color: #8733af !important;
+}
+
+.drawerSearch input.k-textbox {
+  border-radius: 20px !important;
+  text-indent: 40px !important;
+  color: #464247 !important;
+  border-radius: 20px !important;
+}
+
 .k-overflow-wrapper .k-separator.k-item {
   border-bottom: 1px solid #cacaca;
   height: 0;
@@ -3016,7 +3034,8 @@ mainbody .k-dropdown-wrap {
   color: #fff !important;
 }
 
-.cube-wrapper .cube:first-child.workflow .late, .cube-wrapper .cube:first-child.workflow .frozen {
+.cube-wrapper .cube:first-child.workflow .late,
+.cube-wrapper .cube:first-child.workflow .frozen {
   background: #fff !important;
 }
 
