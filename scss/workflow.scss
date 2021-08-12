@@ -597,12 +597,16 @@ ul.fieldlist {
     }
 }
 
-.searchIconXSelf {
-    position: absolute;
-    right: 10px;
 
-    .searchIcon {
+.searchIconXSelf {
+    .k-icon-wrapper {
+        position: absolute;
+        top: 7px;
+        right: 15px;
+        
+
         .k-icon {
+            width: 20px;
             font-size: 16px;
             color: $websdk-dynamic-title-color;
         }
