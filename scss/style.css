@@ -2767,12 +2767,8 @@ progress[value]::-webkit-progress-value {
   color: #8733af !important;
 }
 
-.drawerSearch .k-autocomplete {
-  width: 96%;
+.drawerSearch input {
   border-radius: 20px;
-}
-
-.drawerSearch .k-autocomplete input {
   text-indent: 40px;
   color: #464247 !important;
   border-radius: 20px;
