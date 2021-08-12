@@ -623,17 +623,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #e9feec !important;
+  background-color: #e9e9fe !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #e9feec !important;
+  background: #e9e9fe !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #e9feec !important;
+  background: #e9e9fe !important;
   color: #000 !important;
 }
 
@@ -1584,7 +1584,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .fixIcon .k-icon-wrapper {
-  background-color: #d8d3ef;
+  background-color: #d3d5ef;
   width: 70px;
   border-radius: 50%;
   height: 70px;
@@ -1652,7 +1652,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .light-blue .k-button {
-  background: #464247 !important;
+  background: #2c3d77 !important;
 }
 
 .dotIcon {
