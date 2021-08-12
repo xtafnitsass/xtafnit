@@ -11,6 +11,7 @@
   position: absolute;
   top: 50px;
   color: #8733af !important;
+  left: initial !important;
 }
 
 .drawerSearch input.k-textbox {
