@@ -3286,13 +3286,13 @@ ul.fieldlist {
           box-shadow: none !important;
 }
 
-.searchIconXSelf .k-icon-wrapper {
+.searchDesign .k-icon-wrapper {
   position: absolute;
   top: 7px;
   right: 15px;
 }
 
-.searchIconXSelf .k-icon-wrapper .k-icon {
+.searchDesign .k-icon-wrapper .k-icon {
   width: 20px;
   font-size: 16px;
   color: #9e30bf;
