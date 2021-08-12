@@ -372,4 +372,10 @@ label.btn {
 .k-pane-wrapper {
   width: 100%;
 }
+
+.AutoComplete-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
 /*# sourceMappingURL=layout.css.map */

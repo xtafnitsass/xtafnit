@@ -453,6 +453,12 @@ label.btn {
   width: 100%;
 }
 
+.AutoComplete-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
 /* fix width when setting display flex */
 .fixWidth > .x-self-container {
   width: 100%;
