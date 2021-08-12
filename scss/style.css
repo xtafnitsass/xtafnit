@@ -2759,6 +2759,10 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.k-drawer-separator {
+  background-color: #bd6fbc !important;
+}
+
 .details .right > div:first-child {
   top: 0px !important;
 }
