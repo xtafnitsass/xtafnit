@@ -53,8 +53,11 @@ $websdk-dateandtime-color:#464247 !default;
 $websdk-mandatory-input-background:#efe7f4 !default;
 
 $workflow-cube-first-cube-openSubTotal-color:#fff !default;
+$workflow-drawer-separator:#bd6fbc !default;
 
-
+.k-drawer-separator {
+    background-color: $workflow-drawer-separator !important;
+}
 
 .details {
     .right {
@@ -595,11 +598,12 @@ ul.fieldlist {
         background: transparent !important;
         box-shadow: none !important;
     }
+
     .k-icon-wrapper {
         position: absolute;
         top: 7px;
         right: 15px;
-        
+
 
         .k-icon {
             width: 20px;
