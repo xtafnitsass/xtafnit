@@ -1,3 +1,18 @@
+.drawerSearch > .k-icon {
+  z-index: 10;
+  position: absolute;
+  right: 5px;
+  top: 50px;
+  color: #8733af !important;
+}
+
+.drawerSearch input {
+  border-radius: 20px;
+  text-indent: 40px;
+  color: #464247 !important;
+  border-radius: 20px;
+}
+
 .k-overflow-wrapper .k-separator.k-item {
   border-bottom: 1px solid #cacaca;
   height: 0;
@@ -255,7 +270,8 @@ mainbody .k-dropdown-wrap {
   color: #fff !important;
 }
 
-.cube-wrapper .cube:first-child.workflow .late, .cube-wrapper .cube:first-child.workflow .frozen {
+.cube-wrapper .cube:first-child.workflow .late,
+.cube-wrapper .cube:first-child.workflow .frozen {
   background: #fff !important;
 }
 

@@ -52,14 +52,31 @@ $websdk-xLookupFullDescription-color:#464247 !default;
 $websdk-dateandtime-color:#464247 !default;
 $websdk-mandatory-input-background:#efe7f4 !default;
 
-$workflow-cube-first-cube-openSubTotal-color:#fff!default;
+$workflow-cube-first-cube-openSubTotal-color:#fff !default;
 
 
-.k-overflow-wrapper{
-    .k-separator.k-item{
+.drawerSearch {
+    >.k-icon {
+        z-index: 10;
+        position: absolute;
+        right: 5px;
+        top: 50px;
+        color: #8733af !important;
+    }
+
+    input {
+        border-radius: 20px;
+        text-indent: 40px;
+        color: #464247 !important;
+        border-radius: 20px;
+    }
+}
+
+.k-overflow-wrapper {
+    .k-separator.k-item {
         border-bottom: 1px solid #cacaca;
         height: 0;
-        display: block!important;
+        display: block !important;
     }
 }
 
@@ -302,11 +319,11 @@ mainbody {
 
 .cube-wrapper {
     .cube {
-        &:first-child{
-            .k-menu li.k-item i.k-icon{
-                color:#fff!important;
+        &:first-child {
+            .k-menu li.k-item i.k-icon {
+                color: #fff !important;
             }
-            
+
             .k-menu .xMenuItemColor span {
                 color: #464247 !important;
             }
@@ -317,13 +334,16 @@ mainbody {
                         color: #fff !important;
                     }
                 }
-                .late ,.frozen{
-                    background: #fff!important; 
+
+                .late,
+                .frozen {
+                    background: #fff !important;
                 }
 
             }
 
         }
+
         min-height: 213px !important;
 
         @media only screen and (min-width: 1480px) {
