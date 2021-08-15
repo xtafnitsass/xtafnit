@@ -69,6 +69,10 @@ $workflow-drawer-separator:#bd6fbc !default;
     }
 }
 
+.AutoComplete-icon{
+    left: initial!important;
+}
+
 .drawerSearch {
     >.k-icon {
         z-index: 10;

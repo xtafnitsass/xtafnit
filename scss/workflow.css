@@ -6,6 +6,10 @@
   top: 0px !important;
 }
 
+.AutoComplete-icon {
+  left: initial !important;
+}
+
 .drawerSearch > .k-icon {
   z-index: 10;
   position: absolute;
