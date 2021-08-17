@@ -83,7 +83,7 @@
                         }
 
                         .k-group.k-panel {
-                            margin-right:10px;
+                            
                             border: 0px !important;
                             font-weight: normal !important;
 
@@ -116,6 +116,27 @@
                 color: #003f59 !important;
                 border: 0px !important;
             }
+        }
+    }
+}
+
+.k-drawer-right{
+    .k-drawer{
+        .k-panelbar {
+            .k-group.k-panel {
+                margin-right: 10px;
+            }            
+        }
+    }
+}
+
+
+.k-drawer-left{
+    .k-drawer{
+        .k-panelbar {
+            .k-group.k-panel {
+                margin-left: 10px;
+            }            
         }
     }
 }
