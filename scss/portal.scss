@@ -445,10 +445,26 @@ mainbody {
 //drawer//
 
 .k-drawer-overlay {
-    .k-drawer {
-        border-bottom-left-radius: 0px;
-        border-top-left-radius: 20px;
+    &.k-drawer-left{
+        .k-drawer {
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 20px;
+        }
+    }
+}
 
+.k-drawer-overlay {
+    &.k-drawer-right{
+        .k-drawer {
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 20px;
+        }
+    }
+}
+
+.k-drawer-overlay {
+    .k-drawer {
+        
         .k-drawer-wrapper {
             .k-drawer-items {
                 li {
