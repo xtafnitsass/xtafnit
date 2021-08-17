@@ -445,7 +445,7 @@ mainbody {
 //drawer//
 
 .k-drawer-overlay {
-    &.k-drawer-left{
+    &.k-drawer-left {
         .k-drawer {
             border-bottom-right-radius: 0px;
             border-top-right-radius: 20px;
@@ -454,7 +454,7 @@ mainbody {
 }
 
 .k-drawer-overlay {
-    &.k-drawer-right{
+    &.k-drawer-right {
         .k-drawer {
             border-bottom-left-radius: 0px;
             border-top-left-radius: 20px;
@@ -464,7 +464,7 @@ mainbody {
 
 .k-drawer-overlay {
     .k-drawer {
-        
+
         .k-drawer-wrapper {
             .k-drawer-items {
                 li {
@@ -1018,6 +1018,36 @@ mainbody {
     }
 }
 
+.k-ltr {
+    .details {
+        .left {
+            .xstyle-dynamiclabelcontrol-wrapper {
+
+                >.col-4,
+                .col-33 {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.k-rtl {
+    .details {
+        .left {
+            .xstyle-dynamiclabelcontrol-wrapper {
+
+                >.col-4,
+                .col-33 {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
 .details {
     .top {
         .x-cell-header {
@@ -1087,7 +1117,7 @@ mainbody {
             .col-33 {
                 background: #efefef;
                 flex: 0 0 0.1%;
-                margin-left: 10px;
+                // margin-left: 10px;
                 border-radius: 4px;
                 padding: 1px 7px 0;
                 height: 21px;
