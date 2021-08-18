@@ -69,8 +69,8 @@ $workflow-drawer-separator:#bd6fbc !default;
     }
 }
 
-.AutoComplete-icon{
-    left: initial!important;
+.AutoComplete-icon {
+    left: initial !important;
 }
 
 .drawerSearch {
@@ -79,7 +79,7 @@ $workflow-drawer-separator:#bd6fbc !default;
         position: absolute;
         top: 50px;
         color: #8733af !important;
-        left: initial!important;
+        left: initial !important;
     }
 
     input.k-textbox {
@@ -596,7 +596,22 @@ ul.fieldlist {
 
 
 /*websdk*/
+.k-rtl {
+    .searchDesign {
+        .k-icon-wrapper {
+            right: 15px;
+        }
+    }
+}
 
+
+.k-ltr {
+    .searchDesign {
+        .k-icon-wrapper {
+            left: 15px;
+        }
+    }
+}
 
 .searchDesign {
     .k-autocomplete {
@@ -607,8 +622,6 @@ ul.fieldlist {
     .k-icon-wrapper {
         position: absolute;
         top: 7px;
-        right: 15px;
-
 
         .k-icon {
             width: 20px;
