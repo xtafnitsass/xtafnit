@@ -340,10 +340,6 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'footer';
-.k-animation-container {
-  text-align: right;
-}
-
 .k-animation-container .k-list-container {
   background: #fff;
   border: 0px solid !important;
