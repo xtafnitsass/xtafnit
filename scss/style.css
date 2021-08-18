@@ -340,10 +340,6 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'footer';
-.k-animation-container {
-  text-align: right;
-}
-
 .k-animation-container .k-list-container {
   background: #282830;
   border: 0px solid !important;
@@ -1356,10 +1352,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .k-filter-menu .k-widget,
 .k-button {
   font-size: 16px;
-}
-
-.k-animation-container {
-  text-align: right;
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
