@@ -844,6 +844,8 @@ input[type="time"] {
 
 .xstyle-tab-wrapper .k-tabstrip .k-content {
   border-color: #f5f6f8;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .xstyle-tab-wrapper .k-tabstrip .k-tabstrip-items .k-item {
