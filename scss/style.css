@@ -1820,7 +1820,7 @@ mainbody .gridHeaderButton .kIconPaint {
   border-left: 1px solid #dee2e6;
 }
 
-.k-rtl .details .right {
+.k-ltr .details .right {
   border-right: 1px solid #dee2e6;
 }
 
