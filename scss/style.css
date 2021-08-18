@@ -1355,10 +1355,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   font-size: 16px;
 }
 
-.k-animation-container {
-  text-align: right;
-}
-
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   mainbody .x-self-container {
     min-width: 110px !important;
