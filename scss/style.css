@@ -2148,6 +2148,14 @@ mainbody .gridHeaderButton .kIconPaint {
   border-bottom: 0px !important;
 }
 
+.k-rtl .cube-top {
+  padding-left: 0;
+}
+
+.k-ltr .cube-top {
+  padding-right: 0;
+}
+
 .searchDesign .k-grid-toolbar {
   display: -webkit-box;
   display: -ms-flexbox;
