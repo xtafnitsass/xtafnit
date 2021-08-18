@@ -1387,6 +1387,18 @@ mainbody {
     }
 }
 
+.k-rtl{
+    .cube-top{
+        padding-left:0;
+    }
+}
+
+.k-ltr{
+    .cube-top{
+        padding-right:0;
+    }
+}
+
 .searchDesign {
     .k-grid-toolbar {
         display: flex;
