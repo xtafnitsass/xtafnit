@@ -716,10 +716,6 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'grid';
-.k-filter-menu {
-  direction: rtl;
-}
-
 .k-filter-menu .k-action-buttons {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
