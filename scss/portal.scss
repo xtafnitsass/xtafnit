@@ -1045,6 +1045,18 @@ mainbody {
                 }
             }
         }
+
+        .right {
+            border-left: 1px solid #dee2e6;
+        }
+    }
+}
+
+.k-ltr {
+    .details {
+        .right {
+            border-right: 1px solid #dee2e6;
+        }
     }
 }
 
@@ -1372,6 +1384,18 @@ mainbody {
                 border-bottom: 0px !important;
             }
         }
+    }
+}
+
+.k-rtl{
+    .cube-top{
+        padding-left:0;
+    }
+}
+
+.k-ltr{
+    .cube-top{
+        padding-right:0;
     }
 }
 

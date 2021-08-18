@@ -854,6 +854,14 @@ mainbody .gridHeaderButton .kIconPaint {
   margin-left: 10px;
 }
 
+.k-rtl .details .right {
+  border-left: 1px solid #dee2e6;
+}
+
+.k-ltr .details .right {
+  border-right: 1px solid #dee2e6;
+}
+
 .details .top .x-cell-header {
   padding: 6px 8px 6px 9px;
   border-radius: 8px;
@@ -1175,6 +1183,14 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .gridSearch .k-grid .k-grid-content td {
   border-bottom: 0px !important;
+}
+
+.k-rtl .cube-top {
+  padding-left: 0;
+}
+
+.k-ltr .cube-top {
+  padding-right: 0;
 }
 
 .searchDesign .k-grid-toolbar {

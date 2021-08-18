@@ -528,6 +528,14 @@ ul.fieldlist {
 }
 
 /*websdk*/
+.k-rtl .searchDesign .k-icon-wrapper {
+  right: 15px;
+}
+
+.k-ltr .searchDesign .k-icon-wrapper {
+  left: 15px;
+}
+
 .searchDesign .k-autocomplete {
   background: transparent !important;
   -webkit-box-shadow: none !important;
@@ -537,7 +545,6 @@ ul.fieldlist {
 .searchDesign .k-icon-wrapper {
   position: absolute;
   top: 7px;
-  right: 15px;
 }
 
 .searchDesign .k-icon-wrapper .k-icon {
