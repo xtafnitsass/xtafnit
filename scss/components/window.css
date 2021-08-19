@@ -22,4 +22,8 @@
 .k-window .k-window-content header {
   position: relative;
 }
+
+.k-window .pageContainer.x-pagePopup {
+  height: auto !important;
+}
 /*# sourceMappingURL=window.css.map */

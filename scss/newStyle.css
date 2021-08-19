@@ -2198,6 +2198,10 @@ input.k-input[dir="ltr"] + .k-clear-value {
   position: relative;
 }
 
+.k-window .pageContainer.x-pagePopup {
+  height: auto !important;
+}
+
 /*rating - not kendo*/
 .x-rateWrapper {
   direction: initial;
