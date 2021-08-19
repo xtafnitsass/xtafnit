@@ -3399,6 +3399,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   background-color: #fff;
   border-radius: 20px;
   padding: 10px;
+  height: auto;
 }
 
 .popUpWindowCls .x-pagePopup mainbody {
