@@ -3202,6 +3202,11 @@ mainbody .k-dropdown-wrap {
   min-width: 137px;
 }
 
+.k-window .k-window-content header {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
 .k-window .timlineActivity {
   display: block !important;
   margin-top: 5px;
