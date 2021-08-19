@@ -507,6 +507,11 @@ mainbody {
 }
 
 .k-window {
+    .k-window-content {
+        header{
+            position: sticky!important;
+        }
+    }
     .timlineActivity {
         display: block !important;
         margin-top: 5px;
