@@ -644,6 +644,26 @@ label.btn {
   position: relative;
 }
 
+.p-floating-container textarea:not(:placeholder-shown) + label {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  opacity: 1;
+  visibility: visible;
+  font-size: 16px;
+  color: #003f59;
+  right: 0;
+  top: -9px;
+  margin: 0;
+  position: absolute;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
 .p-floating-container.dir-ltr label {
   left: 0 !important;
   right: unset !important;

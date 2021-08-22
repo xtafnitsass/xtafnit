@@ -1,6 +1,23 @@
 .p-floating-container {
     position: relative;
 
+    textarea {
+        &:not(:placeholder-shown)+label {
+            transform: scale(0.7);
+            opacity: 1;
+            visibility: visible;
+            font-size: 16px;
+            color: #003f59;
+            right: 0;
+            top: -9px;
+            margin: 0;
+            position: absolute;
+            transform-origin: right;
+            display: flex;
+            transition: 0.3s all;
+        }
+    }
+
     &.dir-ltr {
         label {
             left: 0 !important;
@@ -80,7 +97,7 @@
     }
 }
 
-.k-rtl{
+.k-rtl {
     .p-floating-container input:not(:placeholder-shown)+label {
         transform: scale(0.7);
         opacity: 1;
@@ -116,7 +133,7 @@
 }
 
 
-.k-ltr{
+.k-ltr {
     .p-floating-container input:not(:placeholder-shown)+label {
         transform: scale(0.7);
         opacity: 1;
