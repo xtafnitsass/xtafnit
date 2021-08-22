@@ -59,6 +59,16 @@ $workflow-drawer-separator:#bd6fbc !default;
     background-color: $workflow-drawer-separator !important;
 }
 
+.k-drawer-container {
+    .k-drawer {
+        .k-drawer-wrapper {
+            .k-link.k-header {
+                font-weight: normal !important;
+            }
+        }
+    }
+}
+
 .details {
     .right {
         >div {
@@ -513,10 +523,11 @@ mainbody {
 
 .k-window {
     .k-window-content {
-        header{
-            position: sticky!important;
+        header {
+            position: sticky !important;
         }
     }
+
     .timlineActivity {
         display: block !important;
         margin-top: 5px;
