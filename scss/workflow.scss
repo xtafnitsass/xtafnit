@@ -231,6 +231,11 @@ legend {
     color: $websdk-color-inputs !important;
 }
 
+.p-floating-container textarea:not(:placeholder-shown)+label {
+    font-size: $websdk-inputs-font-size !important;
+    color: $websdk-color-inputs !important;
+}
+
 .k-textbox,
 .k-dropdown input {
     font-size: $websdk-inputs-font-size !important;
