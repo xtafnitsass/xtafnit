@@ -2962,6 +2962,11 @@ legend {
   color: #464247 !important;
 }
 
+.p-floating-container textarea:not(:placeholder-shown) + label {
+  font-size: 14px !important;
+  color: #464247 !important;
+}
+
 .k-textbox,
 .k-dropdown input {
   font-size: 14px !important;
