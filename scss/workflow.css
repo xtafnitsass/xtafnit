@@ -2,6 +2,10 @@
   background-color: #bd6fbc !important;
 }
 
+.k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header {
+  font-weight: normal !important;
+}
+
 .details .right > div:first-child {
   top: 0px !important;
 }
