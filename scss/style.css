@@ -2829,7 +2829,7 @@ progress[value]::-webkit-progress-value {
   font-size: 30px;
   color: #8733af;
   position: absolute;
-  bottom: 90px;
+  bottom: 0px;
   right: -10px;
 }
 
