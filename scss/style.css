@@ -2810,6 +2810,17 @@ progress[value]::-webkit-progress-value {
   border-radius: 20px !important;
 }
 
+.drawerSearch .k-autocomplete.k-textbox {
+  background: transparent !important;
+  width: 95%;
+}
+
+.drawerSearch .k-autocomplete.k-textbox .k-clear-value .k-icon {
+  color: black !important;
+  left: -10px;
+  top: -8px;
+}
+
 .k-overflow-wrapper .k-separator.k-item {
   border-bottom: 1px solid #cacaca;
   height: 0;
