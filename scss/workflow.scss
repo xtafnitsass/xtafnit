@@ -98,6 +98,21 @@ $workflow-drawer-separator:#bd6fbc !default;
         color: #464247 !important;
         border-radius: 20px !important;
     }
+
+    .k-autocomplete {
+        &.k-textbox {
+            background: transparent !important;
+            width: 95%;
+
+            .k-clear-value {
+                .k-icon {
+                    color: black !important;
+                    left: -10px;
+                    top: -8px;
+                }
+            }
+        }
+    }
 }
 
 .k-overflow-wrapper {
