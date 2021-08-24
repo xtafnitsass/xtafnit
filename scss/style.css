@@ -2844,8 +2844,8 @@ progress[value]::-webkit-progress-value {
   font-size: 30px;
   color: #8733af;
   position: fixed;
-  bottom: 10%;
-  right: 5%;
+  bottom: 70px;
+  right: 70px;
 }
 
 .goUpArrow.showElementScrolled {
