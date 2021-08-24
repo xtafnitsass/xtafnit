@@ -620,17 +620,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #fdf9ff !important;
+  background-color: #efe7f4 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #fdf9ff !important;
+  background: #efe7f4 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #fdf9ff !important;
+  background: #efe7f4 !important;
   color: #000 !important;
 }
 
