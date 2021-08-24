@@ -2828,13 +2828,12 @@ progress[value]::-webkit-progress-value {
 }
 
 .goUpArrow {
+  background: #fafafa;
   border-radius: 50%;
   border: 1px solid #dec6e9;
   width: 50px;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2843,9 +2842,15 @@ progress[value]::-webkit-progress-value {
           align-items: center;
   font-size: 30px;
   color: #8733af;
-  position: absolute;
-  bottom: 0px;
-  right: -10px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+}
+
+.goUpArrow.showElementScrolled {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 .x-cell-header,
