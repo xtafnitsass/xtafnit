@@ -54,6 +54,7 @@ $websdk-mandatory-input-background:#efe7f4 !default;
 
 $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
+$websdk-goUpArrow-background:#fafafa !default;
 
 .k-drawer-separator {
     background-color: $workflow-drawer-separator !important;
@@ -124,19 +125,26 @@ $workflow-drawer-separator:#bd6fbc !default;
 }
 
 .goUpArrow {
+    background: $websdk-goUpArrow-background;
     border-radius: 50%;
     border: $websdk-goUpArrow-border-color;
     width: 50px;
     height: 50px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     color: $websdk-goUpArrow-color;
-    position: absolute;
-    bottom: 0px;
-    right: -10px;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+
+    &.showElementScrolled {
+        display: flex !important;
+    }
 }
+
+
 
 .x-cell-header,
 legend {
