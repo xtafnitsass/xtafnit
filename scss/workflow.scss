@@ -56,6 +56,33 @@ $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
 
+
+
+.x-autocomplete-header-template {
+    display: flex;
+    justify-content: space-around;
+
+    >.x-autocomplete-template-caption {
+        width: 50%;
+    }
+
+    .k-list {
+        .k-item {
+            font-size: 12px;
+
+            .x-autocomplete-template-content {
+                &.x-autocomplete-template-content:first-child {
+                    border-left: 1px solid #ccc;
+                }
+                min-height: 30px;
+                margin: 0!important;
+                width: 50%;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+}
+
 .k-drawer-separator {
     background-color: $workflow-drawer-separator !important;
 }
