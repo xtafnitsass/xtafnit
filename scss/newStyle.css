@@ -1195,6 +1195,10 @@ header .fal.fa-home {
   width: 100%;
 }
 
+#SignWindow #signatureFrame img {
+  display: inline-block;
+}
+
 #SignWindow #signatureFrame #toolbarSignatureFrame {
   display: block;
   width: 100%;
