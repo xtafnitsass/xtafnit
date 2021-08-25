@@ -10,18 +10,18 @@
   width: 50%;
 }
 
-.x-autocomplete-header-template .k-list .k-item {
+.k-popup .k-list .k-item {
   font-size: 12px;
 }
 
-.x-autocomplete-header-template .k-list .k-item .x-autocomplete-template-content {
+.k-popup .k-list .k-item .x-autocomplete-template-content {
   min-height: 30px;
   margin: 0 !important;
   width: 50%;
   border-bottom: 1px solid #ccc;
 }
 
-.x-autocomplete-header-template .k-list .k-item .x-autocomplete-template-content.x-autocomplete-template-content:first-child {
+.k-popup .k-list .k-item .x-autocomplete-template-content.x-autocomplete-template-content:first-child {
   border-left: 1px solid #ccc;
 }
 
