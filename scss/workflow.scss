@@ -65,7 +65,9 @@ $websdk-goUpArrow-background:#fafafa !default;
     >.x-autocomplete-template-caption {
         width: 50%;
     }
+}
 
+.k-popup {
     .k-list {
         .k-item {
             font-size: 12px;
@@ -74,8 +76,9 @@ $websdk-goUpArrow-background:#fafafa !default;
                 &.x-autocomplete-template-content:first-child {
                     border-left: 1px solid #ccc;
                 }
+
                 min-height: 30px;
-                margin: 0!important;
+                margin: 0 !important;
                 width: 50%;
                 border-bottom: 1px solid #ccc;
             }
