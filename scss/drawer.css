@@ -37,7 +37,7 @@
 
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover {
   background: none !important;
-  opacity: 0.7;
+  font-weight: bold !important;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

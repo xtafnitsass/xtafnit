@@ -337,6 +337,8 @@ $suppliers-timeselector:#ca0000;
 $suppliers-messageText:#ca0000;
 $suppliers-icon-tachometer: #464247;
 $suppliers-datepicker-font-size:14px;
+$suppliers-drawer-hamburger-font-size:25px;
+$suppliers-grid-content-color-button:#fff;
 
 
 /*link*/
@@ -363,6 +365,9 @@ $menu-dot-size:20px;
 $menu-label-color:#464247;
 $menu-hover-background:#fafafa;
 $menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
+$menu-label-hover:bold;
+$menu-item-border:1px solid #9797971f;
+$menu-dot-side:right;
 
 /*workflow*/
 
@@ -401,6 +406,21 @@ $workflow-mandatory-background:#ffea617a;
 
 $websdk-dynamic-title-font-weight:bold;
 $websdk-dynamic-title-color:#9e30bf;
+
+$websdk-roundedinputs:7px;
+$websdk-toolbar-anchor-background:#fafafa;
+$websdk-toolbar-anchor-icon-color:#9038ba;
+$websdk-toolbar-title-color :#953bbf;
+$websdk-toolbar-title-size :35px;
+$websdk-menu-items-color :#8733af;
+$websdk-goUpArrow-color :#8733af;
+$websdk-goUpArrow-border-color :1px solid #dec6e9;
+$websdk-xLookupFullDescription-color:#464247;
+$websdk-dateandtime-color:#464247;
+$websdk-mandatory-input-background:#efe7f4;
+$workflow-cube-first-cube-openSubTotal-color:#fff;
+$workflow-drawer-separator:#bd6fbc;
+$websdk-goUpArrow-background:#fafafa;
 
 /*timeline*/
 
@@ -472,16 +492,27 @@ $consumer-mandatory-background:rgba(255, 234, 97, 0.48);
 $consumer-grid-header-background:#f8f8f8;
 $consumer-grid-content-background:#f8f8f8;
 $consumer-grid-pager-background:#f8f8f8;
+$consumer-grid-content-height:200px;
 
 /*lookup*/
 
 $lookup-border-bottom-color:1px solid #464247;
 $lookup-background-color:#fafafa;
 $lookup-color:#000;
+$lookup-xinput-group-color:#000;
+
+/*websdk*/
+
+$websdk-classifiedButton-background:transparent;
+$websdk-classifiedButton-color:#000;
+
+/*required*/
+
+$suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './timeline','./headerMobile';
+'./portal', './stepper', './menu', './timeline','./headerMobile', './required';

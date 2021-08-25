@@ -14,7 +14,7 @@ $calendar-footer-hover-color:#000000 !default;
 $calendar-dates-color:red !default;
 
 .k-calendar {
-    .k-header ,.k-calendar-header{
+    .k-header ,.k-calendar-header > a{
         background: $calendar-header-background;
         color: $calendar-header-color;
 

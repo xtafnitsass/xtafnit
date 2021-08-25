@@ -46,7 +46,11 @@ $suppliers-radio-scoller-webkit-background:#dfdbdb !default;
 $suppliers-timeselector:#25a003 !default;
 $suppliers-messageText:#25a003 !default;
 $suppliers-icon-tachometer: #464247 !default;
-$suppliers-datepicker-font-size:14px!default;
+$suppliers-datepicker-font-size:14px !default;
+$suppliers-drawer-hamburger-font-size:25px !default;
+$suppliers-grid-content-color-button:#fff !default;
+
+
 
 
 //------------------------------------------------------------layout//
@@ -79,6 +83,12 @@ input[type=number] {
 .pageImage {
     background-position: center;
     background-size: cover;
+}
+
+.x-embeddedToolbar {
+    .k-icon {
+        font-size: $suppliers-drawer-hamburger-font-size;
+    }
 }
 
 //upload//
@@ -270,7 +280,7 @@ header {
                 text-decoration: $suppliers-grid-link-decoration;
 
                 &.k-button {
-                    color: #fff !important;
+                    color: $suppliers-grid-content-color-button !important;
                 }
             }
         }
@@ -280,7 +290,8 @@ header {
 
 //cell header//
 
-.x-cell-header {
+.x-cell-header,
+legend {
     margin: 5px auto;
     font-size: 18px;
     min-height: 25px;
@@ -434,9 +445,25 @@ mainbody {
 //drawer//
 
 .k-drawer-overlay {
+    &.k-drawer-left {
+        .k-drawer {
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 20px;
+        }
+    }
+}
+
+.k-drawer-overlay {
+    &.k-drawer-right {
+        .k-drawer {
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 20px;
+        }
+    }
+}
+
+.k-drawer-overlay {
     .k-drawer {
-        border-bottom-left-radius: 0px;
-        border-top-left-radius: 20px;
 
         .k-drawer-wrapper {
             .k-drawer-items {
@@ -520,9 +547,9 @@ mainbody {
 }
 
 //animator fix ie//
-.k-animation-container {
-    text-align: right;
-}
+// .k-animation-container {
+//     text-align: right;
+// }
 
 //ie fix all unset width//
 mainbody {
@@ -672,6 +699,7 @@ mainbody {
 .required {
 
     span.mandatory.active+input,
+    span.mandatory.active+div .k-textbox-container input,
     span.mandatory.active+span>span.k-dropdown-wrap,
     span.mandatory.active+div>span.k-autocomplete>input,
     span.mandatory.active+label.switch>input.switch-input+span.switch-label,
@@ -927,6 +955,14 @@ mainbody {
     }
 
     &.checkboxHorizontalRight {
+        .d-ltr {
+            direction: ltr;
+
+            .fieldlist {
+                position: static;
+            }
+        }
+
         .xstyle-checkbox-wrapper {
             flex-direction: row-reverse;
             justify-content: flex-end;
@@ -982,6 +1018,48 @@ mainbody {
     }
 }
 
+.k-ltr {
+    .details {
+        .left {
+            .xstyle-dynamiclabelcontrol-wrapper {
+
+                >.col-4,
+                .col-33 {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.k-rtl {
+    .details {
+        .left {
+            .xstyle-dynamiclabelcontrol-wrapper {
+
+                >.col-4,
+                .col-33 {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .right {
+            border-left: 1px solid #dee2e6;
+        }
+    }
+}
+
+.k-ltr {
+    .details {
+        .right {
+            border-right: 1px solid #dee2e6;
+        }
+    }
+}
+
 .details {
     .top {
         .x-cell-header {
@@ -1033,7 +1111,9 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            .col-4 {
+
+            .col-4,
+            .col-33 {
 
                 @media all and (-ms-high-contrast: none),
                 (-ms-high-contrast: active) {
@@ -1044,10 +1124,12 @@ mainbody {
         }
 
         .xstyle-dynamiclabelcontrol-wrapper {
-            >.col-4 {
+
+            >.col-4,
+            .col-33 {
                 background: #efefef;
                 flex: 0 0 0.1%;
-                margin-left: 10px;
+                // margin-left: 10px;
                 border-radius: 4px;
                 padding: 1px 7px 0;
                 height: 21px;
@@ -1063,13 +1145,17 @@ mainbody {
         }
 
         >div {
-            .col-8 {
+
+            .col-8,
+            .col-67 {
                 font-size: 14px;
                 opacity: 0.7;
             }
 
             &:first-child {
-                .col-8 {
+
+                .col-8,
+                .col-67 {
                     font-size: 14px;
                 }
             }
@@ -1184,7 +1270,6 @@ mainbody {
     }
 }
 
-
 .shekel-wrapper {
     display: flex;
     align-items: center;
@@ -1277,7 +1362,8 @@ mainbody {
 
     .k-grid {
         .k-grid-content {
-            height: 27vh!important;
+            height: 27vh !important;
+
             tr.k-state-selected td {
                 background: transparent !important;
             }
@@ -1298,6 +1384,18 @@ mainbody {
                 border-bottom: 0px !important;
             }
         }
+    }
+}
+
+.k-rtl{
+    .cube-top{
+        padding-left:0;
+    }
+}
+
+.k-ltr{
+    .cube-top{
+        padding-right:0;
     }
 }
 

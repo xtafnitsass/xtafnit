@@ -28,6 +28,10 @@ input[type=number] {
   background-size: cover;
 }
 
+.x-embeddedToolbar .k-icon {
+  font-size: 25px;
+}
+
 .k-upload-status .k-button {
   color: #ca0000 !important;
 }
@@ -188,7 +192,8 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header {
+.x-cell-header,
+legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
@@ -330,7 +335,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.k-drawer-overlay .k-drawer {
+.k-drawer-overlay.k-drawer-left .k-drawer {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+.k-drawer-overlay.k-drawer-right .k-drawer {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 20px;
 }
@@ -384,10 +394,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .k-filter-menu .k-widget,
 .k-button {
   font-size: 16px;
-}
-
-.k-animation-container {
-  text-align: right;
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -504,6 +510,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .required span.mandatory.active + input,
+.required span.mandatory.active + div .k-textbox-container input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
 .required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
@@ -770,6 +777,14 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr {
+  direction: ltr;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr .fieldlist {
+  position: static;
+}
+
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -825,6 +840,24 @@ mainbody .gridHeaderButton .kIconPaint {
   background: #99b1c0;
 }
 
+.k-ltr .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.k-ltr .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+  margin-right: 10px;
+}
+
+.k-rtl .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.k-rtl .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+  margin-left: 10px;
+}
+
+.k-rtl .details .right {
+  border-left: 1px solid #dee2e6;
+}
+
+.k-ltr .details .right {
+  border-right: 1px solid #dee2e6;
+}
+
 .details .top .x-cell-header {
   padding: 6px 8px 6px 9px;
   border-radius: 8px;
@@ -876,25 +909,27 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4,
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 3% !important;
             flex: 0 0 3% !important;
   }
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
   background: #efefef;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0.1%;
           flex: 0 0 0.1%;
-  margin-left: 10px;
   border-radius: 4px;
   padding: 1px 7px 0;
   height: 21px;
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 label {
   font-size: 11px;
   line-height: 1.82;
   letter-spacing: 0.9px;
@@ -902,12 +937,14 @@ mainbody .gridHeaderButton .kIconPaint {
   opacity: 0.65;
 }
 
-.details .left > div .col-8 {
+.details .left > div .col-8,
+.details .left > div .col-67 {
   font-size: 14px;
   opacity: 0.7;
 }
 
-.details .left > div:first-child .col-8 {
+.details .left > div:first-child .col-8,
+.details .left > div:first-child .col-67 {
   font-size: 14px;
 }
 
@@ -1142,6 +1179,14 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .gridSearch .k-grid .k-grid-content td {
   border-bottom: 0px !important;
+}
+
+.k-rtl .cube-top {
+  padding-left: 0;
+}
+
+.k-ltr .cube-top {
+  padding-right: 0;
 }
 
 .searchDesign .k-grid-toolbar {
