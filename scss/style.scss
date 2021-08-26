@@ -490,6 +490,10 @@ $lookup-xinput-group-color:#9038ba;
 $websdk-classifiedButton-background:transparent;
 $websdk-classifiedButton-color:#9038ba;
 
+/*required*/
+
+$suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',

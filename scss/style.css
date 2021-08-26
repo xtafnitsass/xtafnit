@@ -35,6 +35,7 @@
 /*consumer-product*/
 /*lookup*/
 /*websdk*/
+/*required*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #fff !important;
@@ -966,6 +967,10 @@ body {
     background-position: left;
     background-size: cover;
   }
+}
+
+.roundedAvatar img {
+  border-radius: 50%;
 }
 
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
