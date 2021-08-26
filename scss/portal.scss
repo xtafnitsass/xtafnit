@@ -67,6 +67,12 @@ body {
     }
 }
 
+.roundedAvatar{
+    img{
+        border-radius: 50%;
+    }
+}
+
 
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
