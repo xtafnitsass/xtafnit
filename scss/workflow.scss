@@ -56,18 +56,13 @@ $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
 
-
-
 .k-ltr {
     .x-lookup {
-        .x-form-control {
-            border-left: 0px !important;
-        }
-    }
-
-    .x-selection-lookup {
-        .x-open-lookup {
-            top: -8px;
+        .x-selection-lookup {
+            .x-form-control {
+                border-left: 0px !important;
+                min-height: 37px;
+            }
         }
     }
 }
