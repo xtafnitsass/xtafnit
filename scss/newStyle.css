@@ -2177,7 +2177,22 @@ input.k-input[dir="ltr"] + .k-clear-value {
   top: 15%;
   background: #d4d4d4;
   position: absolute;
+}
+
+.k-rtl .xLookupSplit {
   right: 40%;
+}
+
+.k-rtl .xLookupFullDescription {
+  right: 41%;
+}
+
+.k-ltr .xLookupSplit {
+  left: 40%;
+}
+
+.k-ltr .xLookupFullDescription {
+  left: 41%;
 }
 
 .xLookupFullDescription {

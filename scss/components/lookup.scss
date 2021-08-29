@@ -15,6 +15,7 @@
                 left: 14px;
                 right: auto;
                 z-index: 1025;
+
                 .x-selection-lookup-button {
                     cursor: pointer;
                     border: 0.1px solid #a3d0e4 !important;
@@ -78,6 +79,8 @@
                 right: 15px;
                 left: auto;
                 z-index: 1025;
+
+
                 .x-selection-lookup-button {
                     cursor: pointer;
                     border: 0.1px solid #a3d0e4 !important;
@@ -124,8 +127,8 @@
     }
 }
 
-.xstyle-lookup-wrapper{
-    padding: 0!important;
+.xstyle-lookup-wrapper {
+    padding: 0 !important;
 }
 
 
@@ -135,17 +138,36 @@
     top: 15%;
     background: #d4d4d4;
     position: absolute;
-    right: 40%;
+
 }
 
-.xLookupFullDescription{
+.k-rtl {
+    .xLookupSplit {
+        right: 40%;
+    }
+
+    .xLookupFullDescription {
+        right: 41%;
+    }
+}
+
+.k-ltr {
+    .xLookupSplit {
+        left: 40%;
+    }
+
+    .xLookupFullDescription {
+        left: 41%;
+    }
+}
+
+.xLookupFullDescription {
     position: absolute;
     right: 41%;
     height: 95%;
     display: flex;
     align-items: center;
     top: 0;
-
     white-space: nowrap;
     width: 48%;
     overflow: hidden;
