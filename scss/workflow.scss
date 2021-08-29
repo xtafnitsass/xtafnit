@@ -58,6 +58,20 @@ $websdk-goUpArrow-background:#fafafa !default;
 
 
 
+.k-ltr {
+    .x-lookup {
+        .x-form-control {
+            border-left: 0px !important;
+        }
+    }
+
+    .x-selection-lookup {
+        .x-open-lookup {
+            top: -8px;
+        }
+    }
+}
+
 .x-autocomplete-header-template {
     display: flex;
     justify-content: space-around;
