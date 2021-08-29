@@ -140,4 +140,9 @@
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
+
+.k-ltr .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .k-ltr .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
+  right: initial !important;
+  left: 15px !important;
+}
 /*# sourceMappingURL=pFloating.css.map */

@@ -133,6 +133,7 @@
 }
 
 
+
 .k-ltr {
     .p-floating-container input:not(:placeholder-shown)+label {
         transform: scale(0.7);
@@ -149,5 +150,17 @@
         display: flex;
         // -webkit-transition: 0.3s all;
         transition: 0.3s all;
+    }
+
+    .p-floating-container {
+
+        &.xstyle-lookup-wrapper,
+        &.xstyle-lookuptafnit-wrapper {
+
+            input:not(:placeholder-shown)+label {
+                right: initial !important;
+                left: 15px !important;
+            }
+        }
     }
 }
