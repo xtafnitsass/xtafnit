@@ -2785,6 +2785,14 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.k-ltr .x-lookup .x-form-control {
+  border-left: 0px !important;
+}
+
+.k-ltr .x-selection-lookup .x-open-lookup {
+  top: -8px;
+}
+
 .x-autocomplete-header-template {
   display: -webkit-box;
   display: -ms-flexbox;
