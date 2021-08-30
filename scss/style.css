@@ -2790,6 +2790,11 @@ progress[value]::-webkit-progress-value {
   min-height: 37px;
 }
 
+.popupLookupGrid .k-grid-content tr td:first-child {
+  text-decoration: underline;
+  color: #3498db !important;
+}
+
 .x-autocomplete-header-template {
   display: -webkit-box;
   display: -ms-flexbox;
