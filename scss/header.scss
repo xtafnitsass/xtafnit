@@ -14,16 +14,16 @@ header {
         }
     }
 
-    .popUpWindowCls {
-        position: fixed;
-        left: 0;
-        width: 100% !important;
-        max-width: 500px;
+    // .popUpWindowCls {
+    //     position: fixed;
+    //     left: 0;
+    //     width: 100% !important;
+    //     max-width: 500px;
 
-        @media only screen and (max-width:768px) {
-            max-width: 250px;
-        }
-    }
+    //     @media only screen and (max-width:768px) {
+    //         max-width: 250px;
+    //     }
+    // }
 }
 
 @forward 'header';
