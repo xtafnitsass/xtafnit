@@ -9,12 +9,9 @@
   visibility: visible;
   font-size: 16px;
   color: #003f59;
-  right: 0;
   top: -9px;
   margin: 0;
   position: absolute;
-  -webkit-transform-origin: right;
-          transform-origin: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,5 +141,17 @@
 .k-ltr .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .k-ltr .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
   right: initial !important;
   left: 15px !important;
+}
+
+.k-rtl .p-floating-container textarea:not(:placeholder-shown) + label {
+  right: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.k-ltr .p-floating-container textarea:not(:placeholder-shown) + label {
+  left: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 /*# sourceMappingURL=pFloating.css.map */

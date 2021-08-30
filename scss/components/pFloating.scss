@@ -8,11 +8,9 @@
             visibility: visible;
             font-size: 16px;
             color: #003f59;
-            right: 0;
             top: -9px;
             margin: 0;
             position: absolute;
-            transform-origin: right;
             display: flex;
             transition: 0.3s all;
         }
@@ -160,6 +158,31 @@
             input:not(:placeholder-shown)+label {
                 right: initial !important;
                 left: 15px !important;
+            }
+        }
+    }
+}
+
+
+.k-rtl {
+    .p-floating-container {
+        textarea {
+            &:not(:placeholder-shown)+label {
+                right: 0;
+                transform-origin: right;
+
+            }
+        }
+    }
+}
+
+.k-ltr {
+    .p-floating-container {
+        textarea {
+            &:not(:placeholder-shown)+label {
+                left: 0;
+                transform-origin: left;
+
             }
         }
     }
