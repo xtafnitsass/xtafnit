@@ -67,6 +67,19 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
+.popupLookupGrid {
+    .k-grid-content {
+        tr {
+            td {
+                &:first-child {
+                    text-decoration: underline;
+                    color: #3498db !important;
+                }
+            }
+        }
+    }
+}
+
 .x-autocomplete-header-template {
     display: flex;
     justify-content: space-around;
