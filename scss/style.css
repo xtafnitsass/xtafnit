@@ -462,6 +462,9 @@ mainbody .x-section-header-wrraper {
 
 .k-drawer .popUpWindowCls {
   left: initial !important;
+}
+
+.k-drawer .popUpWindowCls * {
   color: #2e2e2e !important;
 }
 
