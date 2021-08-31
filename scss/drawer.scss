@@ -3,11 +3,15 @@ $drawer-icon-color:#ff0000 !default;
 $drawer-color:#fff !default;
 
 .k-drawer {
-    border:0!important;
+    border: 0 !important;
     background: $drawer-background-color !important;
 
+    .popUpWindowCls {
+        left: initial !important;
+    }
+
     .k-drawer-items {
-        * {
+        *:not(.popUpWindowCls *) {
             color: $drawer-color !important;
         }
 
@@ -32,8 +36,8 @@ $drawer-color:#fff !default;
 
                 &.k-header {
                     color: $drawer-color !important;
-                    background-image: none!important;
-                    background: $drawer-background-color!important;
+                    background-image: none !important;
+                    background: $drawer-background-color !important;
                 }
             }
 
@@ -44,7 +48,7 @@ $drawer-color:#fff !default;
                     .k-link {
                         &.k-state-hover {
                             background: none !important;
-                            font-weight: bold!important;
+                            font-weight: bold !important;
                         }
                     }
                 }
