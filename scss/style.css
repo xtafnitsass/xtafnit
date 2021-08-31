@@ -460,16 +460,16 @@ mainbody .x-section-header-wrraper {
   background: #282830 !important;
 }
 
-.k-drawer .popUpWindowCls {
+.k-drawer .k-drawer-items * {
+  color: #fff !important;
+}
+
+.k-drawer .k-drawer-items .popUpWindowCls {
   left: initial !important;
 }
 
-.k-drawer .popUpWindowCls * {
+.k-drawer .k-drawer-items .popUpWindowCls * {
   color: #2e2e2e !important;
-}
-
-.k-drawer .k-drawer-items * {
-  color: #fff !important;
 }
 
 .k-drawer .k-drawer-items .k-drawer-item {
