@@ -1,6 +1,7 @@
 $drawer-background-color:#575757 !default;
 $drawer-icon-color:#ff0000 !default;
 $drawer-color:#fff !default;
+$drawer-popUpWindowCls-color:#2e2e2e !default;
 
 .k-drawer {
     border: 0 !important;
@@ -8,10 +9,11 @@ $drawer-color:#fff !default;
 
     .popUpWindowCls {
         left: initial !important;
+        color: $drawer-popUpWindowCls-color !important;
     }
 
     .k-drawer-items {
-        *:not(.popUpWindowCls *):not(.drawerSearch input.k-textbox) {
+        * {
             color: $drawer-color !important;
         }
 
