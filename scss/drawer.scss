@@ -7,17 +7,17 @@ $drawer-popUpWindowCls-color:#2e2e2e !default;
     border: 0 !important;
     background: $drawer-background-color !important;
 
-    .popUpWindowCls {
-        left: initial !important;
-        *{
-            color: $drawer-popUpWindowCls-color !important;
-        }
-        
-    }
-
     .k-drawer-items {
         * {
             color: $drawer-color !important;
+        }
+
+        .popUpWindowCls {
+            left: initial !important;
+
+            * {
+                color: $drawer-popUpWindowCls-color !important;
+            }
         }
 
         .k-drawer-item {
