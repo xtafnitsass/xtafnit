@@ -5,6 +5,7 @@
 
 .k-drawer .popUpWindowCls {
   left: initial !important;
+  color: #2e2e2e !important;
 }
 
 .k-drawer .k-drawer-items * {
