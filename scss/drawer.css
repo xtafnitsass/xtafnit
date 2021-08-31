@@ -3,6 +3,10 @@
   background: #575757 !important;
 }
 
+.k-drawer .popUpWindowCls {
+  left: initial !important;
+}
+
 .k-drawer .k-drawer-items * {
   color: #fff !important;
 }
