@@ -11,7 +11,7 @@ $drawer-color:#fff !default;
     }
 
     .k-drawer-items {
-        *:not(.popUpWindowCls *) {
+        *:not(.popUpWindowCls *):not(.drawerSearch input.k-textbox) {
             color: $drawer-color !important;
         }
 
