@@ -455,17 +455,13 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'drop-down';
-.k-drawer {
-  border: 0 !important;
-  background: #282830 !important;
-}
-
-.k-drawer .k-drawer-items * {
+.k-drawer .k-drawer-items *:not(.popUpWindowCls *) {
   color: #fff !important;
 }
 
-.k-drawer .k-drawer-items .popUpWindowCls * {
-  color: #2e2e2e !important;
+.k-drawer {
+  border: 0 !important;
+  background: #282830 !important;
 }
 
 .k-drawer .k-drawer-items .k-drawer-item {

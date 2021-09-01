@@ -3,22 +3,26 @@ $drawer-icon-color:#ff0000 !default;
 $drawer-color:#fff !default;
 $drawer-popUpWindowCls-color:#2e2e2e !default;
 
+.k-drawer .k-drawer-items *:not(.popUpWindowCls *){
+    color: $drawer-color !important;
+}
+
 .k-drawer {
     border: 0 !important;
     background: $drawer-background-color !important;
 
     .k-drawer-items {
-        * {
-            color: $drawer-color !important;
-        }
+        // * {
+        //     color: $drawer-color !important;
+        // }
 
-        .popUpWindowCls {
+        // .popUpWindowCls {
             
 
-            * {
-                color: $drawer-popUpWindowCls-color !important;
-            }
-        }
+        //     * {
+        //         color: $drawer-popUpWindowCls-color !important;
+        //     }
+        // }
 
         .k-drawer-item {
             background-image: none !important;
