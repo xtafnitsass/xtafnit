@@ -56,6 +56,10 @@ $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
 
+.websdkToolbar{
+    z-index: 1030!important;
+}
+
 .k-ltr {
     .x-lookup {
         .x-selection-lookup {
