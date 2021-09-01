@@ -2776,6 +2776,10 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.x-panelCtrl header {
+  z-index: 1030 !important;
+}
+
 .k-ltr .x-lookup .x-selection-lookup .x-form-control {
   border-left: 0px !important;
   min-height: 37px;
