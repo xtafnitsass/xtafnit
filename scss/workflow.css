@@ -601,10 +601,12 @@ ul.fieldlist {
 /*websdk*/
 .k-rtl .searchDesign .k-icon-wrapper {
   right: 15px;
+  left: initial !important;
 }
 
 .k-ltr .searchDesign .k-icon-wrapper {
   left: 15px;
+  right: initial !important;
 }
 
 .searchDesign input.k-textbox {
