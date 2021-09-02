@@ -3,7 +3,7 @@ $drawer-icon-color:#ff0000 !default;
 $drawer-color:#fff !default;
 $drawer-popUpWindowCls-color:#2e2e2e !default;
 
-.k-drawer .k-drawer-items *:not(.popUpWindowCls * , input.k-textbox){
+.k-drawer .k-drawer-items *:not(.popUpWindowCls * , input.k-textbox , .DrawerItem-icon){
     color: $drawer-color !important;
 }
 
