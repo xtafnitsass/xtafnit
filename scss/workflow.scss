@@ -702,6 +702,7 @@ ul.fieldlist {
     .searchDesign {
         .k-icon-wrapper {
             right: 15px;
+            left:initial!important;
         }
     }
 }
@@ -711,6 +712,7 @@ ul.fieldlist {
     .searchDesign {
         .k-icon-wrapper {
             left: 15px;
+            right:initial!important;
         }
     }
 }
