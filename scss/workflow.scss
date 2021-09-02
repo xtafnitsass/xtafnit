@@ -56,9 +56,9 @@ $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
 
-.x-panelCtrl{
-    header{
-        z-index: 1030!important;
+.x-panelCtrl {
+    header {
+        z-index: 1030 !important;
     }
 }
 
@@ -716,6 +716,15 @@ ul.fieldlist {
 }
 
 .searchDesign {
+    input.k-textbox {
+        text-indent: 15%!important;
+        border-radius: 20px!important;
+        border: 0!important;
+        background: white !important;
+        box-shadow: 0px 0px 8px #decdcd!important;
+        width: 250px!important;
+    }
+
     .k-autocomplete {
         background: transparent !important;
         box-shadow: none !important;
