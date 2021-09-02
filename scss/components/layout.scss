@@ -364,9 +364,25 @@ label {
     width: 100%;
 }
 
+.k-ltr {
+
+    .AutoComplete-icon,
+    .textControl-icon {
+        right: 10px;
+    }
+}
+
+.k-rtl {
+
+    .AutoComplete-icon,
+    .textControl-icon {
+        left: 10px;
+    }
+}
+
 .AutoComplete-icon,
 .textControl-icon {
     position: absolute;
     top: 7px;
-    left: 10px;
+
 }
