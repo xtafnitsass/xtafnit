@@ -93,7 +93,7 @@ img {
 
 .x-marquee {
     direction: ltr;
-    text-align: initial!important;
+    text-align: initial !important;
 }
 
 
@@ -104,7 +104,7 @@ input[type="checkbox"][readonly] {
 ul {
     &.fieldlist {
         padding: 0;
-        margin:0;
+        margin: 0;
     }
 }
 
@@ -257,10 +257,11 @@ a {
         font-size: 16px;
     }
 }
- 
+
 /*mandatory fileds*/
 .mandatory {
     &.active {
+
         +div .x-form-control,
         +div .x-password,
         +input,
@@ -363,7 +364,8 @@ label {
     width: 100%;
 }
 
-.AutoComplete-icon{
+.AutoComplete-icon,
+.textControl-icon {
     position: absolute;
     top: 7px;
     left: 10px;

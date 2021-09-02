@@ -373,7 +373,8 @@ label.btn {
   width: 100%;
 }
 
-.AutoComplete-icon {
+.AutoComplete-icon,
+.textControl-icon {
   position: absolute;
   top: 7px;
   left: 10px;
