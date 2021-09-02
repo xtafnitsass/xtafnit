@@ -607,6 +607,16 @@ ul.fieldlist {
   left: 15px;
 }
 
+.searchDesign input.k-textbox {
+  text-indent: 15% !important;
+  border-radius: 20px !important;
+  border: 0 !important;
+  background: white !important;
+  -webkit-box-shadow: 0px 0px 8px #decdcd !important;
+          box-shadow: 0px 0px 8px #decdcd !important;
+  width: 250px !important;
+}
+
 .searchDesign .k-autocomplete {
   background: transparent !important;
   -webkit-box-shadow: none !important;
