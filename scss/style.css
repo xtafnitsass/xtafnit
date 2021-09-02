@@ -455,7 +455,7 @@ mainbody .x-section-header-wrraper {
 }
 
 @forward 'drop-down';
-.k-drawer .k-drawer-items *:not(.popUpWindowCls *):not(input.k-textbox) {
+.k-drawer .k-drawer-items *:not(.popUpWindowCls *):not(input.k-textbox):not(.DrawerItem-icon) {
   color: #fff !important;
 }
 

@@ -1,4 +1,4 @@
-.k-drawer .k-drawer-items *:not(.popUpWindowCls *, input.k-textbox) {
+.k-drawer .k-drawer-items *:not(.popUpWindowCls *, input.k-textbox, .DrawerItem-icon) {
   color: #fff !important;
 }
 
