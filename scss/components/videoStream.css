@@ -43,6 +43,10 @@
   display: none;
 }
 
+.redRect.elips {
+  border-radius: 60%;
+}
+
 .xCanvasRTC {
   width: 100%;
   height: 100%;
