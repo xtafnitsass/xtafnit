@@ -3109,6 +3109,10 @@ mainbody .k-dropdown-wrap {
   min-height: 213px !important;
 }
 
+.cube-wrapper .cube:first-child {
+  border: 1px solid #8733af;
+}
+
 .cube-wrapper .cube:first-child .k-menu li.k-item i.k-icon {
   color: #8733af !important;
 }
