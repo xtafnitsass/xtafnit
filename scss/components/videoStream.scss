@@ -40,9 +40,11 @@
     position: absolute;
     border: 2px solid red;
     display: none;
-    &.elips{
-        border-radius: 60%;
-    }
+}
+
+.redElips {
+    @extend .redRect;
+    border-radius: 60%;
 }
 
 .xCanvasRTC {
