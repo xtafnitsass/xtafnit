@@ -2850,6 +2850,10 @@ progress[value]::-webkit-progress-value {
   background-color: #bd6fbc !important;
 }
 
+.k-drawer-container .k-drawer {
+  max-width: 280px;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header, .k-drawer-container .k-drawer .k-drawer-wrapper .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-container .k-drawer .k-drawer-wrapper td.k-header.k-state-focused.k-state-hover {
   font-weight: normal !important;
 }
