@@ -2781,6 +2781,21 @@ progress[value]::-webkit-progress-value {
   min-height: 37px;
 }
 
+.drawerItemScroller::-webkit-scrollbar {
+  width: 7px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.drawerItemScroller::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+.drawerItemScroller::-webkit-scrollbar-thumb:hover {
+  background: #6d6d6d;
+}
+
 .popupLookupGrid .k-grid-content tr td:first-child {
   text-decoration: underline;
   color: #3498db !important;
