@@ -73,6 +73,45 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
+
+
+.drawerItemScroller {
+    max-height: 540px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+        background: #fff;
+        border-radius: 20px;
+    }
+
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+
+        border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #6d6d6d;
+    }
+}
+
+
+@media only screen and(max-width:1200px) {
+    .drawerItemScroller {
+        max-height: 350px;
+
+    }
+}
+
+@media only screen and(max-width:576px) {
+    .drawerItemScroller {
+        max-height: 200px;
+
+    }
+}
+
 .popupLookupGrid {
     .k-grid-content {
         tr {
@@ -435,6 +474,7 @@ mainbody {
     .cube {
         &:first-child {
             border: 1px solid #8733af;
+
             .k-menu li.k-item i.k-icon {
                 color: #8733af !important;
             }
@@ -703,7 +743,7 @@ ul.fieldlist {
     .searchDesign {
         .k-icon-wrapper {
             right: 15px;
-            left:initial!important;
+            left: initial !important;
         }
     }
 }
@@ -713,19 +753,19 @@ ul.fieldlist {
     .searchDesign {
         .k-icon-wrapper {
             left: 15px;
-            right:initial!important;
+            right: initial !important;
         }
     }
 }
 
 .searchDesign {
     input.k-textbox {
-        text-indent: 15%!important;
-        border-radius: 20px!important;
-        border: 0!important;
+        text-indent: 15% !important;
+        border-radius: 20px !important;
+        border: 0 !important;
         background: white !important;
-        box-shadow: 0px 0px 8px #decdcd!important;
-        width: 250px!important;
+        box-shadow: 0px 0px 8px #decdcd !important;
+        width: 250px !important;
     }
 
     .k-autocomplete {
