@@ -147,7 +147,23 @@ $websdk-goUpArrow-background:#fafafa !default;
 .k-drawer-container {
     .k-drawer {
         max-width: 280px;
-
+        &::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+            background: #fff;
+            border-radius: 20px;
+        }
+    
+    
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+    
+            border-radius: 20px;
+        }
+    
+        &::-webkit-scrollbar-thumb:hover {
+            background: #6d6d6d;
+        }
         .k-drawer-wrapper {
             .k-link.k-header {
                 font-weight: normal !important;

@@ -2841,6 +2841,22 @@ progress[value]::-webkit-progress-value {
   max-width: 280px;
 }
 
+.k-drawer-container .k-drawer::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.k-drawer-container .k-drawer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+.k-drawer-container .k-drawer::-webkit-scrollbar-thumb:hover {
+  background: #6d6d6d;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header, .k-drawer-container .k-drawer .k-drawer-wrapper .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-container .k-drawer .k-drawer-wrapper td.k-header.k-state-focused.k-state-hover {
   font-weight: normal !important;
 }
