@@ -28,18 +28,6 @@
   background: #6d6d6d;
 }
 
-@media only screen and (max-width: 1200px) {
-  .drawerItemScroller {
-    max-height: 350px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .drawerItemScroller {
-    max-height: 200px;
-  }
-}
-
 .popupLookupGrid .k-grid-content tr td:first-child {
   text-decoration: underline;
   color: #3498db !important;
