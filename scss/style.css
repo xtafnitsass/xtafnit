@@ -2780,6 +2780,11 @@ progress[value]::-webkit-progress-value {
   min-height: 37px;
 }
 
+.drawerItemScroller {
+  max-height: 540px;
+  overflow: auto;
+}
+
 .drawerItemScroller::-webkit-scrollbar {
   width: 7px;
   background: #fff;
@@ -2793,6 +2798,18 @@ progress[value]::-webkit-progress-value {
 
 .drawerItemScroller::-webkit-scrollbar-thumb:hover {
   background: #6d6d6d;
+}
+
+@media only screen and (max-width: 1200px) {
+  .drawerItemScroller {
+    max-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .drawerItemScroller {
+    max-height: 200px;
+  }
 }
 
 .popupLookupGrid .k-grid-content tr td:first-child {

@@ -73,7 +73,12 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
+
+
 .drawerItemScroller {
+    max-height: 540px;
+    overflow: auto;
+
     &::-webkit-scrollbar {
         width: 7px;
         background: #fff;
@@ -89,6 +94,21 @@ $websdk-goUpArrow-background:#fafafa !default;
 
     &::-webkit-scrollbar-thumb:hover {
         background: #6d6d6d;
+    }
+}
+
+
+@media only screen and(max-width:1200px) {
+    .drawerItemScroller {
+        max-height: 350px;
+
+    }
+}
+
+@media only screen and(max-width:576px) {
+    .drawerItemScroller {
+        max-height: 200px;
+
     }
 }
 
