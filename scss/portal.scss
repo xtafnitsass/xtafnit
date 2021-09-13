@@ -716,16 +716,24 @@ mainbody {
 
 .contentGridRowsHeaderGridCols {
     .k-grid-header {
-        border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+        border: 1px solid $suppliers-gridTemplates-border-color !important;
 
         th:not([data-title=' ']) {
             border-left: 1px solid $suppliers-gridTemplates-border-color !important;
         }
     }
+    .k-grid-content{
+        border-right: $suppliers-gridTemplates-border-color !important;
+        border-bottom: $suppliers-gridTemplates-border-color !important;
+    }
 }
 
 .contentGridRowsAndCols {
     .k-grid {
+        .k-grid-header {
+            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+        }
+
         .k-grid-content {
             td {
                 border-left: 1px solid $suppliers-gridTemplates-border-color !important;

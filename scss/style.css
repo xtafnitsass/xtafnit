@@ -690,7 +690,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
-  width: 10px;
+  width: 17px;
   height: 10px;
   background: #dfdbdb;
 }
@@ -1465,11 +1465,20 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .contentGridRowsHeaderGridCols .k-grid-header {
-  border-bottom: 1px solid #d8d8d8 !important;
+  border: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsHeaderGridCols .k-grid-header th:not([data-title=' ']) {
   border-left: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-content {
+  border-right: #d8d8d8 !important;
+  border-bottom: #d8d8d8 !important;
+}
+
+.contentGridRowsAndCols .k-grid .k-grid-header {
+  border-bottom: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsAndCols .k-grid .k-grid-content td {
