@@ -96,6 +96,10 @@
   background: #6d6d6d;
 }
 
+.k-drawer-container .k-drawer .k-drawer-wrapper .x-dynamic-label-control:hover {
+  font-weight: bold !important;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header {
   font-weight: normal !important;
 }
