@@ -100,6 +100,10 @@
   font-weight: normal !important;
 }
 
+.k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header.k-state-hover {
+  font-weight: bold !important;
+}
+
 .details .right > div:first-child {
   top: 0px !important;
 }

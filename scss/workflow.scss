@@ -184,6 +184,9 @@ $websdk-goUpArrow-background:#fafafa !default;
         .k-drawer-wrapper {
             .k-link.k-header {
                 font-weight: normal !important;
+                &.k-state-hover{
+                    font-weight: bold !important;
+                }
             }
         }
     }

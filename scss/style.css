@@ -2873,6 +2873,10 @@ progress[value]::-webkit-progress-value {
   font-weight: normal !important;
 }
 
+.k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header.k-state-hover, .k-drawer-container .k-drawer .k-drawer-wrapper .k-calendar .k-calendar-view td.k-header.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer-container .k-drawer .k-drawer-wrapper td.k-header.k-state-hover.k-state-focused {
+  font-weight: bold !important;
+}
+
 .details .right > div:first-child {
   top: 0px !important;
 }
