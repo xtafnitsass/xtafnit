@@ -699,7 +699,7 @@ mainbody {
 .headerAndContentGridRowsAndCols {
     .k-grid {
         .k-grid-header {
-            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+            border: 1px solid $suppliers-gridTemplates-border-color !important;
 
             th:not([data-title=' ']) {
                 border-left: 1px solid $suppliers-gridTemplates-border-color !important;
@@ -707,6 +707,9 @@ mainbody {
         }
 
         .k-grid-content {
+            border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+
             td {
                 border-left: 1px solid $suppliers-gridTemplates-border-color !important;
             }
@@ -722,7 +725,8 @@ mainbody {
             border-left: 1px solid $suppliers-gridTemplates-border-color !important;
         }
     }
-    .k-grid-content{
+
+    .k-grid-content {
         border-right: $suppliers-gridTemplates-border-color !important;
         border-bottom: $suppliers-gridTemplates-border-color !important;
     }
