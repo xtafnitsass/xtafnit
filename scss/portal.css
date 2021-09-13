@@ -516,7 +516,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .headerAndContentGridRowsAndCols .k-grid .k-grid-content {
-  border-left: 1px solid #d8d8d8 !important;
+  border-right: 1px solid #d8d8d8 !important;
   border-bottom: 1px solid #d8d8d8 !important;
 }
 
@@ -533,8 +533,8 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .contentGridRowsHeaderGridCols .k-grid-content {
-  border-right: #d8d8d8 !important;
-  border-bottom: #d8d8d8 !important;
+  border-right: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsAndCols .k-grid .k-grid-header {
