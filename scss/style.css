@@ -2801,6 +2801,18 @@ progress[value]::-webkit-progress-value {
   background: #6d6d6d;
 }
 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .drawerItemScroller {
+    max-height: 300px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .drawerItemScroller {
+    max-height: 300px;
+  }
+}
+
 .popupLookupGrid .k-grid-content tr td:first-child {
   text-decoration: underline;
   color: #3498db !important;
