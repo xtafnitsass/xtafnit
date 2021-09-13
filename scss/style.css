@@ -2850,7 +2850,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-drawer-container .k-drawer {
-  max-width: 280px;
+  max-width: 340px;
 }
 
 .k-drawer-container .k-drawer::-webkit-scrollbar {
