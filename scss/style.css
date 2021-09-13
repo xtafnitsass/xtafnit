@@ -2870,6 +2870,10 @@ progress[value]::-webkit-progress-value {
   background: #6d6d6d;
 }
 
+.k-drawer-container .k-drawer .k-drawer-wrapper .x-dynamic-label-control:hover {
+  font-weight: bold !important;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper .k-link.k-header, .k-drawer-container .k-drawer .k-drawer-wrapper .k-calendar .k-calendar-view td.k-header.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-drawer-container .k-drawer .k-drawer-wrapper td.k-header.k-state-focused.k-state-hover {
   font-weight: normal !important;
 }
