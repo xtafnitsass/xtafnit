@@ -507,6 +507,30 @@ mainbody .gridHeaderButton .kIconPaint {
   margin: auto;
 }
 
+.headerAndContentGridRowsAndCols .k-grid .k-grid-header {
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.headerAndContentGridRowsAndCols .k-grid .k-grid-header th:not([data-title=' ']) {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.headerAndContentGridRowsAndCols .k-grid .k-grid-content td {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-header {
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-header th:not([data-title=' ']) {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsAndCols .k-grid .k-grid-content td {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .dotIcon {
     width: 55px !important;
