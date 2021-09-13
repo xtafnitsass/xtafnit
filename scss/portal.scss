@@ -49,7 +49,7 @@ $suppliers-icon-tachometer: #464247 !default;
 $suppliers-datepicker-font-size:14px !default;
 $suppliers-drawer-hamburger-font-size:25px !default;
 $suppliers-grid-content-color-button:#fff !default;
-$suppliers-gridTemplates-border-color:#d8d8d8 !default;
+$suppliers-gridTemplates-border-color:1px solid #d8d8d8 !default;
 
 
 
@@ -699,19 +699,19 @@ mainbody {
 .headerAndContentGridRowsAndCols {
     .k-grid {
         .k-grid-header {
-            border: 1px solid $suppliers-gridTemplates-border-color !important;
+            border: $suppliers-gridTemplates-border-color !important;
 
             th:not([data-title=' ']) {
-                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+                border-left: $suppliers-gridTemplates-border-color !important;
             }
         }
 
         .k-grid-content {
-            border-left: 1px solid $suppliers-gridTemplates-border-color !important;
-            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+            border-right: $suppliers-gridTemplates-border-color !important;
+            border-bottom: $suppliers-gridTemplates-border-color !important;
 
             td {
-                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+                border-left: $suppliers-gridTemplates-border-color !important;
             }
         }
     }
@@ -719,10 +719,10 @@ mainbody {
 
 .contentGridRowsHeaderGridCols {
     .k-grid-header {
-        border: 1px solid $suppliers-gridTemplates-border-color !important;
+        border: $suppliers-gridTemplates-border-color !important;
 
         th:not([data-title=' ']) {
-            border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+            border-left: $suppliers-gridTemplates-border-color !important;
         }
     }
 
@@ -735,12 +735,12 @@ mainbody {
 .contentGridRowsAndCols {
     .k-grid {
         .k-grid-header {
-            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+            border-bottom: $suppliers-gridTemplates-border-color !important;
         }
 
         .k-grid-content {
             td {
-                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+                border-left: $suppliers-gridTemplates-border-color !important;
             }
         }
     }
