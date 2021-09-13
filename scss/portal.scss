@@ -49,6 +49,7 @@ $suppliers-icon-tachometer: #464247 !default;
 $suppliers-datepicker-font-size:14px !default;
 $suppliers-drawer-hamburger-font-size:25px !default;
 $suppliers-grid-content-color-button:#fff !default;
+$suppliers-gridTemplates-border-color:#d8d8d8 !default;
 
 
 
@@ -67,8 +68,8 @@ body {
     }
 }
 
-.roundedAvatar{
-    img{
+.roundedAvatar {
+    img {
         border-radius: 50%;
     }
 }
@@ -693,6 +694,45 @@ mainbody {
 //------------------------------------------------------------bootstrapClass and XId//
 
 //class//
+
+
+.headerAndContentGridRowsAndCols {
+    .k-grid {
+        .k-grid-header {
+            border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+
+            th:not([data-title=' ']) {
+                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+            }
+        }
+
+        .k-grid-content {
+            td {
+                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+            }
+        }
+    }
+}
+
+.contentGridRowsHeaderGridCols {
+    .k-grid-header {
+        border-bottom: 1px solid $suppliers-gridTemplates-border-color !important;
+
+        th:not([data-title=' ']) {
+            border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+        }
+    }
+}
+
+.contentGridRowsAndCols {
+    .k-grid {
+        .k-grid-content {
+            td {
+                border-left: 1px solid $suppliers-gridTemplates-border-color !important;
+            }
+        }
+    }
+}
 
 .dotIcon {
 
@@ -1393,15 +1433,15 @@ mainbody {
     }
 }
 
-.k-rtl{
-    .cube-top{
-        padding-left:0;
+.k-rtl {
+    .cube-top {
+        padding-left: 0;
     }
 }
 
-.k-ltr{
-    .cube-top{
-        padding-right:0;
+.k-ltr {
+    .cube-top {
+        padding-right: 0;
     }
 }
 
