@@ -1453,41 +1453,41 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .headerAndContentGridRowsAndCols .k-grid .k-grid-header {
-  border: #d8d8d8 !important;
+  border: 1px solid #d8d8d8 !important;
 }
 
 .headerAndContentGridRowsAndCols .k-grid .k-grid-header th:not([data-title=' ']) {
-  border-left: #d8d8d8 !important;
+  border-left: 1px solid #d8d8d8 !important;
 }
 
 .headerAndContentGridRowsAndCols .k-grid .k-grid-content {
-  border-right: #d8d8d8 !important;
-  border-bottom: #d8d8d8 !important;
+  border-right: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
 }
 
 .headerAndContentGridRowsAndCols .k-grid .k-grid-content td {
-  border-left: #d8d8d8 !important;
+  border-left: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsHeaderGridCols .k-grid-header {
-  border: #d8d8d8 !important;
+  border: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsHeaderGridCols .k-grid-header th:not([data-title=' ']) {
-  border-left: #d8d8d8 !important;
+  border-left: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsHeaderGridCols .k-grid-content {
-  border-right: #d8d8d8 !important;
-  border-bottom: #d8d8d8 !important;
+  border-right: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsAndCols .k-grid .k-grid-header {
-  border-bottom: #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
 }
 
 .contentGridRowsAndCols .k-grid .k-grid-content td {
-  border-left: #d8d8d8 !important;
+  border-left: 1px solid #d8d8d8 !important;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
