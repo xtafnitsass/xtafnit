@@ -690,7 +690,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-auto-scrollable::-webkit-scrollbar {
-  width: 17px;
+  width: 10px;
   height: 10px;
   background: #dfdbdb;
 }
