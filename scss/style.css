@@ -3529,6 +3529,10 @@ ul.fieldlist {
   opacity: 0.8;
 }
 
+.k-rtl .k-grid-header th.k-with-icon .k-link, .k-rtl .k-grid-header th.k-with-icon .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-rtl .k-grid-header th.k-with-icon td.k-state-focused.k-state-hover {
+  margin-left: 0 !important;
+}
+
 .gridHeight50 .k-grid-content {
   height: 50px !important;
 }
