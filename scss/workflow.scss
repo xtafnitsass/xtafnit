@@ -837,6 +837,10 @@ ul.fieldlist {
     opacity: 0.8;
 }
 
+.k-rtl .k-grid-header th.k-with-icon .k-link {
+    margin-left: 0!important;
+}
+
 
 
 @mixin gridHeight($selectors...) {
