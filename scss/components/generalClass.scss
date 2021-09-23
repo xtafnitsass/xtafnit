@@ -130,16 +130,23 @@
     width: 250px;
     z-index: 1029;
     padding-top: 50px;
-    height: 100%;
+    height: 95.6%;
     background: white;
 }
 
 .leftStudio {
     left: 0;
+    overflow: auto;
+    font-size: 14px;
 }
 
 .rightStudio {
     right: 0;
+}
+
+.mainPanel{
+    height:750px;
+    margin:auto;
 }
 
 
