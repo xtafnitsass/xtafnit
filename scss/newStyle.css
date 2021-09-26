@@ -3586,6 +3586,18 @@ input.k-input[dir="ltr"] + .k-clear-value {
   font-size: 14px;
 }
 
+.k-calendar .k-calendar-view tbody tr td {
+  position: relative;
+}
+
+.k-calendar .k-calendar-view tbody tr td a .x-calendar-date-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 10px;
+}
+
 .x-compass-arrow {
   position: static;
   width: auto;
