@@ -73,7 +73,18 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
-
+.lastColumnLinkView {
+    .k-grid-content {
+        tr {
+            td {
+                &:first-child {
+                    text-decoration: underline;
+                    color: #3498db !important;
+                }
+            }
+        }
+    }
+}
 
 .drawerItemScroller {
     max-height: 540px;
@@ -127,8 +138,8 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
-.border-studio{
-    border:1px solid #ccc!important;
+.border-studio {
+    border: 1px solid #ccc !important;
     border-radius: 20px;
 }
 
@@ -843,7 +854,7 @@ ul.fieldlist {
 }
 
 .k-rtl .k-grid-header th.k-with-icon .k-link {
-    margin-left: 0!important;
+    margin-left: 0 !important;
 }
 
 
@@ -854,7 +865,7 @@ ul.fieldlist {
     @for $i from 0 to length($selectors) {
         #{nth($selectors, $i + 1)} {
             .k-grid-content {
-                height: $height + px!important;
+                height: $height + px !important;
             }
         }
 
