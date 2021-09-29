@@ -114,7 +114,7 @@
 
 .leftStudio,
 .rightStudio {
-  position: fixed;
+  position: absolute;
   bottom: 38px;
   top: 42px;
   width: 250px;
