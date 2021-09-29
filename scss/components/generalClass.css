@@ -115,8 +115,7 @@
 .leftStudio,
 .rightStudio {
   position: absolute;
-  bottom: 38px;
-  top: 42px;
+  top: 10px;
   width: 250px;
   z-index: 1029;
   height: 95.6%;
