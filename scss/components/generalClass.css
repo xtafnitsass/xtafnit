@@ -124,11 +124,6 @@
   background: white;
 }
 
-.border-studio {
-  border: 1px solid #ccc !important;
-  border-radius: 20px;
-}
-
 .leftStudio {
   left: 0;
   overflow: auto;
