@@ -77,7 +77,7 @@ $websdk-goUpArrow-background:#fafafa !default;
     .k-grid-content {
         tr {
             td {
-                &:first-child {
+                &:last-child {
                     text-decoration: underline;
                     color: #3498db !important;
                 }
