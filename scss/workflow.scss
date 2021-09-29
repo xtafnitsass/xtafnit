@@ -127,6 +127,11 @@ $websdk-goUpArrow-background:#fafafa !default;
     }
 }
 
+.border-studio{
+    border:1px solid #ccc!important;
+    border-radius: 20px;
+}
+
 .x-autocomplete-header-template {
     display: flex;
     justify-content: space-around;
