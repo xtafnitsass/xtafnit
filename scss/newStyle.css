@@ -444,11 +444,6 @@ select:-webkit-autofill:focus {
   padding: 0px 250px;
 }
 
-#TafnitCore_System_UI_App_WebSDK > mainbody {
-  height: 600px;
-  overflow: auto;
-}
-
 /*Unknow*/
 label.btn {
   padding: 0;
@@ -596,7 +591,6 @@ label.btn {
   z-index: 1029;
   height: 95.6%;
   background: white;
-  overflow: auto;
 }
 
 .leftStudio {
