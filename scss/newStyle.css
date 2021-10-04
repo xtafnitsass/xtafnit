@@ -445,7 +445,7 @@ select:-webkit-autofill:focus {
 }
 
 #TafnitCore_System_UI_App_WebSDK > mainbody {
-  height: 758px;
+  height: 600px;
   overflow: auto;
 }
 
@@ -609,7 +609,7 @@ label.btn {
 }
 
 .mainPanel {
-  height: 750px;
+  height: 600px;
   margin: auto;
 }
 
