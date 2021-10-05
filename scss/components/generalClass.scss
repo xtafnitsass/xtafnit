@@ -85,10 +85,18 @@
 }
 
 /*for UXStudio*/
+.border-studio {
+    &.focus {
+        border: 5px solid rgb(255, 239, 165) !important;
+        transition: 0.2s all;
+    }
+}
+
 .focus {
     border: 5px solid rgb(255, 239, 165) !important;
     transition: 0.2s all;
 }
+
 
 /*uknown*/
 
@@ -144,9 +152,9 @@
     right: 0;
 }
 
-.mainPanel{
-    height:600px;
-    margin:auto;
+.mainPanel {
+    height: 600px;
+    margin: auto;
     overflow: auto;
 }
 
