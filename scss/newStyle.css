@@ -607,6 +607,7 @@ label.btn {
 .mainPanel {
   height: 600px;
   margin: auto;
+  overflow: auto;
 }
 
 .fixDynamicLabelFontWeightBold .x-control-caption-text,
