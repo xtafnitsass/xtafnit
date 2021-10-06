@@ -55,6 +55,7 @@ $websdk-mandatory-input-background:#efe7f4 !default;
 $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
+$websdk-grid-content-height: 45vh!default;
 
 .x-panelCtrl {
     header {
@@ -857,23 +858,29 @@ ul.fieldlist {
     margin-left: 0 !important;
 }
 
-
-
-@mixin gridHeight($selectors...) {
-    $height: 50;
-
-    @for $i from 0 to length($selectors) {
-        #{nth($selectors, $i + 1)} {
-            .k-grid-content {
-                height: $height + px !important;
-            }
-        }
-
-        $height:$height+50;
+.k-grid {
+    .k-grid-content{
+        height: initial!important;
+        max-height: $websdk-grid-content-height;
     }
 }
 
-@include gridHeight(".gridHeight50", ".gridHeight100", ".gridHeight150", ".gridHeight200",
-    ".gridHeight250", ".gridHeight300", ".gridHeight350", ".gridHeight400", ".gridHeight450", ".gridHeight500");
+
+// @mixin gridHeight($selectors...) {
+//     $height: 50;
+
+//     @for $i from 0 to length($selectors) {
+//         #{nth($selectors, $i + 1)} {
+//             .k-grid-content {
+//                 height: $height + px !important;
+//             }
+//         }
+
+//         $height:$height+50;
+//     }
+// }
+
+// @include gridHeight(".gridHeight50", ".gridHeight100", ".gridHeight150", ".gridHeight200",
+//     ".gridHeight250", ".gridHeight300", ".gridHeight350", ".gridHeight400", ".gridHeight450", ".gridHeight500");
 
 @forward 'workflow';
