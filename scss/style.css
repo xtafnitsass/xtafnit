@@ -3543,9 +3543,44 @@ ul.fieldlist {
   margin-left: 0 !important;
 }
 
-.k-grid .k-grid-content {
-  height: initial !important;
-  max-height: 45vh;
+.gridHeight50 .k-grid-content {
+  height: 50px !important;
+}
+
+.gridHeight100 .k-grid-content {
+  height: 100px !important;
+}
+
+.gridHeight150 .k-grid-content {
+  height: 150px !important;
+}
+
+.gridHeight200 .k-grid-content {
+  height: 200px !important;
+}
+
+.gridHeight250 .k-grid-content {
+  height: 250px !important;
+}
+
+.gridHeight300 .k-grid-content {
+  height: 300px !important;
+}
+
+.gridHeight350 .k-grid-content {
+  height: 350px !important;
+}
+
+.gridHeight400 .k-grid-content {
+  height: 400px !important;
+}
+
+.gridHeight450 .k-grid-content {
+  height: 450px !important;
+}
+
+.gridHeight500 .k-grid-content {
+  height: 500px !important;
 }
 
 @forward 'workflow';
