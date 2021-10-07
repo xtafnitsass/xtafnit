@@ -86,13 +86,13 @@
 
 /*for UXStudio*/
 .border-studio {
-    &.focus {
+    &.uxElementfocus {
         border: 5px solid rgb(255, 239, 165) !important;
         transition: 0.2s all;
     }
 }
 
-.focus {
+.uxElementfocus {
     border: 5px solid rgb(255, 239, 165) !important;
     transition: 0.2s all;
 }

@@ -73,13 +73,13 @@
 }
 
 /*for UXStudio*/
-.border-studio.focus {
+.border-studio.uxElementfocus {
   border: 5px solid #ffefa5 !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
-.focus {
+.uxElementfocus {
   border: 5px solid #ffefa5 !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
