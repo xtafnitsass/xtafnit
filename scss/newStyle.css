@@ -598,7 +598,7 @@ label.btn {
 .rightStudio {
   position: absolute;
   top: 10px;
-  width: 250px;
+  width: 15%;
   z-index: 1029;
   height: 95.6%;
   background: white;
@@ -619,7 +619,7 @@ label.btn {
   height: 600px;
   margin: auto;
   overflow: auto;
-  max-width: 73%;
+  max-width: 71%;
 }
 
 .fixDynamicLabelFontWeightBold .x-control-caption-text,
