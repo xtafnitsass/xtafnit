@@ -97,6 +97,11 @@
     transition: 0.2s all;
 }
 
+.xstudioMainpanelCol {
+    background: #efefef;
+    min-height: 500px;
+}
+
 
 /*uknown*/
 
@@ -156,6 +161,7 @@
     height: 600px;
     margin: auto;
     overflow: auto;
+    max-width: 73%;
 }
 
 

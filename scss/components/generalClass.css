@@ -85,6 +85,11 @@
   transition: 0.2s all;
 }
 
+.xstudioMainpanelCol {
+  background: #efefef;
+  min-height: 500px;
+}
+
 /*uknown*/
 .iframe-border-0 iframe {
   border: 0;
@@ -143,6 +148,7 @@
   height: 600px;
   margin: auto;
   overflow: auto;
+  max-width: 73%;
 }
 
 .fixDynamicLabelFontWeightBold .x-control-caption-text,
