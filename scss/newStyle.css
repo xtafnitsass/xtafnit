@@ -3611,8 +3611,8 @@ input.k-input[dir="ltr"] + .k-clear-value {
   top: 0;
   left: 0;
   width: 100%;
-  font-size: 10px;
-  color: #003f59;
+  font-size: 14px;
+  color: red;
   font-weight: bold;
 }
 
