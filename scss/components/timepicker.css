@@ -20,6 +20,10 @@
   height: 36px;
 }
 
+.xstyle-timepicker-wrapper input[type="time"] {
+  height: 36px;
+}
+
 /*timerange unknow*/
 .x-notification {
   display: none;
