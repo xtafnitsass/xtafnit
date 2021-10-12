@@ -711,7 +711,7 @@ label.btn {
 
 /*recipete service*/
 .rececipt-border-dashed {
-  border: 1px dashed #999191;
+  border: 1px dashed #999191 !important;
 }
 
 .rececipt-icon-color {
@@ -737,11 +737,11 @@ label.btn {
 }
 
 .rececipt-gradient {
-  background: -webkit-gradient(linear, left bottom, left top, from(#d1d1d1), to(transparent));
-  background: linear-gradient(360deg, #d1d1d1, transparent);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-radius: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#d1d1d1), to(transparent)) !important;
+  background: linear-gradient(360deg, #d1d1d1, transparent) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
 .p-floating-container {

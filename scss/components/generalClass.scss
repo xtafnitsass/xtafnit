@@ -286,7 +286,7 @@
 /*recipete service*/
 
 .rececipt-border-dashed {
-    border: 1px dashed #999191;
+    border: 1px dashed #999191!important;
 }
 
 .rececipt-icon-color {
@@ -313,7 +313,7 @@
 }
 
 .rececipt-gradient {
-    background: linear-gradient(360deg, #d1d1d1, transparent);
-    box-shadow: none;
-    border-radius: 0;
+    background: linear-gradient(360deg, #d1d1d1, transparent)!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
 }
