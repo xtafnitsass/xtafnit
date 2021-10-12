@@ -293,9 +293,10 @@
     color: black !important;
 }
 
-.rececipt-foldPage{
-    background:#eee!important;
+.rececipt-foldPage {
+    background: #eee !important;
 }
+
 .rececipt-foldPage:before {
     content: "";
     position: absolute;
@@ -309,4 +310,10 @@
     -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.rececipt-gradient {
+    background: linear-gradient(360deg, #d1d1d1, transparent);
+    box-shadow: none;
+    border-radius: 0;
 }
