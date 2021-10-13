@@ -3543,44 +3543,9 @@ ul.fieldlist {
   margin-left: 0 !important;
 }
 
-.gridHeight50 .k-grid-content {
-  height: 50px !important;
-}
-
-.gridHeight100 .k-grid-content {
-  height: 100px !important;
-}
-
-.gridHeight150 .k-grid-content {
-  height: 150px !important;
-}
-
-.gridHeight200 .k-grid-content {
-  height: 200px !important;
-}
-
-.gridHeight250 .k-grid-content {
-  height: 250px !important;
-}
-
-.gridHeight300 .k-grid-content {
-  height: 300px !important;
-}
-
-.gridHeight350 .k-grid-content {
-  height: 350px !important;
-}
-
-.gridHeight400 .k-grid-content {
-  height: 400px !important;
-}
-
-.gridHeight450 .k-grid-content {
-  height: 450px !important;
-}
-
-.gridHeight500 .k-grid-content {
-  height: 500px !important;
+.k-grid .k-grid-content {
+  height: initial !important;
+  max-height: 45vh;
 }
 
 @forward 'workflow';
@@ -4467,4 +4432,13 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 }
 
 @forward 'required';
+#MessageBoxWindow #controlCell3Container > div > .row > .col {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 50% !important;
+          flex: 0 0 50% !important;
+}
+
+#MessageBoxWindow #controlCell3Container > div > .row > .col:last-child {
+  margin-top: 0 !important;
+}
 /*# sourceMappingURL=style.css.map */
