@@ -351,14 +351,12 @@ select:-webkit-autofill:focus {
     padding: 0px 250px;
 }
 
-// #TafnitCore_System_UI_App_WebSDK_UXStudio {
-//     #TafnitCore_System_UI_App_WebSDK {
-//         >mainbody {
-//             height: 600px;
-//             overflow: auto;
-//         }
-//     }
-// }
+#TafnitCore_System_UI_App_WebSDK_UXStudio {
+    #TafnitCore_System_UI_App_WebSDK {
+        height: 495px;
+        margin-bottom: 0;
+    }
+}
 
 /*Unknow*/
 
