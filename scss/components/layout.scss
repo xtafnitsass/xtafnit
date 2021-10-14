@@ -352,9 +352,24 @@ select:-webkit-autofill:focus {
 }
 
 #TafnitCore_System_UI_App_WebSDK_UXStudio {
+    .k-tabstrip .k-content.k-state-active {
+        background-color: #efefef;
+    }
+
     #TafnitCore_System_UI_App_WebSDK {
         height: 495px;
         margin-bottom: 0;
+
+        mainbody {
+            >.row {
+                min-height: 50px;
+
+                >.col {
+                    min-height: 50px;
+                }
+            }
+        }
+
     }
 }
 
