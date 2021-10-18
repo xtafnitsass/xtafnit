@@ -364,31 +364,37 @@ select:-webkit-autofill:focus {
   padding: 0px 250px;
 }
 
+#TafnitCore_System_UI_App_Tools_UXStudio .k-tabstrip .k-content.k-state-active,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .k-tabstrip .k-content.k-state-active {
   background-color: #efefef;
 }
 
-#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK {
+#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer {
   height: 495px;
   margin-bottom: 0;
 }
 
-#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK .xstyle-tab-wrapper .k-content > .row {
+#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row {
   min-height: 50px;
   padding: 10px;
 }
 
-#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK .xstyle-tab-wrapper .k-content > .row > .col {
+#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col {
   min-height: 50px;
   padding: 10px;
 }
 
-#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK mainbody > .row {
+#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer mainbody > .row,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer mainbody > .row {
   min-height: 50px;
   padding: 10px;
 }
 
-#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK mainbody > .row > .col {
+#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer mainbody > .row > .col,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer mainbody > .row > .col {
   min-height: 50px;
   padding: 10px;
 }
