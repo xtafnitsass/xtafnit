@@ -144,6 +144,7 @@
     height: 95.6%;
     background: white;
     overflow: auto;
+    resize: horizontal;
 }
 
 
@@ -151,6 +152,7 @@
     left: 0;
     overflow: auto;
     font-size: 14px;
+    direction: ltr;
 }
 
 .rightStudio {
