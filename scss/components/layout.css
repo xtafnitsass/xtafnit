@@ -373,6 +373,15 @@ select:-webkit-autofill:focus {
   margin-bottom: 0;
 }
 
+#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK .xstyle-tab-wrapper .k-content > .row {
+  min-height: 50px;
+  padding: 10px;
+}
+
+#TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK .xstyle-tab-wrapper .k-content > .row > .col {
+  min-height: 50px;
+}
+
 #TafnitCore_System_UI_App_WebSDK_UXStudio #TafnitCore_System_UI_App_WebSDK mainbody > .row {
   min-height: 50px;
 }

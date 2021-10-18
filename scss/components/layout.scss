@@ -360,6 +360,19 @@ select:-webkit-autofill:focus {
         height: 495px;
         margin-bottom: 0;
 
+        .xstyle-tab-wrapper {
+            .k-content {
+                >.row {
+                    min-height: 50px;
+                    padding:10px;
+
+                    >.col {
+                        min-height: 50px;
+                    }
+                }
+            }
+        }
+
         mainbody {
             >.row {
                 min-height: 50px;
