@@ -368,6 +368,7 @@ select:-webkit-autofill:focus {
 
                     >.col {
                         min-height: 50px;
+                        padding:10px;
                     }
                 }
             }
@@ -376,9 +377,11 @@ select:-webkit-autofill:focus {
         mainbody {
             >.row {
                 min-height: 50px;
+                padding:10px;
 
                 >.col {
                     min-height: 50px;
+                    padding:10px;
                 }
             }
         }
