@@ -632,6 +632,7 @@ label.btn {
 
 .rightStudio {
   right: 0;
+  direction: rtl;
 }
 
 .mainPanel {
