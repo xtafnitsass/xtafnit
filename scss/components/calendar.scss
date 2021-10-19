@@ -1,18 +1,24 @@
-.k-calendar{
-    .k-calendar-view{
-        tbody{
-            tr{
-                td{
+.k-calendar {
+    .k-heaer {
+        a {
+            color: inherit !important;
+        }
+    }
+
+    .k-calendar-view {
+        tbody {
+            tr {
+                td {
                     position: relative;
-                    a{
-                        color:inherit!important;
-                        .x-calendar-date-caption{
+
+                    a {
+                        .x-calendar-date-caption {
                             position: absolute;
                             top: 0;
-                            left:0;
-                            width:100%;
+                            left: 0;
+                            width: 100%;
                             font-size: 14px;
-                            color:red;
+                            color: red;
                             font-weight: bold;
                         }
                     }

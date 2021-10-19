@@ -1,9 +1,9 @@
-.k-calendar .k-calendar-view tbody tr td {
-  position: relative;
+.k-calendar .k-heaer a {
+  color: inherit !important;
 }
 
-.k-calendar .k-calendar-view tbody tr td a {
-  color: inherit !important;
+.k-calendar .k-calendar-view tbody tr td {
+  position: relative;
 }
 
 .k-calendar .k-calendar-view tbody tr td a .x-calendar-date-caption {
