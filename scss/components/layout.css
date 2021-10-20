@@ -364,10 +364,6 @@ select:-webkit-autofill:focus {
 }
 
 /*ux studio web studio*/
-.x-panelCtrl #TafnitCore_System_UI_App_WebSDK_UXStudio header {
-  z-index: 1032 !important;
-}
-
 #TafnitCore_System_UI_App_Tools_UXStudio .k-tabstrip .k-content.k-state-active,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .k-tabstrip .k-content.k-state-active {
   background-color: #efefef;
