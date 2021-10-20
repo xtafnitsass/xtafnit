@@ -352,7 +352,13 @@ select:-webkit-autofill:focus {
 }
 
 /*ux studio web studio*/
-
+.x-panelCtrl {
+    #TafnitCore_System_UI_App_WebSDK_UXStudio {
+        header {
+            z-index: 1032 !important;
+        }
+    }
+}
 
 #TafnitCore_System_UI_App_Tools_UXStudio,
 #TafnitCore_System_UI_App_WebSDK_UXStudio {

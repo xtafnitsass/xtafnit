@@ -1,3 +1,11 @@
+.k-calendar a.k-button {
+  color: inherit !important;
+}
+
+.k-calendar a.k-button:hover {
+  background: initial !important;
+}
+
 .k-calendar .k-calendar-view tbody tr td {
   position: relative;
 }
