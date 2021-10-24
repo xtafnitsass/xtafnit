@@ -359,6 +359,12 @@ select:-webkit-autofill:focus {
         background-color: #efefef;
     }
 
+    .xstudioRow,
+    .xstudioCol {
+        min-height: 50px;
+        padding: 10px;
+    }
+
     .xtafnit_pageContainer {
         height: 495px;
         margin-bottom: 0;
@@ -376,19 +382,6 @@ select:-webkit-autofill:focus {
                 }
             }
         }
-
-        mainbody {
-            >.row {
-                min-height: 50px;
-                padding: 10px;
-
-                >.col {
-                    min-height: 50px;
-                    padding: 10px;
-                }
-            }
-        }
-
     }
 }
 

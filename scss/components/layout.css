@@ -369,6 +369,14 @@ select:-webkit-autofill:focus {
   background-color: #efefef;
 }
 
+#TafnitCore_System_UI_App_Tools_UXStudio .xstudioRow,
+#TafnitCore_System_UI_App_Tools_UXStudio .xstudioCol,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioRow,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioCol {
+  min-height: 50px;
+  padding: 10px;
+}
+
 #TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer {
   height: 495px;
@@ -383,18 +391,6 @@ select:-webkit-autofill:focus {
 
 #TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col {
-  min-height: 50px;
-  padding: 10px;
-}
-
-#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer mainbody > .row,
-#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer mainbody > .row {
-  min-height: 50px;
-  padding: 10px;
-}
-
-#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer mainbody > .row > .col,
-#TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer mainbody > .row > .col {
   min-height: 50px;
   padding: 10px;
 }
