@@ -952,6 +952,7 @@ header .fal.fa-home {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1031;
 }
 
 .navbar-fixed-top .x-control-wrapper {
