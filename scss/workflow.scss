@@ -74,6 +74,10 @@ $websdk-grid-content-height: 45vh!default;
     }
 }
 
+.navbar-fixed-top {
+    z-index: initial!important;
+}
+
 .lastColumnLinkView {
     .k-grid-content {
         tr {

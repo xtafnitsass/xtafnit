@@ -2818,6 +2818,10 @@ progress[value]::-webkit-progress-value {
   min-height: 37px;
 }
 
+.navbar-fixed-top {
+  z-index: initial !important;
+}
+
 .lastColumnLinkView .k-grid-content tr td:last-child {
   text-decoration: underline;
   color: #3498db !important;
