@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,iBAFS,CACb,sBAAsB,GACjB,GAAG,GAAC,IAAI,GAAC,OAAO,CAAC;EACd,IAAI,EAAE,kBAAkB;CAK3B;;AART,AAKY,iBALK,CACb,sBAAsB,GACjB,GAAG,GAAC,IAAI,GAAC,OAAO,AAGZ,WAAW,CAAC;EACT,UAAU,EAAE,YAAY;CAC3B",
+    "sources": [
+        "sunday.scss"
+    ],
+    "names": [],
+    "file": "sunday.css"
+}
