@@ -1,7 +1,10 @@
 $stepper-background:transparent !default;
+$stepper-fisrt-icon-border-color:#BD2E39 !default;
+$stepper-fisrt-icon-background:#BD2E39 !default;
+$stepper-fisrt-icon-color:#fff !default;
 $stepper-icon-border-color:#BD2E39 !default;
 $stepper-icon-background:#BD2E39 !default;
-$stepper-icon-color:#fff !default;
+$stepper-icon-color:#BD2E39 !default;
 $stepper-line-border-color:#171957 !default;
 
 .k-stepper {
@@ -18,11 +21,11 @@ $stepper-line-border-color:#171957 !default;
 
     .k-step-current {
         .k-step-indicator {
-            border-color: $stepper-icon-border-color !important;
-            background-color: $stepper-icon-background !important;
+            border-color: $stepper-fisrt-icon-border-color !important;
+            background-color: $stepper-fisrt-icon-background !important;
 
             .k-step-indicator-icon {
-                color: $stepper-icon-color !important;
+                color: $stepper-fisrt-icon-color !important;
             }
         }
     }
