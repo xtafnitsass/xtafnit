@@ -608,17 +608,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #efe7f4 !important;
+  background-color: #e7e7f4 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #efe7f4 !important;
+  background: #e7e7f4 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #efe7f4 !important;
+  background: #e7e7f4 !important;
   color: #000 !important;
 }
 
@@ -654,8 +654,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #5e1780), color-stop(163%, #7f2ba7), color-stop(163%, #171957));
-  background: linear-gradient(to top, #5e1780 -46%, #7f2ba7 163%, #171957 163%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #080935), color-stop(163%, #171957), color-stop(163%, #171957));
+  background: linear-gradient(to top, #080935 -46%, #171957 163%, #171957 163%);
 }
 
 .k-grid .k-grid-pager .k-link:hover, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-focused.k-state-hover:hover {
@@ -857,23 +857,23 @@ input[type="time"] {
 }
 
 .k-slider .k-draghandle {
-  border-color: #000;
-  background-color: #000;
+  border-color: #e14b4b;
+  background-color: #e14b4b;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .k-slider .k-draghandle:hover {
-  border-color: #000;
-  background-color: #000;
+  border-color: #e14b4b;
+  background-color: #e14b4b;
 }
 
 .k-slider .k-slider-selection {
-  background-color: #000;
+  background-color: #e14b4b;
 }
 
 .k-slider .k-slider-track {
-  background-color: #0167b1;
+  background-color: #e1e4e9;
 }
 
 @forward 'slider';
@@ -1610,11 +1610,11 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .fixIcon .k-icon-wrapper {
-  background-color: #f2f7fd;
+  background-color: #171957;
   width: 70px;
   border-radius: 50%;
   height: 70px;
-  color: #171957;
+  color: #fff;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1678,7 +1678,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .light-blue .k-button {
-  background: #02b5fd !important;
+  background: #BD2E39 !important;
 }
 
 .dotIcon {

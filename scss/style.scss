@@ -164,10 +164,10 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#efe7f4;
+$grid-content-line-background-hover:#e7e7f4;
 $grid-content-line-background-hover-amount:0;
 $grid-content-line-color-hover:#000;
-$grid-content-line-background-selected:#efe7f4;
+$grid-content-line-background-selected:#e7e7f4;
 $grid-content-line-color-selected:#000;
 $grid-content-border:none;
 $grid-content-border-left:none;
@@ -175,7 +175,7 @@ $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#fdf9ff;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background: linear-gradient(to top, #5e1780 -46%, #7f2ba7 163%, #171957 163%);
+$grid-pager-nav-background: linear-gradient(to top, #080935 -46%, #171957 163%, #171957 163%);
 $grid-pager-nav-border:#171957;
 $grid-pager-nav-background-hover:#171957;
 $grid-pager-nav-color-hover:#ebebeb;
@@ -247,12 +247,12 @@ $tabstrip-arrow-top-position:10px;
 
 /*slider*/
 
-$slider-selection-color:#000;
-$slider-track-color:#0167b1;
-$slider-draghandle-border-color:#000;
-$slider-draghandle-background-color:#000;
-$slider-draghandle-border-color-hover:#000;
-$slider-draghandle-background-color-hover:#000;
+$slider-selection-color:#e14b4b;
+$slider-track-color:#e1e4e9;
+$slider-draghandle-border-color:#e14b4b;
+$slider-draghandle-background-color:#e14b4b;
+$slider-draghandle-border-color-hover:#e14b4b;
+$slider-draghandle-background-color-hover:#e14b4b;
 
 /*rating*/
 
@@ -308,10 +308,10 @@ $suppliers-grid-header-color:#b7b7b7;
 $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:none;
 $suppliers-rectInv-background:#f6e9fe;
-$suppliers-window-btn-background-color:#02b5fd;
-$suppliers-window-fixicon-color:#171957;
+$suppliers-window-btn-background-color:#BD2E39;
+$suppliers-window-fixicon-color:#fff;
 $suppliers-toolbar-goBack-color:#02b5fd;
-$suppliers-window-fixicon-backgronud:#f2f7fd;
+$suppliers-window-fixicon-backgronud:#171957;
 $suppliers-radio-scoller-radius:5px;
 $suppliers-radio-scoller-background:#02b5fd;
 $suppliers-radio-scoller-width:5px;
