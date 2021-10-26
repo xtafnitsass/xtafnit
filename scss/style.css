@@ -85,11 +85,11 @@
 
 @forward 'autocomplete';
 header.k-header {
-  background-color: #fafafa !important;
+  background-color: #F4F4F4 !important;
 }
 
 header.k-header .k-toolbar {
-  background-color: #fafafa;
+  background-color: #F4F4F4;
   border: none;
   color: #464247;
 }
@@ -945,7 +945,7 @@ input[type="time"] {
 
 @forward 'link';
 body {
-  background-color: #fafafa !important;
+  background-color: #F4F4F4 !important;
   font-family: Heebo;
 }
 
@@ -3751,11 +3751,11 @@ ul.fieldlist {
 @forward './tooltip';
 @media only screen and (max-width: 1281px) {
   header.k-header {
-    background-color: #fafafa !important;
+    background-color: #F4F4F4 !important;
     border-bottom-left-radius: 15px;
   }
   header.k-header .k-toolbar {
-    background: #fafafa;
+    background: #F4F4F4;
     border-bottom-left-radius: 15px;
   }
   header .k-icon,
