@@ -50,7 +50,7 @@ $suppliers-datepicker-font-size:14px !default;
 $suppliers-drawer-hamburger-font-size:25px !default;
 $suppliers-grid-content-color-button:#fff !default;
 $suppliers-gridTemplates-border-color:1px solid #d8d8d8 !default;
-
+$suppliers-window-btn-hover-color:#fff !default;
 
 
 
@@ -928,6 +928,10 @@ mainbody {
 .light-blue {
     .k-button {
         background: $suppliers-window-btn-background-color !important;
+
+        &:hover {
+            color: $suppliers-window-btn-hover-color !important;
+        }
     }
 }
 

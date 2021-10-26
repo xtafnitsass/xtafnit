@@ -6,6 +6,9 @@ $stepper-icon-border-color:#BD2E39 !default;
 $stepper-icon-background:#BD2E39 !default;
 $stepper-icon-color:#BD2E39 !default;
 $stepper-line-border-color:#171957 !default;
+$stepper-tooltip-background:#171957 !default;
+$stepper-tooltip-color:#fff !default;
+$stepper-tooltip-border-color:#171957 !default;
 
 .k-stepper {
     background-color: $stepper-background;
@@ -33,6 +36,12 @@ $stepper-line-border-color:#171957 !default;
     .k-progressbar {
         border-color: $stepper-line-border-color !important;
     }
+}
+
+.k-tooltip.k-slider-tooltip {
+    background: $stepper-tooltip-background !important;
+    border-color: $stepper-tooltip-border-color !important;
+    color: $stepper-tooltip-color !important;
 }
 
 @forward 'stepper';
