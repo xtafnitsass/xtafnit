@@ -2760,6 +2760,28 @@ progress[value]::-webkit-progress-value {
   background-color: transparent;
 }
 
+.k-stepper .k-step-indicator {
+  border-color: #BD2E39 !important;
+  background-color: #BD2E39 !important;
+}
+
+.k-stepper .k-step-indicator .k-step-indicator-icon {
+  color: #fff !important;
+}
+
+.k-stepper .k-step-current .k-step-indicator {
+  border-color: #BD2E39 !important;
+  background-color: #BD2E39 !important;
+}
+
+.k-stepper .k-step-current .k-step-indicator .k-step-indicator-icon {
+  color: #fff !important;
+}
+
+.k-stepper .k-progressbar {
+  border-color: #171957 !important;
+}
+
 @forward 'stepper';
 .k-menu {
   background: transparent;
