@@ -2763,7 +2763,7 @@ progress[value]::-webkit-progress-value {
 
 .k-stepper .k-step-indicator {
   border-color: #BD2E39 !important;
-  background-color: #BD2E39 !important;
+  background-color: #fff !important;
 }
 
 .k-stepper .k-step-indicator .k-step-indicator-icon {
