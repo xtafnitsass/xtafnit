@@ -2767,7 +2767,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-stepper .k-step-indicator .k-step-indicator-icon {
-  color: #fff !important;
+  color: #BD2E39 !important;
 }
 
 .k-stepper .k-step-current .k-step-indicator {
