@@ -1,7 +1,35 @@
-$stepper-background:transparent!default;
+$stepper-background:transparent !default;
+$stepper-icon-border-color:#BD2E39 !default;
+$stepper-icon-background:#BD2E39 !default;
+$stepper-icon-color:#fff !default;
+$stepper-line-border-color:#171957 !default;
 
-.k-stepper{
-    background-color:$stepper-background;
+.k-stepper {
+    background-color: $stepper-background;
+
+    .k-step-indicator {
+        border-color: $stepper-icon-border-color !important;
+        background-color: $stepper-icon-background !important;
+
+        .k-step-indicator-icon {
+            color: $stepper-icon-color !important;
+        }
+    }
+
+    .k-step-current {
+        .k-step-indicator {
+            border-color: $stepper-icon-border-color !important;
+            background-color: $stepper-icon-background !important;
+
+            .k-step-indicator-icon {
+                color: $stepper-icon-color !important;
+            }
+        }
+    }
+
+    .k-progressbar {
+        border-color: $stepper-line-border-color !important;
+    }
 }
 
 @forward 'stepper';
