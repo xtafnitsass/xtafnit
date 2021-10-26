@@ -736,6 +736,10 @@ mainbody .gridHeaderButton .kIconPaint {
   background: #02b5fd !important;
 }
 
+.light-blue .k-button:hover {
+  color: #fff !important;
+}
+
 .dotIcon {
   position: absolute;
   bottom: 49%;

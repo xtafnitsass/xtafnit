@@ -1685,6 +1685,10 @@ mainbody .gridHeaderButton .kIconPaint {
   background: #02b5fd !important;
 }
 
+.light-blue .k-button:hover {
+  color: #fff !important;
+}
+
 .dotIcon {
   position: absolute;
   bottom: 49%;
@@ -2780,6 +2784,12 @@ progress[value]::-webkit-progress-value {
 
 .k-stepper .k-progressbar {
   border-color: #171957 !important;
+}
+
+.k-tooltip.k-slider-tooltip {
+  background: #171957 !important;
+  border-color: #171957 !important;
+  color: #fff !important;
 }
 
 @forward 'stepper';

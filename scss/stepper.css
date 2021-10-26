@@ -24,5 +24,11 @@
   border-color: #171957 !important;
 }
 
+.k-tooltip.k-slider-tooltip {
+  background: #171957 !important;
+  border-color: #171957 !important;
+  color: #fff !important;
+}
+
 @forward 'stepper';
 /*# sourceMappingURL=stepper.css.map */
