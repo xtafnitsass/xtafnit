@@ -333,9 +333,12 @@ $link-text-underling:underline;
 /*stepper*/
 
 $stepper-background:transparent;
+$stepper-fisrt-icon-border-color:#BD2E39;
+$stepper-fisrt-icon-background:#BD2E39;
+$stepper-fisrt-icon-color:#fff;
 $stepper-icon-border-color:#BD2E39;
 $stepper-icon-background:#BD2E39;
-$stepper-icon-color:#fff;
+$stepper-icon-color:#BD2E39;
 $stepper-line-border-color:#171957;
 
 /*menu*/
@@ -504,4 +507,4 @@ $suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup', './login', './required','./sunday';
+'./portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup', './login', './required', './sunday';
