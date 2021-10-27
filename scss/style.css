@@ -1869,7 +1869,7 @@ mainbody .gridHeaderButton .kIconPaint {
   line-height: 1.25;
   letter-spacing: 1.31px;
   text-align: center;
-  background: #f7e8ff;
+  background: #e8ebff;
   top: -5px;
   position: relative;
 }
@@ -3587,7 +3587,7 @@ ul.fieldlist {
 
 .k-grid .k-grid-content {
   height: initial !important;
-  max-height: 45vh;
+  max-height: 30vh;
 }
 
 @forward 'workflow';
