@@ -1988,15 +1988,15 @@ mainbody .gridHeaderButton .kIconPaint {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   margin-top: 5px;
 }
 
 .cube-wrapper .cube:first-child {
-  background: #F7E8FF !important;
+  background: #e8ebff !important;
 }
 
 .cube-wrapper .cube:first-child span {
@@ -2368,8 +2368,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
-          box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
+          box-shadow: 0 10px 20px 0 rgba(175, 51, 51, 0.1) !important;
 }
 
 @media screen and (min-height: 800px) {
@@ -3025,7 +3025,7 @@ progress[value]::-webkit-progress-value {
       -ms-flex-align: center;
           align-items: center;
   font-size: 30px;
-  color: #8733af;
+  color: #171957;
   position: fixed;
   bottom: 70px;
   right: 70px;
@@ -3065,7 +3065,7 @@ legend {
 
 .k-menu-group .x-link_Comp {
   text-decoration: none !important;
-  color: #8733af !important;
+  color: #171957 !important;
   font-weight: normal !important;
   font-size: 16px;
   border-bottom: 1px solid #dedede;
@@ -3091,7 +3091,7 @@ legend {
 
 #tbHeader > span {
   font-size: 30px;
-  color: #953bbf;
+  color: #171957;
 }
 
 #tbHeader > span > span {
