@@ -369,8 +369,10 @@ select:-webkit-autofill:focus {
   background-color: #efefef;
 }
 
+#TafnitCore_System_UI_App_Tools_UXStudio .xstudioTab,
 #TafnitCore_System_UI_App_Tools_UXStudio .xstudioRow,
 #TafnitCore_System_UI_App_Tools_UXStudio .xstudioCol,
+#TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioTab,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioRow,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioCol {
   min-height: 50px;
