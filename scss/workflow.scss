@@ -57,6 +57,7 @@ $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
 $websdk-grid-content-height: 45vh!default;
 $workflow-cube-first-border-color:#8733af!default;
+$workflow-cube-first-menu-dot-color:#8733af!default;
 
 .x-panelCtrl {
     header {
@@ -531,7 +532,7 @@ mainbody {
             border: 1px solid $workflow-cube-first-border-color;
 
             .k-menu li.k-item i.k-icon {
-                color: #8733af !important;
+                color: $workflow-cube-first-menu-dot-color!important;
             }
 
             .k-menu .xMenuItemColor span {
@@ -541,7 +542,7 @@ mainbody {
             &.workflow {
                 .openSubTotal {
                     .x-dynamic-label-control {
-                        color: #8733af !important;
+                        color: $workflow-cube-first-cube-openSubTotal-color !important;
                     }
                 }
 
