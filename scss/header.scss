@@ -3,6 +3,7 @@ $header-border: none !default;
 $header-color:#000 !default;
 
 header {
+    background-image: none!important;
     &.k-header {
         background-color: $header-background !important;
 
@@ -11,6 +12,7 @@ header {
             background-color: $header-background;
             border: $header-border;
             color: $header-color;
+            background-image: none!important;
         }
     }
 

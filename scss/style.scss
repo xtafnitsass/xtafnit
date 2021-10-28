@@ -324,7 +324,7 @@ $suppliers-datepicker-font-size:18px;
 $suppliers-drawer-hamburger-font-size:25px;
 $suppliers-grid-content-color-button:#9e30bf;
 $suppliers-gridTemplates-border-color:1px solid #d8d8d8;
-
+$suppliers-window-btn-hover-color:#fff;
 
 
 /*link*/
@@ -335,6 +335,17 @@ $link-text-underling:underline;
 /*stepper*/
 
 $stepper-background:transparent;
+$stepper-fisrt-icon-border-color:#BD2E39;
+$stepper-fisrt-icon-background:#BD2E39;
+$stepper-fisrt-icon-color:#fff;
+$stepper-icon-border-color:#BD2E39;
+$stepper-icon-background:#BD2E39;
+$stepper-icon-color:#BD2E39;
+$stepper-line-border-color:#171957;
+$stepper-tooltip-background:#171957;
+$stepper-tooltip-color:#fff;
+$stepper-tooltip-border-color:#171957;
+
 
 /*menu*/
 
@@ -408,6 +419,8 @@ $workflow-cube-first-cube-openSubTotal-color:#fff;
 $workflow-drawer-separator:#bd6fbc;
 $websdk-goUpArrow-background:#fafafa;
 $websdk-grid-content-height: 45vh;
+$workflow-cube-first-border-color:#8733af;
+$workflow-cube-first-menu-dot-color:#8733af;
 
 /*timeline*/
 
