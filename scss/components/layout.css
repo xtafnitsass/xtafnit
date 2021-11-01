@@ -364,14 +364,14 @@ select:-webkit-autofill:focus {
 }
 
 /*ux studio web studio*/
-#TafnitCore_System_UI_App_Tools_UXStudio .k-tabstrip .k-content.k-state-active,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .k-tabstrip .k-content.k-state-active,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .k-tabstrip .k-content.k-state-active {
   background-color: #efefef;
 }
 
-#TafnitCore_System_UI_App_Tools_UXStudio .xstudioTab,
-#TafnitCore_System_UI_App_Tools_UXStudio .xstudioRow,
-#TafnitCore_System_UI_App_Tools_UXStudio .xstudioCol,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioTab,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioRow,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioCol,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioTab,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioRow,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xstudioCol {
@@ -379,19 +379,19 @@ select:-webkit-autofill:focus {
   padding: 10px;
 }
 
-#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xtafnit_pageContainer,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer {
   height: 495px;
   margin-bottom: 0;
 }
 
-#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row {
   min-height: 50px;
   padding: 10px;
 }
 
-#TafnitCore_System_UI_App_Tools_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col,
+#TafnitCore_System_UI_App_Tools_Studio_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col,
 #TafnitCore_System_UI_App_WebSDK_UXStudio .xtafnit_pageContainer .xstyle-tab-wrapper .k-content > .row > .col {
   min-height: 50px;
   padding: 10px;
