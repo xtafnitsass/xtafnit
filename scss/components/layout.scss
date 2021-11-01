@@ -406,6 +406,12 @@ label {
     .textControl-icon {
         right: 10px;
     }
+    .AutoComplete-icon2{
+        right: 30px;
+        border-right: 1px solid #ccc;
+        padding: 0px 5px;
+    }
+   
 }
 
 .k-rtl {
@@ -413,6 +419,11 @@ label {
     .AutoComplete-icon,
     .textControl-icon {
         left: 10px;
+    }
+    .AutoComplete-icon2{
+        left: 30px;
+        border-left: 1px solid #ccc;
+        padding: 0px 5px;
     }
 }
 
