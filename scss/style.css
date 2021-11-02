@@ -4547,4 +4547,14 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 label.k-checkbox-label {
   font-size: 16px !important;
 }
+
+.xstyle-intlphonenumber-wrapper .flag-container input {
+  border-top: 1px solid #464247 !important;
+  border-bottom: 1px solid #464247 !important;
+  border-left: 1px solid #464247 !important;
+  border-right: 1px solid #464247 !important;
+  border-radius: 0 !important;
+  color: #000 !important;
+  background: #fafafa !important;
+}
 /*# sourceMappingURL=style.css.map */
