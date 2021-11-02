@@ -5,6 +5,10 @@
   background: #e63b3b;
 }
 
+.k-checkbox .k-checkbox-label {
+  color: #003f59 !important;
+}
+
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 0;
   border-color: #070707;
