@@ -4019,4 +4019,14 @@ ul.fieldlist {
 label.k-checkbox-label {
   font-size: 16px !important;
 }
+
+.xstyle-intlphonenumber-wrapper .flag-container input {
+  border-top: 0 !important;
+  border-bottom: 1px solid #464247 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-radius: 0 !important;
+  color: #000 !important;
+  background: #fafafa !important;
+}
 /*# sourceMappingURL=style.css.map */
