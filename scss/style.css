@@ -4548,7 +4548,7 @@ label.k-checkbox-label {
   font-size: 16px !important;
 }
 
-.xstyle-intlphonenumber-wrapper .flag-container input {
+.xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
   border-left: 1px solid #464247 !important;
