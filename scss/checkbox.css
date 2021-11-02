@@ -5,7 +5,7 @@
   background: #e63b3b;
 }
 
-.k-checkbox .k-checkbox-label {
+.k-checkbox + .k-checkbox-label {
   color: #003f59 !important;
 }
 

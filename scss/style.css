@@ -184,7 +184,7 @@ header.k-header .k-toolbar {
   background: #f7f8f9;
 }
 
-.k-checkbox .k-checkbox-label {
+.k-checkbox + .k-checkbox-label {
   color: #003f59 !important;
 }
 
@@ -3217,6 +3217,10 @@ legend {
   color: #464247 !important;
   font-size: 14px !important;
   font-weight: bold;
+}
+
+mainbody .xstyle-dynamiclabelcontrol-wrapper .x-dynamic-label-control {
+  font-size: 14px !important;
 }
 
 .p-floating-container input:not(:placeholder-shown) + label {
