@@ -3192,50 +3192,50 @@ legend {
 }
 
 ::-webkit-input-placeholder {
-  color: #003f59 !important;
-  font-size: 16px !important;
+  color: #464247 !important;
+  font-size: 14px !important;
   font-weight: bold;
 }
 
 :-ms-input-placeholder {
-  color: #003f59 !important;
-  font-size: 16px !important;
+  color: #464247 !important;
+  font-size: 14px !important;
   font-weight: bold;
 }
 
 ::-ms-input-placeholder {
-  color: #003f59 !important;
-  font-size: 16px !important;
+  color: #464247 !important;
+  font-size: 14px !important;
   font-weight: bold;
 }
 
 ::placeholder {
-  color: #003f59 !important;
-  font-size: 16px !important;
+  color: #464247 !important;
+  font-size: 14px !important;
   font-weight: bold;
 }
 
 .p-floating-container input:not(:placeholder-shown) + label {
-  font-size: 16px !important;
-  color: #003f59 !important;
+  font-size: 14px !important;
+  color: #464247 !important;
 }
 
 .p-floating-container textarea:not(:placeholder-shown) + label {
-  font-size: 16px !important;
-  color: #003f59 !important;
+  font-size: 14px !important;
+  color: #464247 !important;
 }
 
 .k-textbox,
 .k-dropdown input {
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 
 .xstyle-checkbox-wrapper {
-  font-size: 16px !important;
+  font-size: 14px !important;
 }
 
 .xstyle-checkbox-wrapper label {
-  color: #003f59 !important;
+  color: #464247 !important;
 }
 
 span.mandatory.active + div .x-form-control,
