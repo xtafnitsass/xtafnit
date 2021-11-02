@@ -515,6 +515,16 @@ $suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
 
 $funding-checkbox-label-font-size:16px;
 
+/*phone*/
+
+$phone-border-top-color:1px solid #464247;
+$phone-border-bottom-color:1px solid #464247;
+$phone-border-left-color:1px solid #464247;
+$phone-border-right-color:1px solid #464247;
+$phone-background-color:#fafafa;
+$phone-color:#000;
+$phone-border-radius:0;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
