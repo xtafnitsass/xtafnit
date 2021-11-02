@@ -36,6 +36,7 @@
 /*lookup*/
 /*websdk*/
 /*required*/
+/*funding*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #BD2E39 !important;
@@ -4012,5 +4013,9 @@ ul.fieldlist {
 .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-link, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover, .k-tabstrip .k-tabstrip-items .k-item.k-state-active .k-calendar .k-calendar-view td.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-tabstrip .k-tabstrip-items .k-item.k-state-active td.k-state-focused.k-state-hover {
   color: #9e30bf !important;
   opacity: 1 !important;
+}
+
+label.k-checkbox-label {
+  font-size: 16px !important;
 }
 /*# sourceMappingURL=style.css.map */
