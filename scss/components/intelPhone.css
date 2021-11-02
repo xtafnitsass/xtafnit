@@ -11,6 +11,10 @@
   font-size: 30px;
 }
 
+.x-phoneNumber_wrapper .intl-tel-input {
+  width: 100%;
+}
+
 .x-phoneNumber_wrapper .intl-tel-input.separate-dial-code .selected-dial-code {
   direction: ltr;
   line-height: 2.2;
