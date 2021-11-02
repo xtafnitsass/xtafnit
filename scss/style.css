@@ -36,6 +36,7 @@
 /*lookup*/
 /*websdk*/
 /*required*/
+/*funding*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000;
@@ -4540,5 +4541,9 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 
 #MessageBoxWindow #controlCell3Container > div > .row > .col-12:last-child {
   margin-top: 0 !important;
+}
+
+label.k-checkbox-label {
+  font-size: 16px !important;
 }
 /*# sourceMappingURL=style.css.map */
