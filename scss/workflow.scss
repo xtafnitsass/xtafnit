@@ -430,13 +430,6 @@ legend {
     font-size: $websdk-inputs-font-size !important;
     font-weight: bold;
 }
-mainbody{
-    .xstyle-dynamiclabelcontrol-wrapper {
-        .x-dynamic-label-control {
-            font-size: $websdk-inputs-font-size !important;
-        }
-    }
-}
 
 .p-floating-container input:not(:placeholder-shown)+label {
     font-size: $websdk-inputs-font-size !important;
