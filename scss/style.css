@@ -184,6 +184,10 @@ header.k-header .k-toolbar {
   background: #ebebeb;
 }
 
+.k-checkbox .k-checkbox-label {
+  color: #003f59 !important;
+}
+
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 0;
   border-color: #2e2e2e;
