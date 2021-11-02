@@ -2877,6 +2877,31 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.uxStudioOptions {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #dbccdb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uxStudioOptions.option2 {
+  background: #CAC;
+}
+
+.uxStudioOptions.option3 {
+  background: #b175b1;
+}
+
 .x-panelCtrl header {
   z-index: 1030 !important;
 }

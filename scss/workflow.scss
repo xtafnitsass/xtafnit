@@ -59,6 +59,23 @@ $websdk-grid-content-height: 45vh!default;
 $workflow-cube-first-border-color:#8733af!default;
 $workflow-cube-first-menu-dot-color:#8733af!default;
 
+.uxStudioOptions{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbccdb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    &.option2{
+        background: #CAC;
+    }
+    &.option3{
+        background: #b175b1;
+    }
+}
+
 .x-panelCtrl {
     header {
         z-index: 1030 !important;
