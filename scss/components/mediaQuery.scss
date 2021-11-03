@@ -124,4 +124,14 @@ $breakpoint-xl: 1200px;
     .xLookupFullDescription{
         right: 71%!important;
     }
+
+    .k-stepper  {
+        .k-step-label {
+            .k-step-text{
+                white-space: break-spaces!important;
+                max-width: calc(5em - 20px)!important;
+            }
+        }
+        
+    }
 }
