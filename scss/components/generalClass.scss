@@ -66,6 +66,15 @@
     height: 106%;
 }
 
+.phone-disabled {
+    position: absolute;
+    width: 90px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1029;
+}
+
 /*highlight -- for grid*/
 
 .highlight {
@@ -289,7 +298,7 @@
 /*recipete service*/
 
 .rececipt-border-dashed {
-    border: 1px dashed #999191!important;
+    border: 1px dashed #999191 !important;
 }
 
 .rececipt-icon-color {
@@ -316,7 +325,7 @@
 }
 
 .rececipt-gradient {
-    background: linear-gradient(360deg, #d1d1d1, transparent)!important;
-    box-shadow: none!important;
-    border-radius: 0!important;
+    background: linear-gradient(360deg, #d1d1d1, transparent) !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
 }

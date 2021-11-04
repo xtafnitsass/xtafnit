@@ -53,6 +53,15 @@
   height: 106%;
 }
 
+.phone-disabled {
+  position: absolute;
+  width: 90px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1029;
+}
+
 /*highlight -- for grid*/
 .highlight {
   background-color: #FFFF88;
