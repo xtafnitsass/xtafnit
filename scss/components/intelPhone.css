@@ -29,13 +29,4 @@
 .k-rtl .intl-tel-input.separate-dial-code .selected-dial-code {
   float: left !important;
 }
-
-.xstyle-intlphonenumber-wrapper.disabledPhoneSide .flag-container {
-  position: absolute;
-  top: -5px;
-  left: 0;
-  right: 0;
-  z-index: 1029;
-  height: 106%;
-}
 /*# sourceMappingURL=intelPhone.css.map */
