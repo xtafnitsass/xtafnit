@@ -1,4 +1,5 @@
 $funding-checkbox-label-font-size:16px !default;
+$funding-x-section-header-wrapper:transparent !default;
 
 label.k-checkbox-label {
     font-size: $funding-checkbox-label-font-size !important;
@@ -13,5 +14,6 @@ label.k-checkbox-label {
 mainbody {
     .x-section-header-wrapper {
         background-image: none !important;
+        background-color: $funding-x-section-header-wrapper !important;
     }
 }
