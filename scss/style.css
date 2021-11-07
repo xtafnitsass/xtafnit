@@ -4552,6 +4552,10 @@ label.k-checkbox-label {
   min-height: 200px !important;
 }
 
+mainbody .x-section-header-wrapper {
+  background-image: none !important;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
