@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,KAAK,AAAA,iBAAiB,CAAC;EACnB,SAAS,EAHqB,IAAI,CAGW,UAAU;CAC1D",
+    "mappings": "AAEA,AAAA,KAAK,AAAA,iBAAiB,CAAC;EACnB,SAAS,EAHqB,IAAI,CAGW,UAAU;CAC1D;;AAED,AACI,aADS,CACT,KAAK,CAAC;EACF,UAAU,EAAE,gBAAgB;CAC/B",
     "sources": [
         "funding.scss"
     ],
