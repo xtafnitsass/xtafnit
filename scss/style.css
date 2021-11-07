@@ -2039,7 +2039,7 @@ mainbody .gridHeaderButton .kIconPaint {
 
 .cube-wrapper .cube .x-image-wrapper,
 .cube-wrapper .cube .k-icon-wrapper {
-  background-image: linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
+  background-image: transparent;
   border-radius: 50%;
   position: relative;
   left: 10px;
@@ -2057,7 +2057,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .cube-wrapper .cube .k-icon-wrapper {
-  color: #43b1e5;
+  color: #171957;
 }
 
 .cube-wrapper .cube > div:last-child .x-dynamic-label-control {
