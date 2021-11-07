@@ -267,7 +267,7 @@ header.k-header .k-toolbar {
 }
 
 mainbody > .row {
-  background-color: transparent;
+  background-color: #fff;
   -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
           box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1);
   border-radius: 20px;
@@ -277,12 +277,12 @@ mainbody > .row {
 }
 
 mainbody .x-section-header-wrapper {
-  background-color: transparent;
+  background-color: #fff;
   color: #171957;
 }
 
 mainbody .x-section-header-wrraper {
-  background: transparent;
+  background: #fff;
   border: 0;
 }
 
