@@ -1,5 +1,7 @@
 $funding-checkbox-label-font-size:16px !default;
 $funding-x-section-header-wrapper:transparent !default;
+$funding-grid-button-color:#fff !default;
+$funding-grid-button-hover-color : #BD2E39 !default;
 
 label.k-checkbox-label {
     font-size: $funding-checkbox-label-font-size !important;
@@ -15,5 +17,21 @@ mainbody {
     .x-section-header-wrapper {
         background-image: none !important;
         background-color: $funding-x-section-header-wrapper !important;
+    }
+}
+
+
+.k-grid {
+    .k-grid-content {
+        td {
+            a {
+                &.k-button {
+                    color: $funding-grid-button-color !important;
+                    &:hover{
+                        color: $funding-grid-button-hover-color !important;
+                    }
+                }
+            }
+        }
     }
 }

@@ -4557,6 +4557,14 @@ mainbody .x-section-header-wrapper {
   background-color: transparent !important;
 }
 
+.k-grid .k-grid-content td a.k-button {
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content td a.k-button:hover {
+  color: #BD2E39 !important;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
