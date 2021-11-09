@@ -448,11 +448,6 @@ select:-webkit-autofill:focus {
 }
 
 /*ux studio web studio*/
-#TafnitCore_System_UI_App_Tools_Studio_UXStudio,
-#TafnitCore_System_UI_App_WebSDK_UXStudio {
-  background-color: #efefef;
-}
-
 #TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioTab,
 #TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioRow,
 #TafnitCore_System_UI_App_Tools_Studio_UXStudio .xstudioCol,
