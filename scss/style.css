@@ -4049,7 +4049,7 @@ mainbody .x-section-header-wrapper {
 }
 
 .triple-spinner {
-  border-top: #32323a;
+  border-top: 4px solid #32323a;
 }
 
 .triple-spinner::before {
