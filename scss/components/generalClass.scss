@@ -329,3 +329,9 @@
     box-shadow: none !important;
     border-radius: 0 !important;
 }
+
+.image-border-raduis{
+    img{
+        border-radius: 50%;
+    }
+}

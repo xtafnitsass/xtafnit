@@ -800,6 +800,10 @@ label.btn {
   border-radius: 0 !important;
 }
 
+.image-border-raduis img {
+  border-radius: 50%;
+}
+
 .p-floating-container {
   position: relative;
 }
