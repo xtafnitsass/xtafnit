@@ -38,6 +38,7 @@
 /*required*/
 /*funding*/
 /*phone*/
+/*spinner*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #ca0000;
@@ -4573,5 +4574,17 @@ mainbody .x-section-header-wrapper {
   border-radius: 0 !important;
   color: #000 !important;
   background: #fafafa !important;
+}
+
+.triple-spinner {
+  border-top: #32323a;
+}
+
+.triple-spinner::before {
+  border-top-color: #171957;
+}
+
+.triple-spinner::after {
+  border-top-color: #BD2E39;
 }
 /*# sourceMappingURL=style.css.map */
