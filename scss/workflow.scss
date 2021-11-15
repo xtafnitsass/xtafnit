@@ -55,9 +55,28 @@ $websdk-mandatory-input-background:#efe7f4 !default;
 $workflow-cube-first-cube-openSubTotal-color:#fff !default;
 $workflow-drawer-separator:#bd6fbc !default;
 $websdk-goUpArrow-background:#fafafa !default;
-$websdk-grid-content-height: 45vh!default;
-$workflow-cube-first-border-color:#8733af!default;
-$workflow-cube-first-menu-dot-color:#8733af!default;
+$websdk-grid-content-height: 45vh !default;
+$workflow-cube-first-border-color:#8733af !default;
+$workflow-cube-first-menu-dot-color:#8733af !default;
+
+.uxStudioOptions {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbccdb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.option2 {
+        background: #CAC;
+    }
+
+    &.option3 {
+        background: #b175b1;
+    }
+}
 
 .x-panelCtrl {
     header {
@@ -77,7 +96,7 @@ $workflow-cube-first-menu-dot-color:#8733af!default;
 }
 
 .navbar-fixed-top {
-    z-index: initial!important;
+    z-index: initial !important;
 }
 
 .lastColumnLinkView {
@@ -532,7 +551,7 @@ mainbody {
             border: 1px solid $workflow-cube-first-border-color;
 
             .k-menu li.k-item i.k-icon {
-                color: $workflow-cube-first-menu-dot-color!important;
+                color: $workflow-cube-first-menu-dot-color !important;
             }
 
             .k-menu .xMenuItemColor span {
@@ -865,8 +884,8 @@ ul.fieldlist {
 }
 
 .k-grid {
-    .k-grid-content{
-        height: initial!important;
+    .k-grid-content {
+        height: initial !important;
         max-height: $websdk-grid-content-height;
     }
 }

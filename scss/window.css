@@ -38,6 +38,10 @@
   border-radius: 0;
 }
 
+.k-window header.navbar-fixed-top {
+  z-index: 1030 !important;
+}
+
 .k-window .pageContainer {
   margin: 0px auto;
 }
