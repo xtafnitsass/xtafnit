@@ -317,7 +317,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-window header {
-  background: #fff !important;
+  background: transparent !important;
   border-radius: 0;
 }
 
