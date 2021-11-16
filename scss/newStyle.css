@@ -1298,12 +1298,25 @@ header .fal.fa-home {
 }
 
 /*Car*/
-.car-spinner__body {
+.car-spinner-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.car-spinner-container .car-spinner__body {
   -webkit-animation: shake 0.2s ease-in-out infinite alternate;
           animation: shake 0.2s ease-in-out infinite alternate;
 }
 
-.car-spinner__line {
+.car-spinner-container .car-spinner__line {
   -webkit-transform-origin: center right;
           transform-origin: center right;
   stroke-dasharray: 22;
@@ -1313,17 +1326,17 @@ header .fal.fa-home {
           animation-fill-mode: both;
 }
 
-.car-spinner__line--top {
+.car-spinner-container .car-spinner__line--top {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
 
-.car-spinner__line--middle {
+.car-spinner-container .car-spinner__line--middle {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
 
-.car-spinner__line--bottom {
+.car-spinner-container .car-spinner__line--bottom {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
 }
