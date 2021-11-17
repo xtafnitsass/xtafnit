@@ -3905,5 +3905,12 @@ input.k-input[dir="ltr"] + .k-clear-value {
   padding: 0;
 }
 
+.xstyle-diagram-wrapper .k-toolbar {
+  top: 0;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  background: transparent !important;
+}
+
 /*Phase 2 if needed -- credit card / credit guard / share / multichoice */
 /*# sourceMappingURL=newStyle.css.map */

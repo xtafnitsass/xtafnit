@@ -1,0 +1,7 @@
+.xstyle-diagram-wrapper .k-toolbar {
+  top: 0;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  background: transparent !important;
+}
+/*# sourceMappingURL=diagram.css.map */
