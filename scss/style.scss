@@ -32,6 +32,7 @@ $window-kendoToolbarHeader-border:0px;
 $drawer-background-color:#3fa535;
 $drawer-icon-color:#fff;
 $drawer-color:#fff;
+$drawer-popUpWindowCls-color:#2e2e2e;
 
 /*k-animator*/
 
@@ -115,6 +116,7 @@ $checkbox-color:#3fa535;
 $checkbox-border-color:#3fa535;
 $checkbox-border-radius:4px;
 $checkbox-box-shadow : none;
+$checkbox-color-label:#003f59;
 
 /*textbox*/
 
@@ -319,6 +321,11 @@ $suppliers-timeselector:#25a003;
 $suppliers-messageText:#25a003;
 $suppliers-icon-tachometer: #464247;
 $suppliers-datepicker-font-size:14px;
+$suppliers-drawer-hamburger-font-size:25px;
+$suppliers-grid-content-color-button:#fff;
+$suppliers-gridTemplates-border-color:#d8d8d8;
+$suppliers-window-btn-hover-color:#fff;
+$suppliers-cube-icon-background:linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
 
 /*link*/
 
@@ -328,6 +335,17 @@ $link-text-underling:underline;
 /*stepper*/
 
 $stepper-background:transparent;
+$stepper-fisrt-icon-border-color:#BD2E39;
+$stepper-fisrt-icon-background:#BD2E39;
+$stepper-fisrt-icon-color:#fff;
+$stepper-icon-border-color:#BD2E39;
+$stepper-icon-background:#BD2E39;
+$stepper-icon-color:#BD2E39;
+$stepper-line-border-color:#171957;
+$stepper-tooltip-background:#171957;
+$stepper-tooltip-color:#fff;
+$stepper-tooltip-border-color:#171957;
+
 
 /*menu*/
 
@@ -344,6 +362,9 @@ $menu-dot-size:20px;
 $menu-label-color:#797979;
 $menu-hover-background:#e4e4e4;
 $menu-box-shadow:2px 2px 10px rgb(218, 217, 217);
+$menu-label-hover:bold;
+$menu-item-border:1px solid #9797971f;
+$menu-dot-side:right;
 
 /*workflow*/
 
@@ -382,6 +403,25 @@ $workflow-mandatory-background:#ffea617a;
 
 $websdk-dynamic-title-font-weight:bold;
 $websdk-dynamic-title-color:#9e30bf;
+
+$websdk-roundedinputs:7px;
+$websdk-toolbar-anchor-background:#fafafa;
+$websdk-toolbar-anchor-icon-color:#9038ba;
+$websdk-toolbar-title-color :#953bbf;
+$websdk-toolbar-title-size :35px;
+$websdk-menu-items-color :#8733af;
+$websdk-goUpArrow-color :#8733af;
+$websdk-goUpArrow-border-color :1px solid #dec6e9;
+$websdk-xLookupFullDescription-color:#464247;
+$websdk-dateandtime-color:#464247;
+$websdk-mandatory-input-background:#efe7f4;
+$workflow-cube-first-cube-openSubTotal-color:#fff;
+$workflow-drawer-separator:#bd6fbc;
+$websdk-goUpArrow-background:#fafafa;
+$websdk-grid-content-height: 45vh;
+$workflow-cube-first-border-color:#8733af;
+$workflow-cube-first-menu-dot-color:#8733af;
+
 
 /*timeline*/
 
@@ -453,12 +493,46 @@ $consumer-mandatory-background:rgba(255, 234, 97, 0.48);
 $consumer-grid-header-background:#f8f8f8;
 $consumer-grid-content-background:#f8f8f8;
 $consumer-grid-pager-background:#f8f8f8;
+$consumer-grid-content-height:200px;
 
 /*lookup*/
 
 $lookup-border-bottom-color:1px solid #464247;
 $lookup-background-color:#fafafa;
 $lookup-color:#000;
+$lookup-xinput-group-color:#000;
+
+/*websdk*/
+
+$websdk-classifiedButton-background:transparent;
+$websdk-classifiedButton-color:#000;
+
+/*required*/
+
+$suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
+
+/*funding*/
+
+$funding-checkbox-label-font-size:16px;
+$funding-x-section-header-wrapper:transparent;
+$funding-grid-button-color:#fff;
+$funding-grid-button-hover-color : #BD2E39;
+
+/*phone*/
+
+$phone-border-top-color:1px solid #464247;
+$phone-border-bottom-color:1px solid #464247;
+$phone-border-left-color:1px solid #464247;
+$phone-border-right-color:1px solid #464247;
+$phone-background-color:#fafafa;
+$phone-color:#000;
+$phone-border-radius:0;
+
+/*spinner*/
+
+$spinner-triple-color-1:#32323a;
+$spinner-triple-color-2:#171957;
+$spinner-triple-color-3:#BD2E39;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

@@ -1,3 +1,7 @@
+header {
+  background-image: none !important;
+}
+
 header.k-header {
   background-color: #fff !important;
 }
@@ -6,19 +10,7 @@ header.k-header .k-toolbar {
   background-color: #fff;
   border: none;
   color: #000;
-}
-
-header .popUpWindowCls {
-  position: fixed;
-  left: 0;
-  width: 100% !important;
-  max-width: 500px;
-}
-
-@media only screen and (max-width: 768px) {
-  header .popUpWindowCls {
-    max-width: 250px;
-  }
+  background-image: none !important;
 }
 
 @forward 'header';

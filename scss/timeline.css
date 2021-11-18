@@ -101,7 +101,6 @@
 
 .k-timeline-vertical .k-timeline-date-wrap {
   position: absolute;
-  right: 20px;
   font-size: 12px;
   padding-right: 0px;
   margin-top: 16px;
@@ -138,6 +137,10 @@
   padding-left: 0px;
 }
 
+.k-rtl .k-timeline-vertical .k-timeline-date-wrap {
+  right: 20px;
+}
+
 .k-rtl .k-timeline-vertical .k-timeline-card .k-card {
   border-color: #a5a5a5;
 }
@@ -163,6 +166,18 @@
 
 .k-window .k-timeline-flag-wrap:after {
   left: 80px !important;
+}
+
+.k-ltr .k-timeline .k-timeline-flag {
+  left: 20px;
+}
+
+.k-ltr .k-timeline-vertical .k-timeline-date-wrap {
+  left: 20px;
+}
+
+.k-ltr .k-timeline-card .k-card {
+  margin: auto !important;
 }
 
 @forward 'timeline';

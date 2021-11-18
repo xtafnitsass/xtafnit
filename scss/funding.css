@@ -1,0 +1,21 @@
+label.k-checkbox-label {
+  font-size: 16px !important;
+}
+
+.cube-wrapper .cube {
+  min-height: 200px !important;
+}
+
+mainbody .x-section-header-wrapper {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.k-grid .k-grid-content td a.k-button {
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content td a.k-button:hover {
+  color: #BD2E39 !important;
+}
+/*# sourceMappingURL=funding.css.map */

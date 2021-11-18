@@ -1,9 +1,9 @@
-.k-calendar .k-header, .k-calendar .k-calendar-header {
+.k-calendar .k-header, .k-calendar .k-calendar-header > a {
   background: #e00000;
   color: #e7e5d5;
 }
 
-.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header .k-link.k-state-hover, .k-calendar .k-calendar-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header td.k-state-hover.k-state-focused {
+.k-calendar .k-header .k-link.k-state-hover, .k-calendar .k-header .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-header td.k-state-hover.k-state-focused, .k-calendar .k-calendar-header > a .k-link.k-state-hover, .k-calendar .k-calendar-header > a .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-calendar-header > a td.k-state-hover.k-state-focused {
   background: #e00000;
   color: #e7e5d5;
   opacity: 0.8;

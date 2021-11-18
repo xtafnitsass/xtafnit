@@ -11,6 +11,10 @@ body {
   }
 }
 
+.roundedAvatar img {
+  border-radius: 50%;
+}
+
 /* remove input numeric arrows Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -26,6 +30,10 @@ input[type=number] {
 .pageImage {
   background-position: center;
   background-size: cover;
+}
+
+.x-embeddedToolbar .k-icon {
+  font-size: 25px;
 }
 
 .k-upload-status .k-button {
@@ -188,7 +196,8 @@ header #kGoBack [xid="controlkGoBack"] > span {
   color: #fff !important;
 }
 
-.x-cell-header {
+.x-cell-header,
+legend {
   margin: 5px auto;
   font-size: 18px;
   min-height: 25px;
@@ -330,7 +339,12 @@ mainbody .greyPanel .x-control-caption-wrapper label {
   }
 }
 
-.k-drawer-overlay .k-drawer {
+.k-drawer-overlay.k-drawer-left .k-drawer {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+.k-drawer-overlay.k-drawer-right .k-drawer {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 20px;
 }
@@ -384,10 +398,6 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 .k-filter-menu .k-widget,
 .k-button {
   font-size: 16px;
-}
-
-.k-animation-container {
-  text-align: right;
 }
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -497,6 +507,44 @@ mainbody .gridHeaderButton .kIconPaint {
   margin: auto;
 }
 
+.headerAndContentGridRowsAndCols .k-grid .k-grid-header {
+  border: 1px solid #d8d8d8 !important;
+}
+
+.headerAndContentGridRowsAndCols .k-grid .k-grid-header th:not([data-title=' ']) {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.headerAndContentGridRowsAndCols .k-grid .k-grid-content {
+  border-right: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.headerAndContentGridRowsAndCols .k-grid .k-grid-content td {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-header {
+  border: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-header th:not([data-title=' ']) {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsHeaderGridCols .k-grid-content {
+  border-right: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsAndCols .k-grid .k-grid-header {
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.contentGridRowsAndCols .k-grid .k-grid-content td {
+  border-left: 1px solid #d8d8d8 !important;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .dotIcon {
     width: 55px !important;
@@ -504,6 +552,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .required span.mandatory.active + input,
+.required span.mandatory.active + div .k-textbox-container input,
 .required span.mandatory.active + span > span.k-dropdown-wrap,
 .required span.mandatory.active + div > span.k-autocomplete > input,
 .required span.mandatory.active + label.switch > input.switch-input + span.switch-label,
@@ -687,6 +736,10 @@ mainbody .gridHeaderButton .kIconPaint {
   background: #02b5fd !important;
 }
 
+.light-blue .k-button:hover {
+  color: #fff !important;
+}
+
 .dotIcon {
   position: absolute;
   bottom: 49%;
@@ -770,6 +823,14 @@ mainbody .gridHeaderButton .kIconPaint {
   }
 }
 
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr {
+  direction: ltr;
+}
+
+.checkboxHorizontal.checkboxHorizontalRight .d-ltr .fieldlist {
+  position: static;
+}
+
 .checkboxHorizontal.checkboxHorizontalRight .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -825,6 +886,24 @@ mainbody .gridHeaderButton .kIconPaint {
   background: #99b1c0;
 }
 
+.k-ltr .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.k-ltr .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+  margin-right: 10px;
+}
+
+.k-rtl .details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.k-rtl .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
+  margin-left: 10px;
+}
+
+.k-rtl .details .right {
+  border-left: 1px solid #dee2e6;
+}
+
+.k-ltr .details .right {
+  border-right: 1px solid #dee2e6;
+}
+
 .details .top .x-cell-header {
   padding: 6px 8px 6px 9px;
   border-radius: 8px;
@@ -876,25 +955,27 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4 {
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4,
+  .details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 3% !important;
             flex: 0 0 3% !important;
   }
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 {
   background: #efefef;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0.1%;
           flex: 0 0 0.1%;
-  margin-left: 10px;
   border-radius: 4px;
   padding: 1px 7px 0;
   height: 21px;
 }
 
-.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label {
+.details .left .xstyle-dynamiclabelcontrol-wrapper > .col-4 label,
+.details .left .xstyle-dynamiclabelcontrol-wrapper .col-33 label {
   font-size: 11px;
   line-height: 1.82;
   letter-spacing: 0.9px;
@@ -902,12 +983,14 @@ mainbody .gridHeaderButton .kIconPaint {
   opacity: 0.65;
 }
 
-.details .left > div .col-8 {
+.details .left > div .col-8,
+.details .left > div .col-67 {
   font-size: 14px;
   opacity: 0.7;
 }
 
-.details .left > div:first-child .col-8 {
+.details .left > div:first-child .col-8,
+.details .left > div:first-child .col-67 {
   font-size: 14px;
 }
 
@@ -1144,6 +1227,14 @@ mainbody .gridHeaderButton .kIconPaint {
   border-bottom: 0px !important;
 }
 
+.k-rtl .cube-top {
+  padding-left: 0;
+}
+
+.k-ltr .cube-top {
+  padding-right: 0;
+}
+
 .searchDesign .k-grid-toolbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1178,7 +1269,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .k-textbox,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .k-textbox,
 #TafnitCore_ToDo_UI_Login mainbody .k-textbox,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .k-textbox {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .k-textbox,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .k-textbox {
   border-radius: 0px !important;
 }
 
@@ -1189,7 +1281,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .checkboxHorizontal > div > div > div,
   #TafnitCore_ToDo_UI_Login mainbody .checkboxHorizontal > div > div > div,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .checkboxHorizontal > div > div > div {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .checkboxHorizontal > div > div > div,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .checkboxHorizontal > div > div > div {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 1 0% !important;
             flex: 0 1 0% !important;
@@ -1203,7 +1296,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
   #TafnitCore_ToDo_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .checkboxHorizontal > div > div > div:first-child {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 0 0% !important;
             flex: 1 0 0% !important;
@@ -1216,7 +1310,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody ::-webkit-input-placeholder,
 #TafnitCore_ToDo_UI_Login mainbody ::-webkit-input-placeholder,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody ::-webkit-input-placeholder {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody ::-webkit-input-placeholder,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody ::-webkit-input-placeholder {
   text-align: right;
 }
 
@@ -1226,7 +1321,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
 #TafnitCore_ToDo_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-textcontrol-wrapper.x-login-user-error-msg {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1239,7 +1335,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcHello"],
 #TafnitCore_ToDo_UI_Login mainbody [xid="controlcHello"],
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcHello"] {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcHello"],
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlcHello"] {
   padding-top: 120px;
 }
 
@@ -1250,7 +1347,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcHello"],
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcHello"],
   #TafnitCore_ToDo_UI_Login mainbody [xid="controlcHello"],
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcHello"] {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcHello"],
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlcHello"] {
     padding-top: 0px;
   }
 }
@@ -1261,7 +1359,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcLogin1"],
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcLogin1"],
 #TafnitCore_ToDo_UI_Login mainbody [xid="controlcLogin1"],
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcLogin1"] {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcLogin1"],
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlcLogin1"] {
   -webkit-box-flex: 0;
       -ms-flex: 0;
           flex: 0;
@@ -1276,7 +1375,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlcLogin1"],
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlcLogin1"],
   #TafnitCore_ToDo_UI_Login mainbody [xid="controlcLogin1"],
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcLogin1"] {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlcLogin1"],
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlcLogin1"] {
     padding-bottom: 80px !important;
     padding-top: 80px !important;
   }
@@ -1288,7 +1388,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper,
 #TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .x-button-wrapper {
   text-align: center;
 }
 
@@ -1298,7 +1399,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper .k-button,
 #TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper .k-button,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper .k-button {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper .k-button,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .x-button-wrapper .k-button {
   height: 56px;
   line-height: 56px;
   width: 318px;
@@ -1311,7 +1413,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-button-wrapper .k-button,
   #TafnitCore_ToDo_UI_Login mainbody .x-button-wrapper .k-button,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper .k-button {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-button-wrapper .k-button,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .x-button-wrapper .k-button {
     height: 40px;
     line-height: 40px;
     width: 200px;
@@ -1324,7 +1427,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
 #TafnitCore_ToDo_UI_Login mainbody > .row,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody > .row {
   background-color: #fff;
   border-radius: 50px !important;
   -webkit-box-shadow: 0 10px 20px 0 rgba(135, 51, 175, 0.1) !important;
@@ -1338,7 +1442,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
   #TafnitCore_ToDo_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody > .row {
     margin-top: 195px !important;
   }
 }
@@ -1350,7 +1455,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
   #TafnitCore_ToDo_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody > .row {
     margin-right: 65px !important;
   }
 }
@@ -1362,7 +1468,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody > .row,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody > .row,
   #TafnitCore_ToDo_UI_Login mainbody > .row,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody > .row,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody > .row {
     margin-right: 195px !important;
   }
 }
@@ -1373,7 +1480,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginLayout,
 #TafnitCore_ToDo_UI_Login mainbody .loginLayout,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginLayout {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginLayout,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .loginLayout {
   background-color: rgba(255, 255, 255, 0.922) !important;
 }
 
@@ -1384,7 +1492,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginLayout,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginLayout,
   #TafnitCore_ToDo_UI_Login mainbody .loginLayout,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginLayout {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginLayout,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .loginLayout {
     padding: 10px !important;
   }
 }
@@ -1395,7 +1504,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
 #TafnitCore_ToDo_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-password-wrapper span.k-textbox,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-password-wrapper span.k-textbox {
   border: 0;
 }
 
@@ -1405,7 +1515,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-text-control-container .x-textbox,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-text-control-container .x-textbox,
 #TafnitCore_ToDo_UI_Login mainbody .x-text-control-container .x-textbox,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-text-control-container .x-textbox {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-text-control-container .x-textbox,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .x-text-control-container .x-textbox {
   border-bottom: 1.5px solid #043563 !important;
 }
 
@@ -1415,7 +1526,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .x-textbox,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .x-textbox,
 #TafnitCore_ToDo_UI_Login mainbody .x-textbox,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-textbox {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .x-textbox,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .x-textbox {
   background: transparent !important;
   border: 0 !important;
 }
@@ -1426,7 +1538,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper,
 #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-checkbox-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -1439,7 +1552,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
 #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-checkbox-wrapper .x-control-caption-text {
   margin-right: 10px;
   line-height: 1.3;
 }
@@ -1450,7 +1564,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper input,
 #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper input,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper input {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper input,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-checkbox-wrapper input {
   font-weight: bold;
 }
 
@@ -1460,7 +1575,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"],
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlrLogin"],
 #TafnitCore_ToDo_UI_Login mainbody [xid="controlrLogin"],
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlrLogin"] {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlrLogin"],
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlrLogin"] {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1476,7 +1592,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody [xid="controlrLogin"],
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody [xid="controlrLogin"],
   #TafnitCore_ToDo_UI_Login mainbody [xid="controlrLogin"],
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlrLogin"] {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody [xid="controlrLogin"],
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody [xid="controlrLogin"] {
     min-height: 480px;
   }
 }
@@ -1487,7 +1604,8 @@ mainbody .gridHeaderButton .kIconPaint {
 #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .loginContent,
 #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .loginContent,
 #TafnitCore_ToDo_UI_Login mainbody .loginContent,
-#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginContent {
+#TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .loginContent,
+#TafnitCore_SaaSServer_Funding_UI_Login mainbody .loginContent {
   width: 322px;
   padding: 0;
   margin: auto;
@@ -1500,7 +1618,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .col,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .col,
   #TafnitCore_ToDo_UI_Login mainbody .col,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .col {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .col,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .col {
     -ms-flex-preferred-size: auto !important;
         flex-basis: auto !important;
   }
@@ -1510,7 +1629,8 @@ mainbody .gridHeaderButton .kIconPaint {
   #TafnitCore_SaaSServer_Portal_B2B_TafnitSelfService_UI_Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_SaaSServer_Portal_Agents_UI_Login mainbody .xstyle-checkbox-wrapper,
   #TafnitCore_ToDo_UI_Login mainbody .xstyle-checkbox-wrapper,
-  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper {
+  #TafnitCore_SaaSServer_TafnitCloud_UI_Login mainbody .xstyle-checkbox-wrapper,
+  #TafnitCore_SaaSServer_Funding_UI_Login mainbody .xstyle-checkbox-wrapper {
     width: 97%;
   }
 }
