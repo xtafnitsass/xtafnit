@@ -15,7 +15,7 @@ $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
 $row-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
-$row-header-color:#3fa535;
+$row-header-color:#064783;
 
 /*window*/
 $window-background:#fff;
@@ -29,7 +29,7 @@ $window-kendoToolbarHeader-border:0px;
 
 /*drawer*/
 
-$drawer-background-color:#3fa535;
+$drawer-background-color:#064783;
 $drawer-icon-color:#fff;
 $drawer-color:#fff;
 $drawer-popUpWindowCls-color:#2e2e2e;
@@ -56,12 +56,12 @@ $animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#3fa535;
+$k-filter-edited-numeric-arrow-background-color:#064783;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
-$btn-background: #3fa535 !important;
-$btn-background-hover: #2e8826 !important;
+$btn-background: #064783 !important;
+$btn-background-hover: #083e70 !important;
 $btn-border-radius: 30px;
 $btn-border: 0;
 $btn-color: #fff !important;
@@ -82,20 +82,20 @@ $autocomplete-input-color: #000;
 
 /*calendar*/
 
-$calendar-header-background: #3fa535;
+$calendar-header-background: #064783;
 $calendar-header-color: #fff;
 $calendar-view-background: #fff;
 $calendar-view-weekend-background: #fff;
 $calendar-view-weekend-color:#282830;
-$calendar-view-date-hover-background:#3fa535;
+$calendar-view-date-hover-background:#064783;
 $calendar-view-date-hover-color:#fff;
 $calendar-view-today-box-shadow:inset 0 0 0 1px #ebebeb;
-$calendar-view-today-background:#3fa535;
+$calendar-view-today-background:#064783;
 $calendar-view-today-color: #ebebeb;
-$calendar-footer-background:#3fa535;
+$calendar-footer-background:#064783;
 $calendar-footer-color:#fff;
 $calendar-footer-hover-color:#d6d6d6;
-$calendar-dates-color:#3fa535;
+$calendar-dates-color:#064783;
 
 /*date-picker*/
 
@@ -112,8 +112,8 @@ $date-mobile-border-radius:0px;
 /*checkbox*/
 
 $checkbox-background:#f7f8f9;
-$checkbox-color:#3fa535;
-$checkbox-border-color:#3fa535;
+$checkbox-color:#064783;
+$checkbox-border-color:#064783;
 $checkbox-border-radius:4px;
 $checkbox-box-shadow : none;
 $checkbox-color-label:#003f59;
@@ -164,10 +164,10 @@ $grid-header-toolbar-border-color:#fff;
 $grid-header-filter-active-background:#ccc;
 $grid-header-filter-active-color:#fff;
 $grid-content-height: 45vh;
-$grid-content-line-background-hover:#e9feee;
+$grid-content-line-background-hover:#a1aed8;
 $grid-content-line-background-hover-amount:0;
 $grid-content-line-color-hover:#000;
-$grid-content-line-background-selected:#e9feee;
+$grid-content-line-background-selected:#a1aed8;
 $grid-content-line-color-selected:#000;
 $grid-content-border:none;
 $grid-content-border-left:none;
@@ -175,9 +175,9 @@ $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#ccc;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background: linear-gradient(to top, #217719 -46%, #318d29 163%, #3fa535 163%);
-$grid-pager-nav-border:#3fa535;
-$grid-pager-nav-background-hover:#3fa535;
+$grid-pager-nav-background: linear-gradient(to top, #082e52 -46%, #083e70 163%, #064783 163%);
+$grid-pager-nav-border:#064783;
+$grid-pager-nav-background-hover:#064783;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#a9bdca;
@@ -185,12 +185,12 @@ $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-scoller-webkit-background:#dfdbdb;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#3fa535;
+$grid-edited-numeric-arrow-background-color:#064783;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
 $grid-content-padding:10px 0px;
-$grid-pager-nav-color:#3fa535;
+$grid-pager-nav-color:#064783;
 
 
 /*time picker*/
@@ -204,7 +204,7 @@ $time-border-raduis:0px;
 
 /*float-button*/
 
-$float-button-backgorund:#3fa535;
+$float-button-backgorund:#064783;
 $float-button-color:#fff;
 $float-button-border-color:1px solid #000;
 
@@ -219,7 +219,7 @@ $textarea-border-right-width:1px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#3fa535;
+$upload-border-color:#064783;
 
 /*multiselect*/
 
@@ -237,7 +237,7 @@ $multiselect-placeholder-color:#464247;
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
 $tabstrip-tab-background-color:#fff;
-$tabstrip-tab-color:#3fa535;
+$tabstrip-tab-color:#064783;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
@@ -248,7 +248,7 @@ $tabstrip-arrow-top-position:10px;
 /*slider*/
 
 $slider-selection-color:#000;
-$slider-track-color:#3fa535;
+$slider-track-color:#064783;
 $slider-draghandle-border-color:#000;
 $slider-draghandle-background-color:#000;
 $slider-draghandle-border-color-hover:#000;
@@ -256,76 +256,76 @@ $slider-draghandle-background-color-hover:#000;
 
 /*rating*/
 
-$rating-star-background-color:#3fa535;
+$rating-star-background-color:#064783;
 
 /*radio*/
 
-$radio-border-color: #3fa535;
-$radio-color: #3fa535;
+$radio-border-color: #064783;
+$radio-color: #064783;
 $radio-background-color: #fff;
 $radio-label-color : #464646;
-$radio-border-color-not-checked:#3fa535;
+$radio-border-color-not-checked:#064783;
 
 /*freehand*/
 
 $freehand-color: #000;
-$freehand-background: #3fa535;
-$freehand-border-color:#3fa535;
+$freehand-background: #064783;
+$freehand-border-color:#064783;
 
 /*portal*/
 
 $suppliers-cube-background:#fff;
-$suppliers-cube-color:#3fa535;
-$suppliers-clock-color:#3fa535;
+$suppliers-cube-color:#064783;
+$suppliers-clock-color:#064783;
 $suppliers-top-panel-background:#ffffff;
 $suppliers-header-color:#464247;
 $suppliers-x-cell-header-color:#464247;
-$suppliers-cube-description-color:#3fa535;
+$suppliers-cube-description-color:#064783;
 $suppliers-body-background:#fafafa;
-$suppliers-upload:#3fa535;
-$suppliers-drawer:#3fa535;
-$suppliers-tabstrip:#3fa535;
+$suppliers-upload:#064783;
+$suppliers-drawer:#064783;
+$suppliers-tabstrip:#064783;
 $suppliers-message-text:#464247;
 $suppliers-loginTitle:#464247;
 $suppliers-loginTitle2:#464247;
-$suppliers-white-btn:#3fa535;
+$suppliers-white-btn:#064783;
 $suppliers-k-icon:#43b1e5;
 $suppliers-x-textbox:#464247;
 $suppliers-progress-empty:#ebf6ed;
-$suppliers-progress-fill:#3fa535;
-$suppliers-progress-shadow:#3fa535;
+$suppliers-progress-fill:#064783;
+$suppliers-progress-shadow:#064783;
 $suppliers-first-cube-background:#fff;
-$suppliers-first-cube-color:#3fa535;
+$suppliers-first-cube-color:#064783;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
-$suppliers-color-btn:#a5d8a1;
+$suppliers-color-btn:#a1aed8;
 $suppliers-window-footer-background:transparent;
-$suppliers-details-top-color: #3fa535;
+$suppliers-details-top-color: #064783;
 $suppliers-details-right-left-color: #464247;
-$suppliers-details-top-background-color: #d3efdd;
+$suppliers-details-top-background-color: #a1aed8;
 $suppliers-box-shadow:0 10px 20px 0 rgba(51, 175, 82, 0.1);
 $suppliers-grid-header-color:#b7b7b7;
 $suppliers-grid-link-color:#02b5fd;
 $suppliers-grid-link-decoration:underline;
-$suppliers-rectInv-background:#d3efdd;
+$suppliers-rectInv-background:#a1aed8;
 $suppliers-window-btn-background-color:#464247;
-$suppliers-window-fixicon-color:#25a003;
+$suppliers-window-fixicon-color:#064783;
 $suppliers-toolbar-goBack-color:#02b5fd;
-$suppliers-window-fixicon-backgronud:#d3efdd;
+$suppliers-window-fixicon-backgronud:#a1aed8;
 $suppliers-radio-scoller-radius:10px;
-$suppliers-radio-scoller-background:#25a003;
+$suppliers-radio-scoller-background:#064783;
 $suppliers-radio-scoller-width:10px;
 $suppliers-radio-scoller-height:10px;
-$suppliers-radio-scoller-webkit-background:#dbdfdc;
-$suppliers-timeselector:#25a003;
-$suppliers-messageText:#25a003;
+$suppliers-radio-scoller-webkit-background:#dbdbdf;
+$suppliers-timeselector:#064783;
+$suppliers-messageText:#064783;
 $suppliers-icon-tachometer: #464247;
 $suppliers-datepicker-font-size:14px;
 $suppliers-drawer-hamburger-font-size:25px;
 $suppliers-grid-content-color-button:#fff;
 $suppliers-gridTemplates-border-color:#d8d8d8;
 $suppliers-window-btn-hover-color:#fff;
-$suppliers-cube-icon-background:linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
+$suppliers-cube-icon-background:linear-gradient(225deg, #d9f3ff, rgba(87, 116, 242, 0));
 
 /*link*/
 
@@ -335,12 +335,12 @@ $link-text-underling:underline;
 /*stepper*/
 
 $stepper-background:transparent;
-$stepper-fisrt-icon-border-color:#BD2E39;
-$stepper-fisrt-icon-background:#BD2E39;
+$stepper-fisrt-icon-border-color:#064783;
+$stepper-fisrt-icon-background:#064783;
 $stepper-fisrt-icon-color:#fff;
-$stepper-icon-border-color:#BD2E39;
-$stepper-icon-background:#BD2E39;
-$stepper-icon-color:#BD2E39;
+$stepper-icon-border-color:#064783;
+$stepper-icon-background:#064783;
+$stepper-icon-color:#064783;
 $stepper-line-border-color:#171957;
 $stepper-tooltip-background:#171957;
 $stepper-tooltip-color:#fff;
@@ -355,7 +355,7 @@ $menu-button-border:1px solid #bbebbf;
 $menu-popup-border:1px solid #bbebbf;
 $menu-popup-background:1px solid #f5f5f5;
 $menu-border-radius:15px;
-$menu-color:#25a003;
+$menu-color:#064783;
 $menu-popup-border-radius:20px;
 $menu-popup-padding:5px;
 $menu-dot-size:20px;
@@ -451,7 +451,7 @@ $tooltip-border-radius:15px;
 /*header mobile */
 
 $header-mobile-color:#fff;
-$header-mobile-background:#3fa535;
+$header-mobile-background:#064783;
 
 
 /*consumer-product*/
