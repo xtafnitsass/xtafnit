@@ -257,6 +257,12 @@ a {
     cursor: pointer;
 }
 
+.xstyle-floatbuttonv2-wrapper{
+    button{
+        z-index: 999;
+    }
+}
+
 /*fix treeview icons*/
 .xstyle-itreeview-wrapper {
     &.k-sprite {
