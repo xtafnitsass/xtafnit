@@ -279,6 +279,17 @@ a.x-link_Comp {
   z-index: 999;
 }
 
+.k-animation-container li.k-fab-item.k-text-left {
+  background: transparent !important;
+}
+
+.k-animation-container span.k-fab-item-text {
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-size: 14px !important;
+}
+
 /*fix treeview icons*/
 .xstyle-itreeview-wrapper.k-sprite {
   font-size: 16px;

@@ -257,11 +257,24 @@ a {
     cursor: pointer;
 }
 
-.xstyle-floatbuttonv2-wrapper{
-    button{
+.xstyle-floatbuttonv2-wrapper {
+    button {
         z-index: 999;
     }
 }
+
+.k-animation-container {
+    li.k-fab-item.k-text-left {
+        background: transparent !important;
+    }
+
+    span.k-fab-item-text {
+        background: transparent !important;
+        box-shadow: none !important;
+        font-size: 14px !important;
+    }
+}
+
 
 /*fix treeview icons*/
 .xstyle-itreeview-wrapper {
@@ -364,7 +377,7 @@ select:-webkit-autofill:focus {
 #TafnitCore_System_UI_App_Tools_Studio_UXStudio,
 #TafnitCore_System_UI_App_WebSDK_UXStudio {
     // .k-tabstrip .k-content.k-state-active {
-        // background-color: #efefef;
+    // background-color: #efefef;
     // }
 
 
@@ -414,12 +427,13 @@ label {
     .textControl-icon {
         right: 10px;
     }
-    .AutoComplete-icon2{
+
+    .AutoComplete-icon2 {
         right: 30px;
         border-right: 1px solid #ccc;
         padding: 0px 5px;
     }
-   
+
 }
 
 .k-rtl {
@@ -428,7 +442,8 @@ label {
     .textControl-icon {
         left: 10px;
     }
-    .AutoComplete-icon2{
+
+    .AutoComplete-icon2 {
         left: 30px;
         border-left: 1px solid #ccc;
         padding: 0px 5px;
