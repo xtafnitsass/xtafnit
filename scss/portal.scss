@@ -52,6 +52,7 @@ $suppliers-grid-content-color-button:#fff !default;
 $suppliers-gridTemplates-border-color:1px solid #d8d8d8 !default;
 $suppliers-window-btn-hover-color:#fff !default;
 $suppliers-cube-icon-background:linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0)) !default;
+$suppliers-window-button-width:102px !default;
 
 
 
@@ -655,35 +656,35 @@ mainbody {
 //messagebox//
 #MessageBoxWindow {
     #buttonbtn1 {
-        float: left!important;
+        float: left !important;
     }
 
     #buttonbtn2,
     #buttonbtn1 {
-        width: 102px !important;
+        width: $suppliers-window-button-width !important;
         height: 37px !important;
         line-height: 2 !important;
     }
 
     #controlCell1Container {
-        max-width: 100%!important;
-        flex: 0 0 100%!important;
-        text-align: center!important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center !important;
     }
 
     #controlCell2Container {
-        max-width: 100%!important;
-        flex: 0 0 100%!important;
-        text-align: center!important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center !important;
 
         #controlMessageText {
-            color: $suppliers-messageText!important;
+            color: $suppliers-messageText !important;
         }
     }
 
     #controlCell3Container {
         #buttonbtn1 {
-            width: 102px !important;
+            width: $suppliers-window-button-width !important;
             height: 40px;
             line-height: 2 !important;
             margin: auto;
