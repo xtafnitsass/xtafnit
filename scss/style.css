@@ -1436,7 +1436,7 @@ mainbody .gridHeaderButton .kIconPaint {
 
 #MessageBoxWindow #buttonbtn2,
 #MessageBoxWindow #buttonbtn1 {
-  width: 102px !important;
+  width: 100% !important;
   height: 37px !important;
   line-height: 2 !important;
 }
@@ -1462,7 +1462,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
-  width: 102px !important;
+  width: 100% !important;
   height: 40px;
   line-height: 2 !important;
   margin: auto;
