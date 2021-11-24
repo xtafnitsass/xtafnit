@@ -655,7 +655,7 @@ mainbody {
 //messagebox//
 #MessageBoxWindow {
     #buttonbtn1 {
-        float: left;
+        float: left!important;
     }
 
     #buttonbtn2,
@@ -666,18 +666,18 @@ mainbody {
     }
 
     #controlCell1Container {
-        max-width: 100%;
-        flex: 0 0 100%;
-        text-align: center;
+        max-width: 100%!important;
+        flex: 0 0 100%!important;
+        text-align: center!important;
     }
 
     #controlCell2Container {
-        max-width: 100%;
-        flex: 0 0 100%;
-        text-align: center;
+        max-width: 100%!important;
+        flex: 0 0 100%!important;
+        text-align: center!important;
 
         #controlMessageText {
-            color: $suppliers-messageText;
+            color: $suppliers-messageText!important;
         }
     }
 
