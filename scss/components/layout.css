@@ -280,7 +280,9 @@ a.x-link_Comp {
 }
 
 .k-animation-container li.k-fab-item.k-text-left {
-  background: transparent !important;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 3px #ccc;
+          box-shadow: 5px 5px 3px #ccc;
 }
 
 .k-animation-container span.k-fab-item-text {
