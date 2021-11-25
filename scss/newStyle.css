@@ -360,7 +360,7 @@ a.x-link_Comp {
 }
 
 .xstyle-floatbuttonv2-wrapper button {
-  z-index: 999;
+  z-index: 99999;
 }
 
 .k-animation-container li.k-fab-item.k-text-left {
