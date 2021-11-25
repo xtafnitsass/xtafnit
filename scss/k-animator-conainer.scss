@@ -51,7 +51,7 @@ $animtaor-text-align:right !default;
     }
 
     li {
-        background: $animator-container-background-color;
+        background: $animator-container-background-color!important;
 
         a {
             color: $animator-container-color;
