@@ -24,7 +24,7 @@
 }
 
 .k-animation-container li {
-  background: #979797;
+  background: #979797 !important;
 }
 
 .k-animation-container li a {

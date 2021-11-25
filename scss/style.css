@@ -370,7 +370,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li {
-  background: #d7d7df;
+  background: #d7d7df !important;
 }
 
 .k-animation-container li a {
