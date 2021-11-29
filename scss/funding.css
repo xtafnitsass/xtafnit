@@ -18,4 +18,14 @@ mainbody .x-section-header-wrapper {
 .k-grid .k-grid-content td a.k-button:hover {
   color: #BD2E39 !important;
 }
+
+.funding-icon-success {
+  bottom: 5 px;
+  left: 10 px;
+  position: absolute;
+}
+
+.funding-icon-success span.k-icon {
+  color: green;
+}
 /*# sourceMappingURL=funding.css.map */

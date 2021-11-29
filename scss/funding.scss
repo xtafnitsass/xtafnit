@@ -27,11 +27,22 @@ mainbody {
             a {
                 &.k-button {
                     color: $funding-grid-button-color !important;
-                    &:hover{
+
+                    &:hover {
                         color: $funding-grid-button-hover-color !important;
                     }
                 }
             }
         }
+    }
+}
+
+.funding-icon-success {
+    bottom: 5 px;
+    left: 10 px;
+    position: absolute;
+
+    span.k-icon {
+        color: green;
     }
 }
