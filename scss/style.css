@@ -4570,6 +4570,16 @@ mainbody .x-section-header-wrapper {
   color: #BD2E39 !important;
 }
 
+.funding-icon-success {
+  bottom: 5 px;
+  left: 10 px;
+  position: absolute;
+}
+
+.funding-icon-success span.k-icon {
+  color: green;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
