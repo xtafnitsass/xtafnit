@@ -2022,12 +2022,16 @@ header .fal.fa-home {
   color: #1dbb00;
 }
 
-.x-icons.x-fa-warning, .x-icons.x-fa-error {
+.x-icons.x-fa-error {
   color: #ef0000;
 }
 
 .x-icons.x-fa-question, .x-icons.x-fa-info {
   color: #006bef;
+}
+
+.x-icons.x-fa-warning {
+  color: #ffbc00;
 }
 
 .x-main-multiCheckbox {
