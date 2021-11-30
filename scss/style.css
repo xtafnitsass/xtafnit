@@ -4580,6 +4580,12 @@ mainbody .x-section-header-wrapper {
   color: green;
 }
 
+input:focus {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: yellow !important;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
