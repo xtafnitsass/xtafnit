@@ -1325,6 +1325,8 @@ header .fal.fa-home {
       -ms-flex-pack: center;
           justify-content: center;
   direction: rtl;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .car-spinner-container .car-spinner__body {

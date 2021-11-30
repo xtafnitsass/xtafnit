@@ -115,7 +115,7 @@
     display: flex;
     justify-content: center;
     direction: rtl;
-
+    transform: scaleX(-1);
     .car-spinner {
         &__body {
             animation: shake 0.2s ease-in-out infinite alternate;
