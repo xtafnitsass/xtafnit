@@ -28,4 +28,10 @@ mainbody .x-section-header-wrapper {
 .funding-icon-success span.k-icon {
   color: green;
 }
+
+input:focus {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: yellow !important;
+}
 /*# sourceMappingURL=funding.css.map */
