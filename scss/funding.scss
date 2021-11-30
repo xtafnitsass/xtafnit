@@ -52,7 +52,7 @@ mainbody {
 //     transition: 0.2s all;
 // }
 
-input:focus {
+input:not(.k-grid-search input):focus {
     box-shadow: 0px 0px 5px #000 !important;
     transition: 0.2s all;
 }
