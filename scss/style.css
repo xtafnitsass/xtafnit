@@ -4042,12 +4042,6 @@ mainbody .x-section-header-wrapper {
   color: #BD2E39 !important;
 }
 
-.funding-icon-success {
-  bottom: -40%;
-  left: 15%;
-  position: absolute;
-}
-
 .funding-icon-success span.k-icon {
   color: green;
 }
