@@ -4052,7 +4052,7 @@ mainbody .x-section-header-wrapper {
   color: green;
 }
 
-mainbody input:focus {
+#uber-container mainbody input:focus {
   -webkit-box-shadow: 0px 0px 5px #000 !important;
           box-shadow: 0px 0px 5px #000 !important;
   -webkit-transition: 0.2s all;
