@@ -2887,6 +2887,11 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.fixButtonHeight .k-button {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
 .uxStudioOptions {
   height: 200px;
   display: -webkit-box;
