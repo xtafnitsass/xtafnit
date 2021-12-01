@@ -36,6 +36,9 @@
 /*lookup*/
 /*websdk*/
 /*required*/
+/*funding*/
+/*phone*/
+/*spinner*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #fff !important;
@@ -184,6 +187,10 @@ header.k-header .k-toolbar {
   background: #f7f8f9;
 }
 
+.k-checkbox + .k-checkbox-label {
+  color: #003f59 !important;
+}
+
 .k-checkbox:hover, .k-checkbox:checked, .k-checkbox:focus {
   border-radius: 4px;
   border-color: #02b5fd;
@@ -321,6 +328,10 @@ mainbody .x-section-header-wrraper {
   border-radius: 0;
 }
 
+.k-window header.navbar-fixed-top {
+  z-index: 1030 !important;
+}
+
 .k-window .pageContainer {
   margin: 0px auto;
 }
@@ -359,7 +370,7 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li {
-  background: #fff;
+  background: #fff !important;
 }
 
 .k-animation-container li a {
@@ -1420,7 +1431,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 #MessageBoxWindow #buttonbtn1 {
-  float: left;
+  float: left !important;
 }
 
 #MessageBoxWindow #buttonbtn2,
@@ -1431,23 +1442,23 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 #MessageBoxWindow #controlCell1Container {
-  max-width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  text-align: center;
+  max-width: 100% !important;
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 100% !important;
+          flex: 0 0 100% !important;
+  text-align: center !important;
 }
 
 #MessageBoxWindow #controlCell2Container {
-  max-width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  text-align: center;
+  max-width: 100% !important;
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 100% !important;
+          flex: 0 0 100% !important;
+  text-align: center !important;
 }
 
 #MessageBoxWindow #controlCell2Container #controlMessageText {
-  color: #9e30bf;
+  color: #9e30bf !important;
 }
 
 #MessageBoxWindow #controlCell3Container #buttonbtn1 {
@@ -2877,6 +2888,11 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.fixButtonHeight .k-button {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
 .uxStudioOptions {
   height: 200px;
   display: -webkit-box;

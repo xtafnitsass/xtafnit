@@ -1,0 +1,32 @@
+label.k-checkbox-label {
+  font-size: 16px !important;
+}
+
+.cube-wrapper .cube {
+  min-height: 200px !important;
+}
+
+mainbody .x-section-header-wrapper {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.k-grid .k-grid-content td a.k-button {
+  color: #fff !important;
+}
+
+.k-grid .k-grid-content td a.k-button:hover {
+  color: #BD2E39 !important;
+}
+
+.funding-icon-success span.k-icon {
+  color: green;
+}
+
+input:not(.k-grid-search input):focus {
+  -webkit-box-shadow: 0px 0px 5px #000 !important;
+          box-shadow: 0px 0px 5px #000 !important;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+/*# sourceMappingURL=funding.css.map */

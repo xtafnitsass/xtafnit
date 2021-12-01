@@ -1,0 +1,12 @@
+.triple-spinner {
+  border-top: #32323a;
+}
+
+.triple-spinner::before {
+  border-top-color: #171957;
+}
+
+.triple-spinner::after {
+  border-top-color: #BD2E39;
+}
+/*# sourceMappingURL=spinner.css.map */

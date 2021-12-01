@@ -117,6 +117,7 @@ $checkbox-color:#02b5fd;
 $checkbox-border-color:#02b5fd;
 $checkbox-border-radius:4px;
 $checkbox-box-shadow : none;
+$checkbox-color-label:#003f59;
 
 /*textbox*/
 
@@ -325,7 +326,8 @@ $suppliers-drawer-hamburger-font-size:25px;
 $suppliers-grid-content-color-button:#9e30bf;
 $suppliers-gridTemplates-border-color:1px solid #d8d8d8;
 $suppliers-window-btn-hover-color:#fff;
-
+$suppliers-cube-icon-background:linear-gradient(225deg, #d9f3ff, rgba(87, 211, 242, 0));
+$suppliers-window-button-width:102px;
 
 /*link*/
 
@@ -422,6 +424,7 @@ $websdk-grid-content-height: 45vh;
 $workflow-cube-first-border-color:#8733af;
 $workflow-cube-first-menu-dot-color:#8733af;
 
+
 /*timeline*/
 
 $timeline-first-dot-background:#00a1ff;
@@ -509,6 +512,29 @@ $websdk-classifiedButton-color:#9038ba;
 /*required*/
 
 $suppliers-mandatory-background : rgba(255, 234, 97, 0.48);
+
+/*funding*/
+
+$funding-checkbox-label-font-size:16px;
+$funding-x-section-header-wrapper:transparent;
+$funding-grid-button-color:#fff;
+$funding-grid-button-hover-color : #BD2E39;
+
+/*phone*/
+
+$phone-border-top-color:1px solid #464247;
+$phone-border-bottom-color:1px solid #464247;
+$phone-border-left-color:1px solid #464247;
+$phone-border-right-color:1px solid #464247;
+$phone-background-color:#fafafa;
+$phone-color:#000;
+$phone-border-radius:0;
+
+/*spinner*/
+
+$spinner-triple-color-1:#32323a;
+$spinner-triple-color-2:#171957;
+$spinner-triple-color-3:#BD2E39;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
