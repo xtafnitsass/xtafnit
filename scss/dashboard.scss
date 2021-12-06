@@ -298,7 +298,7 @@ $gridColumnBackText:#f7e8ff;
                 &:hover,
                 &:hover td {
                     background-image: none;
-                    background-color: lighten($torq , 50) !important;
+                    background-color: lighten($torq, 50) !important;
                 }
             }
 
@@ -405,6 +405,11 @@ $gridColumnBackText:#f7e8ff;
     .dashOverview {
         .k-chart svg {
             g[clip-path="url(#kdef6)"] {
+                circle {
+                    &[fill="#4286f4"]{
+                        fill: lighten($torq, 20);
+                    }
+                }
 
                 circle,
                 path {
@@ -415,7 +420,8 @@ $gridColumnBackText:#f7e8ff;
     }
 
     .dashStatus {
-        max-width: 525px;
+        max-width: 510px;
+
         .k-chart svg {
             path[fill="blue"] {
                 fill: $torq;
@@ -425,5 +431,13 @@ $gridColumnBackText:#f7e8ff;
                 fill: lighten($torq, 20);
             }
         }
+    }
+}
+
+.k-tooltip{
+    &.k-chart-tooltip{
+        border-color: $torq!important;
+        background-color: lighten($torq , 60)!important;
+        color: $torq;
     }
 }
