@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+
+$torq: #8733af;
+$torqhover: #7924a0;
+$torqselected: #5e1083;
+$titlegrey: #9aacb3;
+$textgreen: #8733af;
+$boxshadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+$darkblue: #043563;
+$lightborder: #c8d2d8;
+$inputgrey: #f7f8f9;
+$tabStrip: #8733af;
+$gridColumnBackText:#f7e8ff;
+
+.DashboardPage {
+
+    .k-animation-container {
+        .k-state-selected.k-state-focused {
+            background: $torqselected !important;
+        }
+
+        .k-item {
+            &:hover {
+                background: $torqhover !important;
+            }
+        }
+
+        .k-list,
+        .k-nodata {
+            background: $inputgrey;
+        }
+
+        .k-header {
+            background: $torq;
+        }
+
+        .k-link {
+            &:hover {
+                background: $torqhover !important;
+            }
+        }
+
+        .k-calendar td.k-state-focused .k-link {
+            box-shadow: inset 0 0 2px 1px $torq;
+        }
+
+        .k-calendar {
+            .k-footer {
+                .k-nav-today {
+                    color: $torq;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .k-grid {
+        .k-link {
+            &:hover {
+                background: transparent !important;
+            }
+        }
+    }
+
+    .k-button {
+        background: $torq;
+        background-image: none;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+
+        &:hover {
+            background: $torqhover;
+            color: #fff;
+        }
+    }
+
+    .k-tabstrip-items {
+        .k-item {
+            background-color: $tabStrip;
+        }
+    }
+
+    .k-datepicker {
+        .k-select {
+            background: $torq;
+            color: #fff;
+        }
+    }
+
+
+    //scrollbar styling
+    .k-auto-scrollable {
+        // IE scrollbar options
+        scrollbar-face-color: $torq;
+        scrollbar-track-color: lighten($torq, 50);
+        scrollbar-arrow-color: $torq;
+
+        /* width */
+        &::-webkit-scrollbar {
+            height: 10px;
+            width: 10px;
+            border-radius: 10px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: lighten($torq, 50);
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: $torq;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: darken($torq, 5);
+        }
+    }
+
+    // right column
+    .dashRightCol {
+        flex: 0 0 75%;
+        max-width: 75%;
+        padding-right: 0;
+
+        @media only screen and (max-width: 992px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-left: 0;
+
+            .dashStatus {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .dashOverview {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    // left column
+    .dashLeftCol {
+        box-shadow: $boxshadow;
+        border-radius: 20px;
+        padding-top: 20px;
+        margin-top: 8px;
+        background-color: #fff;
+        flex: 0 0 25%;
+        max-width: 25%;
+
+        @media only screen and (max-width: 992px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    .dashContact,
+    .dashDiary {
+        flex: 0 0 100%;
+        max-width: 100%;
+        box-shadow: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .dashDiary {
+        border-top: 1px solid $lightborder;
+        margin-top: 10px;
+
+        .k-scheduler-content {
+            @extend .k-auto-scrollable;
+        }
+
+        .k-scheduler-times {
+            background-color: #fff !important;
+        }
+
+        .k-pane-wrapper,
+        .k-header {
+            border: none;
+        }
+
+        .k-nav-current span {
+            color: $textgreen;
+        }
+
+        .k-scheduler-footer,
+        .k-pane-wrapper .k-pane .k-scheduler-mobile .k-scheduler-header-all-day {
+            background-color: $torq;
+            background-image: none;
+            color: #fff;
+        }
+
+        .k-scheduler-footer {
+            border-radius: 20px;
+        }
+
+        .k-header {
+            .k-scheduler-tools {
+                a {
+                    background-color: $torq;
+                    background-image: none;
+                    border: none;
+                    width: 45px;
+                    text-align: center;
+                    margin-left: 10px;
+
+                    span::before {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        h4.x-cell-header {
+            min-height: 22px;
+            margin-top: 20px;
+        }
+    }
+
+
+    .dashMyMission,
+    .dashStatus,
+    .dashContact,
+    .dashOverview {
+        margin-bottom: 20px;
+        font-family: "Heebo", sans-serif !important;
+        border-radius: 20px;
+        box-shadow: $boxshadow;
+        background-image: linear-gradient(to top, #fafbfc, #ffffff);
+        overflow: hidden;
+        padding: 20px;
+        margin: 0.6vw;
+        background: white;
+
+        h4 {
+            font-size: 18px;
+            font-family: "Heebo", sans-serif;
+            overflow: visible;
+        }
+
+        .x-grid-control {
+            border: none;
+            outline: 0;
+        }
+
+        .k-grid-header {
+            background: none;
+            border: none;
+
+            // table {
+            //   table-layout: auto !important;
+            // }
+            thead {
+                background: none !important;
+                border: none !important;
+                color: $titlegrey;
+
+                tr {
+
+                    &:hover,
+                    &:hover td {
+                        background-image: none !important;
+                        background-color: transparent !important;
+                    }
+                }
+
+                th {
+                    background: none;
+                    border: none !important;
+                }
+            }
+        }
+
+        .k-header {
+            color: $titlegrey;
+        }
+
+        .k-grid-content {
+            padding-bottom: 20px;
+            max-height: 250px;
+
+            // table {
+            //   table-layout: auto !important;
+            // }
+            tr {
+                transition: 0.6s all;
+
+                &:hover,
+                &:hover td {
+                    background-image: none;
+                    background-color: lighten($torq , 50) !important;
+                }
+            }
+
+            td {
+                border: none;
+                font-size: 14px;
+
+                //white-space: nowrap;
+                div {
+                    background-color: $gridColumnBackText !important;
+                    display: inline-block;
+                    padding: 0 8px;
+                    color: $textgreen;
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+            }
+
+            .k-alt {
+                background: none;
+            }
+        }
+
+        .k-grid-pager {
+            background: none;
+            border: none;
+        }
+
+        .k-pager-nav {
+            border-color: $torq;
+        }
+
+        .k-link {
+            &.k-state-selected {
+                background: $torq;
+            }
+
+            // &:hover {
+            //   background: $torqhover!important;
+            // }
+        }
+    }
+
+    .dashStatus,
+    .dashOverview {
+        max-height: 325px;
+    }
+
+
+    .dashMission1,
+    .dashMission2,
+    .dashMission3,
+    .dashMission4,
+    .dashMission5 {
+        min-height: 160px;
+        background-color: #fff;
+        box-shadow: $boxshadow;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 10px;
+
+        @media screen and (max-width: 1400px) {
+            flex: 0 0 47%;
+            margin-right: 5px;
+        }
+
+        @media screen and (max-width: 768px) {
+            flex: 0 0 98%;
+            margin-right: 5px;
+        }
+
+        label {
+            font-family: "Heebo", sans-serif !important;
+            font-size: 14px;
+        }
+
+        .k-icon-wrapper {
+            text-align: right !important;
+
+            .k-icon::before {
+                color: $torq;
+            }
+        }
+
+        span {
+            font-size: 20px;
+            color: $darkblue;
+            margin: 5px 0;
+        }
+    }
+
+
+
+
+
+    // diary design
+    .dashMySchedule {
+        .k-scheduler-toolbar {
+            background: transparent;
+        }
+    }
+
+    .dashOverview {
+        .k-chart svg {
+            g[clip-path="url(#kdef6)"] {
+
+                circle,
+                path {
+                    stroke: $torq;
+                }
+            }
+        }
+    }
+
+    .dashStatus {
+        max-width: 525px;
+        .k-chart svg {
+            path[fill="blue"] {
+                fill: $torq;
+            }
+
+            path[fill="red"] {
+                fill: lighten($torq, 20);
+            }
+        }
+    }
+}
