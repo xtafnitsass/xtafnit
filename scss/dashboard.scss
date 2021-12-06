@@ -404,9 +404,9 @@ $gridColumnBackText:#f7e8ff;
 
     .dashOverview {
         .k-chart svg {
-            g[clip-path="url(#kdef6)"] {
+            g[clip-path^="url(#kdef"] {
                 circle {
-                    &[fill="#4286f4"]{
+                    &[fill="#4286f4"] {
                         fill: lighten($torq, 20);
                     }
                 }
@@ -434,10 +434,10 @@ $gridColumnBackText:#f7e8ff;
     }
 }
 
-.k-tooltip{
-    &.k-chart-tooltip{
-        border-color: $torq!important;
-        background-color: lighten($torq , 60)!important;
+.k-tooltip {
+    &.k-chart-tooltip {
+        border-color: $torq !important;
+        background-color: lighten($torq, 60) !important;
         color: $torq;
     }
 }

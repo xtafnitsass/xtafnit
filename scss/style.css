@@ -4474,12 +4474,12 @@ ul.fieldlist {
   background: transparent;
 }
 
-.DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] circle[fill="#4286f4"] {
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] circle[fill="#4286f4"] {
   fill: #b672d6;
 }
 
-.DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] circle,
-.DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] path {
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] circle,
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] path {
   stroke: #8733af;
 }
 
