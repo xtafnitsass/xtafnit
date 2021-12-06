@@ -440,13 +440,17 @@
   background: transparent;
 }
 
+.DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] circle[fill="#4286f4"] {
+  fill: #b672d6;
+}
+
 .DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] circle,
 .DashboardPage .dashOverview .k-chart svg g[clip-path="url(#kdef6)"] path {
   stroke: #8733af;
 }
 
 .DashboardPage .dashStatus {
-  max-width: 525px;
+  max-width: 510px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
@@ -455,5 +459,11 @@
 
 .DashboardPage .dashStatus .k-chart svg path[fill="red"] {
   fill: #b672d6;
+}
+
+.k-tooltip.k-chart-tooltip {
+  border-color: #8733af !important;
+  background-color: white !important;
+  color: #8733af;
 }
 /*# sourceMappingURL=dashboard.css.map */
