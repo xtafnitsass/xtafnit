@@ -4768,6 +4768,14 @@ input:not(.k-grid-search input):focus {
   margin-top: 10px;
 }
 
+.DashboardPage .dashDiary .k-dropdown {
+  border: 0 !important;
+}
+
+.DashboardPage .dashDiary .k-scheduler-header {
+  padding: 0 !important;
+}
+
 .DashboardPage .dashDiary .k-nonwork-hour,
 .DashboardPage .dashDiary .k-scheduler-dayview .k-today.k-nonwork-hour,
 .DashboardPage .dashDiary .k-scheduler-timelineview .k-today.k-nonwork-hour {
@@ -4789,13 +4797,8 @@ input:not(.k-grid-search input):focus {
 
 .DashboardPage .dashDiary .k-scheduler-footer,
 .DashboardPage .dashDiary .k-pane-wrapper .k-pane .k-scheduler-mobile .k-scheduler-header-all-day {
-  background-color: #8733af;
+  background-color: white;
   background-image: none;
-  color: #fff;
-}
-
-.DashboardPage .dashDiary .k-scheduler-footer {
-  border-radius: 20px;
 }
 
 .DashboardPage .dashDiary .k-header .k-scheduler-tools a {

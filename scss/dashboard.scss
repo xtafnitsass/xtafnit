@@ -176,6 +176,14 @@ $dash-scheduler-nonwork-background:white !default;
         border-top: 1px solid $dash-lightborder;
         margin-top: 10px;
 
+        .k-dropdown {
+            border: 0 !important;
+        }
+
+        .k-scheduler-header {
+            padding: 0 !important;
+        }
+
         .k-nonwork-hour,
         .k-scheduler-dayview .k-today.k-nonwork-hour,
         .k-scheduler-timelineview .k-today.k-nonwork-hour {
@@ -201,13 +209,8 @@ $dash-scheduler-nonwork-background:white !default;
 
         .k-scheduler-footer,
         .k-pane-wrapper .k-pane .k-scheduler-mobile .k-scheduler-header-all-day {
-            background-color: $dash-torq;
+            background-color: $dash-scheduler-nonwork-background;
             background-image: none;
-            color: #fff;
-        }
-
-        .k-scheduler-footer {
-            border-radius: 20px;
         }
 
         .k-header {
