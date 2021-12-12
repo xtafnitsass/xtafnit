@@ -4785,7 +4785,7 @@ input:not(.k-grid-search input):focus {
   color: white !important;
 }
 
-.DashboardPage .dashDiary tr.k-scheduler-header.k-state-default {
+.DashboardPage .dashDiary .k-scheduler-header.k-state-default tr {
   background: #8733af !important;
   color: white !important;
 }
