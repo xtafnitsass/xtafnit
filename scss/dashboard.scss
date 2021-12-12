@@ -14,6 +14,9 @@ $dash-gridColumnBackText:#f7e8ff !default;
 $dash-scheduler-nonwork-background:white !default;
 
 .DashboardPage {
+    h4.x-cell-header {
+        font-weight: bold !important;
+    }
 
     .k-animation-container {
         .k-state-selected.k-state-focused {
@@ -181,7 +184,20 @@ $dash-scheduler-nonwork-background:white !default;
         }
 
         .k-scheduler-header {
-            padding: 0 !important;
+            background: $dash-scheduler-nonwork-background !important;
+        }
+
+        tr.k-scheduler-date-group {
+            background: $dash-torq!important;
+            color: $dash-scheduler-nonwork-background!important;
+        }
+        tr.k-scheduler-header.k-state-default{
+            background: $dash-torq!important;
+            color: $dash-scheduler-nonwork-background!important;
+        }
+
+        .k-other-month{
+            background: lighten($dash-torq , 60)!important;
         }
 
         .k-nonwork-hour,

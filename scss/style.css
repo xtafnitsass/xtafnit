@@ -4028,6 +4028,10 @@ ul.fieldlist {
   opacity: 1 !important;
 }
 
+.DashboardPage h4.x-cell-header {
+  font-weight: bold !important;
+}
+
 .DashboardPage .k-animation-container .k-state-selected.k-state-focused {
   background: #5e1083 !important;
 }
@@ -4191,7 +4195,21 @@ ul.fieldlist {
 }
 
 .DashboardPage .dashDiary .k-scheduler-header {
-  padding: 0 !important;
+  background: white !important;
+}
+
+.DashboardPage .dashDiary tr.k-scheduler-date-group {
+  background: #8733af !important;
+  color: white !important;
+}
+
+.DashboardPage .dashDiary tr.k-scheduler-header.k-state-default {
+  background: #8733af !important;
+  color: white !important;
+}
+
+.DashboardPage .dashDiary .k-other-month {
+  background: white !important;
 }
 
 .DashboardPage .dashDiary .k-nonwork-hour,
