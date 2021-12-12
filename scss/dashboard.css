@@ -127,7 +127,6 @@
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
   border-radius: 20px;
   padding-top: 20px;
-  margin-top: 8px;
   background-color: #fff;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 15%;
@@ -239,7 +238,7 @@
   background-image: linear-gradient(to top, #fafbfc, #ffffff);
   overflow: hidden;
   padding: 20px;
-  margin: 0.6vw;
+  margin: auto 0.6vw;
   background: white;
 }
 
@@ -471,7 +470,7 @@
 }
 
 .DashboardPage .dashStatus {
-  max-width: 510px;
+  max-width: 580px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
