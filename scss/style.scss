@@ -535,10 +535,26 @@ $spinner-triple-color-1:#32323a;
 $spinner-triple-color-2:#171957;
 $spinner-triple-color-3:#BD2E39;
 
+/*Dashboard*/
+
+
+$dash-torq: #8733af;
+$dash-torq-hover: #7924a0;
+$dash-torq-selected: #5e1083;
+$dash-title-grey: #9aacb3;
+$dash-text-green: #8733af;
+$dash-boxshadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+$dash-darkblue: #043563;
+$dash-lightborder: #c8d2d8;
+$dash-inputgrey: #f7f8f9;
+$dash-tabStrip: #8733af;
+$dash-gridColumnBackText:#f7e8ff;
+$dash-scheduler-nonwork-background:white;
+
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
 './portal', './stepper', './menu', './workflow', './timeline', './tooltip', './headerMobile', './consumer-products', './lookup', './login', './required', './sunday', './funding',
-'./intelPhone','./spinner' , './dashboard';
+'./intelPhone', './spinner', './dashboard';

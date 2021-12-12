@@ -39,6 +39,7 @@
 /*funding*/
 /*phone*/
 /*spinner*/
+/*Dashboard*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
@@ -4652,7 +4653,6 @@ input:not(.k-grid-search input):focus {
   background-image: none;
   color: #fff;
   border: none;
-  border-radius: 20px;
 }
 
 .DashboardPage .k-button:hover {
@@ -4766,6 +4766,12 @@ input:not(.k-grid-search input):focus {
 .DashboardPage .dashDiary {
   border-top: 1px solid #c8d2d8;
   margin-top: 10px;
+}
+
+.DashboardPage .dashDiary .k-nonwork-hour,
+.DashboardPage .dashDiary .k-scheduler-dayview .k-today.k-nonwork-hour,
+.DashboardPage .dashDiary .k-scheduler-timelineview .k-today.k-nonwork-hour {
+  background: white !important;
 }
 
 .DashboardPage .dashDiary .k-scheduler-times {
@@ -4969,11 +4975,6 @@ input:not(.k-grid-search input):focus {
 .DashboardPage .dashOverview .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover,
 .k-calendar .k-calendar-view .DashboardPage .dashOverview td.k-state-selected.k-state-focused.k-state-hover {
   background: #8733af;
-}
-
-.DashboardPage .dashStatus,
-.DashboardPage .dashOverview {
-  max-height: 325px;
 }
 
 .DashboardPage .dashMission1,
