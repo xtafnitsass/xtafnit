@@ -188,16 +188,20 @@ $dash-scheduler-nonwork-background:white !default;
         }
 
         tr.k-scheduler-date-group {
-            background: $dash-torq!important;
-            color: $dash-scheduler-nonwork-background!important;
-        }
-        .k-scheduler-header.k-state-default tr{
-            background: $dash-torq!important;
-            color: $dash-scheduler-nonwork-background!important;
+            background: $dash-torq !important;
+            color: $dash-scheduler-nonwork-background !important;
         }
 
-        .k-other-month{
-            background: lighten($dash-torq , 60)!important;
+        .k-scheduler-monthview {
+            .k-scheduler-header.k-state-default tr {
+                background: $dash-torq !important;
+                color: $dash-scheduler-nonwork-background !important;
+            }
+        }
+
+
+        .k-other-month {
+            background: lighten($dash-torq, 60) !important;
         }
 
         .k-nonwork-hour,
