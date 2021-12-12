@@ -4704,19 +4704,11 @@ input:not(.k-grid-search input):focus {
 }
 
 .DashboardPage .dashRightCol {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 85%;
-          flex: 0 0 85%;
-  max-width: 85%;
   padding-right: 0;
 }
 
 @media only screen and (max-width: 992px) {
   .DashboardPage .dashRightCol {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
     padding-left: 0;
   }
   .DashboardPage .dashRightCol .dashStatus {
@@ -4739,19 +4731,6 @@ input:not(.k-grid-search input):focus {
   border-radius: 20px;
   padding-top: 20px;
   background-color: #fff;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 15%;
-          flex: 0 0 15%;
-  max-width: 15%;
-}
-
-@media only screen and (max-width: 992px) {
-  .DashboardPage .dashLeftCol {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
-  }
 }
 
 .DashboardPage .dashContact,
@@ -4840,7 +4819,6 @@ input:not(.k-grid-search input):focus {
 .DashboardPage .dashStatus,
 .DashboardPage .dashContact,
 .DashboardPage .dashOverview {
-  margin-bottom: 20px;
   font-family: "Heebo", sans-serif !important;
   border-radius: 20px;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
