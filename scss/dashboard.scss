@@ -155,7 +155,6 @@ $dash-scheduler-nonwork-background:white !default;
         box-shadow: $dash-boxshadow;
         border-radius: 20px;
         padding-top: 20px;
-        margin-top: 8px;
         background-color: #fff;
         flex: 0 0 15%;
         max-width: 15%;
@@ -268,7 +267,7 @@ $dash-scheduler-nonwork-background:white !default;
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         overflow: hidden;
         padding: 20px;
-        margin: 0.6vw;
+        margin:auto 0.6vw;
         background: white;
 
         h4 {
@@ -449,7 +448,7 @@ $dash-scheduler-nonwork-background:white !default;
     }
 
     .dashStatus {
-        max-width: 510px;
+        max-width: 580px;
 
         .k-chart svg {
             path[fill="blue"] {
