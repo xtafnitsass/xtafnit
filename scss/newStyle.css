@@ -530,6 +530,10 @@ label.btn {
   top: 7px;
 }
 
+.x-login-user-error-msg .k-widget {
+  border-bottom: 1px solid red !important;
+}
+
 /* fix width when setting display flex */
 .fixWidth > .x-self-container {
   width: 100%;

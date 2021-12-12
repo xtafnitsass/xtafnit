@@ -445,4 +445,8 @@ label.btn {
   position: absolute;
   top: 7px;
 }
+
+.x-login-user-error-msg .k-widget {
+  border-bottom: 1px solid red !important;
+}
 /*# sourceMappingURL=layout.css.map */
