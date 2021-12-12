@@ -191,7 +191,7 @@ $dash-scheduler-nonwork-background:white !default;
             background: $dash-torq!important;
             color: $dash-scheduler-nonwork-background!important;
         }
-        tr.k-scheduler-header.k-state-default{
+        .k-scheduler-header.k-state-default tr{
             background: $dash-torq!important;
             color: $dash-scheduler-nonwork-background!important;
         }
