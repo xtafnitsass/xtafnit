@@ -52,13 +52,4 @@ input.k-input[dir="ltr"] + .k-clear-value {
   right: 0px;
   left: initial;
 }
-
-.xstyle-autocomplete-wrapper .x-login-user-error .k-autocomplete, .xstyle-autocomplete-wrapper.x-login-user-error-msg .k-autocomplete {
-  border-color: #f00 !important;
-}
-
-.xstyle-autocomplete-wrapper .x-login-user-error-msg {
-  color: #f00;
-  font-size: 14px;
-}
 /*# sourceMappingURL=autocomplete.css.map */

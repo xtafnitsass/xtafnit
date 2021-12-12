@@ -446,7 +446,39 @@ label.btn {
   top: 7px;
 }
 
+.x-login-user-error-msg.xstyle-intlphonenumber-wrapper .k-widget {
+  border-bottom: 1px solid red !important;
+}
+
+.x-login-user-error-msg.xstyle-intlphonenumber-wrapper .x-intl_phone_input {
+  border-bottom: 1px solid red !important;
+  border-color: red !important;
+}
+
+.x-login-user-error-msg.xstyle-intlphonenumber-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
+
+.x-login-user-error-msg.xstyle-autocomplete-wrapper .k-autocomplete .k-textbox {
+  border: none !important;
+}
+
+.x-login-user-error-msg.xstyle-date-wrapper .k-datepicker .k-picker-wrap {
+  border: none !important;
+}
+
 .x-login-user-error-msg .k-widget {
   border-bottom: 1px solid red !important;
+}
+
+.x-login-user-error-msg .x-intl_phone_input {
+  border-bottom: 1px solid red !important;
+  border-color: red !important;
+}
+
+.x-login-user-error-msg .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
 }
 /*# sourceMappingURL=layout.css.map */

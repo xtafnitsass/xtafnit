@@ -18,15 +18,6 @@
   width: 2em;
 }
 
-.xstyle-date-wrapper .x-login-user-error .k-picker-wrap, .xstyle-date-wrapper.x-login-user-error-msg .k-picker-wrap {
-  border-color: #f00 !important;
-}
-
-.xstyle-date-wrapper .x-login-user-error-msg {
-  color: #f00;
-  font-size: 14px;
-}
-
 .xstyle-date-wrapper input.k-input {
   min-height: 36px;
 }

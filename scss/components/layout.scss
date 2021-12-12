@@ -460,7 +460,49 @@ label {
 
 
 .x-login-user-error-msg {
+    &.xstyle-intlphonenumber-wrapper {
+        .k-widget {
+            border-bottom: 1px solid red !important;
+        }
+
+        .x-intl_phone_input {
+            border-bottom: 1px solid red !important;
+            border-color: red !important;
+        }
+
+        .x-login-user-error-msg {
+            color: #f00;
+            font-size: 14px;
+        }
+    }
+
+    &.xstyle-autocomplete-wrapper{
+        .k-autocomplete {
+            .k-textbox {
+                border: none !important;
+            }
+        }
+    }
+
+    &.xstyle-date-wrapper {
+        .k-datepicker {
+            .k-picker-wrap {
+                border: none !important;
+            }
+        }
+    }
+
     .k-widget {
         border-bottom: 1px solid red !important;
+    }
+
+    .x-intl_phone_input {
+        border-bottom: 1px solid red !important;
+        border-color: red !important;
+    }
+
+    .x-login-user-error-msg {
+        color: #f00;
+        font-size: 14px;
     }
 }
