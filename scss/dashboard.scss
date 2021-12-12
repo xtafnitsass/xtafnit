@@ -129,13 +129,13 @@ $dash-scheduler-nonwork-background:white !default;
 
     // right column
     .dashRightCol {
-        flex: 0 0 85%;
-        max-width: 85%;
+        // flex: 0 0 85%;
+        // max-width: 85%;
         padding-right: 0;
 
         @media only screen and (max-width: 992px) {
-            flex: 0 0 100%;
-            max-width: 100%;
+            // flex: 0 0 100%;
+            // max-width: 100%;
             padding-left: 0;
 
             .dashStatus {
@@ -156,13 +156,13 @@ $dash-scheduler-nonwork-background:white !default;
         border-radius: 20px;
         padding-top: 20px;
         background-color: #fff;
-        flex: 0 0 15%;
-        max-width: 15%;
+        // flex: 0 0 15%;
+        // max-width: 15%;
 
-        @media only screen and (max-width: 992px) {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
+        // @media only screen and (max-width: 992px) {
+        //     flex: 0 0 100%;
+        //     max-width: 100%;
+        // }
     }
 
     .dashContact,
@@ -260,7 +260,6 @@ $dash-scheduler-nonwork-background:white !default;
     .dashStatus,
     .dashContact,
     .dashOverview {
-        margin-bottom: 20px;
         font-family: "Heebo", sans-serif !important;
         border-radius: 20px;
         box-shadow: $dash-boxshadow;
@@ -387,7 +386,7 @@ $dash-scheduler-nonwork-background:white !default;
         margin-bottom: 20px;
         border-radius: 20px;
         padding: 15px;
-        margin: 10px;
+        margin: auto 10px;
 
         @media screen and (max-width: 1400px) {
             flex: 0 0 47%;
