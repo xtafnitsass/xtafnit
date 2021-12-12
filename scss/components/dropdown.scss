@@ -2,9 +2,10 @@
     width: 100%;
 
     span {
-        &.k-icon{
-            width:100%;
+        &.k-icon {
+            width: 100%;
         }
+
         &.k-input {
             padding-top: 5px;
             padding-bottom: 5px;
@@ -25,4 +26,21 @@
             text-align: left;
         }
     }
+}
+
+
+.xstyle-idropdownlist-wrapper {
+
+    .x-login-user-error,
+    &.x-login-user-error-msg {
+        .k-dropdown-wrap {
+            border-color: #f00 !important;
+        }
+    }
+
+    .x-login-user-error-msg {
+        color: #f00;
+        font-size: 14px;
+    }
+
 }

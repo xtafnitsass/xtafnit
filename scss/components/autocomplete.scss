@@ -61,3 +61,17 @@ input.k-input[dir="ltr"] {
     }
 
 }
+
+.xstyle-autocomplete-wrapper{
+    .x-login-user-error,
+    &.x-login-user-error-msg {
+        .k-autocomplete{
+            border-color: #f00 !important;
+        }   
+    }
+
+    .x-login-user-error-msg {
+        color: #f00;
+        font-size: 14px;
+    }
+}

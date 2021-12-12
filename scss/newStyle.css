@@ -2170,6 +2170,15 @@ input.k-input[dir="ltr"] + .k-clear-value {
   left: initial;
 }
 
+.xstyle-autocomplete-wrapper .x-login-user-error .k-autocomplete, .xstyle-autocomplete-wrapper.x-login-user-error-msg .k-autocomplete {
+  border-color: #f00 !important;
+}
+
+.xstyle-autocomplete-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
+
 .x-cardamage-wrapper .x-image-wrapper .map {
   background-size: cover !important;
 }
@@ -2974,6 +2983,15 @@ input.k-input[dir="ltr"] + .k-clear-value {
   text-align: left;
 }
 
+.xstyle-idropdownlist-wrapper .x-login-user-error .k-dropdown-wrap, .xstyle-idropdownlist-wrapper.x-login-user-error-msg .k-dropdown-wrap {
+  border-color: #f00 !important;
+}
+
+.xstyle-idropdownlist-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
+
 .k-button.x-button {
   width: 100%;
   display: inline-block;
@@ -3035,6 +3053,15 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .x-datePickerResponsive .x-datePicker-pc .k-picker-wrap .k-select {
   width: 2em;
+}
+
+.xstyle-date-wrapper .x-login-user-error .k-picker-wrap, .xstyle-date-wrapper.x-login-user-error-msg .k-picker-wrap {
+  border-color: #f00 !important;
+}
+
+.xstyle-date-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
 }
 
 .xstyle-date-wrapper input.k-input {

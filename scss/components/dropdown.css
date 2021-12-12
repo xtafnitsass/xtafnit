@@ -18,4 +18,13 @@
 .k-rtl .k-dropdown-wrap .k-select {
   text-align: left;
 }
+
+.xstyle-idropdownlist-wrapper .x-login-user-error .k-dropdown-wrap, .xstyle-idropdownlist-wrapper.x-login-user-error-msg .k-dropdown-wrap {
+  border-color: #f00 !important;
+}
+
+.xstyle-idropdownlist-wrapper .x-login-user-error-msg {
+  color: #f00;
+  font-size: 14px;
+}
 /*# sourceMappingURL=dropdown.css.map */
