@@ -40,7 +40,7 @@ $animator-container-border-color:#fff;
 $animator-container-background-color:#fff;
 $animator-container-focused-amount:3;
 $animator-container-color:#282830;
-$animator-container-selected-background-color:#fafafa;
+$animator-container-selected-background-color:#e7e7f4;
 $animator-container-selected-color:#464247;
 
 $animator-scroller-width:10px;
@@ -536,6 +536,22 @@ $phone-border-radius:0;
 $spinner-triple-color-1:4px solid #32323a;
 $spinner-triple-color-2:#171957;
 $spinner-triple-color-3:#BD2E39;
+
+/*Dashboard*/
+
+
+$dash-torq: #8733af;
+$dash-torq-hover: #7924a0;
+$dash-torq-selected: #5e1083;
+$dash-title-grey: #9aacb3;
+$dash-text-green: #8733af;
+$dash-boxshadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+$dash-darkblue: #043563;
+$dash-lightborder: #c8d2d8;
+$dash-inputgrey: #f7f8f9;
+$dash-tabStrip: #8733af;
+$dash-gridColumnBackText:#f7e8ff;
+$dash-scheduler-nonwork-background:white;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

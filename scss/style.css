@@ -39,6 +39,7 @@
 /*funding*/
 /*phone*/
 /*spinner*/
+/*Dashboard*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #BD2E39 !important;
@@ -350,17 +351,17 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-selected {
-  background: #fafafa !important;
+  background: #e7e7f4 !important;
   color: #464247 !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-focused {
-  background: #fafafa !important;
+  background: #e7e7f4 !important;
   color: #464247 !important;
 }
 
 .k-animation-container .k-list-container .k-list-optionlabel.k-state-hover {
-  background: #fafafa !important;
+  background: #e7e7f4 !important;
   color: #464247 !important;
 }
 
@@ -379,8 +380,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #fafafa;
-  color: #464247;
+  background: #e7e7f4 !important;
+  color: #464247 !important;
   border: 0 !important;
 }
 
@@ -392,21 +393,21 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #fafafa;
-  color: #464247;
+  background: #e7e7f4 !important;
+  color: #464247 !important;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #f2f2f2;
-  color: #464247;
+  background: #ddddef !important;
+  color: #464247 !important;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #fafafa;
+  background: #e7e7f4 !important;
 }
 
 .k-animation-container .k-nodata {
@@ -2888,6 +2889,11 @@ progress[value]::-webkit-progress-value {
 }
 
 @forward 'menu';
+.fixButtonHeight .k-button {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
 .uxStudioOptions {
   height: 200px;
   display: -webkit-box;

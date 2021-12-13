@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+.DashboardPage h4.x-cell-header {
+  font-weight: bold !important;
+}
+
+.DashboardPage .k-animation-container .k-state-selected.k-state-focused {
+  background: #5e1083 !important;
+}
+
+.DashboardPage .k-animation-container .k-item:hover {
+  background: #7924a0 !important;
+}
+
+.DashboardPage .k-animation-container .k-list,
+.DashboardPage .k-animation-container .k-nodata {
+  background: #f7f8f9;
+}
+
+.DashboardPage .k-animation-container .k-header {
+  background: #8733af;
+}
+
+.DashboardPage .k-animation-container .k-link:hover {
+  background: #7924a0 !important;
+}
+
+.DashboardPage .k-animation-container .k-calendar td.k-state-focused .k-link {
+  -webkit-box-shadow: inset 0 0 2px 1px #8733af;
+          box-shadow: inset 0 0 2px 1px #8733af;
+}
+
+.DashboardPage .k-animation-container .k-calendar .k-footer .k-nav-today {
+  color: #8733af;
+}
+
+.DashboardPage .k-animation-container .k-calendar .k-footer .k-nav-today:hover {
+  color: #fff;
+}
+
+.DashboardPage .k-grid .k-link:hover {
+  background: transparent !important;
+}
+
+.DashboardPage .k-button {
+  background: #8733af;
+  background-image: none;
+  color: #fff;
+  border: none;
+}
+
+.DashboardPage .k-button:hover {
+  background: #7924a0;
+  color: #fff;
+}
+
+.DashboardPage .k-tabstrip-items .k-item {
+  background-color: #8733af;
+}
+
+.DashboardPage .k-datepicker .k-select {
+  background: #8733af;
+  color: #fff;
+}
+
+.DashboardPage .k-auto-scrollable, .DashboardPage .dashDiary .k-scheduler-content {
+  scrollbar-face-color: #8733af;
+  scrollbar-track-color: #f3e9f8;
+  scrollbar-arrow-color: #8733af;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.DashboardPage .k-auto-scrollable::-webkit-scrollbar, .DashboardPage .dashDiary .k-scheduler-content::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.DashboardPage .k-auto-scrollable::-webkit-scrollbar-track, .DashboardPage .dashDiary .k-scheduler-content::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f3e9f8;
+}
+
+.DashboardPage .k-auto-scrollable::-webkit-scrollbar-thumb, .DashboardPage .dashDiary .k-scheduler-content::-webkit-scrollbar-thumb {
+  background: #8733af;
+  border-radius: 10px;
+}
+
+.DashboardPage .k-auto-scrollable::-webkit-scrollbar-thumb:hover, .DashboardPage .dashDiary .k-scheduler-content::-webkit-scrollbar-thumb:hover {
+  background: #782d9b;
+}
+
+.DashboardPage .dashRightCol {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .DashboardPage .dashRightCol {
+    padding-left: 0;
+  }
+  .DashboardPage .dashRightCol .dashStatus {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .DashboardPage .dashRightCol .dashOverview {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.DashboardPage .dashLeftCol {
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  border-radius: 20px;
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.DashboardPage .dashContact,
+.DashboardPage .dashDiary {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.DashboardPage .dashDiary {
+  border-top: 1px solid #c8d2d8;
+  margin-top: 10px;
+}
+
+.DashboardPage .dashDiary .k-dropdown {
+  border: 0 !important;
+}
+
+.DashboardPage .dashDiary .k-scheduler-header {
+  background: white !important;
+}
+
+.DashboardPage .dashDiary tr.k-scheduler-date-group {
+  background: #8733af !important;
+  color: white !important;
+}
+
+.DashboardPage .dashDiary .k-scheduler-monthview .k-scheduler-header.k-state-default tr {
+  background: #8733af !important;
+  color: white !important;
+}
+
+.DashboardPage .dashDiary .k-other-month {
+  background: white !important;
+}
+
+.DashboardPage .dashDiary .k-nonwork-hour,
+.DashboardPage .dashDiary .k-scheduler-dayview .k-today.k-nonwork-hour,
+.DashboardPage .dashDiary .k-scheduler-timelineview .k-today.k-nonwork-hour {
+  background: white !important;
+}
+
+.DashboardPage .dashDiary .k-scheduler-times {
+  background-color: #fff !important;
+}
+
+.DashboardPage .dashDiary .k-pane-wrapper,
+.DashboardPage .dashDiary .k-header {
+  border: none;
+}
+
+.DashboardPage .dashDiary .k-nav-current span {
+  color: #8733af;
+}
+
+.DashboardPage .dashDiary .k-scheduler-footer,
+.DashboardPage .dashDiary .k-pane-wrapper .k-pane .k-scheduler-mobile .k-scheduler-header-all-day {
+  background-color: white;
+  background-image: none;
+}
+
+.DashboardPage .dashDiary .k-header .k-scheduler-tools a {
+  background-color: #8733af;
+  background-image: none;
+  border: none;
+  width: 45px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.DashboardPage .dashDiary .k-header .k-scheduler-tools a span::before {
+  color: #fff;
+}
+
+.DashboardPage .dashDiary h4.x-cell-header {
+  min-height: 22px;
+  margin-top: 20px;
+}
+
+.DashboardPage .dashMyMission,
+.DashboardPage .dashStatus,
+.DashboardPage .dashContact,
+.DashboardPage .dashOverview {
+  font-family: "Heebo", sans-serif !important;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fafbfc), to(#ffffff));
+  background-image: linear-gradient(to top, #fafbfc, #ffffff);
+  overflow: hidden;
+  padding: 20px;
+  margin: auto 0.6vw;
+  background: white;
+}
+
+.DashboardPage .dashMyMission h4,
+.DashboardPage .dashStatus h4,
+.DashboardPage .dashContact h4,
+.DashboardPage .dashOverview h4 {
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+  overflow: visible;
+}
+
+.DashboardPage .dashMyMission .x-grid-control,
+.DashboardPage .dashStatus .x-grid-control,
+.DashboardPage .dashContact .x-grid-control,
+.DashboardPage .dashOverview .x-grid-control {
+  border: none;
+  outline: 0;
+}
+
+.DashboardPage .dashMyMission .k-grid-header,
+.DashboardPage .dashStatus .k-grid-header,
+.DashboardPage .dashContact .k-grid-header,
+.DashboardPage .dashOverview .k-grid-header {
+  background: none;
+  border: none;
+}
+
+.DashboardPage .dashMyMission .k-grid-header thead,
+.DashboardPage .dashStatus .k-grid-header thead,
+.DashboardPage .dashContact .k-grid-header thead,
+.DashboardPage .dashOverview .k-grid-header thead {
+  background: none !important;
+  border: none !important;
+  color: #9aacb3;
+}
+
+.DashboardPage .dashMyMission .k-grid-header thead tr:hover,
+.DashboardPage .dashMyMission .k-grid-header thead tr:hover td,
+.DashboardPage .dashStatus .k-grid-header thead tr:hover,
+.DashboardPage .dashStatus .k-grid-header thead tr:hover td,
+.DashboardPage .dashContact .k-grid-header thead tr:hover,
+.DashboardPage .dashContact .k-grid-header thead tr:hover td,
+.DashboardPage .dashOverview .k-grid-header thead tr:hover,
+.DashboardPage .dashOverview .k-grid-header thead tr:hover td {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.DashboardPage .dashMyMission .k-grid-header thead th,
+.DashboardPage .dashStatus .k-grid-header thead th,
+.DashboardPage .dashContact .k-grid-header thead th,
+.DashboardPage .dashOverview .k-grid-header thead th {
+  background: none;
+  border: none !important;
+}
+
+.DashboardPage .dashMyMission .k-header,
+.DashboardPage .dashStatus .k-header,
+.DashboardPage .dashContact .k-header,
+.DashboardPage .dashOverview .k-header {
+  color: #9aacb3;
+}
+
+.DashboardPage .dashMyMission .k-grid-content,
+.DashboardPage .dashStatus .k-grid-content,
+.DashboardPage .dashContact .k-grid-content,
+.DashboardPage .dashOverview .k-grid-content {
+  padding-bottom: 20px;
+  max-height: 250px;
+}
+
+.DashboardPage .dashMyMission .k-grid-content tr,
+.DashboardPage .dashStatus .k-grid-content tr,
+.DashboardPage .dashContact .k-grid-content tr,
+.DashboardPage .dashOverview .k-grid-content tr {
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+.DashboardPage .dashMyMission .k-grid-content tr:hover,
+.DashboardPage .dashMyMission .k-grid-content tr:hover td,
+.DashboardPage .dashStatus .k-grid-content tr:hover,
+.DashboardPage .dashStatus .k-grid-content tr:hover td,
+.DashboardPage .dashContact .k-grid-content tr:hover,
+.DashboardPage .dashContact .k-grid-content tr:hover td,
+.DashboardPage .dashOverview .k-grid-content tr:hover,
+.DashboardPage .dashOverview .k-grid-content tr:hover td {
+  background-image: none;
+  background-color: #f3e9f8 !important;
+}
+
+.DashboardPage .dashMyMission .k-grid-content td,
+.DashboardPage .dashStatus .k-grid-content td,
+.DashboardPage .dashContact .k-grid-content td,
+.DashboardPage .dashOverview .k-grid-content td {
+  border: none;
+  font-size: 14px;
+}
+
+.DashboardPage .dashMyMission .k-grid-content td div,
+.DashboardPage .dashStatus .k-grid-content td div,
+.DashboardPage .dashContact .k-grid-content td div,
+.DashboardPage .dashOverview .k-grid-content td div {
+  background-color: #f7e8ff !important;
+  display: inline-block;
+  padding: 0 8px;
+  color: #8733af;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.DashboardPage .dashMyMission .k-grid-content .k-alt,
+.DashboardPage .dashStatus .k-grid-content .k-alt,
+.DashboardPage .dashContact .k-grid-content .k-alt,
+.DashboardPage .dashOverview .k-grid-content .k-alt {
+  background: none;
+}
+
+.DashboardPage .dashMyMission .k-grid-pager,
+.DashboardPage .dashStatus .k-grid-pager,
+.DashboardPage .dashContact .k-grid-pager,
+.DashboardPage .dashOverview .k-grid-pager {
+  background: none;
+  border: none;
+}
+
+.DashboardPage .dashMyMission .k-pager-nav,
+.DashboardPage .dashStatus .k-pager-nav,
+.DashboardPage .dashContact .k-pager-nav,
+.DashboardPage .dashOverview .k-pager-nav {
+  border-color: #8733af;
+}
+
+.DashboardPage .dashMyMission .k-link.k-state-selected,
+.DashboardPage .dashStatus .k-link.k-state-selected,
+.DashboardPage .dashContact .k-link.k-state-selected,
+.DashboardPage .dashOverview .k-link.k-state-selected {
+  background: #8733af;
+}
+
+.DashboardPage .dashMission1,
+.DashboardPage .dashMission2,
+.DashboardPage .dashMission3,
+.DashboardPage .dashMission4,
+.DashboardPage .dashMission5 {
+  min-height: 160px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+          box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: auto 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .DashboardPage .dashMission1,
+  .DashboardPage .dashMission2,
+  .DashboardPage .dashMission3,
+  .DashboardPage .dashMission4,
+  .DashboardPage .dashMission5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 47%;
+            flex: 0 0 47%;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DashboardPage .dashMission1,
+  .DashboardPage .dashMission2,
+  .DashboardPage .dashMission3,
+  .DashboardPage .dashMission4,
+  .DashboardPage .dashMission5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 98%;
+            flex: 0 0 98%;
+    margin-right: 5px;
+  }
+}
+
+.DashboardPage .dashMission1 label,
+.DashboardPage .dashMission2 label,
+.DashboardPage .dashMission3 label,
+.DashboardPage .dashMission4 label,
+.DashboardPage .dashMission5 label {
+  font-family: "Heebo", sans-serif !important;
+  font-size: 14px;
+}
+
+.DashboardPage .dashMission1 .k-icon-wrapper,
+.DashboardPage .dashMission2 .k-icon-wrapper,
+.DashboardPage .dashMission3 .k-icon-wrapper,
+.DashboardPage .dashMission4 .k-icon-wrapper,
+.DashboardPage .dashMission5 .k-icon-wrapper {
+  text-align: right !important;
+}
+
+.DashboardPage .dashMission1 .k-icon-wrapper .k-icon::before,
+.DashboardPage .dashMission2 .k-icon-wrapper .k-icon::before,
+.DashboardPage .dashMission3 .k-icon-wrapper .k-icon::before,
+.DashboardPage .dashMission4 .k-icon-wrapper .k-icon::before,
+.DashboardPage .dashMission5 .k-icon-wrapper .k-icon::before {
+  color: #8733af;
+}
+
+.DashboardPage .dashMission1 span,
+.DashboardPage .dashMission2 span,
+.DashboardPage .dashMission3 span,
+.DashboardPage .dashMission4 span,
+.DashboardPage .dashMission5 span {
+  font-size: 20px;
+  color: #043563;
+  margin: 5px 0;
+}
+
+.DashboardPage .dashMySchedule .k-scheduler-toolbar {
+  background: transparent;
+}
+
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] circle[fill="#4286f4"] {
+  fill: #b672d6;
+}
+
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] circle,
+.DashboardPage .dashOverview .k-chart svg g[clip-path^="url(#kdef"] path {
+  stroke: #8733af;
+}
+
+.DashboardPage .dashStatus {
+  max-width: 580px;
+}
+
+.DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
+  fill: #8733af;
+}
+
+.DashboardPage .dashStatus .k-chart svg path[fill="red"] {
+  fill: #b672d6;
+}
+
+.k-tooltip.k-chart-tooltip {
+  border-color: #8733af !important;
+  background-color: white !important;
+  color: #8733af;
+}
+/*# sourceMappingURL=dashboard.css.map */

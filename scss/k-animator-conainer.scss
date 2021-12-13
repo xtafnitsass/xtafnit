@@ -58,8 +58,8 @@ $animtaor-text-align:right !default;
             border: 0 !important;
 
             &:hover {
-                background: $animator-container-selected-background-color;
-                color: $animator-container-selected-color;
+                background: $animator-container-selected-background-color!important;
+                color: $animator-container-selected-color!important;
                 border: 0 !important;
             }
         }
@@ -72,21 +72,21 @@ $animtaor-text-align:right !default;
         .k-item {
             &:hover {
                 box-shadow: none !important;
-                background: $animator-container-selected-background-color;
-                color: $animator-container-selected-color;
+                background: $animator-container-selected-background-color!important;
+                color: $animator-container-selected-color!important;
             }
 
             &.k-state-focused {
                 box-shadow: none !important;
-                background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount);
-                color: $animator-container-selected-color;
+                background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount)!important;
+                color: $animator-container-selected-color!important;
             }
         }
 
         .k-state-selected {
             &.k-state-focused {
                 box-shadow: none !important;
-                background: $animator-container-selected-background-color;
+                background: $animator-container-selected-background-color!important;
             }
         }
     }
