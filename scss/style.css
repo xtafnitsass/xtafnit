@@ -4577,8 +4577,8 @@ mainbody .x-section-header-wrapper {
   color: #BD2E39 !important;
 }
 
-.funding-icon-success span.k-icon {
-  color: green;
+.cube-wrapper .funding-icon-success span.k-icon {
+  color: green !important;
 }
 
 input:not(.k-grid-search input):focus {
