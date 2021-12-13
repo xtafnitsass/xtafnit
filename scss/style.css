@@ -381,8 +381,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #9c9c9c;
-  color: #F0F0F0;
+  background: #9c9c9c !important;
+  color: #F0F0F0 !important;
   border: 0 !important;
 }
 
@@ -394,21 +394,21 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #9c9c9c;
-  color: #F0F0F0;
+  background: #9c9c9c !important;
+  color: #F0F0F0 !important;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #949494;
-  color: #F0F0F0;
+  background: #949494 !important;
+  color: #F0F0F0 !important;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #9c9c9c;
+  background: #9c9c9c !important;
 }
 
 .k-animation-container .k-nodata {
@@ -4577,8 +4577,8 @@ mainbody .x-section-header-wrapper {
   color: #BD2E39 !important;
 }
 
-.funding-icon-success span.k-icon {
-  color: green;
+.cube-wrapper .funding-icon-success span.k-icon {
+  color: green !important;
 }
 
 input:not(.k-grid-search input):focus {
