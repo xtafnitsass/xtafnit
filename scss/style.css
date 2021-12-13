@@ -381,8 +381,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-animation-container li a:hover {
-  background: #fafafa;
-  color: #464247;
+  background: #fafafa !important;
+  color: #464247 !important;
   border: 0 !important;
 }
 
@@ -394,21 +394,21 @@ mainbody .x-section-header-wrraper {
 .k-animation-container .k-list .k-item:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #fafafa;
-  color: #464247;
+  background: #fafafa !important;
+  color: #464247 !important;
 }
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #f2f2f2;
-  color: #464247;
+  background: #f2f2f2 !important;
+  color: #464247 !important;
 }
 
 .k-animation-container .k-list .k-state-selected.k-state-focused {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background: #fafafa;
+  background: #fafafa !important;
 }
 
 .k-animation-container .k-nodata {
@@ -4483,7 +4483,7 @@ ul.fieldlist {
 }
 
 .DashboardPage .dashStatus {
-  max-width: 580px;
+  max-width: 592px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
