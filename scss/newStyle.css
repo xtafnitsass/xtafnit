@@ -605,6 +605,10 @@ label.btn {
 }
 
 /*grid filter stick right*/
+.xstyle-gridv4-wrapper.border-bottom-0 {
+  border-bottom: none !important;
+}
+
 .xstyle-gridv4-wrapper.stickFilterRight .k-grid-filter,
 .xstyle-gridv4-wrapper.stickFilterRight .k-header-column-menu {
   float: right !important;

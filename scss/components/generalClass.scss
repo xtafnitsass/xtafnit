@@ -46,6 +46,10 @@
 /*grid filter stick right*/
 
 .xstyle-gridv4-wrapper {
+    &.border-bottom-0 {
+        border-bottom: none !important;
+    }
+
     &.stickFilterRight {
 
         .k-grid-filter,
@@ -330,8 +334,8 @@
     border-radius: 0 !important;
 }
 
-.image-border-raduis{
-    img{
+.image-border-raduis {
+    img {
         border-radius: 50%;
     }
 }
