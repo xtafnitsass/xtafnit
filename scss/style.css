@@ -5065,7 +5065,7 @@ input:not(.k-grid-search input):focus {
 }
 
 .DashboardPage .dashStatus {
-  max-width: 580px;
+  max-width: 592px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
