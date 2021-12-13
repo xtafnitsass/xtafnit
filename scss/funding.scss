@@ -2,6 +2,7 @@ $funding-checkbox-label-font-size:16px !default;
 $funding-x-section-header-wrapper:transparent !default;
 $funding-grid-button-color:#fff !default;
 $funding-grid-button-hover-color : #BD2E39 !default;
+$funding-loaners-first-cube-phone-color:green!default;
 
 label.k-checkbox-label {
     font-size: $funding-checkbox-label-font-size !important;
@@ -37,11 +38,14 @@ mainbody {
     }
 }
 
-.funding-icon-success {
-    span.k-icon {
-        color: green;
+.cube-wrapper {
+    .funding-icon-success {
+        span.k-icon {
+            color: $funding-loaners-first-cube-phone-color !important;
+        }
     }
 }
+
 
 // .x-control-focus{
 //     box-shadow: 0px 0px 5px #000!important;
