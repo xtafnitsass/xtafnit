@@ -605,7 +605,7 @@ label.btn {
 }
 
 /*grid filter stick right*/
-.xstyle-gridv4-wrapper.border-bottom-0 {
+.xstyle-gridv4-wrapper.border-bottom-0 .k-grid-content td {
   border-bottom: none !important;
 }
 

@@ -47,7 +47,10 @@
 
 .xstyle-gridv4-wrapper {
     &.border-bottom-0 {
-        border-bottom: none !important;
+        .k-grid-content td{
+            border-bottom: none !important;
+        }
+       
     }
 
     &.stickFilterRight {
