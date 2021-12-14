@@ -2895,12 +2895,6 @@ progress[value]::-webkit-progress-value {
   line-height: 32px !important;
 }
 
-.statusColumn {
-  padding: 2px 10px;
-  border-radius: 10px;
-  font-size: 12px;
-}
-
 .uxStudioOptions {
   height: 200px;
   display: -webkit-box;
@@ -4034,6 +4028,12 @@ ul.fieldlist {
   opacity: 1 !important;
 }
 
+.DashboardPage .statusColumn {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
 .DashboardPage h4.x-cell-header {
   font-weight: bold !important;
 }
@@ -4362,6 +4362,7 @@ ul.fieldlist {
   color: #8733af;
   font-weight: bold;
   font-size: 15px;
+  border-radius: 5px;
 }
 
 .DashboardPage .dashMyMission .k-grid-content .k-alt,

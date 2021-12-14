@@ -14,6 +14,14 @@ $dash-gridColumnBackText:#f7e8ff !default;
 $dash-scheduler-nonwork-background:white !default;
 
 .DashboardPage {
+
+    .statusColumn {
+        padding: 2px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+
     h4.x-cell-header {
         font-weight: bold !important;
     }
@@ -266,7 +274,7 @@ $dash-scheduler-nonwork-background:white !default;
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         overflow: hidden;
         padding: 20px;
-        margin:auto 0.6vw;
+        margin: auto 0.6vw;
         background: white;
 
         h4 {
@@ -341,6 +349,7 @@ $dash-scheduler-nonwork-background:white !default;
                     color: $dash-text-green;
                     font-weight: bold;
                     font-size: 15px;
+                    border-radius: 5px;
                 }
             }
 
