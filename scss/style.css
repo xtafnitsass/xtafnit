@@ -2894,6 +2894,12 @@ progress[value]::-webkit-progress-value {
   line-height: 32px !important;
 }
 
+.statusColumn {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
 .uxStudioOptions {
   height: 200px;
   display: -webkit-box;
@@ -4586,12 +4592,6 @@ input:not(.k-grid-search input):focus {
           box-shadow: 0px 0px 5px #000 !important;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-}
-
-.statusColumn {
-  padding: 2px 10px;
-  border-radius: 10px;
-  font-size: 12px;
 }
 
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
