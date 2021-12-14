@@ -41,6 +41,14 @@
   z-index: initial !important;
 }
 
+.generalSearchBadge {
+  background: #f7e8ff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  min-width: 35px;
+}
+
 .lastColumnLinkView .k-grid-content tr td:last-child {
   text-decoration: underline;
   color: #3498db !important;
