@@ -398,7 +398,7 @@ $dash-grid-link-color:#c4c5c5 !default;
     .dashMission3,
     .dashMission4,
     .dashMission5 {
-        min-height: 160px;
+        min-height: 220px;
         background-color: #fff;
         box-shadow: $dash-boxshadow;
         margin-bottom: 20px;
@@ -465,7 +465,7 @@ $dash-grid-link-color:#c4c5c5 !default;
     }
 
     .dashStatus {
-        max-width: 592px;
+        max-width: 583px;
 
         .k-chart svg {
             path[fill="blue"] {
