@@ -13,6 +13,8 @@ $dash-tabStrip: #8733af !default;
 $dash-gridColumnBackText:#f7e8ff !default;
 $dash-scheduler-nonwork-background:white !default;
 $dash-grid-link-color:#c4c5c5 !default;
+$dash-grid-content-height:150px!default;
+$dash-cubes-height:160px!default;
 
 .DashboardPage {
 
@@ -331,7 +333,7 @@ $dash-grid-link-color:#c4c5c5 !default;
 
         .k-grid-content {
             padding-bottom: 20px;
-            max-height: 250px;
+            max-height: $dash-grid-content-height;
 
             // table {
             //   table-layout: auto !important;
@@ -398,7 +400,7 @@ $dash-grid-link-color:#c4c5c5 !default;
     .dashMission3,
     .dashMission4,
     .dashMission5 {
-        min-height: 220px;
+        min-height: $dash-cubes-height;
         background-color: #fff;
         box-shadow: $dash-boxshadow;
         margin-bottom: 20px;
