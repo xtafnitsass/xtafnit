@@ -2,7 +2,7 @@ $funding-checkbox-label-font-size:16px !default;
 $funding-x-section-header-wrapper:transparent !default;
 $funding-grid-button-color:#fff !default;
 $funding-grid-button-hover-color : #BD2E39 !default;
-$funding-loaners-first-cube-phone-color:green!default;
+$funding-loaners-first-cube-phone-color:green !default;
 
 label.k-checkbox-label {
     font-size: $funding-checkbox-label-font-size !important;
@@ -55,4 +55,10 @@ mainbody {
 input:not(.k-grid-search input):focus {
     box-shadow: 0px 0px 5px #000 !important;
     transition: 0.2s all;
+}
+
+.statusColumn {
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 12px;
 }
