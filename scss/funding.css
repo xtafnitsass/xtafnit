@@ -29,10 +29,4 @@ input:not(.k-grid-search input):focus {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
-
-.statusColumn {
-  padding: 2px 10px;
-  border-radius: 10px;
-  font-size: 12px;
-}
 /*# sourceMappingURL=funding.css.map */
