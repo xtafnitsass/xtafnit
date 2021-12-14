@@ -5057,7 +5057,7 @@ input:not(.k-grid-search input):focus {
 .DashboardPage .dashMission3 span,
 .DashboardPage .dashMission4 span,
 .DashboardPage .dashMission5 span {
-  font-size: 20px;
+  font-size: 30px;
   color: #043563;
   margin: 5px 0;
 }
