@@ -43,6 +43,10 @@
   color: #fff;
 }
 
+.DashboardPage .k-grid .k-grid-content td a {
+  color: #c4c5c5 !important;
+}
+
 .DashboardPage .k-grid .k-link:hover {
   background: transparent !important;
 }
