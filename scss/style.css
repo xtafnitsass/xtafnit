@@ -4325,7 +4325,7 @@ ul.fieldlist {
 .DashboardPage .dashContact .k-grid-content,
 .DashboardPage .dashOverview .k-grid-content {
   padding-bottom: 20px;
-  max-height: 250px;
+  max-height: 150px;
 }
 
 .DashboardPage .dashMyMission .k-grid-content tr,
@@ -4409,7 +4409,7 @@ ul.fieldlist {
 .DashboardPage .dashMission3,
 .DashboardPage .dashMission4,
 .DashboardPage .dashMission5 {
-  min-height: 220px;
+  min-height: 160px;
   background-color: #fff;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
