@@ -4409,7 +4409,7 @@ ul.fieldlist {
 .DashboardPage .dashMission3,
 .DashboardPage .dashMission4,
 .DashboardPage .dashMission5 {
-  min-height: 160px;
+  min-height: 220px;
   background-color: #fff;
   -webkit-box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
           box-shadow: 0 2px 9px 0 rgba(0, 45, 65, 0.08);
@@ -4494,7 +4494,7 @@ ul.fieldlist {
 }
 
 .DashboardPage .dashStatus {
-  max-width: 592px;
+  max-width: 583px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {
