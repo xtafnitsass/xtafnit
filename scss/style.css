@@ -4588,6 +4588,12 @@ input:not(.k-grid-search input):focus {
   transition: 0.2s all;
 }
 
+.statusColumn {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
