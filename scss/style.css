@@ -4654,6 +4654,10 @@ input:not(.k-grid-search input):focus {
   color: #fff;
 }
 
+.DashboardPage .k-grid .k-grid-content td a {
+  color: #c4c5c5 !important;
+}
+
 .DashboardPage .k-grid .k-link:hover, .DashboardPage .k-grid .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .DashboardPage .k-grid td.k-state-focused.k-state-hover:hover {
   background: transparent !important;
 }
