@@ -47,10 +47,10 @@
 
 .xstyle-gridv4-wrapper {
     &.border-bottom-0 {
-        .k-grid-content td{
+        .k-grid-content td {
             border-bottom: none !important;
         }
-       
+
     }
 
     &.stickFilterRight {
@@ -340,5 +340,17 @@
 .image-border-raduis {
     img {
         border-radius: 50%;
+    }
+}
+
+.infoGap {
+    >div {
+        &:first-child {
+            flex: 0 0 2%;
+        }
+
+        &:last-child {
+            flex: 0 0 98%;
+        }
     }
 }

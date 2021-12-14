@@ -292,4 +292,16 @@
 .image-border-raduis img {
   border-radius: 50%;
 }
+
+.infoGap > div:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 2%;
+          flex: 0 0 2%;
+}
+
+.infoGap > div:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 98%;
+          flex: 0 0 98%;
+}
 /*# sourceMappingURL=generalClass.css.map */
