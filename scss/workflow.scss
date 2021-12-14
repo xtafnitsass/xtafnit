@@ -58,13 +58,16 @@ $websdk-goUpArrow-background:#fafafa !default;
 $websdk-grid-content-height: 45vh !default;
 $workflow-cube-first-border-color:#8733af !default;
 $workflow-cube-first-menu-dot-color:#8733af !default;
+$workflow-general-search-badge:#f7e8ff !default;
 
-.fixButtonHeight{
-    .k-button{
-        height:32px!important;
-        line-height: 32px!important;
+.fixButtonHeight {
+    .k-button {
+        height: 32px !important;
+        line-height: 32px !important;
     }
 }
+
+
 
 .uxStudioOptions {
     height: 200px;
@@ -104,6 +107,14 @@ $workflow-cube-first-menu-dot-color:#8733af !default;
 
 .navbar-fixed-top {
     z-index: initial !important;
+}
+
+.generalSearchBadge {
+    background: $workflow-general-search-badge;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    min-width: 35px;
 }
 
 .lastColumnLinkView {
