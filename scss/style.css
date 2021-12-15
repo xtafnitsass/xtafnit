@@ -4099,6 +4099,14 @@ input:not(.k-grid-search input):focus {
           box-shadow: none !important;
 }
 
+.xstyle-gridv4-wrapper span.fal {
+  font-family: 'Heebo';
+}
+
+.xstyle-gridv4-wrapper span.fal::before {
+  font-family: 'Font Awesome 5 Pro';
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 0 !important;
   border-bottom: 1px solid #464247 !important;
