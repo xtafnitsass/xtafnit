@@ -1,10 +1,4 @@
-// @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
-
-@font-face {
-    font-family: myFirstFont;
-    src: url('../fonts/heb1.woff1');
-    src: url('../fonts/heb1.woff2');
-  }
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 
 $suppliers-cube-background:#fff !default;
 $suppliers-cube-color:#ca0000 !default;
@@ -68,8 +62,7 @@ $suppliers-window-button-width:102px !default;
 
 body {
     background-color: $suppliers-body-background !important;
-    //font-family: Heebo;
-    font-family: myFirstFont;
+    font-family: Heebo;
 
     @media only screen and (max-width:1050px) {
         background-position: left;
@@ -186,8 +179,7 @@ header {
         font-size: 12px;
         color: #464247;
         opacity: 0.7;
-        //font-family: Heebo;
-        font-family: myFirstFont;
+        font-family: Heebo;
         max-width: 100%;
 
         span {
@@ -313,16 +305,16 @@ legend {
     font-size: 18px;
     min-height: 25px;
     color: $suppliers-x-cell-header-color;
-    //font-family: Heebo !important;
-    font-family: myFirstFont!important;
+    font-family: Heebo !important;
+    
     font-weight: bold;
 }
 
 .x-section-header,
 .x-control-caption-text {
     color: $suppliers-x-cell-header-color;
-    //font-family: Heebo !important;
-    font-family: myFirstFont!important;
+    font-family: Heebo !important;
+    
 }
 
 //grid pane wrapper border//
@@ -1143,8 +1135,7 @@ mainbody {
             color: $suppliers-details-top-color;
             font-weight: normal;
             opacity: 0.65;
-            //font-family: Heebo;
-            font-family: myFirstFont;
+            font-family: Heebo;
             font-size: 16px;
             font-weight: bold;
             font-stretch: normal;
