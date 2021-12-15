@@ -4606,6 +4606,18 @@ input:not(.k-grid-search input):focus {
   transition: 0.2s all;
 }
 
+.xstyle-upload-wrapper .k-button.k-upload-button {
+  background: transparent !important;
+  color: inherit !important;
+  border: 0 !important;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.xstyle-upload-wrapper .k-button.k-upload-button .k-icon {
+  font-size: 35px !important;
+}
+
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
   border-top: 1px solid #464247 !important;
   border-bottom: 1px solid #464247 !important;
