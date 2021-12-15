@@ -41,4 +41,14 @@ input:not(.k-grid-search input):focus {
 .xstyle-upload-wrapper .k-button.k-upload-button .k-icon {
   font-size: 35px !important;
 }
+
+.xstyle-upload-wrapper .k-button.k-upload-button:hover {
+  cursor: pointer;
+}
+
+.xstyle-upload-wrapper .k-button.k-upload-button.k-state-focused, .xstyle-upload-wrapper .k-button.k-upload-button.k-state-hover, .xstyle-upload-wrapper .k-button.k-upload-button.k-state-selected {
+  border: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
 /*# sourceMappingURL=funding.css.map */
