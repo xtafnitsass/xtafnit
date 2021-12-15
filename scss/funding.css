@@ -38,6 +38,11 @@ input:not(.k-grid-search input):focus {
   font-weight: normal;
 }
 
+.xstyle-upload-wrapper .k-button.k-upload-button > span {
+  z-index: 1;
+  cursor: pointer;
+}
+
 .xstyle-upload-wrapper .k-button.k-upload-button .k-icon {
   font-size: 35px !important;
 }
