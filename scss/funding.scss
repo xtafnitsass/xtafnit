@@ -58,15 +58,25 @@ input:not(.k-grid-search input):focus {
 }
 
 
-.xstyle-upload-wrapper{
+.xstyle-upload-wrapper {
     .k-button.k-upload-button {
-        background: transparent!important;
-        color: inherit!important;
-        border: 0!important;
+        background: transparent !important;
+        color: inherit !important;
+        border: 0 !important;
         font-size: 14px;
         font-weight: normal;
-        .k-icon{
-            font-size: 35px!important;
+
+        .k-icon {
+            font-size: 35px !important;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+        &.k-state-focused,
+        &.k-state-hover,
+        &.k-state-selected {
+            border: 0 !important;
+            box-shadow: none !important;
         }
     }
 }
