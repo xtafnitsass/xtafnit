@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+.DashboardPage .statusColumn {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
 .DashboardPage h4.x-cell-header {
   font-weight: bold !important;
 }
@@ -35,6 +41,10 @@
 
 .DashboardPage .k-animation-container .k-calendar .k-footer .k-nav-today:hover {
   color: #fff;
+}
+
+.DashboardPage .k-grid .k-grid-content td a {
+  color: #c4c5c5 !important;
 }
 
 .DashboardPage .k-grid .k-link:hover {
@@ -286,7 +296,7 @@
 .DashboardPage .dashContact .k-grid-content,
 .DashboardPage .dashOverview .k-grid-content {
   padding-bottom: 20px;
-  max-height: 250px;
+  max-height: 150px;
 }
 
 .DashboardPage .dashMyMission .k-grid-content tr,
@@ -327,6 +337,7 @@
   color: #8733af;
   font-weight: bold;
   font-size: 15px;
+  border-radius: 5px;
 }
 
 .DashboardPage .dashMyMission .k-grid-content .k-alt,
@@ -429,7 +440,7 @@
 .DashboardPage .dashMission3 span,
 .DashboardPage .dashMission4 span,
 .DashboardPage .dashMission5 span {
-  font-size: 20px;
+  font-size: 30px;
   color: #043563;
   margin: 5px 0;
 }
@@ -448,7 +459,7 @@
 }
 
 .DashboardPage .dashStatus {
-  max-width: 592px;
+  max-width: 583px;
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="blue"] {

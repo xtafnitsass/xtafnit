@@ -12,8 +12,19 @@ $dash-inputgrey: #f7f8f9 !default;
 $dash-tabStrip: #8733af !default;
 $dash-gridColumnBackText:#f7e8ff !default;
 $dash-scheduler-nonwork-background:white !default;
+$dash-grid-link-color:#c4c5c5 !default;
+$dash-grid-content-height:150px!default;
+$dash-cubes-height:160px!default;
 
 .DashboardPage {
+
+    .statusColumn {
+        padding: 2px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+
     h4.x-cell-header {
         font-weight: bold !important;
     }
@@ -62,6 +73,14 @@ $dash-scheduler-nonwork-background:white !default;
     }
 
     .k-grid {
+        .k-grid-content {
+            td {
+                a {
+                    color: $dash-grid-link-color !important;
+                }
+            }
+        }
+
         .k-link {
             &:hover {
                 background: transparent !important;
@@ -266,7 +285,7 @@ $dash-scheduler-nonwork-background:white !default;
         background-image: linear-gradient(to top, #fafbfc, #ffffff);
         overflow: hidden;
         padding: 20px;
-        margin:auto 0.6vw;
+        margin: auto 0.6vw;
         background: white;
 
         h4 {
@@ -314,7 +333,7 @@ $dash-scheduler-nonwork-background:white !default;
 
         .k-grid-content {
             padding-bottom: 20px;
-            max-height: 250px;
+            max-height: $dash-grid-content-height;
 
             // table {
             //   table-layout: auto !important;
@@ -341,6 +360,7 @@ $dash-scheduler-nonwork-background:white !default;
                     color: $dash-text-green;
                     font-weight: bold;
                     font-size: 15px;
+                    border-radius: 5px;
                 }
             }
 
@@ -380,7 +400,7 @@ $dash-scheduler-nonwork-background:white !default;
     .dashMission3,
     .dashMission4,
     .dashMission5 {
-        min-height: 160px;
+        min-height: $dash-cubes-height;
         background-color: #fff;
         box-shadow: $dash-boxshadow;
         margin-bottom: 20px;
@@ -412,7 +432,7 @@ $dash-scheduler-nonwork-background:white !default;
         }
 
         span {
-            font-size: 20px;
+            font-size: 30px;
             color: $dash-darkblue;
             margin: 5px 0;
         }
@@ -447,7 +467,7 @@ $dash-scheduler-nonwork-background:white !default;
     }
 
     .dashStatus {
-        max-width: 592px;
+        max-width: 583px;
 
         .k-chart svg {
             path[fill="blue"] {

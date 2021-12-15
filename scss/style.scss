@@ -424,6 +424,7 @@ $websdk-goUpArrow-background:#fafafa;
 $websdk-grid-content-height: 30vh;
 $workflow-cube-first-border-color:#171957;
 $workflow-cube-first-menu-dot-color:#171957;
+$workflow-general-search-badge:#f7e8ff;
 
 
 /*timeline*/
@@ -553,6 +554,9 @@ $dash-inputgrey: #f7f8f9;
 $dash-tabStrip: #8733af;
 $dash-gridColumnBackText:#f7e8ff;
 $dash-scheduler-nonwork-background:white;
+$dash-grid-link-color:#c4c5c5;
+$dash-grid-content-height:150px;
+$dash-cubes-height:160px;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

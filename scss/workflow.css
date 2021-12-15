@@ -41,6 +41,24 @@
   z-index: initial !important;
 }
 
+.generalSearchBadge {
+  background: #f7e8ff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  min-width: 35px;
+}
+
+.generalSearchBadge.documents {
+  min-width: auto !important;
+  z-index: 999999999999;
+  display: inline-block;
+  padding: 0px 3px;
+  top: 9px;
+  left: 3px;
+  font-size: 12px;
+}
+
 .lastColumnLinkView .k-grid-content tr td:last-child {
   text-decoration: underline;
   color: #3498db !important;
