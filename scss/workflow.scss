@@ -115,8 +115,9 @@ $workflow-general-search-badge:#f7e8ff !default;
     text-align: center;
     border-radius: 30px;
     min-width: 35px;
+
     &.documents {
-        min-width: auto!important;
+        min-width: auto !important;
         z-index: 999999999999;
         display: inline-block;
         padding: 0px 3px;
@@ -133,6 +134,18 @@ $workflow-general-search-badge:#f7e8ff !default;
                 &:last-child {
                     text-decoration: underline;
                     color: #3498db !important;
+                }
+            }
+        }
+    }
+}
+
+.xstyle-treelist-wrapper {
+    .k-treelist-group {
+        td {
+            span {
+                +div {
+                    display: inline-block;
                 }
             }
         }

@@ -2956,6 +2956,10 @@ progress[value]::-webkit-progress-value {
   color: #3498db !important;
 }
 
+.xstyle-treelist-wrapper .k-treelist-group td span + div {
+  display: inline-block;
+}
+
 .drawerItemScroller {
   max-height: 540px;
   overflow: auto;
