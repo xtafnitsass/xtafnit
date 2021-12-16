@@ -4343,7 +4343,7 @@ ul.fieldlist {
 .DashboardPage .dashContact .k-grid-content,
 .DashboardPage .dashOverview .k-grid-content {
   padding-bottom: 20px;
-  max-height: 150px;
+  max-height: 120px;
 }
 
 .DashboardPage .dashMyMission .k-grid-content tr,
