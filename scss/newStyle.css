@@ -874,6 +874,11 @@ label.btn {
           flex: 0 0 98%;
 }
 
+/*need transform to dashboard sass*/
+#TafnitCore_SaaSServer_TafnitCloud_UI_DashBorad .h-300 .k-grid-content {
+  max-height: 300px !important;
+}
+
 .p-floating-container {
   position: relative;
 }
