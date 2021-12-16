@@ -345,7 +345,7 @@
 
 .infoGap {
     flex: 0 0 2%;
-
+    z-index: 1;
     +div {
         flex: 0 0 98%;
     }

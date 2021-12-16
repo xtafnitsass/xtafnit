@@ -865,6 +865,7 @@ label.btn {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 2%;
           flex: 0 0 2%;
+  z-index: 1;
 }
 
 .infoGap + div {
