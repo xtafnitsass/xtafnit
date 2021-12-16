@@ -83,3 +83,14 @@ input:not(.k-grid-search input):focus {
         }
     }
 }
+
+
+.xstyle-gridv4-wrapper {
+    span.fal {
+        font-family: 'Heebo';
+
+        &::before {
+            font-family: 'Font Awesome 5 Pro';
+        }
+    }
+}

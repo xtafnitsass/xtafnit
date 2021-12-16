@@ -51,4 +51,12 @@ input:not(.k-grid-search input):focus {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+
+.xstyle-gridv4-wrapper span.fal {
+  font-family: 'Heebo';
+}
+
+.xstyle-gridv4-wrapper span.fal::before {
+  font-family: 'Font Awesome 5 Pro';
+}
 /*# sourceMappingURL=funding.css.map */

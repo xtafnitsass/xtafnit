@@ -2955,6 +2955,10 @@ progress[value]::-webkit-progress-value {
   color: #3498db !important;
 }
 
+.xstyle-treelist-wrapper .k-treelist-group td span + div {
+  display: inline-block;
+}
+
 .drawerItemScroller {
   max-height: 540px;
   overflow: auto;
@@ -4626,6 +4630,14 @@ input:not(.k-grid-search input):focus {
   border: 0 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.xstyle-gridv4-wrapper span.fal {
+  font-family: 'Heebo';
+}
+
+.xstyle-gridv4-wrapper span.fal::before {
+  font-family: 'Font Awesome 5 Pro';
 }
 
 .xstyle-intlphonenumber-wrapper .intl-tel-input input {
