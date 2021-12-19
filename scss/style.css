@@ -62,6 +62,16 @@
 }
 
 @forward 'button';
+.iconOnly .k-button {
+  background: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+
+.iconOnly .k-button .k-icon {
+  font-size: 40px !important;
+}
+
 /*
 , './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
