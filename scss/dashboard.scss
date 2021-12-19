@@ -16,6 +16,9 @@ $dash-grid-link-color:#c4c5c5 !default;
 $dash-grid-content-height:150px!default;
 $dash-cubes-height:160px!default;
 
+$dash-chart-1:#8733af!default;
+$dash-chart-2:#7cceee!default;
+
 .DashboardPage {
 
     .statusColumn {
@@ -471,11 +474,11 @@ $dash-cubes-height:160px!default;
 
         .k-chart svg {
             path[fill="blue"] {
-                fill: $dash-torq;
+                fill: $dash-chart-1;
             }
 
             path[fill="red"] {
-                fill: lighten($dash-torq, 20);
+                fill: lighten($dash-chart-1, 20);
             }
         }
     }
