@@ -5153,4 +5153,14 @@ input:not(.k-grid-search input):focus {
 .iconOnly .k-button .k-icon {
   font-size: 40px !important;
 }
+
+.iconOnly .k-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.iconOnly .k-button:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
 /*# sourceMappingURL=style.css.map */
