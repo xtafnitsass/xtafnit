@@ -5143,4 +5143,14 @@ input:not(.k-grid-search input):focus {
   background-color: white !important;
   color: #8733af;
 }
+
+.iconOnly .k-button {
+  background: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+
+.iconOnly .k-button .k-icon {
+  font-size: 40px !important;
+}
 /*# sourceMappingURL=style.css.map */
