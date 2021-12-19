@@ -478,10 +478,6 @@ $dash-chart-2:#7cceee !default;
             }
 
             path[fill="red"] {
-                fill: $dash-chart-2, 20;
-            }
-
-            path[path^="url(#kdef"] {
                 fill: $dash-chart-2;
             }
         }
