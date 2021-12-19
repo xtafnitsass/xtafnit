@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,SADK,CACL,SAAS,CAAA;EACL,UAAU,EAAE,WAAW,CAAA,UAAU;EACjC,MAAM,EAAC,IAAI,CAAA,UAAU;EACrB,KAAK,EAAC,KAAK,CAAA,UAAU;CAIxB;;AARL,AAKQ,SALC,CACL,SAAS,CAIL,OAAO,CAAA;EACH,SAAS,EAAE,IAAI,CAAA,UAAU;CAC5B",
+    "sources": [
+        "paymentsGateway.scss"
+    ],
+    "names": [],
+    "file": "paymentsGateway.css"
+}

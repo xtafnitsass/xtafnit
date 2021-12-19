@@ -1,0 +1,10 @@
+.iconOnly .k-button {
+  background: transparent !important;
+  border: none !important;
+  color: black !important;
+}
+
+.iconOnly .k-button .k-icon {
+  font-size: 40px !important;
+}
+/*# sourceMappingURL=paymentsGateway.css.map */
