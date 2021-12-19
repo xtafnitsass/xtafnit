@@ -16,9 +16,13 @@ $animator-autocomplete-header-template-color:#fff !default;
 $animator-autocomplete-header-template-background:#000 !default;
 $animtaor-text-align:right !default;
 
-.k-animation-container {
-    text-align: right;
+// .k-rtl{
+//     .k-animation-container {
+//         text-align: right;
+//     }
+// }
 
+.k-animation-container {
     .k-list-container {
         .k-list-optionlabel {
             &.k-state-selected {
@@ -47,15 +51,15 @@ $animtaor-text-align:right !default;
     }
 
     li {
-        background: $animator-container-background-color;
+        background: $animator-container-background-color!important;
 
         a {
             color: $animator-container-color;
             border: 0 !important;
 
             &:hover {
-                background: $animator-container-selected-background-color;
-                color: $animator-container-selected-color;
+                background: $animator-container-selected-background-color!important;
+                color: $animator-container-selected-color!important;
                 border: 0 !important;
             }
         }
@@ -68,21 +72,21 @@ $animtaor-text-align:right !default;
         .k-item {
             &:hover {
                 box-shadow: none !important;
-                background: $animator-container-selected-background-color;
-                color: $animator-container-selected-color;
+                background: $animator-container-selected-background-color!important;
+                color: $animator-container-selected-color!important;
             }
 
             &.k-state-focused {
                 box-shadow: none !important;
-                background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount);
-                color: $animator-container-selected-color;
+                background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount)!important;
+                color: $animator-container-selected-color!important;
             }
         }
 
         .k-state-selected {
             &.k-state-focused {
                 box-shadow: none !important;
-                background: $animator-container-selected-background-color;
+                background: $animator-container-selected-background-color!important;
             }
         }
     }

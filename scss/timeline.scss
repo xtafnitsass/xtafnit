@@ -17,37 +17,37 @@ $timeline-scoller-background:#a9bdca !default;
 
     .k-timeline-vertical,
     .k-timeline-event {
-        padding-right: 0px!important;
+        padding-right: 0px !important;
     }
 
     .k-timeline-flag {
-        position: relative!important;
-        right: -40px!important;
+        position: relative !important;
+        right: -40px !important;
     }
 
     .k-timeline-flag-wrap {
         &:after {
-            right: 70px!important;
-            left: 20px!important;
+            right: 70px !important;
+            left: 20px !important;
         }
     }
 
     .k-timeline-date-wrap {
-        left:20px;
-        right: unset!important;
+        left: 20px;
+        right: unset !important;
         z-index: 9999;
-        margin-top: 5px!important;
+        margin-top: 5px !important;
     }
 
     .k-card {
-        margin: 0!important;
-        width: 100%!important;
+        margin: 0 !important;
+        width: 100% !important;
     }
 
     .timlineActivity {
-        margin-top: 5px!important;
-        position: relative!important;
-        right: -20px!important;
+        margin-top: 5px !important;
+        position: relative !important;
+        right: -20px !important;
     }
 }
 
@@ -135,7 +135,7 @@ $timeline-scoller-background:#a9bdca !default;
 
     .k-timeline-date-wrap {
         position: absolute;
-        right: 20px;
+
         font-size: 12px;
         padding-right: 0px;
         margin-top: 16px;
@@ -176,6 +176,11 @@ $timeline-scoller-background:#a9bdca !default;
 
 .k-rtl {
     .k-timeline-vertical {
+
+        .k-timeline-date-wrap {
+            right: 20px;
+        }
+
         .k-timeline-card {
             .k-card {
                 border-color: $timeline-card-border-color;
@@ -207,6 +212,26 @@ $timeline-scoller-background:#a9bdca !default;
     .k-timeline-flag-wrap {
         &:after {
             left: 80px !important;
+        }
+    }
+}
+
+
+.k-ltr {
+    .k-timeline {
+        .k-timeline-flag {
+            left: 20px;
+        }
+    }
+
+    .k-timeline-vertical {
+        .k-timeline-date-wrap {
+            left: 20px;
+        }
+    }
+    .k-timeline-card{
+        .k-card{
+            margin:auto!important;
         }
     }
 }

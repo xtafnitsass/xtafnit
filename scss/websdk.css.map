@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AACI,iBADa,CACb,SAAS,CAAC;EACN,UAAU,EAAE,sBAAsB;EAClC,KAAK,EALkB,IAAI,CAKU,UAAU;CAKlD;;AARL,AAKQ,iBALS,CACb,SAAS,AAIJ,MAAM,CAAC;EACJ,UAAU,EAAE,eAAe;CAC9B;;AAKT,QAAQ,CAAR,QAAQ",
-    "sources": [
-        "websdk.scss"
-    ],
-    "names": [],
-    "file": "websdk.css"
-}
