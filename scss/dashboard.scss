@@ -13,11 +13,11 @@ $dash-tabStrip: #8733af !default;
 $dash-gridColumnBackText:#f7e8ff !default;
 $dash-scheduler-nonwork-background:white !default;
 $dash-grid-link-color:#c4c5c5 !default;
-$dash-grid-content-height:150px!default;
-$dash-cubes-height:160px!default;
+$dash-grid-content-height:150px !default;
+$dash-cubes-height:160px !default;
 
-$dash-chart-1:#8733af!default;
-$dash-chart-2:#7cceee!default;
+$dash-chart-1:#8733af !default;
+$dash-chart-2:#7cceee !default;
 
 .DashboardPage {
 
@@ -478,7 +478,11 @@ $dash-chart-2:#7cceee!default;
             }
 
             path[fill="red"] {
-                fill: lighten($dash-chart-1, 20);
+                fill: $dash-chart-2, 20;
+            }
+
+            path[path^="url(#kdef"] {
+                fill: $dash-chart-2;
             }
         }
     }

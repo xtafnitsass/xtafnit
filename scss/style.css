@@ -4524,7 +4524,11 @@ ul.fieldlist {
 }
 
 .DashboardPage .dashStatus .k-chart svg path[fill="red"] {
-  fill: #b672d6;
+  fill: #7cceee, 20;
+}
+
+.DashboardPage .dashStatus .k-chart svg path[path^="url(#kdef"] {
+  fill: #7cceee;
 }
 
 .k-tooltip.k-chart-tooltip {
