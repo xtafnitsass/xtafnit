@@ -344,6 +344,12 @@
 }
 
 .infoGap {
+    @media screen and (max-width:800px){
+        flex: 0 0 10%!important;
+        +div {
+            flex: 0 0 90%!important;
+        }
+    }
     flex: 0 0 2%;
     z-index: 1;
     +div {
