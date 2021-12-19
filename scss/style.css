@@ -72,6 +72,16 @@
   font-size: 40px !important;
 }
 
+.iconOnly .k-button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.iconOnly .k-button:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 /*
 , './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
