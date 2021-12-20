@@ -17,4 +17,11 @@
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+
+.rowIcons {
+  height: 75vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=paymentsGateway.css.map */
