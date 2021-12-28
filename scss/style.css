@@ -40,6 +40,7 @@
 /*phone*/
 /*spinner*/
 /*Dashboard*/
+/*switch*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
@@ -5170,4 +5171,15 @@ input:not(.k-grid-search input):focus {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.xstyle-switch-wrapper .k-switch-container {
+  border-color: #5800ff !important;
+}
+
+.xstyle-switch-wrapper span.k-switch-handle {
+  background-color: #6686fb !important;
+  border-color: #5800ff !important;
+}
+
+@forward 'switch';
 /*# sourceMappingURL=style.css.map */

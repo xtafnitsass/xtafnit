@@ -1,0 +1,11 @@
+.xstyle-switch-wrapper .k-switch-container {
+  border-color: #5800ff !important;
+}
+
+.xstyle-switch-wrapper span.k-switch-handle {
+  background-color: #6686fb !important;
+  border-color: #5800ff !important;
+}
+
+@forward 'switch';
+/*# sourceMappingURL=switch.css.map */
