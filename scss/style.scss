@@ -558,10 +558,19 @@ $dash-scheduler-nonwork-background:white;
 $dash-grid-link-color:#c4c5c5;
 $dash-grid-content-height:150px;
 $dash-cubes-height:160px;
+$dash-chart-1:#8733af;
+$dash-chart-2:#00b7ff;
+
+
+/*switch*/
+
+$switch-container-border-color:#5800ff;
+$switch-circle-background-color:#6686fb;
+$switch-circle-border-color:#5800ff;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',
 './k-animator-conainer', './drop-down', './drawer', './grid', './k-filter-container',
 './time', './float-button', './textarea', './upload', './multiselect',
 './tabstrip', './slider', './rating', './radio-button', './freehand', './virtual-keyboard', './link',
-'./portal', './stepper', './menu', './timeline', './tooltip', './headerMobile', './consumer-products';
+'./portal', './stepper', './menu', './timeline', './tooltip', './headerMobile', './consumer-products' , './switch';

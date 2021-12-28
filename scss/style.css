@@ -40,6 +40,7 @@
 /*phone*/
 /*spinner*/
 /*Dashboard*/
+/*switch*/
 @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
 .k-button {
   background: #0167b1 !important;
@@ -3603,4 +3604,14 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 }
 
 @forward 'consumer-products';
+.xstyle-switch-wrapper .k-switch-container {
+  border-color: #5800ff !important;
+}
+
+.xstyle-switch-wrapper span.k-switch-handle {
+  background-color: #6686fb !important;
+  border-color: #5800ff !important;
+}
+
+@forward 'switch';
 /*# sourceMappingURL=style.css.map */
