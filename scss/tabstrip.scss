@@ -15,7 +15,9 @@ $tabstrip-arrow-top-position:10px !default;
         border-color: $tabstrip-wrapper-border-color;
 
         .k-content {
-            border-color: $tabstrip-content-border-color
+            border-color: $tabstrip-content-border-color;
+            padding-right:0!important;
+            padding-left:0!important;
         }
 
         .k-tabstrip-items {

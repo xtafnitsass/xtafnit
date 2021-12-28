@@ -6,6 +6,7 @@
 .k-menu li.k-item {
   border: 1px solid #bbdceb !important;
   border-radius: 15px !important;
+  float: right !important;
 }
 
 .k-menu li.k-item.k-state-focused {
@@ -27,8 +28,20 @@
   font-size: 20px;
 }
 
+.k-menu .xMenuItemColor:last-child {
+  border-bottom: 0;
+  border-bottom: 1px solid #9797971f;
+  border-radius: 0;
+}
+
 .k-menu .xMenuItemColor span {
   color: #797979 !important;
+}
+
+.k-menu .xMenuItemColor span:hover {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  font-weight: bold !important;
 }
 
 .k-menu .xMenuHover:hover {

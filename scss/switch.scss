@@ -1,0 +1,18 @@
+$switch-container-border-color:#5800ff !default;
+$switch-circle-background-color:#6686fb !default;
+$switch-circle-border-color:#5800ff !default;
+
+
+.xstyle-switch-wrapper {
+    .k-switch-container {
+        border-color: #5800ff !important;
+    }
+
+    span.k-switch-handle {
+        background-color: #6686fb !important;
+        border-color: #5800ff !important;
+    }
+}
+
+
+@forward 'switch';
