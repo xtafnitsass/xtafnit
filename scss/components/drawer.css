@@ -18,6 +18,14 @@
   display: none !important;
 }
 
+.k-drawer-container .k-drawer .k-panelbar .k-item > .k-link {
+  background: transparent !important;
+}
+
+.k-drawer-container .k-drawer .k-panelbar .k-item > .k-link.k-state-hover, .k-drawer-container .k-drawer .k-panelbar .k-item > .k-link.k-state-selected {
+  background: transparent !important;
+}
+
 .k-drawer-container .k-drawer .k-drawer-wrapper {
   overflow-x: unset !important;
   overflow-y: unset !important;
