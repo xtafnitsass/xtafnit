@@ -136,6 +136,11 @@ mainbody > .row {
   width: auto;
 }
 
+.x-navbar-wrapper .k-panelbar-group > li.k-item > .k-link {
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+}
+
 .x-dynamic-label-control {
   width: 100%;
   display: inline-block;
