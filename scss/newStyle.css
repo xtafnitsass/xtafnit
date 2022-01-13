@@ -1594,7 +1594,7 @@ header .fal.fa-home {
   background-color: red;
 }
 
-#SignWindow #signatureFrame #controlGraphicalSignature {
+#SignWindow #signatureFrame .x-signature-canvas {
   position: initial;
   width: 99%;
   height: 90%;
