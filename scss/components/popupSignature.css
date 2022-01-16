@@ -1,28 +1,28 @@
-#SignWindow {
+#SignWindow, .xstyle-signature-wrapper {
   height: 85%;
 }
 
-#SignWindow #signatureFrame {
+#SignWindow #signatureFrame, .xstyle-signature-wrapper #signatureFrame {
   display: block;
   height: 95%;
   width: 100%;
 }
 
-#SignWindow #signatureFrame img {
+#SignWindow #signatureFrame img, .xstyle-signature-wrapper #signatureFrame img {
   display: inline-block;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame {
+#SignWindow #signatureFrame #toolbarSignatureFrame, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame {
   display: block;
   width: 100%;
   height: 35px;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame > a {
+#SignWindow #signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame > a {
   margin-left: 10px;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker {
   border-radius: 50%;
   background-color: red;
   width: 18px;
@@ -33,19 +33,19 @@
   cursor: pointer;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black {
   background-color: black;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue {
   background-color: blue;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red {
   background-color: red;
 }
 
-#SignWindow #signatureFrame .x-signature-canvas {
+#SignWindow #signatureFrame .x-signature-canvas, .xstyle-signature-wrapper #signatureFrame .x-signature-canvas {
   position: initial;
   width: 99%;
   height: 90%;
