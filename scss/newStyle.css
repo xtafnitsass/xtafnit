@@ -1609,6 +1609,7 @@ header .fal.fa-home {
 .GraphicalSignaturePlaceHoldersSign {
   border: 1px solid black;
   display: inline-block;
+  width: 100%;
 }
 
 .GraphicalSignaturePlaceHolders .x-popup_signatureImg,
