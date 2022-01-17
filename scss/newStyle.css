@@ -1551,27 +1551,27 @@ header .fal.fa-home {
   height: 85%;
 }
 
-#SignWindow #signatureFrame, .xstyle-signature-wrapper #signatureFrame {
+#SignWindow #signatureFrame, #SignWindow .x-signatureFrame, .xstyle-signature-wrapper #signatureFrame, .xstyle-signature-wrapper .x-signatureFrame {
   display: block;
   height: 95%;
   width: 100%;
 }
 
-#SignWindow #signatureFrame img, .xstyle-signature-wrapper #signatureFrame img {
+#SignWindow #signatureFrame img, #SignWindow .x-signatureFrame img, .xstyle-signature-wrapper #signatureFrame img, .xstyle-signature-wrapper .x-signatureFrame img {
   display: inline-block;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame {
+#SignWindow #signatureFrame #toolbarSignatureFrame, #SignWindow .x-signatureFrame #toolbarSignatureFrame, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame {
   display: block;
   width: 100%;
   height: 35px;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame > a {
+#SignWindow #signatureFrame #toolbarSignatureFrame > a, #SignWindow .x-signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame > a {
   margin-left: 10px;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker {
   border-radius: 50%;
   background-color: red;
   width: 18px;
@@ -1582,19 +1582,19 @@ header .fal.fa-home {
   cursor: pointer;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.black, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.black, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.black {
   background-color: black;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.blue {
   background-color: blue;
 }
 
-#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red {
+#SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.red, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker.red, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker.red {
   background-color: red;
 }
 
-#SignWindow #signatureFrame .x-signature-canvas, .xstyle-signature-wrapper #signatureFrame .x-signature-canvas {
+#SignWindow #signatureFrame .x-signature-canvas, #SignWindow .x-signatureFrame .x-signature-canvas, .xstyle-signature-wrapper #signatureFrame .x-signature-canvas, .xstyle-signature-wrapper .x-signatureFrame .x-signature-canvas {
   position: initial;
   width: 99%;
   height: 90%;
