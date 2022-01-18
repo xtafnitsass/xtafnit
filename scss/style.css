@@ -779,8 +779,14 @@ input[type="time"] {
 
 @forward 'time';
 .x-floatbutton {
-  background: #02b5fd;
+  background: #56543D;
   color: #fff;
+  border: 1px solid #000 !important;
+}
+
+.xstyle-floatbuttonv2-wrapper button {
+  background: #56543D !important;
+  color: #fff !important;
   border: 1px solid #000 !important;
 }
 
@@ -3289,20 +3295,20 @@ span.mandatory.active + textarea.k-textbox,
 span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
 span.mandatory.active ~ label.k-checkbox-label:before,
 span.mandatory.active + span.k-switch.k-widget .k-switch-container {
-  background: #e8ebff !important;
+  background: #deede1 !important;
 }
 
 .k-picker-wrap .mandatory.active ~ .k-select {
-  background: #e8ebff !important;
-  border-color: #e8ebff !important;
+  background: #deede1 !important;
+  border-color: #deede1 !important;
 }
 
 .mandatory.active + .k-timepicker input {
-  background: #e8ebff !important;
+  background: #deede1 !important;
 }
 
 .mandatory.active + .k-timepicker input ~ .k-select {
-  background: #e8ebff !important;
+  background: #deede1 !important;
 }
 
 .k-picker-wrap {
