@@ -785,6 +785,12 @@ input[type="time"] {
   border: 1px solid #fff !important;
 }
 
+.xstyle-floatbuttonv2-wrapper button {
+  background: #ca0000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
 @forward 'float-button';
 .xstyle-textareacontrol-wrapper .k-textarea {
   border-color: #000;

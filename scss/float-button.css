@@ -4,5 +4,11 @@
   border: 1px solid #fff !important;
 }
 
+.xstyle-floatbuttonv2-wrapper button {
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
 @forward 'float-button';
 /*# sourceMappingURL=float-button.css.map */
