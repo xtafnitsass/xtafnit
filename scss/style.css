@@ -625,17 +625,17 @@ mainbody .x-section-header-wrraper {
 .k-grid .k-grid-content tr:hover,
 .k-grid .k-grid-content tr:hover td {
   background-image: none;
-  background-color: #e7e7f4 !important;
+  background-color: #e7f4e9 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected {
-  background: #e7e7f4 !important;
+  background: #e7f4e9 !important;
   color: #000 !important;
 }
 
 .k-grid .k-grid-content tr.k-state-selected td {
-  background: #e7e7f4 !important;
+  background: #e7f4e9 !important;
   color: #000 !important;
 }
 
@@ -671,8 +671,8 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-grid .k-grid-pager .k-link.k-state-selected, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-selected.k-state-focused.k-state-hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-selected.k-state-focused.k-state-hover {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #3f3d2c), color-stop(163%, #56543D), color-stop(163%, #56543D));
-  background: linear-gradient(to top, #3f3d2c -46%, #56543D 163%, #56543D 163%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-46%, #56543D), color-stop(163%, #56543D), color-stop(163%, #56543D));
+  background: linear-gradient(to top, #56543D -46%, #56543D 163%, #56543D 163%);
 }
 
 .k-grid .k-grid-pager .k-link:hover, .k-grid .k-grid-pager .k-calendar .k-calendar-view td.k-state-focused.k-state-hover:hover, .k-calendar .k-calendar-view .k-grid .k-grid-pager td.k-state-focused.k-state-hover:hover {
@@ -4073,7 +4073,7 @@ mainbody .x-section-header-wrapper {
 }
 
 .k-grid .k-grid-content td a.k-button:hover {
-  color: #BD2E39 !important;
+  color: #428E5B !important;
 }
 
 .cube-wrapper .funding-icon-success span.k-icon {
