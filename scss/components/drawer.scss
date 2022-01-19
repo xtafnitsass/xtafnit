@@ -155,3 +155,18 @@
         }
     }
 }
+
+.k-ltr  {
+    .k-panelbar-header{
+        >span{
+            display: flex!important;
+            flex-direction: row-reverse!important;
+        }
+    }
+    .k-panelbar-group{
+        li{
+            display: flex!important;
+            flex-direction: row-reverse!important;
+        }
+    }
+}

@@ -128,4 +128,24 @@
 .k-drawer-left .k-drawer .k-panelbar .k-group.k-panel {
   margin-left: 10px;
 }
+
+.k-ltr .k-panelbar-header > span {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
+.k-ltr .k-panelbar-group li {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
 /*# sourceMappingURL=drawer.css.map */
