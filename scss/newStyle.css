@@ -3505,20 +3505,14 @@ input.k-input[dir="ltr"] + .k-clear-value {
   margin-left: 10px;
 }
 
-.k-ltr .k-panelbar-header > span {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+.k-drawer-left .k-panelbar > .k-item > .k-link, .k-drawer-left .k-panelbar > .k-panelbar-header > .k-link {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: reverse !important;
       -ms-flex-direction: row-reverse !important;
           flex-direction: row-reverse !important;
 }
 
-.k-ltr .k-panelbar-group li {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+.k-drawer-left .k-item .k-panelbar-item > span {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: reverse !important;
       -ms-flex-direction: row-reverse !important;
