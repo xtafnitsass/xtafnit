@@ -451,6 +451,16 @@ label.btn {
   top: 7px;
 }
 
+.k-flatcolorpicker .k-button.k-button-clear,
+.k-flatcolorpicker .k-button.k-flat {
+  color: inherit !important;
+}
+
+.k-flatcolorpicker .k-button.k-button-clear:hover,
+.k-flatcolorpicker .k-button.k-flat:hover {
+  background: inherit !important;
+}
+
 .x-login-user-error-msg.xstyle-intlphonenumber-wrapper .k-widget {
   border-bottom: 1px solid red !important;
 }
