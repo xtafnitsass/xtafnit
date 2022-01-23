@@ -200,6 +200,12 @@ a {
     cursor: pointer;
 }
 
+.x-grid-unsortable-devmode{
+    .x-dev-mode-edit-btn{
+        top:5px;
+    }
+}
+
 .k-rtl {
     text-align: right;
 }
