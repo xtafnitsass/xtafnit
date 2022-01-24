@@ -54,6 +54,8 @@
 
 .x-barcodeBtnContainer .k-icon.k-i-preview {
   left: 10px;
+  position: absolute;
+  top: 10px;
 }
 
 .k-rtl .x-text-with-button-wrapper .x-barcodeBtnContainer {

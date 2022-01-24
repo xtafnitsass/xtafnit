@@ -52,6 +52,15 @@ mainbody > .row {
   width: auto;
 }
 
+.xstyle-itoolbar-wrapper .k-button {
+  border: 1px solid #93c8df;
+  border-radius: 5px;
+}
+
+.xstyle-itoolbar-wrapper .k-button:hover {
+  background-color: #c4d4dc;
+}
+
 .x-navbar-wrapper .k-panelbar-group > li.k-item > .k-link {
   padding-top: 0.5px;
   padding-bottom: 0.5px;

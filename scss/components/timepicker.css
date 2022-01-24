@@ -20,6 +20,10 @@
   height: 36px;
 }
 
+.xstyle-timepicker-wrapper .k-timepicker .k-button {
+  height: 35px;
+}
+
 .xstyle-timepicker-wrapper input[type="time"] {
   height: 36px;
 }
