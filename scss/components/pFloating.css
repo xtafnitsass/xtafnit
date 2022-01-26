@@ -109,6 +109,7 @@
   display: flex;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  margin-top: 2px;
 }
 
 .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {

@@ -8,8 +8,31 @@
   left: initial !important;
 }
 
+.k-ltr > .k-autocomplete.k-textbox input {
+  text-align: left !important;
+}
+
+.k-ltr > .k-autocomplete input:not(:placeholder-shown) + label {
+  z-index: 10;
+  margin-top: 5px;
+}
+
 .k-autocomplete.k-textbox {
   background: white;
+}
+
+.k-autocomplete.k-textbox .k-clear-value {
+  position: absolute;
+  left: -20px;
+}
+
+.k-autocomplete.k-textbox .k-icon {
+  opacity: 0;
+  position: fixed;
+}
+
+.k-autocomplete.k-textbox:hover .k-icon {
+  opacity: 1;
 }
 
 /*template - hedear*/
@@ -51,5 +74,14 @@
 input.k-input[dir="ltr"] + .k-clear-value {
   right: 0px;
   left: initial;
+}
+
+.k-list-container, .k-list-content {
+  border-color: #a3d0e4;
+  background-color: #daecf4;
+}
+
+.k-list-container span.k-list-item-text, .k-list-content span.k-list-item-text {
+  width: 100%;
 }
 /*# sourceMappingURL=autocomplete.css.map */

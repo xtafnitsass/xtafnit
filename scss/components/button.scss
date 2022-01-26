@@ -1,4 +1,16 @@
 .k-button {
+    
+    border-color: #93c8df;
+    color: #003f59;
+    background-color: #daecf4;
+    border-radius: 4px;
+    
+    &:hover{
+        border-color: #98a5ab;
+        color: #003f59;
+        background-color: #c4d4dc;
+    }
+    
     &.x-button {
         width: 100%;
         display: inline-block;

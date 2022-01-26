@@ -2,12 +2,25 @@
   z-index: 1030 !important;
 }
 
+.xstyle-xmenu-wrapper li.k-item:hover {
+  background-color: unset !important;
+}
+
+.xstyle-xmenu-wrapper .k-menu {
+  float: left;
+  background-color: unset !important;
+}
+
 .xstyle-xmenu-wrapper .k-menu-group.k-popup {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: auto;
   padding: 20px;
+}
+
+.xstyle-xmenu-wrapper .k-menu-horizontal .k-menu-link {
+  border: 0 !important;
 }
 
 .xstyle-xmenu-wrapper .k-animation-container .k-button {

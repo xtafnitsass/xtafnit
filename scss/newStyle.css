@@ -136,15 +136,6 @@ mainbody > .row {
   width: auto;
 }
 
-.xstyle-itoolbar-wrapper .k-button {
-  border: 1px solid #93c8df;
-  border-radius: 5px;
-}
-
-.xstyle-itoolbar-wrapper .k-button:hover {
-  background-color: #c4d4dc;
-}
-
 .x-navbar-wrapper .k-panelbar-group > li.k-item > .k-link {
   padding-top: 0.5px;
   padding-bottom: 0.5px;
@@ -1009,6 +1000,7 @@ label.btn {
   display: flex;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  margin-top: 2px;
 }
 
 .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
@@ -1064,7 +1056,7 @@ header > span > b {
 }
 
 header .fal.fa-home {
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .navbar-fixed-top {
@@ -1713,7 +1705,16 @@ header .fal.fa-home {
 
 .k-switch {
   text-align: left !important;
-  direction: ltr;
+}
+
+.k-edge .k-switch-on .k-switch-thumb-wrap,
+.k-edge .k-ie .k-switch-on .k-switch-thumb-wrap {
+  margin-left: auto !important;
+}
+
+.k-rtl .k-switch .k-switch-label-off,
+.k-rtl [dir=rtl].k-switch .k-switch-label-off {
+  right: auto !important;
 }
 
 .xstyle-multiselect-wrapper input.k-input {
@@ -1853,12 +1854,25 @@ header .fal.fa-home {
   z-index: 1030 !important;
 }
 
+.xstyle-xmenu-wrapper li.k-item:hover {
+  background-color: unset !important;
+}
+
+.xstyle-xmenu-wrapper .k-menu {
+  float: left;
+  background-color: unset !important;
+}
+
 .xstyle-xmenu-wrapper .k-menu-group.k-popup {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: auto;
   padding: 20px;
+}
+
+.xstyle-xmenu-wrapper .k-menu-horizontal .k-menu-link {
+  border: 0 !important;
 }
 
 .xstyle-xmenu-wrapper .k-animation-container .k-button {
@@ -1905,6 +1919,11 @@ header .fal.fa-home {
 .xstyle-textcontrol-wrapper .x-login-user-error-msg {
   color: #f00;
   font-size: 14px;
+}
+
+.k-textbox {
+  border: 1px solid #93c8df;
+  border-radius: 4px;
 }
 
 .k-textbox.x-textbox {
@@ -2024,7 +2043,6 @@ header .fal.fa-home {
 .xstyle-vkeyboard-wrapper .k-icon.fas.fa-keyboard {
   width: 100%;
   height: 100%;
-  top: 20%;
   right: 0;
   left: 0;
 }
@@ -2036,7 +2054,6 @@ header .fal.fa-home {
 .barcodeIcon.fas.fa-barcode {
   width: 100%;
   height: 100%;
-  top: 25%;
   right: 0;
   left: 0;
 }
@@ -2209,8 +2226,31 @@ header .fal.fa-home {
   left: initial !important;
 }
 
+.k-ltr > .k-autocomplete.k-textbox input {
+  text-align: left !important;
+}
+
+.k-ltr > .k-autocomplete input:not(:placeholder-shown) + label {
+  z-index: 10;
+  margin-top: 5px;
+}
+
 .k-autocomplete.k-textbox {
   background: white;
+}
+
+.k-autocomplete.k-textbox .k-clear-value {
+  position: absolute;
+  left: -20px;
+}
+
+.k-autocomplete.k-textbox .k-icon {
+  opacity: 0;
+  position: fixed;
+}
+
+.k-autocomplete.k-textbox:hover .k-icon {
+  opacity: 1;
 }
 
 /*template - hedear*/
@@ -2252,6 +2292,15 @@ header .fal.fa-home {
 input.k-input[dir="ltr"] + .k-clear-value {
   right: 0px;
   left: initial;
+}
+
+.k-list-container, .k-list-content {
+  border-color: #a3d0e4;
+  background-color: #daecf4;
+}
+
+.k-list-container span.k-list-item-text, .k-list-content span.k-list-item-text {
+  width: 100%;
 }
 
 .x-cardamage-wrapper .x-image-wrapper .map {
@@ -3065,6 +3114,19 @@ input.k-input[dir="ltr"] + .k-clear-value {
 .xstyle-idropdownlist-wrapper .x-login-user-error-msg {
   color: #f00;
   font-size: 14px;
+}
+
+.k-button {
+  border-color: #93c8df;
+  color: #003f59;
+  background-color: #daecf4;
+  border-radius: 4px;
+}
+
+.k-button:hover {
+  border-color: #98a5ab;
+  color: #003f59;
+  background-color: #c4d4dc;
 }
 
 .k-button.x-button {

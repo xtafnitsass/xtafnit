@@ -8,6 +8,11 @@
   font-size: 14px;
 }
 
+.k-textbox {
+  border: 1px solid #93c8df;
+  border-radius: 4px;
+}
+
 .k-textbox.x-textbox {
   width: 100%;
   padding: 0;

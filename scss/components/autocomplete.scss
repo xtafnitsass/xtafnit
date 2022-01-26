@@ -9,12 +9,41 @@
             right: 0 !important;
             left: initial !important;
         }
+
+        &.k-textbox {
+            input{
+                text-align: left !important;
+            }
+        }
+
+        input:not(:placeholder-shown) + label{
+            z-index: 10;
+            margin-top: 5px;
+        }
     }
 }
 
 .k-autocomplete {
+    
     &.k-textbox {
         background: white;
+
+        .k-clear-value{
+            position: absolute;
+            left: -20px;
+        }
+
+        .k-icon{
+            opacity: 0;
+            position: fixed;
+        }
+
+        &:hover{
+            .k-icon{
+                opacity: 1;
+            }
+        }
+    
     }
 }
 
@@ -60,6 +89,15 @@ input.k-input[dir="ltr"] {
         left: initial;
     }
 
+}
+
+.k-list-container, .k-list-content{
+    border-color: #a3d0e4;
+    background-color: #daecf4;
+
+    span.k-list-item-text{
+        width: 100%;
+    }
 }
 
 // .xstyle-autocomplete-wrapper{

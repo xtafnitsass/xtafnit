@@ -1,5 +1,14 @@
 .k-switch {
   text-align: left !important;
-  direction: ltr;
+}
+
+.k-edge .k-switch-on .k-switch-thumb-wrap,
+.k-edge .k-ie .k-switch-on .k-switch-thumb-wrap {
+  margin-left: auto !important;
+}
+
+.k-rtl .k-switch .k-switch-label-off,
+.k-rtl [dir=rtl].k-switch .k-switch-label-off {
+  right: auto !important;
 }
 /*# sourceMappingURL=switch.css.map */

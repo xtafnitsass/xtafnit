@@ -2,7 +2,14 @@
     li{
         &.k-item{
             z-index: 1030!important;
+            &:hover{
+                background-color:unset !important;
+            }
         }
+    }
+    .k-menu{
+        float: left;
+        background-color:unset !important;
     }
     .k-menu-group {
         &.k-popup {
@@ -11,6 +18,12 @@
             padding: 20px;
         }
     }
+
+    .k-menu-horizontal{
+        .k-menu-link{
+            border: 0 !important;
+        }
+    } 
 
     .k-animation-container {
         .k-button {
