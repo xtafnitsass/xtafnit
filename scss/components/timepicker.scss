@@ -22,6 +22,21 @@
 }
 
 .xstyle-timepicker-wrapper {
+    
+    &.p-floating-container{
+        .k-timepicker {
+            background: #fafafa !important;
+            border: 0px;
+            border-bottom: 1px solid;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+
+            .k-picker-wrap {
+                border: none !important;
+            }
+        }
+    }
+
     .k-timepicker {
         width: 100%;
 

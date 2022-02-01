@@ -31,6 +31,20 @@
     //     color: #f00;
     //     font-size: 14px;
     // }
+    &.p-floating-container{
+        .k-datepicker {
+            background: #fafafa !important;
+            border: 0px;
+            border-bottom: 1px solid;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+
+            .k-picker-wrap {
+                border: none !important;
+            }
+        }
+    }
+ 
     input {
         &.k-input {
             // padding-top: 5.5px;
@@ -38,6 +52,16 @@
             // min-height: 37px;
             min-height: 36px;
         }
+    }
+}
+
+.xstyle-daterange-wrapper{
+    .k-dateinput{
+        background: #fafafa !important;
+            border: 0px;
+            border-bottom: 1px solid;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
     }
 }
 

@@ -83,5 +83,6 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .k-list-container span.k-list-item-text, .k-list-content span.k-list-item-text {
   width: 100%;
+  color: #003f59 !important;
 }
 /*# sourceMappingURL=autocomplete.css.map */

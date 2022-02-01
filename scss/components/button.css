@@ -27,6 +27,14 @@
   overflow: visible !important;
 }
 
+.k-button.k-input-button {
+  border: 0px !important;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  background: transparent !important;
+}
+
 /*row collapse button arrow*/
 .x-btn-collapse {
   width: 20px;
@@ -52,5 +60,33 @@
 .k-ltr .x-btn-collapse {
   right: 15px;
   left: auto;
+}
+
+.k-filter-menu .k-picker, .k-filter-menu .k-datepicker {
+  background: #fafafa !important;
+  border: 0px !important;
+  border-bottom: 1px solid !important;
+  border-radius: 0;
+}
+
+.k-filter-menu .k-picker:focus, .k-filter-menu .k-datepicker:focus {
+  color: #003f59;
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.k-filter-menu .k-icon-button {
+  border: 0px !important;
+}
+
+.k-calendar-container .k-button {
+  background: transparent !important;
+  border: 0px !important;
+}
+
+.k-window .k-icon-button {
+  background: transparent !important;
+  border: 0px !important;
 }
 /*# sourceMappingURL=button.css.map */

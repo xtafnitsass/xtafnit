@@ -924,6 +924,13 @@ label.btn {
   right: 10px;
 }
 
+.p-floating-container.xstyle-idropdownlist-wrapper .k-picker {
+  background: #fafafa !important;
+  border: 0px !important;
+  border-bottom: 1px solid !important;
+  border-radius: 0;
+}
+
 .p-floating-container.xstyle-idropdownlist-wrapper label {
   position: unset;
   opacity: 1;
@@ -1000,7 +1007,12 @@ label.btn {
   display: flex;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  margin-top: 2px;
+  margin-top: 4px;
+  z-index: 10;
+}
+
+.k-rtl .p-floating-container .k-input-inner {
+  padding-top: 10px;
 }
 
 .p-floating-container.xstyle-lookup-wrapper input:not(:placeholder-shown) + label, .p-floating-container.xstyle-lookuptafnit-wrapper input:not(:placeholder-shown) + label {
@@ -1045,6 +1057,10 @@ label.btn {
   left: 0;
   -webkit-transform-origin: left;
           transform-origin: left;
+}
+
+.k-floating-label-container {
+  padding-top: 0.5em;
 }
 
 header > span {
@@ -1102,6 +1118,14 @@ header .fal.fa-home {
   margin-left: 5px !important;
 }
 
+.k-rtl .searchDesign .k-grid-toolbar {
+  direction: ltr;
+}
+
+.k-rtl .searchDesign .k-grid-toolbar .k-grid-search {
+  direction: rtl;
+}
+
 /*check with ran */
 .x-embeddedToolbar {
   margin: 0px 2px;
@@ -1127,6 +1151,18 @@ header .fal.fa-home {
 .xstyle-daterange-wrapper input.k-textbox input.k-input {
   padding-top: 4.5px;
   padding-bottom: 4.5px;
+}
+
+.xstyle-timepicker-wrapper.p-floating-container .k-timepicker {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.xstyle-timepicker-wrapper.p-floating-container .k-timepicker .k-picker-wrap {
+  border: none !important;
 }
 
 .xstyle-timepicker-wrapper .k-timepicker {
@@ -1855,12 +1891,14 @@ header .fal.fa-home {
 }
 
 .xstyle-xmenu-wrapper li.k-item:hover {
-  background-color: unset !important;
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .xstyle-xmenu-wrapper .k-menu {
   float: left;
-  background-color: unset !important;
+  background-color: transparent !important;
 }
 
 .xstyle-xmenu-wrapper .k-menu-group.k-popup {
@@ -2301,6 +2339,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
 
 .k-list-container span.k-list-item-text, .k-list-content span.k-list-item-text {
   width: 100%;
+  color: #003f59 !important;
 }
 
 .x-cardamage-wrapper .x-image-wrapper .map {
@@ -3145,6 +3184,14 @@ input.k-input[dir="ltr"] + .k-clear-value {
   overflow: visible !important;
 }
 
+.k-button.k-input-button {
+  border: 0px !important;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  background: transparent !important;
+}
+
 /*row collapse button arrow*/
 .x-btn-collapse {
   width: 20px;
@@ -3172,6 +3219,34 @@ input.k-input[dir="ltr"] + .k-clear-value {
   left: auto;
 }
 
+.k-filter-menu .k-picker, .k-filter-menu .k-datepicker {
+  background: #fafafa !important;
+  border: 0px !important;
+  border-bottom: 1px solid !important;
+  border-radius: 0;
+}
+
+.k-filter-menu .k-picker:focus, .k-filter-menu .k-datepicker:focus {
+  color: #003f59;
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.k-filter-menu .k-icon-button {
+  border: 0px !important;
+}
+
+.k-calendar-container .k-button {
+  background: transparent !important;
+  border: 0px !important;
+}
+
+.k-window .k-icon-button {
+  background: transparent !important;
+  border: 0px !important;
+}
+
 /*datepicker*/
 .x-datePickerResponsive {
   width: 100%;
@@ -3192,8 +3267,28 @@ input.k-input[dir="ltr"] + .k-clear-value {
   width: 2em;
 }
 
+.xstyle-date-wrapper.p-floating-container .k-datepicker {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.xstyle-date-wrapper.p-floating-container .k-datepicker .k-picker-wrap {
+  border: none !important;
+}
+
 .xstyle-date-wrapper input.k-input {
   min-height: 36px;
+}
+
+.xstyle-daterange-wrapper .k-dateinput {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 /*unknow*/
@@ -3761,6 +3856,11 @@ input.k-input[dir="ltr"] + .k-clear-value {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 5%;
           flex: 0 0 5%;
+}
+
+.k-ie #TafnitCore_System_UI_App_WebSDK_Login .d-flex.justify-content-between {
+  -ms-flex-preferred-size: 25px;
+      flex-basis: 25px;
 }
 
 .k-chat .k-phone,

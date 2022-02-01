@@ -53,6 +53,14 @@ header .fal.fa-home {
   margin-left: 5px !important;
 }
 
+.k-rtl .searchDesign .k-grid-toolbar {
+  direction: ltr;
+}
+
+.k-rtl .searchDesign .k-grid-toolbar .k-grid-search {
+  direction: rtl;
+}
+
 /*check with ran */
 .x-embeddedToolbar {
   margin: 0px 2px;

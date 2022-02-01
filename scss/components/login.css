@@ -156,4 +156,9 @@
       -ms-flex: 0 0 5%;
           flex: 0 0 5%;
 }
+
+.k-ie #TafnitCore_System_UI_App_WebSDK_Login .d-flex.justify-content-between {
+  -ms-flex-preferred-size: 25px;
+      flex-basis: 25px;
+}
 /*# sourceMappingURL=login.css.map */

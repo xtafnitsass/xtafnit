@@ -12,6 +12,18 @@
   padding-bottom: 4.5px;
 }
 
+.xstyle-timepicker-wrapper.p-floating-container .k-timepicker {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.xstyle-timepicker-wrapper.p-floating-container .k-timepicker .k-picker-wrap {
+  border: none !important;
+}
+
 .xstyle-timepicker-wrapper .k-timepicker {
   width: 100%;
 }

@@ -18,8 +18,28 @@
   width: 2em;
 }
 
+.xstyle-date-wrapper.p-floating-container .k-datepicker {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.xstyle-date-wrapper.p-floating-container .k-datepicker .k-picker-wrap {
+  border: none !important;
+}
+
 .xstyle-date-wrapper input.k-input {
   min-height: 36px;
+}
+
+.xstyle-daterange-wrapper .k-dateinput {
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 /*unknow*/

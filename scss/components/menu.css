@@ -3,12 +3,14 @@
 }
 
 .xstyle-xmenu-wrapper li.k-item:hover {
-  background-color: unset !important;
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .xstyle-xmenu-wrapper .k-menu {
   float: left;
-  background-color: unset !important;
+  background-color: transparent !important;
 }
 
 .xstyle-xmenu-wrapper .k-menu-group.k-popup {

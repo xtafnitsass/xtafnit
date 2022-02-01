@@ -63,6 +63,13 @@ header {
             margin-left: 5px !important;
         }
     }
+
+    .searchDesign .k-grid-toolbar{
+        direction: ltr;
+        .k-grid-search{
+            direction: rtl;
+        }
+    }
 }
 
 /*check with ran */
