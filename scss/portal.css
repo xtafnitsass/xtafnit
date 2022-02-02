@@ -818,8 +818,8 @@ mainbody .gridHeaderButton .kIconPaint {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .checkboxHorizontal > div > div > div:first-child {
     -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 30% !important;
-            flex: 0 0 30% !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
   }
 }
 

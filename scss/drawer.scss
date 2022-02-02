@@ -7,6 +7,18 @@ $drawer-popUpWindowCls-color:#2e2e2e !default;
     color: $drawer-color !important;
 }
 
+.k-ie {
+    .k-drawer .k-drawer-items{
+        .DrawerItem-icon,
+        .drawer-item-control-wrapper .x-dynamic-label-control,
+        .drawer-item-control-wrapper .k-panelbar-item-text,
+        .drawer-item-control-wrapper .k-icon{
+            color: $drawer-color !important;
+        }
+    }
+}
+
+
 .k-drawer {
     border: 0 !important;
     background: $drawer-background-color !important;
@@ -68,14 +80,13 @@ $drawer-popUpWindowCls-color:#2e2e2e !default;
 
 //fix ie expanded
 
-.k-drawer-expanded {
-    .k-drawer {
-
-        @media all and (-ms-high-contrast: none),
-        (-ms-high-contrast: active) {
-            width: 280px;
-        }
-    }
-}
+//.k-drawer-expanded {
+ //   .k-drawer {
+ //       @media all and (-ms-high-contrast: none),
+ //       (-ms-high-contrast: active) {
+ //           width: 280px;
+ //       }
+ //   }
+//}
 
 @forward 'drawer';

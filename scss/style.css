@@ -477,6 +477,13 @@ mainbody .x-section-header-wrraper {
   color: #fff !important;
 }
 
+.k-ie .k-drawer .k-drawer-items .DrawerItem-icon,
+.k-ie .k-drawer .k-drawer-items .drawer-item-control-wrapper .x-dynamic-label-control,
+.k-ie .k-drawer .k-drawer-items .drawer-item-control-wrapper .k-panelbar-item-text,
+.k-ie .k-drawer .k-drawer-items .drawer-item-control-wrapper .k-icon {
+  color: #fff !important;
+}
+
 .k-drawer {
   border: 0 !important;
   background: #9038ba !important;
@@ -513,12 +520,6 @@ mainbody .x-section-header-wrraper {
 .k-drawer .k-panelbar .k-item .k-panel .k-item .k-link.k-state-hover, .k-drawer .k-panelbar .k-item .k-panel .k-item .k-calendar .k-calendar-view td.k-state-hover.k-state-focused, .k-calendar .k-calendar-view .k-drawer .k-panelbar .k-item .k-panel .k-item td.k-state-hover.k-state-focused {
   background: none !important;
   font-weight: bold !important;
-}
-
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .k-drawer-expanded .k-drawer {
-    width: 280px;
-  }
 }
 
 @forward 'drawer';
@@ -1781,8 +1782,8 @@ mainbody .gridHeaderButton .kIconPaint {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .checkboxHorizontal > div > div > div:first-child {
     -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 30% !important;
-            flex: 0 0 30% !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
   }
 }
 
