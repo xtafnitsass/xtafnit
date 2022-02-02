@@ -256,6 +256,14 @@ a {
     position: relative;
 }
 
+.k-ie{
+    .x-row {
+        &.xstyle-imagemarker-wrapper{
+            display: block;
+        }
+    }
+}
+
 .x-pagePopup {
     margin-top: 0px !important;
 }

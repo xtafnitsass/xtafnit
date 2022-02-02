@@ -70,4 +70,8 @@
 .popUpWindowCls .popup_close_btn.rtl {
   text-align: right !important;
 }
+
+.k-ie .x-pagePopup .xstyle-pdfviewer-wrapper {
+  zoom: 0.88;
+}
 /*# sourceMappingURL=popupwincls.css.map */

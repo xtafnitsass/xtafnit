@@ -60,4 +60,8 @@
 .xstyle-xmenu-wrapper li[overflow="xOverflow"].k-state-hover .k-menu-link {
   background: transparent;
 }
+
+.k-ie .k-menu-item {
+  display: table-cell;
+}
 /*# sourceMappingURL=menu.css.map */

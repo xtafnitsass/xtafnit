@@ -68,3 +68,11 @@
         text-align: right !important;
     }
 }
+
+.k-ie{
+    .x-pagePopup{
+        .xstyle-pdfviewer-wrapper {
+            zoom: 0.88;
+        }
+    }
+}
