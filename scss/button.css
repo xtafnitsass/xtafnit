@@ -19,5 +19,15 @@
   color: #0f0;
 }
 
+.k-button.k-input-button {
+  background: #ccc;
+}
+
+.k-fab.k-fab-solid-primary {
+  border-color: 1px solid #000;
+  color: #fff;
+  background-color: #ccc;
+}
+
 @forward 'button';
 /*# sourceMappingURL=button.css.map */
