@@ -267,6 +267,12 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   top: 9px;
 }
 
+.k-toolbar .k-badge.k-badge-solid.k-badge-info {
+  border-color: #5c50f2;
+  color: #fff;
+  background-color: #5c50f2;
+}
+
 .marginRightCheckbox label.x-control-caption-text {
   margin-right: 10px;
 }

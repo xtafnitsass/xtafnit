@@ -306,6 +306,12 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
         width: 15px;
         height: 15px;
         top: 9px;
+
+        &.k-badge-solid.k-badge-info{
+            border-color: $consumer-kicon-color;
+            color: #fff;
+            background-color: $consumer-kicon-color;
+        }
     }
 }
 

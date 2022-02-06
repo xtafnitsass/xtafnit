@@ -3371,6 +3371,12 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   top: 9px;
 }
 
+.k-toolbar .k-badge.k-badge-solid.k-badge-info {
+  border-color: #ff7100;
+  color: #fff;
+  background-color: #ff7100;
+}
+
 .marginRightCheckbox label.x-control-caption-text {
   margin-right: 10px;
 }
@@ -3438,7 +3444,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 }
 
 .circleLightBlue:before {
-  background: #a2feec;
+  background: #fedda2;
   position: absolute;
   width: 20px;
   height: 20px;
