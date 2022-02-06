@@ -58,8 +58,8 @@
 }
 
 .k-button:hover {
-  background: #cc620b !important;
-  color: #cc620b !important;
+  background: #e64e00 !important;
+  color: #fff !important;
 }
 
 .k-button.k-input-button {
@@ -3299,20 +3299,20 @@ span.mandatory.active + textarea.k-textbox,
 span.mandatory.active + span.k-datepicker > span.k-picker-wrap > input,
 span.mandatory.active ~ label.k-checkbox-label:before,
 span.mandatory.active + span.k-switch.k-widget .k-switch-container {
-  background: #f7ba89 !important;
+  background: #f7e989 !important;
 }
 
 .k-picker-wrap .mandatory.active ~ .k-select {
-  background: #f7ba89 !important;
-  border-color: #f7ba89 !important;
+  background: #f7e989 !important;
+  border-color: #f7e989 !important;
 }
 
 .mandatory.active + .k-timepicker input {
-  background: #f7ba89 !important;
+  background: #f7e989 !important;
 }
 
 .mandatory.active + .k-timepicker input ~ .k-select {
-  background: #f7ba89 !important;
+  background: #f7e989 !important;
 }
 
 .k-picker-wrap {
