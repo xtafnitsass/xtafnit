@@ -25,6 +25,10 @@ $btn-focus-border-color:transparent !default;
         background: $btn-background-hover;
         color: $btn-color-hover;
     }
+
+    &.k-input-button{
+        background: $btn-background;
+    }
 }
 
 @forward 'button';

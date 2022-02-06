@@ -63,6 +63,10 @@
   color: #cc620b !important;
 }
 
+.k-button.k-input-button {
+  background: #ff7100 !important;
+}
+
 @forward 'button';
 .k-autocomplete {
   border-radius: 0px;
