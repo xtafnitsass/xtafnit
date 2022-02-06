@@ -605,6 +605,10 @@ mainbody {
                     }
                 }
 
+                .flex-column{
+                    display: block !important;
+                }
+
                 .late,
                 .frozen {
                     background: #fff !important;

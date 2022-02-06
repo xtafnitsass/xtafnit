@@ -564,6 +564,13 @@ mainbody {
 
 //ie fix all unset width//
 mainbody {
+
+    .float-left {
+        position: absolute;
+        left: 10px;
+        top: 40px;
+        z-index: 100;
+    }
     .x-self-container {
 
         @media screen and (-ms-high-contrast: none),
