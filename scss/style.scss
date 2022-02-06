@@ -15,7 +15,7 @@ $row-margin-bottom:20px;
 $row-padding:10px;
 $row-border-radius:20px;
 $row-box-shadow:0 10px 20px 0 rgba(135, 51, 175, 0.1);
-$row-header-color:#171957;
+$row-header-color:#242222;
 
 /*window*/
 $window-background:#fff;
@@ -56,7 +56,7 @@ $animtaor-text-align:right;
 
 /*k-filter*/
 $k-filter-edited-numeric-border-color:#000;
-$k-filter-edited-numeric-arrow-background-color:#171957;
+$k-filter-edited-numeric-arrow-background-color:#242222;
 $k-filter-edited-numeric-arrow-color:#fff;
 
 /*button*/
@@ -104,7 +104,7 @@ $date-picker-background:#fafafa;
 $date-picker-border:1px solid #464247;
 $date-picker-input-color:#000;
 $date-picker-icon-background:#fafafa;
-$date-picker-icon-color:#171957;
+$date-picker-icon-color:#242222;
 $date-picker-icon-border-color:#fafafa;
 $date-mobile-border:0;
 $date-mobile-border-bottom:1px solid #464247;
@@ -150,7 +150,7 @@ $drop-down-background : #fafafa;
 $drop-down-border-bottom : 1px solid #464247;
 $drop-down-border-radius : 0;
 $drop-down-input-color : #000;
-$drop-down-icon-color : #171957;
+$drop-down-icon-color : #242222;
 
 /*grid*/
 
@@ -176,9 +176,9 @@ $grid-content-odd-background:none;
 $grid-content-odd-background-mobile:#fdf9ff;
 $grid-pager-background:none;
 $grid-pager-border:none;
-$grid-pager-nav-background: linear-gradient(to top, #080935 -46%, #171957 163%, #171957 163%);
-$grid-pager-nav-border:#171957;
-$grid-pager-nav-background-hover:#171957;
+$grid-pager-nav-background: linear-gradient(to top, #080935 -46%, #242222 163%, #242222 163%);
+$grid-pager-nav-border:#242222;
+$grid-pager-nav-background-hover:#242222;
 $grid-pager-nav-color-hover:#ebebeb;
 $grid-scoller-radius:10px;
 $grid-scoller-background:#f7ba89;
@@ -186,12 +186,12 @@ $grid-scoller-width:10px;
 $grid-scoller-height:10px;
 $grid-scoller-webkit-background:#dfdbdb;
 $grid-edited-numeric-border-color:#000;
-$grid-edited-numeric-arrow-background-color:#171957;
+$grid-edited-numeric-arrow-background-color:#242222;
 $grid-edited-numeric-arrow-color:#fff;
 $grid-footer-background-color:#fff;
 $grid-footer-border-color:#eee;
 $grid-content-padding:10px 0px;
-$grid-pager-nav-color:#171957;
+$grid-pager-nav-color:#242222;
 
 
 /*time picker*/
@@ -200,7 +200,7 @@ $time-border:0;
 $time-border-bottom:1px solid #464247;
 $time-background:#fafafa;
 $time-icon-background:#fafafa;
-$time-icon-color:#171957;
+$time-icon-color:#242222;
 $time-border-raduis:0px;
 
 /*float-button*/
@@ -220,7 +220,7 @@ $textarea-border-right-width:0px;
 $textarea-border-bottom-width:1px;
 
 /*upload*/
-$upload-border-color:#171957;
+$upload-border-color:#242222;
 
 /*multiselect*/
 
@@ -238,7 +238,7 @@ $multiselect-placeholder-color:#464247;
 $tabstrip-wrapper-background:#fff;
 $tabstrip-wrapper-border-color:#fff;
 $tabstrip-tab-background-color:#fff;
-$tabstrip-tab-color:#171957;
+$tabstrip-tab-color:#242222;
 $tabstrip-tab-active-background-color:#fff;
 $tabstrip-tab-active-border-color:#fff;
 $tabstrip-content-border-color:#f5f6f8;
@@ -285,23 +285,23 @@ $suppliers-cube-description-color:#464247;
 $suppliers-body-background:#F4F4F4;
 $suppliers-upload:#ce6107;
 $suppliers-drawer:#ce6107;
-$suppliers-tabstrip:#171957;
-$suppliers-message-text:#171957;
+$suppliers-tabstrip:#242222;
+$suppliers-message-text:#242222;
 $suppliers-loginTitle:#474248;
 $suppliers-loginTitle2:#474248;
 $suppliers-white-btn:#ff7100;
-$suppliers-k-icon:#171957;
+$suppliers-k-icon:#242222;
 $suppliers-x-textbox:#464247;
 $suppliers-progress-empty:#f2ebf6;
-$suppliers-progress-fill:#171957;
-$suppliers-progress-shadow:#171957;
+$suppliers-progress-fill:#ff7100;
+$suppliers-progress-shadow:#f7ba89;
 $suppliers-first-cube-background:#f7ba89;
-$suppliers-first-cube-color:#171957;
+$suppliers-first-cube-color:#242222;
 $suppliers-grid-font-weight:bold;
 $suppliers-grid-content-color:#464247;
 $suppliers-color-btn:#ff7100;
 $suppliers-window-footer-background:transparent;
-$suppliers-details-top-color: #171957;
+$suppliers-details-top-color: #242222;
 $suppliers-details-right-left-color: #464247;
 $suppliers-details-top-background-color: #f7ba89;
 $suppliers-box-shadow:0 10px 20px 0 rgba(175, 51, 51, 0.1);
@@ -318,12 +318,12 @@ $suppliers-radio-scoller-background:#ff7100;
 $suppliers-radio-scoller-width:5px;
 $suppliers-radio-scoller-height:5px;
 $suppliers-radio-scoller-webkit-background:#f1f3ff;
-$suppliers-timeselector:#171957;
-$suppliers-messageText:#171957;
+$suppliers-timeselector:#242222;
+$suppliers-messageText:#242222;
 $suppliers-icon-tachometer: #464247;
 $suppliers-datepicker-font-size:18px;
 $suppliers-drawer-hamburger-font-size:25px;
-$suppliers-grid-content-color-button:#171957;
+$suppliers-grid-content-color-button:#242222;
 $suppliers-gridTemplates-border-color:1px solid #d8d8d8;
 $suppliers-window-btn-hover-color:#fff;
 $suppliers-cube-icon-background:transparent;
@@ -344,10 +344,10 @@ $stepper-fisrt-icon-color:#fff;
 $stepper-icon-border-color:#ff7100;
 $stepper-icon-background:#fff;
 $stepper-icon-color:#ff7100;
-$stepper-line-border-color:#171957;
-$stepper-tooltip-background:#171957;
+$stepper-line-border-color:#242222;
+$stepper-tooltip-background:#242222;
 $stepper-tooltip-color:#fff;
-$stepper-tooltip-border-color:#171957;
+$stepper-tooltip-border-color:#242222;
 
 
 /*menu*/
@@ -405,25 +405,25 @@ $workflow-rectAll-active-background:#f7ba89;
 $workflow-mandatory-background:#f7ba89;
 
 $websdk-dynamic-title-font-weight:bold;
-$websdk-dynamic-title-color:#171957;
+$websdk-dynamic-title-color:#242222;
 
 $websdk-roundedinputs:7px;
 $websdk-toolbar-anchor-background:#fafafa;
-$websdk-toolbar-anchor-icon-color:#171957;
-$websdk-toolbar-title-color :#171957;
+$websdk-toolbar-anchor-icon-color:#242222;
+$websdk-toolbar-title-color :#242222;
 $websdk-toolbar-title-size :30px;
-$websdk-menu-items-color :#171957;
-$websdk-goUpArrow-color :#171957;
+$websdk-menu-items-color :#242222;
+$websdk-goUpArrow-color :#242222;
 $websdk-goUpArrow-border-color :1px solid #dec6e9;
 $websdk-xLookupFullDescription-color:#464247;
 $websdk-dateandtime-color:#464247;
 $websdk-mandatory-input-background:#f7ba89;
-$workflow-cube-first-cube-openSubTotal-color:#171957;
+$workflow-cube-first-cube-openSubTotal-color:#242222;
 $workflow-drawer-separator:#bd6fbc;
 $websdk-goUpArrow-background:#fafafa;
 $websdk-grid-content-height: 30vh;
 $workflow-cube-first-border-color:#ff7100;
-$workflow-cube-first-menu-dot-color:#171957;
+$workflow-cube-first-menu-dot-color:#242222;
 $workflow-general-search-badge:#f7e8ff;
 
 
@@ -504,12 +504,12 @@ $consumer-grid-content-height:200px;
 $lookup-border-bottom-color:1px solid #464247;
 $lookup-background-color:#fafafa;
 $lookup-color:#000;
-$lookup-xinput-group-color:#171957;
+$lookup-xinput-group-color:#242222;
 
 /*websdk*/
 
 $websdk-classifiedButton-background:transparent;
-$websdk-classifiedButton-color:#171957;
+$websdk-classifiedButton-color:#242222;
 
 /*required*/
 
@@ -536,7 +536,7 @@ $phone-border-radius:0;
 /*spinner*/
 
 $spinner-triple-color-1:4px solid #32323a;
-$spinner-triple-color-2:#171957;
+$spinner-triple-color-2:#242222;
 $spinner-triple-color-3:#ff7100;
 
 /*Dashboard*/
