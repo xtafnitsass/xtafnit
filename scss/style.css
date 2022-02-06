@@ -1317,7 +1317,7 @@ mainbody .greyPanel .x-control-caption-wrapper label {
 }
 
 .k-drawer-overlay .k-drawer .k-drawer-wrapper .k-drawer-items li:hover {
-  background: #ce6107 !important;
+  background: #ff7100 !important;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -3221,7 +3221,7 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  color: #ff7100 !important;
+  color: #fff !important;
   font-weight: 500;
 }
 

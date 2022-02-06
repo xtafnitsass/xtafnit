@@ -4,6 +4,7 @@ $consumer-button-gradient-background-color:linear-gradient(to left, #97afff 122%
 $consumer-close-btn-color:#5c50f2 !default;
 $consumer-kicon-border-bottom:1px solid #020d3b !default;
 $consumer-kicon-color:#5c50f2 !default;
+$consumer-kicon-close-color:#5c50f2 !default;
 $consumer-grey-color:#020d3b !default;
 $consumer-scrollview-text-color:#fff !default;
 $consumer-scrollview-dot-color:#3754d4 !default;
@@ -154,7 +155,7 @@ span.mandatory.active+span.k-switch.k-widget .k-switch-container {
 
             [xid="controlkiClose"] {
                 order: 2;
-                color: $consumer-kicon-color !important;
+                color: $consumer-kicon-close-color !important;
                 font-weight: 500;
             }
 
