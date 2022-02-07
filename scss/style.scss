@@ -563,10 +563,13 @@ $dash-chart-2:#00b7ff;
 
 
 /*switch*/
+$switch-container-color:#ff7100 !important;
+$switch-container-border-color:#ff7100 !important;
+$switch-circle-background-color:#f7ba89 !important;
+$switch-circle-border-color:#ff7100 !important;
+$switch-circle-background-color-on:#ff7100 !important;
+$switch-circle-border-color-on:#ff7100 !important;
 
-$switch-container-border-color:#5800ff;
-$switch-circle-background-color:#6686fb;
-$switch-circle-border-color:#5800ff;
 
 @import './button', './auto-complete', './header', './calendar', './date-picker',
 './checkbox', './textbox', './row', './window', './footer',

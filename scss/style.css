@@ -3622,12 +3622,27 @@ span.mandatory.active + span.k-switch.k-widget .k-switch-container {
 
 @forward 'consumer-products';
 .xstyle-switch-wrapper .k-switch-container {
-  border-color: #5800ff !important;
+  border-color: #ff7100 !important;
 }
 
 .xstyle-switch-wrapper span.k-switch-handle {
-  background-color: #6686fb !important;
-  border-color: #5800ff !important;
+  background-color: #f7ba89 !important;
+  border-color: #ff7100 !important;
+}
+
+.k-switch .k-switch-track {
+  border-color: #ff7100 !important;
+  color: #ff7100 !important;
+}
+
+.k-switch.k-switch-off .k-switch-thumb {
+  background-color: #f7ba89 !important;
+  border-color: #ff7100 !important;
+}
+
+.k-switch.k-switch-on .k-switch-thumb {
+  background-color: #ff7100 !important;
+  border-color: #ff7100 !important;
 }
 
 @forward 'switch';

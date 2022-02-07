@@ -1,18 +1,40 @@
+$switch-container-color:#5800ff !default;
 $switch-container-border-color:#5800ff !default;
 $switch-circle-background-color:#6686fb !default;
 $switch-circle-border-color:#5800ff !default;
-
+$switch-circle-background-color-on:#6686fb !default;
+$switch-circle-border-color-on:#5800ff !default;
 
 .xstyle-switch-wrapper {
     .k-switch-container {
-        border-color: #5800ff !important;
+        border-color: $switch-container-border-color;
     }
 
     span.k-switch-handle {
-        background-color: #6686fb !important;
-        border-color: #5800ff !important;
+        background-color: $switch-circle-background-color;
+        border-color: $switch-circle-border-color;
     }
 }
 
+.k-switch{
+    .k-switch-track{
+        border-color:$switch-container-border-color;
+        color: $switch-container-color;
+    }
+
+    &.k-switch-off {
+        .k-switch-thumb{
+            background-color: $switch-circle-background-color;
+            border-color: $switch-circle-border-color;
+        }
+    }
+
+    &.k-switch-on{
+         .k-switch-thumb{
+            background-color: $switch-circle-background-color-on;
+            border-color: $switch-circle-border-color-on;
+         }
+    }
+}
 
 @forward 'switch';
