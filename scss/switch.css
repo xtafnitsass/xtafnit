@@ -1,10 +1,25 @@
 .xstyle-switch-wrapper .k-switch-container {
-  border-color: #5800ff !important;
+  border-color: #5800ff;
 }
 
 .xstyle-switch-wrapper span.k-switch-handle {
-  background-color: #6686fb !important;
-  border-color: #5800ff !important;
+  background-color: #6686fb;
+  border-color: #5800ff;
+}
+
+.k-switch .k-switch-track {
+  border-color: #5800ff;
+  color: #5800ff;
+}
+
+.k-switch.k-switch-off .k-switch-thumb {
+  background-color: #6686fb;
+  border-color: #5800ff;
+}
+
+.k-switch.k-switch-on .k-switch-thumb {
+  background-color: #6686fb;
+  border-color: #5800ff;
 }
 
 @forward 'switch';
