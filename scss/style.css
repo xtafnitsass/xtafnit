@@ -67,6 +67,12 @@
   background: #ff7100 !important;
 }
 
+.k-fab.k-fab-solid-primary {
+  border-color: 1px solid #ff7100;
+  color: #fff !important;
+  background-color: #ff7100 !important;
+}
+
 @forward 'button';
 .k-autocomplete {
   border-radius: 0px;
