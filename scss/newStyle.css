@@ -165,6 +165,10 @@ mainbody > .row {
   margin-bottom: 0.1rem;
 }
 
+.xstyle-panel-wrapper {
+  z-index: -1;
+}
+
 .x-panelCtrl > .container {
   margin-top: 0px !important;
 }
@@ -389,7 +393,7 @@ a.x-link_Comp {
   font-size: 14px !important;
 }
 
-.k-fab-text {
+.x-float-hover-caption .k-fab-text {
   display: none;
 }
 
@@ -890,6 +894,10 @@ label.btn {
 
 .infoGap {
   z-index: 1;
+}
+
+.x-control-wrapper .d-none {
+  display: none !important;
 }
 
 /*need transform to dashboard sass*/
@@ -1915,6 +1923,7 @@ header .fal.fa-home {
   width: max-content;
   height: auto;
   padding: 20px;
+  z-index: 1;
 }
 
 .xstyle-xmenu-wrapper .k-menu-horizontal .k-menu-link {

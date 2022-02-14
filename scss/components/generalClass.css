@@ -297,6 +297,10 @@
   z-index: 1;
 }
 
+.x-control-wrapper .d-none {
+  display: none !important;
+}
+
 /*need transform to dashboard sass*/
 #TafnitCore_SaaSServer_TafnitCloud_UI_DashBorad .h-300 .k-grid-content {
   max-height: 300px !important;

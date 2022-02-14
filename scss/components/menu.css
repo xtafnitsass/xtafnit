@@ -19,6 +19,7 @@
   width: max-content;
   height: auto;
   padding: 20px;
+  z-index: 1;
 }
 
 .xstyle-xmenu-wrapper .k-menu-horizontal .k-menu-link {

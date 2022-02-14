@@ -81,6 +81,10 @@ mainbody > .row {
   margin-bottom: 0.1rem;
 }
 
+.xstyle-panel-wrapper {
+  z-index: -1;
+}
+
 .x-panelCtrl > .container {
   margin-top: 0px !important;
 }
@@ -305,7 +309,7 @@ a.x-link_Comp {
   font-size: 14px !important;
 }
 
-.k-fab-text {
+.x-float-hover-caption .k-fab-text {
   display: none;
 }
 

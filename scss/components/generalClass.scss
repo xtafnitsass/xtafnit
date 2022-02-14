@@ -347,6 +347,12 @@
     z-index: 1;
 }
 
+.x-control-wrapper{
+    .d-none{
+        display: none !important;
+    }
+}
+
 // .infoGap {
 //     @media screen and (max-width:800px){
 //         flex: 0 0 10%!important;

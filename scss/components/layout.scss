@@ -93,6 +93,10 @@ mainbody {
     margin-bottom: 0.1rem;
 }
 
+.xstyle-panel-wrapper{
+    z-index: -1;
+}
+
 .x-panelCtrl {
     >.container {
         margin-top: 0px !important;
@@ -301,8 +305,10 @@ a {
     }
 }
 
-.k-fab-text {
-    display: none;
+.x-float-hover-caption{
+    .k-fab-text {
+        display: none;
+    }
 }
 
 /*fix treeview icons*/
