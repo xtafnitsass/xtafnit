@@ -37,10 +37,6 @@
   min-height: 37px;
 }
 
-.navbar-fixed-top {
-  z-index: initial !important;
-}
-
 .generalSearchBadge {
   background: #f7e8ff;
   display: inline-block;
