@@ -30,6 +30,11 @@
   width: 150px;
 }
 
+.k-rtl .k-grid .k-grid-header-wrap a.k-grid-filter {
+  float: right !important;
+  margin-left: 5px !important;
+}
+
 /* unknow */
 .x-oldGrid-control {
   display: inline-block;
