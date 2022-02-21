@@ -43,4 +43,8 @@
 .xstyle-password-wrapper span.k-textbox {
   border: 0;
 }
+
+.k-input-inner {
+  z-index: unset;
+}
 /*# sourceMappingURL=textbox.css.map */

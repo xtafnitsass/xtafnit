@@ -2017,6 +2017,10 @@ header .fal.fa-home {
   border: 0;
 }
 
+.k-input-inner {
+  z-index: unset;
+}
+
 .video-wrapper {
   position: relative;
   width: 100%;
