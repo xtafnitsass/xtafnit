@@ -2095,9 +2095,9 @@ mainbody .gridHeaderButton .kIconPaint {
 @media only screen and (min-width: 810px) {
   .cube-wrapper .cube {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 49%;
-            flex: 0 0 49%;
-    max-width: 49%;
+        -ms-flex: 0 0 55%;
+            flex: 0 0 55%;
+    max-width: 55%;
   }
 }
 
@@ -4141,32 +4141,48 @@ mainbody .k-dropdown-wrap {
 @media only screen and (min-width: 1480px) {
   .cube-wrapper .cube {
     -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 22% !important;
-            flex: 0 0 22% !important;
-    max-width: 22% !important;
+        -ms-flex: 0 0 30% !important;
+            flex: 0 0 30% !important;
+    max-width: 30% !important;
   }
+}
+
+.cube-wrapper .cube.workflow .k-icon-wrapper .fas:before {
+  margin-left: 10px;
 }
 
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
-  width: 100px;
+}
+
+.cube-wrapper .cube.workflow .late .k-icon-wrapper,
+.cube-wrapper .cube.workflow .frozen .k-icon-wrapper {
+  font-size: 10px;
+}
+
+.cube-wrapper .cube.workflow .late .k-icon-wrapper .fas:before,
+.cube-wrapper .cube.workflow .frozen .k-icon-wrapper .fas:before {
+  margin-right: -13px;
+  margin-left: 0;
 }
 
 .cube-wrapper .cube.workflow .late {
   background: #fdeff3;
 }
 
-.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control, .cube-wrapper .cube.workflow .late .k-icon {
   color: #ff5a85 !important;
+  margin-left: 7px;
 }
 
 .cube-wrapper .cube.workflow .frozen {
   background: #e6f9f6;
 }
 
-.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control, .cube-wrapper .cube.workflow .frozen .k-icon {
   color: #05685a !important;
+  margin-left: 7px;
 }
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {

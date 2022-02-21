@@ -621,31 +621,45 @@ mainbody {
         min-height: 213px !important;
 
         @media only screen and (min-width: 1480px) {
-            flex: 0 0 22% !important;
-            max-width: 22% !important;
+            flex: 0 0 30% !important;
+            max-width: 30% !important;
         }
 
         &.workflow {
 
+            .k-icon-wrapper .fas:before {
+                margin-left: 10px;
+            }
+
             .late,
             .frozen {
                 border-radius: 5px;
-                width: 100px;
+
+                .k-icon-wrapper{
+                    font-size: 10px;
+
+                    .fas:before {
+                        margin-right: -13px;
+                        margin-left: 0;
+                    }
+                }
             }
 
             .late {
                 background: $workflow-cube-late-background;
 
-                .x-dynamic-label-control {
+                .x-dynamic-label-control,.k-icon {
                     color: $workflow-cube-late-color !important;
+                    margin-left: 7px;
                 }
             }
 
             .frozen {
                 background: $workflow-cube-frozen-background;
-
-                .x-dynamic-label-control {
+                
+                .x-dynamic-label-control,.k-icon {
                     color: $workflow-cube-frozen-color !important;
+                    margin-left: 7px;
                 }
             }
 
@@ -655,6 +669,8 @@ mainbody {
                 }
             }
         }
+
+        
     }
 }
 
