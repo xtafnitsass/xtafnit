@@ -4154,6 +4154,7 @@ mainbody .k-dropdown-wrap {
 .cube-wrapper .cube.workflow .late,
 .cube-wrapper .cube.workflow .frozen {
   border-radius: 5px;
+  width: 100px;
 }
 
 .cube-wrapper .cube.workflow .late .k-icon-wrapper,
@@ -4173,7 +4174,7 @@ mainbody .k-dropdown-wrap {
 
 .cube-wrapper .cube.workflow .late .x-dynamic-label-control, .cube-wrapper .cube.workflow .late .k-icon {
   color: #ff5a85 !important;
-  margin-left: 7px;
+  margin-left: 5px;
 }
 
 .cube-wrapper .cube.workflow .frozen {
@@ -4182,7 +4183,7 @@ mainbody .k-dropdown-wrap {
 
 .cube-wrapper .cube.workflow .frozen .x-dynamic-label-control, .cube-wrapper .cube.workflow .frozen .k-icon {
   color: #05685a !important;
-  margin-left: 7px;
+  margin-left: 5px;
 }
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {

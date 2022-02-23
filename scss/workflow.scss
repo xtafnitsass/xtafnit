@@ -634,6 +634,7 @@ mainbody {
             .late,
             .frozen {
                 border-radius: 5px;
+                width: 100px;
 
                 .k-icon-wrapper{
                     font-size: 10px;
@@ -650,7 +651,7 @@ mainbody {
 
                 .x-dynamic-label-control,.k-icon {
                     color: $workflow-cube-late-color !important;
-                    margin-left: 7px;
+                    margin-left: 5px;
                 }
             }
 
@@ -659,7 +660,7 @@ mainbody {
                 
                 .x-dynamic-label-control,.k-icon {
                     color: $workflow-cube-frozen-color !important;
-                    margin-left: 7px;
+                    margin-left: 5px;
                 }
             }
 
