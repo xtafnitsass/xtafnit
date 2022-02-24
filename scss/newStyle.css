@@ -1718,6 +1718,17 @@ header .fal.fa-home {
   font-weight: bold;
 }
 
+a.signatureUploadBg {
+  width: 30px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+a.signatureUploadBg span {
+  color: #010101;
+  font-size: 23px;
+}
+
 .x-islider-wrapper .k-slider-vertical:first-of-type {
   margin: 0px 40px;
 }
