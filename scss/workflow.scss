@@ -612,6 +612,9 @@ mainbody {
                 .late,
                 .frozen {
                     background: #fff !important;
+                    display: block !important;
+                    width: 130px;
+                    line-height: 20px;
                 }
 
             }
@@ -638,6 +641,9 @@ mainbody {
 
                 .k-icon-wrapper{
                     font-size: 10px;
+                    height: auto;
+                    width: 115px;
+                    display: inline-flex;
 
                     .fas:before {
                         margin-right: -13px;
@@ -649,18 +655,26 @@ mainbody {
             .late {
                 background: $workflow-cube-late-background;
 
-                .x-dynamic-label-control,.k-icon {
+                .x-dynamic-label-control {
                     color: $workflow-cube-late-color !important;
-                    margin-left: 5px;
+                    text-align: center !important;
+                }
+
+                .k-icon {
+                    color: $workflow-cube-late-color !important;
                 }
             }
 
             .frozen {
                 background: $workflow-cube-frozen-background;
                 
-                .x-dynamic-label-control,.k-icon {
+                .x-dynamic-label-control {
                     color: $workflow-cube-frozen-color !important;
-                    margin-left: 5px;
+                    text-align: center !important;
+                }
+
+                .k-icon {
+                    color: $workflow-cube-frozen-color !important;
                 }
             }
 

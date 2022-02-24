@@ -482,6 +482,9 @@ mainbody .k-dropdown-wrap {
 .cube-wrapper .cube:first-child.workflow .late,
 .cube-wrapper .cube:first-child.workflow .frozen {
   background: #fff !important;
+  display: block !important;
+  width: 130px;
+  line-height: 20px;
 }
 
 @media only screen and (min-width: 1480px) {
@@ -506,6 +509,11 @@ mainbody .k-dropdown-wrap {
 .cube-wrapper .cube.workflow .late .k-icon-wrapper,
 .cube-wrapper .cube.workflow .frozen .k-icon-wrapper {
   font-size: 10px;
+  height: auto;
+  width: 115px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .cube-wrapper .cube.workflow .late .k-icon-wrapper .fas:before,
@@ -518,18 +526,26 @@ mainbody .k-dropdown-wrap {
   background: #fdeff3;
 }
 
-.cube-wrapper .cube.workflow .late .x-dynamic-label-control, .cube-wrapper .cube.workflow .late .k-icon {
+.cube-wrapper .cube.workflow .late .x-dynamic-label-control {
   color: #ff5a85 !important;
-  margin-left: 5px;
+  text-align: center !important;
+}
+
+.cube-wrapper .cube.workflow .late .k-icon {
+  color: #ff5a85 !important;
 }
 
 .cube-wrapper .cube.workflow .frozen {
   background: #e6f9f6;
 }
 
-.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control, .cube-wrapper .cube.workflow .frozen .k-icon {
+.cube-wrapper .cube.workflow .frozen .x-dynamic-label-control {
   color: #05685a !important;
-  margin-left: 5px;
+  text-align: center !important;
+}
+
+.cube-wrapper .cube.workflow .frozen .k-icon {
+  color: #05685a !important;
 }
 
 .cube-wrapper .cube.workflow .openSubTotal .x-dynamic-label-control {
