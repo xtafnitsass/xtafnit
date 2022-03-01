@@ -27,13 +27,15 @@
   font-weight: bold;
 }
 
-a.signatureUploadBg {
+.signatureUploadBg {
   width: 30px;
   margin-top: 5px;
   position: absolute;
+  display: inline-block;
+  cursor: pointer;
 }
 
-a.signatureUploadBg span {
+.signatureUploadBg span {
   color: #010101;
   font-size: 23px;
 }
