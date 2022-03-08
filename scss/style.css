@@ -2841,8 +2841,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item {
-  border: 1px solid #bbebbf !important;
-  border-radius: 15px !important;
+  border: 0px !important;
+  border-radius: 8px !important;
   float: right !important;
 }
 
@@ -2852,12 +2852,14 @@ progress[value]::-webkit-progress-value {
 }
 
 .k-menu li.k-item .k-group {
-  border: 1px solid #bbebbf;
-  background: 1px solid #f5f5f5;
-  border-radius: 20px;
+  border: 0px;
+  background: #ffffff;
+  border-radius: 8px;
   padding: 5px;
-  -webkit-box-shadow: 2px 2px 10px #dad9d9 !important;
-          box-shadow: 2px 2px 10px #dad9d9 !important;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+  min-width: 100px;
+  margin-top: -5px;
 }
 
 .k-menu li.k-item i.k-icon {
@@ -2867,7 +2869,7 @@ progress[value]::-webkit-progress-value {
 
 .k-menu .xMenuItemColor:last-child {
   border-bottom: 0;
-  border-bottom: 1px solid #9797971f;
+  border-bottom: 0px;
   border-radius: 0;
 }
 
@@ -2884,7 +2886,7 @@ progress[value]::-webkit-progress-value {
 .k-menu .xMenuHover:hover {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  background: #e4e4e4;
+  background: #f5f5f5;
 }
 
 @forward 'menu';

@@ -35,6 +35,8 @@ $menu-dot-side:right !default;
             border-radius: $menu-popup-border-radius;
             padding: $menu-popup-padding;
             box-shadow: $menu-box-shadow !important;
+            min-width: 100px;
+            margin-top: -5px;
         }
 
         i.k-icon {
@@ -47,7 +49,6 @@ $menu-dot-side:right !default;
 
         &:last-child {
             border-bottom: 0;
-
             border-bottom: $menu-item-border;
             border-radius: 0;
         }
