@@ -1754,6 +1754,35 @@ header .fal.fa-home {
   text-align: right;
 }
 
+.xstyle-progressbar-wrapper .k-progressbar-vertical + .x-minvalue {
+  float: none;
+  position: absolute;
+}
+
+.xstyle-progressbar-wrapper .k-progressbar-vertical + .x-minvalue + .x-maxvalue {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+}
+
+.xstyle-progressbar-wrapper .k-progressbar-reverse + .x-minvalue {
+  float: right;
+}
+
+.xstyle-progressbar-wrapper .k-progressbar-reverse + .x-minvalue + .x-maxvalue {
+  text-align: left;
+  float: left;
+}
+
+.xstyle-progressbar-wrapper .k-progressbar-reverse.k-progressbar-vertical + .x-minvalue {
+  position: absolute;
+  bottom: 0;
+}
+
+.xstyle-progressbar-wrapper .k-progressbar-reverse.k-progressbar-vertical + .x-minvalue + .x-maxvalue {
+  top: 0;
+}
+
 .xstyle-radio-wrapper .x-RBComp {
   display: inline-block;
   clear: both;
