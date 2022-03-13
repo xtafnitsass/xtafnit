@@ -340,7 +340,7 @@ mainbody .x-section-header-wrraper {
 @forward 'window';
 .pageContainer footer,
 .fullPageContainer footer {
-  background: #32323a !important;
+  background: transparent !important;
   color: #fff;
 }
 
