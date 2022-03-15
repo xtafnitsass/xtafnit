@@ -595,8 +595,12 @@ mainbody {
                 .late,
                 .frozen {
                     background: #fff !important;
+                    min-height: 40px;
                 }
 
+                .flex-column {
+                    display: block !important;
+                }
             }
 
         }

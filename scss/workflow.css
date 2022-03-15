@@ -478,6 +478,11 @@ mainbody .k-dropdown-wrap {
 .cube-wrapper .cube:first-child.workflow .late,
 .cube-wrapper .cube:first-child.workflow .frozen {
   background: #fff !important;
+  min-height: 40px;
+}
+
+.cube-wrapper .cube:first-child.workflow .flex-column {
+  display: block !important;
 }
 
 @media only screen and (min-width: 1480px) {
