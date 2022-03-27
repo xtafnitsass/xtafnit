@@ -342,6 +342,7 @@ mainbody .x-section-header-wrraper {
 .fullPageContainer footer {
   background: transparent !important;
   color: #fff;
+  z-index: 0;
 }
 
 @forward 'footer';
@@ -4073,6 +4074,10 @@ mainbody .x-section-header-wrapper {
 
 .cube-wrapper .funding-icon-success span.k-icon {
   color: green !important;
+}
+
+.cube-wrapper .funding-icon-fail span.k-icon {
+  color: #BD2E39 !important;
 }
 
 input:not(.k-grid-search input):focus {

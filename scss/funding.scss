@@ -44,6 +44,12 @@ mainbody {
             color: $funding-loaners-first-cube-phone-color !important;
         }
     }
+
+    .funding-icon-fail  {
+        span.k-icon {
+            color: $funding-grid-button-hover-color !important;
+        }
+    }
 }
 
 

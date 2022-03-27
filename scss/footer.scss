@@ -6,6 +6,7 @@ $footer-background:#0167b1 !default;
     footer {
         background: $footer-background !important;
         color: $footer-color;
+        z-index: 0;
     }
 }
 
