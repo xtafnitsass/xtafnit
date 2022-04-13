@@ -2,6 +2,7 @@
   direction: rtl !important;
   display: inline-block;
   position: absolute;
+  z-index: 1030;
 }
 
 .x-infoWrap .x-infoButton {
