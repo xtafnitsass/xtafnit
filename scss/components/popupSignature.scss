@@ -5,6 +5,8 @@
         display: block;
         height: 95%;
         width: 100%;
+        direction: ltr;
+
         img{
             display:inline-block;
         }
@@ -14,7 +16,7 @@
             height: 35px;
 
             >a {
-                margin-left: 10px;
+                float: right;
             }
 
             .signatureColorPicker {
@@ -42,7 +44,7 @@
         }
 
         .x-signature-canvas {
-            position: initial;
+            position: relative;
             width: 99%;
             height: 90%;
             margin: 2px;
@@ -70,5 +72,17 @@
 .k-ltr {
     .signatureColorPicker {
         float: right;
+    }
+}
+
+.signatureUploadBg{
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+    
+    span{
+        color: #010101;
+        font-size: 23px;
     }
 }

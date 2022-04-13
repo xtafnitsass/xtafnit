@@ -38,6 +38,12 @@
     .x-searchinput {
         width: 150px;
     }
+
+    .k-toolbar{
+        &.k-grid-toolbar:empty{
+            display: none;
+        }
+    }
 }
 
 .k-rtl{
@@ -50,6 +56,8 @@
         }
     }
 }
+
+
 
 /* unknow */
 

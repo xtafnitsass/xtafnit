@@ -26,17 +26,4 @@
   font-size: 1.1em;
   font-weight: bold;
 }
-
-.signatureUploadBg {
-  width: 30px;
-  margin-top: 5px;
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.signatureUploadBg span {
-  color: #010101;
-  font-size: 23px;
-}
 /*# sourceMappingURL=upload.css.map */

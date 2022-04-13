@@ -6,6 +6,7 @@
   display: block;
   height: 95%;
   width: 100%;
+  direction: ltr;
 }
 
 #SignWindow #signatureFrame img, #SignWindow .x-signatureFrame img, .xstyle-signature-wrapper #signatureFrame img, .xstyle-signature-wrapper .x-signatureFrame img {
@@ -19,7 +20,7 @@
 }
 
 #SignWindow #signatureFrame #toolbarSignatureFrame > a, #SignWindow .x-signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame > a {
-  margin-left: 10px;
+  float: right;
 }
 
 #SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker {
@@ -46,7 +47,7 @@
 }
 
 #SignWindow #signatureFrame .x-signature-canvas, #SignWindow .x-signatureFrame .x-signature-canvas, .xstyle-signature-wrapper #signatureFrame .x-signature-canvas, .xstyle-signature-wrapper .x-signatureFrame .x-signature-canvas {
-  position: initial;
+  position: relative;
   width: 99%;
   height: 90%;
   margin: 2px;
@@ -71,5 +72,17 @@
 
 .k-ltr .signatureColorPicker {
   float: right;
+}
+
+.signatureUploadBg {
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.signatureUploadBg span {
+  color: #010101;
+  font-size: 23px;
 }
 /*# sourceMappingURL=popupSignature.css.map */

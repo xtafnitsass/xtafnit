@@ -33,8 +33,27 @@
   }
 }
 
-/*max width 1200 --large desktop*/
-/*max width 992 --desktop*/
+/*min width 768 --tablets*/
+@media screen and (min-width: 576px) {
+  .xstyle-large-grid .k-grid .k-grid-content {
+    max-height: 40vh;
+  }
+}
+
+/*min width 992 --desktop*/
+@media screen and (min-width: 992px) {
+  .xstyle-large-grid .k-grid .k-grid-content {
+    max-height: 45vh;
+  }
+}
+
+/*min width 992 --desktop*/
+@media screen and (min-width: 1200px) {
+  .xstyle-large-grid .k-grid .k-grid-content {
+    max-height: 49vh;
+  }
+}
+
 /*max width 768 --tablets*/
 @media screen and (max-width: 768px) {
   .rating-container {
@@ -1622,6 +1641,7 @@ header .fal.fa-home {
   display: block;
   height: 95%;
   width: 100%;
+  direction: ltr;
 }
 
 #SignWindow #signatureFrame img, #SignWindow .x-signatureFrame img, .xstyle-signature-wrapper #signatureFrame img, .xstyle-signature-wrapper .x-signatureFrame img {
@@ -1635,7 +1655,7 @@ header .fal.fa-home {
 }
 
 #SignWindow #signatureFrame #toolbarSignatureFrame > a, #SignWindow .x-signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame > a, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame > a {
-  margin-left: 10px;
+  float: right;
 }
 
 #SignWindow #signatureFrame #toolbarSignatureFrame .signatureColorPicker, #SignWindow .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper #signatureFrame #toolbarSignatureFrame .signatureColorPicker, .xstyle-signature-wrapper .x-signatureFrame #toolbarSignatureFrame .signatureColorPicker {
@@ -1662,7 +1682,7 @@ header .fal.fa-home {
 }
 
 #SignWindow #signatureFrame .x-signature-canvas, #SignWindow .x-signatureFrame .x-signature-canvas, .xstyle-signature-wrapper #signatureFrame .x-signature-canvas, .xstyle-signature-wrapper .x-signatureFrame .x-signature-canvas {
-  position: initial;
+  position: relative;
   width: 99%;
   height: 90%;
   margin: 2px;
@@ -1687,6 +1707,18 @@ header .fal.fa-home {
 
 .k-ltr .signatureColorPicker {
   float: right;
+}
+
+.signatureUploadBg {
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.signatureUploadBg span {
+  color: #010101;
+  font-size: 23px;
 }
 
 .k-upload {
@@ -1716,19 +1748,6 @@ header .fal.fa-home {
 .k-upload-files .k-file-validation-message {
   font-size: 1.1em;
   font-weight: bold;
-}
-
-.signatureUploadBg {
-  width: 30px;
-  margin-top: 5px;
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.signatureUploadBg span {
-  color: #010101;
-  font-size: 23px;
 }
 
 .x-islider-wrapper .k-slider-vertical:first-of-type {
@@ -1933,6 +1952,10 @@ header .fal.fa-home {
 
 .k-grid .x-searchinput {
   width: 150px;
+}
+
+.k-grid .k-toolbar.k-grid-toolbar:empty {
+  display: none;
 }
 
 .k-rtl .k-grid .k-grid-header-wrap a.k-grid-filter {
