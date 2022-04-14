@@ -2086,6 +2086,10 @@ header .fal.fa-home {
   z-index: unset;
 }
 
+.border.border-1 {
+  border: 1px solid #c2c2c2 !important;
+}
+
 .video-wrapper {
   position: relative;
   width: 100%;
