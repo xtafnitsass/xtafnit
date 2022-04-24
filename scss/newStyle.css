@@ -2086,7 +2086,7 @@ header .fal.fa-home {
   z-index: unset;
 }
 
-.border.border-1 {
+.border-1 {
   border: 1px solid #c2c2c2 !important;
 }
 
@@ -3536,6 +3536,7 @@ input.k-input[dir="ltr"] + .k-clear-value {
   display: inline-block;
   width: 100%;
   overflow: hidden;
+  color: inherit !important;
 }
 
 .x-loanslider-wrapper {
