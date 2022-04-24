@@ -7,9 +7,10 @@ $drop-down-icon-color : #000 !default;
 
 .k-dropdown {
     background: $drop-down-background;
+    border: 0px;
     border-bottom: $drop-down-border-bottom;
     border-radius: $drop-down-border-radius;
-
+    
     &.k-filter-and {
         width: 100% !important;
     }
