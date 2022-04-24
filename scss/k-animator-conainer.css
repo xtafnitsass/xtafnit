@@ -63,6 +63,19 @@
   background: #3a45da !important;
 }
 
+.k-animation-container .k-list .k-list-item.k-selected {
+  background-color: unset;
+}
+
+.k-animation-container .k-list .k-list-item.k-selected.k-hover {
+  background-color: unset;
+}
+
+.k-animation-container .k-list .k-list-item.k-focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
 .k-animation-container .k-nodata {
   background: #979797;
   color: #fff;
