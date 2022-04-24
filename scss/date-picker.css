@@ -1,5 +1,8 @@
 .k-datepicker {
   background: #4a60c4;
+  border: 0px;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
 }
 
 .k-datepicker .k-picker-wrap {

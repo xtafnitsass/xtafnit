@@ -85,6 +85,19 @@ $animtaor-text-align:right !default;
                 background: $animator-container-selected-background-color;
             }
         }
+
+        .k-list
+        .k-list-item{
+                   &.k-selected{
+                       background-color: unset;
+                       &.k-hover{
+                           background-color: unset;
+                       }
+                   }
+                   &.k-focus{
+                       box-shadow: unset;
+                   }
+               }       
     }
 
     .k-nodata {
