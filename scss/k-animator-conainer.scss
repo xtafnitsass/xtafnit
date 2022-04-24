@@ -81,6 +81,19 @@ $animtaor-text-align:right !default;
                 background: darken($color: $animator-container-selected-background-color, $amount: $animator-container-focused-amount);
                 color: $animator-container-selected-color;
             }
+
+            .k-list-item{
+                &.k-selected{
+                    background-color: unset;
+                    &.k-hover{
+                        background-color: unset;
+                    }
+                }
+                &.k-focus{
+                    box-shadow: unset;
+                }
+            }
+    
         }
 
         .k-state-selected {
