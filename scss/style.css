@@ -56,6 +56,10 @@
   color: #F0F0F0 !important;
 }
 
+.k-button.k-input-button {
+  background: #d1062e !important;
+}
+
 @forward 'button';
 .k-autocomplete {
   border-radius: 0px;
@@ -155,6 +159,9 @@ header .popUpWindowCls {
 @forward 'calendar';
 .k-datepicker {
   background: #fafafa;
+  border: 0px;
+  border-bottom: 1px solid #464247;
+  border-radius: 0;
 }
 
 .k-datepicker .k-picker-wrap {
@@ -408,6 +415,19 @@ mainbody .x-section-header-wrraper {
   background: #f2f7fc;
 }
 
+.k-animation-container .k-list .k-list-item.k-selected {
+  background-color: unset;
+}
+
+.k-animation-container .k-list .k-list-item.k-selected.k-hover {
+  background-color: unset;
+}
+
+.k-animation-container .k-list .k-list-item.k-focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
 .k-animation-container .k-nodata {
   background: #fff;
   color: #282830;
@@ -434,9 +454,10 @@ mainbody .x-section-header-wrraper {
 
 @forward 'k-animator-container';
 .k-dropdown {
-  background: #fafafa;
-  border-bottom: 1px solid #464247;
-  border-radius: 0;
+  background: #fafafa !important;
+  border: 0px;
+  border-bottom: 1px solid #464247 !important;
+  border-radius: 0 !important;
 }
 
 .k-dropdown.k-filter-and {
@@ -444,12 +465,12 @@ mainbody .x-section-header-wrraper {
 }
 
 .k-dropdown .k-dropdown-wrap {
-  background: #fafafa;
+  background: #fafafa !important;
   border: 0;
 }
 
 .k-dropdown .k-dropdown-wrap .k-input {
-  color: #000;
+  color: #000 !important;
 }
 
 .k-dropdown:focus {
@@ -466,7 +487,7 @@ mainbody .x-section-header-wrraper {
           align-items: center;
   height: 100%;
   float: left;
-  color: #464247;
+  color: #464247 !important;
 }
 
 @forward 'drop-down';
