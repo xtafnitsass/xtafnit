@@ -1,5 +1,6 @@
 $date-picker-background:#4a60c4 !default;
 $date-picker-border:1px solid #000000 !default;
+$date-picker-border-radius: 0 !default;
 $date-picker-input-color:#ffffff !default;
 $date-picker-icon-background:#ffffff !default;
 $date-picker-icon-color:#fbff00 !default;
@@ -10,6 +11,10 @@ $date-mobile-border-radius:0 !default;
 
 .k-datepicker {
     background: $date-picker-background;
+    border: 0px;
+    border-bottom: $date-picker-border;
+    border-radius: $date-picker-border-radius;
+
 
     .k-picker-wrap {
         background: $date-picker-background;
