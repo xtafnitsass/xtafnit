@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAIA,AAAA,eAAe,CAAC;EACZ,UAAU,EALU,OAAO;CAc9B;;AAVD,AAGI,eAHW,AAGV,QAAQ,CAAC;EACN,gBAAgB,EAPA,OAAO;CAQ1B;;AALL,AAOI,eAPW,AAOV,OAAO,CAAC;EACL,gBAAgB,EAVA,OAAO;CAW1B",
-    "sources": [
-        "spinner.scss"
-    ],
-    "names": [],
-    "file": "spinner.css"
-}
+{"version":3,"sources":["spinner.scss","spinner.css"],"names":[],"mappings":"AAIA;EACI,mBALoB;ACExB;ADKI;EACI,yBAPgB;ACIxB;ADMI;EACI,yBAVgB;ACMxB","file":"spinner.css"}

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,SADK,CACL,SAAS,CAAC;EACN,UAAU,EAAE,sBAAsB;EAClC,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,gBAAgB;CAa1B;;AAjBL,AAMQ,SANC,CACL,SAAS,CAKL,OAAO,CAAC;EACJ,SAAS,EAAE,eAAe;CAC7B;;AART,AAUQ,SAVC,CACL,SAAS,AASJ,MAAM,CAAC;EACJ,UAAU,EAAE,eAAe;CAC9B;;AAZT,AAcQ,SAdC,CACL,SAAS,AAaJ,OAAO,CAAC;EACL,UAAU,EAAE,eAAe;CAC9B;;AAIT,AAAA,SAAS,CAAA;EACL,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,MAAM;CACtB",
-    "sources": [
-        "paymentsGateway.scss"
-    ],
-    "names": [],
-    "file": "paymentsGateway.css"
-}
+{"version":3,"sources":["paymentsGateway.scss","paymentsGateway.css"],"names":[],"mappings":"AACI;EACI,kCAAA;EACA,uBAAA;EACA,uBAAA;ACAR;ADEQ;EACI,0BAAA;ACAZ;ADGQ;EACI,2BAAA;ACDZ;ADIQ;EACI,2BAAA;ACFZ;;ADOA;EACI,YAAA;EACA,mBAAA;ACJJ","file":"paymentsGateway.css"}
