@@ -53,10 +53,6 @@
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-weight: bold;
-
-
-
-  
 }
 
 .roundedAvatar  {
@@ -470,6 +466,10 @@ mainbody .x-section-header-wrraper {
   background: #fafafa !important;
   color: #464247 !important;
 }
+
+
+
+
 
 .k-animation-container .k-list .k-item.k-state-focused {
   -webkit-box-shadow: none !important;
@@ -973,13 +973,13 @@ input[type="time"] {
   color: #0167b1 !important;
 }
 
-@forward 'rating';
+/* @forward 'rating';
 .xstyle-radio-wrapper .k-radio,
 .x-damageTypeAndCamera .k-radio {
   color: #02b5fd;
   background-color: #fff;
   border-color: #02b5fd;
-}
+} */
 
 .xstyle-radio-wrapper .k-radio:focus,
 .x-damageTypeAndCamera .k-radio:focus {
@@ -987,10 +987,10 @@ input[type="time"] {
           box-shadow: 0 0 3px 0 #02b5fd;
 }
 
-.xstyle-radio-wrapper .k-radio:checked,
+/* .xstyle-radio-wrapper .k-radio:checked,
 .x-damageTypeAndCamera .k-radio:checked {
   border-color: #02b5fd !important;
-}
+} */
 
 .xstyle-radio-wrapper .k-radio-label,
 .x-damageTypeAndCamera .k-radio-label {
@@ -1938,7 +1938,7 @@ mainbody .gridHeaderButton .kIconPaint {
 }
 
 .k-rtl .details .right {
-  border-left: 1px solid #dee2e6;
+  
   margin: auto;
   height: 73px;
   max-width: 26%;
@@ -1952,6 +1952,7 @@ mainbody .gridHeaderButton .kIconPaint {
   margin: auto;
   padding: 0;
   height: 73px;
+  border: none !important;
 }
 
 .k-ltr .details .right {
@@ -2063,11 +2064,11 @@ line-height: 30px;
 
 .textCard{
   padding: 0 !important;
-  /* margin-right: 13px !important; */
-  /* margin-left: 181px !important; */
   flex: 0 0 42.2%;
   max-width: 43%;
-  /* top: 17px; */
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-right: 10px !important;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .details .left .xstyle-dynamiclabelcontrol-wrapper .col-4,
@@ -4135,9 +4136,7 @@ ul.fieldlist {
   padding: 0 !important;
 }
 
-#TafnitCore_System_UI_App_WebSDK_Login input.k-textbox {
-  padding-right: 10px !important;
-}
+
 
 #TafnitCore_System_UI_App_WebSDK_Login ::-webkit-input-placeholder {
   font-weight: normal !important;
@@ -4635,9 +4634,8 @@ ul.fieldlist {
 
 @media screen and (max-width: 1680px) and (min-width: 1440px){
 .logoImg div:first-child div:last-child div:first-child img {
-  width: 201% !important;
-  max-width: 132% !important;
-  margin-right: -14%;
+ 
+  margin-right: -33%;
 
   
 }
@@ -4645,9 +4643,9 @@ ul.fieldlist {
 
 
 .logoImg {
-  margin-right: -14px;
-  width: 100%;
-  height: 102px;
+
+  width: 127%;
+  
 }
 }
 
@@ -4685,15 +4683,27 @@ ul.fieldlist {
   width: 201% !important;
   max-width: 202% !important;
   margin-right: -24%;
-  margin-top: -10%;
+  margin-top: 2%;
   vertical-align: middle !important;
 
 }
 
-  .searchDesign input.k-textbox {
+.doBorder div:first-child {
+  justify-content: space-between !important;
+  margin: 0 !important;
+  margin-right: 2% !important;
+  top: 4px;
+}
 
-      width: 124%;
-  }
+.k-button.k-button-icon .k-icon:before, .k-grid-filter .k-icon:before, .k-header .k-icon:before {
+  text-indent: 70% !important;
+  top: 19%;
+}
+
+.searchDesign input.k-textbox {
+  text-indent: 18% !important;
+}
+
 
   .xicons {
     margin-top: 11px;
@@ -4733,13 +4743,130 @@ display: block;
 
 }
 
+@media screen and (max-width: 1440px) and (min-width: 990px) {
+
+  .DashboardPage .dashDiary {
+    margin-top: 10px !important;
+    height: 350px;
+    margin: auto;
+    border: none !important;
+    background-color: white;
+}
+
+.DashboardPage .dashLeftCol {
+  -webkit-box-shadow: 0 0px 9px 0;
+  box-shadow: 0 0px 0px 0 ;
+  border-radius: 20px;
+  padding-top: 20px;
+  background:none !important;
+}
+    
+.dashRightCol{
+
+  flex: 0 0 100% !important;
+  max-width: 100%;
+}
+
+
+.DashboardPage .dashMission1, .DashboardPage .dashMission2, .DashboardPage .dashMission3, .DashboardPage .dashMission4, .DashboardPage .dashMission5 {
+  margin: auto;
+  flex: 0 0 17% !important;
+}
+
+
+.DashboardPage .dashLeftCol{
+
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 0 !important;
+
+}
+
+.dashContact {
+
+  flex-basis: 0 !important;
+    flex-grow: 1 !important;
+    max-width: 583px !important;
+  height: 350px;
+  border-radius: 20px !important;
+  background-color: white !important;
+  margin-top: 10px !important;
+  margin: auto 0.6vw !important;
+
+}
+
+.dashDiary {
+
+  flex-basis: 0 !important;
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+  margin: auto 0.6vw !important;
+
+}
+
+.DashboardPage .dashContact, .DashboardPage .dashDiary {
+
+  box-shadow: 0 2px 9px 0 rgb(0 45 65 / 8%) !important;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 2px 9px 0 rgb(0 45 65 / 8%) !important;
+
+}
+
+}
+
+
+
 @media screen and (max-width: 1280px) and (min-width: 810px) {
 
+
+  .k-rtl .details .right {
+
+    flex: 0 0 34% !important;
+    margin-right: 0 !important;
+   margin-left: 0 !important;
+  }
+
+
+
+
+  .roundedAvatar {
+
+    flex: 0 0 3% !important;
+    padding-left: 0 !important;
+  }
+
+
+.logo {
+
+  flex: 0 0 30%;
+    max-width: 27%;
+}
+
+
+
+
+
+
+ 
+
+  .minScreen {
+     border-right: 1px solid !important;
+   border-left: 1px solid !important;
+   flex: 0 0 34%;
+   height: 91px;
+   margin: auto;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  }
 
   .minScreen > :first-child{
 
    display: block !important;
-   width: 83%!important;
+   width: 100%!important;
+  
+   border-radius: 0;
+   height: 91px;
+
   }
 
   .searchDesign  {
@@ -4755,8 +4882,8 @@ display: block;
 
   .textCard {
    
-    top: 16px;
-
+   
+     border: none !important;
   }
 
   .doBorder {
@@ -4777,6 +4904,10 @@ display: block;
 
     display: flex !important;
     width: 98% !important;
+    top: -3px;
+    margin: 0 !important;
+  
+    padding-right: 2px;
     
   }
 
@@ -4792,16 +4923,23 @@ display: block;
   
 
   .k-rtl .details .right {
-    border-left: 1px solid #dee2e6;
+    
     margin: auto;
     height: 91px;
     flex: 0 0 29% !important;
     max-width: 49% !important;
+    padding-right: 2%;
+
+}
+.d-lg-flex {
+
+  display: flex !important;
+
+
 }
 
-
 .nameComp div:nth-child(1){
-  flex: 0 0 23%;
+  flex: 0 0 0%;
   top: 2px;
   margin-left: 4px;
 }
@@ -4819,7 +4957,7 @@ display: block;
 .searchDesign  div:last-child input{
 
 
-  width: 100%!important;
+  width: 85%!important;
 }
 
 
@@ -4843,21 +4981,30 @@ display: block;
 
 
 
+@media screen and (max-width: 991px) and (min-width: 810px) {
+
+  .textCard div:nth-child(2) {
+    height: 28px !important;
+}
+
+}
+
 
 
   @media screen and (max-width: 1630px) {
 
   .k-rtl .details .right {
-    border-left: 1px solid #dee2e6;
+
     margin: auto;
     height: 91px;
     flex: 0 0 22%;
+    margin-top: 23px;
 }
 
 .doBorder {
   margin: auto;
   height: 91px;
-
+   
 
 
 
@@ -4874,11 +5021,7 @@ display: block;
   }
 
 
-  .k-button.k-button-icon .k-icon:before, .k-grid-filter .k-icon:before, .k-header .k-icon:before {
-    text-indent: 0 !important;
-    margin-left: 15px !important;
-    margin-right: 5px !important;
-}
+
 
 .searchDesign .k-icon-wrapper .k-icon {
   width: 20px !important;
@@ -5031,44 +5174,69 @@ margin-left: 9px;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
   text-indent: 11px;
-}
+}*/
 
-
-
-*/
 span.k-datepicker.k-input.x-datePickerResponsive.s-datePickerResponsive.x-datePicker-pc.s-datePicker-pc.k-input-solid.k-input-md.k-rounded-md {
   border: none !important;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom: 1px solid black !important;
-  border-right: 5px solid  #FF7A00 !important;
+  border-right: 5px solid #FF7A00 !important;
   text-indent: 11px;
   background-color: white !important;
-  border-bottom-left-radius:0 !important ;
+  border-bottom-left-radius: 0 !important;
 }
 
 
+/*  */
 .requireDesign div:nth-child(1) > .x-text-control-container.s-text-control-container{
-
-  border: none !important;
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-  border-right: 5px solid  #FF7A00 !important;
-  border-bottom: 1px solid black !important;
-  text-indent: 7px !important;
-  background-color: white !important;
+  width: 99%;
+    border: none !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 5px solid #FF7A00 !important;
+    border-bottom: 1px solid black !important;
+    text-indent: 7px !important;
+    background-color: white !important;
+    
 }
+
 
 
 
 .requireDesign div:nth-child(1) > .x-text-control-container.s-text-control-container > input{
   border: none !important;
  text-indent: 15px;
+ 
+}
+
+.requireDesign div:nth-child(1) > span > div.x-text-control-container.s-text-control-container{
+  width: 99%;
+    border: none !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 5px solid #FF7A00 !important;
+    border-bottom: 1px solid black !important;
+    text-indent: 7px !important;
+    background-color: white !important;
+
+
+
+  }
+
+  .requireDesign div:nth-child(1) > span > div.x-text-control-container.s-text-control-container > input {
+    border: none !important; 
+    text-indent: 15px;
+
+    
 }
 
 
+
+ 
 
 .requireDesign div:nth-child(1) >.x-lookup.s-lookup{
   border-right: 5px solid  #FF7A00 !important;
@@ -5122,7 +5290,7 @@ span.k-header.cs-btn.x-input-group-text.s-input-group-text.x-cs-btn.s-x-cs-btn{
 }
 .k-ltr.x-date-wrapper.s-date-wrapper {
   width: 100%;
-  margin-left: 12px;
+ 
 }
 
 .x-lookup.s-lookup {
@@ -5135,8 +5303,9 @@ span.k-header.cs-btn.x-input-group-text.s-input-group-text.x-cs-btn.s-x-cs-btn{
   margin-bottom: 6px;
 }
 
-.x-self-container.s-self-container {
+#TafnitCore_System_UI_App_WebSDK_Login .x-self-container.s-self-container {
   margin-bottom: 7px;
+  overflow: hidden;
 }
 .x-datePickerResponsive {
   width: 100%;
@@ -5152,3 +5321,205 @@ span.k-header.cs-btn.x-input-group-text.s-input-group-text.x-cs-btn.s-x-cs-btn{
   text-indent: 27px;
 }
 
+.k-checkbox::before {
+  font-family: "Font Awesome 5 pro" !important; 
+  content: "\f00c" !important;
+  color:#7B098D !important;
+  top: 60% !important;
+  left: 86% !important;
+  font-weight: 900 !important;
+  font-size: 19px !important;
+  width: 22px !important;
+  height: 22px !important;
+
+}
+
+.k-checkbox:hover,.k-checkbox:checked, .k-checkbox:focus {
+  border-color: #7B098D !important;
+  color: #7B098D !important;
+}
+
+.k-checkbox:hover,.k-checkbox {
+  border-color: #7B098D !important;
+  color: #7B098D !important;
+}
+
+.k-checkbox:focus{
+
+  box-shadow: 0px 0px 0px 0px !important;
+}
+
+tr.k-master-row > td > input.k-checkbox{
+  border: none;
+  background-color: white !important;
+}
+
+tr.k-master-row > td > input.k-checkbox:before{
+ 
+  font-family: "Font Awesome 5 pro" !important;
+    content: "\f00c" !important;
+    color: #7B098D !important;
+    top: 56% !important;
+    left: 50% !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    width: 22px !important;
+    height: 22px !important;
+    
+}
+
+div.x-control-content-wrapper.s-control-content-wrapper > ul.fieldlist > li >input:before{
+
+
+  left: 49% !important;
+  top: 7px !important;
+
+
+}
+
+div.x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-checkbox-wrapper.dir-ltr
+ >  div.col-67.x-cell.s-cell > div.x-control-content-wrapper.s-control-content-wrapper
+  > ul.fieldlist > li >input:before{ 
+
+  left: 84% !important;left: 87% !important;
+  top: 7px !important;
+
+
+}
+
+.minScreen {
+  padding: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* eran
+@forward 'rating';
+.xstyle-radio-wrapper .k-radio,
+.x-damageTypeAndCamera .k-radio {
+  color: #7B098D;
+  background-color: #fff;
+}
+
+/* eran */
+.xstyle-radio-wrapper .k-radio:checked,
+.x-damageTypeAndCamera .k-radio:checked {
+  border-color: #7B098D!important;
+}
+
+.k-radio:checked{
+  border-color: #7B098D!important;
+  color: #7B098D;
+
+}
+
+/* .k-radio:{
+  border-color: #7B098D!important;
+
+} */
+
+/* eran */
+.k-radio {
+  border-color: black;
+  color: #7bd2f6;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* eran */
+.k-radio:hover {
+  border-color: black;
+  color: #7B098D;
+  background-color: #fff;
+}
+
+/* eran */
+.xstyle-radio-wrapper .k-radio:focus,
+.x-damageTypeAndCamera .k-radio:focus {
+  -webkit-box-shadow: 0 0 3px 0 #7B098D;
+          box-shadow: 0 0 3px 0 #7B098D;
+}
+
+/* eran */
+#TafnitCore_System_UI_App_WebSDK .justify-content-end {
+  justify-content: space-between !important;
+}
+
+/* eran */
+#TafnitCore_System_UI_App_WebSDK .xstyle-iframe-wrapper.contextmenu iframe {
+  border: none !important;
+}
+
+/* eran */
+#TafnitCore_System_UI_App_WebSDK .x-lookup.s-lookup input:focus-visible {
+  outline: none !important;
+}
+
+/* eran */
+#TafnitCore_System_UI_App_WebSDK input[type = "text"]{
+height: 37px !important;
+}
+
+
+/* eran */
+/* #TafnitCore_System_UI_App_WebSDK .col.x-col.s-col.col-100.col-lg-100 span{
+  height: 37px !important;
+}  */
+
+
+/* eran */
+/* FIELDS 2*/
+/* #TafnitCore_System_UI_App_WebSDK .x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-textcontrol-wrapper.p-floating-container{
+height: 37px;
+padding: 0;
+} */
+
+
+/* eran */
+#TafnitCore_System_UI_App_WebSDK .x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-daterangev2-wrapper input,
+#TafnitCore_System_UI_App_WebSDK .xstyle-timepicker-wrapper input,
+#TafnitCore_System_UI_App_WebSDK .xstyle-lookuptafnit-wrapper input,
+#TafnitCore_System_UI_App_WebSDK .x-date-wrapper input,
+#TafnitCore_System_UI_App_WebSDK .s-date-wrapper input{
+padding: 0;
+}   
+
+#TafnitCore_System_UI_App_WebSDK .x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-numberrange-wrapper input
+{
+  height: 37px;
+padding: 0;
+}
+
+/* eran */
+/* month /num / numd */
+#TafnitCore_System_UI_App_WebSDK .x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-date-wrapper.p-floating-container.requireDesign
+{
+  height: 37px;
+padding: 0;
+}
+
+
+
+#TafnitCore_System_UI_App_WebSDK .k-button.k-button-md.k-rounded-md.k-button-solid.k-button-solid-base.k-upload-button{
+    padding-top: 20px;
+}
+
+.x-control-wrapper.s-control-wrapper.row.x-row.s-row.xstyle-idropdownlist-wrapper.p-floating-container.requireDesign
+{
+height: 37px;
+}
+.k-upload .k-dropzone .k-upload-button span{
+  padding-bottom: 14px;
+}  
